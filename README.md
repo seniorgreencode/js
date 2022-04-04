@@ -621,6 +621,9 @@ export default App;
 npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 ```
 
+## `.eslintrc`
+Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
+
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div>
 
 ---
