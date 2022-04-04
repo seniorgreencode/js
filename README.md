@@ -615,7 +615,11 @@ export default App;
 ```
 
 # ESLint
-<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div>
+<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
+
+```
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+```
 
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div>
 
