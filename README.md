@@ -502,7 +502,7 @@ node dist/bundler.js
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/161461421-2ae48a60-8925-4b48-94da-65cb3192a446.png" height="177"></div>
 
 ```
-npm i @babel/core babel-loader @babel/present-env @babel/preset-react --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
 
 > Caso dê erro pela sintaxe da instalação, instale elas individualmente, exemplo: 
@@ -565,7 +565,7 @@ Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser 
 #### `.babelrc`
 ```json
 {
-"present": [
+"preset": [
    "@babel/preset-env",
    "@babel/preset-react"
   ]
@@ -574,7 +574,7 @@ Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser 
 
 ```
 npm i react react-dom
-npm i -D babel-present-react
+npm i -D babel-preset-react
 ```
 
 - `src/index.js`
