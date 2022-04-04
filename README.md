@@ -626,7 +626,8 @@ Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. 
 Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
 
 - Criar uma regra para que o Token JWT seja colocado no código;
--  
+- Definir que todas as variáveis privadas sejam prefixadas com underline;
+- Definir que toda função use o padrão camelCase.
 
 
 ## `.eslintrc`
