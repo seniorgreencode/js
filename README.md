@@ -628,7 +628,12 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 - Criar uma regra para que o Token JWT seja colocado no código;
 - Definir que todas as variáveis privadas sejam prefixadas com underline;
 - Definir que toda função use o padrão camelCase.
+- pre-loader com ESLint para não precisar rodando ele o tempo todo no código
 
+## Rodando o ESLint como pre-loader
+```
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+```
 
 ## `.eslintrc`
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div><br \>
