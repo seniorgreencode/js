@@ -576,7 +576,16 @@ npm i react react-dom
 npm i -D babel-present-react
 ```
 
+- `src/index.js`
+- `src/App.jsx`
 
+#### `App.jsx`
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+ReactDOM.render(<App />, document.getElementById("app"));
+```
 
 # ESLint
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div>
