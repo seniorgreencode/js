@@ -630,11 +630,6 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 - Definir que toda função use o padrão camelCase.
 - pre-loader com ESLint para não precisar rodando ele o tempo todo no código
 
-## Rodando o ESLint como pre-loader
-```
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
-```
-
 ## `.eslintrc`
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div><br \>
 
@@ -645,6 +640,18 @@ npm run eslint
 ```
 
 Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
+
+---
+
+## Renderização Condicional
+
+---
+
+## Listas e Chaves
+
+---
+
+## Manipulando eventos
 
 ---
 
