@@ -621,6 +621,8 @@ export default App;
 npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 ```
 
+Com ele você pode definir regras e garantir que todo código seja uniforme.
+
 ## `.eslintrc`
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div><br \>
 
