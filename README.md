@@ -589,6 +589,12 @@ npm i -D html-webpack-plugin html-loader
 npm i -D webpack-dev-server
 ```
 
+```json
+"scripts": {
+   "start:dev": "webpack-dev-server"
+}
+```
+
 #### `App.js`
 ```jsx
 import React from "react";
