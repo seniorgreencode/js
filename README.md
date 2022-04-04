@@ -209,6 +209,10 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 # 📜 ESLint 🟪
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
 
+Antes de entender o que é o **ESLint**, você precisa aprender o conceito de **Lint**. O **Lint** ou **Linter** é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. 
+
+Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX.
+
 # 📜 Ember 🐹
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="277"></a></div><br \>
 
