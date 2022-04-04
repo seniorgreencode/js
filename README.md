@@ -516,6 +516,7 @@ npm i @babel/core babel-loader @babel/present-env @babel/preset-react --save-dev
 const path = require('path');
 
 module.exports = {
+    mode: 'production',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -591,6 +592,11 @@ const App = () => {
   );
 };
 export default App;
+```
+
+#### `package.json`
+```json
+"dev": "webpack --mode development"
 ```
 
 # ESLint
