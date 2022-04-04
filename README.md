@@ -40,7 +40,7 @@
 ## 🔗 Links de Apoio 📚:
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
-## 🧩 Para simulações de programação recomendo esses jogos educacionais ⚔️:
+## 🧩 JavaScript training ⚔️:
 <ul>
   <li>https://www.code.org</li>
   <li>https://developers.google.com/blockly</li>
