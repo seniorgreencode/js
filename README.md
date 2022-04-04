@@ -514,6 +514,7 @@ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 #### `webpack.config.js`
 ```javascript
 const path = require('path');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     mode: 'production',
@@ -579,6 +580,10 @@ npm i -D babel-preset-react
 
 - `src/index.js`
 - `src/App.jsx`
+
+```
+npm i -D html-webpack-plugin html-loader
+```
 
 #### `App.js`
 ```jsx
