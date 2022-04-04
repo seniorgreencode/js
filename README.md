@@ -579,12 +579,18 @@ npm i -D babel-present-react
 - `src/index.js`
 - `src/App.jsx`
 
-#### `App.jsx`
+#### `App.js`
 ```jsx
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-ReactDOM.render(<App />, document.getElementById("app"));
+const App = () => {
+  return (
+    <div>
+       <p>IsaacAlves7</p>
+       <p>Isaac Alves Pinheiro</p>
+    </div>
+  );
+};
+export default App;
 ```
 
 # ESLint
