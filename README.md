@@ -41,7 +41,7 @@ Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulare
 - Task Runners e Bundler Sizers
 
 # Aprendendo a configurar a primeira aplicação
-[![NPM](https://img.shields.io/badge/-bootstrapping_the_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
+[![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```
 mkdir react-app
@@ -813,6 +813,11 @@ export default App;
 ---
 
 ## Listas e Chaves
+- Renderizando múltiplos componentes;
+- Componente de lista básico;
+- Chaves;
+- Extraindo componentes com chaves;
+- Chaves devem ser únicas apenas entre elementos irmãos.
 
 ---
 
