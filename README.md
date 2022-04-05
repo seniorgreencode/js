@@ -1,7 +1,7 @@
+<img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif" width="100%">
+
 # <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" height="27"> It's a repository of React Native Development ⚛️📲
 <blockquote>It's a repository of React Native programming using Expo and React Native CLI.</blockquote>
-
-![pasted image 0](https://user-images.githubusercontent.com/61624336/114338867-53b16b00-9b2a-11eb-8303-c2ef83d2eaf9.png)
 
 <blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in React.js Framework development, if you want to learn about HTML5, CSS3 or other JS Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
@@ -20,8 +20,7 @@
 <hr>
 
 # ⚛️ React Native 📲
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif"></div><br \>
+![pasted image 0](https://user-images.githubusercontent.com/61624336/114338867-53b16b00-9b2a-11eb-8303-c2ef83d2eaf9.png)
 
 <p>É uma biblioteca (framework) front-end do <b>JavaScript</b>, desenvolvido pelo <b>Facebook</b>, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e IOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Sendo assim, é bem diferente do outro framework JavaScript bem conhecido, o <b>React.js</b>.</p>
 
