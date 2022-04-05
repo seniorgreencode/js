@@ -684,7 +684,7 @@ const App = () => {
 export default App;
 ```
 
-Mostrar o botão enquanto a condição `hasCustomer` for verdadeira, caso seja falso, o botão não irá aparecer!
+O trecho de código acima mostrará o botão enquanto a condição `hasCustomer` for verdadeira, caso seja falso (`false`), o botão não irá aparecer!
 
 ---
 
