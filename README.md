@@ -673,6 +673,7 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 - If-Else inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
+### Operador ternário
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 
 ```jsx
@@ -686,7 +687,7 @@ const App = () => {
      <div>
        <p>IsaacAlves7</p>
        <p>Isaac Alves Pinheiro</p>
-       {hasCustomer ? (
+       {hasCustomer ? ( {/* && */}
         <div>
           Clique no botão abaixo para visualizar o histórico dos clientes
           <br \>
@@ -702,10 +703,49 @@ const App = () => {
      </div>
    );
 };
+
 export default App;
 ```
 
 O trecho de código acima mostrará o botão enquanto a condição `hasCustomer` for verdadeira, caso seja falso (`false`), o botão não irá aparecer, num cenário se existe cliente.
+
+### Outra forma de fazer isso com funções e operador ternário
+[![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
+```jsx
+import React from "react";
+const buttonA = <button>Histórico dos clientes</button>
+const buttonB = <button>Segundo botão</button>
+const hasCustomer = true // false
+
+const App = () => {
+   const renderShowHistory = () => (
+     <div>
+       Clique no botão abaixo para visualizar o histórico dos clientes
+       <br />
+       {buttonA}
+     </div>
+   )
+   
+   const renderAddCustomer = () => (
+     <div>
+        Clique abaixo para cadastro o cliente
+        <br />
+        {buttonB}
+     </div>
+   )
+   
+   return (
+     <div>
+       <p>IsaacAlves7</p>
+       <p>Isaac Alves Pinheiro</p>
+       {hasCustomer ? renderShowHistory : renderAddCustomer}
+     </div> 
+   );
+};
+
+export default App;
+```
 
 ---
 
