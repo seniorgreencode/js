@@ -801,6 +801,9 @@ Veja mais como criar uma aplicação em **React.js**: [Criar um Web App com Reac
 # Gatsby.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="277"></div>
 
+# Preact 
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="277"></div>
+
 # Next.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="277"></div>
 
