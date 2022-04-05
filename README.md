@@ -477,17 +477,17 @@ Nós temos uma variável const `path` que é referente ao caminho do Webpack e u
 
 Além disso, também tem o `filename` que é o nome do bundle para que quando chegar ao resultado final da aplicação ele seja nomeado com esse nome de arquivo, o nome dele também fica a critério.
 
-[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 console.log('Hello, world!');
 ```
 
-#### `package.json`
-```
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+```json
 "build": "webpack --mode production"
 ```
 
-#### Terminal
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm run build
 ```
