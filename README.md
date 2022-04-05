@@ -779,11 +779,17 @@ const App = () => {
         {buttonB}
      </div>
    )
-   
-   const customer = 'Isaac Alves Pinheiro'
-   
-   const showCustomer = () => { 
       
+   const showCustomer = () => { 
+     
+   }
+   if (!hasCustomer) return null 
+     
+   return (
+     <div>
+       <h1>Nome do cliente: Isaac Alves Pinheiro</h1>
+     </div>
+   )
    }
    
    return (
@@ -791,6 +797,9 @@ const App = () => {
        <p>IsaacAlves7</p>
        <p>Isaac Alves Pinheiro</p>
        {hasCustomer ? renderShowHistory() : renderAddCustomer()}
+       <div>
+         {showCustomer}
+       </div>
      </div> 
    );
 };
