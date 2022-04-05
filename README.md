@@ -658,7 +658,8 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 - If-Else inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
-```
+#### App.jsx
+```jsx
 import React from "react";
 const buttonA = <button>Histórico dos clientes</button>
 const buttonB = <button>Segundo botão</button>
@@ -668,10 +669,18 @@ const App = () => {
    return (
      <div>
        <p>IsaacAlves7</p>
-       <p></p>
+       <p>Isaac Alves Pinheiro</p>
+       {hasCustomer && {
+        <div>
+          Clique no botão abaixo para visualizar o histórico dos clientes
+          {buttonA}
+        </div>
+       }}
      </div>
-   )
-}
+    </div>
+   );
+};
+export default App;
 ```
 
 ---
