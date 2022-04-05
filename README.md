@@ -646,6 +646,13 @@ Dessa forma, o linting do ESLint vai informar todos os erros do código e você 
 ## Renderização Condicional
 Em ReactJS, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
 
+É baseado em 4 tópicos:
+
+- Variáveis de elementos;
+- If inline com o Operador Lógico &&
+- If-Else inline com Operador Condicional
+- Evitando que um Componente seja Renderizado
+
 ---
 
 ## Listas e Chaves
