@@ -562,7 +562,8 @@ ReactDOM.render(<App />, document.getElementById("app"));
 
 Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser preciso criar um arquivo chamado `.babelrc` e definir as configurações.
 
-#### `.babelrc`
+[![.babelrc](https://img.shields.io/badge/-.babelrc-fff?style=social&logo=Babel&logoColor=yellow)](#)
+
 ```json
 {
 "preset": [
