@@ -798,7 +798,7 @@ const App = () => {
        <p>Isaac Alves Pinheiro</p>
        {hasCustomer ? renderShowHistory() : renderAddCustomer()}
        <div>
-         {showCustomer}
+         {showCustomer()}
        </div>
      </div> 
    );
