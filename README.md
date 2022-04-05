@@ -84,6 +84,8 @@ A porta padrão para acessar a aplicação é a `3000`, caso tenha outro tipo de
 O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcação criada para poder utilizar a linguagem de marcação **XML** e a linguagem de programação **JavaScript** no seu código-fonte. Não necessariamente ele precisa estar em um arquivo com extensão `.jsx`, mas pode sim estar em um arquivo `.html`, `.js` e etc, porém ele possui um volume menor em arquivos `.jsx` comparado com o demais.
 
 ### Sintaxe do JSX
+[![JSX](https://img.shields.io/badge/-jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```javascript
 const element = <h1>Hello, world!</h1>
 ```
