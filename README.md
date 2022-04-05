@@ -648,6 +648,7 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 
 Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
 
+[![NPM](https://img.shields.io/badge/-npm_running_the_eslint-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm run eslint
 ```
