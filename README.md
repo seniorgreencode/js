@@ -689,6 +689,7 @@ const App = () => {
        {hasCustomer && {
         <div>
           Clique no botão abaixo para visualizar o histórico dos clientes
+          <br \>
           {buttonA}
         </div>
        }}
