@@ -641,6 +641,11 @@ npm run eslint
 
 Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
 
+#### `package.json`
+```
+"eslint": "eslint ./src/*.js"
+```
+
 ---
 
 ## Renderização Condicional
@@ -649,9 +654,11 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 É baseado em 4 tópicos:
 
 - Variáveis de elementos;
-- If inline com o Operador Lógico &&
-- If-Else inline com Operador Condicional
-- Evitando que um Componente seja Renderizado
+- If inline com o Operador Lógico &&;
+- If-Else inline com Operador Condicional;
+- Evitando que um Componente seja Renderizado.
+
+
 
 ---
 
