@@ -487,7 +487,7 @@ console.log('Hello, world!');
 "build": "webpack --mode production"
 ```
 
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+[![NPM](https://img.shields.io/badge/-npm_running_to_production-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm run build
 ```
