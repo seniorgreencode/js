@@ -6,7 +6,6 @@
 
 <!--
 [![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=Atom&logoColor=blue)](#)
-[![React.js](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
 ## Leia mais sobre o React.js:
@@ -658,7 +657,8 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 - If-Else inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
-#### App.jsx
+[![JSX](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```jsx
 import React from "react";
 const buttonA = <button>Histórico dos clientes</button>
@@ -682,6 +682,8 @@ const App = () => {
 };
 export default App;
 ```
+
+Mostrar o botão enquanto a condição `hasCustomer` for verdadeira, caso seja falso, o botão não irá aparecer!
 
 ---
 
