@@ -739,7 +739,7 @@ const App = () => {
      <div>
        <p>IsaacAlves7</p>
        <p>Isaac Alves Pinheiro</p>
-       {hasCustomer ? renderShowHistory : renderAddCustomer}
+       {hasCustomer ? renderShowHistory() : renderAddCustomer()}
      </div> 
    );
 };
