@@ -458,6 +458,9 @@ npm i -D webpack webpack-cli
 Depois de instalar, crie um arquivo na pasta do projeto chamado: `webpack.config.js`:
 
 #### `webpack.config.js`
+
+[![Webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
+
 ```javascript
 const path = require('path');
 
@@ -474,7 +477,7 @@ Nós temos uma variável const `path` que é referente ao caminho do Webpack e u
 
 Além disso, também tem o `filename` que é o nome do bundle para que quando chegar ao resultado final da aplicação ele seja nomeado com esse nome de arquivo, o nome dele também fica a critério.
 
-#### `index.js`
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 console.log('Hello, world!');
 ```
