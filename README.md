@@ -236,7 +236,8 @@ ReactDOM.render(<App />, rootElement)
 ```
 Vamos importar um componente de botão com o arquivo `Button.jsx` e esse irá fazer uma exportação padrão pra quem quiser acessá-lo através do `import`, no nosso caso será no `index.js`
 
-### `Button.jsx`
+[![button.jsx](https://img.shields.io/badge/-Button.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```jsx
 import React from "react";
 
@@ -288,7 +289,8 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 ```
 
-### `ComponenteA.jsx`
+[![ComponenteA.jsx](https://img.shields.io/badge/-ComponenteA.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```jsx
 import React from "react"
 
@@ -301,7 +303,8 @@ function ComponenteA() {
 export default ComponenteA
 ```
 
-### `ComponenteB.jsx`
+[![ComponenteB.jsx](https://img.shields.io/badge/-ComponenteB.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```jsx
 import React from "react"
 
