@@ -673,28 +673,33 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 - If-Else inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
-[![JSX](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+[![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 
 ```jsx
 import React from "react";
 const buttonA = <button>Histórico dos clientes</button>
 const buttonB = <button>Segundo botão</button>
-const hasCustomer = true
+const hasCustomer = true // false
 
 const App = () => {
    return (
      <div>
        <p>IsaacAlves7</p>
        <p>Isaac Alves Pinheiro</p>
-       {hasCustomer && {
+       {hasCustomer ? (
         <div>
           Clique no botão abaixo para visualizar o histórico dos clientes
           <br \>
           {buttonA}
         </div>
-       }}
+       ) : (
+         <div>
+           Clique abaixo para cadastrar
+           <br \>
+           {buttonB}
+         </div>
+       )}
      </div>
-    </div>
    );
 };
 export default App;
