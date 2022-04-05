@@ -640,8 +640,9 @@ npm run eslint
 
 Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
 
-#### `package.json`
-```
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+```json
 "eslint": "eslint ./src/*.js"
 ```
 
