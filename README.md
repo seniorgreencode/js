@@ -622,6 +622,8 @@ export default App;
 # ESLint
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```
 npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 ```
@@ -636,6 +638,8 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 - pre-loader com ESLint para não precisar rodando ele o tempo todo no código
 
 ## `.eslintrc`
+[![.eslintrc](https://img.shields.io/badge/-.eslintrc-fff?style=social&logo=ESLint&logoColor=4B32C3)](#)
+
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="277"></a></div><br \>
 
 Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
