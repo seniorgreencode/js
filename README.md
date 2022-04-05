@@ -41,6 +41,8 @@ Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulare
 - Task Runners e Bundler Sizers
 
 # Aprendendo a configurar a primeira aplicação
+[![NPM](https://img.shields.io/badge/-bootstrapping_the_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```
 mkdir react-app
 cd react-app/
