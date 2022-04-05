@@ -449,6 +449,8 @@ Os principais conceitos do Webpack:
 ### Criação do arquivo `webpack.config.js`
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://miro.medium.com/max/994/1*BxSBCuP7IRFz4pZCSVBxlQ.png" height="277"></a></div>
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```
 npm i -D webpack webpack-cli
 ```
