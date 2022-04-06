@@ -687,7 +687,7 @@ Dessa forma, o linting do ESLint vai informar todos os erros do código e você 
 
 ---
 
-## Renderização Condicional
+# Renderização Condicional
 Em ReactJS, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
 
 É baseado em 4 tópicos:
@@ -824,7 +824,7 @@ export default App;
 
 ---
 
-## Listas e Chaves
+# Listas e Chaves
 - Renderizando múltiplos componentes;
 - Componente de lista básico;
 - Chaves;
