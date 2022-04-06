@@ -64,6 +64,8 @@ Após criar o `package.json`, o segundo comando irá instalar o React.js juntame
 > Com isso, você ficará somente com o `package.json` que é responsável por administrar os pacotes e a inicialização da sua aplicação. Note que em `dependences` possui todas as dependências ainda lá, então, você só precisa rodar o comando `npm install` para que as dependências sejam instaladas novamente.
 
 ## Iniciando a aplicação
+[![NPM](https://img.shields.io/badge/-npm_run_start-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```
 cd react-app
 npm run start
@@ -580,7 +582,6 @@ ReactDOM.render(<App />, document.getElementById("app"));
 Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser preciso criar um arquivo chamado `.babelrc` e definir as configurações.
 
 [![.babelrc](https://img.shields.io/badge/-.babelrc-fff?style=social&logo=Babel&logoColor=yellow)](#)
-
 ```json
 {
 "preset": [
@@ -590,6 +591,7 @@ Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser 
 }
 ```
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm i react react-dom
 npm i -D babel-preset-react
@@ -598,13 +600,17 @@ npm i -D babel-preset-react
 - `src/index.js`
 - `src/App.jsx`
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm i -D html-webpack-plugin html-loader
 ```
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm i -D webpack-dev-server
 ```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 
 ```json
 "scripts": {
@@ -612,7 +618,7 @@ npm i -D webpack-dev-server
 }
 ```
 
-#### `App.js`
+[![JS](https://img.shields.io/badge/-App.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```jsx
 import React from "react";
 const App = () => {
@@ -626,7 +632,7 @@ const App = () => {
 export default App;
 ```
 
-#### `package.json`
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 ```json
 "dev": "webpack --mode development"
 ```
