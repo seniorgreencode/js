@@ -455,7 +455,7 @@ Os principais conceitos do Webpack:
   
   - **Development** é executado com três plugins: **UglifyJsPlugin**, **ModuleConcatenationPlugin** e **NoEmitOnErrorsPlugin**.
 
-### Criação do arquivo `webpack.config.js`
+### `webpack.config.js`
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://miro.medium.com/max/994/1*BxSBCuP7IRFz4pZCSVBxlQ.png" height="277"></a></div>
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
@@ -465,8 +465,6 @@ npm i -D webpack webpack-cli
 ```
 
 Depois de instalar, crie um arquivo na pasta do projeto chamado: `webpack.config.js`:
-
-#### `webpack.config.js`
 
 [![Webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
 
