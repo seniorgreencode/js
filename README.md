@@ -44,7 +44,7 @@ Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulare
 # Aprendendo a configurar a primeira aplicação
 [![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
 
-```
+```sh
 mkdir react-app
 cd react-app/
 npm init
@@ -67,12 +67,12 @@ Após criar o `package.json`, o segundo comando irá instalar o React.js juntame
 ## Iniciando a aplicação
 [![NPM](https://img.shields.io/badge/-npm_run_start-fff?style=social&logo=NPM&logoColor=red)](#)
 
-```
+```sh
 cd react-app
 npm run start
 ```
 ou
-```
+```sh
 cd react-app
 npm start
 ```
@@ -672,7 +672,6 @@ npm run eslint
 Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
 
 [![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-
 ```json
 "eslint": "eslint ./src/*.js"
 ```
@@ -832,12 +831,27 @@ export default App;
 
 ---
 
-# Criando um template de aplicação com React.js
-<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/create-react-app.svg" height="277"></a></div>
+# Criando um template de aplicação com React.js [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=main)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=main) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/main/CONTRIBUTING.md)
 
-```javascript
-npx create-react-app reactjs-project
+<img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
+
+Create React apps with no build configuration.
+
+- [Creating an App](#creating-an-app) – How to create a new app.
+- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
+
+Create React App works on macOS, Windows, and Linux.<br>
+If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).<br>
+If you have questions or need help, please ask in [GitHub Discussions](https://github.com/facebook/create-react-app/discussions).
+
+## Quick Overview
+
+```sh
+npx create-react-app my-app
+cd my-app
+npm start
 ```
+<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/create-react-app.svg" height="277"></a></div>
 
 # Getting Started with Create React App
 
