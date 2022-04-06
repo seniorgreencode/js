@@ -10,6 +10,7 @@
 -->
 ## Leia mais sobre o React.js:
 - https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f
+- https://reactjsexample.com/a-svg-blob-generator-build-with-react/
 
 ---
 
