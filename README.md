@@ -599,13 +599,13 @@ npm i react react-dom
 npm i -D babel-preset-react
 ```
 
-```
+<pre>
 my-app
 |
 └── src
     ├── App.js
     ├── index.js
-```
+</pre>
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
