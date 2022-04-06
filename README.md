@@ -604,12 +604,14 @@ npm i react react-dom
 npm i -D babel-preset-react
 ```
 
+<details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
 my-app
 └── src
     ├── App.js
     ├── index.js
 </pre>
+</details>
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
