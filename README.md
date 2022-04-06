@@ -903,6 +903,68 @@ cd my-app
 npm start
 ```
 
+<details><summary><b title="(click to open)">Saída (Output)</b></summary>
+<pre>
+Need to install the following packages:
+  create-react-app
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in C:\Users\ipinheiro\Desktop\chat-projects\reactjs.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+added 1367 packages in 1m
+
+169 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 38 packages in 8s
+
+169 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+removed 1 package, and audited 1405 packages in 3s
+
+169 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created reactjs at C:\Users\ipinheiro\Desktop\chat-projects\reactjs
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd reactjs
+  npm start
+
+Happy hacking!
+</pre>
+</details>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -973,68 +1035,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-<details><summary><b title="(click to open)">Saída (Output)</b></summary>
-<pre>
-Need to install the following packages:
-  create-react-app
-Ok to proceed? (y) y
-npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
-
-Creating a new React app in C:\Users\ipinheiro\Desktop\chat-projects\reactjs.
-
-Installing packages. This might take a couple of minutes.
-Installing react, react-dom, and react-scripts with cra-template...
-
-added 1367 packages in 1m
-
-169 packages are looking for funding
-  run `npm fund` for details
-
-Installing template dependencies using npm...
-
-added 38 packages in 8s
-
-169 packages are looking for funding
-  run `npm fund` for details
-Removing template package using npm...
-
-removed 1 package, and audited 1405 packages in 3s
-
-169 packages are looking for funding
-  run `npm fund` for details
-
-6 moderate severity vulnerabilities
-
-To address all issues (including breaking changes), run:
-  npm audit fix --force
-
-Run `npm audit` for details.
-
-Success! Created reactjs at C:\Users\ipinheiro\Desktop\chat-projects\reactjs
-Inside that directory, you can run several commands:
-
-  npm start
-    Starts the development server.
-
-  npm run build
-    Bundles the app into static files for production.
-
-  npm test
-    Starts the test runner.
-
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
-
-We suggest that you begin by typing:
-
-  cd reactjs
-  npm start
-
-Happy hacking!
-</pre>
-</details>
 
 Veja mais como criar uma aplicação em **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
 
