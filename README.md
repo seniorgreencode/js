@@ -217,7 +217,7 @@ ReactDOM.render(<App />, rootElement)
 ## Componentização e Props
 Os componentes podem trabalhar de duas formas, **Função** ou **Classe**, lembrando que o JavaScript não trabalha diretamente com classes como a linguagem Java ou C#, mas sim **protótipos**.
 
-[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![index.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
@@ -264,6 +264,8 @@ export default Button;
 Tudo o que passar para um componente você precisa inserir o `props` nele. 
 
 Além disso, eu posso definir quantos componentes eu quiser:
+
+[![JSX](https://img.shields.io/badge/-App.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
 import React from "react"
@@ -364,6 +366,7 @@ O ReactJS possui 4 estados:
 
 Nenhum componente pai ou filho devem saber se outro componente possui estado ou não. O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via `props`.
 
+[![JSX](https://img.shields.io/badge/-App.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 ```javascript
 import React, {Component} from "react"
 import ReactDOM from "react-dom"
