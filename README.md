@@ -5,6 +5,7 @@
 <blockquote>I created this repository for my JavaScript Full-Stack development learning.</blockquote>
 
 - https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
+- https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
 
 
 ## 🎒 Prerequisites and repositories 📚:
