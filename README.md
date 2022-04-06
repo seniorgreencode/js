@@ -168,6 +168,9 @@ npm install express
 
 The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
 
+- https://www.igniterealtime.org/downloads/#spark
+- https://pusher.com/
+
 # 🟥 Meteor.js
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="277" title="Site do Node.js"/></a></div><br \>
 
