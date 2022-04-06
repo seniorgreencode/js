@@ -833,7 +833,7 @@ export default App;
 
 ### Exemplo de lista:
 
-<details><sumary><b>Diretórios e arquivos usados</b></sumary>
+<details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
 list-and-keys
 ├── LICENSE
