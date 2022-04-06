@@ -514,6 +514,7 @@ node dist/bundler.js
 #### Utilizando o Webpack com Babel.js para transpilar o ES6 para ES5 com React.js
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/161461421-2ae48a60-8925-4b48-94da-65cb3192a446.png" height="87%"></div><br \>
 
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 ```
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
@@ -524,7 +525,7 @@ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 > 
 > O comando `--save-dev` significa para salvar o pacote na área de `"devDependencies"` no `package.json`.
 
-#### `webpack.config.js`
+[![webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
 ```javascript
 const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
@@ -550,7 +551,7 @@ module.exports = {
 }
 ```
 
-#### `index.js`
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
@@ -558,7 +559,7 @@ import App from "./App";
 ReactDOM.render(<App />, document.getElementById("app"));
 ```
 
-#### `index.html`
+[![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
