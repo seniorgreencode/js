@@ -446,7 +446,7 @@ Tem suporte a:
 - Plugins.
 
 ## Configuração do Webpack
-<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="277"></a></div><br \>
+<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" width="20%" /></a>
 
 Os principais conceitos do Webpack:
 - **Entry** - Utilizando _grafo_, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
