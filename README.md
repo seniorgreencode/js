@@ -189,6 +189,7 @@ ReactDOM.render(element2, rootElement)
 
 Existe um elemento chamado `Fragment` que cancela os nós. Para imprimir os dois elementos desse componente `App()`, ou seja o componente inteiro, basta inserir `<App />`:
 
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React, {Fragment} from "react"
 import ReactDOM from "react-dom"
