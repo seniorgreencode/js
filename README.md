@@ -110,6 +110,8 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 <blockquote>👍 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
+# 📜 Vanilla JavaScript 🍦
+
 # 📜 A presença do JavaScript atualmente ⚛️
 <div align="center"><img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="293"/></div>
 
@@ -276,6 +278,9 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 
 # 📜 js-bin 🗑️
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="277"></div><br \>
+
+# 📜 RxJS 🦎
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="277"></div><br \>
 
 <hr>
 
