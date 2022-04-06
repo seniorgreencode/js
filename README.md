@@ -847,7 +847,7 @@ list-and-keys
 ├── .babelrc
 ├── .gitignore
 └── src
-    ├── App.jsx
+    ├── <a href="#">App.jsx</a>
     ├── index.html
     └── index.js
 </pre>
