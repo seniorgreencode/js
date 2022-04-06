@@ -78,7 +78,7 @@ Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScr
 <img src="https://user-images.githubusercontent.com/61624336/102109990-697c8100-3e13-11eb-92c1-9f04c4a5edb5.jpg" width="100%"/>
 
 # 📜 JavaScript (JS) 📜
-<div align="center"><img src="https://iconape.com/wp-content/png_logo_vector/javascript-js-logo.png" height="177"/></div><br \>
+<div align="center"><img src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg" height="177"/></div><br \>
 
 <p>O <b>JavaScript</b> (JS) é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
 
@@ -296,7 +296,7 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 <div align="center"><img src="" height="277"></div>
 
 # JavaScript na AWS - Amazon Web Services
-<div align="center"><img src="" height="277"></div>
+<div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
 
 # JavaScript na AZ - Microsoft Azure
 <div align="center"><img src="" height="277"></div>
