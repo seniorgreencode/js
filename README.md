@@ -29,6 +29,9 @@
 
 <hr>
 
+## Google Chrome Inspect
+- chrome://inspect/#devices
+
 # 🚘 V8 Engine
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" height="270" title="Site do Node.js"/><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="270" title="Site do Node.js"/></a></div><br \>
 
