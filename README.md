@@ -4,6 +4,9 @@
 
 <blockquote>I created this repository for my JavaScript Full-Stack development learning.</blockquote>
 
+- https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
+
+
 ## 🎒 Prerequisites and repositories 📚:
 <ul>
   <li>Good domains in English;</li>
