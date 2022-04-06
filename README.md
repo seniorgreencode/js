@@ -87,8 +87,8 @@ A porta padrão para acessar a aplicação é a `3000`, caso tenha outro tipo de
 O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcação criada para poder utilizar a linguagem de marcação **XML** e a linguagem de programação **JavaScript** no seu código-fonte. Não necessariamente ele precisa estar em um arquivo com extensão `.jsx`, mas pode sim estar em um arquivo `.html`, `.js` e etc, porém ele possui um volume menor em arquivos `.jsx` comparado com o demais.
 
 ### Sintaxe do JSX
-[![JSX](https://img.shields.io/badge/-JSX-fff?style=social&logo=React&logoColor=61DAFB)](#)
 
+[![JSX](https://img.shields.io/badge/-JSX-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```javascript
 const element = <h1>Hello, world!</h1>
 ```
@@ -103,8 +103,8 @@ Não é obrigatório a utilização do JSX. Ele é um **Sintax Suggar** para `Re
 O browser não interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender o código. O mais utilizado é o **Babel**.
 
 ### Criando o primeiro JSX no `index.js`
-[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
@@ -144,6 +144,7 @@ No React.js, é mais comum chamar uma classe HTML5 e CSS3 de `className=''` isso
 ## Renderização de elementos
 A **renderização** do React.js é feita em **nós raíz** , o React.js "pensa" em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o que faz ter ganho de performance e evita uma série de erros.
 
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
@@ -167,6 +168,7 @@ ReactDOM.render(element2, rootElement)
 
 O valor impresso será o `element2` devido o nó.
 
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React, {Fragment} from "react"
 import ReactDOM from "react-dom"
