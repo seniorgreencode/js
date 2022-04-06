@@ -192,7 +192,7 @@ ReactDOM.render(element2, rootElement)
 
 Existe um elemento chamado `Fragment` que cancela os nós. Para imprimir os dois elementos desse componente `App()`, ou seja o componente inteiro, basta inserir `<App />`:
 
-[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React, {Fragment} from "react"
 import ReactDOM from "react-dom"
@@ -217,7 +217,7 @@ ReactDOM.render(<App />, rootElement)
 ## Componentização e Props
 Os componentes podem trabalhar de duas formas, **Função** ou **Classe**, lembrando que o JavaScript não trabalha diretamente com classes como a linguagem Java ou C#, mas sim **protótipos**.
 
-[![index.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
