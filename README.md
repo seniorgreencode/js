@@ -981,6 +981,9 @@ Veja mais como criar uma aplicação em **React.js**: [Criar um Web App com Reac
 # Styled-components
 <div align="center"><img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="277"></div><br \>
 
+# Prettier
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="277"></div><br \>
+
 # React Hook
 <div align="center"><img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="277"></div>
 
