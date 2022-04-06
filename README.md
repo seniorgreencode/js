@@ -693,8 +693,8 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 É baseado em 4 tópicos:
 
 - Variáveis de elementos;
-- If inline com o Operador Lógico &&;
-- If-Else inline com Operador Condicional;
+- `If` inline com o Operador Lógico `&&`;
+- `If-Else` inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
 ### Operador ternário
@@ -735,7 +735,6 @@ O trecho de código acima mostrará o botão enquanto a condição `hasCustomer`
 
 ### Outra forma de fazer isso com funções e operador ternário
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
-
 ```jsx
 import React from "react";
 const buttonA = <button>Histórico dos clientes</button>
@@ -771,10 +770,8 @@ const App = () => {
 export default App;
 ```
 
-
 #### Com cliente
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
-
 ```jsx
 import React from "react";
 const buttonA = <button>Histórico dos clientes</button>
@@ -835,6 +832,8 @@ export default App;
 - Chaves devem ser únicas apenas entre elementos irmãos.
 
 ### Exemplo de lista:
+
+<details><sumary><b>Diretórios e arquivos usados</b></sumary>
 <pre>
 list-and-keys
 ├── LICENSE
@@ -851,12 +850,27 @@ list-and-keys
     ├── index.html
     └── index.js
 </pre>
-
+</details>
+   
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx)
 ```jsx
+import React from "react";
 
+const customer = [
+  {
+    id: 1,
+    name: 'Isaac Alves Pinheiro'
+  }
+]
+
+const App = () => {
+  return (
+    <div>
+      <p>IsaacAlves7</p>
+    </div>
+  )
+}
 ```
-
 
 ---
 
