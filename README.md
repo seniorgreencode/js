@@ -211,7 +211,7 @@ ReactDOM.render(<App />, rootElement)
 ## Componentização e Props
 Os componentes podem trabalhar de duas formas, **Função** ou **Classe**, lembrando que o JavaScript não trabalha diretamente com classes como a linguagem Java ou C#, mas sim **protótipos**.
 
-### `index.js`
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
@@ -319,7 +319,7 @@ export default ComponenteB
 
 Dessa forma, irá renderizar somente o `ComponenteA`. No React.js ele só irá renderizar o efeito de hierarquia de componentes pela propriedade `children`, dessa forma ficará, `props.children`. Vamos ver isso na prática:
 
-### `ComponenteA.jsx`
+[![ComponenteA.jsx](https://img.shields.io/badge/-ComponenteA.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```jsx
 import React from "react"
 
@@ -334,7 +334,7 @@ function ComponenteA() {
 export default ComponenteA
 ```
 
-### `ComponenteB.jsx`
+[![ComponenteB.jsx](https://img.shields.io/badge/-ComponenteB.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```jsx
 import React from "react"
 
