@@ -851,7 +851,6 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-<div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/create-react-app.svg" height="277"></a></div>
 
 # Getting Started with Create React App
 
