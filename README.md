@@ -603,7 +603,6 @@ npm i -D babel-preset-react
 
 <pre>
 my-app
-|
 └── src
     ├── App.js
     ├── index.js
@@ -831,6 +830,30 @@ export default App;
 - Chaves;
 - Extraindo componentes com chaves;
 - Chaves devem ser únicas apenas entre elementos irmãos.
+
+### Exemplo de lista:
+<pre>
+list-and-keys
+├── LICENSE
+├── README.md
+├── node_modules
+├── package-lock.json
+├── package.json
+├── webpack.config.js
+├── .eslintrc
+├── .babelrc
+├── .gitignore
+└── src
+    ├── App.jsx
+    ├── index.html
+    └── index.js
+</pre>
+
+[![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+```jsx
+
+```
+
 
 ---
 
