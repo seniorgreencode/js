@@ -311,7 +311,7 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
 
 # JavaScript na AZ - Microsoft Azure
-<div align="center"><img src="" height="277"></div>
+<div align="center"><img src="https://devblogs.microsoft.com/azure-sdk/wp-content/uploads/sites/58/2022/03/SDKMultiple_256-150x150.png" height="277"></div>
 
 # JavaScript na GCP - Google Cloud Plataform
 <div align="center"><img src="" height="277"></div>
