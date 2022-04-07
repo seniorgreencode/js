@@ -894,7 +894,7 @@ const listCustomer = [
 const App = () => {
   const renderCustomers = (customer, index) => {
     return (
-      
+      <li>{customer.name}</li>
     )
   }
   
