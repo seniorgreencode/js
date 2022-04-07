@@ -56,8 +56,8 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
   <pre>npm install -g expo-cli</pre>
   <li>Instale os emuladores e mantenha-os atualizados! Recomendo usar esses abaixo, pois as chances de darem erros são baixas já que foram criados para o desenvolvimento de softwares:</li>
   <div align="center">
-  <a href="https://developer.android.com/studio"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/512px-Android_Studio_icon.svg.png" height="300" title="Android Studio"/></a>
-  <a href="https://developer.apple.com/xcode/"><img src="https://qph.fs.quoracdn.net/main-qimg-ad35ee95282ed076837ec6631801b48a" height="300" title="Xcode"/></a>
+  <a href="https://developer.android.com/studio"><img src="https://www.netcost-security.fr/wp-content/uploads/2022/02/Android-Studio-fournit-tout-ce-dont-vous-avez-besoin-pour.png" height="177" title="Android Studio"/></a>
+  <a href="https://developer.apple.com/xcode/"><img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" height="177" title="Xcode"/></a>
   </div>
   <li>Instale as dependências:</li>
   <b>Android:</b>
