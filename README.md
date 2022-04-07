@@ -2255,6 +2255,7 @@ Iremos utilizar todos! Mais pra frente.
 
 
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://d23cpcfk0ihnyh.cloudfront.net/blog/posts/1-20-2018-async-await/async-await.png" title="Full-Stack JS Development"/></a><br>
 
 
 
