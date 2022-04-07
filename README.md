@@ -25,7 +25,7 @@
 
 ## Dicas para pensar do jeito ReactJS
 - Comece com um Mock
-- Separe a UI em uma Hierarquia de componentes ou crie uma pasta `./components/` para agrupar cada tipo de componente
+- Separe a UI em uma Hierarquia de componentes ou crie uma pasta `./components/` para agrupar cada tipo de componente de maneira isolada
 - Crie uma versão estática em React
 - Identifique a representação mínima (mas completa) do State da UI
 - Identifique onde o State deve ficar
