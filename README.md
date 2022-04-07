@@ -907,8 +907,8 @@ const App = () => {
   
   const renderSkills = (skill, index) => {
     return (
-      <div style={{ paddingLeft: '30px' }}>
-        <li key={`skill-${index}`}>{skill}</li>
+      <div style={{ paddingLeft: '30px' }} key={`skill-${index}`}>
+        <li>{skill}</li>
       </div>
     )
   }  
@@ -917,9 +917,7 @@ const App = () => {
       <p>IsaacAlves7</p>
       <div>
         <ul>
-          {listCustomer.map(() => {
-             
-          })}
+          {listCustomer.map(renderCustomers)}
         </ul>
       </div>
     </div>
