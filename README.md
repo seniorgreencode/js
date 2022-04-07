@@ -894,7 +894,7 @@ const listCustomer = [
 const App = () => {
   const renderCustomers = (customer, index) => {
     return (
-      <li key={index}>{customer.name}</li> {/*retorna o index e a posição do array*/}
+      <li key={`customer-${customer.id}`}>{customer.name}</li> {/*retorna o index e a posição do array*/}
     )
   }
   
