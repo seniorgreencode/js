@@ -868,27 +868,33 @@ const listCustomer = [
   },
   {
     id: 2,
-    name: 'Matheus Alves Pinheiro'
+    name: 'Matheus Alves Pinheiro',
+    skills: ['Computer Science', 'Art', 'Basketball']
   },
   {
     id: 3,
-    name: 'Janaina Alves Pinheiro'
+    name: 'Janaina Alves Pinheiro',
+    skills: ['Engineering', 'Products', 'Project Manager']
   },
   {
     id: 4,
-    name: 'Alexandre Magno Chaves Pinheiro'
+    name: 'Alexandre Magno Chaves Pinheiro',
+    skills: ['Computer Science', 'Art', 'Drive']
   },
   {
     id: 5,
-    name: 'Girlfriend of Isaac'
+    name: 'Girlfriend of Isaac',
+    skills: ['?', '?', '?']
   },
   {
     id: 6,
-    name: 'Girlfriend of Matheus'
+    name: 'Girlfriend of Matheus',
+    skills: ['?', '?', '?']
   },
   {
     id: 7,
-    name: 'Jade'
+    name: 'Jade',
+    skills: ['brincar', 'responder', 'força bruta']
   }
 ]
 
