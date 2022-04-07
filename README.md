@@ -863,7 +863,8 @@ import React from "react";
 const listCustomer = [
   {
     id: 1,
-    name: 'Isaac Alves Pinheiro'
+    name: 'Isaac Alves Pinheiro',
+    skills: ['Computer Science', 'Art', 'Basketball']
   },
   {
     id: 2,
