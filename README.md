@@ -305,7 +305,7 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 <hr>
 
 # JavaScript em Cloud Computing
-<div align="center"><img src="" height="277"></div>
+<div align="center"><img src="https://www2.assets.heroku.com/assets/languages/node/hero-7c7b5d89d7896c6d0e6ff63aa82ba97c294d5b2a31a46375f8cc558d3cf1d1ff.png" height="277"></div>
 
 # JavaScript na AWS - Amazon Web Services
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
