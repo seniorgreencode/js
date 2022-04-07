@@ -930,13 +930,42 @@ const App = () => {
 
 ---
 
-## Manipulando eventos
+# Manipulando eventos
 Manipular eventos em elementos React é muito semelhante a manipular eventos em elementos do DOM. Existem algumas diferenças sintáticas:
 
 - Eventos em React são nomeados usando camelCase ao invés de letras minúsculas;
 - Com o JSX você passa uma função como manipulador de eventos ao invés de um texto.
 
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx)
+```jsx
+import React from "react";
+
+const showEvent = (e) => { // (e) significa tudo relacionado ao evento
+  console.log('evento clicado');
+  console.log(e);
+}
+
+const Button = <button onClick={showEvent}>Mostrar eventos</button> // Evento ao clicar no botão () => showEvent()
+
+const App = () => {
+
+  const handleChange = (e) => {
+    const { value } = e.target
+    console.log(value)
+  }
+  
+  return (
+    <div>
+      <p>IsaacAlves7</p>
+      <p>Isaac Alves Pinheiro</p>
+      <input onChange={handleChange}/>
+      {Button}
+    </div> 
+  );
+};
+
+export default App;
+```
 
 ---
 
