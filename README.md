@@ -905,6 +905,8 @@ const App = () => {
     )
   }
   
+  const renderSkills = () => <li key={`customer-${customer.id}`}>{customer.name}</li>
+  
   return (
     <div>
       <p>IsaacAlves7</p>
