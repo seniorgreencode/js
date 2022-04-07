@@ -653,20 +653,20 @@ export default App;
 # ESLint
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
 
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-
-```
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
-```
-
 Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
 
 Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
 
 - Criar uma regra para que o Token JWT seja colocado no código;
 - Definir que todas as variáveis privadas sejam prefixadas com underline;
-- Definir que toda função use o padrão camelCase.
-- pre-loader com ESLint para não precisar rodando ele o tempo todo no código
+- Definir que toda função use o padrão camelCase;
+- pre-loader com ESLint para não precisar rodando ele o tempo todo no código.
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+```
 
 ## `.eslintrc`
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="207" align="right"></a>
