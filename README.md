@@ -860,7 +860,7 @@ list-and-keys
 ```jsx
 import React from "react";
 
-const customer = [
+const listCustomer = [
   {
     id: 1,
     name: 'Isaac Alves Pinheiro'
@@ -892,9 +892,20 @@ const customer = [
 ]
 
 const App = () => {
+  const renderCustomers = (customer, index) => {
+    return (
+      
+    )
+  }
+  
   return (
     <div>
       <p>IsaacAlves7</p>
+      <div>
+        <ul>
+          {listCustomer.map(renderCustomers)}
+        </ul>
+      </div>
     </div>
   )
 }
