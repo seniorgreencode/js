@@ -117,6 +117,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <blockquote>👍 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 # 📜 Vanilla JavaScript 🍦
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
 
 # 📜 A presença do JavaScript atualmente ⚛️
 <div align="center"><img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="293"/></div>
