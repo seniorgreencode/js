@@ -63,7 +63,13 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 ----
 
 # 📜 The History of JavaScript (JS) 🔢
-<div align="left"><img src="https://blog.dankicode.com/wp-content/uploads/2018/03/introdu%C3%A7%C3%A3o-ao-javascript.png" width="1000"/></div><br>
+<div align="center">
+  
+| [<img src="https://avatars.githubusercontent.com/u/313317?v=4" width="110"><br><sub>Brendan Eich</sub>](https://github.com/BrendanEich) 
+|:-:|
+
+</div>
+
 <p>Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela.
 
 O nome dessa linguagem inicialmente foi <b>Mocha</b>, que é o nome de um tipo de café. Logo esse nome foi alterado para <b>LiveScript</b>.
