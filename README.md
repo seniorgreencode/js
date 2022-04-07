@@ -936,6 +936,8 @@ Manipular eventos em elementos React é muito semelhante a manipular eventos em 
 - Eventos em React são nomeados usando camelCase ao invés de letras minúsculas;
 - Com o JSX você passa uma função como manipulador de eventos ao invés de um texto.
 
+[![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx)
+
 ---
 
 # Criando uma aplicação com React.js [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=main)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=main) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/main/CONTRIBUTING.md)
