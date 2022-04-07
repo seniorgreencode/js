@@ -903,7 +903,9 @@ const App = () => {
       <p>IsaacAlves7</p>
       <div>
         <ul>
-          {listCustomer.map(renderCustomers)}
+          {listCustomer.map(() => {
+             
+          })}
         </ul>
       </div>
     </div>
