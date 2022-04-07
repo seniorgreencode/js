@@ -967,6 +967,44 @@ const App = () => {
 export default App;
 ```
 
+[![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx)
+```jsx
+import React from "react";
+
+const Button = <button onClick={showEvent}>Mostrar eventos</button> // Evento ao clicar no botão () => showEvent()
+
+const App = () => {
+
+  const name = 'Isaac Alves Pinheiro';
+  
+  const handleChange = (e) => {
+    const { value } = e.target
+    console.log(value)
+  }
+  
+  const showEvent = (e) => { // (e) significa tudo relacionado ao evento
+    console.log('evento clicado');
+    console.log(e);
+    alert(name)
+  }
+  
+  const Button = <button onClick={showEvent}>Mostrar evento</button>
+  const Deletar = <button onClick={showEvent}>Mostrar evento</button>
+  
+  return (
+    <div>
+      <p>IsaacAlves7</p>
+      <p>Isaac Alves Pinheiro</p>
+      <input onChange={handleChange}/>
+      {Button}
+      {Deletar}
+    </div> 
+  );
+};
+
+export default App;
+```
+
 ---
 
 # Criando uma aplicação com React.js [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=main)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=main) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/main/CONTRIBUTING.md)
