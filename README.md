@@ -907,7 +907,7 @@ const App = () => {
   
   const renderSkills = (skill, index) => {
     return (
-      <div>
+      <div style={{ paddingLeft: '30px' }}>
         <li key={`skill-${index}`}>{skill}</li>
       </div>
     )
