@@ -901,7 +901,10 @@ const listCustomer = [
 const App = () => {
   const renderCustomers = (customer, index) => {
     return (
-      <li key={`customer-${customer.id}`}>{customer.name}</li> {/*retorna o index e a posição do array (id aleatório) - caso não funcione, serve o index também*/}
+      <div key={`customer-${customer.id}`}>
+        <li>{customer.name}</li> {/*retorna o index e a posição do array (id aleatório) - caso não funcione, serve o index também*/}
+        {customer.skills.map(renderSkills)}
+      </div>
     )
   }
   
