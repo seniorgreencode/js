@@ -864,6 +864,30 @@ const customer = [
   {
     id: 1,
     name: 'Isaac Alves Pinheiro'
+  },
+  {
+    id: 2,
+    name: 'Matheus Alves Pinheiro'
+  },
+  {
+    id: 3,
+    name: 'Janaina Alves Pinheiro'
+  },
+  {
+    id: 4,
+    name: 'Alexandre Magno Chaves Pinheiro'
+  },
+  {
+    id: 5,
+    name: 'Girlfriend of Isaac'
+  },
+  {
+    id: 6,
+    name: 'Girlfriend of Matheus'
+  },
+  {
+    id: 7,
+    name: 'Jade'
   }
 ]
 
