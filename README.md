@@ -8,9 +8,27 @@
 [![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=Atom&logoColor=blue)](#)
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
+
+## Requisitos
+- Desenvolvimento Web front-end com HTML5 e CSS3
+- Linguagem de programação JavaScript avançado
+- Git
+- NPM
+- JSON
+- Algum framework front-end: Bootstrap
+- pré-processador Sass
+
 ## Leia mais sobre o React.js:
 - https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f
 - https://reactjsexample.com/a-svg-blob-generator-build-with-react/
+
+## Dicas para pensar do jeito ReactJS
+- Comece com um Mock
+- Separe a UI em uma Hierarquia de componentes
+- Crie uma versão estática em React
+- Identifique a representação mínima (mas completa) do State da UI
+- Identifique onde o State deve ficar
+- Adicione o fluxo de dados inverso
 
 ---
 
