@@ -1185,7 +1185,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Veja mais como criar uma aplicação em **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
 
-## useState
+[![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
+```html
+<!DOCTYPE html>
+<html lang="en">
+  chead
+    <neta charset="utf-8" />
+    <title>Meu primeiro componente en React - DIO</title>
+  </head>
+  <body>
+    <noscript>You need to enable Javascript to run this app.</noscript>
+    <div id"root">
+    </div>
+  </body>
+</html>
+```
+
+# useState
 
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
