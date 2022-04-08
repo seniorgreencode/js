@@ -81,7 +81,7 @@ Após criar o `package.json`, o segundo comando irá instalar o React.js juntame
 > 1. <del>package.json</del>
 > 2. <del>./node_modules/</del>
 > 
-> Com isso, você ficará somente com o `package.json` que é responsável por administrar os pacotes e a inicialização da sua aplicação. Note que em `dependences` possui todas as dependências ainda lá, então, você só precisa rodar o comando `npm install` para que as dependências sejam instaladas novamente.
+> Com isso, você ficará somente com o `package.json` que é responsável por administrar os pacotes e a inicialização da sua aplicação. Note que em `dependences` possui todas as dependências ainda lá, então, você só precisa rodar o comando `npm install` ou `npm i` para que as dependências sejam instaladas novamente.
 
 ## Iniciando a aplicação
 [![NPM](https://img.shields.io/badge/-npm_run_start-fff?style=social&logo=NPM&logoColor=red)](#)
