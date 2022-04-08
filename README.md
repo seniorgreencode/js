@@ -1201,6 +1201,7 @@ Veja mais como criar uma aplicação em **React.js**: [Criar um Web App com Reac
 </html>
 ```
 
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
