@@ -1189,9 +1189,9 @@ Veja mais como criar uma aplicação web em single-page usando a biblioteca **Re
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  chead
-    <neta charset="utf-8" />
-    <title>Meu primeiro componente en React - DIO</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>Meu primeiro componente en React - IsaacAlves7</title>
   </head>
   <body>
     <noscript>You need to enable Javascript to run this app.</noscript>
