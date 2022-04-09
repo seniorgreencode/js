@@ -1207,16 +1207,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportwebVitals fron './reportwebVítals';
 
 ReactDOM. render(
   <App />
 document.getElementById('root')
 );
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportwebitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportwebvitals();
+```
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+
 ```
 
 # useState
