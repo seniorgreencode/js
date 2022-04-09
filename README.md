@@ -1201,7 +1201,7 @@ Veja mais como criar uma aplicação web em single-page usando a biblioteca **Re
 </html>
 ```
 
-O `<App />` será renderizado na página do `index.html` na `div` com o `id="root"`.
+**Como funciona os componentes**: O `<App />` será renderizado na página do `index.html` na `div` com o `id="root"` e ele será chamado pelo arquivo `App.js`, lá irá se localizar a sua aplicação front-end, em conjunto com os componentes dela. 
 
 [![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 ```javascript
