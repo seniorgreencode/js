@@ -1195,11 +1195,13 @@ Veja mais como criar uma aplicação web em single-page usando a biblioteca **Re
   </head>
   <body>
     <noscript>You need to enable Javascript to run this app.</noscript>
-    <div id"root">
+    <div id="root">
     </div>
   </body>
 </html>
 ```
+
+O `<App />` será renderizado na página do `index.html` na `div` com o `id="root"`.
 
 [![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 ```javascript
