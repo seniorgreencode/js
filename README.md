@@ -1218,29 +1218,16 @@ document.getElementById('root')
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
-function App() {
+function App = () => {
   return (
-   <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-   </div>
+   <h1>Hello, World!</h1>
     );
   }
   
 export default App;
 ```
+
+
 
 # useState
 
