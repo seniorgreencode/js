@@ -1183,6 +1183,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## Hello, World! com uma aplicação single-page
 Veja mais como criar uma aplicação web em single-page usando a biblioteca **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
 
 [![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
@@ -1239,7 +1240,24 @@ export default App;
 // }
 ```
 
-
+## Primeiros passos na estrutura de um componente
+<details><summary><b>Diretórios e arquivos usados</b></summary>
+<pre>
+list-and-keys
+├── LICENSE
+├── README.md
+├── node_modules
+├── package-lock.json
+├── package.json
+├── .gitignore
+├── public
+|   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.html">index.html</a>
+└── src
+    ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">components</a>
+    ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">App.jsx</a>
+    └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">index.js</a>
+</pre>
+</details>
 
 # useState
 
