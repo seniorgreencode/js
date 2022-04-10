@@ -1250,9 +1250,9 @@ list-and-keys
 ├── package-lock.json
 ├── package.json
 ├── .gitignore
-├── public
+├── <b>public</b>
 |   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.html">index.html</a>
-└── src
+└── <b>src</b>
     ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">components</a>
     ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">App.jsx</a>
     └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">index.js</a>
