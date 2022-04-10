@@ -1225,6 +1225,12 @@ function App = () => {
   }
   
 export default App;
+
+// function App ()(
+//   return(
+//     <hl>Hello world</h1>
+//   )
+// }
 ```
 
 
