@@ -1228,7 +1228,13 @@ export default App;
 
 // function App ()(
 //   return(
-//     <hl>Hello world</h1>
+//     <h1>Hello, World!</h1>
+//   )
+// }
+
+// export default function App ()(
+//   return(
+//     <h1>Hello, World!</h1>
 //   )
 // }
 ```
