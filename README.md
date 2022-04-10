@@ -1276,15 +1276,17 @@ export default App;
 ```javascript
 function App = () => {
   return (
-   <>
+    <>
      <h1>Hello, World!</h1>
      <p>React.js</p>
-   </>
-    );
-  }
+    </>
+  );
+}
   
 export default App;
 ```
+
+
 
 # useState
 
