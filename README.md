@@ -1270,7 +1270,21 @@ function App = () => {
 export default App;
 ```
 
-> **Obs**: Cada elemento que for ser usado no return é um componente, e ele não permite utilizar componentes irmãos de forma isolada. Portanto, a melhor forma de agrupar esses componentes irmãos é por meio da tag de `<div></div>` ou uma tag vazia (sem valor) `<></>`. Eu costumo utilizar a tag vazia para não implicar em algum valor que uma `div` pode atribuir, seja em estilo ou no DOM.
+> **Obs**: Cada elemento que for ser usado no return é um componente, e ele não permite utilizar componentes irmãos de forma isolada. Portanto, a melhor forma de agrupar esses componentes irmãos é por meio da tag de `<div></div>` ou o `React.Fragment` que é uma tag de `div` vazia (sem valor) `<></>`. Eu costumo utiliza-lo para não implicar em algum valor que uma `div` pode atribuir, seja em estilo ou no DOM e também você pode utiliza-lo para não precisar inserir divs a todo momento e isso acaba poluindo o seu HTML a cada momento de maneira geral.
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function App = () => {
+  return (
+   <>
+     <h1>Hello, World!</h1>
+     <p>React.js</p>
+   </>
+    );
+  }
+  
+export default App;
+```
 
 # useState
 
