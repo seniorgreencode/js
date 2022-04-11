@@ -1286,10 +1286,10 @@ function App = () => {
 export default App;
 ```
 
-## Inserindo um framework front-end: Bootstrap
-[![Bootstrap 5](https://img.shields.io/badge/-Bootstrap_v5.0-fff?style=badge&logo=Bootstrap&logoColor=7952B3)](#)
+## Inserindo um framework front-end: Bootstrap (via CDN)
+[![Bootstrap 5](https://img.shields.io/badge/-Bootstrap_v5.0-fff?style=badge&logo=Bootstrap&logoColor=7952B3)](#) [![CSS3](https://img.shields.io/badge/-CSS-fff?style=social&logo=CSS3&logoColor=1572B6)](#)
 ```
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 ```
 
 [![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
