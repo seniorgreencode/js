@@ -1370,9 +1370,64 @@ function App = () => {
     <>
      <h1>Minha primeira aplicação com React.js</h1>
      <ul>
-       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">1st component</a>
-       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">2nd component</a>
-       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">3rd component</a>
+       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">1st component</a>
+       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">2nd component</a>
+       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">3rd component</a>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
+
+Para não sobrecarregar nosso `App.js`, o React.js tem uma funcionalidade muito legal que é trabalhar em base de componente por outro componente. Dessa maneira, é possível criar muitas funcionalidades em uma hierarquia de componentes no seu front-end.
+
+<details><summary><b>Diretórios e arquivos usados</b></summary>
+<pre>
+list-and-keys
+├── LICENSE
+├── README.md
+├── node_modules
+├── package-lock.json
+├── package.json
+├── .gitignore
+├── <b>public</b>
+|   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.html">index.html</a>
+└── <b>src</b>
+    ├── <b>components</b>
+    |   └── <b>item</b>
+    |       └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
+    ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">App.jsx</a>
+    └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
+</pre>
+</details>
+
+[![index.js](https://img.shields.io/badge/-components/item/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = () => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">1st component</a>
+  );
+}
+  
+export default Item;
+```
+
+O primeiro item vai ser exportado e importado para o App e lá ele vai ser chamado como `<Item />`.
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import Item from "./components/Item";
+
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <Item />
+       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">2nd component</a>
+       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">3rd component</a>
      </ul>
     </>
   );
