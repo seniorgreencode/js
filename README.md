@@ -1424,9 +1424,9 @@ function App = () => {
     <>
      <h1>Minha primeira aplicação com React.js</h1>
      <ul>
-       <Item texto="Item 1"/>
-       <Item texto="Item 2"/>
-       <Item texto="Item 3"/>
+       <Item />
+       <Item />
+       <Item />
      </ul>
     </>
   );
@@ -1464,6 +1464,60 @@ Para poder inumerar os itens dessa lista, é necessário passar as propriedades 
 function Item = (props) => {
   return (
     <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.texto}</a>
+  );
+}
+  
+export default Item;
+```
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import Item from "./components/Item";
+
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <Item texto="Item 1"/>
+       <Item texto="Item 2"/>
+       <Item texto="Item 3"/>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
+
+### `props.children`
+Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos.
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import Item from "./components/Item";
+
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <Item>Item 1</Item>
+       <Item>Item 2</Item>
+       <Item>Item 3</Item>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = (props) => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.children}</a>
   );
 }
   
