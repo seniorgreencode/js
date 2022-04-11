@@ -1370,12 +1370,9 @@ function App = () => {
     <>
      <h1>Minha primeira aplicação com React.js</h1>
      <ul>
-       <li>
-         <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
-         1st component
-       </li>
-       <li>2nd component</li>
-       <li>3rd component</li>
+       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">1st component</a>
+       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">2nd component</a>
+       <a href="/" class="list-group-item list-group-item-action list-group-item-dark">3rd component</a>
      </ul>
     </>
   );
