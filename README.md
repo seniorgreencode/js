@@ -1491,7 +1491,7 @@ export default App;
 ```
 
 ### `props.children`
-Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos. E dessa forma, podemos inserir os componentes no `App.js` como se fossem tags HTML5.
+Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos. E dessa forma, podemos inserir os componentes no `App.js` como se fossem tags HTML5, isso claro dependendo se seu componente for verboso ou não.
 
 [![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
@@ -1522,6 +1522,65 @@ function App = () => {
 }
   
 export default App;
+```
+
+Além disso, também posso inserir outros `props` entre os componentes, como o atributo `value`.
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = (props) => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.children} {props.value}</a>
+  );
+}
+
+export default Item;
+```
+
+Da mesma forma, eu também posso inserir props dentro `className` e muito mais!
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = (props) => {
+  return (
+    <a href="/" className={props.className}>{props.children} {props.value}</a>
+  );
+}
+
+export default Item;
+```
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import Item from "./components/Item";
+
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <Item className="list-group-item list-group-item-action list-group-item-dark">Item 1</Item>
+       <Item>Item 2</Item>
+       <Item>Item 3</Item>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
+
+Podemos também, em vez de chamar pelo `props`, chamar diretamente pelo componente `children`, pela seguinte forma:
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = ({children}) => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{children}</a>
+  );
+}
+
+export default Item;
 ```
 
 # useState
