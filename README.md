@@ -37,10 +37,10 @@
 
 <div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png"></div><br>
 
-## 🔗 Links de Apoio 📚:
+## 🔗 Links de Apoio:
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
-## 🧩 JavaScript training ⚔️:
+## 🧩 JavaScript training:
 <ul>
   <li>https://www.code.org</li>
   <li>https://developers.google.com/blockly</li>
@@ -49,7 +49,7 @@
 
 <hr>
 
-# 🐒 Paradigmas de desenvolvimento de software 🧒
+# 🐒 Paradigmas de desenvolvimento de software
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
@@ -62,7 +62,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 
 ----
 
-# 📜 The History of JavaScript (JS) 🔢
+# 📜 The History of JavaScript (JS)
 <div align="center">
   
 | [<img src="https://avatars.githubusercontent.com/u/313317?v=4" width="177"><br><sub>Brendan Eich</sub>](https://github.com/BrendanEich) 
@@ -79,11 +79,11 @@ Em maio de 1995 também estava surgindo uma nova linguagem de programação que 
 
 Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScript</b> em 4 de dezembro de 1995. Isso causou confusões que existem até hoje para quem está começando no mundo da programação, pois pela semelhança do nome, muitos pensam que é a mesma coisa, ou que o JavaScript é uma versão mais simples do Java. Porém, foi apenas uma jogada de Marketing.</p>
 
-<h1 align="center">📜 JavaScript (JS) Timeline 🕰️</h1>
+<h1 align="center">🕰️ JavaScript (JS) Timeline</h1>
 
 <img src="https://user-images.githubusercontent.com/61624336/102109990-697c8100-3e13-11eb-92c1-9f04c4a5edb5.jpg" width="100%"/>
 
-# 📜 JavaScript (JS) 📜
+# 📜 JavaScript (JS)
 <div align="center"><img src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg" height="177"/></div><br \>
 
 <p>O <b>JavaScript</b> (JS) é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
@@ -104,7 +104,7 @@ Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação
 console.log("Hello, World!");
 ```
  
-# 📜 ECMAScript (ES) 📒
+# 📒 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
 
 <p>Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
