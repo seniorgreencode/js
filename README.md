@@ -1286,7 +1286,24 @@ function App = () => {
 export default App;
 ```
 
+## Inserindo um framework front-end: Bootstrap
+[![Bootstrap 5](https://img.shields.io/badge/-Bootstrap_v5.0-fff?style=badge&logo=Bootstrap&logoColor=7952B3)](#)
+```
 
+```
+
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM. render(
+  <App />
+document.getElementById('root')
+);
+```
 
 # useState
 
