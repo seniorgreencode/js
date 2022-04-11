@@ -1501,6 +1501,9 @@ function Item = (props) => {
   );
 }
 
+export default Item;
+```
+
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import Item from "./components/Item";
@@ -1519,9 +1522,6 @@ function App = () => {
 }
   
 export default App;
-```
-  
-export default Item;
 ```
 
 # useState
