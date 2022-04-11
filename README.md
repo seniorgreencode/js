@@ -1424,9 +1424,9 @@ function App = () => {
     <>
      <h1>Minha primeira aplicação com React.js</h1>
      <ul>
-       <Item />
-       <Item />
-       <Item />
+       <Item texto="Item 1"/>
+       <Item texto="Item 2"/>
+       <Item texto="Item 3"/>
      </ul>
     </>
   );
