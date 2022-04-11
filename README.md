@@ -1302,6 +1302,26 @@ document.getElementById('root')
 ## Inserindo um framework front-end: Bootstrap (via CDN)
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="177"></div><br \>
 
+Vou usar uma lista no `App.js`:
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <li>1st component</li>
+       <li>2nd component</li>
+       <li>3rd component</li>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
+
 [![Bootstrap 5](https://img.shields.io/badge/-Bootstrap_v5.0-fff?style=badge&logo=Bootstrap&logoColor=7952B3)](#) [![CSS3](https://img.shields.io/badge/-CSS-fff?style=social&logo=CSS3&logoColor=1572B6)](#)
 
 Para a estilização da página, copie e cole no `<head>` do arquivo `index.html`.
