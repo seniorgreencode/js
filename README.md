@@ -1302,6 +1302,8 @@ document.getElementById('root')
 ## Inserindo um framework front-end: Bootstrap (via CDN)
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="177"></div><br \>
 
+- https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
 Vou usar uma lista no `App.js`:
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
@@ -1357,7 +1359,29 @@ Dessa forma, o seu `index.html` ficará nesse formato:
 </html>
 ```
 
+Para essa aplicação de lista, irei utilizar um componente de grupo de listas com o Bootstrap: https://getbootstrap.com/docs/5.0/components/list-group/
 
+No `1st component` eu vou apagar e inserir o conteúdo colado do `list-group` do Bootstrap.
+
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <li>
+         <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+       </li>
+       <li>2nd component</li>
+       <li>3rd component</li>
+     </ul>
+    </>
+  );
+}
+  
+export default App;
+```
 
 # useState
 
