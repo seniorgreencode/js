@@ -1354,7 +1354,6 @@ Dessa forma, o seu `index.html` ficará nesse formato:
     <div id="root">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
   </body>
 </html>
 ```
@@ -1452,6 +1451,23 @@ export default App;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
+```
+
+> Lembrando que a classe container no Bootstrap centraliza os elementos da página.
+
+Para poder inumerar os itens dessa lista, é necessário passar as propriedades dessa função com o parâmetro `props`. Com isso, podemos definir no texto da tag de âncora, o `{props.texto}` para qualquer texto inserido nele (isso deixa um efeito bem dinâmico).
+
+> Pra passar um componente dentro do React.js é necessário ser dentro de `{}`, sem elas o componente será reconhecido como uma string!
+
+[![index.js](https://img.shields.io/badge/-components/item/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = (props) => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.texto}</a>
+  );
+}
+  
+export default Item;
 ```
 
 # useState
