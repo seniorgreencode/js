@@ -1491,7 +1491,15 @@ export default App;
 ```
 
 ### `props.children`
-Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos.
+Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos. E dessa forma, podemos inserir os componentes no `App.js` como se fossem tags HTML5.
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = (props) => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.children}</a>
+  );
+}
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
@@ -1512,14 +1520,6 @@ function App = () => {
   
 export default App;
 ```
-
-[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
-```javascript
-function Item = (props) => {
-  return (
-    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">{props.children}</a>
-  );
-}
   
 export default Item;
 ```
