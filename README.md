@@ -1,6 +1,6 @@
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js"><img src="https://hackernoon.com/images/1*KBGdMaU_emZX4XR1AvkD4A.gif" width="100%"/></a>
 
-# <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="24"> It's a repository of React development ⚛️ <img src="https://badge-size.herokuapp.com/IsaacAlves7/javascript-programming/React.js/Hello, World! React.js/main.jsx">
+# <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="24"></a> It's a repository of React development ⚛️ <img src="https://badge-size.herokuapp.com/IsaacAlves7/javascript-programming/React.js/Hello, World! React.js/main.jsx">
 
 <blockquote>It's a repository of React.js development (with <code>.jsx</code> and <code>.tsx</code>)!</blockquote>
 
