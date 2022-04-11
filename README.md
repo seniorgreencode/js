@@ -1361,7 +1361,7 @@ Dessa forma, o seu `index.html` ficará nesse formato:
 
 Para essa aplicação de lista, irei utilizar um componente de grupo de listas com o Bootstrap: https://getbootstrap.com/docs/5.0/components/list-group/
 
-No `1st component` eu vou apagar e inserir o conteúdo colado do `list-group` do Bootstrap.
+No `1st component` eu vou apagar e inserir o conteúdo colado do `list-group` do Bootstrap. Como o arquivo veio com o atributo `class` você precisa substituir para `className`.
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
