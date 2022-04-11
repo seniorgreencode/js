@@ -1414,7 +1414,7 @@ function Item = () => {
 export default Item;
 ```
 
-O primeiro item vai ser exportado e importado para o App e lá ele vai ser chamado como `<Item />`.
+O primeiro item vai ser exportado e importado para o App e lá ele vai ser chamado como `<Item />`. Dessa forma, com essa única tag eu consigo chamar para todos os meus itens da lista.
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
@@ -1426,8 +1426,8 @@ function App = () => {
      <h1>Minha primeira aplicação com React.js</h1>
      <ul>
        <Item />
-       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">2nd component</a>
-       <a href="/" className="list-group-item list-group-item-action list-group-item-dark">3rd component</a>
+       <Item />
+       <Item />
      </ul>
     </>
   );
@@ -1435,6 +1435,8 @@ function App = () => {
   
 export default App;
 ```
+
+
 
 # useState
 
