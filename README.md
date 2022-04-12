@@ -1,10 +1,10 @@
+<img src="https://pantheon.io/sites/default/files/field/image/TypeScriptImage.jpeg" width="100%"/>
+
 # <img src="https://symbols.getvecta.com/stencil_25/85_typescript.2ab2b3dcfe.svg" height="27"> It's a repository of TypeScript (TS) development 📘🔢
 <!-- [![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=React&logoColor=blue)](#)
 [![React.js](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#) -->
 
 <blockquote>I created this repository for my TypeScript Full-Stack Development learning.</blockquote>
-
-<img src="https://pantheon.io/sites/default/files/field/image/TypeScriptImage.jpeg" width="1070"/>
 
 <blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, vale lembrar que esse repositório é somente focado no desenvolvimento TypeScript, se quer aprender sobre HTML e CSS recomendo acessar o outro repositório pelo link abaixo!</blockquote>
 
