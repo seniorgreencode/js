@@ -120,6 +120,11 @@ npm list -g
 npm list -g --depth=0
 ```
 
+#### Atualizando o NPM para a versão mais recente
+```sh
+sudo npm install npm -g
+```
+
 #### Removendo/ Desinstalando um pacote do NPM (local)
 ```
 npm -g uninstall <nome do pacote>
