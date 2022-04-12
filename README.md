@@ -1743,6 +1743,8 @@ const Card = () => {
 export default Card;
 ```
 
+Os componentes do React.js é como se fosse pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente que possibilita você criar inúmeras possibilidades.
+
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
 
