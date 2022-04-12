@@ -1616,7 +1616,7 @@ const Card = () => {
          Meu primeiro card
        </div>
        <div className="card-body">
-         <p>Meu texto no card</p>
+         <button type="button" className="btn btn-success">Success</button>
        </div>
     </div>
   );
