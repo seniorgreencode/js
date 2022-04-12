@@ -1611,7 +1611,7 @@ list-and-keys
 ```javascript
 const Card = () => {
   return (
-    <div class="card">
+    <div className="card">
        <div className="card-header">
          Featured
        </div>
