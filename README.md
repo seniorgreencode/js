@@ -1583,7 +1583,7 @@ function Item = ({children}) => {
 export default Item;
 ```
 
-### Adicionando um Card
+### Adicionando o componente Card
 
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
