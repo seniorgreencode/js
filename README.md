@@ -355,7 +355,7 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
   <li>Plugins para programas, como Photoshop.</li>
 </ul>
 
-# 📜 JavaScript (JS) RoadMap 🗺️
+# 🗺️ JavaScript (JS) RoadMap
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
