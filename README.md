@@ -1395,7 +1395,7 @@ list-and-keys
 |   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.html">index.html</a>
 └── <b>src</b>
     ├── <b>components</b>
-    |   └── <b>item</b>
+    |   └── <b>Item</b>
     |       └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
     ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">App.jsx</a>
     └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
@@ -1582,6 +1582,30 @@ function Item = ({children}) => {
 
 export default Item;
 ```
+
+### Adicionando um Card
+
+<details><summary><b>Diretórios e arquivos usados</b></summary>
+<pre>
+list-and-keys
+├── LICENSE
+├── README.md
+├── node_modules
+├── package-lock.json
+├── package.json
+├── .gitignore
+├── <b>public</b>
+|   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.html">index.html</a>
+└── <b>src</b>
+    ├── <b>components</b>
+    |   ├── <b>Item</b>
+    |   |   └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
+    |   └── <b>Card</b>
+    |       └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
+    ├── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#App.jsx">App.jsx</a>
+    └── <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React.js#index.jsx">index.js</a>
+</pre>
+</details>
 
 # useState
 
