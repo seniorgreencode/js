@@ -1,6 +1,6 @@
 <img src="https://pantheon.io/sites/default/files/field/image/TypeScriptImage.jpeg" width="100%"/>
 
-# <img src="https://symbols.getvecta.com/stencil_25/85_typescript.2ab2b3dcfe.svg" height="27"> It's a repository of TypeScript (TS) development 📘🔢
+# <img src="https://symbols.getvecta.com/stencil_25/85_typescript.2ab2b3dcfe.svg" height="27"> It's a repository of TypeScript (TS) development 📘
 <!-- [![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=React&logoColor=blue)](#)
 [![React.js](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#) -->
 
