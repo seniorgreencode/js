@@ -1680,7 +1680,7 @@ export default App;
 
 ### Adicionando o componente Button
 
-[![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![index.js](https://img.shields.io/badge/-components/Button/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import {useState} from 'react';
 
@@ -1691,7 +1691,7 @@ const Button = () => {
   );
 }
   
-export default Card;
+export default Button;
 ```
 
 # React Router
