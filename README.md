@@ -1609,15 +1609,43 @@ list-and-keys
 
 [![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
-function Item = () => {
+const Card = () => {
   return (
-    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">1st component</a>
+    <div class="card">
+       <div class="card-header">
+         Featured
+       </div>
+       <div class="card-body">
+         <p>Meu texto no card</p>
+       </div>
+    </div>
   );
 }
   
-export default Item;
+export default Card;
 ```
 
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import Item from "./components/Item";
+import Card from "./components/Card";
+
+function App = () => {
+  return (
+    <>
+     <h1>Minha primeira aplicação com React.js</h1>
+     <ul>
+       <Item className="list-group-item list-group-item-action list-group-item-dark">Item 1</Item>
+       <Item>Item 2</Item>
+       <Item>Item 3</Item>
+     </ul>
+     <Card />
+    </>
+  );
+}
+  
+export default App;
+```
 
 # useState
 
