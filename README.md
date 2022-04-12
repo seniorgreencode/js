@@ -1583,7 +1583,7 @@ function Item = ({children}) => {
 export default Item;
 ```
 
-### Adicionando o componente Card e 
+### Adicionando o componente Card 
 
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
@@ -1638,7 +1638,13 @@ const Card = () => {
          >
          Adicionar
          </button>
-         <button type="button" className="btn btn-danger" onClick={Remover}>Remover</button>
+         <button 
+           type="button"
+           className="btn btn-danger"
+           onClick={Remover}
+           >
+           Remover
+           </button>
          <p>{valor}</p>
        </div>
     </div>
@@ -1670,6 +1676,22 @@ function App = () => {
 }
   
 export default App;
+```
+
+### Adicionando o componente Button
+
+[![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import {useState} from 'react';
+
+const Button = () => {
+
+  return (
+    
+  );
+}
+  
+export default Card;
 ```
 
 # React Router
