@@ -108,13 +108,12 @@ O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node
 ```
 npm init
 ```
+<img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
 #### Listando todos os pacotes instalados pelo NPM (local)
 ```
 npm list -g
 ```
-
-<img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
 ```
 npm list -g --depth=0
