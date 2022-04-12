@@ -1625,7 +1625,7 @@ const Card = () => {
 export default Card;
 ```
 
-> Note que se os componentes de cada diretório do componente tiver o nome de arquivo `index`, não será necessário informar isso no `import`, pois automaticamente será identificado, caso contrário se não houver um arquivo com esse mesmo nome, você deverá informá-lo, com ou sem extensão do arquivo.
+> Note que se os componentes de cada diretório tiver o nome de arquivo `index`, não será necessário informar isso no `import`, pois automaticamente será identificado, caso contrário se não houver um arquivo com esse mesmo nome, você deverá informá-lo, com ou sem extensão do arquivo.
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
