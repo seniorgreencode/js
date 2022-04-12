@@ -1613,7 +1613,7 @@ const Card = () => {
   return (
     <div className="card">
        <div className="card-header">
-         Featured
+         Meu primeiro card
        </div>
        <div className="card-body">
          <p>Meu texto no card</p>
