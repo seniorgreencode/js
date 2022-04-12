@@ -1612,10 +1612,10 @@ list-and-keys
 const Card = () => {
   return (
     <div class="card">
-       <div class="card-header">
+       <div className="card-header">
          Featured
        </div>
-       <div class="card-body">
+       <div className="card-body">
          <p>Meu texto no card</p>
        </div>
     </div>
