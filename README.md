@@ -631,7 +631,7 @@ npm i -D babel-preset-react
 my-app
 └── src
     ├── App.js
-    ├── index.js
+    └── index.js
 </pre>
 </details>
 
