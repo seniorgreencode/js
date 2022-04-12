@@ -1583,7 +1583,7 @@ function Item = ({children}) => {
 export default Item;
 ```
 
-### Adicionando o componente Card
+### Adicionando o componente Card e 
 
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
@@ -1609,15 +1609,27 @@ list-and-keys
 
 [![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
+import {useState} from 'react';
+
 const Card = () => {
+
+  const (valor, setValor) = useState(0) // Meu estado irá começar em 0 (estado inicial do contador)
+
   return (
     <div className="card">
        <div className="card-header">
          Meu primeiro card
        </div>
        <div className="card-body">
-         <button type="button" className="btn btn-success">Adicionar</button>
+         <button 
+           type="button"
+           className="btn btn-success"
+           onClick=""
+         >
+         Adicionar
+         </button>
          <button type="button" className="btn btn-danger">Remover</button>
+         <p>{valor}</p>
        </div>
     </div>
   );
@@ -1649,8 +1661,6 @@ function App = () => {
   
 export default App;
 ```
-
-# useState
 
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
