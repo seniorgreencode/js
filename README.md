@@ -1616,7 +1616,8 @@ const Card = () => {
          Meu primeiro card
        </div>
        <div className="card-body">
-         <button type="button" className="btn btn-success">Success</button>
+         <button type="button" className="btn btn-success">Adicionar</button>
+         <button type="button" className="btn btn-danger">Remover</button>
        </div>
     </div>
   );
