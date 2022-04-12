@@ -1616,9 +1616,11 @@ const Card = () => {
   const (valor, setValor) = useState(0) // Meu estado irá começar em 0 (estado inicial do contador)
 
   function Adicionar() {
+    setValor(valor + 1)
   }
   
   function Remover() {
+    setValor(valor - 1)
   }
 
   return (
@@ -1630,11 +1632,11 @@ const Card = () => {
          <button 
            type="button"
            className="btn btn-success"
-           onClick={(event)=>{setValor(event.target.value + 1)}}
+           onClick={Adicionar}
          >
          Adicionar
          </button>
-         <button type="button" className="btn btn-danger">Remover</button>
+         <button type="button" className="btn btn-danger" onClick={Remover}>Remover</button>
          <p>{valor}</p>
        </div>
     </div>
