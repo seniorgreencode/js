@@ -41,11 +41,11 @@
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
 ## 🧩 JavaScript training:
-<ul>
-  <li>https://www.code.org</li>
-  <li>https://developers.google.com/blockly</li>
-  <li>https://br.codecombat.com/</li>
-</ul>
+- https://www.code.org
+- https://developers.google.com/blockly
+- https://br.codecombat.com/
+- https://exercism.org/dashboard
+
 
 <hr>
 
