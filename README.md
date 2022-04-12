@@ -1402,7 +1402,7 @@ list-and-keys
 </pre>
 </details>
 
-[![index.js](https://img.shields.io/badge/-components/item/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+[![index.js](https://img.shields.io/badge/-components/Item/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 function Item = () => {
   return (
@@ -1607,6 +1607,16 @@ list-and-keys
 </pre>
 </details>
 
+[![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+function Item = () => {
+  return (
+    <a href="/" className="list-group-item list-group-item-action list-group-item-dark">1st component</a>
+  );
+}
+  
+export default Item;
+```
 
 
 # useState
