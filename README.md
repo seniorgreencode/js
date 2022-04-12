@@ -1684,20 +1684,63 @@ export default App;
 ```javascript
 import {useState} from 'react';
 
-const Button = () => {
-
+const Button = ( {children, className, onClick} ) => {
   return (
     <button 
        type="button"
-       className="btn btn-success"
-       onClick={Adicionar}
+       className="className"
+       onClick={onClick}
     >
-      Adicionar
+      {children}
     </button>
-  );
+  );                                  
 }
   
 export default Button;
+```
+
+[![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import {useState} from 'react';
+import Button from '../Button';
+
+const Card = () => {
+
+  const (valor, setValor) = useState(0) // Meu estado irá começar em 0 (estado inicial do contador)
+
+  function Adicionar() {
+    setValor(valor + 1)
+  }
+  
+  function Remover() {
+    setValor(valor - 1)
+  }
+
+  return (
+    <div className="card">
+       <div className="card-header">
+         Meu primeiro card
+       </div>
+       <div className="card-body">
+         <Button 
+           className="btn btn-success"
+           onClick={Adicionar}
+         >
+         Adicionar
+         </Button>
+         <button 
+           className="btn btn-danger"
+           onClick={Remover}
+           >
+           Remover
+           </button>
+         <p>{valor}</p>
+       </div>
+    </div>
+  );
+}
+  
+export default Card;
 ```
 
 # React Router
