@@ -8,11 +8,6 @@
 
 <blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, vale lembrar que esse repositório é somente focado no desenvolvimento TypeScript, se quer aprender sobre HTML e CSS recomendo acessar o outro repositório pelo link abaixo!</blockquote>
 
-[![Web](https://img.shields.io/badge/-HTML5‍‍and‍‍css3‍‍development-blue?style=for-the-badge&logo=HTML5&logoColor=white)](https://github.com/IsaacAlves7/html5-and-css3-development)
-[![JS](https://img.shields.io/badge/-JavaScript-blue?style=for-the-badge&logo=JavaScript&logoColor=white)](https://github.com/IsaacAlves7/javascript-programming)
-[![React.js](https://img.shields.io/badge/-React.js-blue?style=for-the-badge&logo=React&logoColor=white)](https://github.com/IsaacAlves7/react.js-programming)
-[![Node.js](https://img.shields.io/badge/-Node.js-blue?style=for-the-badge&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/react.js-programming)
-
 <hr>
 
 # 📘 FullStack TypeScript (TS) 🔋
