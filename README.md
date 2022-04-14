@@ -1745,8 +1745,6 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
-
-
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
 
