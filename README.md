@@ -2244,6 +2244,22 @@ O **Node.js** é uma ferramenta para a execução de uma variedade de ambientes 
 ![1_h-dSq3-RIeA_UT1UbXBc7Q](https://user-images.githubusercontent.com/61624336/113332204-3e9d3680-92f7-11eb-884f-60aa13222aca.png)
 
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/08/AJAX.png" title="Full-Stack JS Development"/></a>
+
+# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of AJAX programming 📜🔃🔢
+
+<blockquote>I created this repository for my AJAX development learning.</blockquote>
+
+<hr>
+
+# 🔃 AJAX (Asynchronous JavaScript And XML) 🔃
+
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="277"></div><br \>
+
+Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
+
+## AJAX
+<div align="center"><img src="https://good-code.ru/wp-content/uploads/2019/02/ajax-javascript.png" height="277"></div>
 
 
 ## 📜 Web Dev Stacks 🔋
