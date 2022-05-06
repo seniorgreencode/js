@@ -188,42 +188,42 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 # 🧙‍♂️ Browserify 
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="277"></a></div><br \>
 
-# 📜 Require.js 🎯 
+# 🎯 Require.js 
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/72_requirejs.fb1351cffb.svg" height="277"></a></div><br \>
 
-# 📜 Puppeteer 🧸
+# 🧸 Puppeteer
 <div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="277"></div><br \>
 
-# 📜 JSS 📜
+# 📜 JSS
 <div align="center"><img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="277"></div><br \>
 
-# 📜 Grunt 🐗
+# 🐗 Grunt
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="277"></a></div><br \>
 
-# 📜 Babel 🐠
+# 🐠 Babel
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="277"></a></div><br \>
 
 O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
 
 Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do **TC39**, o comitê técnico que especifica o ECMAScript. O Babel também pode **converter a sintaxe JSX** e **remover anotações de tipo do Flow** e do **TypeScript**. Babel é **construído a partir de plugins**. Componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
-# 📜 Flow ⚡
+# ⚡ Flow
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="277"></a></div><br \>
 
-# 📜 TypeScript (TS) 🟦
+# 🟦 TypeScript (TS)
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/85_typescript.cb2d7326fa.svg" height="277"></a></div><br \>
 
-# 📜 ESLint 🟪
+# 🟪 ESLint
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
 
 Antes de entender o que é o **ESLint**, você precisa aprender o conceito de **Lint**. O **Lint** ou **Linter** é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. 
 
 Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX.
 
-# 📜 Ember 🐹
+# 🐹 Ember
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="277"></a></div><br \>
 
-# 📜 React.js ⚛️
+# ⚛️ React.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="277"></a></div><br \>
 
 # 📜 Next.js ⚛️
