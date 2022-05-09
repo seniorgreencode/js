@@ -101,6 +101,8 @@ Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação
 ```javascript
 console.log("Hello, World!");
 ```
+
+> O `console.log` no JavaScript salva vidas! Você irá utilizar muito esse comando.
  
 # 📒 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
