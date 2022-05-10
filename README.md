@@ -1609,7 +1609,7 @@ O Redux foi inspirado no **Flux**, a arquitetura apresentada pelo Facebook no ev
 
 O Flux foi uma arquitetura feita pelo Facebook para evitar erros sobre compartilhamento de estado e de unificação de estado entre componentes do View da aplicação front-end. Abaixo, é mostrada a discrepância entre o Flux e o MVC comum:
 
-<div align="center"><img src="https://miro.medium.com/max/1276/1*oRBseHE_yxtlbcRTrbkRnQ.jpeg"></div>
+<div align="center"><img src="https://miro.medium.com/max/1276/1*oRBseHE_yxtlbcRTrbkRnQ.jpeg"></div><br />
 
 > Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
 
