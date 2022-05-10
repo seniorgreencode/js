@@ -1748,6 +1748,16 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
+# Redux
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></div><br />
+
+O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e armazenar os estados de aplicações escritos em JavaScript. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como o React.js, com a finalidade de construção de interfaces para usuários.
+
+## React + Redux
+<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
+
+<!-- 
+
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
 
@@ -1759,14 +1769,6 @@ Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do M
 
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="277"></div><br \>
-
-# Redux
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></div><br />
-
-O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e armazenar os estados de aplicações escritos em JavaScript. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como o React.js, com a finalidade de construção de interfaces para usuários.
-
-## React + Redux
-<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
 # Redux Saga
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="277"></div>
@@ -1784,7 +1786,8 @@ O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e arma
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/graphql.svg" height="277"></div>
 
 # Apollo GraphQL
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-1.svg" height="277"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-1.svg" height="277"></div> 
+-->
 
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
