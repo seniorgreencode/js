@@ -234,6 +234,9 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 ## Redux
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="277"></a></div><br \>
 
+## Gatsby
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="277"></div><br \>
+
 # 🛡️ Angular.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="277"></a></div><br \>
 
@@ -256,69 +259,66 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 # 🃏 Jest
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="277"></a></div><br \>
 
-# 📜 Cypress ⚫
+# ⚫ Cypress
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="277"></a></div><br \>
 
-# 📜 Apache Cordova 🤖📲
+# 🤖 Apache Cordova
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="277"></a></div><br \>
 
-# 📜 Ionic 🔵📲
+# 🔵 Ionic
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="277"></a></div><br \>
 
-# 📜 React Native ⚛️📲
+# ⚛️ React Native
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="277"></div><br \>
 
-# 🦕 Deno 🦕
+# 🦕 Deno
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="277"></div><br \>
 
-# 📜 Gatsby 🟣
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="277"></div><br \>
-
-# 📜 Nest JS 🦁
+# 🦁 Nest JS
 <div align="center"><img src="https://seeklogo.com/images/N/nestjs-logo-09342F76C0-seeklogo.com.png" height="277"></div><br \>
 
-# 📜 Mocha ☕
+# ☕ Mocha
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="277"></div><br \>
 
-# 📜 Chai 🍵
+# 🍵 Chai
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="277"></div><br \>
 
-# 📜 js-bin 🗑️
+# 🗑️ js-bin
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="277"></div><br \>
 
-# 📜 RxJS 🦎
+# 🦎 RxJS
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="277"></div><br \>
 
 <hr>
 
-# 📜 Bibliotecas JavaScript 📚
+# 📚 Bibliotecas JavaScript
 
 ## highlighter.js
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/132415637-d7c1319c-847f-48b3-a9d6-71437a18be07.png" height="277"></div>
 
 <hr>
 
-# JavaScript no Docker
+# 🐋 JavaScript no Docker
 
-# JavaScript no Kubernetes
+# ☸️ JavaScript no Kubernetes
 
 <hr>
 
-# JavaScript em Cloud Computing
+# ☁️ JavaScript em Cloud Computing
 <div align="center"><img src="https://www2.assets.heroku.com/assets/languages/node/hero-7c7b5d89d7896c6d0e6ff63aa82ba97c294d5b2a31a46375f8cc558d3cf1d1ff.png" height="277"></div>
 
-# JavaScript na AWS - Amazon Web Services
+## JavaScript na AWS - Amazon Web Services
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
 
-# JavaScript na AZ - Microsoft Azure
+## JavaScript na AZ - Microsoft Azure
 <div align="center"><img src="https://symbols.getvecta.com/stencil_27/69_sdk.1786eab7d3.svg" height="277"></div>
 
-# JavaScript na GCP - Google Cloud Plataform
+## JavaScript na GCP - Google Cloud Plataform
 <div align="center"><img src="https://symbols.getvecta.com/stencil_82/34_google-appengine-icon.e31a7499e4.svg" height="277"></div>
 
 <hr>
 
-# 📜 A importância do JavaScript para o mundo 🏆
+# 🏆 A importância do JavaScript para o mundo
 <div align="center"><img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg"/></div><br \>
 
 <p>Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
