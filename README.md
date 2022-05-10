@@ -1604,6 +1604,8 @@ O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e arma
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
+## Store
+
 <!-- 
 
 # React Router
