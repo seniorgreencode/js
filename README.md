@@ -35,10 +35,10 @@
 
 <div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png"></div><br>
 
-## 🔗 Links de Apoio:
+## Links de Apoio:
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
-## 🧩 JavaScript training:
+## JavaScript training:
 - https://www.code.org
 - https://developers.google.com/blockly
 - https://br.codecombat.com/
