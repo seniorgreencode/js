@@ -1610,6 +1610,8 @@ Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca Jav
 
 E o **State container** é um bloco (container) da sua aplicação que armazena um estado de forma centralizada, que pode ser lida por outros blocos da aplicação.
 
+> A ideia é centralizar o estado para que você não precise reescrever e também compartilhar ele para outro bloco da aplicação. Ou seja, é mais dinâmico do que usar o **React Hooks** para realizar esse compartilhamento de estados.
+
 ## Store
 
 <!-- 
