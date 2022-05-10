@@ -1611,6 +1611,8 @@ O Flux foi uma arquitetura feita pelo Facebook para evitar erros sobre compartil
 
 <div align="center"><img src="https://miro.medium.com/max/1276/1*oRBseHE_yxtlbcRTrbkRnQ.jpeg"></div>
 
+> Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
+
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
