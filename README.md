@@ -1612,6 +1612,12 @@ E o **State container** é um bloco (container) da sua aplicação que armazena 
 
 > A ideia é centralizar o estado para que você não precise reescrever e também compartilhar ele para outro bloco da aplicação. Ou seja, é mais dinâmico do que usar o **React Hooks** para realizar esse compartilhamento de estados.
 
+As principais características do Redux são:
+- Previsível;
+- Centralizado;
+- Debugável;
+- Flexível.
+
 ## Store
 
 <!-- 
