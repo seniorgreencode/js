@@ -228,32 +228,32 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 # ⚛️ React.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="277"></a></div><br \>
 
-# 📜 Next.js ⚛️
+## Next.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="277"></a></div><br \>
 
-# 📜 Redux ⚛️
+## Redux
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="277"></a></div><br \>
 
-# 📜 Angular.js 🛡️
+# 🛡️ Angular.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="277"></a></div><br \>
 
-# 📜 Angular 🅰️
+# 🅰️ Angular
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="277"></a></div><br \>
 
-# 📜 Vue.js ✌️
+# ✌️ Vue.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="277"></a></div><br \>
 
 <p>O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
   
-# 📜 Webpack 🧊
+# 🧊 Webpack
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="277"></a></div><br \>
 
 O **Webpack** é um empacotador que pega módulos com dependências e cria conteúdos estáticos para produção.
 
-# 📜 Gulp 🥤
+# 🥤 Gulp
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/32_gulp.9db342974c.svg" height="277"></a></div><br \>
 
-# 📜 Jest 🃏
+# 🃏 Jest
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="277"></a></div><br \>
 
 # 📜 Cypress ⚫
