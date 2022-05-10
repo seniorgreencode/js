@@ -1604,7 +1604,9 @@ O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e arma
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
-Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca JavaScript para a construção de interfaces para usuários, de forma declarativa e baseado em **componentes**, já o Redux é um **contêiner de estado** previsível para aplicativos JS.
+Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca JavaScript para a construção de interfaces para usuários, de forma declarativa e baseado em **componentes**, já o Redux é um **contêiner de estado** (_State container_) previsível para aplicativos JS.
+
+E o **State container** é um bloco (container) da sua aplicação que armazena um estado de forma centralizada, que pode ser lida por outros blocos da aplicação.
 
 ## Store
 
