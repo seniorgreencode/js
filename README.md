@@ -1607,6 +1607,8 @@ O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e arma
 
 O Redux foi inspirado no **Flux**, a arquitetura apresentada pelo Facebook no evento que buscava minimizar erros de unificação e transporte de componentes no front-end, e na linguagem **Elm** que serve para escrever código funcional para o browser e interagindo com o DOM que exige operações bootáveis, por isso um dos pilares essenciais do Elm é trabalhar com operações bootáveis utilizando o paradigma funcional.
 
+A influência da linguagem elm consiste na: imutabilidade, API declarativa, operações determinísticas e controlar side-effects (quando não se pode evitá-los).
+
 > Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
 
 ## React + Redux
