@@ -1603,6 +1603,10 @@ Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do M
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e armazenar os estados de aplicações escritos em JavaScript. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como o React.js, com a finalidade de construção de interfaces para usuários.
 
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flux.svg" height="77">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.worldvectorlogo.com/logos/elm.svg" height="77"></div><br />
+
+O Redux foi inspirado no **Flux**, a arquitetura apresentada pelo Facebook no evento, e na linguagem **Elm** .
+
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
