@@ -1609,6 +1609,9 @@ list-and-keys
 </pre>
 </details>
 
+# React Hooks
+<div align="center"><img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="277"></div>
+
 [![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
 import {useState} from 'react';
@@ -1756,12 +1759,6 @@ Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do M
 
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="277"></div><br \>
-
-# React Hooks
-<div align="center"><img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="277"></div>
-
-# React.js
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/126890148-540656eb-a34f-4779-aaca-ceebc28d8620.jpg" width="100%"></div>
 
 # Redux
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></div><br />
