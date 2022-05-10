@@ -62,6 +62,8 @@ Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulare
 - React Scripts
 - Task Runners e Bundler Sizers
 
+> Nos exemplos feitos, contrui mais modelos de **SPA** - _Single-Page Applications_ (React Create App) para trabalhar com o React.js, mas isso fica a seu critério.
+
 # Aprendendo a configurar a primeira aplicação
 [![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
 
