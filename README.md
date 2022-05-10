@@ -8,7 +8,7 @@
 - https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
 
 
-## 🎒 Prerequisites and repositories 📚:
+## Prerequisites and repositories:
 <ul>
   <li>Good domains in English;</li>
   <li>Programming logic;</li>
