@@ -33,7 +33,7 @@
 
 ---
 
-# ⚛️ React.js 📜
+# ⚛️ React.js
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="277"></a></div>
 
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
@@ -1757,7 +1757,7 @@ Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do M
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="277"></div><br \>
 
-# React Hook
+# React Hooks
 <div align="center"><img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="277"></div>
 
 # React.js
@@ -1765,6 +1765,10 @@ Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do M
 
 # Redux
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="277"></div>
+
+O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e armazenar os estados de aplicações escritos em JavaScript. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como o React.js, com a finalidade de construção de interfaces para usuários.
+
+## React + Redux
 
 # Redux Saga
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="277"></div>
