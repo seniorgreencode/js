@@ -1611,7 +1611,7 @@ A influência da linguagem elm consiste na: imutabilidade, API declarativa, oper
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/167918993-850cc324-24c6-4c9d-b890-e4228d7f0931.png"></div>
 
-A influência na arquitetura Flux, está no design da própria arquitetura.
+A influência na arquitetura Flux, está no design da própria arquitetura. O fluxo dessa arquitetura é unidirecional, pois a View não consome diretamente a Store e a Store reflete na View de uma forma direta com um único ponto centralizado e confiável de estado que a minha View precisa renderizar.
 
 > Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
 
