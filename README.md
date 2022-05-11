@@ -1634,8 +1634,13 @@ As principais características do Redux são:
 - Debugável;
 - Flexível.
 
-## Store
+## 3 princípios do Redux
+O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são eles:
 
+- Ter uma única fonte de verdade.
+> Tentar centralizar tudo em um único lugar. Evitando assim, o problema de descentralização de múltiplas Stores.
+
+- 
 
 <!-- 
 
