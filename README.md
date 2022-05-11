@@ -1642,10 +1642,12 @@ O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são ele
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/167932197-80c4ec19-6121-421d-b180-3ec09508f2da.jpg"></div>
 
 - (Store) Ter uma única fonte de verdade.
-> Tentar centralizar tudo em um único lugar imutável. Evitando assim, o problema de descentralização de múltiplas Stores.
+> Tentar centralizar tudo em um único lugar. Evitando assim, o problema de descentralização de múltiplas Stores.
 
 - (Reducer) Estado disponível apenas para leitura.
-> 
+
+- (Actions) Mudanças no estado são feitas apenas por funções puras.  
+> Nesse ponto, a arquitetura Flux possui a imutabilidade. Então, precisa de uma ponte ou intercessor para gerenciar esses estados, e neles se encontram as Actions.
 
 <!-- 
 
