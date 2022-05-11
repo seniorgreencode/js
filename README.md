@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/131275306-bf9c13fa-c430-4e42-8140-304659aafeec.png" width="100%"/></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://admin.johnserrano.co/content/images/2017/10/vanillajs.jpg" width="100%"/></a></div>
 
 # <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦
 
