@@ -128,7 +128,7 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 
 ## Hello, World! - React Native (CLI)
 
-### 📜 App.js
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```jsx
 import React, {Component} from "react";
 import {Plataform, Stylesheet, Text, View} from "react-native";
@@ -172,9 +172,6 @@ export default class App extends Component {
 
 ## React Native
 <div align="center"><img src="https://images.ctfassets.net/x4we65bqi45q/79clZXZmtPwWzTux2YIlgn/a78c0f54e7e6369275eaac7e04933835/1_HSisLuifMO6KbLfPOKtLow.jpeg"/></div>
-
-## React Native + Redux
-<div align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--R9gdYdBU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/2000/1%2Arn81KthOlgxpSJZ1RHVtTQ.png" height="300"/></div>
 
 ## React Native
 <div align="center"><img src="https://pbcdn1.podbean.com/imglogo/dir-logo/366516/366516_300x300.png" height="300"/></div>
