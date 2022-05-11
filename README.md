@@ -357,6 +357,12 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
 
 # 🗺️ JavaScript (JS) RoadMap
 
+---
+
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
+| :---: |
+
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
 ![Hierarquia de Objetos JS](https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png)
