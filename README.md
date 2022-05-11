@@ -1635,7 +1635,7 @@ As principais características do Redux são:
 - Flexível.
 
 ## 3 princípios do Redux
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/167924816-480315d9-36e8-41b9-9948-77686a670dfc.jpg" height="277"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/167924816-480315d9-36e8-41b9-9948-77686a670dfc.jpg" height="177"></div><br />
 
 O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são eles:
 
