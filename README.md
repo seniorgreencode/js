@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/131275306-bf9c13fa-c430-4e42-8140-304659aafeec.png" width="100%"/></a></div>
 
-# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦📜
+# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦
 
 <blockquote>I created this repository for my Vanilla JavaScript (Imperative paradigm) learning.</blockquote>
 
@@ -15,7 +15,7 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
-# 📜 Paradigmas de programação 🍦🏵️
+# 📜 Paradigmas de programação
 
 Com o paradigma imperativo iremos aprender sobre tipos de valores e dados, variáveis, arrays, matrizes, estruturas condicionais, loops e funções.
 
