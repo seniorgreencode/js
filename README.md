@@ -1609,7 +1609,7 @@ O Redux foi inspirado no **Flux**, a arquitetura apresentada pelo Facebook no ev
 
 A influência da linguagem elm consiste na: imutabilidade, API declarativa, operações determinísticas e controlar side-effects (quando não se pode evitá-los).
 
-![Image2-61 (1)](https://user-images.githubusercontent.com/61624336/167918993-850cc324-24c6-4c9d-b890-e4228d7f0931.png)
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/167918993-850cc324-24c6-4c9d-b890-e4228d7f0931.png"></div>
 
 A influência na arquitetura Flux, está no design da própria arquitetura.
 
