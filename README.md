@@ -1649,6 +1649,10 @@ O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são ele
 - (Actions) Mudanças no estado são feitas apenas por funções puras.  
 > Nesse ponto, a arquitetura Flux possui a imutabilidade. Então, precisa de uma ponte ou intercessor para gerenciar esses estados, e neles se encontram as Actions.
 
+Os aspectos da API do Redux é que os Reducers representem uma atualização desse estado na Store. Então uma das formas de produzir o estado nessa Store é quando você está produzindo é conseguir acessar uma instância dessa Store:
+
+- reducer: `store.getState()`
+
 <!-- 
 
 # React Router
