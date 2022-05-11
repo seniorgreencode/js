@@ -1641,10 +1641,10 @@ O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são ele
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/167932197-80c4ec19-6121-421d-b180-3ec09508f2da.jpg"></div>
 
-- Ter uma única fonte de verdade.
+- (Store) Ter uma única fonte de verdade.
 > Tentar centralizar tudo em um único lugar imutável. Evitando assim, o problema de descentralização de múltiplas Stores.
 
-- Estado disponível apenas para leitura.
+- (Reducer) Estado disponível apenas para leitura.
 > 
 
 <!-- 
