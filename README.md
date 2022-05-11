@@ -1,12 +1,7 @@
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://admin.johnserrano.co/content/images/2017/10/vanillajs.jpg" width="100%"/></a></div>
 
 # <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦
-
 <blockquote>I created this repository for my Vanilla JavaScript (Imperative paradigm) learning.</blockquote>
-
-<blockquote><b>⚠️ WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
-
-<hr>
 
 # 🍦 Vanilla JavaScript
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
@@ -17,35 +12,11 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 
 # 📜 Paradigmas de programação
 
-Com o paradigma imperativo iremos aprender sobre tipos de valores e dados, variáveis, arrays, matrizes, estruturas condicionais, loops e funções.
-
-# 🍦 Paradigmas Imperativo/ Procedural 🍦
-<div align="center"><img src="https://javadesde0.com/wp-content/uploads/vanilla-js.png" width="1700"></div>
-
-## ECMAScript
-
-# 🍦 Paradigma Orientado a Objetos 🍦
-<div align="center"><img src="https://island-babygirl.netlify.app/static/vanilla-javascript-2020-12-21-a8fed159636cfdc69d52747b36274843.png" height="277"></div>
-
-## BOM/ DOM
-
-# 🍦 Paradigma Funcional 🍦
-<div align="center"><img src="https://www.webdesignemfoco.com/img/files/original/375024-curso-de-javascript-vanilla-l.jpg"></div>
-
-## Lambda
-
-# 🍦
-<div align="center"><img src=""></div>
-
-<hr>
-
 Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do Leaflet.
 
 Cada ponto no mapa será gerenciado através de um CMS na cloud chamado GraphCMS e iremos utilizar o NextJS para criar a melhor experiência para o usuário e também para você, desenvolvedor!
 
 Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas da teoria à prática, sem deixar nenhum detalhe para trás.
-
-
 
 # 📜 Primeiros comandos com JavaScript 🖥️
 <img src="https://coursework.vschool.io/content/images/size/w2000/2016/03/javascript-logo-banner.jpg"/>
