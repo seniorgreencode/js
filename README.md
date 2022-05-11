@@ -1615,6 +1615,8 @@ A influência na arquitetura Flux, está no design da própria arquitetura. O fl
 
 > Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
 
+> Um ponto interessante da arquitetura Flux, é que pra cada estrutura de dados eu tenho uma Store, então um dos princípios do Flux é que eu tenha múltiplas Stores, ou seja, múltiplos lugares onde eu possa expor esses estados estruturados.
+
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
 
