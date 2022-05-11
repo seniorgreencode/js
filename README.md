@@ -127,15 +127,15 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 </pre>
 
 ## Hello, World! - React Native (CLI)
-<img src="https://www.luiztools.com.br/wp-content/uploads/2020/06/Captura-de-Tela-2020-06-06-a%CC%80s-19.32.22-1024x635.png"/>
-<pre>
- <code><h3>📜 App.js</h3></code>
- <code><p>import React, {Component} from "react";</p></code>
- <code><p>import {Plataform, Stylesheet, Text, View} from "react-native";</p></code>
+
+### 📜 App.js
+```jsx
+import React, {Component} from "react";
+import {Plataform, Stylesheet, Text, View} from "react-native";
  
- <code><p>export default class App extends Component {</code>
-  <code>}</p></code>
-</pre>
+export default class App extends Component {
+}
+```
 
 # React Native Navigation
 <img src="https://6cro14eml0v2yuvyx3v5j11j-wpengine.netdna-ssl.com/wp-content/uploads/Build-a-messaging-app-using-react-native1.png"/>
