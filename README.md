@@ -1653,6 +1653,12 @@ Os aspectos da API do Redux é que os Reducers representem uma atualização des
 
 - reducer: `store.getState()`
 
+Isso literalmente acontece da seguinte forma: 
+
+```javascript
+
+```
+
 <!-- 
 
 # React Router
