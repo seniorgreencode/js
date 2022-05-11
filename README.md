@@ -1639,6 +1639,8 @@ As principais características do Redux são:
 
 O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são eles:
 
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/167932197-80c4ec19-6121-421d-b180-3ec09508f2da.jpg"></div>
+
 - Ter uma única fonte de verdade.
 > Tentar centralizar tudo em um único lugar imutável. Evitando assim, o problema de descentralização de múltiplas Stores.
 
