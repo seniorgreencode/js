@@ -2261,12 +2261,6 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 ## AJAX
 <div align="center"><img src="https://good-code.ru/wp-content/uploads/2019/02/ajax-javascript.png" height="277"></div>
 
-
-## 📜 Web Dev Stacks 🔋
-Iremos utilizar todos! Mais pra frente.
-
-![36ed3e0f-5344-4a7e-b807-e6104c6d63be](https://user-images.githubusercontent.com/61624336/117226732-ad384d00-adeb-11eb-8d91-e3ea47b6050b.jpg)
-
 <hr>
 
 
