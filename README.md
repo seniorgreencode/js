@@ -353,6 +353,7 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
 </ul>
 
 # 🗺️ JavaScript (JS) RoadMap
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg"></div>
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
