@@ -22,17 +22,6 @@
 -->
 <blockquote>I created this repository for my JavaScript Full-Stack development learning.</blockquote>
 
-## Prerequisites and repositories:
-<ul>
-  <li>Good domains in English;</li>
-  <li>Programming logic;</li>
-  <li>Programming paradigms;</li>
-  <li>HTML, CSS, SVG, Sass, Bootstrap;</li>
-  <li>Databases, SQL language and No-SQL;</li>
-  <li>HTTP methods and APIs</li>
-  <li>Desire to learn.</li>
-</ul>
-
 <div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png"></div><br>
 
 ## Links de Apoio:
