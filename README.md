@@ -14,6 +14,7 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 
 ![Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734688-41d23a33-6cf3-4d7e-8854-99e86fbdab7f.jpg)
 
+![vanilla_js_jquery_header](https://user-images.githubusercontent.com/61624336/169734962-aa4ef568-3679-4403-8f84-0143ed227fac.jpg)
 
 # 📜 Paradigmas de programação
 ![st,small,507x507-pad,600x600,f8f8f8 JS](https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg)
