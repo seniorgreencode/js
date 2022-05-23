@@ -10,7 +10,13 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
+![Coding-Page-Transitions-in-Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734667-48f2056c-9623-4468-b110-66c063026cb8.jpg)
+
+![Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734688-41d23a33-6cf3-4d7e-8854-99e86fbdab7f.jpg)
+
+
 # 📜 Paradigmas de programação
+![st,small,507x507-pad,600x600,f8f8f8 JS](https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg)
 
 Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do Leaflet.
 
