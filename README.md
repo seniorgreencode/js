@@ -32,6 +32,7 @@
 - https://developers.google.com/blockly
 - https://br.codecombat.com/
 - https://exercism.org/dashboard
+- https://stackoverflow.com/questions/68329202/how-to-run-frontend-and-backend-on-same-port-if-i-am-using-vanilla-js-on-front
 
 # 🐒 Paradigmas de desenvolvimento de software
 
