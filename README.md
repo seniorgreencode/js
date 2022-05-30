@@ -4,7 +4,7 @@
 <blockquote>I created this repository for my Vanilla JavaScript (Imperative paradigm) learning.</blockquote>
 
 # 🍦 Vanilla JavaScript
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
 
 O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o **JavaScript puro**. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
 
