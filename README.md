@@ -174,9 +174,7 @@ print(a); // Imprime o dado
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107866199-d381c880-6e4c-11eb-99a5-5294cb232106.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg)
 
-<hr>
-
-<h1 align="center">Cap 03: 📜 Tipos Primitivos 🐵</h1>
+## Tipos Primitivos
 <p>Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (0 e 1).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
@@ -195,14 +193,14 @@ O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com m
 </ul>
 </p>
 
-## ✔️ Boolean ❌
+### Boolean
 <p><b>Boolean</b> (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
 Assim como os bits, eles também só armazenam 2 possíveis valores: <b>true</b> ou <b>false</b> (verdadeiro ou falso).
 
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.</p>
 
-## ❓ Undefined e Null 🕳️
+### Undefined e Null
 <p>Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
@@ -211,7 +209,7 @@ Há uma diferença bem pequena entre undefined e null. Na verdade a existência 
 
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
-## 🔢 Number 🔟
+### Number
 <p>O tipo number é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas <b>no JavaScript tudo é Number</b>.
