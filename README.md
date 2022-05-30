@@ -393,17 +393,14 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
   
   O operador <b>--</b> diminui o valor em 1 unidade, ou seja, se colocarmos com o valor 3, seu valor se tornará 2. Veremos melhor sobre esses operadores mais para frente.</p>
 
-## Operadores de Igualdade (==, ===, !=, !==)
-<div align="center">
+## Operadores de Igualdade
+<img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
-![Meme do JavaScript sobre tipos primitivos](https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png)
-
-</div>
 <p>Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor true ou false.</p>
-<ul>
-  <li>"==": serve para verificarmos se dois valores são <b>iguais</b>.</li>
-  <li>"!=": serve para verificarmos se dois valores são <b>diferentes</b>.</li>
-</ul>
+
+- `==` serve para verificarmos se dois valores são <b>iguais</b>.
+- `!=` serve para verificarmos se dois valores são <b>diferentes</b>.
+  
 <blockquote><b>Obs:</b> O operador "<b>=</b>" é somente usado para atribuir um valor e não para verificar os dois valores como os operadores "==" ou "!=". Ele é muito usado em <strong>variáveis</strong>, que veremos mais pra frente!</blockquote>
 <blockquote><b>👍 Dica:</b> "!" é um operador que indica negação. Então "!=" seria o equivalente que dizer que algo é "não igual".</blockquote>
 <p>Usar esses comparadores pode causar alguns problemas, pois eles vão pelo valor, ignorando o tipo do valor. Vamos entender melhor:</p>
