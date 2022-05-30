@@ -88,8 +88,6 @@ Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação
 ```javascript
 console.log("Hello, World!");
 ```
-
-> O `console.log` no JavaScript salva vidas! Você irá utilizar muito esse comando.
  
 # 📒 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
@@ -246,7 +244,7 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 # 🃏 Jest
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="277"></a></div><br \>
 
-# ⚫ Cypress
+w# ⚫ Cypress
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="277"></a></div><br \>
 
 # 🤖 Apache Cordova
