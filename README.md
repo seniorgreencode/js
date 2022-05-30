@@ -18,6 +18,10 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 
 ![vanilla_js_jquery_header](https://user-images.githubusercontent.com/61624336/169734962-aa4ef568-3679-4403-8f84-0143ed227fac.jpg)
 
+![og-learning-path-javascript](https://user-images.githubusercontent.com/61624336/171018189-1bddf171-73d5-4505-994e-7a8b100c946b.jpg)
+
+![javascript1200x628](https://user-images.githubusercontent.com/61624336/171018227-3d37b1d9-a3c3-4030-a9e9-bf287126e489.png)
+
 # 📜 Paradigmas de programação
 ![st,small,507x507-pad,600x600,f8f8f8 JS](https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg)
 
@@ -27,7 +31,7 @@ Cada ponto no mapa será gerenciado através de um CMS na cloud chamado GraphCMS
 
 Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas da teoria à prática, sem deixar nenhum detalhe para trás.
 
-# 📜 Primeiros comandos com JavaScript 🖥️
+# 📜 Primeiros comandos com JavaScript
 <img src="https://coursework.vschool.io/content/images/size/w2000/2016/03/javascript-logo-banner.jpg"/>
 <p>Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.</p>
 <blockquote>👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.</blockquote>
