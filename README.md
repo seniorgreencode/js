@@ -1142,28 +1142,18 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 
 <hr>
 
-# 📜 Dia do Programador 🎂
-![js](https://user-images.githubusercontent.com/61624336/112912839-edaaf980-90ce-11eb-9d72-9578fbfffbbf.jpg)
-
-<hr>
-
 ## JS Modulos
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s---6YkRB3I--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6nvkj71v011m7yr9xog1.png">
 
-## 📜 Web Dev Stacks 🔋
-Iremos utilizar todos! Mais pra frente.
-
-![36ed3e0f-5344-4a7e-b807-e6104c6d63be](https://user-images.githubusercontent.com/61624336/117226732-ad384d00-adeb-11eb-8d91-e3ea47b6050b.jpg)
-
 <hr>
 
-# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of JavaScript Promises 📜🎫
+# 📜 JavaScript Promises
 
 <blockquote>As promises são conceitos importantes</blockquote>
 
 <img src="https://miro.medium.com/max/3780/1*Bf17KrH3fJo09LTKHRYJcw.jpeg">
 
-# 📜 Entendendo Promises de uma vez por todas 🎫
+# 📜 Entendendo Promises de uma vez por todas
 <div align="center"><a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="277" title="Read the Blog"></a></div><br \>
 
 <p>Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.</p>
@@ -1175,10 +1165,10 @@ Iremos utilizar todos! Mais pra frente.
 
 De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.</p>
 
-# 🎫 Promises
+# 📜 Promises
 <p>As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.</p>
 
-## Código Assíncrono
+## Uso de código assíncrono
 - Requests HTTP
 - Leitura de arquivos
 - Acesso a serviço externo
@@ -1188,7 +1178,7 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
 
 <p>No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.</p>
 
-# 🎫 Promises no Node.js 🟩
+# 📜 Promises no Node.js
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
 
 <p>Fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo em seguida vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
