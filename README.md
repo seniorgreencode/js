@@ -1488,7 +1488,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 <div align="center"><img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/04/DOM-JAVASCRIPT.png"/></div><br \>
 
-# 📜 JavaScript OOP ⚽
+# 📜 JavaScript OOP
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" height="177"></div><br>
 
 <p>Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são
@@ -1512,7 +1512,7 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 <pre>nomeObjeto.método(argumento/ parâmetro)</pre>
 <p>Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.</p>
 
-## 📜 Onde escrever um JavaScript? ✍️
+## Onde escrever um JavaScript?
 <p>Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem!</p>
 
 ### 1° Solução: 📜 Embutido na página HTML 📙
@@ -1674,7 +1674,7 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103964080-51a9cb80-5139-11eb-8a2b-f03f6be7fd2e.jpg"/></div>
 <hr>
 
-# 📜 Browser Object Model (BOM) 🧙‍♀️
+# 📜 [BOM] Browser Object Model
 <div align="center"><img src="https://cdn.splessons.com/wp-content/uploads/2016/03/javascript-bom-01-splessons-1.png"/></div>
 <p>Anteriormente, no capítulo 15 foi apresentado a <a href="https://github.com/IsaacAlves7/javascript-programming/blob/master/README.md#-hierarquia-de-objetos-">hierarquia de objetos</a>, porém sem uma explicação bem aprofundada somente uma introdução rasa para informar mais sobre a ordem de objetos. Portanto, nesse capítulo e no 18 serão apresentados o <b>BOM</b> e o <b>DOM</b> que estão por trás da hierarquia de objetos. 
   
@@ -1750,7 +1750,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104108400-162b1080-52a3-11eb-817e-dea483ffeb6e.jpg)
 
-# 🧙‍♀️ BOM + DOM 🧙‍♂️
+# 🧙‍♀️ 🧙‍♂️ BOM + DOM
 <p>Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um determinado elemento através dos seus objetos. Vejamos um exemplo dessa união:</p>
 
 ### Exemplo 1:
@@ -1776,7 +1776,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 <p>O último passo é abrir o documento no navegador.</p>
 <hr>
 
-# 📜 Document Object Model (DOM) 🧙‍♂️
+# 📜 [DOM] Document Object Model
 <img src="https://miro.medium.com/max/3392/1*mMmuOhNytgqP7lrU9HPTpw.jpeg"/>
 
 <p>Essa é a estrutura do DOM (Document Object Model) que chamamos de "árvore DOM" pela semelhança com o formato da árvore ou raízes da árvore. O DOM também é um objeto do BOM e serve para manipular os elementos de uma página html, como links, divs, imagens, textos etc.</p>
@@ -1786,9 +1786,9 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-# 📜 [DOM] getElementById | getElementsByClassName 
+# 📜 [DOM] `getElementById` e `getElementsByClassName` 
 
-## 🧙‍♂️ [DOM] getElementById 🔮
+## [DOM] `getElementById`
 <p>O método <code>getElementById</code> permite a inserção do id para a execução de outros comandos.</p>
 
 ### Exemplo 1:
@@ -1796,7 +1796,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048991-ead0f480-51c2-11eb-8ae4-b39bdc2a70d1.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104049223-5f0b9800-51c3-11eb-9ebd-4562da09740f.jpg)
 
-## 🧙‍♂️ [DOM] getElementsByClassName 🔮🔮
+## [DOM] `getElementsByClassName`
 <p>O método <code>getElementsByClassName</code> diferente do <code>getElementById</code> nos permite a inserção de mais elementos pelo, atributo HTML, class.</p>
 
 ### Exemplo 1:
