@@ -36,7 +36,7 @@ Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas d
 <p>Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.</p>
 <blockquote>👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.</blockquote>
 
-## 🖥️ Hello, World! 🔡
+### Hello, World!
 <p>Primeiramente, crie um documento HTML, nomeie-o como “index.html”.</p>
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
@@ -44,17 +44,17 @@ Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas d
 
 <p>Agora, existem duas maneiras de criar um documento JS:</p>
 
-### 📜 No body 🥼
+### No `<body>` (corpo)
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102247838-3dc6cd00-3edf-11eb-8302-f77de2b3348d.jpg)
 
-### 📜 No head 🥽
+### No `<head>` (cabeça)
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102253843-a2d1f100-3ee6-11eb-9d1b-016921aae815.jpg)
 
 <blockquote><b>Obs:</b> Carrega o script primeiro antes do body, o que é mais ideal!</blockquote>
 
-### 📜 Opcional (No arquivo) 📜
+### Opcional (No arquivo)
 <p> Outra maneira válida é criar um documento com a extensão <b>.js</b>, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no &lt;head&gt; como no &lt;body&gt;.</p>
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
@@ -92,11 +92,11 @@ Nesse caso, para exibir resultados ou mensagens no console do navegador utilize 
   <li><code>window.prompt()</code> janela com textbox e ok.</li>
 </ul>
 
-## 📜 Comentários 🗒️
+## Comentários
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102369729-0ae20f00-3f9b-11eb-94c3-d33c143605b9.jpg)
 
-## 📜 O que são dados? 🎲
+## O que são dados?
 <p>Tudo o que existe no mundo dos computadores são <b>dados</b>. Os dados podem ser criados, modificados e apagados.
 
 Os dados são armazenados no que conhecemos como <b>bits</b>. Cada bit pode ter um valor 0 ou 1, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de <b>sistema binário</b>.
@@ -226,7 +226,7 @@ Podemos ter números inteiros (sem casas decimais) e números flutuantes (com ca
 </ul>
 </p>
 
-## ♾️ Números Especiais ♾️
+## Números Especiais
 <p>Também temos três valores especiais no JavaScript que são considerados do tipo Number, mas não são números comuns.
 
 Os dois primeiros são o <b>Infinity</b> e <b>-Infinity</b>, que indicam valores infinitos positivos e negativos.
@@ -234,7 +234,7 @@ Os dois primeiros são o <b>Infinity</b> e <b>-Infinity</b>, que indicam valores
 O último é o <b>NaN</b> (not a number). Esse valor do tipo Number indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número 5, o resultado não pode ser um número, então resultará em NaN.
 </p>
 
-## 🔠 Strings 🔣
+## Strings
 <p>As Strings são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
 <ul>
   <li>"Olá, sou uma string"</li>
@@ -255,7 +255,7 @@ Hoje em dia também temos um novo tipo de string, que usa o acento grave (crase)
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102538561-30e6dc80-408b-11eb-8bae-1a59295efe0e.jpg)
 
-## 👤 Escape de Caracteres 🔣
+## Escape de Caracteres
 <p>Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.</p>
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -307,10 +307,10 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
   </tr>
 </table>
 
-### 🔣 Symbols 🔣
+### Symbols
 <p>O <b>Symbol</b> é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.</p>
 
-## ✔️ Valores verdadeiros e falsos ❌
+## Valores verdadeiros e falsos
 <p>Outros valores no JavaScript possuem valores equivalentes ao true e false.
   
 Um exemplo é o número 0. Ele representa tanto o número zero quanto o valor false. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com false.
@@ -364,7 +364,7 @@ Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa t
 </p>
 <blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador <b>&&</b> só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
 
-### Operador || (OU)
+### Operador `||`
 <p>Vamos usar o mesmo copo azul para explicar o operador OU. Se eu disser duas verdades, o resultado só pode ser verdadeiro.
   
 Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em <b>true</b>.
@@ -378,7 +378,7 @@ Agora aqui é diferente do &&. Em uma comparação ||, se houver uma verdade, o 
 Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.</p>
 <blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador || só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
 
-## Operadores Aritméticos (+, -, *, /, %, ++, --, **)
+## Operadores Aritméticos
 <p>Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.</p>
 <ul>
   <li><b>+</b> (adição)</li>
@@ -429,7 +429,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 "a" < "z".
 ```
 
-## Concatenação de Strings (+)
+## Concatenação de Strings `+`
 <p>O Operador "+" também tem outra função além de somar números: ele concatena Strings.</p>
 <p>Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:</p>
 
@@ -445,15 +445,15 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de <b>Operadores Binários</b>.</p>
 <p>Também temos os <b>Operadores Unários</b>, que são aqueles que só recebem um valor para funcionar.</p>
 
-### Operador "-"
+### Operador `-`
 <p>O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.</p>
 <pre>-3</pre>
 
-### Operador "!"
+### Operador `!`
 <p>Como vimos antes, esse operador serve para negação. Ele inverte os valores do tipo Boolean. Então um valor true se torna false e um false se torna true.</p>
 <pre>!true</pre>
 
-### Operador "typeof"
+### Operador `typeof`
 <p>Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.</p>
 <pre>typeof 3</pre>
 
@@ -615,10 +615,10 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 
 <hr>
 
-<h1 align="center">Cap 07: 📜 Estrutura condicional 👍👎</h1>
+## Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" width="1000"/>
 
-## 👍 O que são condições? 👎
+### O que são condições?
 <p><b>Condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
 
 O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
@@ -643,8 +643,7 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 ### Exemplo 3:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
 
-
-## 👍👎 Comparando valores com o switch 🎛️🎚️
+## Comparando valores com o `switch`
 <p>Para um grande número de condições é necessário um comando mais especializado do que somente o <code>if</code>, <code>else</code> ou <code>else if</code>, o comando <code>switch</code> é ideal para essa proposta. Observe a imagem abaixo:</p>
 
 ### Exemplo 1:
@@ -653,19 +652,21 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 <blockquote><b>Obs:</b> O <code>break</code> serve para pausar a execução por cada <code>case</code>, pois senão ele executa todas de uma só vez.</blockquote>
 <hr>
 
-<h1 align="center">Cap 08: 📜 Laços de Repetição 🔁</h1>
+## Laços de Repetição
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" width="1000"/>
 
-## 🔁 O que são laços de repetição 🔂
+### O que são laços de repetição?
 <p>Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
 
 Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de Laços de Repetição.
 
+  
 Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100. Daria muito trabalho digitar tudo.
 
+  
 E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os <b>laços de repetição</b>.</p>
 
-# 📜 For loop 🔂
+## `For loop`
 <p>Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.</p>
 <ol type="I">
   <li>Normalmente é a criação de uma variável de controle.</li>
