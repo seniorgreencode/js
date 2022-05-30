@@ -504,7 +504,7 @@ Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o
 
 O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo Number. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
 
-## 📥 Declarando e nomeando variáveis 🔤
+## Declarando e nomeando variáveis
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696091-8ac1e080-420a-11eb-9553-477915979001.jpg)
 
@@ -519,23 +519,23 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 
 <blockquote>Bem uniforme e fácil de compreensão para todos!</blockquote>
 
-## 📥 Declarando variáveis com operadores de atribuição 📤
+## Declarando variáveis com operadores de atribuição
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
 <blockquote><b>Obs:</b> Também funciona com a concatenação.</blockquote>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
 
-## ➕➕ Incremento e decremento de valores ➖➖
+## Incremento e decremento de valores
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
 
-## 📥 Variáveis locais e globais 🌎
+## Variáveis locais e globais
 <p>As variáveis podem ser classificadas em duas categorias:</p>
 <ul>
   <li><b>Variáveis locais</b> são as variáveis que estão dentro do escopo de um programa / função / procedimento.</li>
   <li><b>Variáveis globais</b> são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.</li>
 </ul>
 
-### 📥 let vs const vs var 📥
+## `let` vs `const` vs `var`
 <div align="center"><img src="https://miro.medium.com/max/320/0*2Iz9vcaOtPNivfen.png" height="270"/><img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="270"/></div>
 <p>A diferença entre eles é algo bastante notório no escopo:</p>
 <ul>
@@ -557,7 +557,7 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 </ul>
 <blockquote><b>Obs:</b> const e let só funcionam dentro do escopo do bloco <b>{ }</b>.</blockquote>
 
-### 📥 Alguns tipos de variáveis globais 🌎
+## Alguns tipos de variáveis globais
 <p>Existe mais de um tipo de variável global, como:</p>
 <ul>
   <li><p>Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.</p><img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/></li>
@@ -565,13 +565,13 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
   <li><p>Esse tipo de variável está dizendo explicitamente que a variável é global na janela</p><img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/></li>
 </ul>
 
-### 📞 Outra forma de chamar uma variável 📥
+### Outra forma de chamar uma variável
 <p>Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.</p>
 
 #### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
 
-### 💬 Perguntar e recolher dados de uma variável 📥
+## Variáveis Input no JS
 <p>O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.</p>
 
 #### Exemplo 1:
@@ -588,24 +588,26 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 <blockquote>Logo, a variável receberá o seu valor.</blockquote>
 <hr>
 
-<h1 align="center">Cap 06: 📜 Escopo 🏠🗾🌏</h1>
-<div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" width="500"/><img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" width="500"/></div></br>
+## Escopo do código no JavaScript
+<div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177"/></div></br>
 
 <p>É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:</p>
 
-## Escopo Global 🌏
+### Escopo Global
 <p>Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.</p>
 
 ### Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
 
-## Escopo de Função 🗾
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
+
+### Escopo de Função
 <p>Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.</p>
 
 ### Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
 
-## Escopo Local 🏠
+### Escopo Local
 <p>Variáveis declaradas dentro de um local cercado por <code>{ }</code>.</p>
 
 ### Exemplo:
