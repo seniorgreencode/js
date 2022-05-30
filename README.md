@@ -1668,6 +1668,8 @@ function counterReducer (state={value:0}, action){
 }
 ```
 
+![undraw_react](https://user-images.githubusercontent.com/61624336/171018624-2251d8ca-75ec-4f49-9eab-4b8d505da81a.svg)
+
 <!-- 
 
 # React Router
