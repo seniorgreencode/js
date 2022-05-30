@@ -1939,7 +1939,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Funções Hoisting 🏗️🤹</h1>
+# 📜 [ES6] Funções Hoisting
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107423823-9be8e880-6afb-11eb-9c6c-dc9d04fd916f.jpg)
@@ -1951,13 +1951,13 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ### Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107449573-8fc45180-6b22-11eb-8ab9-0a000a939de2.jpg)
 
-### Exemplo 4: 📜 Função setTimeout (Função do Browser) 🤹⏰
+### Exemplo 4: Função `setTimeout` (Função do Browser)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107451157-796bc500-6b25-11eb-8eeb-beb543ff7cae.jpg)
 
-### Exemplo 5: Outra forma "mais poluída" 📜🤢
+### Exemplo 5: Outra forma "mais poluída"
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107456784-9d340880-6b2f-11eb-9dc2-53450ef09b21.jpg)
 
-### Exemplo 6: 📜 Arrow function 🤹🏹
+### Exemplo 6: Arrow function
 Não podemos criar funções construtoras usando arrow functions.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107457270-8346f580-6b30-11eb-8795-301951a6c659.jpg)
 
@@ -2047,13 +2047,13 @@ A característica que permite podermos utilizar funções para definir valores d
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
 
 ### Exemplo 4:
-<pre>
+```javascript
   function sum(...args) {
     return args.reduce((acc, value) => acc + value, 0);
 }
 
 console.log(sum(5,5,5,2,3));
-</pre>
+```
 
 ### Exemplo 5: Integrar uma função com a outra
 <pre>
@@ -2192,13 +2192,6 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 <hr>
 
 # 📜 Aplicando conceitos Promises e Fetch
-<p></p>
-
-<hr>
-
-# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of AJAX programming 📜🔃🔢
-
-<blockquote>I created this repository for my AJAX development learning.</blockquote>
 
 <hr>
 
