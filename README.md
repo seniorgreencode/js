@@ -440,7 +440,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>No exemplo acima nós juntamos uma String com um cumprimento, uma String com um espaço vazio e uma String com um nome.</p>
 <p>Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.</p>
 
-## Operadores Unários (-, !, typeof, etc)
+## Operadores Unários
 <p>Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de <b>Operadores Binários</b>.</p>
 <p>Também temos os <b>Operadores Unários</b>, que são aqueles que só recebem um valor para funcionar.</p>
 
@@ -456,7 +456,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.</p>
 <pre>typeof 3</pre>
 
-## Operador Ternário (? :)
+## Operador Ternário
 <p>Vimos os operadores binários e unários. Vamos ver agora o <b>Operador Ternário Condicional</b>.</p>
 <p>Ele recebe três valores e serve para verificarmos uma condição.</p>
 <pre>3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
@@ -467,7 +467,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>Se a resposta for falsa, o terceiro elemento que passamos será retornado, no caso, a String "É menor".</p>
 <pre>3 > 8 ? 'É maior' : 'É menor' // retorna a String "É menor"</pre>
 
-## 🔄 Conversão automática de tipos 🔄
+## Conversão automática de tipos
 <p>No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.</p>
 <p>Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "ABC". Mesmo que ele escreva apenas números, receberemos uma String, como "21".</p>
 <p>Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a String em Number.</p>
@@ -479,14 +479,14 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>Aqui ele verá a operação como uma concatenação de Strings. Então o 1 será convertido para String, resultando em "51".</p>
 <p>Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.</p>
 
-## ➕ O que são expressões? 🔟
+## O que são expressões?
 <p>Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de "5 + 3" que produz o valor "8".</p>
 <p>Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragmento de código que produz um valor é chamado de "expressão".</p>
 <p>Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.</p>
 <p>Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.</p>
 <hr>
 
-<h1 align="center">Cap 05: 📜 O que são variáveis? 📥</h1>
+## Variáveis no JavaScript
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png"/>
 
 Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos.
