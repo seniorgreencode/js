@@ -1899,7 +1899,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104142228-671d3080-5399-11eb-8895-7508b834df15.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104142390-2d98f500-539a-11eb-8732-975f5dfc47a7.jpg)
 
-## [DOM] removeChild
+## [DOM] `removeChild`
 <p>O método <code>removeChild</code> serve para remover a criação do elemento filho, <code>createElement</code>.</p>
 
 ### Exemplo 1:
@@ -1908,7 +1908,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-# 📜 [DOM] childNodes
+# 📜 [DOM] `childNodes`
 <div align="center"><img src="https://www.w3schools.com/js/pic_navigate.gif"/></div>
 <p>Como vimos anteriormente, o DOM possui uma grande árvore com todos os elementos de uma página HTML, então, é interessante relacionar essa mesma árvore com uma árvore geneológica na qual o DOM é o pai e todos os elementos que descendem do <code>document</code> são filhos do DOM! No entanto, assim como na vida real, o DOM também tem primogênito e filho caçula.
 
@@ -1928,10 +1928,10 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 <blockquote><b>Obs:</b> Quando o <i>NodeList</i> retornar <code>#text</code> saiba que são os caracteres indefinidos como espaços ou comentários!</blockquote>
 <hr>
 
-# 📜 [DOM] nodeName, nodeType, nodeValue
+# 📜 [DOM] `nodeName`, `nodeType`, `nodeValue`
 <p>Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, portanto agora iremos aprender como pegar o nome, tipo e valor de um item pertencente ao <em>NodeList</em>.</p>
 
-## [DOM] nodeName
+## [DOM] `nodeName`
 <p>O atributo <code>nodeName</code> pega o nome do item pertencente ao <em>NodeList</em>.</p>
 
 ### Exemplo 1:
