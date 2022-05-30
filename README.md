@@ -244,7 +244,7 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 # 🃏 Jest
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="277"></a></div><br \>
 
-w# ⚫ Cypress
+# ⚫ Cypress
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="277"></a></div><br \>
 
 # 🤖 Apache Cordova
