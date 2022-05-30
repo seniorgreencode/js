@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://admin.johnserrano.co/content/images/2017/10/vanillajs.jpg" width="100%"/></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://admin.johnserrano.co/content/images/2017/10/vanillajs.jpg" width="100%"/></a></div>
 
 # <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦
 <blockquote>I created this repository for my Vanilla JavaScript (Imperative paradigm) learning.</blockquote>
