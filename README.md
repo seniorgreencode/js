@@ -327,10 +327,11 @@ Os seguintes valores são considerados falsos no JavaScript:</p>
 </ul>
 <p>Qualquer outro valor é considerado true, até mesmo a String "false" e "0", pois não são Strings vazias.</p>
 
-## 🐵 Informando o tipo do valor primitivo na operação 🔢
+## Informando o tipo do valor primitivo na operação
+
 <hr>
 
-<h1 align="center">Cap 04: 📜 O que são operadores? ➗</h1>
+## O que são operadores?
 <p>Até agora só vimos valores soltos que não fazem nada.
 Para fazermos alguma operação com esses valores, usamos os chamados "operadores".
   
@@ -341,14 +342,14 @@ O sinal "+" é um operador, o qual podemos usar para somar dois valores numéric
 
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.</p>
 
-## Operadores Lógicos (&&,||)
+## Operadores Lógicos
 <p>Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
 
 O "&&" indica uma condição "e", e o "||" indica uma condição "ou". Basicamente servem para juntar dois valores do tipo Boolean e ver se o resultado é algo verdadeiro ou falso.
 
 Exemplo: Copo azul</p>
 
-### Operador && (E)
+### Operador `&&`
 <p>Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
   
 Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em <b>true</b>.
