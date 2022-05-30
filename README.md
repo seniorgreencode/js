@@ -10,6 +10,8 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
+![mm_jsc_2048](https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg)
+
 ![Coding-Page-Transitions-in-Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734667-48f2056c-9623-4468-b110-66c063026cb8.jpg)
 
 ![Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734688-41d23a33-6cf3-4d7e-8854-99e86fbdab7f.jpg)
