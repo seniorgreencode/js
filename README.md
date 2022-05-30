@@ -1841,9 +1841,9 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-<h1 align="center">Cap 22: 📜 [DOM] innerHTML, Style e Atributos 🧙‍♂️🌬️</h1>
+# 📜 [DOM] innerHTML, Style e Atributos
 
-## 🧙‍♂️ [DOM] innerHTML 🌬️
+## [DOM] innerHTML
 <p>O atributo <code>innerHTML</code> permite a inserção de qualquer elemento e tag html no documento HTML.</p>
 
 ### Exemplo 1:
@@ -1890,7 +1890,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-<h1 align="center">Cap 23: 📜 [DOM] createElement 🧙‍♂️🥚</h1>
+# 📜 [DOM] createElement
 <p>O método <code>createElement</code> serve para criar elementos HTML.</p>
 
 ## Exemplo 1:
@@ -1903,9 +1903,9 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-<h1 align="center">Cap 24: 📜 [DOM] appendChild | removeChild 🧙‍♂️🐲💥</h1>
+# 📜 [DOM] appendChild | removeChild
 
-## 📜 [DOM] appendChild 🧙‍♂️🐲
+## [DOM] appendChild
 <p>O método <code>appendChild</code> serve para revelar a criação do elemento filho, <code>createElement</code>.</p>
 
 ### Exemplo 1:
@@ -1913,7 +1913,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104142228-671d3080-5399-11eb-8895-7508b834df15.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104142390-2d98f500-539a-11eb-8732-975f5dfc47a7.jpg)
 
-## 📜 [DOM] removeChild 🧙‍♂️💥
+## [DOM] removeChild
 <p>O método <code>removeChild</code> serve para remover a criação do elemento filho, <code>createElement</code>.</p>
 
 ### Exemplo 1:
@@ -1922,7 +1922,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <hr>
 
-<h1 align="center">Cap 25: 📜 [DOM] childNodes 🧙‍♂️👨‍👦‍👦</h1>
+# 📜 [DOM] childNodes
 <div align="center"><img src="https://www.w3schools.com/js/pic_navigate.gif"/></div>
 <p>Como vimos anteriormente, o DOM possui uma grande árvore com todos os elementos de uma página HTML, então, é interessante relacionar essa mesma árvore com uma árvore geneológica na qual o DOM é o pai e todos os elementos que descendem do <code>document</code> são filhos do DOM! No entanto, assim como na vida real, o DOM também tem primogênito e filho caçula.
 
@@ -1942,10 +1942,10 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 <blockquote><b>Obs:</b> Quando o <i>NodeList</i> retornar <code>#text</code> saiba que são os caracteres indefinidos como espaços ou comentários!</blockquote>
 <hr>
 
-<h1 align="center">Cap 26: 📜 [DOM] nodeName, nodeType, nodeValue 🧙‍♂️🩸</h1>
+# 📜 [DOM] nodeName, nodeType, nodeValue
 <p>Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, portanto agora iremos aprender como pegar o nome, tipo e valor de um item pertencente ao <em>NodeList</em>.</p>
 
-## 🧙‍♂️ [DOM] nodeName 🩸
+## [DOM] nodeName
 <p>O atributo <code>nodeName</code> pega o nome do item pertencente ao <em>NodeList</em>.</p>
 
 ### Exemplo 1:
@@ -1977,7 +1977,7 @@ Não podemos criar funções construtoras usando arrow functions.
 
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Default Function Arguments 🛌🤹</h1>
+# 📜 [ES6] Default Function Arguments
 <p>Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!</p>
 
 ## Exemplo 1:
@@ -2008,7 +2008,7 @@ A característica que permite podermos utilizar funções para definir valores d
 
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Enhanced Object Literals 🚪</h1>
+# 📜 [ES6] Enhanced Object Literals
 <p>A maneira clássica de escrever objetos literais é como o exemplo abaixo:</p>
 
 ### Exemplo 1:
@@ -2034,7 +2034,7 @@ A característica que permite podermos utilizar funções para definir valores d
 
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Rest, Spread Operator e destructing 🧵</h1>
+# 📜 [ES6] Rest, Spread Operator e destructing
 <p>Observe a função abaixo:</p>
 
 ### Exemplo 1: Função normal
@@ -2143,7 +2143,7 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Generators ⚗️</h1>
+# 📜 [ES6] Generators
 
 ## Symbols
 <p>Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.</p>
@@ -2182,7 +2182,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 <hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Aprenda sobre Generators e onde utilizá-los ⚗️📖</h1>
+# 📜 [ES6] Aprenda sobre Generators e onde utilizá-los
 <p>Generators são funções com pausa e elas despausam valores através da interface de iteração.</p>
 
 ### Exemplo 1: Função normal
@@ -2205,11 +2205,8 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 <hr>
 
-<h1 align="center">Cap: 📜 Aplicando conceitos Promises e Fetch 🎫🎟️</h1>
+# 📜 Aplicando conceitos Promises e Fetch
 <p></p>
-
-# 📜 Dia do Programador 🎂
-![js](https://user-images.githubusercontent.com/61624336/112912839-edaaf980-90ce-11eb-9d72-9578fbfffbbf.jpg)
 
 <hr>
 
@@ -2219,7 +2216,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 <hr>
 
-# 🔃 AJAX (Asynchronous JavaScript And XML) 🔃
+# 🔃 AJAX (Asynchronous JavaScript And XML)
 
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="277"></div><br \>
 
