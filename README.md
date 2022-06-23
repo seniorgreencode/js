@@ -97,7 +97,7 @@ No diretório do usuário (root):
 sudo apt install nodejs
 ```
 
-# 📦 NPM - Node Package Manager
+# 📦 `npm` - Node Package Manager
 <div align="center"><a href="https://www.npmjs.com/"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="177" title="Site do NPM"/></a></div><br \>
 
 O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node.js, mesmo sendo o gerenciador ele também é independente do Node.js. É através do NPM que podemos instalar a bibliotecas do Node para desenvolver qualquer tipo de aplicação.
