@@ -325,3 +325,6 @@ Acessar um dado através de um objeto.
 
 # 💉 Injeção de Dependências (Dependency Injection)
 A **injeção de dependências** é um _design pattern_ muito utilizado para fazer com que uma classe seja independente de suas dependências.
+
+As vezes, precisamos compartilhar uma função de componente Pai em todas os seus descendentes (parecido com o conceito de Herança em POO), então para isso é utilizado o conceito de injeção de dependências.
+
