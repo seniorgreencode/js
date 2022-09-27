@@ -128,7 +128,7 @@ Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com
 
 O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.</p>
 
-# 🟩 Node.js
+# ⬢ Node.js
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="277" title="Site do Node.js"/></a></div><br \>
 
 <p>Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b>. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
@@ -287,8 +287,6 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 
 # ☸️ JavaScript no Kubernetes
 
-<hr>
-
 # ☁️ JavaScript em Cloud Computing
 <div align="center"><img src="https://www2.assets.heroku.com/assets/languages/node/hero-7c7b5d89d7896c6d0e6ff63aa82ba97c294d5b2a31a46375f8cc558d3cf1d1ff.png" height="277"></div>
 
@@ -300,8 +298,6 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 
 ## JavaScript na GCP - Google Cloud Plataform
 <div align="center"><img src="https://symbols.getvecta.com/stencil_82/34_google-appengine-icon.e31a7499e4.svg" height="277"></div>
-
-<hr>
 
 # 🏆 A importância do JavaScript para o mundo
 <div align="center"><img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg"/></div><br \>
@@ -342,10 +338,6 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
 
 # 🗺️ JavaScript (JS) RoadMap
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg"></div>
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) |
-| :---: |
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
