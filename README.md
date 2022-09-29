@@ -20,7 +20,6 @@
 
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/js_button_icon_151927.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/web_button_icon_151905.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/ionic_button_icon_151955.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/sass_button_icon_151921.png" height="47"></div>
 -->
-<blockquote>I created this repository for my JavaScript Full-Stack development learning.</blockquote>
 
 <div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png"></div><br>
 
@@ -44,8 +43,6 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 - **Funcional**: Trabalha com a divisão de problemas através de funções, que resolvem separadamente problemas menores e que, ao serem organizados, resolvem o problema como um todo.
 - **Lógico**: Voltado ao desenvolvimento de problemas de lógica e usado em sistemas de inteligência computacional.
 - **Orientado a Objetos (OO)**: Define um conjunto de classes para dividir o problema e realiza a interação entre as diferentes classes para também resolver o problema como um todo.
-
-----
 
 # 📜 The History of JavaScript (JS)
 <div align="center">
