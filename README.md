@@ -23,6 +23,7 @@
 
 <div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png"></div><br>
 
+<!--
 ## Links de Apoio:
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
@@ -32,6 +33,7 @@
 - https://br.codecombat.com/
 - https://exercism.org/dashboard
 - https://stackoverflow.com/questions/68329202/how-to-run-frontend-and-backend-on-same-port-if-i-am-using-vanilla-js-on-front
+-->
 
 # 🐒 Linguagem de programação
 
