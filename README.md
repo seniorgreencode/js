@@ -33,7 +33,7 @@
 - https://exercism.org/dashboard
 - https://stackoverflow.com/questions/68329202/how-to-run-frontend-and-backend-on-same-port-if-i-am-using-vanilla-js-on-front
 
-# 🐒 Paradigmas de desenvolvimento de software
+# 🐒 Linguagem de programação
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
 
