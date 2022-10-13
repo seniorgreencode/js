@@ -101,41 +101,41 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <blockquote>📜 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 # 🍦 Vanilla JavaScript
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177"></a></div>
 
 # ⚛️ A presença do JavaScript atualmente
-<div align="center"><img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="293"/></div>
+<div align="center"><img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177"/></div>
 
 <p>Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="277"/></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177"/></div><br \>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
 # ☄️ jQuery
-<div align="center"><img src="https://symbols.getvecta.com/stencil_85/42_jquery-vertical.b4cafb2753.svg" height="277"></div><br \>
+<div align="center"><img src="https://symbols.getvecta.com/stencil_85/42_jquery-vertical.b4cafb2753.svg" height="177"></div><br \>
 
 Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins. Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN.
 
 # 🚘 V8
-<div align="center"><a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="277" title="Site do V8"/></a></div><br \>
+<div align="center"><a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do V8"/></a></div><br \>
 
 <p>Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
 O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.</p>
 
 # ⬢ Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="277" title="Site do Node.js"/></a></div><br \>
+<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js"/></a></div><br \>
 
 <p>Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b>. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
   
 Empresas grandes começaram a migrar de linguagens como Ruby e Java para o Node.js, como é o caso do PayPal, Yahoo!, eBay, Linkedin e Trello. Todas elas afirmam que conseguiram desenvolver em menos tempo, com menos linhas de códigos e que seus sistemas agora possuem um melhor desempenho.</p>
 
 # 🧭 NW.js
-<div align="center"><a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="277"></a></div><br \>
+<div align="center"><a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177"></a></div><br \>
 
 O **Node Web-Kit**, ou simplesmente **NW.js** é uma aplicação em tempo de execução baseado em *Chromium* e *Node.js*, com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
 
@@ -149,7 +149,7 @@ Para ter uma ideia do que é possível fazer com ele visite o site:
 - https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
 
 # :electron: Electron
-<div align="center"><a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="277"></a></div><br \>
+<div align="center"><a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="177"></a></div><br \>
 
 O **Electron** é um framework de código aberto criada inicialmente pelo editor _GitHub for Atom_ em 2013. Essa biblioteca permite criar aplicativos GUI de desktop com tecnologias da web como JavaScript, HTML e CSS.
 
@@ -165,122 +165,118 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 <p>O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!</p>
 
 # 🤪 Processing.js
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="277"></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177"></div><br \>
 
 **Processing.js** é uma porta JavaScript descontinuada de Processing, uma estrutura projetada para escrever visualizações, imagens e conteúdo interativo. Ele permite que os navegadores da web exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos sem a necessidade de um miniaplicativo Java ou plugin Flash.
 
 <blockquote>Um exemplo de aplicação feita com Processing.js são os emojis interativos e animados do Facebook, como o amei, grr, triste, haha, uau, like e um bônus.</blockquote>
 
 # 🧙‍♂️ Browserify 
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177"></a></div><br \>
 
 # 🎯 Require.js 
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/72_requirejs.fb1351cffb.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/72_requirejs.fb1351cffb.svg" height="177"></a></div><br \>
 
 # 🧸 Puppeteer
-<div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="277"></div><br \>
+<div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177"></div><br \>
 
 # 📜 JSS
-<div align="center"><img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="277"></div><br \>
+<div align="center"><img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177"></div><br \>
 
 # 🐗 Grunt
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177"></a></div><br \>
 
 # 🐠 Babel
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="177"></a></div><br \>
 
 O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
 
 Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do **TC39**, o comitê técnico que especifica o ECMAScript. O Babel também pode **converter a sintaxe JSX** e **remover anotações de tipo do Flow** e do **TypeScript**. Babel é **construído a partir de plugins**. Componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
 # ⚡ Flow
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177"></a></div><br \>
 
 # 🟦 TypeScript (TS)
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/85_typescript.cb2d7326fa.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/85_typescript.cb2d7326fa.svg" height="177"></a></div><br \>
 
 # 🟪 ESLint
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177"></a></div><br \>
 
 Antes de entender o que é o **ESLint**, você precisa aprender o conceito de **Lint**. O **Lint** ou **Linter** é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. 
 
 Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX.
 
 # 🐹 Ember
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="177"></a></div><br \>
 
 # ⚛️ React.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177"></a></div><br \>
 
 ## Next.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177"></a></div><br \>
 
 ## Redux
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></a></div><br \>
 
 ## Gatsby
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177"></div><br \>
 
 # 🛡️ Angular.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177"></a></div><br \>
 
 # 🅰️ Angular
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177"></a></div><br \>
 
 # ✌️ Vue.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177"></a></div><br \>
 
 <p>O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
   
 # 🧊 Webpack
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177"></a></div><br \>
 
 O **Webpack** é um empacotador que pega módulos com dependências e cria conteúdos estáticos para produção.
 
 # 🥤 Gulp
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/32_gulp.9db342974c.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/32_gulp.9db342974c.svg" height="177"></a></div><br \>
 
 # 🃏 Jest
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177"></a></div><br \>
 
 # ⚫ Cypress
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177"></a></div><br \>
 
 # 🤖 Apache Cordova
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177"></a></div><br \>
 
 # 🔵 Ionic
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="277"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177"></a></div><br \>
 
 # ⚛️ React Native
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177"></div><br \>
 
 # 🦕 Deno
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177"></div><br \>
 
 # 🦁 Nest JS
-<div align="center"><img src="https://seeklogo.com/images/N/nestjs-logo-09342F76C0-seeklogo.com.png" height="277"></div><br \>
+<div align="center"><img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177"></div><br \>
 
 # ☕ Mocha
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177"></div><br \>
 
 # 🍵 Chai
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177"></div><br \>
 
 # 🗑️ js-bin
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177"></div><br \>
 
 # 🦎 RxJS
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="277"></div><br \>
-
-<hr>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177"></div><br \>
 
 # 📚 Bibliotecas JavaScript
 
 ## highlighter.js
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/132415637-d7c1319c-847f-48b3-a9d6-71437a18be07.png" height="277"></div>
-
-<hr>
 
 # 🐋 JavaScript no Docker
 
