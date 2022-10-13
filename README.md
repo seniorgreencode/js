@@ -116,7 +116,7 @@ O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no in
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
 # ☄️ jQuery
-<div align="center"><img src="https://symbols.getvecta.com/stencil_85/42_jquery-vertical.b4cafb2753.svg" height="177"></div><br \>
+<div align="center"><img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="177"></div><br \>
 
 Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins. Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN.
 
