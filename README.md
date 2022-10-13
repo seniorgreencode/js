@@ -42,8 +42,8 @@ Em setembro de 2008 a Google lançou seu navegador, o **Google Chrome**. O Chrom
 
 O V8 "compila" o JavaScript, mas por trás ele executa a linguagem **C++**. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
 
-# 🟩 Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="270" title="Site do Node.js"/></a></div><br \>
+# ⬢ Node.js
+<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js"/></a></div><br \>
 
 <p>Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b>. O Node usa o <a href=""><b>V8</b></a> (A engine/ motor do Google Chrome) fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
   
