@@ -98,7 +98,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="177"/></div><br \>
 
-<blockquote>👍 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
+<blockquote>📜 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 # 🍦 Vanilla JavaScript
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
