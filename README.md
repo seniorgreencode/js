@@ -49,7 +49,7 @@ Hoje em dia, o desenvolvimento de sistemas se baseia em vários e diferentes par
 # 📜 The History of JavaScript (JS)
 <div align="center">
   
-| [<img src="https://avatars.githubusercontent.com/u/313317?v=4" width="177"><br><sub>Brendan Eich</sub>](https://github.com/BrendanEich) 
+| [<img src="https://avatars.githubusercontent.com/u/313317?v=4" height="177"><br><sub>Brendan Eich</sub>](https://github.com/BrendanEich) 
 |:-:|
 
 </div>
