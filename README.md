@@ -1,7 +1,7 @@
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React-Native"><img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif" width="100%"></a>
 
 # It's a repository of React Native Development 📲
-> 📲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode), Node.js e npm instalados, Usar os S.Os: macOS ou Windows (recomendado o macOs pelo emulador iOS do XCode), Android Studio ou XCode, Instaladores de pacotes: Chocolatey (Windows) e Cocoapods (MacOS), PC com mais de 4GB de memória RAM.
+> 📲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode), Node.js e npm instalados, Usar os S.Os: macOS ou Windows (recomendado o macOs pelo emulador iOS do XCode), baixar o Android Studio ou XCode, Instaladores de pacotes: Chocolatey (Windows) e Homebrew (MacOS), PC com mais de 4GB de memória RAM, JDK com a versão mais recente possível.
 
 <div align="center"><img src="https://poster.keepcalmandposters.com/default/5743931_keep_calm_and_try_react_native.png" height="177"></div>
 
@@ -36,27 +36,6 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
   <a href="https://developer.android.com/studio"><img src="https://www.netcost-security.fr/wp-content/uploads/2022/02/Android-Studio-fournit-tout-ce-dont-vous-avez-besoin-pour.png" height="177" title="Android Studio"/></a>
   <a href="https://developer.apple.com/xcode/"><img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" height="177" title="Xcode"/></a>
   </div>
-  <li>Instale as dependências:</li>
-  <b>Android:</b>
-  <ul>
-    <li>JDK8 e JRE</li>
-    <li>Android SDK</li>
-    <li>Android SDK Plataform</li>
-    <li>Performace (Intel Haxm)</li>
-    <li>Android Virtual Device - AVD x64_86 PlayStore</li>
-  </ul>
-    <b>IOS:</b>
-  <ul>
-    <li>instalar o Homebrew</li>
-    <li>Xcode</li>
-  </ul><br><br>
-
-  <li>Instale o Expo</li>
-  <div align="center"><img src="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/65/24/19/652419e4-053e-d24a-1850-da1073f092e6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png" title="Expo"/></div>
-  <pre>yarn global add expo-cli</pre>
-  <pre>expo client:install:android</pre>
-  <pre>expo start</pre>
-</ol>
 
 ## Primeiro Projeto com React Native (Expo)
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--H6L3JDpH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://repository-images.githubusercontent.com/65750241/79017180-d4ce-11e9-9955-3f0a7be00c7a"/>
@@ -66,17 +45,6 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
   <pre>expo start</pre>
 <p>Logo, rodará o projeto criando a porta de localhost e abrindo uma janela do navegador com o controle do expo, onde você pode rodar nos emuladores android ou ios, no browser, ou até mesmo no próprio celular com o Qr Code. Como estamos utilizando o emulador android basta somente clicar em <b>run android</b>, dai com o Expo instalado na VM Android, o projeto se inicia.</p>
 <b>OBS: ctrl + m ou ⌘ + D = chacoalhada para o menu. ctrl + r = reload the application.</b>
-
-## Primeiro Projeto com React Native (CLI)
-<img src="https://linkites.com/wp-content/uploads/2019/04/React-native-Banner.png"/>
-<p>Com tudo configurado corretamente acima e com tudo instalado, está na hora de começar o nosso primeiro projeto com o React Native (CLI), para isso é simples basta iniciar o emulador Android ou IOS (é importante deixar eles ligados para o projeto funcionar), após isso siga os comandos abaixo:</p>
-  <pre>react-native init firstProject</pre>
-  <pre>cd firstProject</pre>
-  <pre>react-native run-android</pre>
-
-### Forçar o React Native a rodar uma versão específica
-  <pre>react-native init --version 0.55.4 firstProject</pre>
-  <pre>react-native -v</pre>
   
 ## Conhecendo os pacotes do React Native (CLI)
 <p>Na pasta <b>android</b> ficam as configurações e o código nativo do android; Na pasta <b>ios</b> ficam as configurações e o código nativo do ios; Na pasta <b>node_modules</b> todas as dependências instaladas pelo npm.</p>
