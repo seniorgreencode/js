@@ -3,10 +3,12 @@
 # It's a repository of React Native Development 📲
 > 📲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode), Node.js e npm instalados, Usar os S.Os: macOS ou Windows (recomendado o macOs pelo emulador iOS do XCode), Android Studio ou XCode, Instaladores de pacotes: Chocolatey (Windows) e Cocoapods (MacOS), PC com mais de 4GB de memória RAM.
 
+<div align="center"><img src="https://poster.keepcalmandposters.com/default/5743931_keep_calm_and_try_react_native.png" height="177"></div>
+
 # 📲 React Native
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="277"></div><br />
 
-<p>É uma biblioteca (framework) front-end do <b>JavaScript</b>, desenvolvido pelo <b>Facebook</b>, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Sendo assim, é bem diferente do outro framework JavaScript bem conhecido, o <b>React.js</b>.</p>
+<p>É uma biblioteca (framework) front-end do <b>JavaScript</b>, desenvolvido pelo <b>Facebook</b>, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e IOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Sendo assim, é bem diferente do outro framework JavaScript bem conhecido, o <b>React.js</b>.</p>
 
 ## Entendendo como funciona o React Native por debaixo dos panos
 
