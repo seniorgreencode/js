@@ -15,9 +15,8 @@
   <li>PC com mais de 4GB de memória RAM.</li>
   <li>VSCode.</li>
 </ol>
-<hr>
 
-# ⚛️📲 React Native
+# 📲 React Native
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="277"></div><br />
 
 <p>É uma biblioteca (framework) front-end do <b>JavaScript</b>, desenvolvido pelo <b>Facebook</b>, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e IOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Sendo assim, é bem diferente do outro framework JavaScript bem conhecido, o <b>React.js</b>.</p>
@@ -124,7 +123,7 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 <code>🧶 yarn.lock</code>
 </pre>
 
-## Hello, World! - React Native (CLI)
+# 📲 `Hello, World!` - React Native (CLI)
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```jsx
 import React, {Component} from "react";
