@@ -19,32 +19,8 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 
 ## Instalação e configuraração do React Native
 <a href="https://reactnative.dev/docs/environment-setup"><img src="https://apiko.com/blog/content/images/2020/04/12-Apps-Using-React-Native-Explaining-Value-and-Popularity.jpg"/></a>
-<h3>Instruções em etapas:</h3>
-<ol>
-  <li>Instale o node.js</li>
-  <li>Instale o yarn:</li>
-  <pre>npm install -g yarn</pre>
-  <pre>yarn global add expo-cli</pre>
-  <pre>yarn global add react-native-cli</pre>
-  <li>Instale o React Native:</li><br>
-  <p><b>Cli</b> (versão completa, mais pesada e com mais recursos):</p>
-  <pre>npm install -g react-native-cli</pre>
-  <p><b>Expo Cli</b> (versão capsulada, mais leve e com menos recursos):</p>
-  <pre>npm install -g expo-cli</pre>
-  <li>Instale os emuladores e mantenha-os atualizados! Recomendo usar esses abaixo, pois as chances de darem erros são baixas já que foram criados para o desenvolvimento de softwares:</li>
-  <div align="center">
-  <a href="https://developer.android.com/studio"><img src="https://www.netcost-security.fr/wp-content/uploads/2022/02/Android-Studio-fournit-tout-ce-dont-vous-avez-besoin-pour.png" height="177" title="Android Studio"/></a>
-  <a href="https://developer.apple.com/xcode/"><img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" height="177" title="Xcode"/></a>
-  </div>
 
-## Primeiro Projeto com React Native (Expo)
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--H6L3JDpH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://repository-images.githubusercontent.com/65750241/79017180-d4ce-11e9-9955-3f0a7be00c7a"/>
-<p>Com tudo configurado corretamente acima e com tudo instalado, está na hora de começar o nosso primeiro projeto com o Expo, para isso é simples basta iniciar o emulador Android ou IOS (é importante deixar eles ligados para o projeto funcionar), após isso siga os comandos abaixo:</p>
-  <pre>expo init firstProject</pre>
-  <pre>cd firstProject</pre>
-  <pre>expo start</pre>
-<p>Logo, rodará o projeto criando a porta de localhost e abrindo uma janela do navegador com o controle do expo, onde você pode rodar nos emuladores android ou ios, no browser, ou até mesmo no próprio celular com o Qr Code. Como estamos utilizando o emulador android basta somente clicar em <b>run android</b>, dai com o Expo instalado na VM Android, o projeto se inicia.</p>
-<b>OBS: ctrl + m ou ⌘ + D = chacoalhada para o menu. ctrl + r = reload the application.</b>
+> OBS: `ctrl + m ou ⌘ + D = chacoalhada para o menu`. `ctrl + r = reload the application`.
   
 ## Conhecendo os pacotes do React Native (CLI)
 <p>Na pasta <b>android</b> ficam as configurações e o código nativo do android; Na pasta <b>ios</b> ficam as configurações e o código nativo do ios; Na pasta <b>node_modules</b> todas as dependências instaladas pelo npm.</p>
