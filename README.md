@@ -142,34 +142,3 @@ export default class App extends Component {
   <pre><code>yarn add react-navigation</code></pre>
   <li>Exclua o App.js</li>
 </ol>
-
-## React Native
-<div align="center"><img src="https://metadesignsolutions.com/images/reactnative_banner.png" height="300"/></div>
-
-## React Native
-<div align="center"><img src="https://www.zibtek.com/assets/images/tech/bannerrightnative.png" height="300"/></div>
-
-## React Native
-<div align="center"><img src="https://blog.sodio.tech/wp-content/uploads/2017/05/React.png"/></div>
-
-## React Native
-<div align="center"><img src="https://images.squarespace-cdn.com/content/v1/55c8e052e4b01bd89f02a45e/1452208562614-J8AFSSTSMN3DJ6Q798XX/ke17ZwdGBToddI8pDm48kE7xzgWkeVHhMSpwGz7q3y4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2du1iGr6rVFVouDCrC-EYDz_rjS4LofYkqCp0pRSzPi5Jm7cT0R_dexc_UL_zbpz6JQ/image-asset.jpeg?format=1000w"/></div>
-
-## React Native
-<div align="center"><img src="https://graftonstudio.com/uploads/ReactJS-Banner.jpg"/></div>
-
-## React Native
-<div align="center"><img src="https://www.paragyte.com/img/React_Banner.png"/></div>
-
-## React Native
-<div align="center"><img src="https://akhilaariyachandra.com/static/7535b7cd9be3abaefd1ee294770652ba/e4796/banner.png"/></div>
-
-## React Native
-<div align="center"><img src="https://www.mobiloitte.com/images/react-js-banner.png"/></div>
-
-## React Native
-<div align="center"><img src="https://images.ctfassets.net/x4we65bqi45q/79clZXZmtPwWzTux2YIlgn/a78c0f54e7e6369275eaac7e04933835/1_HSisLuifMO6KbLfPOKtLow.jpeg"/></div>
-
-## React Native
-<div align="center"><img src="https://pbcdn1.podbean.com/imglogo/dir-logo/366516/366516_300x300.png" height="300"/></div>
-https://s3.amazonaws.com/ckl-website-static/wp-content/uploads/2016/08/Banner_reactnative4.jpg
