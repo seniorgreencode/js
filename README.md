@@ -86,7 +86,6 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
   <pre>expo start</pre>
 <p>Logo, rodará o projeto criando a porta de localhost e abrindo uma janela do navegador com o controle do expo, onde você pode rodar nos emuladores android ou ios, no browser, ou até mesmo no próprio celular com o Qr Code. Como estamos utilizando o emulador android basta somente clicar em <b>run android</b>, dai com o Expo instalado na VM Android, o projeto se inicia.</p>
 <b>OBS: ctrl + m ou ⌘ + D = chacoalhada para o menu. ctrl + r = reload the application.</b>
-<hr>
 
 ## Primeiro Projeto com React Native (CLI)
 <img src="https://linkites.com/wp-content/uploads/2019/04/React-native-Banner.png"/>
