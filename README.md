@@ -23,28 +23,8 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 > OBS: `ctrl + m ou ⌘ + D = chacoalhada para o menu`. `ctrl + r = reload the application`.
   
 ## Conhecendo os pacotes do React Native (CLI)
-<p>Na pasta <b>android</b> ficam as configurações e o código nativo do android; Na pasta <b>ios</b> ficam as configurações e o código nativo do ios; Na pasta <b>node_modules</b> todas as dependências instaladas pelo npm.</p>
-<pre>
-<code>📂 android</code>
-<code>📂 ios</code>
-<code>📂 node_modules</code>
-</pre>
-<p></p>
 
 ## Conhecendo os pacotes do React Native (Expo)
-<p>Na pasta <b>node_modules</b> todas as dependências instaladas pelo npm; No arquivo <b>app.json</b> determina como a aplicação é definida para o usuário final; No arquivo <b>App.js</b> fica o código da aplicação; No arquivo <b>yarn.lock</b> é o cache das dependências;</p>
-<pre>
-<code>📂 .expo</code>
-<code>📂 .expo-shared</code>
-<code>📂 assets</code>
-<code>📂 node_modules</code>
-<code>🔸 .gitignore</code>
-<code>💼 app.json</code>
-<code>📜 App.js</code>
-<code>📜 babel.config.js</code>
-<code>💼 package.json</code>
-<code>🧶 yarn.lock</code>
-</pre>
 
 # 📲 `Hello, World!` - React Native (CLI)
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
