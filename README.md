@@ -1,9 +1,7 @@
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React-Native"><img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif" width="100%"></a>
 
-# <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" height="27"> It's a repository of React Native Development ⚛️📲
-<blockquote>It's a repository of React Native programming using Expo and React Native CLI.</blockquote>
-
-<blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in React.js Framework development, if you want to learn about HTML5, CSS3 or other JS Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
+# It's a repository of React Native Development 📲
+> 
 
 <h2>Pré-requisitos:</h2>
 <ol>
