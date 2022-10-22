@@ -6,7 +6,7 @@
 <div align="center"><img src="https://poster.keepcalmandposters.com/default/5743931_keep_calm_and_try_react_native.png" height="177"></div>
 
 # 📲 React Native
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="277"></div><br />
+<div align="center"><a href="https://reactnative.dev/"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="177"></a></div><br />
 
 É uma biblioteca (framework) front-end do JavaScript, desenvolvido pelo Facebook, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Sendo assim, é diferente do outro framework JavaScript bem conhecido, o React.js.
 
