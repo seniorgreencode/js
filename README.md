@@ -1,7 +1,7 @@
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React-Native"><img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif" width="100%"></a>
 
 # It's a repository of React Native Development 📲
-> 📲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode), Node.js e npm instalados, Usar os S.Os: macOS ou Windows (recomendado o macOs pelo emulador iOS do XCode), Android Studio ou XCode, Instaladores de pacotes: Chocolatey (Windows) e Cocoapods (MacOS), PC com mais de 4GB de memória RAM;
+> 📲 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode), Node.js e npm instalados, Usar os S.Os: macOS ou Windows (recomendado o macOs pelo emulador iOS do XCode), Android Studio ou XCode, Instaladores de pacotes: Chocolatey (Windows) e Cocoapods (MacOS), PC com mais de 4GB de memória RAM.
 
 # 📲 React Native
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="277"></div><br />
