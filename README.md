@@ -36,11 +36,5 @@ export default class App extends Component {
 }
 ```
 
-# React Native Navigation
+# 📖 React Native Navigation
 <img src="https://6cro14eml0v2yuvyx3v5j11j-wpengine.netdna-ssl.com/wp-content/uploads/Build-a-messaging-app-using-react-native1.png"/>
-<p><b>Configurando a navegação:</b></p>
-<ol>
-  <li>Instale o react-navigation:</li>
-  <pre><code>yarn add react-navigation</code></pre>
-  <li>Exclua o App.js</li>
-</ol>
