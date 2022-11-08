@@ -31,8 +31,6 @@
 - Identifique onde o State deve ficar
 - Adicione o fluxo de dados inverso
 
----
-
 # ⚛️ React.js
 <div align="center"><a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="277"></a></div>
 
@@ -715,8 +713,6 @@ Dessa forma, o linting do ESLint vai informar todos os erros do código e você 
 "eslint": "eslint ./src/*.js"
 ```
 
----
-
 # Renderização Condicional
 Em ReactJS, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
 
@@ -852,8 +848,6 @@ const App = () => {
 export default App;
 ```
 
----
-
 # Listas e Chaves
 - Renderizando múltiplos componentes;
 - Componente de lista básico;
@@ -954,8 +948,6 @@ const App = () => {
 }
 ```
 
----
-
 # Manipulando eventos
 Manipular eventos em elementos React é muito semelhante a manipular eventos em elementos do DOM. Existem algumas diferenças sintáticas:
 
@@ -1030,8 +1022,6 @@ const App = () => {
 
 export default App;
 ```
-
----
 
 ## Hello, World! com uma Single Page Application (SPA)
 Veja mais como criar uma aplicação web em single-page usando a biblioteca **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
