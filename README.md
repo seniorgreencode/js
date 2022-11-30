@@ -21,9 +21,11 @@ Cada ponto no mapa será gerenciado através de um CMS na cloud chamado GraphCMS
 Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas da teoria à prática, sem deixar nenhum detalhe para trás.
 
 # 📜 Primeiros comandos com JavaScript
-<img src="https://coursework.vschool.io/content/images/size/w2000/2016/03/javascript-logo-banner.jpg"/>
-<p>Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.</p>
-<blockquote>👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.</blockquote>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="177" align="right">
+
+Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
+
+> 👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.
 
 ### Hello, World!
 Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
@@ -86,7 +88,7 @@ Nesse caso, para exibir resultados ou mensagens no console do navegador utilize 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102369729-0ae20f00-3f9b-11eb-94c3-d33c143605b9.jpg)
 
 ## O que são dados?
-<p>Tudo o que existe no mundo dos computadores são <b>dados</b>. Os dados podem ser criados, modificados e apagados.
+Tudo o que existe no mundo dos computadores são <b>dados</b>. Os dados podem ser criados, modificados e apagados.
 
 Os dados são armazenados no que conhecemos como <b>bits</b>. Cada bit pode ter um valor 0 ou 1, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de <b>sistema binário</b>.
 
@@ -98,11 +100,12 @@ Mas se tudo é feito por 0 e 1, como outros valores são formados?
 
 Bom, abaixo temos um exemplo simples.</p>
 
-![image](https://user-images.githubusercontent.com/61624336/102372658-2f8bb600-3f9e-11eb-9593-e147e8367efe.png)
+<img src="https://user-images.githubusercontent.com/61624336/102372658-2f8bb600-3f9e-11eb-9593-e147e8367efe.png" align="right" height="177">
 
-<p>Veja a linha de baixo, a qual tem valores 128, 64, 32, etc. Tudo é lido da direita para a esquerda. Lembra que Bits podem ter valor 1 ou 0? Então temos dois valores possíveis, o que nos faz ter um número de base 2.
+Veja a linha de baixo, a qual tem valores 128, 64, 32, etc. Tudo é lido da direita para a esquerda. Lembra que Bits podem ter valor 1 ou 0? Então temos dois valores possíveis, o que nos faz ter um número de base 2.
   
-Na computação, todas as contagens começam no 0, e não no 1.</p>
+Na computação, todas as contagens começam no 0, e não no 1.
+
 <ul>
   <li>2 elevado a 0 é igual a 1;</li>
   <li>2 elevado a 1 é igual a 2;</li>
