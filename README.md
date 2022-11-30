@@ -1370,9 +1370,8 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
-<hr>
 
-<h1 align="center">Cap: 📜 [Advanced ES6] Generators ⚗️</h1>
+# 📜 Generators
 
 ## Symbols
 <p>Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.</p>
@@ -1409,9 +1408,6 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ### Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
-<hr>
-
-<h1 align="center">Cap: 📜 [Advanced ES6] Aprenda sobre Generators e onde utilizá-los ⚗️📖</h1>
 <p>Generators são funções com pausa e elas despausam valores através da interface de iteração.</p>
 
 ### Exemplo 1: Função normal
@@ -1622,7 +1618,6 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 
 ## Exercício: Troca de images por eventos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103964080-51a9cb80-5139-11eb-8a2b-f03f6be7fd2e.jpg"/></div>
-<hr>
 
 # 📜 [BOM] Browser Object Model
 <div align="center"><img src="https://cdn.splessons.com/wp-content/uploads/2016/03/javascript-bom-01-splessons-1.png"/></div>
@@ -1821,16 +1816,14 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104043736-00dab700-51bb-11eb-8190-97dd471764d6.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104044235-caea0280-51bb-11eb-9c69-4f67bfbc2a7b.jpg)
 
-## 🧙‍♂️ [DOM] Atributo lastModified 🕵️
+## [DOM] `Atributo lastModified`
 <p>O atributo <code>lastModified</code> serve para mostrar o período da última modificação do elemento.</p>
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048044-68940080-51c1-11eb-9837-91bea05f8547.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048338-d5a79600-51c1-11eb-92d8-61fed89e89ca.jpg)
 
-<hr>
-
-# 📜 [DOM] createElement
+## [DOM] `createElement`
 <p>O método <code>createElement</code> serve para criar elementos HTML.</p>
 
 ## Exemplo 1:
@@ -1841,9 +1834,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104134740-5acdaf00-536a-11eb-8604-a5682cb6221f.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104134738-599c8200-536a-11eb-88bb-9e72c03c8145.jpg)
 
-<hr>
-
-# 📜 [DOM] appendChild | removeChild
+## [DOM] `appendChild` | `removeChild`
 
 ## [DOM] appendChild
 <p>O método <code>appendChild</code> serve para revelar a criação do elemento filho, <code>createElement</code>.</p>
