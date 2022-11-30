@@ -30,12 +30,12 @@ Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas d
 <blockquote>👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.</blockquote>
 
 ### Hello, World!
-<p>Primeiramente, crie um documento HTML, nomeie-o como “index.html”.</p>
+Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102241134-64810580-3ed7-11eb-9686-6ec2dde4c61a.jpg)
 
-<p>Agora, existem duas maneiras de criar um documento JS:</p>
+Agora, existem duas maneiras de criar um documento JS:
 
 No `<body>` (corpo):
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
@@ -1417,15 +1417,15 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ### Exemplo 4:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
 
-### Exemplo 5:
+**Exemplo 5**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
-<p>Generators são funções com pausa e elas despausam valores através da interface de iteração.</p>
+Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
-### Exemplo 1: Função normal
+**Exemplo 1**: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
-### Exemplo 2: Função Generator
+**Exemplo 2**: Função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
 ### Exemplo 3: Ordenando a função Generator
@@ -1450,12 +1450,12 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 # 📜 JavaScript OOP
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" height="177"></div><br>
 
-<p>Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são
-tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.</p>
+Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.
 
 ## Hierarquia de Objetos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png"/></div>
-<p>Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:</p>
+
+Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
 <ol>
   <li><code><b>window</b></code>: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.</li>
   <li><code><b>location</b></code>: Contém as propriedades da URL atual.</li>
