@@ -1895,8 +1895,6 @@ Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, p
 Não podemos criar funções construtoras usando arrow functions.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107457270-8346f580-6b30-11eb-8795-301951a6c659.jpg)
 
-<hr>
-
 # 📜 [ES6] Default Function Arguments
 <p>Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!</p>
 
@@ -1926,8 +1924,6 @@ A característica que permite podermos utilizar funções para definir valores d
 ## Exemplo 6:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-<hr>
-
 # 📜 [ES6] Enhanced Object Literals
 <p>A maneira clássica de escrever objetos literais é como o exemplo abaixo:</p>
 
@@ -1951,8 +1947,6 @@ A característica que permite podermos utilizar funções para definir valores d
 
 ## Exemplo 7:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
-
-<hr>
 
 # 📜 [ES6] Rest, Spread Operator e destructing
 <p>Observe a função abaixo:</p>
@@ -2061,7 +2055,6 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
-<hr>
 
 # 📜 [ES6] Generators
 
@@ -2099,8 +2092,6 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 ### Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
-
-<hr>
 
 # 📜 [ES6] Aprenda sobre Generators e onde utilizá-los
 <p>Generators são funções com pausa e elas despausam valores através da interface de iteração.</p>
