@@ -1,8 +1,3 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://admin.johnserrano.co/content/images/2017/10/vanillajs.jpg" width="100%"/></a></div>
-
-# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of Vanilla JS programming 🍦
-<blockquote>I created this repository for my Vanilla JavaScript (Imperative paradigm) learning.</blockquote>
-
 # 🍦 Vanilla JavaScript
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" width="27%"></a></div>
 
