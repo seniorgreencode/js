@@ -1123,12 +1123,8 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103591717-a9dd9500-4ecf-11eb-855a-fb88ffcd7f4b.jpg)
 ![Sem Título-12e2](https://user-images.githubusercontent.com/61624336/103591719-aa762b80-4ecf-11eb-822f-fcd9114180c2.jpg)
 
-<hr>
-
 ## JS Modulos
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s---6YkRB3I--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6nvkj71v011m7yr9xog1.png">
-
-<hr>
 
 # 📜 JavaScript Promises
 
@@ -1245,9 +1241,7 @@ A característica que permite podermos utilizar funções para definir valores d
 ## Exemplo 6:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-<hr>
-
-<h1 align="center">Cap: 📜 [Advanced ES6] Enhanced Object Literals 🚪</h1>
+# Enhanced Object Literals
 <p>A maneira clássica de escrever objetos literais é como o exemplo abaixo:</p>
 
 ### Exemplo 1:
@@ -2172,7 +2166,3 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 <div align="center"><img src="https://good-code.ru/wp-content/uploads/2019/02/ajax-javascript.png" height="277"></div>
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://d23cpcfk0ihnyh.cloudfront.net/blog/posts/1-20-2018-async-await/async-await.png" title="Full-Stack JS Development"/></a><br>
-
-<!--  
-
--->
