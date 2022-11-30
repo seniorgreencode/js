@@ -528,10 +528,13 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
   <li><b>Variáveis globais</b> são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.</li>
 </ul>
 
-## `let` vs `const` vs `var`
+## `let` vs `var` vs `const`
 <div align="center"><img src="https://miro.medium.com/max/320/0*2Iz9vcaOtPNivfen.png" height="177"/></div><br />
 
 A diferença entre eles é algo bastante notório no escopo:
+
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
+
 <ul>
   <li><b>var</b> funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
   
@@ -539,9 +542,7 @@ A diferença entre eles é algo bastante notório no escopo:
 
   </li>
   <li><b>let</b> funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
-    
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right"/>
-    
+        
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102961936-6d1fa000-44c4-11eb-82d5-4475c3d79687.jpg)
 
 </li>
