@@ -579,7 +579,7 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 <blockquote>Logo, a variável receberá o seu valor.</blockquote>
 
 ## Escopo do código no JavaScript
-<div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="277"/></div></br>
+<div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177"/></div></br>
 
 <p>É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:</p>
 
@@ -638,11 +638,10 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 
 <blockquote><b>Obs:</b> O <code>break</code> serve para pausar a execução por cada <code>case</code>, pois senão ele executa todas de uma só vez.</blockquote>
 
-## Laços de Repetição
-<img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" width="1000"/>
+## Laços de Repetição (Loops)
+<img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177"/><br />
 
-### O que são laços de repetição?
-<p>Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
+Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
 
 Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de Laços de Repetição.
 
