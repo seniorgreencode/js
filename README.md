@@ -737,7 +737,8 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 ## Arrays [Vetores]
-<div align="center"><img src="https://miro.medium.com/max/816/0*jJba103A-9xmpTYq.jpg" height="177"/></div>
+<div align="center"><img src="https://miro.medium.com/max/816/0*jJba103A-9xmpTYq.jpg" height="177"/></div><br />
+
 É uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
 
 **Exemplo 1**:
