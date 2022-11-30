@@ -1057,11 +1057,12 @@ log('test');
 
 <blockquote><b>OBS:</b> Se for mais de um argumento, é obrigatório o uso de parênteses!</blockquote>
 
-# 📜 Procedural JavaScript
-<div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" width="1070"/></div>
-<p>Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a <b>procedural</b>. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
+# 📜 Procedural/Imperativo JavaScript
+<div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
+
+Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a <b>procedural</b>. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
-## Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
 
 # 📜 JavaScript OOP
@@ -1069,7 +1070,7 @@ log('test');
 <p>Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são
 tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.</p>
 
-## 📜 Hierarquia de Objetos
+## Hierarquia de Objetos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png"/></div>
 <p>Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:</p>
 <ol>
@@ -1087,10 +1088,10 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 <pre>nomeObjeto.método(argumento/ parâmetro)</pre>
 <p>Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.</p>
 
-## 📜 Onde escrever um JavaScript? ✍️
+## Onde escrever um JavaScript?
 <p>Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem!</p>
 
-### 1° Solução: 📜 Embutido na página HTML 📙
+### 1° Solução: Embutido na página HTML
 <ol>
   <li>Como evento de um elemento (IMG, A, INPUT etc);</li>
   <li>Como elemento &lt;script&gt; dentro de &lt;body&gt;;</li>
