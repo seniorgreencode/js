@@ -587,27 +587,26 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 <p>É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:</p>
 
 ### Escopo Global
-<p>Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.</p>
-
-### Exemplo:
+Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
+**Exemplo**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
 
 <img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
 
 ### Escopo de Função
-<p>Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.</p>
+Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
 
 ### Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
 
 ### Escopo Local
-<p>Variáveis declaradas dentro de um local cercado por <code>{ }</code>.</p>
+Variáveis declaradas dentro de um local cercado por `{ }`.
 
 ### Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
 ## Estrutura condicional
-<img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" width="1000"/>
+<img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177"/>
 
 ### O que são condições?
 <p><b>Condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
