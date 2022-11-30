@@ -1864,18 +1864,14 @@ O método <code>appendChild</code> serve para revelar a criação do elemento fi
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104220284-097ef780-541e-11eb-9fb3-2e7cf58d0ae3.jpg)
 
 <blockquote><b>Obs:</b> Quando o <i>NodeList</i> retornar <code>#text</code> saiba que são os caracteres indefinidos como espaços ou comentários!</blockquote>
-<hr>
 
-# 📜 [DOM] `nodeName`, `nodeType`, `nodeValue`
-<p>Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, portanto agora iremos aprender como pegar o nome, tipo e valor de um item pertencente ao <em>NodeList</em>.</p>
+## `nodeName`, `nodeType`, `nodeValue`
+Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, portanto agora iremos aprender como pegar o nome, tipo e valor de um item pertencente ao <em>NodeList</em>.
 
-## [DOM] `nodeName`
 <p>O atributo <code>nodeName</code> pega o nome do item pertencente ao <em>NodeList</em>.</p>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![js](https://user-images.githubusercontent.com/61624336/104258122-af9e2200-545d-11eb-8b25-236825250ff7.jpg)
-
-<hr>
 
 # 📜 [ES6] Funções Hoisting
 
