@@ -1131,7 +1131,7 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 
 # 📜 JavaScript Promises
 
-<blockquote>As promises são conceitos importantes</blockquote>
+> As promises são conceitos importantes!
 
 <img src="https://miro.medium.com/max/3780/1*Bf17KrH3fJo09LTKHRYJcw.jpeg">
 
@@ -1147,7 +1147,7 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.</p>
 
 # 📜 Promises
-<p>As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.</p>
+As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
 
 ## Uso de código assíncrono
 - Requests HTTP
@@ -1157,7 +1157,7 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg)
 
-<p>No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.</p>
+No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
 # 📜 Promises no Node.js
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
@@ -1166,18 +1166,18 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
   
 Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.</p>
 
-## Exemplo 1: Requisição com Promises (Asynchronous Reading)
+**Exemplo 1**: Requisição com Promises (Asynchronous Reading)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108542870-0c91c100-72c3-11eb-8cac-2552152dab53.jpg)
 
-## Exemplo 2: Ler estrofes de cada vez
+**Exemplo 2**: Ler estrofes de cada vez
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577334-70d27600-72ff-11eb-908b-5dc638abf445.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577995-a166df80-7300-11eb-8559-20182c3e916a.jpg)
 
-## Exemplo 3: funções síncronas e função assíncrona
+**Exemplo 3**: funções síncronas e função assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
 
-## Exemplo 4: Função de Callback Assíncrona
+**Exemplo 4**: Função de Callback Assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
@@ -1214,43 +1214,42 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 # ES6 - ECMAScript 6 (2015)
 <div align="center"><img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="277"></div><br \>
 
-
 # 📜 [Advanced ES6] Default Function Arguments
 <p>Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!</p>
 
-## Exemplo 1:
+**Exemplo 1**:
 ![12](https://user-images.githubusercontent.com/61624336/107806090-19ec0000-6d45-11eb-8b81-ef25ee970c74.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107806363-85ce6880-6d45-11eb-9a3f-2b8c3d7b2022.jpg)
 
-## Exemplo 2: Validação de Tipo (com operador ternário)
+**Exemplo 2**: Validação de Tipo (com operador ternário)
 ![12](https://user-images.githubusercontent.com/61624336/107807013-55d39500-6d46-11eb-8d3d-3a9af3f8f521.jpg)
 
-## Exemplo 3: Inserindo o valor no parâmetro da função
+**Exemplo 3**: Inserindo o valor no parâmetro da função
 ![12](https://user-images.githubusercontent.com/61624336/107807785-6cc6b700-6d47-11eb-987e-d45d04ad392f.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107808428-553bfe00-6d48-11eb-805d-986b36f5f2a1.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107808122-da72e300-6d47-11eb-9998-fe7f41d73d9a.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107809428-d6e05b80-6d49-11eb-803a-7faa4f1e5d5c.jpg)
 
-## Exemplo 4: Poder de atribuição
+**Exemplo 4**: Poder de atribuição
 ![12](https://user-images.githubusercontent.com/61624336/107809900-97663f00-6d4a-11eb-93af-d9efb1690588.jpg)
 
 <blockquote><strong>OBS:</strong> A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.</blockquote>
 
-## Exemplo 5: Lazy evaluation
+**Exemplo 5**: Lazy evaluation
 A característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido.
 
 ![12](https://user-images.githubusercontent.com/61624336/107815875-b8329280-6d52-11eb-9b29-7865fbcd28f4.jpg)
 
-## Exemplo 6:
+**Exemplo 6**:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
 # Enhanced Object Literals
-<p>A maneira clássica de escrever objetos literais é como o exemplo abaixo:</p>
+A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
-### Exemplo 1:
+**Exemplo 1**:
 ![12](https://user-images.githubusercontent.com/61624336/107830786-592d4780-6d6b-11eb-8c24-e0e94809995b.jpg)
 
-### Exemplo 2:
+**Exemplo 2**:
 ![12](https://user-images.githubusercontent.com/61624336/107836537-4cfdb600-6d7c-11eb-918d-737ba9c555a9.jpg)
 
 ### Exemplo 3:
