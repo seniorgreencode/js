@@ -901,14 +901,17 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 </table>
 
 # 📜 Data e horário em JS
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png"/></div>
-<p>Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.</p>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="177"/></div><br />
 
-## Sintaxe:
-<pre>variável data = new Date();
-console.log(data.getTime());</pre>
+Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
-<p>O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript:</p>
+**Sintaxe**:
+```javascript
+variável data = new Date();
+console.log(data.getTime());
+```
+
+O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript:
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103485348-66eac700-4dd4-11eb-86a3-f9999105e40f.jpg)
