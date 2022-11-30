@@ -197,6 +197,8 @@ O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com m
 </ul>
 </p>
 
+### `atob("")`
+
 ### Boolean
 <p><b>Boolean</b> (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
@@ -328,8 +330,6 @@ Os seguintes valores são considerados falsos no JavaScript:</p>
 <p>Qualquer outro valor é considerado true, até mesmo a String "false" e "0", pois não são Strings vazias.</p>
 
 ## Informando o tipo do valor primitivo na operação
-
-<hr>
 
 ## O que são operadores?
 <p>Até agora só vimos valores soltos que não fazem nada.
@@ -485,7 +485,6 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <p>Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragmento de código que produz um valor é chamado de "expressão".</p>
 <p>Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.</p>
 <p>Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.</p>
-<hr>
 
 ## Variáveis no JavaScript
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png"/>
@@ -586,7 +585,6 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103035031-160ddf80-4545-11eb-8ce5-2470fe943edc.jpg)
 
 <blockquote>Logo, a variável receberá o seu valor.</blockquote>
-<hr>
 
 ## Escopo do código no JavaScript
 <div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="277"/></div></br>
@@ -650,7 +648,6 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
 
 <blockquote><b>Obs:</b> O <code>break</code> serve para pausar a execução por cada <code>case</code>, pois senão ele executa todas de uma só vez.</blockquote>
-<hr>
 
 ## Laços de Repetição
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" width="1000"/>
@@ -750,8 +747,6 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
-
-<hr>
 
 ## Arrays [Vetores]
 <img src="https://miro.medium.com/max/816/0*jJba103A-9xmpTYq.jpg" width="1070"/>
@@ -870,9 +865,8 @@ No caso de um objeto com propriedades (variáveis), fazemos assim:
     <td>Remove o item</td>
   </tr>
 </table>
-<hr>
 
-<h1 align="center">Cap 10: 📜 Valores em JS 💛</h1>
+# 📜 Valores em JS
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png"/></div>
 <p>Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
   
@@ -883,7 +877,7 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 ## Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
 
-### 🟨 Tabela de métodos para os valores em JS 💛
+### Tabela de métodos para os valores em JS
 <table>
     <tr>
       <td><b>Método</b></td>
@@ -902,7 +896,6 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
     <td>Todas as letras minúsculas da String</td>
   </tr>
 </table>
-<hr>
 
 <h1 align="center">📜 Data e horário em JS 🕒📅</h1>
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png"/></div>
@@ -960,7 +953,6 @@ console.log(data.getTime());</pre>
     <td>Define os segundos</td>
   </tr>
 </table>
-<hr>
 
 <h1 align="center">📜 Dicionários em JS 📖</h1>
 <img src="https://getflywheel.com/layout/wp-content/uploads/2019/02/The_Best_Java_Script_Libraries_1800x500-1-1280x356.jpg"/>
@@ -1763,7 +1755,6 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 <p>E assim finalizamos, <code>document.getElementById("largura").innerHTML = screen.width;</code></p>
 
 <p>O último passo é abrir o documento no navegador.</p>
-<hr>
 
 # 📜 [DOM] Document Object Model
 <img src="https://miro.medium.com/max/3392/1*mMmuOhNytgqP7lrU9HPTpw.jpeg"/>
@@ -1771,9 +1762,6 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 <p>Essa é a estrutura do DOM (Document Object Model) que chamamos de "árvore DOM" pela semelhança com o formato da árvore ou raízes da árvore. O DOM também é um objeto do BOM e serve para manipular os elementos de uma página html, como links, divs, imagens, textos etc.</p>
 
 <div align="center"><img src="https://miro.medium.com/max/740/1*Uedjd1Z-EMdhPgqYLlAjow.png"/></div>
-
-
-<hr>
 
 # 📜 [DOM] `getElementById` e `getElementsByClassName` 
 
@@ -1797,8 +1785,6 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104053726-85810180-51ca-11eb-8762-3ad0c06046cc.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104054013-0b04b180-51cb-11eb-8532-e3bb91892c55.jpg)
 
-<hr>
-
 <h1 align="center">Cap 20: 📜 [DOM] getElementByTagName | querySelector 🧙‍♂️✨</h1> 
 
 ## 🧙‍♂️ [DOM] getElementsByTagName ✨✨
@@ -1817,8 +1803,6 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083690-72e4e780-521f-11eb-9eab-34cc69bef689.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083764-0f0eee80-5220-11eb-9c3c-45cd963f6625.jpg)
 
-<hr>
-
 <h1 align="center">Cap 21: 📜 [DOM] querySelectorAll 🧙‍♂️🎇</h1>
 <p>O método <code>querySelectorAll</code> retorna uma lista de elementos presentes no documento (<i>NodeList</i>).</p>
 
@@ -1827,8 +1811,6 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104094358-422c9e80-526f-11eb-81c4-82774a9dbb62.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104095612-91c29880-5276-11eb-9a4d-ca1452410d1a.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104100745-f92f1700-527b-11eb-90d7-e3e144458cab.jpg)
-
-<hr>
 
 # 📜 [DOM] innerHTML, Style e Atributos
 
