@@ -1695,10 +1695,10 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104108400-162b1080-52a3-11eb-817e-dea483ffeb6e.jpg)
 
-# 🧙‍♀️ 🧙‍♂️ BOM + DOM
-<p>Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um determinado elemento através dos seus objetos. Vejamos um exemplo dessa união:</p>
+# 📜 BOM + DOM
+Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um determinado elemento através dos seus objetos. Vejamos um exemplo dessa união:
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104027984-e991ce80-51a6-11eb-9f1e-5d6169402e77.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104028100-134af580-51a7-11eb-9ccb-492b54770e3e.jpg)
 
@@ -1727,7 +1727,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 
 <div align="center"><img src="https://miro.medium.com/max/740/1*Uedjd1Z-EMdhPgqYLlAjow.png"/></div>
 
-# 📜 [DOM] `getElementById` e `getElementsByClassName` 
+## [DOM] `getElementById` e `getElementsByClassName` 
 
 ## [DOM] `getElementById`
 <p>O método <code>getElementById</code> permite a inserção do id para a execução de outros comandos.</p>
@@ -1749,17 +1749,14 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104053726-85810180-51ca-11eb-8762-3ad0c06046cc.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104054013-0b04b180-51cb-11eb-8532-e3bb91892c55.jpg)
 
-<h1 align="center">Cap 20: 📜 [DOM] getElementByTagName | querySelector 🧙‍♂️✨</h1> 
-
-## 🧙‍♂️ [DOM] getElementsByTagName ✨✨
+## [DOM] `getElementByTagName` | `querySelector`
 <p>O método <code>getElementsByTagName</code> permite a inserção de mais elementos pelas tags do HTML. Esse método é similar ao <code>getElementsByClassName</code>.</p>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104055781-14dbe400-51ce-11eb-842c-9d3c3203376e.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104058100-f841ab00-51d1-11eb-9d17-de158e5edd3f.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104060690-0abde380-51d6-11eb-8f22-bfc7129c4ae1.jpg)
 
-## 🧙‍♂️ [DOM] querySelector ✨
 <p>o método <code>querySelector</code> retorna sempre o primeiro elemento que ele encontrar, ou seja, ele pode inserir pela tag, id e  class. No entanto, ele não retorna o <i>HtmlCollection</i>, ele serve somente para um elemento.</p> 
 
 ### Exemplo 1:
@@ -1767,7 +1764,7 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083690-72e4e780-521f-11eb-9eab-34cc69bef689.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083764-0f0eee80-5220-11eb-9c3c-45cd963f6625.jpg)
 
-<h1 align="center">Cap 21: 📜 [DOM] querySelectorAll 🧙‍♂️🎇</h1>
+## [DOM] `querySelectorAll`
 <p>O método <code>querySelectorAll</code> retorna uma lista de elementos presentes no documento (<i>NodeList</i>).</p>
 
 ### Exemplo 1:
