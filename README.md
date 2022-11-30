@@ -1262,9 +1262,7 @@ A característica que permite podermos utilizar funções para definir valores d
 ## Exemplo 7:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
-<hr>
-
-<h1 align="center">Cap: 📜 [Advanced ES6] Rest, Spread Operator e destructing 🧵</h1>
+# 📜 Rest, Spread Operator e destructing
 <p>Observe a função abaixo:</p>
 
 ### Exemplo 1: Função normal
@@ -1433,14 +1431,8 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ### Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
-<hr>
-
 <img src="https://devsamurai.com.br/wp-content/uploads/2019/08/you-dont-know-js.png">
 <img src="https://codetot.net/wp-content/uploads/2017/12/javascript-nodejs-tools.png">
-<img src="">
-
-
-# <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" height="30"> It's a repository of JavaScript BOM/DOM 📜🧙‍♂️🧙‍♀️
 
 <blockquote>It's a repository of Vanilla JavaScript focused in BOM/DOM manipulation with many practical projects!</blockquote>
 
@@ -1473,16 +1465,16 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 ## Onde escrever um JavaScript?
 <p>Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem!</p>
 
-### 1° Solução: 📜 Embutido na página HTML 📙
+### 1° Solução: Embutido na página HTML
 <ol>
   <li>Como evento de um elemento (IMG, A, INPUT etc);</li>
   <li>Como elemento &lt;script&gt; dentro de &lt;body&gt;;</li>
   <li>Como função, dentro de &lt;head&gt;</li>
 </ol>
 
-### 2° Solução: 📜 Num arquivo a ser importado 📒
+### 2° Solução: Num arquivo a ser importado
 
-# 📜 Prototype 🧰
+# 📜 Prototype
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg"/></div>
 <p>Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado <b>prototype</b>. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o <code>__proto__</code>, além de utilizar uma cadeia de objetos, como o objeto <b>constructor</b>. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.</p>
 
@@ -1496,9 +1488,8 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 <p>Aprenderemos mais sobre os eventos no próximo capítulo.</p>
 
 <p>Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.</p>
-<hr>
 
-# 📜 Eventos 🎪
+# 📜 Eventos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg"/></div>
 <p>São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa.</p>
 <p>Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A <b>associação</b> é realizada em HTML nos
