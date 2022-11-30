@@ -2126,12 +2126,10 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 # 📜 Aplicando conceitos Promises e Fetch
 
 # 🔃 AJAX (Asynchronous JavaScript And XML)
-
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="277"></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177"></div><br \>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
-## AJAX
 <div align="center"><img src="https://good-code.ru/wp-content/uploads/2019/02/ajax-javascript.png" height="277"></div>
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://d23cpcfk0ihnyh.cloudfront.net/blog/posts/1-20-2018-async-await/async-await.png" title="Full-Stack JS Development"/></a><br>
