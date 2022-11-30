@@ -1095,7 +1095,8 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 ### 2° Solução: Num arquivo a ser importado
 
 # 📜 Prototype
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg"/></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="177"/></div><br />
+
 <p>Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado <b>prototype</b>. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o <code>__proto__</code>, além de utilizar uma cadeia de objetos, como o objeto <b>constructor</b>. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.</p>
 
 **Exemplo 1**:
