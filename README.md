@@ -611,8 +611,6 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 ### Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
-<hr>
-
 ## Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" width="1000"/>
 
@@ -954,7 +952,7 @@ console.log(data.getTime());</pre>
   </tr>
 </table>
 
-<h1 align="center">📜 Dicionários em JS 📖</h1>
+# 📜 Dicionários em JS
 <img src="https://getflywheel.com/layout/wp-content/uploads/2019/02/The_Best_Java_Script_Libraries_1800x500-1-1280x356.jpg"/>
 <p>Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:</p>
 
@@ -966,9 +964,7 @@ console.log(data.getTime());</pre>
 ## Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
-<hr>
-
-<h1 align="center">📜 Funções em JS 🤹</h1>
+# 📜 Funções em JS
 <div align="center"><img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png"/></div>
 <p>São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.</p>
 
@@ -1061,23 +1057,20 @@ log('test');
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
 
 <blockquote><b>OBS:</b> Se for mais de um argumento, é obrigatório o uso de parênteses!</blockquote>
-<hr>
 
-<h1 align="center">📜 Procedural JavaScript 📜</h1>
+# 📜 Procedural JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" width="1070"/></div>
 <p>Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a <b>procedural</b>. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
 ## Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
 
-<hr>
-
-<h1 align="center">📜 JavaScript OOP ⚽</h1>
+# 📜 JavaScript OOP
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png"/></div>
 <p>Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são
 tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.</p>
 
-## 📜 Hierarquia de Objetos ⚽🏈
+## 📜 Hierarquia de Objetos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png"/></div>
 <p>Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:</p>
 <ol>
@@ -2174,11 +2167,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ### Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
-<hr>
-
 # 📜 Aplicando conceitos Promises e Fetch
-
-<hr>
 
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 
@@ -2188,8 +2177,6 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 
 ## AJAX
 <div align="center"><img src="https://good-code.ru/wp-content/uploads/2019/02/ajax-javascript.png" height="277"></div>
-
-<hr>
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://d23cpcfk0ihnyh.cloudfront.net/blog/posts/1-20-2018-async-await/async-await.png" title="Full-Stack JS Development"/></a><br>
 
