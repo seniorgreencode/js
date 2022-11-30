@@ -1748,19 +1748,16 @@ Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um det
 <div align="center"><img src="https://miro.medium.com/max/740/1*Uedjd1Z-EMdhPgqYLlAjow.png"/></div>
 
 ## [DOM] `getElementById` e `getElementsByClassName` 
+O método <code>getElementById</code> permite a inserção do id para a execução de outros comandos.
 
-## [DOM] `getElementById`
-<p>O método <code>getElementById</code> permite a inserção do id para a execução de outros comandos.</p>
-
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048649-59fa1900-51c2-11eb-85ac-8d21e1a836d1.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048991-ead0f480-51c2-11eb-8ae4-b39bdc2a70d1.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104049223-5f0b9800-51c3-11eb-9ebd-4562da09740f.jpg)
 
-## [DOM] `getElementsByClassName`
-<p>O método <code>getElementsByClassName</code> diferente do <code>getElementById</code> nos permite a inserção de mais elementos pelo, atributo HTML, class.</p>
+O método <code>getElementsByClassName</code> diferente do <code>getElementById</code> nos permite a inserção de mais elementos pelo, atributo HTML, class.
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104052254-3043f080-51c8-11eb-818b-bc891d6fdf9e.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104052466-89138900-51c8-11eb-9efb-0d3b8aaf9dec.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104052363-5f5a6200-51c8-11eb-9588-78bf5543d1f5.jpg)
@@ -1793,9 +1790,7 @@ Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um det
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104095612-91c29880-5276-11eb-9a4d-ca1452410d1a.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104100745-f92f1700-527b-11eb-90d7-e3e144458cab.jpg)
 
-# 📜 [DOM] innerHTML, Style e Atributos
-
-## [DOM] innerHTML
+## [DOM] `innerHTML`, `Style` e `Atributos`
 <p>O atributo <code>innerHTML</code> permite a inserção de qualquer elemento e tag html no documento HTML.</p>
 
 ### Exemplo 1:
@@ -1805,7 +1800,6 @@ Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um det
 ### Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104108934-8e93d080-52a7-11eb-8783-d8db0a19534a.jpg)
 
-## 🧙‍♂️ [DOM] Atributo style 📘
 <p>O atributo <code>style</code> permite a inserção de estilo CSS do tipo inline.</p>
 
 ### Exemplo 1:
@@ -1825,7 +1819,7 @@ Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um det
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104132659-8c8c4900-535d-11eb-94df-2d39416baef7.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104132743-0e7c7200-535e-11eb-97ad-033fb39611cd.jpg)
 
-## 🧙‍♂️ [DOM] Atributo write ✍️
+## [DOM] Atributo `write
 <p>O atributo <code>write</code> serve para escrever um novo elemento no documento HTML.</p>
 
 ### Exemplo 1:
@@ -1859,7 +1853,6 @@ O método <code>appendChild</code> serve para revelar a criação do elemento fi
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104142228-671d3080-5399-11eb-8895-7508b834df15.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104142390-2d98f500-539a-11eb-8732-975f5dfc47a7.jpg)
 
-## [DOM] `removeChild`
 <p>O método <code>removeChild</code> serve para remover a criação do elemento filho, <code>createElement</code>.</p>
 
 **Exemplo 1**:
