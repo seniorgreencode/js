@@ -1623,13 +1623,16 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 ## Exercício: Troca de images por eventos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103964080-51a9cb80-5139-11eb-8a2b-f03f6be7fd2e.jpg"/></div>
 
-# 📜 [BOM] Browser Object Model
-<div align="center"><img src="https://cdn.splessons.com/wp-content/uploads/2016/03/javascript-bom-01-splessons-1.png"/></div>
-<p>Anteriormente, no capítulo 15 foi apresentado a <a href="https://github.com/IsaacAlves7/javascript-programming/blob/master/README.md#-hierarquia-de-objetos-">hierarquia de objetos</a>, porém sem uma explicação bem aprofundada somente uma introdução rasa para informar mais sobre a ordem de objetos. Portanto, nesse capítulo e no 18 serão apresentados o <b>BOM</b> e o <b>DOM</b> que estão por trás da hierarquia de objetos. 
+# 📜 BOM - Browser Object Model
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/204873026-0c6374bb-b9c6-445f-a956-00f2c0652c6f.png" height="177"></div><br />
+  
+Anteriormente, no capítulo 15 foi apresentado a <a href="https://github.com/IsaacAlves7/javascript-programming/blob/master/README.md#-hierarquia-de-objetos-">hierarquia de objetos</a>, porém sem uma explicação bem aprofundada somente uma introdução rasa para informar mais sobre a ordem de objetos. Portanto, nesse capítulo e no 18 serão apresentados o <b>BOM</b> e o <b>DOM</b> que estão por trás da hierarquia de objetos. 
   
 Quando abrimos o navegador e carregamos uma página automaticamente é criado um objeto. Do mesmo modo como representa o gráfico acima. Agora vamos nos aprofundar mais nos objetos do BOM:</p>
 
 ## [BOM] Window
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/204872545-bedfcde2-08a5-4339-aeab-cec99954c5ca.svg" height="177"></div><br />
+
 <p>O objeto <code>window</code> está no topo do gráfico de árvore, pois contém propriedades que se aplicam em toda janela (<code>document</code>, <code>screen</code>, <code>navigator</code>, <code>history</code>, <code>location</code>, <code>frames[]</code>, <code>event</code>, <code>packages</code>). Serve para manipular e relatar informações da janela, entre outras palavras, mesmo ele sendo omitido, ele manipula toda a interface!</b>
 
 ### Exemplo 1:
