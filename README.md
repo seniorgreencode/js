@@ -1906,10 +1906,10 @@ Já aprendemos sobre o atributo <code>childNodes</code> e o <em>NodeList</em>, p
 ### Exemplo 4: Função `setTimeout` (Função do Browser)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107451157-796bc500-6b25-11eb-8eeb-beb543ff7cae.jpg)
 
-### Exemplo 5: Outra forma "mais poluída"
+**Exemplo 5**: Outra forma "mais poluída"
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107456784-9d340880-6b2f-11eb-9dc2-53450ef09b21.jpg)
 
-### Exemplo 6: Arrow function
+**Exemplo 6**: Arrow function
 Não podemos criar funções construtoras usando arrow functions.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107457270-8346f580-6b30-11eb-8795-301951a6c659.jpg)
 
