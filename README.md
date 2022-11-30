@@ -503,14 +503,14 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 
 <blockquote><b>Obs:</b> O JS é <em>Case Sensitive</em>, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "$" e o "_", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.</blockquote>
 
-<blockquote><b>👍 Dica:</b> É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.</blockquote>
+> <b>👍 Dica:</b> É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
 
-### Exemplo:
-<blockquote><b>👍 Dica:</b> O nome da variável <b>Idade</b> substitua para <b>Old</b> ou <b>yearOld</b>.</blockquote>
+**Exemplo**:
+> <b>👍 Dica:</b> O nome da variável <b>Idade</b> substitua para <b>Old</b> ou <b>yearOld</b>.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696882-6b2db680-4210-11eb-80b8-7dc0048c8f15.jpg)
 
-<blockquote>Bem uniforme e fácil de compreensão para todos!</blockquote>
+> Bem uniforme e fácil de compreensão para todos!
 
 ## Declarando variáveis com operadores de atribuição
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
@@ -565,24 +565,24 @@ A diferença entre eles é algo bastante notório no escopo:
 ### Outra forma de chamar uma variável
 <p>Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.</p>
 
-#### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
 
 ## Variáveis Input no JS
 <p>O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.</p>
 
-#### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028368-603b9480-4536-11eb-99dc-0219aeead300.jpg)
 
 <p>O segundo passo é chamar o script no documento HTML, somente assim exibe a janela no navegador!</p>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028814-43539100-4537-11eb-96ec-beaf6610f93b.jpg)
 
-<p>Executando o documento percebe-se que há um textbox que dá pra inserir o valor.</p>
+Executando o documento percebe-se que há um textbox que dá pra inserir o valor.
 
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103035031-160ddf80-4545-11eb-8ce5-2470fe943edc.jpg)
 
-<blockquote>Logo, a variável receberá o seu valor.</blockquote>
+> Logo, a variável receberá o seu valor.
 
 ## Escopo do código no JavaScript
 <div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177"/></div></br>
