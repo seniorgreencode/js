@@ -1030,30 +1030,32 @@ funcao = () => {
 ```
 
 ## Sintaxe (Immediatly invoked function expression with Arrow Function)
-<pre>(() => {
+```javascript
+(() => {
   console.log('Hello, world!');
-})();</pre>
+})();
+```
 
 ### Sintaxe (Anonymous Function)
-<pre>
+```javascript
 var log = function(value){
   console.log(value);
 }
 
 log('test');
-</pre>
+```
 
 ### Sintaxe (Anonymous Function) - segundo tipo
-<pre>
+```javascript
 (function() {
   return 'Hello World';
 })()
-</pre>
+```
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
 
-### Exemplo 2: com parâmetros (return implícito)
+**Exemplo 2**: com parâmetros (return implícito)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
 
 ### Exemplo 3: retornando ao valor por padrão
@@ -1065,7 +1067,7 @@ log('test');
 ### Exemplo 5: Sem parênteses e um argumento
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
 
-<blockquote><b>OBS:</b> Se for mais de um argumento, é obrigatório o uso de parênteses!</blockquote>
+> **Obs**: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 Procedural/Imperativo JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
