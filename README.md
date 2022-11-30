@@ -1835,11 +1835,9 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104134738-599c8200-536a-11eb-88bb-9e72c03c8145.jpg)
 
 ## [DOM] `appendChild` | `removeChild`
+O método <code>appendChild</code> serve para revelar a criação do elemento filho, <code>createElement</code>.
 
-## [DOM] appendChild
-<p>O método <code>appendChild</code> serve para revelar a criação do elemento filho, <code>createElement</code>.</p>
-
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104142226-65ec0380-5399-11eb-82f2-97c11635e4cb.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104142228-671d3080-5399-11eb-8895-7508b834df15.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104142390-2d98f500-539a-11eb-8732-975f5dfc47a7.jpg)
@@ -1847,13 +1845,11 @@ Quando abrimos o navegador e carregamos uma página automaticamente é criado um
 ## [DOM] `removeChild`
 <p>O método <code>removeChild</code> serve para remover a criação do elemento filho, <code>createElement</code>.</p>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104189577-9fecf200-53f9-11eb-8e34-15623fc41861.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104189852-02de8900-53fa-11eb-96dd-2f0c570d0bd4.jpg)
 
-<hr>
-
-# 📜 [DOM] `childNodes`
+## [DOM] `childNodes`
 <div align="center"><img src="https://www.w3schools.com/js/pic_navigate.gif"/></div>
 <p>Como vimos anteriormente, o DOM possui uma grande árvore com todos os elementos de uma página HTML, então, é interessante relacionar essa mesma árvore com uma árvore geneológica na qual o DOM é o pai e todos os elementos que descendem do <code>document</code> são filhos do DOM! No entanto, assim como na vida real, o DOM também tem primogênito e filho caçula.
 
