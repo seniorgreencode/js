@@ -135,7 +135,7 @@ As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simpl
 
 <blockquote><b>👍 Dica:</b> Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.</blockquote>
 
-<h2>📜 STDIN e STDOUT 🤸‍♂️</h2>
+## `STDIN` e `STDOUT`
 <p>Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
   
 ### JavaScript
@@ -895,7 +895,7 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
   </tr>
 </table>
 
-<h1 align="center">📜 Data e horário em JS 🕒📅</h1>
+# 📜 Data e horário em JS
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png"/></div>
 <p>Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.</p>
 
@@ -956,19 +956,19 @@ console.log(data.getTime());</pre>
 <img src="https://getflywheel.com/layout/wp-content/uploads/2019/02/The_Best_Java_Script_Libraries_1800x500-1-1280x356.jpg"/>
 <p>Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:</p>
 
-## Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
 
-<p>Também funcionam com arrays, dessa forma <code>[{ }]</code>:</p>
+Também funcionam com arrays, dessa forma `[{ }]`:
 
-## Exemplo 2:
+**Exemplo 2**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 Funções em JS
 <div align="center"><img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png"/></div>
 <p>São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.</p>
 
-## Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
 
 <p>Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.</p>
@@ -1142,7 +1142,6 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 
 <img src="https://miro.medium.com/max/3780/1*Bf17KrH3fJo09LTKHRYJcw.jpeg">
 
-# 📜 Entendendo Promises de uma vez por todas
 <div align="center"><a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="277" title="Read the Blog"></a></div><br \>
 
 <p>Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.</p>
@@ -1223,7 +1222,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <div align="center"><img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="277"></div><br \>
 
 
-# 📜 [Advanced ES6] Default Function Arguments 🤹
+# 📜 [Advanced ES6] Default Function Arguments
 <p>Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!</p>
 
 ## Exemplo 1:
