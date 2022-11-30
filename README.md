@@ -13,21 +13,19 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 <img src="https://user-images.githubusercontent.com/61624336/171018227-3d37b1d9-a3c3-4030-a9e9-bf287126e489.png" height="177">
 <img src="https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg" height="177">
 
-# 📜 Paradigmas de programação
+# 📜 `Hello, World! - JavaScript
 Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do Leaflet.
 
 Cada ponto no mapa será gerenciado através de um CMS na cloud chamado GraphCMS e iremos utilizar o NextJS para criar a melhor experiência para o usuário e também para você, desenvolvedor!
 
 Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas da teoria à prática, sem deixar nenhum detalhe para trás.
 
-# 📜 Primeiros comandos com JavaScript
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="177" align="right">
 
 Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
 
 > 👍 <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.
 
-### Hello, World!
 Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
