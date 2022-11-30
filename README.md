@@ -13,7 +13,7 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 <img src="https://user-images.githubusercontent.com/61624336/171018227-3d37b1d9-a3c3-4030-a9e9-bf287126e489.png" height="177">
 <img src="https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg" height="177">
 
-# 📜 `Hello, World! - JavaScript
+# 📜 `Hello, World!` - JavaScript
 Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do Leaflet.
 
 Cada ponto no mapa será gerenciado através de um CMS na cloud chamado GraphCMS e iremos utilizar o NextJS para criar a melhor experiência para o usuário e também para você, desenvolvedor!
