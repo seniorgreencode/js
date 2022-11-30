@@ -1741,9 +1741,9 @@ Já sabemos que BOM e DOM andam juntos para revelar, manipular ou invocar um det
 <p>O último passo é abrir o documento no navegador.</p>
 
 # 📜 [DOM] Document Object Model
-<img src="https://miro.medium.com/max/3392/1*mMmuOhNytgqP7lrU9HPTpw.jpeg"/>
+<div align="center"><img src="https://miro.medium.com/max/3392/1*mMmuOhNytgqP7lrU9HPTpw.jpeg" height="377"></div>
 
-<p>Essa é a estrutura do DOM (Document Object Model) que chamamos de "árvore DOM" pela semelhança com o formato da árvore ou raízes da árvore. O DOM também é um objeto do BOM e serve para manipular os elementos de uma página html, como links, divs, imagens, textos etc.</p>
+Essa é a estrutura do DOM (Document Object Model) que chamamos de "árvore DOM" pela semelhança com o formato da árvore ou raízes da árvore. O DOM também é um objeto do BOM e serve para manipular os elementos de uma página html, como links, divs, imagens, textos etc.
 
 <div align="center"><img src="https://miro.medium.com/max/740/1*Uedjd1Z-EMdhPgqYLlAjow.png"/></div>
 
@@ -1762,7 +1762,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104052466-89138900-51c8-11eb-9efb-0d3b8aaf9dec.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104052363-5f5a6200-51c8-11eb-9588-78bf5543d1f5.jpg)
 
-### Exemplo 2: HTMLCOLLECTION [Ordem de índices]
+**Exemplo 2**: HTMLCOLLECTION [Ordem de índices]
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104053726-85810180-51ca-11eb-8762-3ad0c06046cc.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104054013-0b04b180-51cb-11eb-8532-e3bb91892c55.jpg)
 
@@ -1776,7 +1776,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 
 <p>o método <code>querySelector</code> retorna sempre o primeiro elemento que ele encontrar, ou seja, ele pode inserir pela tag, id e  class. No entanto, ele não retorna o <i>HtmlCollection</i>, ele serve somente para um elemento.</p> 
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104083683-6f516080-521f-11eb-9ce3-97ba7fd6fadc.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083690-72e4e780-521f-11eb-9eab-34cc69bef689.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083764-0f0eee80-5220-11eb-9c3c-45cd963f6625.jpg)
