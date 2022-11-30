@@ -48,12 +48,12 @@ Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas d
 <blockquote><b>Obs:</b> Carrega o script primeiro antes do body, o que é mais ideal!</blockquote>
 
 ### Opcional (No arquivo)
-<p> Outra maneira válida é criar um documento com a extensão <b>.js</b>, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no &lt;head&gt; como no &lt;body&gt;.</p>
+Outra maneira válida é criar um documento com a extensão `.js</b>, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no &lt;head&gt; como no &lt;body&gt;.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-3](https://user-images.githubusercontent.com/61624336/102267944-5e038580-3ef9-11eb-89bb-4191481918f6.jpg)
 
-<p>o comando <code>alert();</code> exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).</p>
+o comando `alert();` exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-5](https://user-images.githubusercontent.com/61624336/102268266-dec28180-3ef9-11eb-9183-e3654f1f982b.jpg)
