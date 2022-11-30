@@ -437,12 +437,18 @@ Até agora vimos operadores que precisam de dois elementos para funcionar, como 
 Também temos os <b>Operadores Unários</b>, que são aqueles que só recebem um valor para funcionar.
 
 ### Operador Unário `-`
-<p>O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.</p>
-<pre>-3</pre>
+O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
+
+```javascript
+-3
+```
 
 ### Operador Unário `!`
-<p>Como vimos antes, esse operador serve para negação. Ele inverte os valores do tipo Boolean. Então um valor true se torna false e um false se torna true.</p>
-<pre>!true</pre>
+Como vimos antes, esse operador serve para negação. Ele inverte os valores do tipo Boolean. Então um valor true se torna false e um false se torna true.
+
+```javascript
+!true
+```
 
 ### Operador Unário `typeof`
 <p>Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.</p>
