@@ -5,8 +5,6 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
-![mm_jsc_2048](https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg)
-
 ![Coding-Page-Transitions-in-Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734667-48f2056c-9623-4468-b110-66c063026cb8.jpg)
 
 ![Vanilla-JavaScript](https://user-images.githubusercontent.com/61624336/169734688-41d23a33-6cf3-4d7e-8854-99e86fbdab7f.jpg)
@@ -137,7 +135,7 @@ As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simpl
 
 Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função gets é implementada internamente para auxiliar a entrada dos dados.
 
-#### Exemplo:
+**Exemplo**:
   
 ```javascript
 let line = gets(); // Retorna a próxima linha de entrada
@@ -148,7 +146,7 @@ console.log(line); // Imprime o dado
 
 Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>BufferedReader</code> para o STDIN e o <code>System.out.println</code> para o STDOUT.
 
-#### Exemplo:
+**Exemplo**:
   
 ```java
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -161,7 +159,7 @@ System.out.println(a); // Imprime o dado
 
 Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>sys.stdin.readline</code> para o STDIN e o <code>print</code> para o STDOUT.
 
-#### Exemplo:
+**Exemplo**:
   
 ```python
 import sys
@@ -326,9 +324,8 @@ Os seguintes valores são considerados falsos no JavaScript:</p>
 
 ## Informando o tipo do valor primitivo na operação
 
-## O que são operadores?
-<p>Até agora só vimos valores soltos que não fazem nada.
-Para fazermos alguma operação com esses valores, usamos os chamados "operadores".
+# O que são operadores?
+Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
   
 Um exemplo bem simples:
 7 + 10
@@ -338,11 +335,11 @@ O sinal "+" é um operador, o qual podemos usar para somar dois valores numéric
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.</p>
 
 ## Operadores Lógicos
-<p>Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
+Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
 
 O "&&" indica uma condição "e", e o "||" indica uma condição "ou". Basicamente servem para juntar dois valores do tipo Boolean e ver se o resultado é algo verdadeiro ou falso.
 
-Exemplo: Copo azul</p>
+**Exemplo**: Copo azul
 
 ### Operador `&&`
 <p>Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
@@ -808,15 +805,22 @@ No caso de um objeto com propriedades (variáveis), fazemos assim:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
 
-## 🛒 Outra forma de inserir um array "separadamente" [🍎] [🍐] [🍊] [🍇]
+## Outra forma de inserir um array "separadamente"
+> [🍎] [🍐] [🍊] [🍇]
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/106766196-63876d00-6618-11eb-8536-9e362e887874.jpg)
 
-## 🛒 Array Mod [🍎, 🍐, 🍊, 🍇]
+## Array Mod
+> [🍎, 🍐, 🍊, 🍇]
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
 
-<p>Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:</p>
+Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
 
-### .("🍎","🍐") Tabela de métodos de Arrays .("🍊","🍇")
+### Tabela de métodos de Arrays
+> .("🍎","🍐")
+> .("🍊","🍇")
+
 ![JavaScript-Array-Methods](https://user-images.githubusercontent.com/61624336/112920823-1be50500-90e0-11eb-8adc-7d57c467aab7.jpg)
 
 <table>
