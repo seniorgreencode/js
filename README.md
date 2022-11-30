@@ -200,7 +200,7 @@ Assim como os bits, eles também só armazenam 2 possíveis valores: <b>true</b>
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.</p>
 
 ### Undefined e Null
-<p>Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
+Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
 
@@ -209,7 +209,7 @@ Há uma diferença bem pequena entre undefined e null. Na verdade a existência 
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
 ### Number
-<p>O tipo number é usado para armazenar valores numéricos.
+O tipo number é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas <b>no JavaScript tudo é Number</b>.
 <ul>
@@ -219,15 +219,13 @@ Podemos ter números inteiros (sem casas decimais) e números flutuantes (com ca
   2.998e8</li>
   <li>Isso é o mesmo que 2,998 x 10^8, que é igual a 299.800.000</li>
 </ul>
-</p>
 
 ## Números Especiais
-<p>Também temos três valores especiais no JavaScript que são considerados do tipo Number, mas não são números comuns.
+Também temos três valores especiais no JavaScript que são considerados do tipo Number, mas não são números comuns.
 
 Os dois primeiros são o <b>Infinity</b> e <b>-Infinity</b>, que indicam valores infinitos positivos e negativos.
 
 O último é o <b>NaN</b> (not a number). Esse valor do tipo Number indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número 5, o resultado não pode ser um número, então resultará em NaN.
-</p>
 
 ## Strings
 <p>As Strings são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
@@ -342,7 +340,7 @@ O "&&" indica uma condição "e", e o "||" indica uma condição "ou". Basicamen
 **Exemplo**: Copo azul
 
 ### Operador `&&`
-<p>Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
+Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
   
 Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em <b>true</b>.
 
@@ -353,7 +351,7 @@ Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas m
 Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja <b>falsa</b>.
 
 Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa torna a frase inteira <b>falsa</b>.
-</p>
+
 <blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador <b>&&</b> só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
 
 ### Operador `||`
@@ -585,6 +583,7 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 
 ### Escopo Global
 Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
+
 **Exemplo**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
 
@@ -593,13 +592,13 @@ Uma variável declarada fora de uma função, torna-se global e todos os scripts
 ### Escopo de Função
 Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
 
-### Exemplo:
+**Exemplo**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
 
 ### Escopo Local
 Variáveis declaradas dentro de um local cercado por `{ }`.
 
-### Exemplo:
+**Exemplo**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
 ## Estrutura condicional
@@ -612,7 +611,7 @@ O valor true ou false é usado para que a máquina escolha se uma expressão dev
 Um exemplo é o Operador Ternário Condicional que vimos anteriormente.
 </p>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103034640-18bc0500-4544-11eb-8c4d-f3914652f0d4.jpg)
 
 <blockquote>retorna a String "É menor"</blockquote>
@@ -862,7 +861,8 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
 </table>
 
 # 📜 Valores em JS
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png"/></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177"/></div><br />
+
 <p>Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
   
 Como faço para mudar o nome de uma string no JavaScript? 
@@ -902,10 +902,10 @@ console.log(data.getTime());</pre>
 
 <p>O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript:</p>
 
-## Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103485348-66eac700-4dd4-11eb-86a3-f9999105e40f.jpg)
 
-## 🕒 Tabela de métodos que definem o tempo no JS: 📅
+## Tabela de métodos que definem o tempo no JS:
 <table>
   <tr>
     <td><b>Método</b></td>
@@ -968,7 +968,7 @@ Também funcionam com arrays, dessa forma `[{ }]`:
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
 
-<p>Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.</p>
+Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
 
 ## Exemplo 2:
 ![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
