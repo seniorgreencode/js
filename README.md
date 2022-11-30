@@ -37,18 +37,18 @@ Para fazer tudo isso, nós iremos ensinar todos os fundamentos das ferramentas d
 
 <p>Agora, existem duas maneiras de criar um documento JS:</p>
 
-### No `<body>` (corpo)
+No `<body>` (corpo):
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102247838-3dc6cd00-3edf-11eb-8302-f77de2b3348d.jpg)
 
-### No `<head>` (cabeça)
+No `<head>` (cabeça):
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102253843-a2d1f100-3ee6-11eb-9d1b-016921aae815.jpg)
 
 <blockquote><b>Obs:</b> Carrega o script primeiro antes do body, o que é mais ideal!</blockquote>
 
-### Opcional (No arquivo)
-Outra maneira válida é criar um documento com a extensão `.js</b>, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no &lt;head&gt; como no &lt;body&gt;.
+Opcional (No arquivo):
+Outra maneira válida é criar um documento com a extensão `.js</b>, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no `<head>` como no `<body>`:
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 ![Sem Título-3](https://user-images.githubusercontent.com/61624336/102267944-5e038580-3ef9-11eb-89bb-4191481918f6.jpg)
