@@ -322,17 +322,16 @@ Os seguintes valores são considerados falsos no JavaScript:</p>
 # O que são operadores?
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
   
-Um exemplo bem simples:
-7 + 10
+Um exemplo bem simples: `7 + 10`
 
-O sinal "+" é um operador, o qual podemos usar para somar dois valores numéricos.
+O sinal "`+`" é um operador, o qual podemos usar para somar dois valores numéricos.
 
-Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.</p>
+Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
 ## Operadores Lógicos
 Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
 
-O "&&" indica uma condição "e", e o "||" indica uma condição "ou". Basicamente servem para juntar dois valores do tipo Boolean e ver se o resultado é algo verdadeiro ou falso.
+O "`&&`" indica uma condição "`e`", e o "`||`" indica uma condição "`ou`". Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`).
 
 **Exemplo**: Copo azul
 
