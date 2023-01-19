@@ -87,7 +87,28 @@ Porque usar o Node.js?
 ## Instalação do Node.js
 <a href="https://nodejs.org/en/"><img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-01-tela-boas-vindas.png" height="270" title="Site do Node.js" align="right"/></a>
 
-Sempre recomendo que instale a versão LTS.
+O primeiro passo é instalar o Node.js, tendo consequentemente o NPM instalado. Ele pode ser instalado de duas maneiras:
+
+- Instaladores (disponíveis para os sistemas operacionais Windows e Linux)
+- NVM (de node version manager)
+
+Conforme consta na documentação oficial do Node, deve-se dar preferência à segunda forma, já que os instaladores costumam armazenar os arquivos do NPM em diretórios com permissões apenas locais, e isso poderá causar alguns erros quando quisermos instalar e utilizar **pacotes a nível global**.
+
+> As ferramentas de gerenciamento de dependências permitem a instalação de pacotes/dependências de maneira local ou global. A local limita os pacotes aos projetos nos quais foram instalados, enquanto a global permite sua utilização em todos os projetos.
+
+Após realizar as instalações do Node.js e do NPM, certifique-se de que ambos já estão rodando e disponíveis por meio das seguintes linhas de comando no terminal, onde trabalharemos a maior parte do tempo nas tarefas de instalação, build e deploy:
+
+- CMD (no Windows)
+- Bash (no Linux)
+
+Caso o processo de instalação tenha sido completado com sucesso, estes comandos retornam as versões instaladas:
+
+```sh
+node -v
+npm -v
+```
+
+> Sempre recomendo que instale a versão LTS.
 
 ### Windows
 - https://nodejs.org/en/
