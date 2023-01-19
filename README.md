@@ -37,7 +37,7 @@
 
 -->
 
-# 🚘 V8 Engine
+# 🚘 V8 Engine2
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" height="270" title="Site do Node.js"/><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="270" title="Site do Node.js"/></a></div><br \>
 
 Em setembro de 2008 a Google lançou seu navegador, o **Google Chrome**. O Chrome tem um interpretador/motor (engine) de JavaScript muito poderoso, o **V8**. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
@@ -134,6 +134,21 @@ npm -g uninstall <nome do pacote>
 ```
 npm install <pacote> --save
 ```
+
+# 🧶 `yarn` - yet another resource negotiator
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177"></div><br />
+
+O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
+
+> Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
+
+Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
+
+No final das contas — e como é bastante comum em ferramentas “concorrentes” —, cada nova atualização deixa ambos muito parecidos. O mais importante, nesse caso, é que os desenvolvedores têm em mãos duas excelentes alternativas para realizar a tarefa de gestão de dependências.
+
+Tanto o NPM quanto o YARN cumprem a mesma função: gerenciar a instalação de dependências de um projeto React Native. Embora isso se dê com processos diferentes, ambos utilizam o arquivo `package.json` para anotar as dependências e suas versões, além de baixarem e salvarem as dependências/bibliotecas na pasta `node_modules`.
+
+> **Atenção**: O importante na escolha do gerenciador é usar apenas um deles no projeto. Isso evita comportamentos inadequados e/ou até mesmo falhas e conflitos de dependências. Ao longo deste estudo, utilizaremos o NPM.
 
 ## Hello, World - Node.js
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="177" title="Site do Node.js"/></a></div><br \>
