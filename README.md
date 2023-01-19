@@ -85,7 +85,7 @@ Porque usar o Node.js?
 - Posso utilizar a linguagem JavaScript tanto pro back-end quanto pro front-end, não preciso de outras linguagens para isso! Uma só já basta.
 
 ## Instalação do Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-01-tela-boas-vindas.png" height="270" title="Site do Node.js"/></a></div><br \>
+<a href="https://nodejs.org/en/"><img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-01-tela-boas-vindas.png" height="270" title="Site do Node.js" align="right"/></a>
 
 Sempre recomendo que instale a versão LTS.
 
