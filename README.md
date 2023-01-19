@@ -23,8 +23,22 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 > **Obs**: `ctrl + m ou ⌘ + D` = chacoalhada para o menu. `ctrl + r` = reload the application.
   
 ## Conhecendo os pacotes do React Native (CLI)
+> Desenvolvendo nativamente com o Command Line Interface do React Native.
+
+### Step 1: Start Metro
+
+```sh
+npx react-native start
+```
+
+### Step 2: Start your application
+
+```sh
+cd "/Users/isaacpinheiro/AwesomeProject" && npx react-native run-android && npx react-native run-ios
+```
 
 ## Conhecendo os pacotes do React Native (Expo)
+> Encapsulamento de transmissão do React Native otimizado e performático!
 
 # 📲 `Hello, World!` - React Native (CLI)
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
