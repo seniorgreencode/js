@@ -60,6 +60,10 @@ Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulare
 - React Scripts
 - Task Runners e Bundler Sizers
 
+```sh
+npx create-react-app client
+```
+
 > Nos exemplos feitos, contrui mais modelos de **SPA** - _Single-Page Applications_ (React Create App) para trabalhar com o React.js, mas isso fica a seu critério.
 
 # Aprendendo a configurar a primeira aplicação
