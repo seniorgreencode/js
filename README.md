@@ -382,7 +382,12 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 ## Vite
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177"></a></div><br \>
 
-O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, sem precisar você remover ou instalar compiladores em seu projeto.
+O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto. Algumas especialidades dele incluem:
+
+- Um servidor de desenvolvimento que atende seus arquivos de origem em módulos ES nativos, com recursos integrados avançados e substituição de módulo quente (HMR) surpreendentemente rápida.
+- Um comando de compilação que agrupa seu código com Rollup, pré-configurado para produzir ativos estáticos altamente otimizados para produção.
+
+Além disso, o Vite é altamente extensível por meio de sua API de plug-in e API de JavaScript com suporte de digitação completo.
 
 ## Next.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177"></a></div><br \>
