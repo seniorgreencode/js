@@ -379,6 +379,11 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 # ⚛️ React.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177"></a></div><br \>
 
+## Vite
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177"></a></div><br \>
+
+O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, sem precisar você remover ou instalar compiladores em seu projeto.
+
 ## Next.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177"></a></div><br \>
 
