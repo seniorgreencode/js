@@ -104,6 +104,12 @@ yarn run dev
 
 Esse comando serve para instalar todas as dependências, após essa etapa irá surgir um arquivo chamado `yarn.lock` contendo todas as dependências instaladas com suas respectivas versões e ao executar o comando abaixo, você executará sua aplicação no modo de desenvolvimento com o Yarn.
 
+```sh
+yarn upgrade-interactive --latest --exact 
+```
+
+Esse comando irá mostrar as suas dependências instaladas comparando com as dependências atuais.
+
 ## Node.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177"></div><br />
 
