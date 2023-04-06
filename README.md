@@ -1697,6 +1697,9 @@ function counterReducer (state={value:0}, action){
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="277"></div> 
 
+```sh
+npm create vite@latest ./ -- --template react
+```
 
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
