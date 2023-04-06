@@ -92,6 +92,15 @@ Tanto o NPM quanto o YARN cumprem a mesma função: gerenciar a instalação de 
 
 > **Atenção**: O importante na escolha do gerenciador é usar apenas um deles no projeto. Isso evita comportamentos inadequados e/ou até mesmo falhas e conflitos de dependências. Ao longo deste estudo, utilizaremos o NPM.
 
+### Iniciando sua aplicação com o Yarn
+
+```sh
+yarn init \
+yarn install \
+yarn run dev \
+```
+
+
 ## Node.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177"></div>
 
