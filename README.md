@@ -108,7 +108,7 @@ Esse comando serve para instalar todas as dependências, após essa etapa irá s
 yarn upgrade-interactive --latest --exact 
 ```
 
-Esse comando irá mostrar as suas dependências instaladas comparando com as dependências atuais.
+Esse comando irá mostrar as suas dependências instaladas comparando a versão das atuais, apresentando a você uma oportunidade de atualizar ou não.
 
 ## Node.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177"></div><br />
