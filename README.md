@@ -1664,8 +1664,6 @@ function counterReducer (state={value:0}, action){
 
 ![undraw_react](https://user-images.githubusercontent.com/61624336/171018624-2251d8ca-75ec-4f49-9eab-4b8d505da81a.svg)
 
-<!-- 
-
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
 
@@ -1691,11 +1689,14 @@ function counterReducer (state={value:0}, action){
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="277"></div>
 
 # GraphQL
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/graphql.svg" height="277"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="277"></div>
 
 # Apollo GraphQL
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-1.svg" height="277"></div> 
--->
+
+# Vite
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="277"></div> 
+
 
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
