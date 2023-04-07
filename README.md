@@ -415,7 +415,7 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 O **Webpack** é um empacotador que pega módulos com dependências e cria conteúdos estáticos para produção.
 
 # 🥤 Gulp
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/32_gulp.9db342974c.svg" height="177"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="177"></a></div><br \>
 
 # 🃏 Jest
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177"></a></div><br \>
