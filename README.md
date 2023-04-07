@@ -364,7 +364,7 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177"></a></div><br \>
 
 # 🟦 TypeScript (TS)
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/85_typescript.cb2d7326fa.svg" height="177"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177"></a></div><br \>
 
 # 🟪 ESLint
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177"></a></div><br \>
