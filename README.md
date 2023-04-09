@@ -34,13 +34,19 @@ Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 </html>
 ```
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/102241134-64810580-3ed7-11eb-9686-6ec2dde4c61a.jpg)
-
 Agora, existem duas maneiras de criar um documento JS:
 
 No `<body>` (corpo):
+
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/102247838-3dc6cd00-3edf-11eb-8302-f77de2b3348d.jpg)
+
+```html
+  <body>
+    <script>
+      alert("Hello, World!");
+    </script>
+  </body>
+```
 
 No `<head>` (cabeça):
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
