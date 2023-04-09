@@ -472,20 +472,20 @@ Como vimos antes, esse operador serve para negação. Ele inverte os valores do 
 <pre>typeof 3</pre>
 
 ## Operador Ternário
-<p>Vimos os operadores binários e unários. Vamos ver agora o <b>Operador Ternário Condicional</b>.</p>
-<p>Ele recebe três valores e serve para verificarmos uma condição.</p>
+Vimos os operadores binários e unários. Vamos ver agora o <b>Operador Ternário Condicional</b>.
+Ele recebe três valores e serve para verificarmos uma condição.
 <pre>3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
-<p>Podemos dividir então em três partes:</p>
+Podemos dividir então em três partes:
 <pre>(3 > 1) ? ('É maior') : ('É menor')</pre>
-<p>A primeira parte é uma condição, a qual deve ter um valor true ou false. Nós comparamos se 3 é maior que 1. Veja que é como se perguntássemos "3 é maior que 1?"</p>
-<p>Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado, no caso, a String "É maior".</p>
-<p>Se a resposta for falsa, o terceiro elemento que passamos será retornado, no caso, a String "É menor".</p>
+A primeira parte é uma condição, a qual deve ter um valor true ou false. Nós comparamos se 3 é maior que 1. Veja que é como se perguntássemos "3 é maior que 1?"
+Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado, no caso, a String "É maior".
+Se a resposta for falsa, o terceiro elemento que passamos será retornado, no caso, a String "É menor".
 <pre>3 > 8 ? 'É maior' : 'É menor' // retorna a String "É menor"</pre>
 
 ## Conversão automática de tipos
-<p>No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.</p>
-<p>Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "ABC". Mesmo que ele escreva apenas números, receberemos uma String, como "21".</p>
-<p>Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a String em Number.</p>
+No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.
+Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "ABC". Mesmo que ele escreva apenas números, receberemos uma String, como "21".
+Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a String em Number.
 <p>Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. Precisaremos converter esse número para String para podermos concatená-lo com nosso texto.</p>
 <p>Em muitas linguagens de programação, essa conversão deve ser feita manualmente. O JavaScript faz conversões automaticamente. Isso pode deixá-lo mais dinâmico, mas se não for usado com cuidado pode causar muitos problemas e falhas de lógica, causando resultados inesperados.</p>
 <pre>"5" – 1</pre>
@@ -495,10 +495,10 @@ Como vimos antes, esse operador serve para negação. Ele inverte os valores do 
 <p>Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.</p>
 
 ## O que são expressões?
-<p>Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de "5 + 3" que produz o valor "8".</p>
-<p>Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragmento de código que produz um valor é chamado de "expressão".</p>
-<p>Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.</p>
-<p>Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.</p>
+Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de "5 + 3" que produz o valor "8".
+Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragmento de código que produz um valor é chamado de "expressão".
+Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.
+Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
 
 ## Variáveis no JavaScript
 <div align="center"><img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177"></div>
@@ -586,7 +586,7 @@ A diferença entre eles é algo bastante notório no escopo:
 <blockquote><b>Obs:</b> const e let só funcionam dentro do escopo do bloco <b>{ }</b>.</blockquote>
 
 ## Alguns tipos de variáveis globais
-<p>Existe mais de um tipo de variável global, como:</p>
+Existe mais de um tipo de variável global, como:
 <ul>
   <li><p>Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.</p><img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/></li>
   <li><p>variável local e global, muito recomendada para ambos os escopos!</p><img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/></li>
@@ -594,7 +594,7 @@ A diferença entre eles é algo bastante notório no escopo:
 </ul>
 
 ### Outra forma de chamar uma variável
-<p>Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.</p>
+Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
@@ -901,11 +901,11 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
 # 📜 Valores em JS
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177"/></div><br />
 
-<p>Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
+Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
   
 Como faço para mudar o nome de uma string no JavaScript? 
   
-A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:</p>
+A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
 
 ## Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
