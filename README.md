@@ -358,6 +358,14 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 
 Um arquivo criado no formato JSS (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
 
+Os arquivos JSS devem ser analisados e convertidos para o formato `.CSS` antes de serem usados com uma página web. Portanto, você precisa usar o programa jss como mostrado no comando a seguir, que converte `styles.jss` para `styles.css`:
+
+```
+jss stylesjss stylescss
+```
+
+> **NOTA**: Os arquivos JSS usam o herda-classe:, herd:, e herdado: sintaxe nas definições de CSS para prover herança.
+
 # 🐗 Grunt
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177"></a></div><br \>
 
