@@ -75,9 +75,12 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 o comando `alert();` exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-![Sem Título-5](https://user-images.githubusercontent.com/61624336/102268266-dec28180-3ef9-11eb-9183-e3654f1f982b.jpg)
 
-<p>Dessa forma, é possível diminuir a quantidade de linhas de código no seu arquivo HTML, porém deixa o seu website mais pesado com a quantidade de scripts. 
+```javascript
+alert("Hello, World!");
+```
+
+Dessa forma, é possível diminuir a quantidade de linhas de código no seu arquivo HTML, porém deixa o seu website mais pesado com a quantidade de scripts. 
   
 Próximo passo, execute o documento index.html. Resultado:</p>
 
