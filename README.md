@@ -280,6 +280,8 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 <p>Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
+
+Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte índice de uso para os desenvolvedores.
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177"/></div><br \>
