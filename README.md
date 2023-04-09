@@ -1181,14 +1181,9 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s---6YkRB3I--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6nvkj71v011m7yr9xog1.png">
 
 # 📜 JavaScript Promises
-
-> As promises são conceitos importantes!
-
-<img src="https://miro.medium.com/max/3780/1*Bf17KrH3fJo09LTKHRYJcw.jpeg">
-
 <div align="center"><a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="177" title="Read the Blog"></a></div><br \>
 
-<p>Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.</p>
+Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
 
 ## Código Síncrono
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg)
