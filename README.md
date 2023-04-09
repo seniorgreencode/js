@@ -566,18 +566,15 @@ A diferença entre eles é algo bastante notório no escopo:
 
 <img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
-<ul>
-  <li><b>var</b> funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
+`var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
   
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102960938-dbaf2e80-44c1-11eb-95eb-5e87dee0f451.jpg)
 
-  </li>
-  <li><b>let</b> funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
+`let` funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
         
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102961936-6d1fa000-44c4-11eb-82d5-4475c3d79687.jpg)
 
-</li>
-  <li><b>const</b> não deixa você alterar o dado atribuído. Só trabalha com valores fixos!
+`const</b> não deixa você alterar o dado atribuído. Só trabalha com valores fixos!
 
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446794-561a4400-4c62-11eb-8be2-7840e633ae6b.jpg)
 
