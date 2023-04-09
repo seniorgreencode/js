@@ -291,7 +291,7 @@ O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no in
 Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte uso entre os desenvolvedores web:
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177"/></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177" align="right"/>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
