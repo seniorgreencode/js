@@ -23,7 +23,11 @@
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/js_button_icon_151927.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/web_button_icon_151905.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/ionic_button_icon_151955.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/sass_button_icon_151921.png" height="47"></div>
 -->
 
-<div align="center"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png" height="177"></div>
+<div align="center">
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png" height="177"></a>
+
+</div>
 
 <!--
 ## Links de Apoio:
