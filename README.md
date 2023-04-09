@@ -1,6 +1,9 @@
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" title="Full-Stack JS Development"/></a>
+<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" title="Full-Stack JS Development"/></a> 
 
 # It's a repository of JavaScript (JS) 📜
+
 > 📜 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.).
 
 <!--
@@ -28,11 +31,6 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png" height="177"></a>
 
 </div>
-
-# 🗺️ JavaScript (JS) Map
-<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
-
-<img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg" align="right" height="177">
 
 <!--
 ## Links de Apoio:
