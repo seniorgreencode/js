@@ -385,8 +385,9 @@ Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <
 
 Agora aqui é diferente do `&&`. Em uma comparação `||`, se houver uma verdade, o resultado será verdadeiro.
 
-Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.</p>
-<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
+Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.
+
+> **Dica**: Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.
 
 ## Operadores Aritméticos
 Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
@@ -1198,9 +1199,6 @@ As promises são muito necessárias porque paralelalizam cada componente do site
 
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
-# 📜 It's a repository of ECMAScript (ES)
-<img src="https://cdn.acodez.in/wp-content/uploads/2020/01/banner-2.jpg">
-
 # 📜 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
 
@@ -1212,21 +1210,6 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 ## ECMAScript Versions
 <div align="center"><img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg"></div><br \>
-
-## ES6
-<div align="center"><img src="https://devmaster.edu.vn/uploads/images/2019/10/devmaster-ES6-review.png" height="177"/></div><br \>
-
-## ES7 
-<div align="center"><img src="https://miro.medium.com/max/1838/1*JhDw7yiwv5YOJIncUhCXQg.png" height="177"/></div><br \>
-
-## ES8
-<div align="center"><img src="https://cdn-media-1.freecodecamp.org/images/k4f95BDjIaGWgQO0FeQoIBfur1su20MEMBNk" height="177"></div><br \>
-
-## ES12
-<div align="center"><img src="https://miro.medium.com/max/1400/1*QRyy7n9T0sYPTa4XMkmJvQ.png" height="177"></div><br \>
-
-## ES 2021
-<div align="center"><img src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1601047978/nfofaimprgcqzz2ldddv.png"></div><br \>
 
 # ES6 - ECMAScript 6 (2015)
 <div align="center"><img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177"></div><br \>
