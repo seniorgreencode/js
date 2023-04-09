@@ -541,7 +541,9 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
 </ul>
 
 # 🗺️ JavaScript (JS) RoadMap
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg"></div>
+<img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg" align="right" height="177">
+
+
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
