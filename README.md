@@ -377,6 +377,8 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 # ⚛️ React.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177"></a></div><br \>
 
+O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
+
 ## Vite
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177"></a></div><br \>
 
