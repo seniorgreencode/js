@@ -348,10 +348,12 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177"></a></div><br \>
 
 # 🎯 Require.js 
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/72_requirejs.fb1351cffb.svg" height="177"></a></div><br \>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177"></a></div><br \>
 
 # 🧸 Puppeteer
 <div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177"></div><br \>
+
+Puppeteer é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
 
 # 📜 JSS
 <div align="center"><img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177"></div><br \>
