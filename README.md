@@ -540,7 +540,7 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
   <li>Plugins para programas, como Photoshop.</li>
 </ul>
 
-# 🗺️ JavaScript (JS) RoadMap
+# 🗺️ JavaScript (JS) Map
 <img src="https://user-images.githubusercontent.com/61624336/169592147-7b224927-4040-41d9-8d16-5ceec4b81c20.jpg" align="right" height="177">
 
 <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
