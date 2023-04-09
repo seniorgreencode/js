@@ -99,8 +99,6 @@ O **IL** é, de facto, **o alfabeto de uma linguagem de máquina**. Este é o co
 
 Infelizmente, esta língua está muito longe de ser uma língua materna humana. Todos nós (tanto computadores como humanos) precisamos de algo mais, uma linguagem comum para computadores e humanos, ou uma ponte entre os dois mundos diferentes.
 
-<img src="https://estacio.webaula.com.br/cursos/go0374/galeria/aula1/img/figura1.svg" align="right" height="377" title="Figura 1: Processo de compilação de um programa escrito na linguagem C">
-
 > Precisamos de uma linguagem em que os humanos possam escrever os seus programas e uma linguagem que os computadores possam utilizar para executar os programas, uma linguagem que seja muito mais complexa do que a linguagem das máquinas e, no entanto, muito mais simples do que a linguagem natural.
 
 Tais linguagens são muitas vezes chamadas **linguagens de programação de alto nível**. São pelo menos um pouco semelhantes aos naturais na medida em que utilizam símbolos, palavras e convenções legíveis para os seres humanos. Estas linguagens permitem aos seres humanos expressar comandos a computadores que são muito mais complexos do que os oferecidos pelas ILs.
@@ -143,8 +141,6 @@ Em primeiro lugar, o intérprete verifica se todas as linhas subsequentes estão
 O intérprete informá-lo-á onde se encontra o erro e o que o causou. No entanto, estas mensagens podem ser enganadoras, uma vez que o intérprete não é capaz de seguir exatamente as suas intenções, e pode detectar erros a alguma distância das suas verdadeiras causas.
 
 Por exemplo, se tentar utilizar uma entidade com um nome desconhecido, causará um erro, mas o erro será descoberto no local onde tenta utilizar a entidade, e não onde o nome da nova entidade foi introduzido.
-
-<img src="https://user-images.githubusercontent.com/61624336/194624188-26a61771-a2b5-4908-9307-0ef35bdcad68.png" align="right" height="177" title="Diagrama de funcionamento de um interpretador">
 
 Por outras palavras, a razão real está normalmente localizada um pouco mais cedo no código, por exemplo, no local onde teve de informar o intérprete de que ia utilizar a entidade do nome.
 
