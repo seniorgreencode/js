@@ -329,21 +329,21 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 <p>O <b>Symbol</b> é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.</p>
 
 ## Valores verdadeiros e falsos
-<p>Outros valores no JavaScript possuem valores equivalentes ao true e false.
+Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
   
-Um exemplo é o número 0. Ele representa tanto o número zero quanto o valor false. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com false.
+Um exemplo é o número `0`. Ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
 
-Os seguintes valores são considerados falsos no JavaScript:</p>
-<ul>
-  <li>0;</li>
-  <li>-0;</li>
-  <li>null;</li>  
-  <li>false;</li>
-  <li>NaN;</li>
-  <li>undefined;</li>
-  <li>"" (string vazia).</li>
-</ul>
-<p>Qualquer outro valor é considerado true, até mesmo a String "false" e "0", pois não são Strings vazias.</p>
+Os seguintes valores são considerados falsos no JavaScript:
+
+- `0`
+- `-0`
+- `null`  
+- `false`
+- `NaN`
+- `undefined`
+- `""` (string vazia)
+
+Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, pois não são Strings vazias.
 
 ## Informando o tipo do valor primitivo na operação
 
@@ -352,14 +352,14 @@ Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma op
   
 Um exemplo bem simples: `7 + 10`
 
-O sinal "`+`" é um operador, o qual podemos usar para somar dois valores numéricos.
+O sinal `+` é um operador, o qual podemos usar para somar dois valores numéricos.
 
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
 ## Operadores Lógicos
 Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
 
-O "`&&`" indica uma condição "`e`", e o "`||`" indica uma condição "`ou`". Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`).
+O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`).
 
 **Exemplo**: Copo azul
 
