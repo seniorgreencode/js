@@ -1,17 +1,9 @@
 # 🍦 Vanilla JavaScript
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg" title="Full-Stack JS Development" height="177"></a></div><br />
+<a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177" align="right"></a>
 
 O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o **JavaScript puro**. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
 
-<a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177" align="right"></a>
-
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
-
-<img src="https://user-images.githubusercontent.com/61624336/169734688-41d23a33-6cf3-4d7e-8854-99e86fbdab7f.jpg" height="177">
-<img src="https://user-images.githubusercontent.com/61624336/169734962-aa4ef568-3679-4403-8f84-0143ed227fac.jpg" height="177">
-<img src="https://user-images.githubusercontent.com/61624336/171018189-1bddf171-73d5-4505-994e-7a8b100c946b.jpg" height="177">
-<img src="https://user-images.githubusercontent.com/61624336/171018227-3d37b1d9-a3c3-4030-a9e9-bf287126e489.png" height="177">
-<img src="https://user-images.githubusercontent.com/61624336/169734643-28f3cf78-df62-4ff6-b2c3-78e9dc7b4d11.jpg" height="177">
 
 # 📜 `Hello, World!` - JavaScript
 Iremos construir um mapa totalmente interativo utilizando a fantástica biblioteca do Leaflet.
@@ -482,13 +474,9 @@ Como vimos antes, esse operador serve para negação. Ele inverte os valores do 
 ## Variáveis no JavaScript
 <div align="center"><img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177"></div>
 
-Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos.
+Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos. Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor.
 
-Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor.
-
-Mas se escrevermos um valor, como acessá-lo novamente em outro lugar? Se escrevemos um valor "5" no comando, como alterá-lo depois ou gerar novos valores?
-
-É aí que entram em cena as chamadas <b>variáveis</b>.
+Mas se escrevermos um valor, como acessá-lo novamente em outro lugar? Se escrevemos um valor "5" no comando, como alterá-lo depois ou gerar novos valores? É aí que entram em cena as chamadas <b>variáveis</b>.
 
 Imagine as variáveis como caixinhas onde podemos armazenar um valor e depois ir lá modificar ou apagar. Também damos um nome para essa "caixinha", para podermos acessar o nosso valor por um nome.
 
@@ -516,6 +504,21 @@ O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamo
 <blockquote><b>Obs:</b> Também funciona com a concatenação.</blockquote>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
+
+Podemos também alterar o valor de definição dessa variável, no exemplo abaixo, eu usei no console do browser:
+ 
+```javascript
+// input
+var curso = "Javascript";
+// output
+curso 
+// resultado do output = 'Javascript'
+
+// outro input
+curso = "PHP";
+
+// resultado = 'PHP'
+```
 
 ## Incremento e decremento de valores
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
