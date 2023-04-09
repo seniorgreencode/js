@@ -423,23 +423,22 @@ Os operadores de Igualdade servem para compararmos se dois valores são iguais o
 <blockquote><b>👍 Dica:</b> "!==" é um operador que é usado para extrema diferença.</blockquote>
 
 ## Operadores Relacionais
-<p>Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor.</p>
-<p>São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor true ou false.</p>
-<ul>
-  <li><b>&lt;=</b> verifica se um valor é menor ou igual;</li>
-  <li><b>&gt;=</b> verifica se um valor é maior ou igual;</li>
-  <li><b>&lt;</b> verifica se um valor é menor;</li>
-  <li><b>&gt;</b> verifica se um valor é maior;</li>
-</ul>
-<p>Além de valores numéricos, podemos também comparar Strings, como:</b>
+Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor true ou false.
+
+- `<=` verifica se um valor é menor ou igual;</li>
+- `>=` verifica se um valor é maior ou igual;</li>
+- `<` verifica se um valor é menor;</li>
+- `>` verifica se um valor é maior;</li>
+
+Além de valores numéricos, podemos também comparar Strings, como:
 
 ```javascript
 "a" < "z".
 ```
 
 ## Concatenação de Strings `+`
-<p>O Operador "+" também tem outra função além de somar números: ele concatena Strings.</p>
-<p>Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:</p>
+O Operador `+` também tem outra função além de somar números: ele concatena Strings.
+Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 
 ```javascript
 "Olá" + "" + "João";
