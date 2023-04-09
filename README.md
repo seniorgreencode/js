@@ -312,8 +312,6 @@ O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript 
 
 Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
   
-Empresas grandes começaram a migrar de linguagens como Ruby e Java para o Node.js, como é o caso do PayPal, Yahoo!, eBay, Linkedin e Trello. Todas elas afirmam que conseguiram desenvolver em menos tempo, com menos linhas de códigos e que seus sistemas agora possuem um melhor desempenho.
-
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
 
@@ -340,9 +338,9 @@ Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas r
 O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
  
 # 🕹️ Phaser
-<div align="center"><a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="277"></a></div><br \>
+<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="277" align="right"></a>
 
-<p>O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!</p>
+O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
 # 🤪 Processing.js
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177"></div><br \>
