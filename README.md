@@ -678,7 +678,7 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 <blockquote><b>Obs:</b> O <code>break</code> serve para pausar a execução por cada <code>case</code>, pois senão ele executa todas de uma só vez.</blockquote>
 
 ## Laços de Repetição (Loops)
-<div align="center"><img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177"/></div><br />
+<img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
 
 Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
 
