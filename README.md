@@ -200,8 +200,8 @@ print(a); // Imprime o dado
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107866199-d381c880-6e4c-11eb-99a5-5294cb232106.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg)
 
-## Tipos Primitivos
-<p>Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (0 e 1).
+## Tipos primitivos
+Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (0 e 1).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
 
@@ -209,26 +209,22 @@ Com números podemos fazer cálculos, e com textos podemos guardar um texto e fa
 Os tipos mais simples que uma linguagem possui são chamados de <b>Tipos Primitivos</b>.
 
 O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com mais detalhes depois. São eles:</p>
-<ul>
-  <li><b>Boolean</b> - possuem apenas dois valores: verdadeiro ou falso;</li>
-  <li><b>Undefined</b> - indica que não foi definido um valor;</li>
-  <li><b>Null</b> - indica que um valor é nulo;</li>
-  <li><b>Number</b> - armazena valores numéricos;</li>
-  <li><b>String</b> - armazena textos;</li>
-  <li><b>Symbol</b> - armazena símbolos.</li>
-</ul>
-</p>
 
-### `atob("")`
+- `Boolean` - possuem apenas dois valores: verdadeiro ou falso;
+- `Undefined` - indica que não foi definido um valor;
+- `Null` - indica que um valor é nulo;
+- `Number` - armazena valores numéricos;
+- `String` - armazena textos;
+- `Symbol` - armazena símbolos.
 
-### Boolean
+### `Boolean`
 <p><b>Boolean</b> (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
 Assim como os bits, eles também só armazenam 2 possíveis valores: <b>true</b> ou <b>false</b> (verdadeiro ou falso).
 
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.</p>
 
-### Undefined e Null
+### `Undefined` e `Null`
 Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
@@ -237,7 +233,7 @@ Há uma diferença bem pequena entre undefined e null. Na verdade a existência 
 
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
-### Number
+### `Number`
 O tipo number é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas <b>no JavaScript tudo é Number</b>.
@@ -2146,6 +2142,6 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 
 <div align="center">
 
-<a href="https://github.com/IsaacAlves7/data-science"><img src="https://www.svgrepo.com/show/135091/left-arrow.svg" height="67" title="Previous page"></a>&nbsp;&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/2.svg" height="77" title="This page">&nbsp;&nbsp;&nbsp;<a href="https://github.com/IsaacAlves7/data-science/blob/main/pages/algebra-relacional.md"><img src="https://www.svgrepo.com/show/941/right-arrow.svg" height="67" title="Next page"></a>
+<a href="https://github.com/IsaacAlves7/js"><img src="https://www.svgrepo.com/show/135091/left-arrow.svg" height="67" title="Previous page"></a>&nbsp;&nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/2.svg" height="77" title="This page">&nbsp;&nbsp;&nbsp;<a href="https://github.com/IsaacAlves7/data-science/blob/main/pages/algebra-relacional.md"><img src="https://www.svgrepo.com/show/941/right-arrow.svg" height="67" title="Next page"></a>
 
 </div>
