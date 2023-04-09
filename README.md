@@ -386,7 +386,7 @@ Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <
 Agora aqui é diferente do `&&`. Em uma comparação `||`, se houver uma verdade, o resultado será verdadeiro.
 
 Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.</p>
-<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador `|| só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
+<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
 
 ## Operadores Aritméticos
 Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
