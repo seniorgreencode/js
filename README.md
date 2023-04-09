@@ -235,7 +235,7 @@ Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScr
 <img src="https://user-images.githubusercontent.com/61624336/102109990-697c8100-3e13-11eb-92c1-9f04c4a5edb5.jpg" width="100%"/>
 
 # 📜 JavaScript (JS)
-<div align="center"><img src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg" height="177"/></div><br \>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="177"/></div><br \>
 
 <p>O <b>JavaScript</b> (JS) é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
 
@@ -271,7 +271,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177"></a></div>
 
 # ⚛️ A presença do JavaScript atualmente
-<div align="center"><img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177"/></div>
+<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
 <p>Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
   
@@ -570,4 +570,12 @@ https://miro.medium.com/max/2732/1*LyZcwuLWv2FArOumCxobpA.png
 https://i.ytimg.com/vi/sCAR8ZPM6ew/maxresdefault.jpg
 https://i.ytimg.com/vi/PyKZMY-_TI8/hqdefault.jpg
 https://res.cloudinary.com/practicaldev/image/fetch/s--SnVNfIdj--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/etfxkw4syies3pt35tny.png
-https://ian-says.com/articles/functional-javascript/thumbnail.png
+https://ian-says.com/articles/functional-javascript/thumbnail.png -->
+
+---
+
+<div align="center">
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/1.svg" height="77" title="This page">&nbsp;&nbsp;&nbsp;<a href="https://github.com/IsaacAlves7/data-science/blob/main/pages/data-modeling.md"><img src="https://www.svgrepo.com/show/941/right-arrow.svg" height="67" title="Next page"></a>
+
+</div>
