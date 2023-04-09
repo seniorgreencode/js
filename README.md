@@ -107,7 +107,7 @@ Nesse caso, para exibir resultados ou mensagens no console do navegador utilize 
   <li><code>window.prompt()</code> janela com textbox e ok.</li>
 </ul>
 
-## Comentários
+## Comentários em JavaScript
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
@@ -383,18 +383,14 @@ Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa t
 <blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador <b>&&</b> só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
 
 ### Operador `||`
-<p>Vamos usar o mesmo copo azul para explicar o operador OU. Se eu disser duas verdades, o resultado só pode ser verdadeiro.
-  
-Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em <b>true</b>.
+Vamos usar o mesmo copo azul para explicar o operador OU. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em <b>true</b>.
 
-Se eu disser duas mentiras, o resultado só pode ser falso.
+Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <code>garfo OU é vermelho</code>, são duas mentiras, o que resulta em <b>false</b>.
 
-Se eu disser é um <code>garfo OU é vermelho</code>, são duas mentiras, o que resulta em <b>false</b>.
-
-Agora aqui é diferente do &&. Em uma comparação ||, se houver uma verdade, o resultado será verdadeiro.
+Agora aqui é diferente do `&&`. Em uma comparação `||`, se houver uma verdade, o resultado será verdadeiro.
 
 Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.</p>
-<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador || só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
+<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador `|| só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
 
 ## Operadores Aritméticos
 <p>Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.</p>
