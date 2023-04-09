@@ -196,7 +196,7 @@ a = int(sys.stdin.readline()) // Lê a linha de entrada
 print(a); // Imprime o dado
 ```
 
-## Estilizando a saída dos dados com %c
+## Estilizando a saída dos dados com `%c`
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107866199-d381c880-6e4c-11eb-99a5-5294cb232106.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg)
 
@@ -246,11 +246,11 @@ Podemos ter números inteiros (sem casas decimais) e números flutuantes (com ca
 </ul>
 
 ## Números Especiais
-Também temos três valores especiais no JavaScript que são considerados do tipo Number, mas não são números comuns.
+Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
 
-Os dois primeiros são o <b>Infinity</b> e <b>-Infinity</b>, que indicam valores infinitos positivos e negativos.
+Os dois primeiros são o `Infinity` e `-Infinity`, que indicam valores infinitos positivos e negativos.
 
-O último é o <b>NaN</b> (not a number). Esse valor do tipo Number indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número 5, o resultado não pode ser um número, então resultará em NaN.
+O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
 
 ## Strings
 <p>As Strings são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
