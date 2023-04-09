@@ -4,8 +4,6 @@
 <!-- [![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=React&logoColor=blue)](#)
 [![React.js](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#) -->
 
-<blockquote>I created this repository for my TypeScript Full-Stack Development learning.</blockquote>
-
 <blockquote><b>Obs:</b> It's important to install each one of components shown and to execute the codes on your own machine. Besides that, vale lembrar que esse repositório é somente focado no desenvolvimento TypeScript, se quer aprender sobre HTML e CSS recomendo acessar o outro repositório pelo link abaixo!</blockquote>
 
 # FullStack TypeScript (TS)
