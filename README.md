@@ -370,6 +370,8 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 # 🟦 TypeScript (TS)
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177"></a></div><br \>
 
+O TypeScript (TS) é um super-set da linguagem de programação JavaScript
+
 # 🟪 ESLint
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177"></a></div><br \>
 
@@ -399,6 +401,8 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 
 ## Next.js
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177"></a></div><br \>
+
+
 
 ## Redux
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></a></div><br \>
