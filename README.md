@@ -270,6 +270,10 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 # 🍦 Vanilla JavaScript
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177"></a></div>
 
+O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o JavaScript puro. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
+
+E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
+
 # ⚛️ A presença do JavaScript atualmente
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
