@@ -393,25 +393,23 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 <blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador `|| só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.</blockquote>
 
 ## Operadores Aritméticos
-<p>Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.</p>
-<ul>
-  <li><b>+</b> (adição)</li>
-  <li><b>-</b> (subtração)</li>
-  <li><b>*</b> (multiplicação)</li>
-  <li><b>/</b> (divisão)</li>
-  <li><b>%</b> (módulo) = resto da divisão</li>
-  <li><b>**</b> (potenciação)</li>
-</ul>
-<p>Também temos os operadores de incremento <b>(++)</b> e decremento <b>(--)</b>.
+Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
+
+- `+` (adição)
+- `-` (subtração)
+- `*` (multiplicação)
+- `/` (divisão)
+- `%` (módulo) = resto da divisão
+- `**` (potenciação)
+
+Também temos os operadores de incremento `++` e decremento `--`. O operador `++` aumenta o valor em `1` unidade, ou seja, se colocarmos com o valor `2`, seu valor se tornará `3`.
   
-  O operador <b>++</b> aumenta o valor em 1 unidade, ou seja, se colocarmos com o valor 2, seu valor se tornará 3.
-  
-  O operador <b>--</b> diminui o valor em 1 unidade, ou seja, se colocarmos com o valor 3, seu valor se tornará 2. Veremos melhor sobre esses operadores mais para frente.</p>
+O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o valor `3`, seu valor se tornará `2`. Veremos melhor sobre esses operadores mais para frente.
 
 ## Operadores de Igualdade
 <img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
-<p>Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor true ou false.</p>
+Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
 
 - `==` serve para verificarmos se dois valores são <b>iguais</b>.
 - `!=` serve para verificarmos se dois valores são <b>diferentes</b>.
