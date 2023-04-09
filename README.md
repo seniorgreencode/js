@@ -293,26 +293,26 @@ Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
 # ☄️ jQuery
-<div align="center"><img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="177"></div><br \>
-
+<img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="177" align="right">
+ 
 Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins. Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN.
 
 # 🚘 V8
-<div align="center"><a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do V8"/></a></div><br \>
+<a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do V8" align="right"/></a>
 
 <p>Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
 O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.</p>
 
 # ⬢ Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js"/></a></div><br \>
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
   
 Empresas grandes começaram a migrar de linguagens como Ruby e Java para o Node.js, como é o caso do PayPal, Yahoo!, eBay, Linkedin e Trello. Todas elas afirmam que conseguiram desenvolver em menos tempo, com menos linhas de códigos e que seus sistemas agora possuem um melhor desempenho.
 
 # 🧭 NW.js
-<div align="center"><a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177"></a></div><br \>
+<a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
 
 O **Node Web-Kit**, ou simplesmente **NW.js** é uma aplicação em tempo de execução baseado em *Chromium* e *Node.js*, com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
 
