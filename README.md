@@ -372,7 +372,7 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 # 🟦 TypeScript (TS)
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177"></a></div><br \>
 
-O TypeScript (TS) é um super-set da linguagem de programação JavaScript
+O TypeScript (TS) é um superset da linguagem de programação JavaScript. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável e pode ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS. E ele foi desenvolvido e mantido pela Microsoft.
 
 # 🟪 ESLint
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177"></a></div><br \>
