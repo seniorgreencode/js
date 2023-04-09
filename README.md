@@ -21,6 +21,19 @@ Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta m
 Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
+
+```html
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+     
+  </body>
+</html>
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102241134-64810580-3ed7-11eb-9686-6ec2dde4c61a.jpg)
 
 Agora, existem duas maneiras de criar um documento JS:
