@@ -356,6 +356,8 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 # 📜 JSS
 <div align="center"><img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177"></div><br \>
 
+Um arquivo criado no formato JSS (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
+
 # 🐗 Grunt
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177"></a></div><br \>
 
