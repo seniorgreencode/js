@@ -572,6 +572,6 @@ https://ian-says.com/articles/functional-javascript/thumbnail.png -->
 
 <div align="center">
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/1.svg" height="77" title="This page">&nbsp;&nbsp;&nbsp;<a href="https://github.com/IsaacAlves7/data-science/blob/main/pages/data-modeling.md"><img src="https://www.svgrepo.com/show/941/right-arrow.svg" height="67" title="Next page"></a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/1.svg" height="77" title="This page">&nbsp;&nbsp;&nbsp;<a href="https://github.com/IsaacAlves7/js/blob/vanilla/README.md"><img src="https://www.svgrepo.com/show/941/right-arrow.svg" height="67" title="Next page"></a>
 
 </div>
