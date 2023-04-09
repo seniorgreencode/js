@@ -567,6 +567,10 @@ A diferença entre eles é algo bastante notório no escopo:
 <img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
+
+```javascript
+
+```
   
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102960938-dbaf2e80-44c1-11eb-95eb-5e87dee0f451.jpg)
 
@@ -1778,7 +1782,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104083764-0f0eee80-5220-11eb-9c3c-45cd963f6625.jpg)
 
 ## [DOM] `querySelectorAll`
-<p>O método <code>querySelectorAll</code> retorna uma lista de elementos presentes no documento (<i>NodeList</i>).</p>
+O método <code>querySelectorAll</code> retorna uma lista de elementos presentes no documento (<i>NodeList</i>).
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104094356-4062db00-526f-11eb-9183-4f62ee35746e.jpg)
@@ -1787,7 +1791,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104100745-f92f1700-527b-11eb-90d7-e3e144458cab.jpg)
 
 ## [DOM] `innerHTML`, `Style` && `Atributos`
-<p>O atributo <code>innerHTML</code> permite a inserção de qualquer elemento e tag html no documento HTML.</p>
+O atributo <code>innerHTML</code> permite a inserção de qualquer elemento e tag html no documento HTML.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104109399-37dcc580-52ac-11eb-90b9-6bde6562c39c.jpg)
@@ -1796,7 +1800,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ### Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104108934-8e93d080-52a7-11eb-8783-d8db0a19534a.jpg)
 
-<p>O atributo <code>style</code> permite a inserção de estilo CSS do tipo inline.</p>
+O atributo <code>style</code> permite a inserção de estilo CSS do tipo inline.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104109399-37dcc580-52ac-11eb-90b9-6bde6562c39c.jpg)
@@ -1816,7 +1820,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104132743-0e7c7200-535e-11eb-97ad-033fb39611cd.jpg)
 
 ## [DOM] Atributo `write
-<p>O atributo <code>write</code> serve para escrever um novo elemento no documento HTML.</p>
+O atributo <code>write</code> serve para escrever um novo elemento no documento HTML.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104043730-ff10f380-51ba-11eb-9877-f0d4e1d751b2.jpg)
@@ -1824,14 +1828,14 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104044235-caea0280-51bb-11eb-9c69-4f67bfbc2a7b.jpg)
 
 ## [DOM] `Atributo lastModified`
-<p>O atributo <code>lastModified</code> serve para mostrar o período da última modificação do elemento.</p>
+O atributo <code>lastModified</code> serve para mostrar o período da última modificação do elemento.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048044-68940080-51c1-11eb-9837-91bea05f8547.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104048338-d5a79600-51c1-11eb-92d8-61fed89e89ca.jpg)
 
 ## [DOM] `createElement`
-<p>O método <code>createElement</code> serve para criar elementos HTML.</p>
+O método <code>createElement</code> serve para criar elementos HTML.
 
 ## Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104133591-476b1580-5363-11eb-8fb7-d7fb43b826ea.jpg)
