@@ -1452,10 +1452,6 @@ Generators são funções com pausa e elas despausam valores através da interfa
 <img src="https://devsamurai.com.br/wp-content/uploads/2019/08/you-dont-know-js.png">
 <img src="https://codetot.net/wp-content/uploads/2017/12/javascript-nodejs-tools.png">
 
-<blockquote>It's a repository of Vanilla JavaScript focused in BOM/DOM manipulation with many practical projects!</blockquote>
-
-<div align="center"><img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/04/DOM-JAVASCRIPT.png"/></div><br \>
-
 # 📜 JavaScript OOP
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" height="177"></div><br>
 
@@ -1770,7 +1766,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104053726-85810180-51ca-11eb-8762-3ad0c06046cc.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104054013-0b04b180-51cb-11eb-8532-e3bb91892c55.jpg)
 
-## [DOM] `getElementByTagName` | `querySelector`
+## [DOM] `getElementByTagName` && `querySelector`
 <p>O método <code>getElementsByTagName</code> permite a inserção de mais elementos pelas tags do HTML. Esse método é similar ao <code>getElementsByClassName</code>.</p>
 
 **Exemplo 1**:
@@ -1794,7 +1790,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104095612-91c29880-5276-11eb-9a4d-ca1452410d1a.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104100745-f92f1700-527b-11eb-90d7-e3e144458cab.jpg)
 
-## [DOM] `innerHTML`, `Style` e `Atributos`
+## [DOM] `innerHTML`, `Style` && `Atributos`
 <p>O atributo <code>innerHTML</code> permite a inserção de qualquer elemento e tag html no documento HTML.</p>
 
 ### Exemplo 1:
@@ -1849,7 +1845,7 @@ O método <code>getElementsByClassName</code> diferente do <code>getElementById<
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/104134740-5acdaf00-536a-11eb-8604-a5682cb6221f.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/104134738-599c8200-536a-11eb-88bb-9e72c03c8145.jpg)
 
-## [DOM] `appendChild` | `removeChild`
+## [DOM] `appendChild` && `removeChild`
 O método <code>appendChild</code> serve para revelar a criação do elemento filho, <code>createElement</code>.
 
 **Exemplo 1**:
