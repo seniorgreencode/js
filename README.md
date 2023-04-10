@@ -109,6 +109,13 @@ A forma como os ponteiros são usados em uma ED, seja **explicitamente** (como e
 
 Mesmo quando ponteiros não são usados diretamente, como em linguagens que não utilizam distinção entre ponteiros e outras variáveis (veja o exemplo abaixo), a noção de referenciar a uma outra estrutura de dado arbitrária é usada, noção que é canonicamente abordada pela utilização do ponteiro.
 
+## Arquitetura dos ponteiros
+Ponteiros são uma abstração da capacidade de endereçamento fornecidas pelas arquiteturas modernas. Em termos simples, um endereço de memória, ou índice numérico, é definido para cada unidade de memória no sistema, no qual a unidade é tipicamente um byte ou uma word, o que em termos práticos transforma toda a memória em um grande vetor. Logo, a partir de um endereço, é possível obter do sistema o valor armazenado na unidade de memória de tal endereço. O ponteiro é um tipo de dado que armazena um endereço.
+
+Na maioria das arquiteturas, um ponteiro é grande o suficiente para indexar todas as unidades de memória presentes no sistema. Isso torna possível a um programa tentar acessar um endereço que corresponde a uma área inválida ou desautorizada da memória, o que é chamado de falha de segmentação. Por outro lado, alguns sistemas possuem mais unidades de memória que endereços. Nesse caso, é utilizado um esquema mais complexo para acessar diferentes regiões da memória, como o de segmentação ou paginação.
+
+Para fornecer uma interface consistente, algumas arquiteturas fornecem E/S mapeada em memória, o que permite que enquanto alguns endereços são referenciados como áreas de memória, outros são referenciados como registradores de dispositivos do computador, como equipamentos periféricos.
+
 # Vetores (Arrays)
 
 > Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (matrizes) são utilizados para processamento de imagens.
