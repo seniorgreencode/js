@@ -58,6 +58,18 @@ No arquivo:
 
 [![HTML5](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
+```html
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+```
 
 # Vetores (Arrays)
 
