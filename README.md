@@ -12,6 +12,12 @@ Em termos de EDs, os TDs e TADs são definidos indiretamente pelas operações e
 
 > Na ciência da computação, uma ED é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente, facilitando sua busca e modificação. EDs e algoritmos são temas fundamentais da ciência da computação, sendo utilizados nas mais diversas áreas do conhecimento e com os mais diferentes propósitos de aplicação. Sabe-se que algoritmos manipulam dados. Quando estes dados estão organizados (dispostos) de forma coerente, caracterizam uma forma, uma estrutura de dados. A organização e os métodos para manipular essa estrutura é que lhe confere singularidade (e vantagens estratégicas, como a minimização do espaço ocupado na memória RAM), além (potencialmente) de tornar o código-fonte mais enxuto e simples.
 
+Cada estrutura de dados tem um conjunto de métodos próprios para realizar operações como:
+
+- Inserir ou excluir elementos;
+- Buscar e localizar elementos;
+- Ordenar (classificar) elementos de acordo com alguma ordem especificada.
+
 Vamos praticar as estruturas de dados na linguagem de programação JavaScript, primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
