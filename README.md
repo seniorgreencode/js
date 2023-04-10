@@ -1,4 +1,4 @@
-# 🟨🟡 Estrutura de Dados em JavaScript <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
+# 🟨🟡 Algoritmos + Estrutura de Dados em JS <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
 
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://user-images.githubusercontent.com/61624336/230910769-02ebf626-e464-4cd2-beee-fd6821ebd812.jpg" height="177" align="right"></a>
 
@@ -56,6 +56,32 @@ No `<head>` (cabeça):
 
 No arquivo:
 
+[![HTML5](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
+
+# Vetores (Arrays)
+
+# Pilhas (Pipes)
+
+# Filas (Queues)
+
+# Listas ligadas
+
+# Listas duplamente ligadas
+
+# Conjuntos
+
+# Dicionários
+
+# Hashes
+
+# Árvores (Trees)
+
+# Grafos (Graphs)
+
+# Ordenação
+
+# 
 
 ---
 
