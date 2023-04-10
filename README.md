@@ -93,8 +93,6 @@ No arquivo:
 
 # Ordenação
 
-# 
-
 ---
 
 <div align="center">
