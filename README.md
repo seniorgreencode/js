@@ -91,15 +91,6 @@ No arquivo:
 alert('Hello, World!');
 ```
 
-## Ponteiro
-Um **ponteiro**, conceito-chave para estrutura de dados, é um objeto cujo valor aponta para outro valor através de um endereço de memória (da memória RAM).
-
-> Em programação, um ponteiro ou **apontador** é um tipo de dado de uma linguagem de programação cujo valor se refere diretamente a um outro valor alocado em outra área da memória, através de seu endereço. Um ponteiro é uma simples implementação do tipo referência da Ciência da computação.
-
-A forma como os ponteiros são usados em uma ED, seja **explicitamente** (como em uma lista ligada) ou **implicitamente** (como em um vetor homogêneo), evidencia suas propriedades, usos e operações. Por exemplo, em uma estrutura ligada, em que cada elemento possui um (ou mais) ponteiro(s) para outro(s) elemento(s), os valores podem assumir diferentes tipos e estruturas arbitrariamente complexas; já com a omissão dos ponteiros, por exemplo em um vetor (sequência de valores de um mesmo tipo), a representação fica compacta e muitas vezes favorece o processamento massivamente paralelo, como no caso de tensores e outras variantes multidimensionais tão comuns na física, engenharia e matemática aplicada em geral.
-
-Mesmo quando ponteiros não são usados diretamente, como em linguagens que não utilizam distinção entre ponteiros e outras variáveis (veja o exemplo abaixo), a noção de referenciar a uma outra estrutura de dado arbitrária é usada, noção que é canonicamente abordada pela utilização do ponteiro.
-
 ## Características das estruturas de dados
 As estruturas de dados podem ser:
 
@@ -108,6 +99,15 @@ As estruturas de dados podem ser:
 - **estáticas** (têm tamanho/capacidade de memória fixa) ou dinâmicas (podem expandir).
 
 Veremos a seguir uma lista e descrição de algumas estruturas:
+
+# Ponteiro (Pointer)
+Um **ponteiro**, conceito-chave para estrutura de dados, é um objeto cujo valor aponta para outro valor através de um endereço de memória (da memória RAM).
+
+> Em programação, um ponteiro ou **apontador** é um tipo de dado de uma linguagem de programação cujo valor se refere diretamente a um outro valor alocado em outra área da memória, através de seu endereço. Um ponteiro é uma simples implementação do tipo referência da Ciência da computação.
+
+A forma como os ponteiros são usados em uma ED, seja **explicitamente** (como em uma lista ligada) ou **implicitamente** (como em um vetor homogêneo), evidencia suas propriedades, usos e operações. Por exemplo, em uma estrutura ligada, em que cada elemento possui um (ou mais) ponteiro(s) para outro(s) elemento(s), os valores podem assumir diferentes tipos e estruturas arbitrariamente complexas; já com a omissão dos ponteiros, por exemplo em um vetor (sequência de valores de um mesmo tipo), a representação fica compacta e muitas vezes favorece o processamento massivamente paralelo, como no caso de tensores e outras variantes multidimensionais tão comuns na física, engenharia e matemática aplicada em geral.
+
+Mesmo quando ponteiros não são usados diretamente, como em linguagens que não utilizam distinção entre ponteiros e outras variáveis (veja o exemplo abaixo), a noção de referenciar a uma outra estrutura de dado arbitrária é usada, noção que é canonicamente abordada pela utilização do ponteiro.
 
 # Vetores (Arrays)
 
