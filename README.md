@@ -338,12 +338,12 @@ Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas r
 O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
  
 # 🕹️ Phaser
-<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="277" align="right"></a>
+<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="177" align="right"></a>
 
 O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
 # 🤪 Processing.js
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177" align="right">
 
 **Processing.js** é uma porta JavaScript descontinuada de Processing, uma estrutura projetada para escrever visualizações, imagens e conteúdo interativo. Ele permite que os navegadores da web exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos sem a necessidade de um miniaplicativo Java ou plugin Flash.
 
@@ -353,7 +353,7 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177" align="right"></a>
 
 # 🎯 Require.js 
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177" align="right"></a>
 
 # Puppeteer
 <div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right"></div><br \>
@@ -423,9 +423,7 @@ O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado,
 Além disso, o Vite é altamente extensível por meio de sua API de plug-in e API de JavaScript com suporte de digitação completo.
 
 ## Next.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177"></a></div><br \>
-
-
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
 
 ## Redux
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></a></div><br \>
