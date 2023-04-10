@@ -96,6 +96,15 @@ Um **ponteiro**, conceito-chave para estrutura de dados, é um objeto cujo valor
 
 Mesmo quando ponteiros não são usados diretamente, como em linguagens que não utilizam distinção entre ponteiros e outras variáveis (veja o exemplo abaixo), a noção de referenciar a uma outra estrutura de dado arbitrária é usada, noção que é canonicamente abordada pela utilização do ponteiro.
 
+## Características das estruturas de dados
+As estruturas de dados podem ser:
+
+- **lineares** (ex. arrays) ou **não lineares** (ex. grafos);
+- **homogêneas** (todos os dados que compõe a estrutura são do mesmo tipo) ou **heterogêneas** (podem conter dados de vários tipos);
+- **estáticas** (têm tamanho/capacidade de memória fixa) ou dinâmicas (podem expandir).
+
+Veremos a seguir uma lista e descrição de algumas estruturas:
+
 # Vetores (Arrays)
 
 # Pilhas (Pipes)
