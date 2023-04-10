@@ -1,6 +1,5 @@
-<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
+# 🟨🟡 Estrutura de Dados em JavaScript <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
 
-# 🟨🟡 Estrutura de Dados em JavaScript
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://user-images.githubusercontent.com/61624336/230910769-02ebf626-e464-4cd2-beee-fd6821ebd812.jpg" height="177" align="right"></a>
 
 O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o **JavaScript puro**. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
