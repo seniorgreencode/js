@@ -113,6 +113,8 @@ Veremos a seguir uma lista e descrição de algumas estruturas:
 
 # Filas (Queues)
 
+# Deques
+
 # Listas ligadas
 
 # Listas duplamente ligadas
