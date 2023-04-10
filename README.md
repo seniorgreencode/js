@@ -62,7 +62,7 @@ No `<head>` (cabeça):
 
 No arquivo:
 
-[![HTML5](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+[![index.js](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```html
 <html>
@@ -75,6 +75,12 @@ No arquivo:
  <!-- Ou <script src="js/index.js"></script> -->
   </body>
 </html>
+```
+
+[![index.js](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
+```javascript
+alert('Hello, World!');
 ```
 
 ## Ponteiro
