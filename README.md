@@ -487,7 +487,7 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 # 🦎 RxJS
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177"></div><br \>
 
-
+Uma biblioteca para programação reativa para JavaScript.
 
 # 📚 Bibliotecas JavaScript
 
