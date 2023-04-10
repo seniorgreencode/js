@@ -697,12 +697,13 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
   <li>Final de cada repetição. Normalmente é o incremento ou decremento de 1 da variável.</li>
 </ol>
 
-## Sintaxe:
+**Sintaxe**:
+
 <pre><b>for</b> (declaração 1; declaração 2; declaração 3) {
   // code block to be executed
 }</pre>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
 
 <blockquote><b>Utilidade:</b> O <code>for</code> é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.</blockquote>
