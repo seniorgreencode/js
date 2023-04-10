@@ -68,7 +68,7 @@ No `<head>` (cabeça):
 
 No arquivo:
 
-[![index.js](https://img.shields.io/badge/-index.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+[![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
 
 ```html
 <html>
