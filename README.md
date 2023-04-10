@@ -413,7 +413,7 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
 
 ## Vite
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177" align="right"></a>
 
 O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto (boilerplate). Algumas especialidades dele incluem:
 
