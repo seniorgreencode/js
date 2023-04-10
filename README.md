@@ -4,6 +4,8 @@
 
 As **estruturas de dados** é o ramo da computação que estuda os diversos mecanismos de organização de dados para atender aos diferentes requisitos de processamento. As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação manipulada pelo programa.
 
+> Podemos afirmar que um programa é composto de algoritmos e estruturas de dados, que juntos fazem com que o programa funcione como deve.
+
 Ou seja, uma estrutura de dados (ED), em ciência da computação, é uma coleção tanto de valores (e seus relacionamentos) quanto de operações (sobre os valores e estruturas decorrentes). É uma implementação concreta de um **tipo abstrato de dado** (TAD) ou um **tipo de dado** (TD) básico ou primitivo. Assim, o termo ED pode ser considerado sinônimo de TD, se considerado TAD um hipônimo de TD, isto é, se um TAD for um TD.
 
 Critérios para escolha e estudo de uma estrutura de dados incluem eficiência para **buscas** e **padrões específicos de acesso**, necessidades especiais para manejo de grandes volumes (veja big data), ou a simplicidade de implementação e uso. Ou seja, EDs eficientes são cruciais para a elaboração de algoritmos, diversas linguagens possuem ênfase nas EDs, como evidenciado pela POO (ou OOP, paradigma de programação orientada a objetos), e aplicações distintas usufruem de ou requerem EDs específicas (um compilador usa uma tabela de dispersão para identificadores e namespaces, enquanto uma Árvore B ou Árvore AA é apropriada para acessos randômicos).
