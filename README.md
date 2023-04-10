@@ -70,7 +70,7 @@ No arquivo:
     <script src="js/index.js"></script>
   </head>
   <body>
-    <script src="js/index.js"></script>
+ <!-- Ou <script src="js/index.js"></script> -->
   </body>
 </html>
 ```
