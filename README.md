@@ -867,11 +867,11 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
     <td><b>Função do método</b></td>
   </tr>
   <tr>
-    <td>push("value")</td>
+    <td><code>push("value")</code></td>
     <td>Adiciona elemento</td>
   </tr>
   <tr>
-    <td>pop("array value")</td>
+    <td><code>pop("array value")</code></td>
     <td>Retira elemento</td>
   </tr>
   <tr>
@@ -1005,7 +1005,7 @@ Também funcionam com arrays, dessa forma `[{ }]`:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 Funções em JS
-<div align="center"><img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177"/></div><br />
+<img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
 
 São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
 
@@ -1014,10 +1014,10 @@ São utilizadas para criarmos uma sequência de operações para serem executada
 
 Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
 
-## Exemplo 2:
+**Exemplo 2**:
 ![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
 
-## Exemplo 3:
+**Exemplo 3**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
 <p>O <code>return</code> devolve um valor para a função.</p>
