@@ -100,7 +100,7 @@ As estruturas de dados podem ser:
 
 Veremos a seguir uma lista e descrição de algumas estruturas:
 
-# Ponteiro (Pointer)
+# 👉 Ponteiro (Pointer)
 Um **ponteiro**, conceito-chave para estrutura de dados, é um objeto cujo valor aponta para outro valor através de um endereço de memória (da memória RAM).
 
 > Em programação, um ponteiro ou **apontador** é um tipo de dado de uma linguagem de programação cujo valor se refere diretamente a um outro valor alocado em outra área da memória, através de seu endereço. Um ponteiro é uma simples implementação do tipo referência da Ciência da computação.
