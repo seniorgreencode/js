@@ -549,6 +549,8 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 
 # 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177" align="right"></a>
+  
+É uma biblioteca que tem como foco desenvolver aplicações mobile utilizando HTML, CSS e JS tanto para plataformas Android e iOS
 
 # 🔵 Ionic
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177" align="right"></a>
