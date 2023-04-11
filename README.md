@@ -362,7 +362,7 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 **RequireJS** é um arquivo JavaScript e carregador de módulo. Ele é otimizado para uso no navegador, mas pode ser usado em outros ambientes JavaScript, como Rhino e Node . Usar um carregador de script modular como o RequireJS melhorará a velocidade e a qualidade do seu código.
 
 # Puppeteer
-<div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right"></div><br \>
+<img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right">
 
 **Puppeteer** é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
 
