@@ -465,25 +465,25 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177"></a></div><br \>
 
 # ⚛️ React Native
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
 
 # 🦕 Deno
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
 
 # 🦁 Nest JS
-<div align="center"><img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177"></div><br \>
+<img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
 
 # ☕ Mocha
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
 
 # 🍵 Chai
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177" align="right">
 
 # 🗑️ js-bin
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177" align="right">
 
 # 🦎 RxJS
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
 
 Uma biblioteca para programação reativa para JavaScript.
 
