@@ -516,6 +516,10 @@ Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e cr
 # 🅰️ Angular
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
 
+O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
+
+No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe do componente.
+
 # ✌️ Vue.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177" align="right"></a>
 
