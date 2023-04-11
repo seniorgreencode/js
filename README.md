@@ -121,9 +121,9 @@ Ponteiros são diretamente suportados sem restrições em C, C++, D e Pascal, en
 
 Ao lidar com arranjos, uma operação crítica é o cálculo do endereço para o elemento desejado no arranjo, o que é feito através da manipulação de ponteiros. De fato, em algumas linguagens (como C), os conceitos de "arranjo" e "ponteiro" são intercambiáveis. Em outras estruturas de dados, como listas encadeadas, ponteiros são usados como referências para intercalar cada elemento da estrutura com seus vizinhos (seja anterior ou próximo).
 
-Ponteiros também são utilizados para simular a passagem de parâmetros por referência em linguagens que não oferecem essa construção (como o C). Isso é útil se desejamos que uma modificação em um valor feito pela função chamada seja visível pela função que a chamou, ou também para que uma função possa retornar múltiplos valores.
+Ponteiros também são utilizados para **simular a passagem de parâmetros por referência em linguagens que não oferecem essa construção** (como o C). Isso é útil se desejamos que uma modificação em um valor feito pela função chamada seja visível pela função que a chamou, ou também para que uma função possa retornar múltiplos valores.
 
-Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para apontar para funções, de forma que possam ser invocados como uma função qualquer. Essa abordagem é essencial para a implementação de modelos de re-chamada (callback), muito utilizados atualmente em bibliotecas de rotinas para manipulação de interfaces gráficas. Tais ponteiros devem ser tipados de acordo com o tipo de retorno da função o qual apontam. Ponteiros para função se assemelham a functores, ainda que o conceito função objeto seja mais abrangente.
+Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para **apontar para funções**, de forma que possam ser invocados como uma função qualquer. Essa abordagem é essencial para a implementação de **modelos de re-chamada** (callback), muito utilizados atualmente em bibliotecas de rotinas para manipulação de interfaces gráficas. Tais ponteiros devem ser tipados de acordo com o tipo de retorno da função o qual apontam. Ponteiros para função se assemelham a functores, ainda que o conceito função objeto seja mais abrangente.
 
 # Vetores (Arrays)
 
