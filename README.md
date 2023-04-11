@@ -551,10 +551,10 @@ Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trab
 
 O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!
 
-
-
 # ⚫ Cypress
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177" align="right"></a>
+
+O Cypress é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA) na visualização de quais partes do código necessitam de ajustes.
 
 # 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177" align="right"></a>
