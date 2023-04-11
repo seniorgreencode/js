@@ -461,6 +461,8 @@ O Ember.js é uma estrutura JavaScript produtiva e testada em batalha para a cri
 
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
 
+O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React.
+
 ## Vite
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177" align="right"></a>
 
