@@ -34,9 +34,6 @@
 </div>
 
 <!--
-## Links de Apoio:
-[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
-
 ## JavaScript training:
 - https://www.code.org
 - https://developers.google.com/blockly
