@@ -510,8 +510,6 @@ O Redux é uma biblioteca para armazenamento de estados de uma aplicação JavaS
 
 > O Redux é amplamente utilizado para desenvolvimento de UI e user-interface.
 
-
-
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
 
@@ -519,6 +517,8 @@ O Gatsby é um framework open-source para a criação de sites e apps baseados e
 
 # 🛡️ Angular.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
+  
+O Angular.js é um framework JavaScript para desenvolvimento de aplicações web.
 
 # 🅰️ Angular
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
