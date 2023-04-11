@@ -478,7 +478,7 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
 
-O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
+O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, divisão de código automática para carregamento da página mais rápido, otimização de SEO por padrão, roteamento para o lado do cliente com prefetching (pré-busca otimizada), bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
 
 Ele foi feito para criar aplicações Web escaláveis e trazer novas possibilidades. No entanto, ele não está sozinho, existem outras possibilidades de alternativas no mercado de desenvolvimento como: Gatsby.js, Nuxt.js, Hexo, LoopBack, Angular Universal e Frontity (solução para temas WordPress utilizando React).
 
