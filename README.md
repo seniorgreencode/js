@@ -510,6 +510,8 @@ Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e cr
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
 
+O Gatsby é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
+
 # 🛡️ Angular.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
 
@@ -543,6 +545,8 @@ Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trab
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
 
 O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!
+
+
 
 # ⚫ Cypress
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177" align="right"></a>
