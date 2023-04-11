@@ -129,7 +129,8 @@ Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para **a
 >
 > Segundo Saunders Mac Lane, o conceito de functor foi, pela primeira vez, reconhecido na topologia algébrica, no estudo de grupos de homologia.
 
-# Vetores (Arrays)
+# 🟨 Vetores (Arrays)
+Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das estruturas de dados e normalmente é a primeira que estudamos.
 
 > Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
 
