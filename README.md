@@ -372,7 +372,9 @@ Existem outras Engines que também compilam o JavaScript como a Unity, Construct
 # 🧙‍♂️ Browserify 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177" align="right"></a>
 
-**Browserify** é uma ferramenta de pacote de JavaScript de código aberto que permite aos desenvolvedores escrever e usar módulos no estilo Node.js que compilam para uso no navegador.
+**Browserify** é uma ferramenta de pacote de JavaScript de código aberto que permite aos desenvolvedores escrever e usar módulos no estilo Node.js que compilam para uso no navegador agrupando todas as suas dependências.
+
+Os navegadores não têm o método `require` definido, mas o Node.js tem. Com o Browserify, você pode escrever código que usa require da mesma forma que usaria no Node.
 
 # 🎯 Require.js 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177" align="right"></a>
@@ -381,10 +383,19 @@ Existem outras Engines que também compilam o JavaScript como a Unity, Construct
 
 Ou seja, o RequireJS olha para as dependências de todos os módulos no seu aplicativo, e busca e executa todos os módulos na sua ordem correta, de modo que cada módulo tem exatamente o que ele precisa para rodar.
 
-# Puppeteer
+# 🧸 Puppeteer
 <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right">
 
 **Puppeteer** é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
+
+A maioria das coisas que você pode fazer manualmente no navegador pode ser feita usando o Puppeteer! Aqui estão alguns exemplos para você começar:
+
+- Gere capturas de tela e PDFs de páginas.
+- Rastreie um SPA (aplicativo de página única) e gere conteúdo pré-renderizado (ou seja, "SSR" (renderização do lado do servidor)).
+- Automatize o envio de formulários, teste de interface do usuário, entrada de teclado, etc.
+- Crie um ambiente de teste automatizado usando os recursos mais recentes de JavaScript e navegador.
+- Capture um rastreamento da linha do tempo do seu site para ajudar a diagnosticar problemas de desempenho.
+- Teste as extensões do Chrome .
 
 # 📜 JSS
 <img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177" align="right">
