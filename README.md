@@ -577,12 +577,16 @@ O Ionic é um framework híbrido open-source para desenvolvimento de aplicaçõe
 # ⚛️ React Native
 <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
   
-O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecossistema de outro framework o React.js, desenvolvido pelo Facebook, atualmente Meta, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelhanças, eles possuem utilizações distintas.
+O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecossistema de outro framework o React.js, desenvolvido pelo Facebook, atualmente Meta, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis.
+
+Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelhanças, eles possuem utilizações distintas.
 
 # 🦕 Deno
 <img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
 
-O Deno é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade. Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
+O Deno é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade.
+
+Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
 
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
