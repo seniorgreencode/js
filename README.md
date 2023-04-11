@@ -392,6 +392,8 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 # ⚡ Flow
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177" align="right">
 
+O Flow é um verificador de tipo estático para JavaScript. Ele parte das primícias de: Código mais rápido, código mais inteligente, código com confiança e código maior.
+
 # 🟦 TypeScript (TS)
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
 
