@@ -450,6 +450,8 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 # 🐹 Ember
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="177" align="right"></a>
 
+O Ember.js, ou somente Ember, é um framework web JavaScript de código aberto, baseado na arquitetura Model–view–viewmodel. Ele permite aos desenvolvedores aplicativos web de página única escaláveis, ao incorporar expressões idiomáticas comuns e boas práticas de desenvolvimento em seu núcleo.
+
 # ⚛️ React.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177" align="right">
 
