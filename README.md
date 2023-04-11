@@ -358,7 +358,9 @@ O elétron é uma tecnologia madura com uma comunidade em crescimento e, portant
 # 🕹️ Phaser
 <a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="177" align="right"></a>
 
-O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
+O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source.
+
+Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
 # 🤪 Processing.js
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177" align="right">
