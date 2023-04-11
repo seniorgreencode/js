@@ -479,6 +479,8 @@ O **Webpack** é um empacotador que pega módulos com dependências e cria conte
 
 # 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="177" align="right"></a>
+  
+O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado como um sistema de construção de streaming no desenvolvimento web front-end.
 
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
