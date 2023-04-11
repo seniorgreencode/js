@@ -587,7 +587,7 @@ O Deno é um moderno ambiente de execução para JavaScript e TypeScript, sendo 
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
 
-O NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017.
+O NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.
 
 # ☕ Mocha
 <img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
