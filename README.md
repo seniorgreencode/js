@@ -508,6 +508,10 @@ Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e cr
 
 O Redux é uma biblioteca para armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. 
 
+> O Redux é amplamente utilizado para desenvolvimento de UI e user-interface.
+
+
+
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
 
