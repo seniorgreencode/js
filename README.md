@@ -475,12 +475,16 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 # 🧊 Webpack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177" align="right"></a>
 
-O **Webpack** é um empacotador que pega módulos com dependências e cria conteúdos estáticos para produção.
+O **Webpack** é um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
+
+Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
 
 # 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="177" align="right"></a>
   
-O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado como um sistema de construção de streaming no desenvolvimento web front-end.
+O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado para automatizar e aprimorar seu fluxo de trabalho (workflows) e como um sistema de construção de streaming no desenvolvimento web front-end.
+
+Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes.
 
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
