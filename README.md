@@ -362,7 +362,7 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 
 Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
-# 🤪 Processing.js (deprecated)
+# 🤪 Processing.js <img src="https://img.shields.io/badge/package-deprecated-red">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177" align="right">
 
 **Processing.js** é uma porta JavaScript descontinuada de Processing, uma estrutura projetada para escrever visualizações, imagens e conteúdo interativo. Ele permite que os navegadores da web exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos sem a necessidade de um miniaplicativo Java ou plugin Flash.
