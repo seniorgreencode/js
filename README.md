@@ -523,10 +523,6 @@ Uma biblioteca para programação reativa para JavaScript.
 ## highlighter.js
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/132415637-d7c1319c-847f-48b3-a9d6-71437a18be07.png" height="277"></div>
 
-# 🐋 JavaScript no Docker
-
-# ☸️ JavaScript no Kubernetes
-
 # ☁️ JavaScript em Cloud Computing
 <div align="center"><img src="https://www2.assets.heroku.com/assets/languages/node/hero-7c7b5d89d7896c6d0e6ff63aa82ba97c294d5b2a31a46375f8cc558d3cf1d1ff.png" height="277"></div>
 
