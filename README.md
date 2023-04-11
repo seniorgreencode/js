@@ -484,7 +484,7 @@ Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos
   
 O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado para automatizar e aprimorar seu fluxo de trabalho (workflows) e como um sistema de construção de streaming no desenvolvimento web front-end.
 
-Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes.
+Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes. Usando código sobre configuração, utilize todo o JavaScript para criar seu `gulpfile` onde as tarefas podem ser escritas usando seu próprio código ou plug-ins encadeados de propósito único. Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
 
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
