@@ -377,6 +377,8 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 
 **RequireJS** é um arquivo JavaScript e carregador de módulo. Ele é otimizado para uso no navegador, mas pode ser usado em outros ambientes JavaScript, como Rhino e Node . Usar um carregador de script modular como o RequireJS melhorará a velocidade e a qualidade do seu código.
 
+Ou seja, o RequireJS olha para as dependências de todos os módulos no seu aplicativo, e busca e executa todos os módulos na sua ordem correta, de modo que cada módulo tem exatamente o que ele precisa para rodar.
+
 # Puppeteer
 <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right">
 
