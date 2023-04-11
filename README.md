@@ -359,15 +359,17 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 # 🎯 Require.js 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177" align="right"></a>
 
+**RequireJS** é um arquivo JavaScript e carregador de módulo. Ele é otimizado para uso no navegador, mas pode ser usado em outros ambientes JavaScript, como Rhino e Node . Usar um carregador de script modular como o RequireJS melhorará a velocidade e a qualidade do seu código.
+
 # Puppeteer
 <div align="center"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right"></div><br \>
 
-Puppeteer é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
+**Puppeteer** é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
 
 # 📜 JSS
 <img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177" align="right">
 
-Um arquivo criado no formato JSS (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
+Um arquivo criado no formato **JSS** (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
 
 Os arquivos JSS devem ser analisados e convertidos para o formato `.CSS` antes de serem usados com uma página web. Portanto, você precisa usar o programa jss como mostrado no comando a seguir, que converte `styles.jss` para `styles.css`:
 
@@ -378,7 +380,7 @@ jss stylesjss stylescss
 > **NOTA**: Os arquivos JSS usam o herda-classe:, herd:, e herdado: sintaxe nas definições de CSS para prover herança.
 
 # 🐗 Grunt
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177" align="right"></a>
 
 # 🐠 Babel
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="177" align="right"></a>
@@ -388,7 +390,7 @@ O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguage
 Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do **TC39**, o comitê técnico que especifica o ECMAScript. O Babel também pode **converter a sintaxe JSX** e **remover anotações de tipo do Flow** e do **TypeScript**. Babel é **construído a partir de plugins**. Componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
 # ⚡ Flow
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177" align="right">
 
 # 🟦 TypeScript (TS)
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
