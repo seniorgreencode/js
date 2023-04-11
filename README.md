@@ -480,7 +480,7 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de rotas, suporte TypeScript, bundling inteligente e o principal que seria a renderização React no Lado Servidor (Server-Side Rendering).
 
-Ele foi feito para criar aplicações Web escaláveis.
+Ele foi feito para criar aplicações Web escaláveis e trazer novas possibilidades. No entanto, ele não está sozinho, existem outras possibilidades de alternativas como: Gatsby.js, Nuxt.js, Hexo, LoopBack, Angular Universal e Frontity (solução para temas WordPress utilizando React).
 
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
