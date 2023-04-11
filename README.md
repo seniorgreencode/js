@@ -553,6 +553,8 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 # 🔵 Ionic
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177" align="right"></a>
 
+O Ionic é um framework híbrido open-source para desenvolvimento de aplicações multiplataforma usando tecnologia Web: HTML, CSS e JS. Através dele, você poderá desenvolver e disponibilizar aplicativos em várias plataformas como Android e iOS através de PWAs - Progressive Web Apps e até em Desktops, tudo isso apenas escrevendo um único código.
+
 # ⚛️ React Native
 <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
   
