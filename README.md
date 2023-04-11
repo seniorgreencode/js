@@ -431,8 +431,6 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 
 O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
 
-Ele parte das premissas de: Código mais rápido, código mais inteligente, código com confiança e código maior.
-
 # 🟦 TypeScript (TS)
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
 
