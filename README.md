@@ -427,7 +427,11 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 # ⚡ Flow
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177" align="right">
 
-O Flow é um verificador de tipo estático para JavaScript. Ele parte das primícias de: Código mais rápido, código mais inteligente, código com confiança e código maior.
+**Flow** é um verificador de tipo estático para JavaScript que permite ao desenvolvedor verificar erros de tipo durante o desenvolvimento do código. Isso significa que um desenvolvedor recebe feedback mais rápido sobre o código, que pode ser usado para melhorar sua qualidade. O Flow funciona usando anotações e definições de tipo para adicionar suporte de verificação de tipo ao seu código. A sintaxe é fácil de usar e você pode removê-la rapidamente com uma ferramenta de pós-processador para que não afete seu código.
+
+O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
+
+Ele parte das premissas de: Código mais rápido, código mais inteligente, código com confiança e código maior.
 
 # 🟦 TypeScript (TS)
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
