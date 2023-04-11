@@ -549,7 +549,9 @@ Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trab
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
 
-O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!
+O Jest é um poderoso framework de Testes em JavaScript com um foco na simplicidade, projetado para garantir a correção de qualquer código JavaScript. Funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais!
+
+Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 
 # ⚫ Cypress
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177" align="right"></a>
