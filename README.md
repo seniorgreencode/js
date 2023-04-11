@@ -317,7 +317,7 @@ Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js<
 O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
 
 ## NPM - Node Package Manager
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="117"></div><br />
+<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="117" align="right">
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
   
