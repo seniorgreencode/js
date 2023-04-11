@@ -411,7 +411,7 @@ O **Lint** ou **Linter** é um software responsável por analisar o software de 
 Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
 # 🐹 Ember
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="177" align="right"></a>
 
 # ⚛️ React.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177" align="right">
