@@ -563,7 +563,11 @@ O Cypress é um framework de testes, de código aberto e de fácil configuraç�
 # 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177" align="right"></a>
   
-É uma biblioteca que tem como foco desenvolver aplicações mobile utilizando HTML, CSS e JS tanto para plataformas Android e iOS
+O Apache Cordova é uma biblioteca/estrutura que tem como foco desenvolver aplicações mobile de plataforma cruzada de código aberto usada para a criação de aplicativos híbridos, tanto para plataformas Android e iOS. Anteriormente, Cordova era conhecido como PhoneGap. Ele vem dos gigantes do servidor de tecnologia Apache. Cordova usa certas tecnologias da web como JavaScript, CSS3 e HTML5 para desenvolver aplicativos híbridos.
+
+Vários plug-ins de terceiros estão disponíveis para trabalhar com a estrutura Cordova, ajudando imensamente no desenvolvimento de aplicativos ricos em recursos.
+
+> O principal benefício de usar o Cordova é sua simplicidade na estrutura de codificação.
 
 # 🔵 Ionic
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177" align="right"></a>
