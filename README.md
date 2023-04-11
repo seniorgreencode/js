@@ -503,9 +503,10 @@ Vamos fazer um teste, após rodar, no modelo hot reload, a aplicação no ambien
   
 Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e criar um arquivo com extensão `.js`, `.jsx` ou `typescript` que ele criará uma rota automaticamente.
   
-
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
+
+O Redux é uma biblioteca para armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. 
 
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
