@@ -420,6 +420,14 @@ O ecossistema Grunt é enorme e cresce a cada dia. Com literalmente centenas de 
 # 🦜 Bower
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/bower.svg" height="177" align="right"></a>
 
+O Bower é um gerenciador de dependências client-side, simples e muito prático, que permite você fazer download dos frameworks JavaScript sem precisar entrar no site do projeto, ele também pode ser utilizado para baixar pacotes CSS e HTML. Os sites da Web são feitos de muitas coisas — estruturas, bibliotecas, recursos e utilitários. Bower gerencia todas essas coisas para você.
+
+Manter o controle de todos esses pacotes e garantir que eles estejam atualizados (ou configurados para as versões específicas de que você precisa) é complicado. O Bower pode gerenciar componentes que contenham HTML, CSS, JavaScript, fontes ou até mesmo arquivos de imagem. O Bower não concatena ou reduz o código ou faz qualquer outra coisa - apenas instala as versões corretas dos pacotes que você precisa e suas dependências.
+
+Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, cuidando da busca, localização, download e salvamento do que você está procurando. O Bower rastreia esses pacotes em um arquivo de manifesto, `bower.json`. Como você usa os pacotes depende de você. O Bower fornece ganchos para facilitar o uso de pacotes em suas ferramentas e fluxos de trabalho .
+
+Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
+
 # 🐠 Babel
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="177" align="right"></a>
 
