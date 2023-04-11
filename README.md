@@ -116,6 +116,15 @@ Na maioria das arquiteturas, um ponteiro é grande o suficiente para indexar tod
 
 Para fornecer uma interface consistente, algumas arquiteturas fornecem E/S mapeada em memória, o que permite que enquanto alguns endereços são referenciados como áreas de memória, outros são referenciados como registradores de dispositivos do computador, como equipamentos periféricos.
 
+## Uso dos ponteiros
+Ponteiros são diretamente suportados sem restrições em C, C++, D e Pascal, entre outras linguagens. São utilizados para construir **referências**, elemento fundamental da maioria das estruturas de dados, especialmente aquelas não alocadas em um bloco contínuo de memória, como **listas encadeadas**, **árvores** ou **grafos**.
+
+Ao lidar com arranjos, uma operação crítica é o cálculo do endereço para o elemento desejado no arranjo, o que é feito através da manipulação de ponteiros. De fato, em algumas linguagens (como C), os conceitos de "arranjo" e "ponteiro" são intercambiáveis. Em outras estruturas de dados, como listas encadeadas, ponteiros são usados como referências para intercalar cada elemento da estrutura com seus vizinhos (seja anterior ou próximo).
+
+Ponteiros também são utilizados para simular a passagem de parâmetros por referência em linguagens que não oferecem essa construção (como o C). Isso é útil se desejamos que uma modificação em um valor feito pela função chamada seja visível pela função que a chamou, ou também para que uma função possa retornar múltiplos valores.
+
+Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para apontar para funções, de forma que possam ser invocados como uma função qualquer. Essa abordagem é essencial para a implementação de modelos de re-chamada (callback), muito utilizados atualmente em bibliotecas de rotinas para manipulação de interfaces gráficas. Tais ponteiros devem ser tipados de acordo com o tipo de retorno da função o qual apontam. Ponteiros para função se assemelham a functores, ainda que o conceito função objeto seja mais abrangente.
+
 # Vetores (Arrays)
 
 > Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
