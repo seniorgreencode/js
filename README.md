@@ -432,16 +432,16 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
 
 ## Redux
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
 ## Gatsby
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
 
 # 🛡️ Angular.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
 
 # 🅰️ Angular
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
 
 # ✌️ Vue.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177" align="right"></a>
