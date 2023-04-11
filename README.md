@@ -587,7 +587,13 @@ O Deno é um moderno ambiente de execução para JavaScript e TypeScript, sendo 
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
 
-O NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.
+O NestJS é um framework/estrutura que usa JavaScript progressivo de código aberto, no qual é construído com TypeScript (preserva a compatibilidade com JavaScript puro) e combina elementos de OOP (Programação Orientada a Objetos), FP (Programação Funcional) e FRP (Programação Reativa Funcional), mas também oferece compatibilidade com uma ampla gama de outras bibliotecas, como, por exemplo, Fastify, permitindo o uso fácil da miríade de plug-ins de terceiros disponíveis no Node.js para o desenvolvimento de aplicativos do lado do servidor (back-end) que auxilia o desenvolvimento de aplicações eficientes, escaláveis e confiáveis em cima do Node.js. Foi criado por Kamil Mysliwiec e lançado em 2017.
+
+Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. O NestJS utiliza como padrão TypeScript e possui uma sintaxe parecida com Angular.
+
+Em um simples comando, perceba que ele cria uma estrutura model-service-controller. Algumas características como o uso de Typescript, modularização, injeção de dependências, também permite o uso de ORMs como o TypeORM e Sequelize para bancos de dados relacionais, entre outras, faz do NestJS uma opção atual e interessante para o desenvolvimento de inúmeras aplicações.
+
+> Muitos devs comparam o NestJS com o Rails (framework/biblioteca da linguagem de programação Ruby), onde podem ser categorizados como ferramentas "Frameworks (Full Stack)". "Poderoso, mas super amigável para trabalhar" é a principal razão pela qual os desenvolvedores consideram o NestJS sobre os concorrentes, enquanto o "desenvolvimento rápido" foi declarado como o fator chave na escolha do Rails.
 
 # ☕ Mocha
 <img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
