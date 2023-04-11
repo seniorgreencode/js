@@ -134,11 +134,11 @@ Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das est
 
 > Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
 
-# Pilhas (Pipes)
+# 📚 Pilhas (Pipes)
 
-# Filas (Queues)
+# 👯 Filas (Queues)
 
-# Deques
+# ♣️ Deques
 
 # Listas ligadas
 
@@ -146,13 +146,13 @@ Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das est
 
 # Conjuntos
 
-# Dicionários
+# 📘 Dicionários
 
-# Hashes
+# #️⃣ Hashes
 
-# Árvores (Trees)
+# 🌳 Árvores (Trees)
 
-# Grafos (Graphs)
+# 📉 Grafos (Graphs)
 
 # Ordenação
 
