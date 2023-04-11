@@ -582,6 +582,8 @@ O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecos
 # 🦕 Deno
 <img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
 
+O Deno é um ambiente de execução para JavaScript e TypeScript baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade. Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
+
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
 
