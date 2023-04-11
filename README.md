@@ -352,6 +352,8 @@ O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de Java
 # 🧙‍♂️ Browserify 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177" align="right"></a>
 
+**Browserify** é uma ferramenta de pacote de JavaScript de código aberto que permite aos desenvolvedores escrever e usar módulos no estilo Node.js que compilam para uso no navegador.
+
 # 🎯 Require.js 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177" align="right"></a>
 
