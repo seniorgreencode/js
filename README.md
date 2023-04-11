@@ -1184,10 +1184,11 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 
 ## JS Modulos
 
-# 📜 JavaScript Promises
+# 📜 JavaScript Promises [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=for-the-badge&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
+
 <div align="center"><a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="177" title="Read the Blog"></a></div><br \>
 
-Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
+**Promises** são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
 
 ## Código Síncrono
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg)
