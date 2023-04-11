@@ -382,7 +382,7 @@ jss stylesjss stylescss
 # 🐗 Grunt
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177" align="right"></a>
 
-**Grunt** é um executor de tarefas (Task Runner) JavaScript, muito usado pela automação. Quanto menos trabalho você tiver ao executar tarefas repetitivas, como minificação, compilação, teste de unidade, linting etc., mais fácil será o seu trabalho. Depois de configurá-lo por meio de um `Gruntfile`, um executor de tarefas pode fazer a maior parte desse trabalho mundano para você - e sua equipe - com esforço basicamente zero.
+**Grunt** é um executor de tarefas (Task Runner) JavaScript, muito usado pela automação. Quanto menos trabalho você tiver ao executar tarefas repetitivas, como minificação, compilação, testes unitários, linting etc., mais fácil será o seu trabalho. Depois de configurá-lo por meio de um `Gruntfile`, um executor de tarefas pode fazer a maior parte desse trabalho mundano para você e sua equipe com esforço basicamente zero.
 
 O ecossistema Grunt é enorme e cresce a cada dia. Com literalmente centenas de plugins para escolher, você pode usar o Grunt para automatizar praticamente qualquer coisa com um mínimo de esforço. Se alguém ainda não construiu o que você precisa, criar e publicar seu próprio plug-in do Grunt no npm é muito fácil.
 
