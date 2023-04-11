@@ -555,6 +555,8 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 
 # ⚛️ React Native
 <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
+  
+O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecossistema de outro framework o React.js, desenvolvido pelo Facebook, atualmente Meta, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis. Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelhanças, eles possuem utilizações distintas.
 
 # 🦕 Deno
 <img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
