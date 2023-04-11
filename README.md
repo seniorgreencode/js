@@ -438,7 +438,7 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 <div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177"></a></div><br \>
 
 # ✌️ Vue.js
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177"></a></div><br \>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177" align="right"></a>
 
 <p>O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
   
@@ -486,6 +486,9 @@ O Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicid
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
 
 Uma biblioteca para programação reativa para JavaScript.
+
+# WebAssembly
+<img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
 # 📚 Bibliotecas JavaScript
 
