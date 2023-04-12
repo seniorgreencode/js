@@ -520,6 +520,8 @@ No Angular, um componente é composto, geralmente, por um arquivo TypeScript con
 O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance para criação de componentes em páginas Web e modelos SPA - Single Page Applications. 
 
 Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes que Evan Nyu mais gostava no framework e assim criou um framework bem mais leve.
+
+O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e Ruby On Rails por exemplo, e logicamente é possível usar o Vue em toda a aplicação ou em SPA - Single Page Applications, usando um ecossistema completo com Core, o Vuex e o Vue-Router.
   
 # 🧊 Webpack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177" align="right"></a>
@@ -527,6 +529,8 @@ Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes qu
 O **Webpack** é um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
 
 Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
+
+> Muito usado para frameworks Front-end JavaScript como: Angular, Vue e React.
 
 # 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="177" align="right"></a>
