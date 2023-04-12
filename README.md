@@ -517,7 +517,9 @@ No Angular, um componente é composto, geralmente, por um arquivo TypeScript con
 # ✌️ Vue.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177" align="right"></a>
 
-O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
+O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance para criação de componentes em páginas Web e modelos SPA - Single Page Applications. 
+
+Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes que Evan Nyu mais gostava no framework e assim criou um framework bem mais leve.
   
 # 🧊 Webpack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177" align="right"></a>
