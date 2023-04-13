@@ -622,7 +622,13 @@ Em um simples comando, perceba que ele cria uma estrutura model-service-controll
 # ☕ Mocha
 <img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
 
-O **Mocha**
+O **Mocha** é uma estrutura de teste JavaScript para programas Node.js, com suporte a navegadores, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserção.
+  
+Você poderá testar ele no lado do servidor com o Node ou no lado do cliente, em seu navegador.
+  
+O Mocha executa testes em série para fornecer relatórios flexíveis e precisos enquanto mapeia exceções não capturadas para seus casos de teste correspondentes. O Mocha fornece funções que são executadas em uma ordem específica, registrando os resultados na janela do terminal. O Mocha também limpa o estado do software que está sendo testado para garantir que os casos de teste sejam executados independentemente uns dos outros.
+
+Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é comumente usado com Chai, uma biblioteca de asserção popular para Node.js e o navegador.
 
 # 🍵 Chai
 <img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177" align="right">
