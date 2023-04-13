@@ -146,7 +146,10 @@ Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das est
 
 # Conjuntos
 
-# 📘 Dicionários
+# 📘 Dicionários (hashmap)
+**Dicionário** (também conhecido como **mapa**, **map** ou **hashmap**) é uma estrutura que guarda dados em pares de chave e valor e utiliza estas chaves para encontrar os elementos associados a elas, diferentemente das estruturas que vimos até agora, que trabalham com listas (sequenciais ou não) apenas de valores.
+
+Essa descrição parece muito uma outra estrutura que já conhecemos, o objeto. Mas há várias diferenças entre dicionários/mapas e objetos. Por exemplo, é possível mapear o tamanho de um dicionário (ou seja, a quantidade de pares chave/valor) e os dicionários podem aceitar qualquer tipo de dado como chave (objetos aceitam apenas strings ou symbols). Os dicionários também podem ter performance melhor em buscas e manipulação de dados do que objetos, pois utilizam referências para as chaves - de uma forma similar a ponteiros, as chaves apontam para o endereço de memória de seus valores.
 
 # #️⃣ Hashes
 
