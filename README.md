@@ -326,6 +326,14 @@ O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo 
 > Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
 
 Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
+
+# 🐾 Pug
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="177" title="Site do Node.js" align="right"/></a>
+
+# ⚙️ EJS - Effetive JavaScript
+<a href="https://nodejs.org/en/"><img src="https://miro.medium.com/v2/resize:fit:1400/1*-8c5bXmKhpKg8NRnBMu0zQ.gif" height="177" title="Site do Node.js" align="right"/></a>
+
+
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
