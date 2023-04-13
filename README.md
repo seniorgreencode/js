@@ -514,13 +514,17 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
-O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
+O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
+
+O principal uso do Redux é que podemos usar um estado de aplicativo como um estado global e interagir com o estado de qualquer componente de React que é muito fácil, sejam eles irmãos ou pai-filho.
+
+> O Redux é amplamente utilizado para desenvolvimento de UI e user-interface e o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
 
 > A linguagem de programação Elm é uma linguagem específica de domínio para criar declarativamente interfaces gráficas com o usuário baseadas em navegador da web. Elm é puramente funcional e é desenvolvido com ênfase em usabilidade, desempenho e robustez.
 
-Sua arquitetura foi desenvolvida a fim de resolver problemas gerados com a arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
+> A arquitetura Flux foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
 
-> O Redux é amplamente utilizado para desenvolvimento de UI e user-interface.
+Então, entre Flux e Redux ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são uma ótima ferramenta porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo.
 
 Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
 
