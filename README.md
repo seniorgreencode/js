@@ -330,10 +330,18 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 # 🐾 Pug
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="177" title="Site do Node.js" align="right"/></a>
 
-# ⚙️ EJS - Effetive JavaScript
+**Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores.
+
+Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado a nós que "Jade" é uma marca registrada; como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
+
+# ⚙️ EJS - Embedded JavaScript
 <a href="https://nodejs.org/en/"><img src="https://miro.medium.com/v2/resize:fit:1400/1*-8c5bXmKhpKg8NRnBMu0zQ.gif" height="177" title="Site do Node.js" align="right"/></a>
 
+O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js.
 
+Assim como vimos no artigo sobre PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
+
+A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
