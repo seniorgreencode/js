@@ -507,7 +507,16 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
 
-O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: CSS, Sass e qualquer lib CSS-in-JS, ambiente de desenvolvimento com suporte a Fast-Refresh, API Routes para construção de APIs Endpoints, Serverless Functions, divisão de código automática para carregamento da página mais rápido, otimização de SEO por padrão, roteamento para o lado do cliente com prefetching (pré-busca otimizada), bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
+O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: 
+
+- CSS, Sass e qualquer lib CSS-in-JS;
+- ambiente de desenvolvimento com suporte a Fast-Refresh;
+- API Routes para construção de APIs Endpoints;
+- Serverless Functions;
+- Divisão de código automática para carregamento da página mais rápido;
+- Otimização de SEO por padrão;
+- Roteamento para o lado do cliente com prefetching (pré-busca otimizada);
+- Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
   
 > Algo bem parecido com o que a linguagem de programação PHP faz, porém diferente em muitos aspectos.
   
@@ -587,7 +596,9 @@ Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos
   
 O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado para automatizar e aprimorar seu fluxo de trabalho (workflows) e como um sistema de construção de streaming no desenvolvimento web front-end.
 
-Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes. Usando código sobre configuração, utilize todo o JavaScript para criar seu `gulpfile` onde as tarefas podem ser escritas usando seu próprio código ou plug-ins encadeados de propósito único. Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
+Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes. Usando código sobre configuração, utilize todo o JavaScript para criar seu `gulpfile` onde as tarefas podem ser escritas usando seu próprio código ou plug-ins encadeados de propósito único.
+
+Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
 
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
