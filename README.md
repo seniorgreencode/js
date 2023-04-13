@@ -1,6 +1,5 @@
 <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=ffffff)</a> <a href="https://www.mindmeister.com/map/2678931126">![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff)</a> <a href="">![React.js](https://img.shields.io/badge/React.js-000000?style=for-the-badge&logo=React&logoColor=61DAFB)</a> ![React Native](https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=React&logoColor=blue)</a>
 
-
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" title="Full-Stack JS Development"/></a> 
 
 # It's a repository of JavaScript (JS) 📜
@@ -345,9 +344,9 @@ Essa abordagem permite que você reutilize elementos estáticos da página da We
 
 O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js.
 
-Assim como vimos no artigo sobre PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
+Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
 
-A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
+> A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
@@ -522,6 +521,8 @@ O **Redux** é uma biblioteca para armazenamento de estados de uma aplicação J
 
 O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
+> Diferente do Next.js, o Gatsby funciona 
+
 # 🛡️ Angular.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
   
@@ -603,14 +604,14 @@ Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelh
 # 🦕 Deno
 <img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
 
-O Deno é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade.
+O **Deno** é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade.
 
 Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
 
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
 
-O NestJS é um framework/estrutura que usa JavaScript progressivo de código aberto, no qual é construído com TypeScript (preserva a compatibilidade com JavaScript puro) e combina elementos de OOP (Programação Orientada a Objetos), FP (Programação Funcional) e FRP (Programação Reativa Funcional), mas também oferece compatibilidade com uma ampla gama de outras bibliotecas, como, por exemplo, Fastify, permitindo o uso fácil da miríade de plug-ins de terceiros disponíveis no Node.js para o desenvolvimento de aplicativos do lado do servidor (back-end) que auxilia o desenvolvimento de aplicações eficientes, escaláveis e confiáveis em cima do Node.js. Foi criado por Kamil Mysliwiec e lançado em 2017.
+O **NestJS** é um framework/estrutura que usa JavaScript progressivo de código aberto, no qual é construído com TypeScript (preserva a compatibilidade com JavaScript puro) e combina elementos de OOP (Programação Orientada a Objetos), FP (Programação Funcional) e FRP (Programação Reativa Funcional), mas também oferece compatibilidade com uma ampla gama de outras bibliotecas, como, por exemplo, Fastify, permitindo o uso fácil da miríade de plug-ins de terceiros disponíveis no Node.js para o desenvolvimento de aplicativos do lado do servidor (back-end) que auxilia o desenvolvimento de aplicações eficientes, escaláveis e confiáveis em cima do Node.js. Foi criado por Kamil Mysliwiec e lançado em 2017.
 
 Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. O NestJS utiliza como padrão TypeScript e possui uma sintaxe parecida com Angular.
 
@@ -621,8 +622,12 @@ Em um simples comando, perceba que ele cria uma estrutura model-service-controll
 # ☕ Mocha
 <img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
 
+O **Mocha**
+
 # 🍵 Chai
 <img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177" align="right">
+
+O **Chai**
 
 # 🗑️ js-bin
 <img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177" align="right">
@@ -630,10 +635,12 @@ Em um simples comando, perceba que ele cria uma estrutura model-service-controll
 # 🦎 RxJS
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
 
-Uma biblioteca para programação reativa para JavaScript.
+O **RxJS** é uma biblioteca para programação reativa para JavaScript.
 
 # WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
+
+O **WebAssembly**
 
 ## JavaScript em Cloud Computing
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
