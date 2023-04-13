@@ -633,22 +633,8 @@ Uma biblioteca para programação reativa para JavaScript.
 # WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
-# 📚 Bibliotecas JavaScript
-
-## highlighter.js
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/132415637-d7c1319c-847f-48b3-a9d6-71437a18be07.png" height="277"></div>
-
-# ☁️ JavaScript em Cloud Computing
-<div align="center"><img src="https://www2.assets.heroku.com/assets/languages/node/hero-7c7b5d89d7896c6d0e6ff63aa82ba97c294d5b2a31a46375f8cc558d3cf1d1ff.png" height="277"></div>
-
-## JavaScript na AWS - Amazon Web Services
+## JavaScript em Cloud Computing
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
-
-## JavaScript na AZ - Microsoft Azure
-<div align="center"><img src="https://symbols.getvecta.com/stencil_27/69_sdk.1786eab7d3.svg" height="277"></div>
-
-## JavaScript na GCP - Google Cloud Plataform
-<div align="center"><img src="https://symbols.getvecta.com/stencil_82/34_google-appengine-icon.e31a7499e4.svg" height="277"></div>
 
 # 🏆 A importância do JavaScript para o mundo
 <div align="center"><img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg"/></div><br \>
