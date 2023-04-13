@@ -670,7 +670,9 @@ O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para um
 
 > O Wasm é basicamente um bytecode, contextualizando ele é uma linguagem de baixo-nível, mais próximo da linguagem de máquina. Assim, como a linguagem de montagem ou Assembly.
 
-O objetivo do Web Assembly é de se tornar uma tecnologia universal para desenvolvimento de aplicações Web melhorando consideravelmente a performance e disponibilizando os recursos de aplicações nativa para o desenvolvimento Web, ou seja, isso abre um novo horizonte para toda a internet, onde os desenvolvedores  
+O objetivo do Web Assembly é de se tornar uma tecnologia universal para desenvolvimento de aplicações Web melhorando consideravelmente a performance e disponibilizando os recursos de aplicações nativa para o desenvolvimento Web, ou seja, isso abre um novo horizonte para toda a internet, onde os desenvolvedores terão um leque de possibilidades na criação de aplicações e os usuários teram a mesma experiência de aplicações nativas no seu computador.
+
+Imagina a hipótese de rodar qualquer tipo de aplicação no seu navegador, aplicativos como: jogos, ferramentas como Adobe Photoshop CC, Autodesk Autocad e até mesmo aplicativos móveis. E isso tudo sem ter que se preocupar com memória interna, pois não precisará instalar nenhuma aplicação. Estamos falando em um mundo compatível com todos os sistemas operacionais e dispositivos, tudo dentro do navegador. 
 
 # ☁️ JavaScript em Cloud Computing
 <img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277" align="right">
