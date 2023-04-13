@@ -642,6 +642,8 @@ O **RxJS** é uma biblioteca para programação reativa para JavaScript.
 
 O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
 
+> O Wasm é basicamente um bytecode, contextualizando ele é uma linguagem de baixo-nível, mais próximo da linguagem de máquina. Assim, como a linguagem de montagem ou Assembly.
+
 ## JavaScript em Cloud Computing
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
 
