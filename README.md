@@ -522,9 +522,9 @@ O principal uso do Redux é que podemos usar um estado de aplicativo como um est
 
 > A linguagem de programação Elm é uma linguagem específica de domínio para criar declarativamente interfaces gráficas com o usuário baseadas em navegador da web. Elm é puramente funcional e é desenvolvido com ênfase em usabilidade, desempenho e robustez.
 
-> A arquitetura Flux foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
+A arquitetura Flux foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
 
-Então, entre Flux e Redux ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são uma ótima ferramenta porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo.
+Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação do desenvolvedor que seja ela qual for, abaixo mostra as diferenças:
 
 Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
 
