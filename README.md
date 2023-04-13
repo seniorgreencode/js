@@ -657,7 +657,11 @@ Ou seja, o JSBin é um pastebin ao vivo para HTML, CSS e JavaScript e uma varied
 # 🐉 RxJS
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
 
-O **RxJS** é uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em callback. Este projeto é uma reescrita de Reactive-Extensions/RxJS com a melhor performance, melhor modularidade, melhor chamada depurável para tecnologias, mantendo a compatibilidade com versões anteriores, com algumas alterações importantes que reduzem a superfície da API. 
+O **RxJS** é uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em callback. Este projeto é uma reescrita de Reactive-Extensions/RxJS com a melhor performance, melhor modularidade, melhor chamada depurável para tecnologias, mantendo a compatibilidade com versões anteriores, com algumas alterações importantes que reduzem a superfície da API.
+  
+> Pense no RxJS como Lodash para eventos.
+  
+O ReactiveX combina o padrão Observer com o padrão Iterator e a programação funcional com coleções para preencher a necessidade de uma maneira ideal de gerenciar sequências de eventos.
 
 # Wasm - WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
