@@ -637,10 +637,10 @@ O **Chai**
 
 O **RxJS** é uma biblioteca para programação reativa para JavaScript.
 
-# WebAssembly
+# Wasm - WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
-O **WebAssembly**
+O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
 
 ## JavaScript em Cloud Computing
 <div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
