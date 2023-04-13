@@ -240,7 +240,7 @@ Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScr
 # 📜 JavaScript (JS)
 <img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="177" align="right"/>
 
-<p>O <b>JavaScript</b> (JS) é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
+O <b>JavaScript</b>, abreviado como **JS**, é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
 
 Quando falamos de linguagens de programação, percebemos que estas se parecem como times de futebol, cada desenvolvedor gosta de uma e acredita na qualidade que ela oferece, mas nenhuma delas consegue assumir uma característica que JavaScript assumiu: a "onipresença" em aplicações. Amando ou odiando, ele está em todos os lugares, é difícil escapar. Uma linguagem que muitas vezes é julgada como simples brinquedo de front-end, criando firulas para os olhos de usuários leigos, na verdade, é uma grande ferramenta.
 A web atualmente está infestada de códigos JavaScript. Os recursos oferecidos por muitos dos sites que acessamos são controlados por ele, desde a mais simples interação com formulários, até mesmo grandes plataformas como Google Docs, foram desenvolvidas com base nos recursos dessa linguagem. Aprender esta linguagem se torna essencial, uma grande ferramenta para auxiliar o desenvolvimento.
@@ -251,7 +251,7 @@ Essa simplicidade esconde o quão poderoso podemos tornar nosso desenvolvimento,
 
 Por fim, que venha o JavaScript, uma linguagem flexível que consegue se aproximar de muitas outras, mas que em sua essência é completamente diferente. Sendo assim vamos aprender o que realmente ela tem a nos oferecer, e perceber quão poderosa ela pode se tornar dentro de nossas aplicações.
 
-Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos, isto significa que <b>todos os elementos de uma página da Web são tratados como objetos</b>. Estes objetos são agrupados de acordo com seu tipo ou finalidade.</p>
+Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos, isto significa que <b>todos os elementos de uma página da Web são tratados como objetos</b>. Estes objetos são agrupados de acordo com seu tipo ou finalidade.
 
 ## Hello, World! - JavaScript
 ```javascript
@@ -666,36 +666,50 @@ O ReactiveX combina o padrão Observer com o padrão Iterator e a programação 
 # 🌌 Wasm - WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
-O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
+O **WebAssembly**, abreviado como **Wasm**, é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
 
-> O Wasm é basicamente um bytecode, contextualizando ele é uma linguagem de baixo-nível, mais próximo da linguagem de máquina. Assim, como a linguagem de montagem ou Assembly.
+> O Wasm é basicamente um bytecode, é um código intermediário resultante da compilação de uma linguagem e que será interpretado por uma máquina virtual (VM) para então ser transformado em linguagem de máquina e logo será interpretado pelo seu computador, contextualizando ele é uma linguagem de baixo-nível, mais próximo da linguagem de máquina. Assim, como a linguagem de montagem ou Assembly.
+
+> A intenção do Web Assembly é ser interpretado pela VM para depois poder ser interpretado pelos navegadores permitindo que qualquer linguagem gere esse bytecode possa ser utilizada para o seu desenvolvimento Web.
 
 O objetivo do Web Assembly é de se tornar uma tecnologia universal para desenvolvimento de aplicações Web melhorando consideravelmente a performance e disponibilizando os recursos de aplicações nativa para o desenvolvimento Web, ou seja, isso abre um novo horizonte para toda a internet, onde os desenvolvedores terão um leque de possibilidades na criação de aplicações e os usuários teram a mesma experiência de aplicações nativas no seu computador.
 
 Imagina a hipótese de rodar qualquer tipo de aplicação no seu navegador, aplicativos como: jogos, ferramentas como Adobe Photoshop CC, Autodesk Autocad e até mesmo aplicativos móveis. E isso tudo sem ter que se preocupar com memória interna, pois não precisará instalar nenhuma aplicação. Estamos falando em um mundo compatível com todos os sistemas operacionais e dispositivos, tudo dentro do navegador. 
 
+Atualmente, as linguagens de programação que suportam o Web Assembly são: C, C++ e o Rust. Essas linguagens são as que suportam e possuem uma estrutura/arquitetura ideal para desenvolvimento em baixo-nível e com elas você terá um maior controle da sua aplicação podendo arquitetar do jeito que você achar necessário em pontos cruciais, como por exemplo: O gerenciamento de memória é um dos principais pontos fracos de linguagens dinâmicas como JavaScript.
+
+A máquina de pilha Wasm foi projetada para ser codificada em um formato binário com eficiência de tamanho e tempo de carregamento. O WebAssembly visa executar em velocidade nativa, aproveitando os recursos de hardware comuns disponíveis em uma ampla variedade de plataformas.
+
+O WebAssembly descreve um ambiente de execução em área restrita com proteção de memória que pode até ser implementado dentro de máquinas virtuais JavaScript existentes. Quando incorporado na Web, o WebAssembly aplicará as políticas de segurança de mesma origem e permissões do navegador.
+
+O WebAssembly foi projetado para ser impresso em um formato textual para depuração, teste, experimentação, otimização, aprendizado, ensino e escrita de programas à mão. O formato textual será usado ao visualizar a fonte dos módulos Wasm na web.
+
+O WebAssembly foi projetado para manter a natureza sem versão, com recursos testados e compatível com versões anteriores da web. Os módulos WebAssembly poderão entrar e sair do contexto JavaScript e acessar a funcionalidade do navegador por meio das mesmas APIs da Web acessíveis a partir do JavaScript. O WebAssembly também oferece suporte a incorporações não-web.
+
 # ☁️ JavaScript em Cloud Computing
-<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277" align="right">
+<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="177" align="right">
+
+Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura.
 
 # 🏆 A importância do JavaScript para o mundo
-<div align="center"><img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg"/></div><br \>
-
-<p>Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
+Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
   
-Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais poder com a linguagem, como acesso à câmera e microfone, leitura e edição de arquivos, edição de som e imagem, envio de notificações, modelagem 3D, geolocalização, etc. Grandes empresas usam JavaScript, até mesmo no back-end, como:</p>
-<ul>
-  <li>Google;</li>
-  <li>Microsoft;</li>
-  <li>IBM;</li>
-  <li>Netflix;</li>  
-  <li>Uber;</li>
-  <li>Paypal;</li>
-  <li>Linkedin;</li>
-  <li>New York Times;</li>
-  <li>Walmart;</li>
-  <li>Sony;</li>
-</ul>
-<p>Hoje ele é utilizado nos mais diversos lugares, como:</p>
+Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais poder com a linguagem, como acesso à câmera e microfone, leitura e edição de arquivos, edição de som e imagem, envio de notificações, modelagem 3D, geolocalização, etc. Grandes empresas usam JavaScript, até mesmo no back-end, como:
+
+<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="277" align="right"/>
+
+- Google;
+- Microsoft;
+- IBM;
+- Netflix;
+- Uber;
+- Paypal;
+- Linkedin;
+- New York Times;
+- Walmart;
+- Sony;
+  
+Hoje ele é utilizado nos mais diversos lugares, como:
 <ul>
   <li>Websites;</li>
   <li>Aplicações Web;</li>
