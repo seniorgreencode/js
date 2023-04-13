@@ -513,14 +513,14 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
-O Redux é uma biblioteca para armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. 
+O **Redux** é uma biblioteca para armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. 
 
 > O Redux é amplamente utilizado para desenvolvimento de UI e user-interface.
 
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
 
-O Gatsby é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
+O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
 # 🛡️ Angular.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
