@@ -464,9 +464,7 @@ O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se v
 # 🟦 TypeScript (TS)
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
 
-O TypeScript (TS) é um superset da linguagem de programação JavaScript. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS.
-
-E ele foi desenvolvido e mantido pela Microsoft.
+O **TypeScript** (TS) é um superset da linguagem de programação JavaScript, desenvolvido e mantido pela Microsoft. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS.
 
 > **Obs**: Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
 
@@ -575,7 +573,9 @@ Ele permite que você escreva testes com uma API acessível, familiar e rica em 
 # ⚫ Cypress
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177" align="right"></a>
 
-O Cypress é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA) na visualização de quais partes do código necessitam de ajustes.
+O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes.
+
+À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA) na visualização de quais partes do código necessitam de ajustes.
 
 # 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177" align="right"></a>
@@ -589,7 +589,7 @@ Vários plug-ins de terceiros estão disponíveis para trabalhar com a estrutura
 # 🔵 Ionic
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177" align="right"></a>
 
-O Ionic é um framework híbrido open-source para desenvolvimento de aplicações multiplataforma usando tecnologia Web: HTML, CSS e JS. Através dele, você poderá desenvolver e disponibilizar aplicativos em várias plataformas como Android e iOS através de PWAs - Progressive Web Apps e até em Desktops, tudo isso apenas escrevendo um único código.
+O **Ionic** é um framework híbrido open-source para desenvolvimento de aplicações multiplataforma usando tecnologia Web: HTML, CSS e JS. Através dele, você poderá desenvolver e disponibilizar aplicativos em várias plataformas como Android e iOS através de PWAs - Progressive Web Apps e até em Desktops, tudo isso apenas escrevendo um único código.
 
 # ⚛️ React Native
 <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
