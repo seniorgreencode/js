@@ -340,7 +340,7 @@ Mas afinal, o que é um Template Engine? Um **Template Engine** é um programa r
 Essa abordagem permite que você reutilize elementos estáticos da página da Web, enquanto define elementos dinâmicos com base em seus dados. Também facilita a separação de preocupações, mantendo a lógica do aplicativo isolada da lógica de exibição. É mais provável que você se beneficie de um Template Engine se seu site ou aplicativo da Web for orientado a dados - como um diretório de equipe para funcionários administrativos, uma loja da Web que lista vários produtos para os usuários comprarem ou um site com funcionalidade de pesquisa dinâmica. Você não precisará de um Template Engine se estiver buscando uma pequena quantidade de dados de uma API (nesse caso, você pode usar apenas as strings de modelo nativo do JavaScript) ou se estiver criando um pequeno site estático.
 
 # ⚙️ EJS - Embedded JavaScript
-<a href="https://nodejs.org/en/"><img src="https://miro.medium.com/v2/resize:fit:1400/1*-8c5bXmKhpKg8NRnBMu0zQ.gif" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js.
 
@@ -633,12 +633,28 @@ Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é c
 # 🍵 Chai
 <img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177" align="right">
 
-O **Chai**
+O **Chai** é uma biblioteca open-source de asserção BDD/TDD para nó e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript.
 
-# 🗑️ js-bin
+> Os desenvolvedores frequentemente usam o Mocha com Chai, tornando essa combinação com o nome "Mocha & Chai".
+
+O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica.
+
+Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
+
+# 🗑️ JSBin
 <img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177" align="right">
 
-# 🦎 RxJS
+O **JSBin** é um aplicativo da web open-source projetado especificamente para ajudar os trechos de código de teste populares de JavaScript e CSS, dentro de algum contexto, e depurar o código de forma colaborativa.
+
+Ou seja, o JSBin é um pastebin ao vivo para HTML, CSS e JavaScript e uma variedade de processadores, incluindo SCSS, CoffeeScript, Jade e mais. Com ele você pode:
+
+- Escrever o código e salve-o em tempo real, mas também renderize uma visualização completa em tempo real;
+- Ajudar a depurar o JavaScript, HTML ou CSS de outras pessoas compartilhando e editando urls; 
+- CodeCast - onde você compartilha o que está digitando no JS Bin em renderização remota em tempo real;
+- Visualizar a saída do seu JS Bin em qualquer dispositivo em qualquer plataforma, atualizando em processadores em tempo real, incluindo: coffee-script, LESS, Markdown e Jade;
+- Depurar chamadas Ajax remotas.
+
+# 🐉 RxJS
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
 
 O **RxJS** é uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em callback. Este projeto é uma reescrita de Reactive-Extensions/RxJS com a melhor performance, melhor modularidade, melhor chamada depurável para tecnologias, mantendo a compatibilidade com versões anteriores, com algumas alterações importantes que reduzem a superfície da API. 
