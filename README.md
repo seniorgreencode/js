@@ -514,9 +514,24 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
-O **Redux** é uma biblioteca para armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. 
+O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook, foi criado por Dan Abramov e Andrew Clark.
+
+Sua arquitetura foi desenvolvida a fim de resolver problemas gerados com a arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
 
 > O Redux é amplamente utilizado para desenvolvimento de UI e user-interface.
+
+Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
+
+- Ajudar você a escrever aplicativos que se comportam de forma consistente, executados em diferentes ambientes (cliente, servidor e nativo) e são fáceis de testar;
+- Centralizar o estado e a lógica de seu aplicativo permite recursos poderosos como desfazer/refazer, persistência de estado e muito mais;
+- Funcionar com qualquer camada de interface do usuário e possui um grande ecossistema de complementos para atender às suas necessidades.
+
+Além disso, sua extensão **Redux DevTools** facilita o rastreamento de quando, onde, por que e como o estado do seu aplicativo foi alterado. A arquitetura do Redux permite registrar alterações, usar "depuração de viagem no tempo" e até enviar relatórios de erros completos para um servidor.
+
+Outras bibliotecas da equipe Redux incluem: 
+
+- **React-Redux**: Ligações oficiais do React para Redux;
+- **Redux Toolkit**: O conjunto de ferramentas oficial, opinativo e com batteries-included para um desenvolvimento eficiente do Redux.
 
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
