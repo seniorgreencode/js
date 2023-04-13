@@ -330,7 +330,9 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 # 🐾 Pug
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="177" title="Site do Node.js" align="right"/></a>
 
-**Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
+**Pug** é um *Template Engine* de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML.
+
+Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
 
 <img src="https://user-images.githubusercontent.com/61624336/231615336-cf2c103c-a9b0-42be-a356-d2c0ccefeb74.svg" align="right" height="177">
 
