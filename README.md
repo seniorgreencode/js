@@ -339,6 +339,8 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 
 Essa abordagem permite que você reutilize elementos estáticos da página da Web, enquanto define elementos dinâmicos com base em seus dados. Também facilita a separação de preocupações, mantendo a lógica do aplicativo isolada da lógica de exibição. É mais provável que você se beneficie de um Template Engine se seu site ou aplicativo da Web for orientado a dados - como um diretório de equipe para funcionários administrativos, uma loja da Web que lista vários produtos para os usuários comprarem ou um site com funcionalidade de pesquisa dinâmica. Você não precisará de um Template Engine se estiver buscando uma pequena quantidade de dados de uma API (nesse caso, você pode usar apenas as strings de modelo nativo do JavaScript) ou se estiver criando um pequeno site estático.
 
+> Portanto, uma das vantagens do Template Engine é a segurança adicional para personalização do usuário final. Os temas em PHP puro têm capacidade irrestrita de causar danos a um usuário e sua instalação. Assim, um template engine remove esse risco, se for bom. Facilidade de uso para não programadores, como artistas gráficos ou web designers.
+
 > **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
 
 # ⚙️ EJS - Embedded JavaScript
