@@ -331,7 +331,9 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 
 **Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
 
-> Um **Template Engine** é um programa responsável por compilar um template (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no template que está compilando. O PHP não é um template engine, mas uma linguagem que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles.
+> Um **Template Engine** é um programa responsável por compilar um template (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no template que está compilando.
+> 
+> O PHP não é um template engine, mas uma linguagem que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles.
 
 <img src="https://user-images.githubusercontent.com/61624336/231615336-cf2c103c-a9b0-42be-a356-d2c0ccefeb74.svg" align="right" height="207">
 
