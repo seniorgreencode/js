@@ -526,6 +526,8 @@ A arquitetura Flux foi desenvolvida a fim de resolver problemas gerados pela arq
 
 Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação do desenvolvedor que seja ela qual for, abaixo mostra as diferenças:
 
+![1_3lvNEQE4SF6Z1l-680cfSQ](https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg)
+
 Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
 
 - Ajudar você a escrever aplicativos que se comportam de forma consistente, executados em diferentes ambientes (cliente, servidor e nativo) e são fáceis de testar;
