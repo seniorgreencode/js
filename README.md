@@ -331,11 +331,9 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 
 **Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
 
-Mas afinal, o que é um Template Engine? Um **Template Engine** é um programa responsável por compilar um modelo (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no modelo que está compilando.
+> Um **Template Engine** é um programa responsável por compilar um template (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no template que está compilando. O PHP não é um template engine, mas uma linguagem que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles.
 
 <img src="https://user-images.githubusercontent.com/61624336/231615336-cf2c103c-a9b0-42be-a356-d2c0ccefeb74.svg" align="right" height="207">
-
-> Algo bem parecido com a linguagem de programação PHP.
 
 Essa abordagem permite que você reutilize elementos estáticos da página da Web, enquanto define elementos dinâmicos com base em seus dados. Também facilita a separação de preocupações, mantendo a lógica do aplicativo isolada da lógica de exibição. É mais provável que você se beneficie de um Template Engine se seu site ou aplicativo da Web for orientado a dados - como um diretório de equipe para funcionários administrativos, uma loja da Web que lista vários produtos para os usuários comprarem ou um site com funcionalidade de pesquisa dinâmica. Você não precisará de um Template Engine se estiver buscando uma pequena quantidade de dados de uma API (nesse caso, você pode usar apenas as strings de modelo nativo do JavaScript) ou se estiver criando um pequeno site estático.
 
@@ -350,7 +348,7 @@ Assim como vimos sobre o PUG, com a template engine nós podemos criar as págin
 
 > A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
 
-> Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin.
+> Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC.
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
