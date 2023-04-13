@@ -349,6 +349,8 @@ O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos ut
 Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
 
 > A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
+
+> Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin.
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
