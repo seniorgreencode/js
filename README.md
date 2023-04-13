@@ -140,11 +140,11 @@ Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das est
 
 # ♣️ Deques
 
-# Listas ligadas
+# 📋 Listas ligadas
 
-# Listas duplamente ligadas
+# 📋📋 Listas duplamente ligadas
 
-# Conjuntos
+# 🗿 Conjuntos
 
 # 📘 Dicionários (hashmap)
 **Dicionário** (também conhecido como **mapa**, **map** ou **hashmap**) é uma estrutura que guarda dados em pares de chave e valor e utiliza estas chaves para encontrar os elementos associados a elas, diferentemente das estruturas que vimos até agora, que trabalham com listas (sequenciais ou não) apenas de valores.
@@ -157,7 +157,7 @@ Essa descrição parece muito uma outra estrutura que já conhecemos, o objeto. 
 
 # 📉 Grafos (Graphs)
 
-# Ordenação
+# 🍒 Ordenação
 
 ---
 
