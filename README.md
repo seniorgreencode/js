@@ -663,7 +663,7 @@ O **RxJS** é uma biblioteca para programação reativa usando Observables, para
   
 O ReactiveX combina o padrão Observer com o padrão Iterator e a programação funcional com coleções para preencher a necessidade de uma maneira ideal de gerenciar sequências de eventos.
 
-# Wasm - WebAssembly
+# 🌌 Wasm - WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
 O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
@@ -672,8 +672,8 @@ O **WebAssembly** (abreviado Wasm) é um formato de instrução binária para um
 
 O objetivo do Web Assembly é de se tornar uma tecnologia universal para desenvolvimento de aplicações Web melhorando consideravelmente a performance e disponibilizando os recursos de aplicações nativa para o desenvolvimento Web, ou seja, isso abre um novo horizonte para toda a internet, onde os desenvolvedores  
 
-## JavaScript em Cloud Computing
-<div align="center"><img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277"></div>
+# ☁️ JavaScript em Cloud Computing
+<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="277" align="right">
 
 # 🏆 A importância do JavaScript para o mundo
 <div align="center"><img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg"/></div><br \>
