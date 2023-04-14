@@ -556,17 +556,17 @@ O **Flux** é uma arquitetura ou padrão Javascript para interface do usuário q
 
 Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
 
+O **Flux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+
 <img src="https://user-images.githubusercontent.com/61624336/232070002-c05625e1-f452-45e2-abee-b66a284f5218.png" height="277" align="right">
 
-O **Flux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo.
-
-- **Ações**: As ações (actions) são payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
+- **Action**: As ações (actions) são payloads de informações que enviam dados de seu aplicativo para sua loja (store). Eles são a única fonte de informação para a loja (store). Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada (Dispatcher) por meio das ações (actions).
 
 - **Dispatcher**: O dispatcher é um singleton e opera como o hub central do fluxo de dados em um aplicativo Flux. É essencialmente um registro de retornos de chamada e pode invocar esses retornos de chamada em ordem. Cada loja registra um callback com o despachante. Quando novos dados chegam ao dispatcher, ele usa esses retornos de chamada para propagar esses dados para todos os armazenamentos. O processo de invocar os retornos de chamada é iniciado por meio do método `dispatch()`, que usa um objeto de carga de dados como seu único argumento.
 
-- **Loja**: No Flux, as lojas são simplesmente um local de onde os dados são lidos. Mais especificamente, as Views dentro de uma arquitetura Flux serão notificadas sobre as alterações nas Stores por meio do padrão Observer e, em seguida, consultarão esses dados para atualizar seus próprios estados.
+- **Store**: No Flux, as (stores) lojas são simplesmente um local de onde os dados são lidos. Mais especificamente, as Views dentro de uma arquitetura Flux serão notificadas sobre as alterações nas Stores por meio do padrão Observer e, em seguida, consultarão esses dados para atualizar seus próprios estados.
 
-- **Exibir**: é onde a interface do usuário do aplicativo é mantida.
+- **View**: é onde a interface do usuário do aplicativo é mantida.
   
 O **Redux**:
 
