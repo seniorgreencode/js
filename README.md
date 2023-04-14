@@ -723,6 +723,8 @@ O WebAssembly foi projetado para ser impresso em um formato textual para depura�
 
 Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura.
 
+Podemos utilizar o Node.js SDK para criar funções para nossas APIs Serverless, e essas funções podem ser mais de uma, e dessa forma podemos criar microsserviços serverless, juntamente com um API Gateway e um ou mais banco de dados para gerenciar nossa API.
+
 # 🏆 A importância do JavaScript para o mundo
 Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
   
