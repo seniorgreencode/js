@@ -579,7 +579,7 @@ Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil par
   
 O **Redux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
   
-<img src="https://user-images.githubusercontent.com/61624336/232104843-f5cf6f5b-645b-473d-9a79-686cf07b87ba.gif" height="277" align="right">
+<img src="https://user-images.githubusercontent.com/61624336/232106231-61b7d1b1-4eda-4bfa-a603-37a6cdf16b08.gif" height="277" align="right">
 
 - **Actions**: São payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
 
@@ -587,7 +587,9 @@ O **Redux** pode ser dividido em algumas seções durante a construção do apli
 
 - **Store**: Com a ajuda de redutores, pode ser criada uma loja que contém todo o estado do aplicativo; é recomendável usar uma única loja para todo o aplicativo, em vez de ter várias lojas, o que violará o uso do redux, que possui apenas uma loja.
 
-- **Components (UI)**: É onde a interface do usuário do aplicativo é mantida.
+<img src="https://user-images.githubusercontent.com/61624336/232104843-f5cf6f5b-645b-473d-9a79-686cf07b87ba.gif" height="277" align="right">
+
+- **Components (UI)**: É onde a interface do usuário do aplicativo é mantida, pode ser denominada como View também.
 
 - **Middlewares**: O middleware pode ser usado para várias coisas, incluindo chamadas de API assíncronas. Middleware parece muito mais complicado do que realmente é. A única maneira de realmente entender o middleware é ver como o middleware existente funciona e tentar escrever o seu próprio. Trataremos do middleware no próximo blog.
 
