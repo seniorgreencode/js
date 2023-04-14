@@ -152,7 +152,12 @@ Pense em uma fila de bilheteria, por exemplo. A pessoa que chegou antes vai ser 
 
 Sendo assim, também há somente duas formas de se manipular uma fila: 1) Inserir um elemento no final da fila e 2) remover um elemento do início da fila.
 
-# ♣️ Deques
+# ♣️ Deque - fila de duas pontas (double-ended queue)
+A estrutura de dados **deque** (abreviação de double-ended queue ou “fila de duas pontas”) é uma variação da fila que aceita inserção e remoção de elementos tanto do início quanto do final da fila.
+
+Podemos comparar, novamente, com uma fila de pessoas em um guichê de atendimento: uma pessoa idosa que chega é atendida antes (ou seja, não pode ser colocada no fim da fila), ao mesmo tempo que uma pessoa que entrou no final da fila pode desistir de esperar e ir embora (nesse caso, não podemos esperar a pessoa chegar na frente da fila para retirá-la de lá).
+
+Uma outra forma de se entender a estrutura deque é como uma junção das estruturas de pilha e fila.
 
 # 📋 Listas ligadas
 
