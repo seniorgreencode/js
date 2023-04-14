@@ -578,6 +578,8 @@ payload: {user: "Test User", age: 25},
 Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil para uma ação. A carga útil pode ser qualquer tipo JS válido (matriz, objeto, etc).
   
 O **Redux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+  
+<img src="https://user-images.githubusercontent.com/61624336/232104843-f5cf6f5b-645b-473d-9a79-686cf07b87ba.gif" height="277" align="right">
 
 - **Actions**: São payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
 
