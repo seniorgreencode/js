@@ -224,14 +224,14 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 </table>
 </div>
 
-<p>Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela.
+Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela.
 
 O nome dessa linguagem inicialmente foi <b>Mocha</b>, que é o nome de um tipo de café. Logo esse nome foi alterado para <b>LiveScript</b>.
 Em maio de 1995 também estava surgindo uma nova linguagem de programação que prometia revolucionar o modo de programar: <b>Java</b>, da <em>Sun MicroSystems</em>. Seu objetivo era nos poupar do trabalho de programar para cada um dos sistemas operacionais. Escreva uma única vez, execute em qualquer lugar (<em>Write once, run anywhere.</em>). 
 
-<blockquote><b>Curiosidade:</b> O JavaScript foi lançado junto com a versão beta do Netscape 2.0.</blockquote>
+> **Curiosidade**: O JavaScript foi lançado junto com a versão beta do Netscape 2.0.
 
-Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScript</b> em 4 de dezembro de 1995. Isso causou confusões que existem até hoje para quem está começando no mundo da programação, pois pela semelhança do nome, muitos pensam que é a mesma coisa, ou que o JavaScript é uma versão mais simples do Java. Porém, foi apenas uma jogada de Marketing.</p>
+Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScript</b> em 4 de dezembro de 1995. Isso causou confusões que existem até hoje para quem está começando no mundo da programação, pois pela semelhança do nome, muitos pensam que é a mesma coisa, ou que o JavaScript é uma versão mais simples do Java. Porém, foi apenas uma jogada de Marketing.
 
 <h1 align="center">🕰️ JavaScript (JS) Timeline</h1>
 
@@ -280,7 +280,7 @@ E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch p
 # ⚛️ A presença do JavaScript atualmente
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
-<p>Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
+Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
 
@@ -301,9 +301,9 @@ Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content De
 # 🚘 V8
 <a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do V8" align="right"/></a>
 
-<p>Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
+Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
-O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.</p>
+O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
 
 # ⬢ Node.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
@@ -567,6 +567,15 @@ O **Flux** pode ser dividido em algumas seções durante a construção do aplic
 - **Store**: No Flux, as (stores) lojas são simplesmente um local de onde os dados são lidos. Mais especificamente, as Views dentro de uma arquitetura Flux serão notificadas sobre as alterações nas Stores por meio do padrão Observer e, em seguida, consultarão esses dados para atualizar seus próprios estados.
 
 - **View**: é onde a interface do usuário do aplicativo é mantida.
+
+```javascript
+const someAction = {
+type: "Test",
+payload: {user: "Test User", age: 25},
+}
+```
+  
+Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil para uma ação. A carga útil pode ser qualquer tipo JS válido (matriz, objeto, etc).
   
 O **Redux**:
 
