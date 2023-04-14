@@ -182,6 +182,10 @@ A **árvore** (tree) é uma estrutura não-sequencial, muito útil para armazena
 
 Pode-se definir árvore como uma coleção de dados representados por nós e arranjados em níveis hierárquicos (ao invés de sequências como as estruturas vistas anteriormente).
 
+> A estrutura de árvore tem vários usos diversos, como algoritmos de tomada de decisão em aprendizado de máquina (Machine Learning), indexação de bancos de dados, indexação e exibição de arquivos e pastas no explorador de arquivos dos sistemas operacionais, entre vários outros casos.
+>
+> O **heap binário**, como já mencionamos, é usado em filas de prioridade (tipo especial de fila onde os elementos são retirados da fila não no padrão FIFO, mas sim organizados por prioridade: mais prioritários no início da fila e menos prioritários no final) e também em um algoritmo de ordenação específico, o heap sort.
+
 # 📉 Grafos (Graphs)
 Outra estrutura não-sequencial, o **grafo** (graph) é um conjunto de nós (ou vértices), ordenados ou não e ligados por arestas, formando uma estrutura em forma de rede.
 
