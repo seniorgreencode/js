@@ -538,6 +538,8 @@ O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, ond
 
 O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
+
+
 > Diferente do Next.js, o Gatsby funciona 
 
 # 🛡️ Angular.js
