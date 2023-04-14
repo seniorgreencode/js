@@ -528,10 +528,8 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
-
+  
 > A linguagem de programação **Elm** é uma linguagem específica de domínio para criar declarativamente interfaces gráficas com o usuário baseadas em navegador da web. Elm é puramente funcional e é desenvolvido com ênfase em usabilidade, desempenho e robustez.
->
-> **Flux** é uma arquitetura ou padrão Javascript para interface do usuário que é executado em fluxo de dados unidirecional e possui um despachante centralizado. É útil quando seu projeto possui dados dinâmicos e você precisa manter os dados atualizados de maneira eficaz. Foi criado pelo Facebook e complementa o React como view. Este modelo é utilizado para facilitar a manutenção. Ele tem três componentes principais: Views, Stores e Dispatcher. À medida que o aplicativo MVC cresce, encontramos um grande número de visualizações como modelos, que conversam entre si, dificultando o gerenciamento e a depuração. Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação.
 
 O principal uso do Redux é que podemos usar um estado de aplicativo como um estado global e interagir com o estado de qualquer componente de React que é muito fácil, sejam eles irmãos ou pai-filho.
 
@@ -549,15 +547,27 @@ Outras bibliotecas da equipe Redux incluem:
 
 - **React-Redux**: Ligações oficiais do React para Redux;
 - **Redux Toolkit**: O conjunto de ferramentas oficial, opinativo e com batteries-included para um desenvolvimento eficiente do Redux.
+  
+<img src="https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg" height="277" align="right">
+  
+Para quem é iniciante em desenvolvimento com Redux, se confunde ao ver Flux e se depara com a seguinte pergunta, existe diferença entre o Flux e Redux? E a resposta para essa pergunta é: - Sim! 
+
+O **Flux** é uma arquitetura ou padrão Javascript para interface do usuário que é executado em fluxo de dados unidirecional e possui um despachante centralizado. É útil quando seu projeto possui dados dinâmicos e você precisa manter os dados atualizados de maneira eficaz. Foi criado pelo Facebook e complementa o React como view. Este modelo é utilizado para facilitar a manutenção. Ele tem três componentes principais: `Views`, `Stores` e `Dispatcher`. À medida que o aplicativo MVC cresce, encontramos um grande número de visualizações como modelos, que conversam entre si, dificultando o gerenciamento e a depuração. Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação. O Flux é mais um padrão do que uma estrutura e não possui nenhuma dependência rígida. No entanto, geralmente usamos o `EventEmitter` como base `Storese` o React para nossos aplicativos `Views`. A peça única do Flux que não está prontamente disponível em outros lugares é o `Dispatcher`. Este módulo, juntamente com alguns outros utilitários, está disponível aqui para completar sua caixa de ferramentas Flux.
 
 Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
 
-![1_3lvNEQE4SF6Z1l-680cfSQ](https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg)
+<img src="https://user-images.githubusercontent.com/61624336/232070002-c05625e1-f452-45e2-abee-b66a284f5218.png" height="277" align="right">
 
-O **Flux**:
+O **Flux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo.
 
-- 
+- **Ações**: As ações (actions) são payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
 
+- **Dispatcher**: O dispatcher é um singleton e opera como o hub central do fluxo de dados em um aplicativo Flux. É essencialmente um registro de retornos de chamada e pode invocar esses retornos de chamada em ordem. Cada loja registra um callback com o despachante. Quando novos dados chegam ao dispatcher, ele usa esses retornos de chamada para propagar esses dados para todos os armazenamentos. O processo de invocar os retornos de chamada é iniciado por meio do método `dispatch()`, que usa um objeto de carga de dados como seu único argumento.
+
+- **Loja**: No Flux, as lojas são simplesmente um local de onde os dados são lidos. Mais especificamente, as Views dentro de uma arquitetura Flux serão notificadas sobre as alterações nas Stores por meio do padrão Observer e, em seguida, consultarão esses dados para atualizar seus próprios estados.
+
+- **Exibir**: é onde a interface do usuário do aplicativo é mantida.
+  
 O **Redux**:
 
 ## Gatsby
