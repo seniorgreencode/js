@@ -1626,7 +1626,7 @@ Foi criado pelo Facebook e complementa o React como view. Este modelo é utiliza
 
 Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação. O Flux é mais um padrão do que uma estrutura e não possui nenhuma dependência rígida. No entanto, geralmente usamos o `EventEmitter` como base `Storese` do React para nossos aplicativos `Views`. A peça única do Flux que não está prontamente disponível em outros lugares é o `Dispatcher`. Este módulo, juntamente com alguns outros utilitários, está disponível aqui para completar sua caixa de ferramentas Flux.
 
-> O fluxo dessa arquitetura é unidirecional, pois a View não consome diretamente a Store e a Store reflete na View de uma forma direta com um único ponto centralizado e confiável de estado que a minha View precisa renderizar, logo é repetido o ciclo.
+> O fluxo dessa arquitetura é unidirecional de dados entre os componentes de um sistema., pois a View não consome diretamente a Store e a Store reflete na View de uma forma direta com um único ponto centralizado e confiável de estado que a minha View precisa renderizar, logo é repetido o ciclo.
 
 > Um ponto interessante sobre a arquitetura Flux, é que pra cada estrutura de dados eu tenho uma Store, então um dos princípios do Flux é que eu tenha múltiplas Stores, ou seja, múltiplos lugares onde eu possa expor esses estados estruturados.
 
