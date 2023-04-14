@@ -294,7 +294,7 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 # ☄️ jQuery
 <img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="177" align="right">
  
-Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins.
+Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM (Document Object Model) e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins.
 
 Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN. Assim, como também, pode ser baixado o pacote de dependência via NPM.
 
