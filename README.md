@@ -577,7 +577,17 @@ payload: {user: "Test User", age: 25},
   
 Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil para uma ação. A carga útil pode ser qualquer tipo JS válido (matriz, objeto, etc).
   
-O **Redux**:
+O **Redux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+
+- **Actions**: São payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
+
+- **Redutores**: As ações  descrevem o fato de que algo aconteceu , mas não especificam como o estado do aplicativo muda em resposta. Este é o trabalho dos redutores. Quando uma ação é despachada para mudança de estado, é dever do redutor fazer as mudanças necessárias no estado e retornar o novo estado da aplicação.
+
+- **Store**: Com a ajuda de redutores, pode ser criada uma loja que contém todo o estado do aplicativo; é recomendável usar uma única loja para todo o aplicativo, em vez de ter várias lojas, o que violará o uso do redux, que possui apenas uma loja.
+
+- **Components (UI)**: É onde a interface do usuário do aplicativo é mantida.
+
+- **Middlewares**: O middleware pode ser usado para várias coisas, incluindo chamadas de API assíncronas. Middleware parece muito mais complicado do que realmente é. A única maneira de realmente entender o middleware é ver como o middleware existente funciona e tentar escrever o seu próprio. Trataremos do middleware no próximo blog.
 
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
