@@ -186,7 +186,7 @@ Pode-se definir árvore como uma coleção de dados representados por nós e arr
 >
 > O **heap binário**, como já mencionamos, é usado em filas de prioridade (tipo especial de fila onde os elementos são retirados da fila não no padrão FIFO, mas sim organizados por prioridade: mais prioritários no início da fila e menos prioritários no final) e também em um algoritmo de ordenação específico, o heap sort.
 
-# 📉 Grafos (Graphs)
+# ⭐ Grafos (Graphs)
 Outra estrutura não-sequencial, o **grafo** (graph) é um conjunto de nós (ou vértices), ordenados ou não e ligados por arestas, formando uma estrutura em forma de rede.
 
 > **Uso**: As redes sociais utilizam os grafos para manejar a grande quantidade de dados relacionados entre si que recebem a cada instante. O exemplo mais famoso, a linguagem de consulta **GraphQL**, foi criada pelo Facebook com o intuito de utilizar grafos para acessar e relacionar dados.
