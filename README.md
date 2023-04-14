@@ -163,7 +163,12 @@ Uma outra forma de se entender a estrutura deque é como uma junção das estrut
 
 # 📋📋 Listas duplamente ligadas
 
-# 🗿 Conjuntos
+# 🗿 Conjunto (set)
+A estrutura de dados **conjunto** (ou set) é uma lista não ordenada de elementos únicos. Ou seja, não é possível repetir o valor de um elemento dentro de um conjunto.
+
+Por exemplo, é perfeitamente possível criar um array com os seguintes elementos:
+
+> Como você pode ter imaginado, a estrutura do conjunto vem da matemática, e também é possível fazer operações como união e intersecção em conjuntos de dados. Um dos usos mais comuns desta estrutura é em bancos de dados relacionais, onde fazemos as operações e consultas com a linguagem SQL.
 
 # 📘 Dicionários (hashmap)
 **Dicionário** (também conhecido como **mapa**, **map** ou **hashmap**) é uma estrutura que guarda dados em pares de chave e valor e utiliza estas chaves para encontrar os elementos associados a elas, diferentemente das estruturas que vimos até agora, que trabalham com listas (sequenciais ou não) apenas de valores.
