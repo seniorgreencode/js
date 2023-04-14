@@ -537,16 +537,6 @@ O principal uso do Redux é que podemos usar um estado de aplicativo como um est
 
 O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, onde o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
 
-Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
-
-![1_3lvNEQE4SF6Z1l-680cfSQ](https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg)
-
-O **Flux**:
-
-- 
-
-O **Redux**:
-
 Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
 
 - Ajudar você a escrever aplicativos que se comportam de forma consistente, executados em diferentes ambientes (cliente, servidor e nativo) e são fáceis de testar;
@@ -559,6 +549,16 @@ Outras bibliotecas da equipe Redux incluem:
 
 - **React-Redux**: Ligações oficiais do React para Redux;
 - **Redux Toolkit**: O conjunto de ferramentas oficial, opinativo e com batteries-included para um desenvolvimento eficiente do Redux.
+
+Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
+
+![1_3lvNEQE4SF6Z1l-680cfSQ](https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg)
+
+O **Flux**:
+
+- 
+
+O **Redux**:
 
 ## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
