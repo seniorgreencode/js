@@ -728,9 +728,7 @@ A máquina de pilha Wasm foi projetada para ser codificada em um formato binári
 
 O WebAssembly descreve um ambiente de execução em área restrita com proteção de memória que pode até ser implementado dentro de máquinas virtuais JavaScript existentes. Quando incorporado na Web, o WebAssembly aplicará as políticas de segurança de mesma origem e permissões do navegador.
 
-O WebAssembly foi projetado para ser impresso em um formato textual para depuração, teste, experimentação, otimização, aprendizado, ensino e escrita de programas à mão. O formato textual será usado ao visualizar a fonte dos módulos Wasm na web.
-
-O WebAssembly foi projetado para manter a natureza sem versão, com recursos testados e compatível com versões anteriores da web. Os módulos WebAssembly poderão entrar e sair do contexto JavaScript e acessar a funcionalidade do navegador por meio das mesmas APIs da Web acessíveis a partir do JavaScript. O WebAssembly também oferece suporte a incorporações não-web.
+O WebAssembly foi projetado para ser impresso em um formato textual para depuração, teste, experimentação, otimização, aprendizado, ensino e escrita de programas à mão. O formato textual será usado ao visualizar a fonte dos módulos Wasm na web. E, também, para manter a natureza sem versão, com recursos testados e compatível com versões anteriores da web. Os módulos WebAssembly poderão entrar e sair do contexto JavaScript e acessar a funcionalidade do navegador por meio das mesmas APIs da Web acessíveis a partir do JavaScript. O WebAssembly também oferece suporte a incorporações não-web.
 
 # ☁️ JavaScript em Cloud Computing
 <img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="177" align="right">
