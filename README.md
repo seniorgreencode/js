@@ -558,6 +558,8 @@ Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o e
 
 O **Flux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
 
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/232113712-51358427-c66a-46cb-8911-ad91ebfb034b.png" height="177"></div>
+
 <img src="https://user-images.githubusercontent.com/61624336/232070002-c05625e1-f452-45e2-abee-b66a284f5218.png" height="277" align="right">
 
 - **Action**: As ações (actions) são payloads de informações que enviam dados de seu aplicativo para sua loja (store). Eles são a única fonte de informação para a loja (store). Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada (Dispatcher) por meio das ações (actions).
@@ -578,6 +580,8 @@ payload: {user: "Test User", age: 25},
 Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil para uma ação. A carga útil pode ser qualquer tipo JS válido (matriz, objeto, etc).
   
 O **Redux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/232113463-c03bbad8-6a90-4ad8-981e-2ddd5cea4452.jpg" height="177"></div>
   
 <img src="https://user-images.githubusercontent.com/61624336/232106231-61b7d1b1-4eda-4bfa-a603-37a6cdf16b08.gif" height="277" align="right">
 
