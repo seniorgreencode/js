@@ -132,7 +132,7 @@ Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para **a
 # 🟨 Vetores (Arrays)
 Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das estruturas de dados e normalmente é a primeira que estudamos.
 
-> Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
+> **Uso**: Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
 
 # 📚 Pilhas (Pipes)
 Em um array, é possível utilizar funções próprias para manipular elementos em qualquer posição da lista. Porém, há situações (veremos exemplos mais adiante) onde é desejável mais controle sobre as operações que podem ser feitas na estrutura. Aí entra a implementação de estruturas de dados como a pilha (stack) e a fila (queue).
@@ -160,6 +160,18 @@ Podemos comparar, novamente, com uma fila de pessoas em um guichê de atendiment
 Uma outra forma de se entender a estrutura deque é como uma junção das estruturas de pilha e fila.
 
 # 📋 Listas ligadas
+Já vimos que a maioria das linguagens de programação têm métodos nativos para a manipulação de arrays, como por exemplo inserir e remover elementos. Além disso, estes métodos fazem uma boa parte do trabalho de ordenar e buscar elementos por nós.
+
+Porém, há três coisas importantes para sabermos sobre arrays: 1) na maior parte das linguagens de programação, os arrays têm tamanho fixo; 2) todos os elementos ocupam espaços sequenciais na memória e 3) inserir ou remover elementos do meio do array não é muito simples, pois exige que esses elementos sejam deslocados. Por exemplo:
+
+```javascript
+// 0   1   2   3
+[46, 34, 76, 12]
+
+// removendo 76, o elemento 12 passa a ocupar o índice 2
+// 0  1   2
+[46, 34, 12]
+```
 
 # 📋📋 Listas duplamente ligadas
 
@@ -168,7 +180,7 @@ A estrutura de dados **conjunto** (ou set) é uma lista não ordenada de element
 
 Por exemplo, é perfeitamente possível criar um array com os seguintes elementos:
 
-> Como você pode ter imaginado, a estrutura do conjunto vem da matemática, e também é possível fazer operações como união e intersecção em conjuntos de dados. Um dos usos mais comuns desta estrutura é em bancos de dados relacionais, onde fazemos as operações e consultas com a linguagem SQL.
+> **Uso**: Como você pode ter imaginado, a estrutura do conjunto vem da matemática, e também é possível fazer operações como união e intersecção em conjuntos de dados. Um dos usos mais comuns desta estrutura é em bancos de dados relacionais, onde fazemos as operações e consultas com a linguagem SQL.
 
 # 📘 Dicionários (hashmap)
 **Dicionário** (também conhecido como **mapa**, **map** ou **hashmap**) é uma estrutura que guarda dados em pares de chave e valor e utiliza estas chaves para encontrar os elementos associados a elas, diferentemente das estruturas que vimos até agora, que trabalham com listas (sequenciais ou não) apenas de valores.
@@ -182,7 +194,7 @@ A **árvore** (tree) é uma estrutura não-sequencial, muito útil para armazena
 
 Pode-se definir árvore como uma coleção de dados representados por nós e arranjados em níveis hierárquicos (ao invés de sequências como as estruturas vistas anteriormente).
 
-> A estrutura de árvore tem vários usos diversos, paradigma de inteligência artificial em buscas heurísticas e como algoritmos de tomada de decisão em aprendizado de máquina (Machine Learning), indexação de bancos de dados, indexação e exibição de arquivos e pastas no explorador de arquivos dos sistemas operacionais, entre vários outros casos.
+> A estrutura de árvore tem vários usos diversos, como paradigma de inteligência artificial em sistemas baseados em conhecimento como árvores de decisão, como algoritmos de tomada de decisão em aprendizado de máquina (Machine Learning), indexação de bancos de dados, indexação e exibição de arquivos e pastas no explorador de arquivos dos sistemas operacionais, entre vários outros casos.
 >
 > O **heap binário**, como já mencionamos, é usado em filas de prioridade (tipo especial de fila onde os elementos são retirados da fila não no padrão FIFO, mas sim organizados por prioridade: mais prioritários no início da fila e menos prioritários no final) e também em um algoritmo de ordenação específico, o heap sort.
 
