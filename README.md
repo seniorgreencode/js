@@ -570,7 +570,7 @@ O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e R
 # 🧊 Webpack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177" align="right"></a>
 
-O **Webpack** é um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
+O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
 
 Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
 
