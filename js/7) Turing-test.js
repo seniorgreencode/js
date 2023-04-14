@@ -5,7 +5,7 @@ function find_max(nums) {
    for (let num of nums) {
      if (num > max_num) {
      // (Fill in the missing line here)
-    // max_num = num ==> the last number of array
+    // max_num = num ==> the most highest value from array
     // max_num += num ==> -Infinity 
     // max_num += 1 ==> -Infinity 
     // num = max_num ==> -Infinity 
