@@ -1593,25 +1593,81 @@ export default Card;
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
 # ♻️ Redux
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177"></div><br />
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
 
-O **Redux** é uma biblioteca JavaScript de código aberto para gerenciar e armazenar os estados de aplicações escritos em JavaScript. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como o React.js, com a finalidade de construção de interfaces para usuários.
+O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação escrita em JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook, apresentada no evento que buscava minimizar erros de unificação e transporte de componentes no front-end o que ocorria era a geração de infinitas Views para o compartilhamento entre infinitos Models, e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
+  
+> A linguagem de programação **Elm** é uma linguagem específica de domínio para criar declarativamente interfaces gráficas com o usuário baseadas em navegador da web. Elm é puramente funcional e é desenvolvido com ênfase em usabilidade, desempenho e robustez. Ou seja, o Elm serve para escrever código funcional para o browser e interagindo com o DOM (Document Object Model) que exige operações bootáveis, por isso um dos pilares essenciais do Elm é trabalhar com operações bootáveis utilizando o paradigma funcional. A influência da linguagem elm consiste na: imutabilidade, API declarativa, operações determinísticas e controlar side-effects (quando não se pode evitá-los).
 
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/flux.svg" height="77">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.worldvectorlogo.com/logos/elm.svg" height="77"></div><br />
+O principal uso do Redux é que podemos usar um estado de aplicativo como um estado global e interagir com o estado de qualquer componente de React que é muito fácil, sejam eles irmãos ou pai-filho.
 
-O Redux foi inspirado no **Flux**, a arquitetura apresentada pelo Facebook no evento que buscava minimizar erros de unificação e transporte de componentes no front-end, então o que ocorria era a geração de infinitas Views para o compartilhamento entre infinitos Models. 
+O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, onde o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
 
-E também na linguagem **Elm** que serve para escrever código funcional para o browser e interagindo com o DOM que exige operações bootáveis, por isso um dos pilares essenciais do Elm é trabalhar com operações bootáveis utilizando o paradigma funcional.
+Então, o Redux nada mais é do que um contêiner de estado previsível para aplicativos JS, onde serve para:
 
-A influência da linguagem elm consiste na: imutabilidade, API declarativa, operações determinísticas e controlar side-effects (quando não se pode evitá-los).
+- Ajudar você a escrever aplicativos que se comportam de forma consistente, executados em diferentes ambientes (cliente, servidor e nativo) e são fáceis de testar;
+- Centralizar o estado e a lógica de seu aplicativo permite recursos poderosos como desfazer/refazer, persistência de estado e muito mais;
+- Funcionar com qualquer camada de interface do usuário e possui um grande ecossistema de complementos para atender às suas necessidades.
 
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/167918993-850cc324-24c6-4c9d-b890-e4228d7f0931.png"></div>
+Além disso, sua extensão **Redux DevTools** facilita o rastreamento de quando, onde, por que e como o estado do seu aplicativo foi alterado. A arquitetura do Redux permite registrar alterações, usar "depuração de viagem no tempo" e até enviar relatórios de erros completos para um servidor.
 
-A influência na arquitetura Flux, está no design da própria arquitetura. O fluxo dessa arquitetura é unidirecional, pois a View não consome diretamente a Store e a Store reflete na View de uma forma direta com um único ponto centralizado e confiável de estado que a minha View precisa renderizar.
+Outras bibliotecas da equipe Redux incluem: 
 
-> Portanto, o Redux se baseou no princípio dessas duas propostas para ser contruído.
+- **React-Redux**: Ligações oficiais do React para Redux;
+- **Redux Toolkit**: O conjunto de ferramentas oficial, opinativo e com batteries-included para um desenvolvimento eficiente do Redux.
+  
+<img src="https://user-images.githubusercontent.com/61624336/231877656-42d5340f-caa5-4ba9-9a3e-cd8c6621d818.jpg" height="277" align="right">
+  
+Para quem é iniciante em desenvolvimento com Redux, se confunde ao ver Flux e se depara com a seguinte pergunta, existe diferença entre o Flux e Redux? E a resposta para essa pergunta é: - Sim! 
 
-> Um ponto interessante da arquitetura Flux, é que pra cada estrutura de dados eu tenho uma Store, então um dos princípios do Flux é que eu tenha múltiplas Stores, ou seja, múltiplos lugares onde eu possa expor esses estados estruturados.
+O **Flux** é uma arquitetura ou padrão Javascript para interface do usuário que é executado em fluxo de dados unidirecional e possui um despachante centralizado. É útil quando seu projeto possui dados dinâmicos e você precisa manter os dados atualizados de maneira eficaz. Foi criado pelo Facebook e complementa o React como view. Este modelo é utilizado para facilitar a manutenção. Ele tem três componentes principais: `Views`, `Stores` e `Dispatcher`. À medida que o aplicativo de arquitetura MVC (Model View Controller) cresce, encontramos um grande número de visualizações como modelos, que conversam entre si, dificultando o gerenciamento e a depuração. Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação. O Flux é mais um padrão do que uma estrutura e não possui nenhuma dependência rígida. No entanto, geralmente usamos o `EventEmitter` como base `Storese` o React para nossos aplicativos `Views`. A peça única do Flux que não está prontamente disponível em outros lugares é o `Dispatcher`. Este módulo, juntamente com alguns outros utilitários, está disponível aqui para completar sua caixa de ferramentas Flux.
+
+> O fluxo dessa arquitetura é unidirecional, pois a View não consome diretamente a Store e a Store reflete na View de uma forma direta com um único ponto centralizado e confiável de estado que a minha View precisa renderizar, logo é repetido o ciclo.
+
+> Um ponto interessante sobre a arquitetura Flux, é que pra cada estrutura de dados eu tenho uma Store, então um dos princípios do Flux é que eu tenha múltiplas Stores, ou seja, múltiplos lugares onde eu possa expor esses estados estruturados.
+
+Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
+
+O **Flux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/232113712-51358427-c66a-46cb-8911-ad91ebfb034b.png" height="177"></div>
+
+<img src="https://user-images.githubusercontent.com/61624336/232070002-c05625e1-f452-45e2-abee-b66a284f5218.png" height="277" align="right">
+
+- **Action**: As ações (actions) são payloads de informações que enviam dados de seu aplicativo para sua loja (store). Eles são a única fonte de informação para a loja (store). Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada (Dispatcher) por meio das ações (actions).
+
+- **Dispatcher**: O dispatcher é um singleton e opera como o hub central do fluxo de dados em um aplicativo Flux. É essencialmente um registro de retornos de chamada e pode invocar esses retornos de chamada em ordem. Cada loja registra um callback com o despachante. Quando novos dados chegam ao dispatcher, ele usa esses retornos de chamada para propagar esses dados para todos os armazenamentos. O processo de invocar os retornos de chamada é iniciado por meio do método `dispatch()`, que usa um objeto de carga de dados como seu único argumento.
+
+- **Store**: No Flux, as (stores) lojas são simplesmente um local de onde os dados são lidos. Mais especificamente, as Views dentro de uma arquitetura Flux serão notificadas sobre as alterações nas Stores por meio do padrão Observer e, em seguida, consultarão esses dados para atualizar seus próprios estados.
+
+- **View**: é onde a interface do usuário do aplicativo é mantida.
+
+```javascript
+const someAction = {
+type: "Test",
+payload: {user: "Test User", age: 25},
+}
+```
+  
+Esta é uma convenção geralmente aceita para ter um tipo e uma carga útil para uma ação. A carga útil pode ser qualquer tipo JS válido (matriz, objeto, etc).
+  
+O **Redux** pode ser dividido em algumas seções durante a construção do aplicativo listado abaixo:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/232113463-c03bbad8-6a90-4ad8-981e-2ddd5cea4452.jpg" height="177"></div>
+  
+<img src="https://user-images.githubusercontent.com/61624336/232106231-61b7d1b1-4eda-4bfa-a603-37a6cdf16b08.gif" height="277" align="right">
+
+- **Actions**: São payloads de informações que enviam dados de seu aplicativo para sua loja. Eles são a única fonte de informação para a loja. Isso significa que se qualquer mudança de estado for necessária, a mudança necessária será despachada por meio das ações.
+
+- **Reducer**: As ações  descrevem o fato de que algo aconteceu , mas não especificam como o estado do aplicativo muda em resposta. Este é o trabalho dos redutores. Quando uma ação é despachada para mudança de estado, é dever do redutor fazer as mudanças necessárias no estado e retornar o novo estado da aplicação.
+
+- **Store**: Com a ajuda de redutores, pode ser criada uma loja que contém todo o estado do aplicativo; é recomendável usar uma única loja para todo o aplicativo, em vez de ter várias lojas, o que violará o uso do redux, que possui apenas uma loja.
+
+<img src="https://user-images.githubusercontent.com/61624336/232104843-f5cf6f5b-645b-473d-9a79-686cf07b87ba.gif" height="277" align="right">
+
+- **Components (UI)**: É onde a interface do usuário do aplicativo é mantida, pode ser denominada como View também.
+
+- **Middlewares**: O middleware pode ser usado para várias coisas, incluindo chamadas de API assíncronas. Middleware parece muito mais complicado do que realmente é. A única maneira de realmente entender o middleware é ver como o middleware existente funciona e tentar escrever o seu próprio. Trataremos do middleware no próximo blog.
 
 ## React + Redux
 <img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
