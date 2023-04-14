@@ -719,6 +719,9 @@ O **RxJS** é uma biblioteca para programação reativa usando Observables, para
   
 O ReactiveX combina o padrão Observer com o padrão Iterator e a programação funcional com coleções para preencher a necessidade de uma maneira ideal de gerenciar sequências de eventos.
 
+# AS - AssemblyScript
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/AssemblyScript_logo_2020.svg" height="177" align="right">
+
 # 🌌 Wasm - WebAssembly
 <img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
 
