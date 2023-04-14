@@ -352,7 +352,7 @@ Assim como vimos sobre o PUG, com a template engine nós podemos criar as págin
 
 > A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
 
-> Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC.
+> Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
   
 # 🧭 NW.js
 <a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
@@ -552,7 +552,7 @@ Outras bibliotecas da equipe Redux incluem:
   
 Para quem é iniciante em desenvolvimento com Redux, se confunde ao ver Flux e se depara com a seguinte pergunta, existe diferença entre o Flux e Redux? E a resposta para essa pergunta é: - Sim! 
 
-O **Flux** é uma arquitetura ou padrão Javascript para interface do usuário que é executado em fluxo de dados unidirecional e possui um despachante centralizado. É útil quando seu projeto possui dados dinâmicos e você precisa manter os dados atualizados de maneira eficaz. Foi criado pelo Facebook e complementa o React como view. Este modelo é utilizado para facilitar a manutenção. Ele tem três componentes principais: `Views`, `Stores` e `Dispatcher`. À medida que o aplicativo MVC cresce, encontramos um grande número de visualizações como modelos, que conversam entre si, dificultando o gerenciamento e a depuração. Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação. O Flux é mais um padrão do que uma estrutura e não possui nenhuma dependência rígida. No entanto, geralmente usamos o `EventEmitter` como base `Storese` o React para nossos aplicativos `Views`. A peça única do Flux que não está prontamente disponível em outros lugares é o `Dispatcher`. Este módulo, juntamente com alguns outros utilitários, está disponível aqui para completar sua caixa de ferramentas Flux.
+O **Flux** é uma arquitetura ou padrão Javascript para interface do usuário que é executado em fluxo de dados unidirecional e possui um despachante centralizado. É útil quando seu projeto possui dados dinâmicos e você precisa manter os dados atualizados de maneira eficaz. Foi criado pelo Facebook e complementa o React como view. Este modelo é utilizado para facilitar a manutenção. Ele tem três componentes principais: `Views`, `Stores` e `Dispatcher`. À medida que o aplicativo de arquitetura MVC (Model View Controller) cresce, encontramos um grande número de visualizações como modelos, que conversam entre si, dificultando o gerenciamento e a depuração. Então, ela foi desenvolvida a fim de resolver problemas gerados pela arquitetura MVC onde o número de Views e o número de Models da aplicação criava inconsistência, redundância e sobrecarga de estados da aplicação. O Flux é mais um padrão do que uma estrutura e não possui nenhuma dependência rígida. No entanto, geralmente usamos o `EventEmitter` como base `Storese` o React para nossos aplicativos `Views`. A peça única do Flux que não está prontamente disponível em outros lugares é o `Dispatcher`. Este módulo, juntamente com alguns outros utilitários, está disponível aqui para completar sua caixa de ferramentas Flux.
 
 Então, entre Flux e Redux, ambas as tecnologias permitem que você gerencie o estado em seu aplicativo. Ambos são ótimas ferramentas porque permitem que os desenvolvedores armazenem e gerenciem rapidamente o estado em seu aplicativo. No entanto, a diferença crucial entre elas são os seus workflows e funções, que no caso se adequa melhor na personalização da aplicação, seja ela qual for, então veja abaixo as diferenças:
 
@@ -764,23 +764,23 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
 - Sony;
   
 Hoje ele é utilizado nos mais diversos lugares, como:
-<ul>
-  <li>Websites;</li>
-  <li>Aplicações Web;</li>
-  <li>Desenvolvimento de Jogos Eletrônicos (Videogames);</li>
-  <li>Animações</li>
-  <li>Servidores;</li>  
-  <li>Bancos de Dados;</li>
-  <li>Sistemas Operacionais de SmartTvs;</li>
-  <li>Automação de Tarefas;</li>
-  <li>Automação de Testes;</li>
-  <li>Softwares Desktop;</li>
-  <li>Controle de Hardware;</li>  
-  <li>IoT - Internet das Coisas;</li>  
-  <li>Inteligência Artificial;</li>
-  <li>Desenvolvimento Mobile Multiplataforma (Apps Híbridos);</li>
-  <li>Plugins para programas, como Photoshop.</li>
-</ul>
+
+- Websites;
+- Aplicações Web;
+- Audio/Visual;
+- Desenvolvimento de Jogos Eletrônicos (Videogames);
+- Animações;
+- Servidores;
+- Bancos de Dados;
+- Sistemas Operacionais de SmartTvs;
+- Automação de Tarefas;
+- Automação de Testes;
+- Softwares Desktop;
+- Controle de Hardware;
+- IoT - Internet das Coisas;  
+- Inteligência Artificial;
+- Desenvolvimento Mobile Multiplataforma (Apps Híbridos);
+- Plugins para programas, como Photoshop.
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
