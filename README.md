@@ -738,7 +738,7 @@ Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScri
 Podemos utilizar o Node.js SDK para criar funções para nossas APIs Serverless, e essas funções podem ser mais de uma, e dessa forma podemos criar microsserviços serverless, juntamente com um API Gateway e um ou mais banco de dados para gerenciar nossa API.
 
 # 🏆 A importância do JavaScript para o mundo
-<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="377" align="right"/>
+<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="287" align="right"/>
 
 Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
   
