@@ -1757,6 +1757,8 @@ Dentre todos os benefícios que o Next.js trás, podemos destacar o desenvolvime
 
 Ele foi feito para criar aplicações Web escaláveis e trazer novas possibilidades. No entanto, ele não está sozinho, existem outras possibilidades de alternativas no mercado de desenvolvimento como: Gatsby.js, Nuxt.js, Hexo, LoopBack, Angular Universal e Frontity (solução para temas WordPress utilizando React).
   
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" height="177" align="right"></a>
+
 > As desvantagens do Next.js incluem algumas bibliotecas externas podem precisar de um tratamento especial para serem executadas numa aplicação Next.js, como é o caso de Styled Components e Redux, pois ele exige um modelo de importação e build mais sofesticados e o ambiente de produção não pode ser um servidor comum de arquivos estáticos, é necessário ter um ambiente Node.js sendo executado. Outro ponto seria de mais carga do servidor, obviamente vai consumir mais CPU, então se prepare para escalar o melhor servidor e usar estratégias de cache mais inteligentes.
   
 Vamos fazer um teste, após rodar, no modelo hot reloading, a aplicação no ambiente de desenvolvimento (localhost) vamos entrar no navegador e encontrar a página inicial da aplicação e em seguida entre nas ferramentas de desenvolvedor do Browser e `desative o JavaScript`, logo depois recarregue a página e você perceberá que a página inicial do Next.js não irá se apagar com o JavaScript desabilitado do lado do cliente, pois está todo o processamento do React.js está sendo renderizado no lado do servidor, no back-end.
