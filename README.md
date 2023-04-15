@@ -1722,29 +1722,26 @@ function counterReducer (state={value:0}, action){
 }
 ```
 
-![undraw_react](https://user-images.githubusercontent.com/61624336/171018624-2251d8ca-75ec-4f49-9eab-4b8d505da81a.svg)
-
 # React Router
-<div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="277"></div><br \>
+<div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="177"></div><br \>
 
 # Material-UI
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="177"></div><br \>
 
 # Styled-components
-<div align="center"><img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="277"></div><br \>
+<div align="center"><img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="177"></div><br \>
 
 # Prettier
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="277"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
 
 # Redux Saga
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="277"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="177"></div>
 
 # Gatsby.js
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="277"></div>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177"></div>
 
 # Preact 
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="277"></div>
-
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="177"></div>
 
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
