@@ -188,10 +188,18 @@ Podemos comparar, novamente, com uma fila de pessoas em um guichê de atendiment
 
 Uma outra forma de se entender a estrutura deque é como uma junção das estruturas de pilha e fila.
 
+### Uso das filas
+
+
+
 # 📋 Listas ligadas
 Já vimos que a maioria das linguagens de programação têm métodos nativos para a manipulação de arrays, como por exemplo inserir e remover elementos. Além disso, estes métodos fazem uma boa parte do trabalho de ordenar e buscar elementos por nós.
 
-Porém, há três coisas importantes para sabermos sobre arrays: 1) na maior parte das linguagens de programação, os arrays têm tamanho fixo; 2) todos os elementos ocupam espaços sequenciais na memória e 3) inserir ou remover elementos do meio do array não é muito simples, pois exige que esses elementos sejam deslocados. Por exemplo:
+Porém, há três coisas importantes para sabermos sobre arrays: 
+
+1) na maior parte das linguagens de programação, os arrays têm tamanho fixo; 
+2) todos os elementos ocupam espaços sequenciais na memória e 
+3) inserir ou remover elementos do meio do array não é muito simples, pois exige que esses elementos sejam deslocados. Por exemplo:
 
 ```javascript
 // 0   1   2   3
@@ -223,16 +231,26 @@ A **árvore** (tree) é uma estrutura não-sequencial, muito útil para armazena
 
 Pode-se definir árvore como uma coleção de dados representados por nós e arranjados em níveis hierárquicos (ao invés de sequências como as estruturas vistas anteriormente).
 
-> A estrutura de árvore tem vários usos diversos, como paradigma de inteligência artificial em sistemas baseados em conhecimento como árvores de decisão, como algoritmos de tomada de decisão em aprendizado de máquina (Machine Learning), indexação de bancos de dados, indexação e exibição de arquivos e pastas no explorador de arquivos dos sistemas operacionais, entre vários outros casos.
->
-> O **heap binário**, como já mencionamos, é usado em filas de prioridade (tipo especial de fila onde os elementos são retirados da fila não no padrão FIFO, mas sim organizados por prioridade: mais prioritários no início da fila e menos prioritários no final) e também em um algoritmo de ordenação específico, o heap sort.
+## Heap binário
+O **heap binário** é um tipo especial de árvore binária, normalmente utilizada em computação para implementar filas de prioridade, pois em um heap pode-se extrair de forma mais eficiente o valor mínimo ou máximo de uma lista. Pode-se traduzir heap, muito livremente, como um “monte” ou “porção” de dados.
+
+O heap binário se difere da árvore binária em duas características principais:
+
+- Todos os níveis, com exceção do último, têm filhos tanto na esquerda quanto na direita da raiz. No último nível, os filhos se posicionam o mais à esquerda possível. É o que chamamos de árvore completa.
+- pode ser um heap mínimo (min heap), para extrair o menor valor da árvore, ou heap máximo (max heap) para se extrair o maior valor. Todos os nós devem ser ou `>=` (no caso do heap máximo) ou `<=` (no caso do heap mínimo) do que os valores dos nós-filhos.
+
+### Uso das árvores
+A estrutura de árvore tem vários usos diversos, como paradigma de inteligência artificial em sistemas baseados em conhecimento como árvores de decisão, como algoritmos de tomada de decisão em aprendizado de máquina (Machine Learning), indexação de bancos de dados, indexação e exibição de arquivos e pastas no explorador de arquivos dos sistemas operacionais, entre vários outros casos.
+
+O **heap binário**, como já mencionamos, é usado em filas de prioridade (tipo especial de fila onde os elementos são retirados da fila não no padrão FIFO, mas sim organizados por prioridade: mais prioritários no início da fila e menos prioritários no final) e também em um algoritmo de ordenação específico, o heap sort.
 
 # ⭐ Grafos (Graphs)
 Outra estrutura não-sequencial, o **grafo** (graph) é um conjunto de nós (ou vértices), ordenados ou não e ligados por arestas, formando uma estrutura em forma de rede.
 
-> **Uso**: As redes sociais utilizam os grafos para manejar a grande quantidade de dados relacionados entre si que recebem a cada instante. O exemplo mais famoso, a linguagem de consulta **GraphQL**, foi criada pelo Facebook com o intuito de utilizar grafos para acessar e relacionar dados.
->
-> Outro uso famoso para os grafos é o sistema de navegação dos aplicativos de **mapas/GPS**, que utilizam grafos e o algoritmo de caminho mínimo (ou shortest path) para traçar rotas.
+### Uso dos Grafos
+As redes sociais utilizam os grafos para manejar a grande quantidade de dados relacionados entre si que recebem a cada instante. O exemplo mais famoso, a linguagem de consulta **GraphQL**, foi criada pelo Facebook com o intuito de utilizar grafos para acessar e relacionar dados.
+
+Outro uso famoso para os grafos é o sistema de navegação dos aplicativos de **mapas/GPS**, que utilizam grafos e o algoritmo de caminho mínimo (ou shortest path) para traçar rotas.
 
 # 🍒 Ordenação
 
