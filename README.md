@@ -132,7 +132,8 @@ Linguagens como C, C++ e D permitem que ponteiros possam ser utilizados para **a
 # 🟨 Vetores (Arrays)
 Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das estruturas de dados e normalmente é a primeira que estudamos.
 
-> **Uso**: Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
+### Uso dos Arrays
+Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
 
 # 📚 Pilhas (Pipes)
 Em um array, é possível utilizar funções próprias para manipular elementos em qualquer posição da lista. Porém, há situações (veremos exemplos mais adiante) onde é desejável mais controle sobre as operações que podem ser feitas na estrutura. Aí entra a implementação de estruturas de dados como a pilha (stack) e a fila (queue).
@@ -184,7 +185,6 @@ Outra variação da fila é a fila circular (circular queue), onde o último ele
 
 A fila circular busca resolver uma limitação da fila linear, que é lidar com espaços vazios que podem se enfileirar após a retirada de elementos do início da fila.
 
-
 # ♣️ Deque - fila de duas pontas (double-ended queue)
 A estrutura de dados **deque** (abreviação de double-ended queue ou “fila de duas pontas”) é uma variação da fila que aceita inserção e remoção de elementos tanto do início quanto do final da fila.
 
@@ -230,7 +230,8 @@ A estrutura de dados **conjunto** (ou set) é uma lista não ordenada de element
 
 Por exemplo, é perfeitamente possível criar um array com os seguintes elementos:
 
-> **Uso**: Como você pode ter imaginado, a estrutura do conjunto vem da matemática, e também é possível fazer operações como união e intersecção em conjuntos de dados. Um dos usos mais comuns desta estrutura é em bancos de dados relacionais, onde fazemos as operações e consultas com a linguagem SQL.
+### Uso do conjunto
+Como você pode ter imaginado, a estrutura do conjunto vem da matemática, e também é possível fazer operações como união e intersecção em conjuntos de dados. Um dos usos mais comuns desta estrutura é em bancos de dados relacionais, onde fazemos as operações e consultas com a linguagem SQL.
 
 # 📘 Dicionários (hashmap)
 **Dicionário** (também conhecido como **mapa**, **map** ou **hashmap**) é uma estrutura que guarda dados em pares de chave e valor e utiliza estas chaves para encontrar os elementos associados a elas, diferentemente das estruturas que vimos até agora, que trabalham com listas (sequenciais ou não) apenas de valores.
