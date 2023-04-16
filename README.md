@@ -4,7 +4,6 @@
 
 > ⚠️ **WARNING**: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!
 
-
 # 🛡️ Angular.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
   
@@ -26,3 +25,7 @@ Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplam
 
 # 🅰️ Angular
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
+
+O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
+
+No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
