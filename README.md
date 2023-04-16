@@ -180,6 +180,10 @@ Uma pilha é uma lista linear na qual o primeiro elemento a entrar é o último 
 Segue o exemplo abaixo a implementação de uma pilha de tamanho dinâmico, onde o usuário poderá interagir com a pilha(inserindo números , excluindo itens, listando itens da pilha) tudo isso usando alocação dinâmica de memória em C:
 
 ## Fila circular
+Outra variação da fila é a fila circular (circular queue), onde o último elemento é conectado com o primeiro elemento - como em um círculo:
+
+A fila circular busca resolver uma limitação da fila linear, que é lidar com espaços vazios que podem se enfileirar após a retirada de elementos do início da fila.
+
 
 # ♣️ Deque - fila de duas pontas (double-ended queue)
 A estrutura de dados **deque** (abreviação de double-ended queue ou “fila de duas pontas”) é uma variação da fila que aceita inserção e remoção de elementos tanto do início quanto do final da fila.
@@ -189,8 +193,11 @@ Podemos comparar, novamente, com uma fila de pessoas em um guichê de atendiment
 Uma outra forma de se entender a estrutura deque é como uma junção das estruturas de pilha e fila.
 
 ### Uso das filas
+Um uso fácil de lembrar para a fila é justamente a fila de impressão dos sistemas operacionais: o último trabalho de impressão a ser adicionado à fila será o último a ser impresso.
 
+Além disso, as requisições feitas a um servidor também são organizadas em fila para serem respondidas, e quando alternamos entre programas utilizando o atalho alt+tab, o sistema operacional faz o gerenciamento da ordem utilizando o princípio de lista circular.
 
+O algoritmo de Round Robin (algoritmo presente na maioria dos Load Balancers e outros programas) é usado em projetos de sistemas operacionais multitarefa, e foi projetado especialmente para sistemas time-sharing (tempo compartilhado), pois este algoritmo depende de um temporizador (Timer). Uma unidade de tempo, denominada quantum, é definida pelo sistema operacional, que determina o período de tempo entre cada sinal de interrupção. Todos os processos são armazenados em uma fila circular.
 
 # 📋 Listas ligadas
 Já vimos que a maioria das linguagens de programação têm métodos nativos para a manipulação de arrays, como por exemplo inserir e remover elementos. Além disso, estes métodos fazem uma boa parte do trabalho de ordenar e buscar elementos por nós.
