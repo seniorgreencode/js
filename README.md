@@ -155,12 +155,29 @@ Sendo assim, também há somente duas formas de se manipular uma fila:
 1) Inserir um elemento no final da fila
 2) remover um elemento do início da fila.
 
+Pelo critério do primeiro a entrar é o primeiro a ser servido, faz o agendamento de tarefas do sistema operacional dando a cada processo tempo de CPU na ordem em que as demandas são feitas. O oposto de FIFO é LIFO (Last-In, First-Out), que significa "o último a entrar é o primeiro a sair", aonde a entrada mais recente, ou o topo da pilha de processos, é processado primeiro. Já uma fila prioritária não é nem FIFO, nem LIFO, mas pode adotar comportamento similar temporariamente, ou mesmo por padrão.
+
+As listas são amplamente utilizadas em programação para implementar filas de espera. Em uma fila de tipo FIFO os elementos vão sendo colocados na fila e retirados (ou processados) por ordem de chegada. A ideia fundamental da fila é que só podemos inserir um novo elemento no final da fila e só podemos retirar o elemento do início.
+
+É vantajoso por ser o mais simples entre os processos de escalonamento; e todos os processos tendem a serem atendidos. Dentre as desvantagens estão: muito sensível a ordem de chegada; se processos maiores chegarem primeiro aumentarão o tempo médio de espera; não garante um tempo de resposta rápido; não é eficiente em sistemas de tempo compartilhado; e não é eficiente em sistemas em tempo real.
+
 ## FIFO - first-in first-out
 Em Ciência da Computação, algoritmo de fila simples, **FIFO** (do inglês: first in, first out, "primeiro a entrar, primeiro a sair", "PEPS") ou **FCFS** (do inglês: first come, first served, "primeiro a chegar, primeiro a ser servido") é um algoritmo de escalonamento para estruturas de dados do tipo fila. Apresenta o seguinte critério: o primeiro elemento a ser retirado é o primeiro que tiver sido inserido, é um algoritmo de escalonamento não preemptivo que entrega a CPU os processos pela ordem de chegada. Ele executa o processo como um todo do inicio ao fim não interrompendo o processo executado até ser finalizado, então quando um novo processo chega e existe um ainda em execução ele vai para uma fila de espera. Esta fila de espera nada mais é do que uma fila que organiza os processos que chegam até eles serem atendidos pela CPU.
 
 Neste escalonamento todos os processos tendem a serem atendidos (por isso evita o fenômeno do starvation) ao menos que um processo possua um erro ou loop infinito. O loop infinito irá parar a máquina, pois com o FIFO não terá como dar continuidade a execução dos processos que estão aguardando na fila de espera.
 
 O algoritmo FIFO não garante um tempo de resposta rápido pois é extremamente sensível a ordem de chegada de cada processo e dos antecessores (se existirem) e se processos que tendem a demorar mais tempo chegarem primeiro o tempo médio de espera e o turnaround acabam sendo aumentados.
+
+## LIFO - last-in first-out
+Em ciência da computação, LIFO (acrônimo para a expressão inglesa Last In, First Out que, em português significa último a entrar, primeiro a sair) refere-se a estrutura de dados do tipo pilha. É equivalente a FILO, que significa First In, Last Out .
+
+O conceito de pilha é amplamente utilizado na informática, como, por exemplo, durante a execução de um programa, para o armazenamento de valores de variável local a um bloco e também para conter o endereço de retorno do trecho de programa que chamou a função ou procedimento atualmente em execução.
+
+Usa-se os termos push e pop para denominar a inserção e remoção de elementos da pilha, respectivamente. Usa-se o termo top para consultar o elemento do topo da pilha, sem o remover.
+
+Uma pilha é uma lista linear na qual o primeiro elemento a entrar é o último elemento a sair. Ela possui apenas uma entrada, chamada de topo, a partir da qual os dados entram e saem dela.
+
+Segue o exemplo abaixo a implementação de uma pilha de tamanho dinâmico, onde o usuário poderá interagir com a pilha(inserindo números , excluindo itens, listando itens da pilha) tudo isso usando alocação dinâmica de memória em C:
 
 ## Fila circular
 
