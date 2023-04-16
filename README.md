@@ -197,7 +197,13 @@ Um uso fácil de lembrar para a fila é justamente a fila de impressão dos sist
 
 Além disso, as requisições feitas a um servidor também são organizadas em fila para serem respondidas, e quando alternamos entre programas utilizando o atalho alt+tab, o sistema operacional faz o gerenciamento da ordem utilizando o princípio de lista circular.
 
-O algoritmo de Round Robin (algoritmo presente na maioria dos Load Balancers e outros programas) é usado em projetos de sistemas operacionais multitarefa, e foi projetado especialmente para sistemas time-sharing (tempo compartilhado), pois este algoritmo depende de um temporizador (Timer). Uma unidade de tempo, denominada quantum, é definida pelo sistema operacional, que determina o período de tempo entre cada sinal de interrupção. Todos os processos são armazenados em uma fila circular.
+<img src="https://user-images.githubusercontent.com/61624336/232260877-1c163d17-1941-4cee-81df-1933c5b8fe16.jpg" align="right">
+
+O algoritmo de Round Robin (algoritmo presente na maioria dos Load Balancers e programas do sistema operacional) é usado em projetos de sistemas operacionais multitarefa, e foi projetado especialmente para sistemas time-sharing (tempo compartilhado), pois este algoritmo depende de um temporizador (Timer). Uma das unidades de tempo inseridas pelo Time denominada como quantum, onde é definida pelo sistema operacional, determina o período de tempo entre cada sinal de interrupção no sistema, onde todos os processos são armazenados em uma fila circular. 
+
+O acesso a itens é bastante limitado quando este método está em uso. É utilizável em situações em que precisamos apenas do primeiro elemento da linha – por exemplo, ao imprimir documentos. Em redes, este tipo de fila de espera é inadequado para uso prático, principalmente com fluxos de tráfego com prioridades atribuídas.
+
+> Uma maneira diferente e mais rápida do que um FIFO regular é o mecanismo FIFO duplo, onde os dados são inseridos e retirados em ambos os lados.
 
 # 📋 Listas ligadas
 Já vimos que a maioria das linguagens de programação têm métodos nativos para a manipulação de arrays, como por exemplo inserir e remover elementos. Além disso, estes métodos fazem uma boa parte do trabalho de ordenar e buscar elementos por nós.
