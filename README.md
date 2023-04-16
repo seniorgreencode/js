@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://miro.medium.com/max/2880/1*UbVWCOuRgGWzUpyD6VFhvQ.png"></a><br>
+<a href="https://github.com/IsaacAlves7/js/tree/angular"><img src="https://miro.medium.com/max/2880/1*UbVWCOuRgGWzUpyD6VFhvQ.png"></a><br>
 
 # <img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="27"> It's a repository of Angular development 🅰️
 
