@@ -205,8 +205,10 @@ O acesso a itens é bastante limitado quando este método está em uso. É utili
 
 > Uma maneira diferente e mais rápida do que um FIFO regular é o mecanismo FIFO duplo, onde os dados são inseridos e retirados em ambos os lados.
 
-# 📋 Listas ligadas
+# 📋 Listas ligadas (Linked List)
 Já vimos que a maioria das linguagens de programação têm métodos nativos para a manipulação de arrays, como por exemplo inserir e remover elementos. Além disso, estes métodos fazem uma boa parte do trabalho de ordenar e buscar elementos por nós.
+
+Uma lista ligada é uma lista onde cada elemento, chamado de nó, contém um valor e um ponteiro para o elemento seguinte. Assim, sabendo onde está o primeiro elemento da lista, podemos chegar a qualquer outro elemento.
 
 Porém, há três coisas importantes para sabermos sobre arrays: 
 
