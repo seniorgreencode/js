@@ -135,7 +135,7 @@ Também chamado de vetor, matriz ou arranjo, o **array** é a mais comum das est
 ### Uso dos Arrays
 Sendo a mais comum das estruturas, arrays são utilizados em praticamente toda situação que envolva organizar dados de um mesmo tipo; sejam dados recebidos por uma API ou enviados a uma base de dados, ou mesmo passado via parâmetro para uma função ou método, ou até inserindo objetos e organizando eles em um array. Os arrays também podem ser multidimensionais, sendo utilizados sempre que há necessidade de tabular dados e os arrays de 2 dimensões (**matrizes**) são utilizados para processamento de imagens.
 
-# 📚 Pilhas (Pipes)
+# 📚 Pilhas (Stacks)
 Em um array, é possível utilizar funções próprias para manipular elementos em qualquer posição da lista. Porém, há situações (veremos exemplos mais adiante) onde é desejável mais controle sobre as operações que podem ser feitas na estrutura. Aí entra a implementação de estruturas de dados como a pilha (stack) e a fila (queue).
 
 A pilha é uma estrutura de dados que, assim como o array, é similar a uma lista. O paradigma principal por trás da pilha é o LIFO - Last In, First Out, ou “o último a entrar é o primeiro a sair”, em tradução livre.
@@ -180,7 +180,7 @@ Uma pilha é uma lista linear na qual o primeiro elemento a entrar é o último 
 
 Segue o exemplo abaixo a implementação de uma pilha de tamanho dinâmico, onde o usuário poderá interagir com a pilha(inserindo números , excluindo itens, listando itens da pilha) tudo isso usando alocação dinâmica de memória em C:
 
-## Fila circular
+## Fila circular 
 Outra variação da fila é a fila circular (circular queue), onde o último elemento é conectado com o primeiro elemento - como em um círculo:
 
 A fila circular busca resolver uma limitação da fila linear, que é lidar com espaços vazios que podem se enfileirar após a retirada de elementos do início da fila.
