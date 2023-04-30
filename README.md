@@ -20,6 +20,11 @@ Cada estrutura de dados tem um conjunto de métodos próprios para realizar oper
 - Buscar e localizar elementos;
 - Ordenar (classificar) elementos de acordo com alguma ordem especificada.
 
+Existem alguns visualizadores para estrutura de dados:
+- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- https://visualgo.net/en
+- https://csvistool.com/
+
 Vamos praticar as estruturas de dados na linguagem de programação JavaScript, primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
