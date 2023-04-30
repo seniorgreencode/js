@@ -43,7 +43,7 @@
 
 
 # 🐒 Linguagem de programação
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png" height="277"></div>
 
 Um **programa** é um conjunto de instruções, também conhecidas como **algoritmos**, que descrevem uma tarefa a ser realizada por um computador. O termo pode ser uma referência ao **código fonte**, escrito em alguma linguagem de programação, ou ao arquivo que contém a forma executável deste código fonte. Um programa torna um computador utilizável, sem ele um computador, mesmo o mais poderoso, nada mais é do que um objeto.
 
@@ -238,7 +238,7 @@ Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScr
 <img src="https://user-images.githubusercontent.com/61624336/102109990-697c8100-3e13-11eb-92c1-9f04c4a5edb5.jpg" width="100%"/>
 
 # 📜 JavaScript (JS)
-<img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="177" align="right"/>
+<img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"/>
 
 O <b>JavaScript</b>, abreviado como **JS**, é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
 
@@ -259,7 +259,7 @@ console.log("Hello, World!");
 ```
  
 # 📒 ECMAScript (ES)
-<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177" align="right"/>
+<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
 
 Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
 
@@ -271,7 +271,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <blockquote>📜 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 # 🍦 Vanilla JavaScript
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="77" align="right"></a>
 
 O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o JavaScript puro. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
 
@@ -287,38 +287,38 @@ O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no in
 Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte uso entre os desenvolvedores web:
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177" align="right"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
 
 # ☄️ jQuery
-<img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="177" align="right">
+<img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="77" align="right">
  
 Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM (Document Object Model) e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins.
 
 Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN. Assim, como também, pode ser baixado o pacote de dependência via NPM.
 
 # 🚘 V8
-<a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do V8" align="right"/></a>
+<a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do V8" align="right"/></a>
 
 Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
 O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
 
 # ⬢ Node.js
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. 
 
 O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
 
 ## NPM - Node Package Manager
-<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="117" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
 
 ## YARN - yet another resource negotiator
-<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
 
@@ -327,7 +327,7 @@ O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo 
 Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
 
 # 🐾 Pug.js
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
 
@@ -344,7 +344,7 @@ Essa abordagem permite que você reutilize elementos estáticos da página da We
 > **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
 
 # ⚙️ EJS - Embedded JavaScript
-<a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js.
 
@@ -355,7 +355,7 @@ Assim como vimos sobre o PUG, com a template engine nós podemos criar as págin
 > Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
   
 # 🧭 NW.js
-<a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="177" align="right"></a>
+<a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="77" align="right"></a>
 
 O **Node Web-Kit**, ou simplesmente **NW.js** é uma aplicação em tempo de execução baseado em *Chromium* e *Node.js*, com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
 
@@ -369,7 +369,7 @@ Para ter uma ideia do que é possível fazer com ele visite o site:
 - https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
 
 # :electron: Electron
-<a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="177" align="right"></a>
+<a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="77" align="right"></a>
 
 O **Electron** é um framework de código aberto criada inicialmente pelo editor _GitHub for Atom_ em 2013. Essa biblioteca permite criar aplicativos GUI de desktop com tecnologias da web como JavaScript, HTML e CSS.
 
@@ -380,35 +380,35 @@ Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas r
 O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
  
 # 🕹️ Phaser
-<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="177" align="right"></a>
+<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="77" align="right"></a>
 
 O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source.
 
 Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
 # 🤪 Processing.js <img src="https://img.shields.io/badge/package-deprecated-red">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="177" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1200px-Processing_Logo_Clipped.svg.png" height="77" align="right">
 
 **Processing.js** é uma porta JavaScript descontinuada de Processing, uma estrutura projetada para escrever visualizações, imagens e conteúdo interativo. Ele permite que os navegadores da web exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos sem a necessidade de um miniaplicativo Java ou plugin Flash.
 
 <blockquote>Um exemplo de aplicação feita com Processing.js são os emojis interativos e animados do Facebook, como o amei, grr, triste, haha, uau, like e um bônus.</blockquote>
 
 # 🧙‍♂️ Browserify 
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="77" align="right"></a>
 
 **Browserify** é uma ferramenta de pacote de JavaScript de código aberto que permite aos desenvolvedores escrever e usar módulos no estilo Node.js que compilam para uso no navegador agrupando todas as suas dependências.
 
 Os navegadores não têm o método `require` definido, mas o Node.js tem. Com o Browserify, você pode escrever código que usa require da mesma forma que usaria no Node.
 
 # 🎯 Require.js 
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="77" align="right"></a>
 
 **RequireJS** é um arquivo JavaScript e carregador de módulo. Ele é otimizado para uso no navegador, mas pode ser usado em outros ambientes JavaScript, como Rhino e Node . Usar um carregador de script modular como o RequireJS melhorará a velocidade e a qualidade do seu código.
 
 Ou seja, o RequireJS olha para as dependências de todos os módulos no seu aplicativo, e busca e executa todos os módulos na sua ordem correta, de modo que cada módulo tem exatamente o que ele precisa para rodar.
 
 # 🧸 Puppeteer
-<img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="177" align="right">
+<img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="77" align="right">
 
 **Puppeteer** é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
 
@@ -422,7 +422,7 @@ A maioria das coisas que você pode fazer manualmente no navegador pode ser feit
 - Teste as extensões do Chrome .
 
 # 📜 JSS
-<img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="177" align="right">
+<img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="77" align="right">
 
 Um arquivo criado no formato **JSS** (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
 
@@ -435,14 +435,14 @@ jss stylesjss stylescss
 > **NOTA**: Os arquivos JSS usam o herda-classe:, herd:, e herdado: sintaxe nas definições de CSS para prover herança.
 
 # 🐗 Grunt
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/grunt.svg" height="77" align="right"></a>
 
 **Grunt** é um executor de tarefas (Task Runner) JavaScript, muito usado pela automação. Quanto menos trabalho você tiver ao executar tarefas repetitivas, como minificação, compilação, testes unitários, linting etc., mais fácil será o seu trabalho. Depois de configurá-lo por meio de um `Gruntfile`, um executor de tarefas pode fazer a maior parte desse trabalho mundano para você e sua equipe com esforço basicamente zero.
 
 O ecossistema Grunt é enorme e cresce a cada dia. Com literalmente centenas de plugins para escolher, você pode usar o Grunt para automatizar praticamente qualquer coisa com um mínimo de esforço. Se alguém ainda não construiu o que você precisa, criar e publicar seu próprio plug-in do Grunt no npm é muito fácil.
 
 # 🦜 Bower
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/bower.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/bower.svg" height="77" align="right"></a>
 
 O Bower é um gerenciador de dependências client-side, simples e muito prático, que permite você fazer download dos frameworks JavaScript sem precisar entrar no site do projeto, ele também pode ser utilizado para baixar pacotes CSS e HTML. Os sites da Web são feitos de muitas coisas — estruturas, bibliotecas, recursos e utilitários. Bower gerencia todas essas coisas para você.
 
@@ -453,28 +453,28 @@ Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, 
 Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
 
 # 🐠 Babel
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
 
 O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
 
 Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do **TC39**, o comitê técnico que especifica o ECMAScript. O Babel também pode **converter a sintaxe JSX** (JS + XML) e **remover anotações de tipo do Flow** e do **TypeScript**. Babel é **construído a partir de plugins**. Componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
 # ⚡ Flow
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="177" align="right">
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="77" align="right">
 
 **Flow** é um verificador de tipo estático para JavaScript que permite ao desenvolvedor verificar erros de tipo durante o desenvolvimento do código. Isso significa que um desenvolvedor recebe feedback mais rápido sobre o código, que pode ser usado para melhorar sua qualidade. O <a href="https://medium.com/@dudousxd/o-flow-do-javascript-9050daa37f33">Flow</a> funciona usando anotações e definições de tipo para adicionar suporte de verificação de tipo ao seu código. A sintaxe é fácil de usar e você pode removê-la rapidamente com uma ferramenta de pós-processador para que não afete seu código.
 
 O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
 
 # 🟦 TypeScript (TS)
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
 
 O **TypeScript**, abreviado como **TS**, é um superset da linguagem de programação JavaScript, desenvolvido e mantido pela Microsoft. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS.
 
 > **Obs**: Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
 
 # 🟪 ESLint
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
 
 Antes de entender o que é o **ESLint**, você precisa aprender o conceito de **Lint**. 
 
@@ -483,14 +483,14 @@ O **Lint** ou **Linter** é um software responsável por analisar o software de 
 Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
 # 🐹 Ember
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="77" align="right"></a>
 
 O Ember.js, ou somente Ember, é um framework web JavaScript de código aberto, baseado na arquitetura Model–view–viewmodel. Ele permite aos desenvolvedores aplicativos web de página única escaláveis, ao incorporar expressões idiomáticas comuns e boas práticas de desenvolvimento em seu núcleo.
 
 O Ember.js é uma estrutura JavaScript produtiva e testada em batalha para a criação de aplicativos da Web modernos. Ele inclui tudo o que você precisa para criar interfaces de usuário avançadas que funcionam em qualquer dispositivo.
 
 # ⚛️ React.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177" align="right">
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
 
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
 
@@ -499,7 +499,7 @@ O React foi projetado desde o início para adoção gradual, e você pode usar o
 À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
 
 ## Vite
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77" align="right"></a>
 
 O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto (boilerplate). Algumas especialidades dele incluem:
 
@@ -509,7 +509,7 @@ O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado,
 Além disso, o Vite é altamente extensível por meio de sua API de plug-in e API de JavaScript com suporte de digitação completo.
 
 ## Next.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: 
 
@@ -525,7 +525,7 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 > Algo bem parecido com o que a linguagem de programação PHP faz, porém diferente em muitos aspectos.
   
 ## Redux
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema da linguagem JS para bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
   
@@ -534,14 +534,14 @@ O principal uso do Redux é que podemos usar um estado de aplicativo como um est
 O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, onde o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
 
 ## Gatsby
-<img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
 
 O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
 > Diferente do Next.js, o Gatsby funciona 
 
 # 🛡️ Angular.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
   
 O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
 
@@ -560,14 +560,14 @@ Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplam
 > **Injeção de dependência** (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por "injetar" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste. Alguns dos frameworks mais utilizados que fazem uso de injeção de dependência são o Spring, ASP.NET Core, Laravel e o AngularJS.
 
 # 🅰️ Angular
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="77" align="right"></a>
 
 O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
 
 No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
 
 # ✌️ Vue.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right"></a>
 
 O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance para criação de componentes em páginas Web e modelos SPA - Single Page Applications. 
 
@@ -576,7 +576,7 @@ Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes qu
 O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e Ruby On Rails por exemplo, e logicamente é possível usar o Vue em toda a aplicação ou em SPA - Single Page Applications, usando um ecossistema completo com Core, o Vuex e o Vue-Router.
   
 # 🧊 Webpack
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
 O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
 
@@ -585,7 +585,7 @@ Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos
 > Muito usado para frameworks Front-end JavaScript como: Angular, Vue e React.
 
 # 🥤 Gulp
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="77" align="right"></a>
   
 O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado para automatizar e aprimorar seu fluxo de trabalho (workflows) e como um sistema de construção de streaming no desenvolvimento web front-end.
 
@@ -593,8 +593,13 @@ Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trab
 
 Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
 
+# 🐙 Testing Library
+<img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
+
+Utilitários de teste simples e completos que incentivam boas práticas de teste.
+
 # 🃏 Jest
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
 
 O Jest é um poderoso framework de testes unitários de código aberto em JavaScript com um foco na simplicidade, criado pelo Facebook a partir do framework Jasmine e foi projetado para garantir a correção de qualquer código JavaScript. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript e funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais! 
 
@@ -603,14 +608,14 @@ O Jest é um poderoso framework de testes unitários de código aberto em JavaSc
 Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 
 # ⚫ Cypress
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="77" align="right"></a>
 
 O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes.
 
 À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes.
 
 # 🤖 Apache Cordova
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="77" align="right"></a>
   
 O Apache Cordova é uma biblioteca/estrutura que tem como foco desenvolver aplicações mobile de plataforma cruzada de código aberto usada para a criação de aplicativos híbridos, tanto para plataformas Android e iOS. Anteriormente, Cordova era conhecido como PhoneGap. Ele vem dos gigantes do servidor de tecnologia Apache. Cordova usa certas tecnologias da web como JavaScript, CSS3 e HTML5 para desenvolver aplicativos híbridos.
 
@@ -619,26 +624,26 @@ Vários plug-ins de terceiros estão disponíveis para trabalhar com a estrutura
 > O principal benefício de usar o Cordova é sua simplicidade na estrutura de codificação.
 
 # 🔵 Ionic
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="77" align="right"></a>
 
 O **Ionic** é um framework híbrido open-source para desenvolvimento de aplicações multiplataforma usando tecnologia Web: HTML, CSS e JS. Através dele, você poderá desenvolver e disponibilizar aplicativos em várias plataformas como Android e iOS através de PWAs - Progressive Web Apps e até em Desktops, tudo isso apenas escrevendo um único código.
 
 # ⚛️ React Native
-<img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="77" align="right">
   
 O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecossistema de outro framework o React.js, desenvolvido pelo Facebook, atualmente Meta, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis.
 
 Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelhanças, eles possuem utilizações distintas.
 
 # 🦕 Deno
-<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="77" align="right">
 
 O **Deno** é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Foi criado por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade.
 
 Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
 
 # 🦁 Nest JS
-<img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="177" align="right">
+<img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="77" align="right">
 
 O **NestJS** é um framework/estrutura que usa JavaScript progressivo de código aberto, no qual é construído com TypeScript (preserva a compatibilidade com JavaScript puro) e combina elementos de OOP (Programação Orientada a Objetos), FP (Programação Funcional) e FRP (Programação Reativa Funcional), mas também oferece compatibilidade com uma ampla gama de outras bibliotecas, como, por exemplo, Fastify, permitindo o uso fácil da miríade de plug-ins de terceiros disponíveis no Node.js para o desenvolvimento de aplicativos do lado do servidor (back-end) que auxilia o desenvolvimento de aplicações eficientes, escaláveis e confiáveis em cima do Node.js. Foi criado por Kamil Mysliwiec e lançado em 2017.
 
@@ -649,7 +654,7 @@ Em um simples comando, perceba que ele cria uma estrutura model-service-controll
 > Muitos devs comparam o NestJS com o Rails (framework/biblioteca da linguagem de programação Ruby), onde podem ser categorizados como ferramentas "Frameworks (Full Stack)". "Poderoso, mas super amigável para trabalhar" é a principal razão pela qual os desenvolvedores consideram o NestJS sobre os concorrentes, enquanto o "desenvolvimento rápido" foi declarado como o fator chave na escolha do Rails.
 
 # ☕ Mocha
-<img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="77" align="right">
 
 O **Mocha** é uma estrutura de teste JavaScript para programas Node.js, com suporte a navegadores, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserção.
   
@@ -660,7 +665,7 @@ O Mocha executa testes em série para fornecer relatórios flexíveis e precisos
 Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é comumente usado com Chai, uma biblioteca de asserção popular para Node.js e o navegador.
 
 # 🍵 Chai
-<img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="77" align="right">
 
 O **Chai** é uma biblioteca open-source de asserção BDD/TDD para nó e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript.
 
@@ -671,7 +676,7 @@ O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais 
 Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
 
 # 🗑️ JSBin
-<img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="77" align="right">
 
 O **JSBin** é um aplicativo da web open-source projetado especificamente para ajudar os trechos de código de teste populares de JavaScript e CSS, dentro de algum contexto, e depurar o código de forma colaborativa.
 
@@ -684,7 +689,7 @@ Ou seja, o JSBin é um pastebin ao vivo para HTML, CSS e JavaScript e uma varied
 - Depurar chamadas Ajax remotas.
 
 # 🐉 RxJS
-<img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="77" align="right">
 
 O **RxJS** é uma biblioteca para programação reativa usando Observables, para facilitar a composição de código assíncrono ou baseado em callback. Este projeto é uma reescrita de Reactive-Extensions/RxJS com a melhor performance, melhor modularidade, melhor chamada depurável para tecnologias, mantendo a compatibilidade com versões anteriores, com algumas alterações importantes que reduzem a superfície da API.
   
@@ -693,7 +698,7 @@ O **RxJS** é uma biblioteca para programação reativa usando Observables, para
 O ReactiveX combina o padrão Observer com o padrão Iterator e a programação funcional com coleções para preencher a necessidade de uma maneira ideal de gerenciar sequências de eventos.
 
 # 🎫 AS - AssemblyScript
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/AssemblyScript_logo_2020.svg" height="177" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/AssemblyScript_logo_2020.svg" height="77" align="right">
 
 O **AssemblyScript**, abreviado como **AS**, é uma linguagem de programação baseada em TypeScript que é otimizada e compilada estaticamente para WebAssembly. Assemelhando-se a ECMAScript e JavaScript, mas com tipos estáticos, a linguagem é desenvolvida pelo Projeto AssemblyScript com contribuições da comunidade AssemblyScript.
 
@@ -708,7 +713,7 @@ Enquanto o Emscripten e compiladores semelhantes permitem que os desenvolvedores
 Embora o WebAssembly tenha sido originalmente projetado para execução em navegadores da Web, o desenvolvimento do WASI (WebAssembly System Interface), uma especificação da comunidade para uma API padrão que permite que programas WebAssembly acessem chamadas do sistema e outras funções do sistema operacional, levou ao desenvolvimento de ambientes de tempo de execução WebAssembly de projetos como Wasmtime e Wasmer que permitem WebAssembly e código escrito em linguagens como AssemblyScript que pode compilar para ele, para executar também em ambientes não-Web.
 
 # 🌌 Wasm - WebAssembly
-<img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="77" align="right">
 
 O **WebAssembly**, abreviado como **Wasm**, é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor.
 
@@ -729,7 +734,7 @@ O WebAssembly descreve um ambiente de execução em área restrita com proteçã
 O WebAssembly foi projetado para ser impresso em um formato textual para depuração, teste, experimentação, otimização, aprendizado, ensino e escrita de programas à mão. O formato textual será usado ao visualizar a fonte dos módulos Wasm na web. E, também, para manter a natureza sem versão, com recursos testados e compatível com versões anteriores da web. Os módulos WebAssembly poderão entrar e sair do contexto JavaScript e acessar a funcionalidade do navegador por meio das mesmas APIs da Web acessíveis a partir do JavaScript. O WebAssembly também oferece suporte a incorporações não-web.
 
 # ☁️ JavaScript em Cloud Computing
-<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="177" align="right">
+<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="77" align="right">
 
 Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura.
 
