@@ -6,41 +6,18 @@
 
 > 📜 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.).
 
-<!--
-[![CSS3](https://img.shields.io/badge/-style.css-000000?style=social&logo=CSS3&logoColor=1877F2)](#)
-[![JSON](https://img.shields.io/badge/-package.json-000000?style=social&logo=JSON&logoColor=gray)](#)
-[![Brave](https://img.shields.io/badge/-Console-fff?style=social&logo=Brave&logoColor=orangered)](#)
-[![Node.js](https://img.shields.io/badge/-Node.js-fff?style=social&logo=Node.js&logoColor=339933)](#)
-[![NPM](https://img.shields.io/badge/-NPM-fff?style=social&logo=NPM&logoColor=CB3837)](#)
-[![MongoDB](https://img.shields.io/badge/-MongoDB-fff?style=social&logo=MongoDB&logoColor=47A248)](#)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fff?style=social&logo=Postgresql&logoColor=336791)](#)
-[![SQL](https://img.shields.io/badge/-db.sql-fff?style=social&logo=MySQL&logoColor=336791)](#)
-[![Babel.js](https://img.shields.io/badge/-Babel.js-fff?style=social&logo=Babel&logoColor=yellow)](#)
-[![jQuery](https://img.shields.io/badge/-jQuery-fff?style=social&logo=jQuery&logoColor=blue)](#)
-[![TS](https://img.shields.io/badge/-main.ts-fff?style=social&logo=TypeScript&logoColor=blue)](#)
-[![TSX](https://img.shields.io/badge/-main.tsx-fff?style=social&logo=Atom&logoColor=blue)](#)
-[![React.js](https://img.shields.io/badge/-app.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
-[![ReactiveX](https://img.shields.io/badge/-main.rx-fff?style=social&logo=ReactiveX&logoColor=B7178C)](#)
-[![RESTful API](https://img.shields.io/badge/-RESTful.API-000000?style=social&logo=ReactOS&logoColor=1877F2)](#)
-
-<div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/js_button_icon_151927.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/web_button_icon_151905.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/ionic_button_icon_151955.png" height="47"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/sass_button_icon_151921.png" height="47"></div>
--->
-
 <div align="center">
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://miro.medium.com/max/1000/1*jIpGVmlwSQmb0QiI8TpmPg.png" height="177"></a>
 
 </div>
 
-<!--
-## JavaScript training:
-- https://www.code.org
+- https://github.com/braziljs/eloquente-javascript/blob/master/pdf/livro.pdf
 - https://developers.google.com/blockly
-- https://br.codecombat.com/
+- https://www.code.org
 - https://exercism.org/dashboard
+- https://br.codecombat.com/
 - https://stackoverflow.com/questions/68329202/how-to-run-frontend-and-backend-on-same-port-if-i-am-using-vanilla-js-on-front
--->
-
 
 # 🐒 Linguagem de programação
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/112900537-065ce480-90ba-11eb-86f7-f9006445876a.png" height="277"></div>
