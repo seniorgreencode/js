@@ -115,7 +115,10 @@ O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node
 
 ## Alguns comandos mais utilizados no NPM
 
-### Inicializando o projeto com o package.json
+### Inicializando o projeto com o `package.json`
+
+[![NPM](https://img.shields.io/badge/-npm_init-fff?style=social&logo=npm&logoColor=red)](#) [![NPM](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+
 ```sh
 npm init
 ```
@@ -127,6 +130,8 @@ npm init
 ```sh
 npm list -g
 ```
+
+[![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
 
 ```sh
 npm list -g --depth=0
