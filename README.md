@@ -57,7 +57,7 @@ Com o Node.js conseguimos criar:
 - Integração entre sistemas;
 - Sistemas de pagamento;
 - Redes Sociais;
-- Apps de Streaming, como a Netflix;
+- Apps de Streaming, como a Netflix e Globoplay;
 
 Porque usar o Node.js?
 
