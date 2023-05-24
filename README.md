@@ -25,14 +25,13 @@
 
 -->
 
-# 🚘 V8 Engine
+# ⬢ Node.js
 <img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do Node.js" align="right"/>
 
 Em setembro de 2008 a Google lançou seu navegador, o **Google Chrome**. O Chrome tem um interpretador/motor (engine) de JavaScript muito poderoso, o **V8**. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
 O V8 "compila" o JavaScript, mas por trás ele executa a linguagem **C++**. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
 
-# ⬢ Node.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 (A engine/ motor do Google Chrome) fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
