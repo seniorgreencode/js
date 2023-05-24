@@ -1722,6 +1722,37 @@ function counterReducer (state={value:0}, action){
 }
 ```
 
+## GraphQL
+<img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="177" align="right">
+
+O **GraphQL** é uma especificação para criar e usar APIs que têm sua própria linguagem de query. O que isso significa então? É que às vezes o Graphql é entendido ou é percebido como sendo uma tecnologia voltada para bancos de dados, ele não é. Ele é uma especificação para APIs, para escrever, criar e utilizar APIs e não está ligado a nenhum tipo de banco, inclusive ele pode ser usado com qualquer base de dados, ou mesmo nenhuma base de dados.
+
+> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis.
+
+O Graphql fornece um ambiente para executarmos essas queries usando os dados que fornecermos para ele, não importa de onde esses dados venham. Eles podem vir de um banco SQL, de um banco NoSQL, de uma API de terceiros via endpoint rest, ou até mesmo da memória do seu computador. E também de todos esses juntos, para o SQL não faz diferença, isso não é o ponto principal dele.
+
+O Graphql também normalmente utilizamos `http` para fazer a comunicação, mas na verdade ele é agnóstico com relação a protocolos de comunicação. Os **schemas** (esquemas) do Graphql são baseados em como os dados são usados, e não como estão armazenados. Isso é um conceito chave para entender o Graphql, não importa se os dados vêm de objetos, de APIs, o que acabamos de falar, o que importa é que o cliente consiga utilizar esses dados da melhor forma possível.
+
+Quando falo cliente normalmente estou falando do front ou de quem vai consumir nossa API Graphql. Essa é uma questão chave. Os schemas são baseados em como os dados são usados, e não importa de onde eles vêm.
+
+Por exemplo, se usássemos um banco de tabelas para criar um usuário, por exemplo, um usuário de uma escola de inglês, esses usuários têm nome, e-mail, se eles estão ativos no sistema ou não, e eles podem ser professores, podem ser alunos, podem ser coordenação. Se pensarmos, por exemplo, numa tabela SQL, conseguimos montar um usuário completo a partir de duas tabelas, uma com os dados principais, nome, e-mail, etc, e outra para definir os possíveis roles, os possíveis papeis desse usuário no sistema.
+
+Então você teria uma tabela de roles que tem professor, aluno, coordenação, e por aí vai. Com o Graphql pensamos em como esses dados seriam usados pelo lado cliente e o cliente pode montar as queries a partir dessa premissa.
+
+Vamos supor que numa `feature` qualquer desse sistema de escola de cliente, o lado cliente precisa receber somente o nome do usuários da tabela `users` e da tabela `roles` ele só precisa receber uma `string` com o tipo de role, professor, aluno, etc. Ele não precisa receber mais nada.
+
+Ele quer fazer uma query que pegue de `users` somente o nome, e do `role` desse user, do papel desse usuário, somente a string de tipo, ele não quer receber mais nada, somente isso.
+
+A partir dessa query que o cliente consegue fazer em Graphql ele recebe um JSON somente com o que ele quer no formato agregado de uma forma que para o cliente faz mais sentido, são dados mais concisos e somente com o que o cliente pediu.
+
+O Graphql com isso procura resolver um problema em rest, uma questão do rest que costumamos chamar de **overfitting**, que seria **super requisição**, e também o **underfitting**, que é **sub requisição**. É quando o endpoint ou traz muitos dados que não precisamos numa requisição ou o contrário, precisamos de mais de uma requisição para ter os dados que precisamos. Então, o Graphql vem aí para resolver essa questão e fazer com que nosso cliente peça, em uma requisição só ele receba somente o que ele quer e mais nada. Podemos dizer que o Graphql é uma tecnologia voltada para front? Podemos, porque a ideia é melhorar, otimizar essa relação dos clientes com os dados que ele recebe do back, que é uma tecnologia focada no front, mas claro que vamos desenvolver nosso servidor Graphql no back.
+
+Para o cliente, para a parte de front, ele vai ter menos requisições, vai visualizar os dados de uma forma melhor, os dados agregados de uma forma melhor para ele, mas dados mais enxutos, inclusive, de forma que faça mais sentido para ele, mas também tem bastante benefícios para a parte do back, para o lado do servidor, uma vez que livra o backend de fazer muitas implementações de muitos endpoints.
+
+O desenvolvimento fica mais ágil. Se você tem que desenvolver um novo produto ou uma nova `feature` para o seu produto, evita que o backend caia naquela situação de ter que desenvolver endpoints sem fim para cada coisa nova que pode ou não entrar no sistema.
+
+Fica mais ágil porque o front não fica dependendo tanto do back para criar um endpoint para cada coisa que ele precisa fazer, e o backend fica mais agilizado também sem ter que ficar fazendo todas essas implementações para uma coisa que no final às vezes pode até entrar no sistema ou não.
+
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="177"></div><br \>
 
