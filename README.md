@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/node.js"><img src="https://philna.sh/_astro/node.1305aa9e.png" title="Site do Node.js"/></a></div>
+<div align="center"><a href="https://github.com/IsaacAlves7/javascript-programming/tree/node.js"><img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36" title="Site do Node.js"/></a></div>
 
 #  It's a repository of Node.js development ⬢
 
@@ -6,18 +6,6 @@
 <!--
 - https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
 - https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
-
-
-## Prerequisites and repositories:
-<ul>
-  <li>Good domains in English;</li>
-  <li>Programming logic;</li>
-  <li>Programming paradigms;</li>
-  <li>Front-end: HTML, CSS, JS and Frameworks;</li>
-  <li>Databases, SQL language and No-SQL;</li>
-  <li>All HTTP methods and APIs;</li>
-  <li>Desire to learn.</li>
-</ul>
 
 <blockquote><b>⚠️ WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
 
@@ -388,4 +376,8 @@ Já instalamos o Apollo Server, agora vamos importá-lo. Por enquanto, queremos 
 // Arquivo index.js
 
 const { ApolloServer } = require('apollo-server')
+
+const server = new ApolloServer()v
 ```
+
+
