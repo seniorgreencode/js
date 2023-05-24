@@ -116,7 +116,7 @@ npm -v
 ### Linux
 No diretório do usuário (root):
 
-```
+```sh
 sudo apt install nodejs
 ```
 
@@ -128,17 +128,19 @@ O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node
 ## Alguns comandos mais utilizados no NPM
 
 ### Inicializando o projeto com o package.json
-```
+```sh
 npm init
 ```
+
 <img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
+
 #### Listando todos os pacotes instalados pelo NPM (local)
-```
+```sh
 npm list -g
 ```
 
-```
+```sh
 npm list -g --depth=0
 ```
 
@@ -204,7 +206,7 @@ if(mostrarSite){ // Se mostrarSite
 
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
-# Express ⬜
+# Express
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" height="270" title="Site do Node.js"/></a></div><br \>
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="270" title="Site do Node.js"/></a></div><br \>
 
@@ -294,7 +296,6 @@ Quando a sua operação principal acabar, ela vai chamar a sua função de Callb
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
-
 # Cloudnary
 <div align="center"><img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="177"></div><br \>
 
@@ -334,66 +335,33 @@ http://res.cloudinary.com/isaacalves7
 https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
 
-<!--
-https://cdn.w3villa.com/production/assets/pages/node-js-57c10fe2cea98141c6989b648975744e.jpg
-https://www.mobiloitte.com/images/node-js-banner.png
-https://jonathas.com/images/posts/cover-nodejs.jpg
-https://miro.medium.com/max/1000/1*fsseXIPGEhwmg6kfgXyIjA.jpeg
-https://docs.microsoft.com/pt-br/learn/achievements/create-nodejs-project-dependencies-social.png
-https://railsware.com/blog/wp-content/uploads/2018/09/360x360-rw-blog-node-js.png
-https://kinsta.com/wp-content/uploads/2021/08/node-js-apps.jpg
-https://blog.rocketseat.com.br/content/images/2018/12/nodejs-express-sequelize.png
-![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
-![Hierarquia de Objetos JS](https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png)
-https://miro.medium.com/max/1436/0*ILZZpnli_R1FU3p4.gif
-document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
-<img src="https://miro.medium.com/max/925/1*dax3Mf7KuL1rQ5-RKjN6_A.png" width="1000"/>
-<img src="https://www.north-47.com/wp-content/uploads/2020/06/1_JA57AArvHLn3tulDxJKzEg.jpeg" width="1000"/>
-<img src="https://miro.medium.com/max/816/0*jJba103A-9xmpTYq.jpg" width="1000"/>
-<img src="https://www.ateamindia.com/wp-content/uploads/2018/10/JavaScript-1.jpg" height="450" width="1070"/>
-<img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/templates/javascriptt-light_870x220.png?sfvrsn=f0bf46af_3" width="1700"/>
-![image](https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png)
-<img src="https://www.islamzatary.com/wp-content/uploads/2017/09/advanced_js.jpg" width="1070"/>
-<img src="https://cdn-media-1.freecodecamp.org/images/1*tBXQMulrsKL21K66SVQ5jA.png" width="1070"/>
-<img src="https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/templates/javascriptt2-light_1200x303.png?sfvrsn=cc305226_2" width="1070"/>
-<img src="https://becode.com.br/wp-content/uploads/2018/04/frameworks-js2-1.png" width="1070"/>
-<img src="https://miro.medium.com/max/2732/1*BPSx-c--z6r7tY29L19ukQ.png" width="1070"/>
-<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/08/teste-de-performance-javascript.png" width="1070"/>
-<img src="https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/seleccionar-elementos-con-queryselector-t1.png" width="1070"/>
-<img src="https://www.desarrollolibre.net/public/images/example/javascript/portapapeles_javascript.png" width="1070"/>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtTR_qc3VZrY4xPzLStpmYDXLT66ZdqLPkYw&usqp=CAU" width="1070"/>
-<img src="https://cutewallpaper.org/21/javascript-wallpaper/JavaScript-Promises-JS.MD.png" width="1070"/>
-<img src="https://bloggeek.me/wp-content/uploads/2017/09/201709-javascript-king.jpg" width="1070"/>
-<img src="https://miro.medium.com/max/600/0*fPG6D58K9s_2l3kK.png" width="1070"/>
-https://miro.medium.com/max/921/1*T8OsgpwsHL8Lj6gGlyTOtw.png
-https://miro.medium.com/max/610/1*eSi3NuB9LTgO64VhWphnnw.png
-https://cdn-media-1.freecodecamp.org/images/1*ReeHV0eEsfmMskVUk1vVog.png
-https://es6.io/images/es6-sticker.png
-<img src="https://techonria.files.wordpress.com/2016/07/arrow.png?w=785" width="1070"/>
-<div align="center"><img src="https://onsen.io/blog/content/images/2015/Nov/es6-webcomponents.png"/></div>
-<img src="https://media.vlpt.us/images/sangminnn/post/3b3e7fc8-d255-46df-92fb-71e91bcf2408/real%20es6.png" width="1700"/>
-<img src="https://learnworthy.net/wp-content/uploads/2019/08/How-To-Learn-JavaScript-Quickly.jpg" width="1700"/>
-<a href="https://jquery.com/"><img src="https://cdn1.vogel.de/kaNCYI0Lx-zrDezwq8BaF3cFGI8=/fit-in/1200x630/filters:format(png):quality(90)/images.vogel.de/vogelonline/bdb/1494700/1494776/original.jpg" width="1000"/></a>
-https://blog.jscrambler.com/content/images/2016/12/iot_js-min.png
-https://www.20i.com/blog/wp-content/uploads/2020/10/I-love-JavaScript-1920x500.png
-https://www.loginradius.com/blog/async/static/bfdcec92226d9dd465af598836dd28a4/701ee/callback.jpg
-https://media.proglib.io/wp-uploads/2018/11/1_hLSiwh3HW9Pqw0M3gLEMOg.png
-https://miro.medium.com/max/653/1*wMZnVAEei1xbY1v6sAbYxQ.png
-https://d23cpcfk0ihnyh.cloudfront.net/blog/posts/1-20-2018-async-await/async-await.png
-https://twilio-cms-prod.s3.amazonaws.com/images/asyncawait.width-808.png
-https://miro.medium.com/max/1570/1*TWVs8hNCI7B7t2Y4tA-u1A.png
-https://images.idgesg.net/images/article/2018/04/iwan_05-100755063-orig.jpg
-https://miro.medium.com/max/1117/0*X7Z0k20cwHHi8UOI.png
-https://lh3.googleusercontent.com/proxy/jyBQYND60pqwD9ly0Halj3B8Xj0o86fZWi_PTpd2e3MGkM6YmH6_fuj4GoBZn83gARwttM3Be3z0ekcYr_BBL3-KGrwzhxsl12YsHs7P3MDGMvOKM2LOuUW1CIVZ1nFqpoCWjox7DPx_1g
-https://www.sevenstarwebsolutions.com/wp-content/uploads/2018/02/nodejs.jpg
-https://www.mobiloitte.com/images/node-js-banner.png
-https://skeps.com/api/blog/content/uploads/2019/10/Node-JS-Banner.png
-https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/06/node-js-banner.png
-https://viitorcloud.com/blog/wp-content/uploads/2018/06/Node-JS-App-Development-for-Business-cover.jpg
-https://www.anques.com/wp-content/uploads/2019/07/node_js.png
-https://daynilgroup.com/resources/images/nodejs_banner.png
-https://miro.medium.com/max/2732/1*LyZcwuLWv2FArOumCxobpA.png
-https://i.ytimg.com/vi/sCAR8ZPM6ew/maxresdefault.jpg
-https://i.ytimg.com/vi/PyKZMY-_TI8/hqdefault.jpg
-https://res.cloudinary.com/practicaldev/image/fetch/s--SnVNfIdj--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/etfxkw4syies3pt35tny.png
-https://ian-says.com/articles/functional-javascript/thumbnail.png
+## GraphQL
+<img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="177" align="right">
+
+O **GraphQL** é uma especificação para criar e usar APIs que têm sua própria linguagem de query. O que isso significa então? É que às vezes o Graphql é entendido ou é percebido como sendo uma tecnologia voltada para bancos de dados, ele não é. Ele é uma especificação para APIs, para escrever, criar e utilizar APIs e não está ligado a nenhum tipo de banco, inclusive ele pode ser usado com qualquer base de dados, ou mesmo nenhuma base de dados.
+
+> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis.
+
+O Graphql fornece um ambiente para executarmos essas queries usando os dados que fornecermos para ele, não importa de onde esses dados venham. Eles podem vir de um banco SQL, de um banco NoSQL, de uma API de terceiros via endpoint rest, ou até mesmo da memória do seu computador. E também de todos esses juntos, para o SQL não faz diferença, isso não é o ponto principal dele.
+
+O Graphql também normalmente utilizamos `http` para fazer a comunicação, mas na verdade ele é agnóstico com relação a protocolos de comunicação. Os **schemas** (esquemas) do Graphql são baseados em como os dados são usados, e não como estão armazenados. Isso é um conceito chave para entender o Graphql, não importa se os dados vêm de objetos, de APIs, o que acabamos de falar, o que importa é que o cliente consiga utilizar esses dados da melhor forma possível.
+
+Quando falo cliente normalmente estou falando do front ou de quem vai consumir nossa API Graphql. Essa é uma questão chave. Os schemas são baseados em como os dados são usados, e não importa de onde eles vêm.
+
+Por exemplo, se usássemos um banco de tabelas para criar um usuário, por exemplo, um usuário de uma escola de inglês, esses usuários têm nome, e-mail, se eles estão ativos no sistema ou não, e eles podem ser professores, podem ser alunos, podem ser coordenação. Se pensarmos, por exemplo, numa tabela SQL, conseguimos montar um usuário completo a partir de duas tabelas, uma com os dados principais, nome, e-mail, etc, e outra para definir os possíveis roles, os possíveis papeis desse usuário no sistema.
+
+Então você teria uma tabela de roles que tem professor, aluno, coordenação, e por aí vai. Com o Graphql pensamos em como esses dados seriam usados pelo lado cliente e o cliente pode montar as queries a partir dessa premissa.
+
+Vamos supor que numa `feature` qualquer desse sistema de escola de cliente, o lado cliente precisa receber somente o nome do usuários da tabela `users` e da tabela `roles` ele só precisa receber uma `string` com o tipo de role, professor, aluno, etc. Ele não precisa receber mais nada.
+
+Ele quer fazer uma query que pegue de `users` somente o nome, e do `role` desse user, do papel desse usuário, somente a string de tipo, ele não quer receber mais nada, somente isso.
+
+A partir dessa query que o cliente consegue fazer em Graphql ele recebe um JSON somente com o que ele quer no formato agregado de uma forma que para o cliente faz mais sentido, são dados mais concisos e somente com o que o cliente pediu.
+
+O Graphql com isso procura resolver um problema em rest, uma questão do rest que costumamos chamar de **overfitting**, que seria **super requisição**, e também o **underfitting**, que é **sub requisição**. É quando o endpoint ou traz muitos dados que não precisamos numa requisição ou o contrário, precisamos de mais de uma requisição para ter os dados que precisamos. Então, o Graphql vem aí para resolver essa questão e fazer com que nosso cliente peça, em uma requisição só ele receba somente o que ele quer e mais nada. Podemos dizer que o Graphql é uma tecnologia voltada para front? Podemos, porque a ideia é melhorar, otimizar essa relação dos clientes com os dados que ele recebe do back, que é uma tecnologia focada no front, mas claro que vamos desenvolver nosso servidor Graphql no back.
+
+Para o cliente, para a parte de front, ele vai ter menos requisições, vai visualizar os dados de uma forma melhor, os dados agregados de uma forma melhor para ele, mas dados mais enxutos, inclusive, de forma que faça mais sentido para ele, mas também tem bastante benefícios para a parte do back, para o lado do servidor, uma vez que livra o backend de fazer muitas implementações de muitos endpoints.
+
+O desenvolvimento fica mais ágil. Se você tem que desenvolver um novo produto ou uma nova `feature` para o seu produto, evita que o backend caia naquela situação de ter que desenvolver endpoints sem fim para cada coisa nova que pode ou não entrar no sistema.
+
+Fica mais ágil porque o front não fica dependendo tanto do back para criar um endpoint para cada coisa que ele precisa fazer, e o backend fica mais agilizado também sem ter que ficar fazendo todas essas implementações para uma coisa que no final às vezes pode até entrar no sistema ou não.
