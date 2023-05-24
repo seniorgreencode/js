@@ -297,7 +297,7 @@ Quando a sua operação principal acabar, ela vai chamar a sua função de Callb
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
 # Cloudnary
-<div align="center"><img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="177"></div><br \>
+<img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="177" align="right">
 
 Vamos fazer os uploads das fotos de perfil ou outros documentos, mas para isso será preciso algum ambiente com capacidade de armazenamento eficaz para tal tarefa. Isso é a escolha, alguns utilizam algum serviço de armazenamento na computação em nuvem como o **Amazon S3 - Simple Storage Service**, porém iremos utilizar o **Cloudnary**.
 
