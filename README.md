@@ -365,3 +365,27 @@ Para o cliente, para a parte de front, ele vai ter menos requisições, vai visu
 O desenvolvimento fica mais ágil. Se você tem que desenvolver um novo produto ou uma nova `feature` para o seu produto, evita que o backend caia naquela situação de ter que desenvolver endpoints sem fim para cada coisa nova que pode ou não entrar no sistema.
 
 Fica mais ágil porque o front não fica dependendo tanto do back para criar um endpoint para cada coisa que ele precisa fazer, e o backend fica mais agilizado também sem ter que ficar fazendo todas essas implementações para uma coisa que no final às vezes pode até entrar no sistema ou não.
+
+Vamos começar com `npm install graphql`, que é a implementação referência para trabalhar **GraphQL com Node**.
+
+```sh
+npm install graphql
+```
+
+Como o GraphQL é realmente só uma especificação, usaremos também o pacote de ferramentas **Apollo** para trabalhar com GraphQL:
+
+```sh
+npm install apollo-server
+```
+
+O Apollo é uma implementação bem completa do GraphQL, ele já tem as ferramentas que precisaremos, começando pelo principal: um servidor GraphQL.
+
+Vamos criar o arquivo `index.js` dentro da pasta "api". Este será nosso ponto de entrada da nossa aplicação.
+
+Já instalamos o Apollo Server, agora vamos importá-lo. Por enquanto, queremos apenas o **ApolloServer** do pacote de ferramentas do Apollo:
+
+```javascript
+// Arquivo index.js
+
+const { ApolloServer } = require('apollo-server')
+```
