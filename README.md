@@ -1791,12 +1791,6 @@ Vamos fazer um teste, após rodar, no modelo hot reloading, a aplicação no amb
   
 Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e criar um arquivo com extensão `.js`, `.jsx` ou `typescript` que ele criará uma rota automaticamente.
 
-# GraphQL
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="277"></div>
-
-# Apollo GraphQL
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-1.svg" height="277"></div> 
-
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="277"></div> 
 
