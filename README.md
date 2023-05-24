@@ -151,7 +151,7 @@ npm install <pacote> --save
 ```
 
 # 🧶 `yarn` - yet another resource negotiator
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177"></div><br />
+<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
 
