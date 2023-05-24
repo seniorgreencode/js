@@ -26,7 +26,7 @@
 -->
 
 # ⬢ Node.js
-<img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="177" title="Site do Node.js" align="right"/>
+<img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="100" title="Site do Node.js" align="right"/>
 
 Em setembro de 2008 a Google lançou seu navegador, o **Google Chrome**. O Chrome tem um interpretador/motor (engine) de JavaScript muito poderoso, o **V8**. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
