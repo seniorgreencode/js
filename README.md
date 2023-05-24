@@ -387,7 +387,7 @@ Vamos criar o arquivo `index.js` dentro da pasta "api". Este será nosso ponto d
 
 Já instalamos o Apollo Server, agora vamos importá-lo. Por enquanto, queremos apenas o **ApolloServer** do pacote de ferramentas do Apollo:
 
-[![NPM](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 // Arquivo index.js
@@ -406,5 +406,15 @@ A estrutura do GraphQL está no schema, no qual especifica-se o que o servidor G
 Essa estrutura precisa ser implementada de alguma forma para que possa funcionar. No GraphQL, isso se dá através do que chamamos de funções `resolver`, ou só `resolvers`. É nos `resolvers` que implementamos o comportamento. Cada campo em um schema GraphQL é implementado através de um resolver.
 
 É aqui que entram ferramentas como Apollo. Elas servem para nos ajudar a implementar a especificação GraphQL em nossa aplicação.
+
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+// Arquivo index.js
+
+const { ApolloServer } = require('apollo-server')
+
+const server = new ApolloServer({ typeDefs, resolvers })
+```
 
 
