@@ -377,7 +377,17 @@ Já instalamos o Apollo Server, agora vamos importá-lo. Por enquanto, queremos 
 
 const { ApolloServer } = require('apollo-server')
 
-const server = new ApolloServer()v
+const server = new ApolloServer()
 ```
+
+<a href="https://www.apollographql.com/docs/apollo-server/"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" align="right" height="177"></a>
+
+O GraphQL faz uma separação clara entre **estrutura** e **comportamento**.
+
+A estrutura do GraphQL está no schema, no qual especifica-se o que o servidor GraphQL está estruturado para fazer, com seus tipos e objetos.
+
+Essa estrutura precisa ser implementada de alguma forma para que possa funcionar. No GraphQL, isso se dá através do que chamamos de funções `resolver`, ou só `resolvers`. É nos `resolvers` que implementamos o comportamento. Cada campo em um schema GraphQL é implementado através de um resolver.
+
+É aqui que entram ferramentas como Apollo. Elas servem para nos ajudar a implementar a especificação GraphQL em nossa aplicação.
 
 
