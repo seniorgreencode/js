@@ -112,9 +112,7 @@ sudo apt install nodejs
 
 O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node.js, mesmo sendo o gerenciador ele também é independente do Node.js. É através do NPM que podemos instalar a bibliotecas do Node para desenvolver qualquer tipo de aplicação.
 
-## Alguns comandos mais utilizados no NPM
-
-### Inicializando o projeto com o `package.json`
+## Inicializando o projeto com o `package.json`
 
 [![NPM](https://img.shields.io/badge/-npm_init-fff?style=social&logo=npm&logoColor=red)](#) [![NPM](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 
