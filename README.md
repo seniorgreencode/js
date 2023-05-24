@@ -51,6 +51,8 @@ Antigamente, o JavaScript foi feito apenas para rodar na interface/ cliente dos 
 
 Com o Node.js conseguimos criar:
 
+<a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js/assets/61624336/da0c322f-1825-481f-995f-bab669f7e326" height="177" title="Site do Node.js" align="right"/></a>
+
 - Páginas interativas e dinâmicas;
 - Jogos eletrônicos;
 - Animações;
