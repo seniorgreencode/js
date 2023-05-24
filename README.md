@@ -2,6 +2,13 @@
 
 #  It's a repository of Node.js development ⬢
 
+> ⬢ **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.).
+
+<div align="center">
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://ih1.redbubble.net/image.1425531665.0948/raf,750x1000,075,t,FFFFFF:97ab1c12de.jpg" height="177"></a>
+
+</div>
 
 <!--
 - https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
