@@ -9,16 +9,6 @@
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
 
-## Requisitos básicos
-- Desenvolvimento Web com HTML5 e CSS3 (front-end)
-- Linguagem de programação JavaScript avançado
-- Git
-- NPM
-- JSON
-- Alguma noção com framework front-end: Bootstrap ou jQuery
-- pré-processador Sass
-- Back-End para aplicações web: PHP, Node.js, Python ou Ruby
-
 ## Leia mais sobre o React.js:
 - https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f
 - https://reactjsexample.com/a-svg-blob-generator-build-with-react/
