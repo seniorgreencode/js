@@ -415,3 +415,27 @@ const server = new ApolloServer({ typeDefs, resolvers })
 ```
 
 Precisamos passar para essa nova instância de `ApolloServer()` como parâmetro um objeto que tem duas propriedades. A primeira é `typeDefs` e a segunda é `resolvers`, como está na documentação. São partes fundamentais para entender o Graphql, então vamos começar vendo só o `typeDefs`, depois passamos para os `resolvers`.
+
+O que é `typeDefs`, que tipo de definição de tipo é isso? Para entendermos como funcionam os tipos neste primeiro momento, vamos fazer o seguinte. Vou criar uma const users e dentro dela uma array com dois objetos. Vou fazer dois usuários bem simplificados, só com duas propriedades, a propriedade nome, que vou passar Ana, e se está ativo ou não, vou passar um booleano true.
+
+Mais outro objeto, com nome Márcia e ativo `false`. Como o Graphql não se importa com a origem dos dados, vamos começar pequenos para poder focarmos no que é o typeDefs, no que são os tipos e o schema do Graphql.
+
+Se pensarmos, como fazemos para definir uma query baseada nesses dados, quero fazer uma query que pegue usuários de uma base de dados, como vimos nos slides anteriores. Para isso precisamos definir um schema do Graphql. O schema é o centro, o core de qualquer servidor Graphql, porque ele define o que pode ser feito no servidor, o que dá para acessar e de que forma.
+
+O schema então é composto por tipos, por types. Vamos usar a linguagem própria do Graphql para escrever esse schema aqui mesmo no nosso arquivo index, e dentro dele um tipo. Como faríamos para escrever baseado na nossa const users, criar um objeto?
+
+Ele vai chamar type, porque vamos criar o primeiro tipo da nossa definição de tipos que vai entrar no servidor do ApolloServer(). Vai ser um tipo User, com letra maiúscula, como é padrão do Graphql.
+
+Esse tipo User que estou criando agora vai ter três campos. O primeiro vai ser nome, como está lá em cima. Nome é um campo do tipo String, com letra maiúscula, como é definido pelo Graphql, e uma exclamação. Exclamação significa que o campo não pode ser nulo, ele sempre tem que ter algum dado.
+
+Ele vai ter também ativo, que vai ser um campo do tipo booleano, que também vai ser obrigatório, também vai ter exclamação, e vou colocar um terceiro campo, que vai ser o campo do tipo e-mail, e vai ser um campo do tipo string que não vai ser obrigatório, não vai ter exclamação. Ele pode ser nulo.
+
+Mas tem um problema aqui. Eu criei esse type User, só que acabei de falar que íamos usar a linguagem própria do Graphql para isso, a SDL, linguagem de definição de esquemas, scheme definition language. Como faço então para o JavaScript entender o que escrevi aqui?
+
+Para isso vamos lá no `ApolloServer()`, na primeira linha onde importamos e vamos importar mais um módulo chamado gql. Com esse módulo gql consigo fazer o JavaScript interpretar o que está escrito na linguagem do Graphql, faço isso criando uma const, vou chamar de typeDefs, porque aqui dentro que estou definindo o meu schema, estou passando os tipos que vamos trabalhar nesse servidor, nessa nova instância de ApolloServer() que estamos criando aqui.
+
+Vai ser igual gql e vou abrir duas crases, as mesmas crases que usamos para criar templates, strings no JavaScript, e entre essas crases vou passar meu type User. Agora acabamos de criar nosso primeiro tipo e nossa const typeDefs está aguardando o esquema de Graphql que vamos usar nesse nosso servidor que vamos subir daqui a pouco.
+
+É importante trabalharmos com essa linguagem SDL, essa linguagem específica do Graphql, porque como o Graphql trabalha com várias linguagens de backend, como por exemplo Python, Node, JavaScript, usar essa linguagem dele garante uma padronização nos esquemas, por isso escrevemos os schemas usando essa linguagem própria do Graphql.
+
+Acabamos de criar nosso primeiro tipo, ainda vamos criar vários tipos, vamos falar bastante deles, então vamos em frente continuando para subirmos nosso primeiro servidor Graphql com Apollo.
