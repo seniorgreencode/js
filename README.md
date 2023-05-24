@@ -10,27 +10,17 @@
 
 </div>
 
-<!--
-- https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
-- https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
-
-<blockquote><b>⚠️ WARNING</b>: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!</blockquote>
-
-[![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
+[![Node.js](https://img.shields.io/badge/-Rocketseat-512BD4?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 
-<hr>
-
-# Google Chrome Inspect
+<!-- # Google Chrome Inspect
 <div align="center"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" title="Google Chrome Inspector" height="277"/></a></div>
 
-- chrome://inspect/#devices
-
--->
+- chrome://inspect/#devices -->
 
 # ⬢ Node.js <img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white">
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
