@@ -419,4 +419,4 @@ const { ApolloServer } = require('apollo-server')
 const server = new ApolloServer({ typeDefs, resolvers })
 ```
 
-
+Precisamos passar para essa nova instância de `ApolloServer()` como parâmetro um objeto que tem duas propriedades. A primeira é `typeDefs` e a segunda é `resolvers`, como está na documentação. São partes fundamentais para entender o Graphql, então vamos começar vendo só o `typeDefs`, depois passamos para os `resolvers`.
