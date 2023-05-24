@@ -356,11 +356,15 @@ Fica mais ágil porque o front não fica dependendo tanto do back para criar um 
 
 Vamos começar com `npm install graphql`, que é a implementação referência para trabalhar **GraphQL com Node**.
 
+[![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```sh
 npm install graphql
 ```
 
 Como o GraphQL é realmente só uma especificação, usaremos também o pacote de ferramentas **Apollo** para trabalhar com GraphQL:
+
+[![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
 npm install apollo-server
