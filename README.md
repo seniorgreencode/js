@@ -10,6 +10,7 @@
 
 </div>
 
+<!--
 [![Node.js](https://img.shields.io/badge/-Rocketseat-512BD4?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
@@ -17,7 +18,7 @@
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 [![Node.js](https://img.shields.io/badge/-Rocketseat-7DCDA3?style=for-the-badge&logo=Node.js&logoColor=339933)](https://www.youtube.com/watch?v=DiXbJL3iWVs)
 
-<!-- # Google Chrome Inspect
+# Google Chrome Inspect
 <div align="center"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" title="Google Chrome Inspector" height="277"/></a></div>
 
 - chrome://inspect/#devices -->
