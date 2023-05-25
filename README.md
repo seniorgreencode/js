@@ -410,7 +410,7 @@ Precisamos passar para essa nova instância de `ApolloServer()` como parâmetro 
 ```javascript
 const { ApolloServer } = require('apollo-server')
 
-const user = [
+const users = [
     {
         nome: "Ana",
         ativo: true
