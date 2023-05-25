@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/IsaacAlves7/js/tree/node.js"><img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36" title="Site do Node.js"/></a></div>
+<a href="https://github.com/IsaacAlves7/js/tree/node.js"><img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36" title="Site do Node.js"/></a>
 
 #  It's a repository of Node.js development ⬢
 
@@ -373,7 +373,7 @@ Vamos criar o arquivo `index.js` dentro da pasta "api". Este será nosso ponto d
 
 Já instalamos o Apollo Server, agora vamos importá-lo. Por enquanto, queremos apenas o **ApolloServer** do pacote de ferramentas do Apollo:
 
-[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=ECD53F)](#)
 
 ```javascript
 // Arquivo index.js
