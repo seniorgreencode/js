@@ -465,7 +465,7 @@ Ele vai chamar `type`, porque vamos criar o primeiro tipo da nossa definição d
 
 Ele vai ter também ativo, que vai ser um campo do tipo booleano, que também vai ser obrigatório, também vai ter exclamação, e vou colocar um terceiro campo, que vai ser o campo do tipo e-mail, e vai ser um campo do tipo string que não vai ser obrigatório, não vai ter exclamação. Ele pode ser nulo.
 
-Mas tem um problema aqui. Eu criei esse type `User`, só que acabei de falar que íamos usar a linguagem própria do Graphql para isso, a **SDL - Schema Definition Language**, linguagem de definição de esquemas, scheme definition language. Como faço então para o JavaScript entender o que escrevi aqui?
+Mas tem um problema aqui. Eu criei esse type `User`, só que acabei de falar que íamos usar a linguagem própria do Graphql para isso, a **SDL - Scheme Definition Language**, linguagem de definição de esquemas. Como faço então para o JavaScript entender o que escrevi aqui?
 
 Para isso vamos lá no `ApolloServer()`, na primeira linha onde importamos e vamos importar mais um módulo chamado `gql`. Com esse módulo `gql` consigo fazer o JavaScript interpretar o que está escrito na linguagem do Graphql, faço isso criando uma `const`, vou chamar de `typeDefs`, porque aqui dentro que estou definindo o meu schema, estou passando os tipos que vamos trabalhar nesse servidor, nessa nova instância de `ApolloServer()` que estamos criando aqui.
 
