@@ -485,8 +485,6 @@ const users = [
     }
 ]
 
-SDL = 
-
 type User {
   nome: String!
   ativo: Boolean!
