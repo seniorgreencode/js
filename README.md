@@ -325,13 +325,11 @@ https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 
 O **GraphQL** é uma especificação para criar e usar APIs que têm sua própria linguagem de query. O que isso significa então? É que às vezes o Graphql é entendido ou é percebido como sendo uma tecnologia voltada para bancos de dados, ele não é. Ele é uma especificação para APIs, para escrever, criar e utilizar APIs e não está ligado a nenhum tipo de banco, inclusive ele pode ser usado com qualquer base de dados, ou mesmo nenhuma base de dados.
 
-> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis. 
-
 > O GraphQL é uma linguagem de queries para manipular dados em APIs e não está vinculada a nenhum banco de dados ou linguagem de programação específica. Não importa se os dados vêm de objetos, de tabelas diferentes, de vários endpoints de uma API. A ideia é que o cliente consiga receber os dados da melhor forma possível.
 
 > GraphQL é uma especificação pensada na forma como clientes utilizarão os dados, não de que forma estão gravados nem de onde vêm. Não importa se os dados vêm de objetos, de tabelas diferentes, de vários endpoints de uma API. A ideia é que o cliente consiga receber os dados da melhor forma possível.
 
-> O uso de GraphQL agiliza o desenvolvimento de novas features de um produto. O back-end não precisa desenvolver novos endpoints para cada nova funcionalidade, ao contrário do REST. Isso torna o desenvolvimento de produtos mais ágil.
+> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis. Ou seja, o uso de GraphQL agiliza o desenvolvimento de novas features de um produto. O back-end não precisa desenvolver novos endpoints para cada nova funcionalidade, ao contrário do REST. Isso torna o desenvolvimento de produtos mais ágil.
 
 O Graphql fornece um ambiente para executarmos essas queries usando os dados que fornecermos para ele, não importa de onde esses dados venham. Eles podem vir de um banco SQL, de um banco NoSQL, de uma API de terceiros via endpoint rest, ou até mesmo da memória do seu computador. E também de todos esses juntos, para o SQL não faz diferença, isso não é o ponto principal dele.
 
