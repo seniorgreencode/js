@@ -325,7 +325,13 @@ https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 
 O **GraphQL** é uma especificação para criar e usar APIs que têm sua própria linguagem de query. O que isso significa então? É que às vezes o Graphql é entendido ou é percebido como sendo uma tecnologia voltada para bancos de dados, ele não é. Ele é uma especificação para APIs, para escrever, criar e utilizar APIs e não está ligado a nenhum tipo de banco, inclusive ele pode ser usado com qualquer base de dados, ou mesmo nenhuma base de dados.
 
-> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis.
+> O **GraphQL** é uma ferramenta para construirmos de forma ágil APIs que são rápidas e versáteis. 
+
+> O GraphQL é uma linguagem de queries para manipular dados em APIs e não está vinculada a nenhum banco de dados ou linguagem de programação específica. Não importa se os dados vêm de objetos, de tabelas diferentes, de vários endpoints de uma API. A ideia é que o cliente consiga receber os dados da melhor forma possível.
+
+> GraphQL é uma especificação pensada na forma como clientes utilizarão os dados, não de que forma estão gravados nem de onde vêm. Não importa se os dados vêm de objetos, de tabelas diferentes, de vários endpoints de uma API. A ideia é que o cliente consiga receber os dados da melhor forma possível.
+
+> O uso de GraphQL agiliza o desenvolvimento de novas features de um produto. O back-end não precisa desenvolver novos endpoints para cada nova funcionalidade, ao contrário do REST. Isso torna o desenvolvimento de produtos mais ágil.
 
 O Graphql fornece um ambiente para executarmos essas queries usando os dados que fornecermos para ele, não importa de onde esses dados venham. Eles podem vir de um banco SQL, de um banco NoSQL, de uma API de terceiros via endpoint rest, ou até mesmo da memória do seu computador. E também de todos esses juntos, para o SQL não faz diferença, isso não é o ponto principal dele.
 
@@ -548,3 +554,40 @@ As propriedades que no GraphQL são chamadas de **campos** retornam **tipos scal
 > Note que na definição do objeto não está especificado de qual base de dados virão esses dados, apenas quais dados o GraphQL espera receber, e de que tipos.
 
 Os campos marcados com exclamação `!` são campos que não podem ser nulos. Ou seja, qualquer query que envolva estes campos sempre devem ter algum valor do tipo esperado. No caso de colecoes: `[Colecao!]!` a exclamação após o fechamento da array significa que o campo colecoes sempre vai receber uma array (tendo ou não elementos dentro dela); a exclamação em `Colecao!` significa que qualquer elemento dentro da array sempre vai ser um objeto `Colecao`.
+
+### GraphQL - QUERY TYPE
+Os **tipos Query** definem os pontos de entrada (entry points) da API; indicam quais dados o cliente pode receber e de que forma, de certa forma, são como queries do tipo `GET` quando trabalhamos com REST, a diferença aqui é que o cliente tem mais liberdade para montar as queries para receber apenas os dados que precisa lembrando que, para o GraphQL e também para o cliente, não importa a origem desses dados. os dados podem vir de diversas fontes: endpoints REST, bancos SQL e NoSQL, outro servidor GraphQL.
+
+Um exemplo de tipo Query:
+
+```javascript
+type Query {
+    livros: [Livro!]!
+    livro(id: ID!): Livro!
+}
+```
+
+Aqui definimos a query `livros`, que retorna uma array composta por **tipos objeto** `Livro`, e a **query** `livro`, que recebe um número de `ID` por parâmetro e retorna um **objeto** `Livro` referente ao `ID` informado.
+
+Uma vez que as queries são os pontos de entrada de uma API GraphQL, toda aplicação vai ter pelo menos uma Query em seu schema.
+
+### GraphQL - MUTATION TYPE
+**Mutations** são os tipos GraphQL utilizados para adicionar, alterar e deletar dados, de forma similar às operações de `POST`, `PUT` e `DELETE` nos CRUDs desenvolvidos em REST.
+
+Os **tipos Query** são obrigatórios em qualquer serviço GraphQL, porém Mutations são opcionais. Um exemplo de tipo Mutation para adicionar um novo livro:
+
+```javascript
+type Mutation {
+    adicionaLivro(titulo: String!, autoria: String!, paginas: Int!, colecoes: Colecao!): Livro!
+}
+```
+
+Neste exemplo, temos somente uma **Mutation**, que chamamos de `adicionaLivro` e recebe por parâmetro os dados necessários. Confira os parâmetros com o tipo `Livro` definido anteriormente!
+
+Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
+
+- Enum,
+- Input,
+- Interface,
+- Union.
+
