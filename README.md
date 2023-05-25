@@ -516,13 +516,31 @@ Para entender como essa linguagem funciona, sempre temos que ter em mente que o 
 ### GraphQL - SCALAR TYPES
 São tipos que refletem alguns dos tipos de dados que já conhecemos. Para o GraphQL, são os tipos que se resolvem em dados concretos (ao contrário de objetos, por exemplo, que são conjuntos de dados). São eles:
 
-`Int` - inteiro de 32 bits
-`Float` - tipo ponto flutuante
-`String` - sequência de caracteres no formato `UTF-8`
-`Boolean` - `true` ou `false`
-`ID` - identificador único, usado normalmente para localizar dados. É possível criar tipos scalar customizados, estudaremos mais adiante.
+- `Int` - inteiro de 32 bits
+- `Float` - tipo ponto flutuante
+- `String` - sequência de caracteres no formato `UTF-8`
+- `Boolean` - `true` ou `false`
+- `ID` - identificador único, usado normalmente para localizar dados. É possível criar tipos scalar customizados, estudaremos mais adiante.
 
 ### GraphQL - OBJECT TYPE
 Quando trabalhamos com GraphQL, o ideal é pensarmos no uso dos dados, mais do que na forma em que estão armazenados. Pensando nisso, nem sempre queremos retornar um dado concreto, mas sim um conjunto de dados com propriedades específicas — ou seja, um objeto.
 
 Um exemplo de tipo Objeto (Object type) em GraphQL:
+
+```javascript
+type Livro {
+    id: ID!
+    titulo: String!
+    autoria: String!
+    paginas: Int!
+    colecoes: [Colecao!]!
+}
+```
+
+No exemplo acima, estamos definindo o **tipo Objeto** `Livro`.
+
+As propriedades que no GraphQL são chamadas de **campos** retornam **tipos scalar**, como `strings` e `inteiros`, e também podem retornar arrays compostas de outros objetos, como no caso de colecoes: `[Colecao!]!`.
+
+> Note que na definição do objeto não está especificado de qual base de dados virão esses dados, apenas quais dados o GraphQL espera receber, e de que tipos.
+
+Os campos marcados com exclamação `!` são campos que não podem ser nulos. Ou seja, qualquer query que envolva estes campos sempre devem ter algum valor do tipo esperado. No caso de colecoes: `[Colecao!]!` a exclamação após o fechamento da array significa que o campo colecoes sempre vai receber uma array (tendo ou não elementos dentro dela); a exclamação em `Colecao!` significa que qualquer elemento dentro da array sempre vai ser um objeto `Colecao`.
