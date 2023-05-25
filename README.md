@@ -430,15 +430,16 @@ Mais outro objeto, com **nome** `Marcia` e **ativo** `false`. Como o Graphql nã
 
 Se pensarmos, como fazemos para definir uma query baseada nesses dados, quero fazer uma query que pegue usuários de uma base de dados, como vimos nos slides anteriores. Para isso precisamos definir um schema do Graphql. O **schema** é o centro, o core de qualquer servidor Graphql, porque ele define o que pode ser feito no servidor, o que dá para acessar e de que forma.
 
-O schema então é composto por tipos, por `types`. Vamos usar a linguagem própria do Graphql para escrever esse schema aqui mesmo no nosso arquivo index, e dentro dele um tipo. 
+O **schema** então é composto por tipos, por `types`. Vamos usar a linguagem própria do Graphql para escrever esse schema aqui mesmo no nosso arquivo index, e dentro dele um tipo. 
 
-> Como faríamos para escrever baseado na nossa `const users`, criar um objeto?
+> Como faríamos para escrever baseado na nossa `const users`, criar um objeto.
 
 [![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 const { ApolloServer } = require('apollo-server')
 
+// Objeto
 const users = [
     {
         nome: "Ana",
@@ -450,6 +451,7 @@ const users = [
     }
 ]
 
+// Schema
 type User {
   nome: String!
   ativo: Boolean!
@@ -474,6 +476,7 @@ Para isso vamos lá no `ApolloServer()`, na primeira linha onde importamos e vam
 ```javascript
 const { ApolloServer, gql } = require('apollo-server')
 
+// Objeto
 const users = [
     {
         nome: "Ana",
@@ -485,7 +488,7 @@ const users = [
     }
 ]
 
-// primeiro tipo
+// Primeiro tipo
 const typeDefs = gql ` 
   type User {
     nome: String!
@@ -494,6 +497,7 @@ const typeDefs = gql `
   }
 `
 
+// Schema
 type User {
   nome: String!
   ativo: Boolean!
