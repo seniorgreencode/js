@@ -485,6 +485,14 @@ const users = [
     }
 ]
 
+const typeDefs = gql `
+  type User {
+    nome: String!
+    ativo: Boolean!
+    email: String
+  }
+`
+
 type User {
   nome: String!
   ativo: Boolean!
@@ -494,7 +502,7 @@ type User {
 const server = new ApolloServer({ typeDefs, resolvers })
 ```
 
-Vai ser igual `gql` e vou abrir duas crases, as mesmas crases que usamos para criar templates, strings no JavaScript, e entre essas crases vou passar meu `type User`. Agora acabamos de criar nosso primeiro tipo e nossa const `typeDefs` está aguardando o esquema de Graphql que vamos usar nesse nosso servidor que vamos subir daqui a pouco.
+Vai ser igual `gql` e vou abrir duas crases, as mesmas crases que usamos para criar templates strings no JavaScript, e entre essas crases vou passar meu `type User`. Agora acabamos de criar nosso primeiro tipo e nossa const `typeDefs` está aguardando o esquema de Graphql que vamos usar nesse nosso servidor que vamos subir daqui a pouco.
 
 É importante trabalharmos com essa linguagem SDL, essa linguagem específica do Graphql, porque como o Graphql trabalha com várias linguagens de backend, como por exemplo Python, Node, JavaScript, usar essa linguagem dele garante uma padronização nos esquemas, por isso escrevemos os schemas usando essa linguagem própria do Graphql.
 
