@@ -1,4 +1,4 @@
-<a href="https://github.com/IsaacAlves7/js/tree/node.js"><img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36" title="Site do Node.js"/></a>
+<a href="https://github.com/IsaacAlves7/js/tree/node.js"><img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36"></a>
 
 #  It's a repository of Node.js development ⬢
 
