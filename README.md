@@ -485,7 +485,8 @@ const users = [
     }
 ]
 
-const typeDefs = gql `
+// primeiro tipo
+const typeDefs = gql ` 
   type User {
     nome: String!
     ativo: Boolean!
@@ -504,6 +505,24 @@ const server = new ApolloServer({ typeDefs, resolvers })
 
 Vai ser igual `gql` e vou abrir duas crases, as mesmas crases que usamos para criar templates strings no JavaScript, e entre essas crases vou passar meu `type User`. Agora acabamos de criar nosso primeiro tipo e nossa const `typeDefs` está aguardando o esquema de Graphql que vamos usar nesse nosso servidor que vamos subir daqui a pouco.
 
-É importante trabalharmos com essa linguagem SDL, essa linguagem específica do Graphql, porque como o Graphql trabalha com várias linguagens de backend, como por exemplo Python, Node, JavaScript, usar essa linguagem dele garante uma padronização nos esquemas, por isso escrevemos os schemas usando essa linguagem própria do Graphql.
+> É importante trabalharmos com essa linguagem SDL, essa linguagem específica do Graphql, porque como o Graphql trabalha com várias linguagens de backend, como por exemplo Python, Node, JavaScript, usar essa linguagem dele garante uma padronização nos esquemas, por isso escrevemos os schemas usando essa linguagem própria do Graphql.
 
 Acabamos de criar nosso primeiro tipo, ainda vamos criar vários tipos, vamos falar bastante deles, então vamos em frente continuando para subirmos nosso primeiro servidor Graphql com Apollo.
+
+Então, como falamos anteriormente, o GraphQL tem sua própria linguagem, chamada de SDL, ou Schema Definition Language, linguagem de definição de schema. Isso porque é possível implementar o GraphQL em conjunto com qualquer outra linguagem, então a SDL serve para fazer essa integração de forma agnóstica.
+
+Para entender como essa linguagem funciona, sempre temos que ter em mente que o GraphQL trabalha com tipos, e saber quais tipos são esses.
+
+### GraphQL - SCALAR TYPES
+São tipos que refletem alguns dos tipos de dados que já conhecemos. Para o GraphQL, são os tipos que se resolvem em dados concretos (ao contrário de objetos, por exemplo, que são conjuntos de dados). São eles:
+
+`Int` - inteiro de 32 bits
+`Float` - tipo ponto flutuante
+`String` - sequência de caracteres no formato `UTF-8`
+`Boolean` - `true` ou `false`
+`ID` - identificador único, usado normalmente para localizar dados. É possível criar tipos scalar customizados, estudaremos mais adiante.
+
+### GraphQL - OBJECT TYPE
+Quando trabalhamos com GraphQL, o ideal é pensarmos no uso dos dados, mais do que na forma em que estão armazenados. Pensando nisso, nem sempre queremos retornar um dado concreto, mas sim um conjunto de dados com propriedades específicas — ou seja, um objeto.
+
+Um exemplo de tipo Objeto (Object type) em GraphQL:
