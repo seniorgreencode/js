@@ -430,11 +430,38 @@ Mais outro objeto, com **nome** `Marcia` e **ativo** `false`. Como o Graphql nã
 
 Se pensarmos, como fazemos para definir uma query baseada nesses dados, quero fazer uma query que pegue usuários de uma base de dados, como vimos nos slides anteriores. Para isso precisamos definir um schema do Graphql. O **schema** é o centro, o core de qualquer servidor Graphql, porque ele define o que pode ser feito no servidor, o que dá para acessar e de que forma.
 
-O schema então é composto por tipos, por `types`. Vamos usar a linguagem própria do Graphql para escrever esse schema aqui mesmo no nosso arquivo index, e dentro dele um tipo. Como faríamos para escrever baseado na nossa `const users`, criar um objeto?
+O schema então é composto por tipos, por `types`. Vamos usar a linguagem própria do Graphql para escrever esse schema aqui mesmo no nosso arquivo index, e dentro dele um tipo. 
 
-Ele vai chamar `type`, porque vamos criar o primeiro tipo da nossa definição de tipos que vai entrar no servidor do `ApolloServer()`. Vai ser um tipo `User`, com letra maiúscula, como é padrão do Graphql.
+> Como faríamos para escrever baseado na nossa `const users`, criar um objeto?
 
-Esse tipo `User` que estou criando agora vai ter três campos. O primeiro vai ser nome, como está lá em cima. Nome é um campo do tipo `String`, com letra maiúscula, como é definido pelo Graphql, e uma exclamação. Exclamação significa que o campo não pode ser nulo, ele sempre tem que ter algum dado.
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const { ApolloServer } = require('apollo-server')
+
+const users = [
+    {
+        nome: "Ana",
+        ativo: true
+    },
+    {
+        nome: "Marcia",
+        ativo: false
+    }
+]
+
+type User {
+  nome: String!
+  ativo: Boolean!
+  email: String
+}
+
+const server = new ApolloServer({ typeDefs, resolvers })
+```
+
+Ele vai chamar `type`, porque vamos criar o primeiro tipo da nossa definição de tipos `({ typeDefs })` que vai entrar no servidor do `ApolloServer()`. Vai ser um tipo `User`, com letra maiúscula, como é padrão do Graphql.
+
+> Esse tipo `User` que estou criando agora vai ter três campos. O primeiro vai ser nome, como está lá em cima. Nome é um campo do tipo `String`, com letra maiúscula, como é definido pelo Graphql, e uma exclamação `!`. A exclamação significa que o campo não pode ser nulo, ele sempre tem que ter algum dado.
 
 Ele vai ter também ativo, que vai ser um campo do tipo booleano, que também vai ser obrigatório, também vai ter exclamação, e vou colocar um terceiro campo, que vai ser o campo do tipo e-mail, e vai ser um campo do tipo string que não vai ser obrigatório, não vai ter exclamação. Ele pode ser nulo.
 
