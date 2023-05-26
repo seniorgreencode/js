@@ -161,7 +161,7 @@ Tanto o NPM quanto o YARN cumprem a mesma função: gerenciar a instalação de 
 > **Atenção**: O importante na escolha do gerenciador é usar apenas um deles no projeto. Isso evita comportamentos inadequados e/ou até mesmo falhas e conflitos de dependências. Ao longo deste estudo, utilizaremos o NPM.
 
 ## Hello, World - Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="177" title="Site do Node.js"/></a></div><br \>
+<a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="177" align="right"/></a>
 
 Crie uma pasta e lá crie o script `App.js` e escreva o seguinte comando:
 
@@ -194,7 +194,6 @@ if(mostrarSite){ // Se mostrarSite
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
 ## Express
-<!-- <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" height="177" align="right"/></a> -->
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="177" align="right"/></a>
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
