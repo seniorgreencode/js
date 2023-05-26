@@ -224,12 +224,7 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 
 O **Adonis.js** é um dos frameworks Node.js mais populares e utilizados pela comunidade, ele traz inúmeras possibilidades no desenvolvimento de APIs e permite que tenhamos as melhores práticas de desenvolvimento web back-end.
 
-## Desenvolvimento back-end com Node.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs.svg" height="197" title="Site do Node.js"/></a></div><br \>
-
-O **Node.js** é uma ferramenta para a execução de uma variedade de ambientes com JavaScript (JS). JavaScript had humble beginnings as a language that lived only in web browsers, but the Node.js project has expanded its reach and helped make it the most popular programming language in the world. Node.js extends the creative potential of people with web development experience, enabling a new generation of developers to create servers, command-line tools, desktop apps, and even robots.
-
-```
+```sh
 npm install express
 node index.js
 ```
