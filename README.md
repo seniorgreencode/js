@@ -204,8 +204,8 @@ Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printa
 npm install express
 ```
 
-# 🔲 Socket.io
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="270" title="Site do Node.js"/></a></div><br \>
+## Socket.io
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
 
