@@ -580,7 +580,7 @@ Escreva tarefas individuais e focadas e componha-as em operações maiores, forn
 # 🐙 Testing Library
 <img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
 
-O Testing Library é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
+O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
 
 # 🃏 Jest
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
