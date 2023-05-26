@@ -486,6 +486,11 @@ O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado,
 - Um comando de compilação que agrupa seu código com Rollup, pré-configurado para produzir ativos estáticos altamente otimizados para produção.
 
 Além disso, o Vite é altamente extensível por meio de sua API de plug-in e API de JavaScript com suporte de digitação completo.
+  
+## Meteor.js
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+O Meteor.js é uma plataforma de código aberto para criar e implantar aplicativos Web, móveis e de desktop em Javascript ou TypeScript. O Meteor, ou MeteorJS, é um framework web JavaScript isomórfico parcialmente proprietário, principalmente livre e de código aberto, escrito usando Node.js. O Meteor permite a prototipagem rápida e produz código multiplataforma.
 
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
