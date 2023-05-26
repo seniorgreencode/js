@@ -1,7 +1,3 @@
-<a href="https://github.com/IsaacAlves7/js/tree/node.js">
-  <img src="https://github.com/IsaacAlves7/js/assets/61624336/ba4601b6-4c36-4b21-a4ab-acfd4ea58b36">
-</a>
-
 #  It's a repository of Node.js development ⬢
 
 > ⬢ **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.).
