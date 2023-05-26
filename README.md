@@ -541,7 +541,7 @@ Quando trabalhamos com GraphQL, o ideal é pensarmos no uso dos dados, mais do q
 
 Um exemplo de tipo Objeto (Object type) em GraphQL:
 
-```javascript
+```gql
 type Livro {
     id: ID!
     titulo: String!
@@ -564,7 +564,7 @@ Os **tipos Query** definem os pontos de entrada (entry points) da API; indicam q
 
 Um exemplo de tipo Query:
 
-```javascript
+```gql
 type Query {
     livros: [Livro!]!
     livro(id: ID!): Livro!
@@ -580,7 +580,7 @@ Uma vez que as queries são os pontos de entrada de uma API GraphQL, toda aplica
 
 Os **tipos Query** são obrigatórios em qualquer serviço GraphQL, porém Mutations são opcionais. Um exemplo de tipo Mutation para adicionar um novo livro:
 
-```javascript
+```gql
 type Mutation {
     adicionaLivro(titulo: String!, autoria: String!, paginas: Int!, colecoes: Colecao!): Livro!
 }
