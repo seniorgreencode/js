@@ -212,10 +212,10 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 - https://www.igniterealtime.org/downloads/#spark
 - https://pusher.com/
 
-# 🟥 Meteor.js
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="277" title="Site do Node.js"/></a></div><br \>
+<!-- ## Meteor.js
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="177" title="Site do Node.js" align="right"/></a> -->
 
-# 🟪 Adonis.js
+## Adonis.js
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/adonisjs/adonisjs-ar21.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 O **Adonis.js** é um dos frameworks Node.js mais populares e utilizados pela comunidade, ele traz inúmeras possibilidades no desenvolvimento de APIs e permite que tenhamos as melhores práticas de desenvolvimento web back-end.
