@@ -123,23 +123,24 @@ npm init
 <img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
 
-#### Listando todos os pacotes instalados pelo NPM (local)
+### Listando todos os pacotes instalados pelo NPM (local)
+
 [![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
 
 ```sh
 npm list -g --depth=0
 ```
 
-#### Atualizando o NPM para a versão mais recente
+### Atualizando o NPM para a versão mais recente
 ```sh
 sudo npm install npm -g
 ```
 
-#### Removendo/ Desinstalando um pacote do NPM (local)
+### Removendo/ Desinstalando um pacote do NPM (local)
 ```
 npm -g uninstall <nome do pacote>
 ```
-#### NPM Save
+### NPM Save
 ```
 npm install <pacote> --save
 ```
@@ -192,21 +193,24 @@ if(mostrarSite){ // Se mostrarSite
 
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
-# Express
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" height="270" title="Site do Node.js"/></a></div><br \>
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="270" title="Site do Node.js"/></a></div><br \>
+## Express
+<!-- <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" height="177" align="right"/></a> -->
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="177" align="right"/></a>
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```npm
 npm install express
 ```
 
+<!-- 
 ## Socket.io
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="177" title="Site do Node.js" align="right"/></a>
 
 The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
 
 - https://www.igniterealtime.org/downloads/#spark
-- https://pusher.com/
+- https://pusher.com/ -->
 
 <!-- ## Meteor.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="177" title="Site do Node.js" align="right"/></a> -->
