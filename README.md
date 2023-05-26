@@ -124,10 +124,6 @@ npm init
 
 
 #### Listando todos os pacotes instalados pelo NPM (local)
-```sh
-npm list -g
-```
-
 [![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
 
 ```sh
