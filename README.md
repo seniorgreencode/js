@@ -1026,9 +1026,10 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
   </tr>
 </table>
 
-# 📜 Dicionários em JS
+# 📜 [JS] Dicionários
 <img src="https://getflywheel.com/layout/wp-content/uploads/2019/02/The_Best_Java_Script_Libraries_1800x500-1-1280x356.jpg"/>
-<p>Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:</p>
+
+Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
@@ -1038,7 +1039,7 @@ Também funcionam com arrays, dessa forma `[{ }]`:
 **Exemplo 2**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
-# 📜 Funções em JS
+# 📜 [JS] Funções
 <img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
 
 São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
@@ -1054,20 +1055,20 @@ Note que para fazer a função executar, você precisa chama-la com os parêntes
 **Exemplo 3**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
-<p>O <code>return</code> devolve um valor para a função.</p>
+O <code>return</code> devolve um valor para a função.
 
-## Exemplo 4:
+**Exemplo 4**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
 
 <blockquote><b>Curiosidade:</b> Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
 
-## Exemplo 5:
+**Exemplo 5**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
 
-## Exemplo 6:
+**Exemplo 6**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
-## Exemplo 7:
+**Exemplo 7**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107418551-91c3eb80-6af5-11eb-9635-fbebf2f958b0.jpg)
 
 ## Arrow Function
@@ -1136,7 +1137,7 @@ log('test');
 
 > **Obs**: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
-# 📜 Procedural/Imperativo JavaScript
+# 📜 [JS] Procedural/Imperativo JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a <b>procedural</b>. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
@@ -1144,7 +1145,7 @@ Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
 
-# 📜 JavaScript OOP
+# 📜 [JS] JavaScript OOP
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="177"/>
 
 Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são
@@ -1204,7 +1205,7 @@ Nota-se que o <code>Object.prototype</code> é o único que não tem duas conex�
 
 Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.
 
-# 📜 Eventos
+# 📜 [JS] Eventos
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg"/></div>
 <p>São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa.</p>
 <p>Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A <b>associação</b> é realizada em HTML nos
@@ -1217,35 +1218,7 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103591717-a9dd9500-4ecf-11eb-855a-fb88ffcd7f4b.jpg)
 ![Sem Título-12e2](https://user-images.githubusercontent.com/61624336/103591719-aa762b80-4ecf-11eb-822f-fcd9114180c2.jpg)
 
-## JS Modulos
-
-# 📜 [ES6] Promises [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
-<a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="177" title="Read the Blog" align="right"></a>
-
-As **Promises** são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
-
-Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas. Elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam callbacks.
-
-As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
-
-## Código Síncrono
-<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
-
-Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
-
-De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
-
-**Uso de código assíncrono**:
-- Requests HTTP
-- Leitura de arquivos
-- Acesso a serviço externo
-- I/O
-
-<img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right" height="177">
-
-No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
-
-## Fetch
+# 📜 [JS] Modulos
 
 # 📜 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
@@ -1261,9 +1234,9 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 <img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg" align="right" height="177">
 
 # ES6 - ECMAScript 6 (2015)
-<div align="center"><img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177"></div><br \>
+<img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
 
-# 📜 [Advanced ES6] Default Function Arguments
+# 📜 [ES6] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 **Exemplo 1**:
@@ -1292,7 +1265,7 @@ A característica que permite podermos utilizar funções para definir valores d
 **Exemplo 6**:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-# Enhanced Object Literals
+# [ES6] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 **Exemplo 1**:
@@ -1316,8 +1289,8 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 ## Exemplo 7:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
-# 📜 Rest, Spread Operator e destructing
-<p>Observe a função abaixo:</p>
+# 📜 [ES6] Rest, Spread Operator e destructing
+Observe a função abaixo:
 
 ### Exemplo 1: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
@@ -1330,8 +1303,7 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
 ## Rest Operator
-<p>Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
-</p>
+Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
@@ -1342,17 +1314,17 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 ### Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
 
-### Exemplo 4:
-<pre>
+**Exemplo 4**:
+```javascript
   function sum(...args) {
     return args.reduce((acc, value) => acc + value, 0);
 }
 
 console.log(sum(5,5,5,2,3));
-</pre>
+```
 
 ### Exemplo 5: Integrar uma função com a outra
-<pre>
+```javascript
 const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
 
 const sum = (...rest) => {
@@ -1360,25 +1332,25 @@ const sum = (...rest) => {
 };
 
 console.log(sum(5,5,5,2,3));
-</pre>
+```
 
 ## Spread Operator
-<p>Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
+Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
 
-A forma de combinar dois arrays utilizando spread operator: <code>[...arr1, ...arr2];</code></p>
+A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
-### Exemplo 2:
+**Exemplo 2**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
-### Exemplo 3:
+**Exemplo 3**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
 
-### Exemplo 4:
+**Exemplo 4**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
 
 ### Exemplo 5: Shallow Clone
@@ -1623,6 +1595,34 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 ### Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
+
+# 📜 [ES6] Promises [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
+<a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="177" title="Read the Blog" align="right"></a>
+
+As **Promises** são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
+
+Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas. Elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam callbacks.
+
+As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
+
+## Código Síncrono
+<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
+
+Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
+
+De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
+
+**Uso de código assíncrono**:
+- Requests HTTP
+- Leitura de arquivos
+- Acesso a serviço externo
+- I/O
+
+<img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right" height="177">
+
+No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
+
+## Fetch
 
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177" align="right">
