@@ -1125,8 +1125,10 @@ Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do 
 tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.</p>
 
 ## Hierarquia de Objetos
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png"/></div>
-<p>Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:</p>
+<img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png" height="177" align="right"/>
+
+Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
+
 <ol>
   <li><code><b>window</b></code>: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.</li>
   <li><code><b>location</b></code>: Contém as propriedades da URL atual.</li>
