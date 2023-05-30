@@ -2,7 +2,7 @@
 
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177" align="right"></a>
 
-O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o **JavaScript puro**. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
+O termo "Vanilla", traduzi📜 como "baunilha", nada mais é do que um sarcasmo para o **JavaScript puro**. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
@@ -781,29 +781,30 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
 </pre>
 
 ### Exemplo 1:
-<p>Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 0 a 9, enquanto (i) é menor do que 10:</p>
+Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 0 a 9, enquanto (i) é menor do que 10:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
 
 ## `Do while`
-<p>Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.</p>
+Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
-### Sintaxe:
-<pre><b>do</b> {
+**Sintaxe**:
+```javascript
+do {
   // bloco de código a ser executado
-}
-<b>while</b> (condição);</pre>
+} while (condição);
+```
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
 ## `Continue` x `break`
-<p>Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o <code>break</code> quebra no final da execução e assim o compilador executa outra etapa do código, já o <code>continue</code> continua até finalizar a execução.</p>
+Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o <code>break</code> quebra no final da execução e assim o compilador executa outra etapa do código, já o <code>continue</code> continua até finalizar a execução.
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
-## Arrays [Vetores]
+## 📜 [JS] Arrays
 <div align="center"><img src="https://miro.medium.com/max/816/0*jJba103A-9xmpTYq.jpg" height="177"/></div><br />
 
 É uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
@@ -929,7 +930,7 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
 </table>
 
-# 📜 Valores em JS
+# 📜 [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177" align="right"/>
 
 Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
@@ -961,7 +962,7 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
   </tr>
 </table>
 
-# 📜 Data e horário em JS
+# 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="177" align="right"/>
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
