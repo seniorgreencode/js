@@ -671,10 +671,11 @@ Variáveis declaradas dentro de um local cercado por `{ }`.
 **Exemplo**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
-## Estrutura condicional
-<img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177"/>
+# 📜 [JS] Estruturas de programação
 
-### O que são condições?
+## Estrutura condicional
+<img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177" align="right"/>
+
 As <b>condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
 
 O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
