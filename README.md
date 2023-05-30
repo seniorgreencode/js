@@ -724,7 +724,7 @@ Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100
   
 E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os <b>laços de repetição</b>.</p>
 
-## `For` loop
+### `For` loop
 <p>Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.</p>
 <ol type="I">
   <li>Normalmente é a criação de uma variável de controle.</li>
@@ -743,25 +743,25 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
 
 <blockquote><b>Utilidade:</b> O <code>for</code> é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.</blockquote>
 
-### Exemplo 2:
+**Exemplo 2**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
 
 <blockquote><b>Utilidade:</b> Podemos ler ou modificar todos os itens de um vetor.</blockquote>
 
-### Exemplo 3:
+**Exemplo 3**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
-## `For in`
+### `For in`
 <p>Este loop serve para percorrer pelas propriedades de um objeto.</p>
 <pre><b>for</b> (variável <b>in</b> interável) {
   // bloco de código a ser executado
 }</pre>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
 <blockquote><b>Output:</b> John Doe 25</blockquote>
 
-## `For of`
+### `For of`
 <p>Este loop é específico para <b>iterar</b> entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.</p>
 
 ### Sintaxe:
@@ -769,30 +769,29 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
   // bloco de código a ser executado 
 }</pre>
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060468-f39cb600-4586-11eb-8827-fb3508208e56.jpg)
 
-### Exemplo 2:
+**Exemplo 2**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060597-758cdf00-4587-11eb-87e4-28aacbe5468a.jpg)
 
-# `While` loop
-<p>Laços de repetição podem executar um bloco de código longo se a condição específica for verdadeira.</p>
-<p>O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.</p>
+### `While` loop
+Laços de repetição podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
-## Sintaxe:
-<pre>
-<b>while</b> (condição) {
+**Sintaxe**:
+```javascript
+while (condição) {
   // Bloco de código a ser executado
   incremento++ / decremento--
 }
-</pre>
+```
 
-### Exemplo 1:
+**Exemplo 1**:
 Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 0 a 9, enquanto (i) é menor do que 10:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
 
-## `Do while`
+### `Do while`
 Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
 **Sintaxe**:
@@ -805,19 +804,19 @@ do {
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
-## `Continue` x `break`
+### `Continue` x `break`
 Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o <code>break</code> quebra no final da execução e assim o compilador executa outra etapa do código, já o <code>continue</code> continua até finalizar a execução.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
-## 📜 [JS] Arrays
+# 📜 [JS] Arrays
 É uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
 
-## <b>Atribuindo valores:</b> Você pode criar um vetor com seus valores separados por vírgula.
+<b>Atribuindo valores:</b> Você pode criar um vetor com seus valores separados por vírgula.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
