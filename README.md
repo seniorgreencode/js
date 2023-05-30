@@ -75,7 +75,7 @@ A partir do arquivo `package.json` e da CLI NPM, é possível instalar todas as 
 Um cenário muito comum é disponibilizar — diretamente ou por meio de um repositório/versionador — apenas os códigos-fonte do aplicativo ao lado do arquivo de configuração. Aliás, essa é a opção indicada, uma vez que os pacotes usados no projeto podem consumir bastante espaço em disco. Com isso, bastará a quem for utilizar nosso código baixar o projeto e executar o comando `npm install` para que todas as dependências sejam instaladas e o aplicativo esteja funcional.
 
 ## YARN - yet another resource negotiator
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177"></div><br />
+<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
 
