@@ -6,7 +6,7 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
-# 📜 `Hello, World!` - JavaScript
+# 📜 [JS] `Hello, World!` - JavaScript
 Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
 
 > <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.
@@ -116,7 +116,7 @@ Outros comandos para serem executados em janela:
 - `window.confirm()` janela ok e cancel;
 - `window.prompt()` janela com textbox e ok.
 
-## Comentários em JavaScript
+## [JS] Comentários em JavaScript
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
@@ -128,7 +128,7 @@ duas ou mais linhas
 */
 ```
 
-# O que são dados?
+# 📜 [JS] O que são dados?
 Tudo o que existe no mundo dos computadores são <b>dados</b>. Os dados podem ser criados, modificados e apagados.
 
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma **variável**.
@@ -216,7 +216,7 @@ print(a); // Imprime o dado
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107866199-d381c880-6e4c-11eb-99a5-5294cb232106.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg)
 
-# Tipos primitivos
+# 📜 [JS] Tipos primitivos
 Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (0 e 1).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
@@ -291,7 +291,7 @@ var txt = 'abcdfghijklmnopqrstuvwxyz'
 console.log(txt.length);
 ```
 
-## Escape de Caracteres
+### Escape de Caracteres
 Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -301,16 +301,16 @@ A solução para resolver esse problema é com o uso de caractere de escape de b
 
 O caractere de escape de barra invertida “\” torna caracteres especiais em caracteres de string:
 
-### `\’` aspas simples
+#### `\’` aspas simples
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102550356-78299900-409c-11eb-975c-9b1b491afdd8.jpg)
 
-### `\"` aspas duplas
+#### `\"` aspas duplas
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102550361-79f35c80-409c-11eb-8b3d-b2864b43aa49.jpg)
 
-### `\\` barras invertidas
+#### `\\` barras invertidas
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102549993-d6a24780-409b-11eb-9814-fffb47e86f0f.jpg)
@@ -365,7 +365,7 @@ Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, poi
 
 ## Informando o tipo do valor primitivo na operação
 
-# O que são operadores?
+# 📜 [JS] O que são operadores?
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
   
 Um exemplo bem simples: `7 + 10`
@@ -436,12 +436,16 @@ Os operadores de Igualdade servem para compararmos se dois valores são iguais o
 
 Usar esses comparadores pode causar alguns problemas, pois eles vão pelo valor, ignorando o tipo do valor. Vamos entender melhor:
 
-Lembra que foi dito que o <b>0</b> tem valor <b>false</b>? Então se compararmos <code>0 == false</code> será retornado <b>true</b>.
-<p>Se tivermos um número 3 e uma String "3", ambos são diferentes, certo? Pois o primeiro é um número e o segundo é um texto.</p>
-<p>Porém, se fizermos a comparação <code>3 == "3"</code>, a String será convertida automaticamente para o tipo Number, e a comparação retornará true.</p>
-<p>Isso pode causar algumas inconsistências em certos casos. Por isso que é muito recomendado sempre fazer comparações com valores do mesmo tipo. Para garantir que estamos fazendo comparações com valores e tipos iguais, acrescentamos um "=" a mais na comparação.</p>
-<p>Isso significa que a comparação <code>3 == "3"</code> retorna true, mas a comparação <code>3 === "3"</code> retorna false, pois "<b>===</b>" também leva em consideração o tipo do valor.</p>
+Lembra que foi dito que o `0` tem valor `false`? Então se compararmos `>0 == false` será retornado `true`.
 
+Se tivermos um número 3 e uma String "3", ambos são diferentes, certo? Pois o primeiro é um número e o segundo é um texto.
+
+Porém, se fizermos a comparação `3 == "3"`, a String será convertida automaticamente para o tipo Number, e a comparação retornará true.
+
+Isso pode causar algumas inconsistências em certos casos. Por isso que é muito recomendado sempre fazer comparações com valores do mesmo tipo. Para garantir que estamos fazendo comparações com valores e tipos iguais, acrescentamos um `=` a mais na comparação.
+
+Isso significa que a comparação `3 == "3"` retorna true, mas a comparação `3 === "3"` retorna false, pois `===` também leva em consideração o tipo do valor.
+  
 > **Dica**: `===` é um operador que é usado para extrema igualdade.
 
 Para ter certeza que algo é diferente, incluindo o tipo, temos o operador `!==`.
