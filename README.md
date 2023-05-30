@@ -104,17 +104,13 @@ alert("Hello, World!");
 
 Dessa forma, é possível diminuir a quantidade de linhas de código no seu arquivo HTML, porém deixa o seu website mais pesado com a quantidade de scripts. 
   
-Próximo passo, execute o documento index.html. Resultado:</p>
+Próximo passo, execute o documento `index.html`. Resultado:
 
-[![Brave](https://img.shields.io/badge/-Console-fff?style=social&logo=Brave&logoColor=orangered)](#)
+> O script funcionou perfeitamente!
 
-<img src="https://user-images.githubusercontent.com/61624336/102268834-8cce2b80-3efa-11eb-9e41-71f1ac458d69.jpg" align="right" height="177">
+Para acessar o console, pressione a tecla <b>F12</b> do seu teclado, você será redirecionado as ferramentas de desenvolvedor do seu navegador, vá até console, lá você poderá fazer alterações ou até programar.
 
-<blockquote>O script funcionou perfeitamente!</blockquote>
-
-<p>Para acessar o console, pressione a tecla <b>F12</b> do seu teclado, você será redirecionado as ferramentas de desenvolvedor do seu navegador, vá até console, lá você poderá fazer alterações ou até programar.
-
-Nesse caso, para exibir resultados ou mensagens no console do navegador utilize o comando <code>console.log()</code>, ele possui uma função semelhante ao <code>alert</code>, porém somente exibe no console, enquanto o <code>alert</code> exibe ao usuário.</p>
+Nesse caso, para exibir resultados ou mensagens no console do navegador utilize o comando <code>console.log()</code>, ele possui uma função semelhante ao <code>alert</code>, porém somente exibe no console, enquanto o <code>alert</code> exibe ao usuário.
 
 [![Brave](https://img.shields.io/badge/-Console-fff?style=social&logo=Brave&logoColor=orangered)](#)
 
