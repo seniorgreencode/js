@@ -41,7 +41,7 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 Para a biblioteca React Native, há ainda outra possibilidade: o **Expo**, um framework que permite a codificação e o teste de aplicativos de forma bastante simples. Embora possua algumas limitações, essa opção é interessante, já que consome menos recursos de hardware em relação às demais opções citadas.
 
 # Expo
-<div align="center"><img src="https://www.svgrepo.com/show/353722/expo.svg" height="177"></div>
+<img src="https://www.svgrepo.com/show/353722/expo.svg" height="177" align="right">
 
 Veremos agora como definir e configurar nosso ambiente de desenvolvimento para podermos programar em React Native. A forma mais simples de se desenvolver nele é mediante a utilização do Expo.
 
@@ -116,13 +116,10 @@ Esse comando irá mostrar as suas dependências instaladas comparando a versão 
 Antes de voltarmos a falar do Expo e de vermos como instalá-lo, precisamos tratar de outro assunto: o **Node.js**. O Node pode ser definido como um ambiente server-side para a execução de códigos escritos utilizando a linguagem JavaScript. Com ele, é possível criar quaisquer tipos de aplicações no back-end utilizando uma linguagem até então restrita ao front-end, desde servidores web, estáticos ou dinâmicos até robustas APIs ou softwares baseados em microsserviços.
 
 > A importância do Node em relação à abordagem de nosso conteúdo se dá pelo fato de ele ser um dos requisitos necessários para criarmos nossas aplicações com o React Native. Afinal, precisamos utilizar o NPM para isso — e ele faz parte ou é instalado com o Node.
-
-## Instalação e configuração do React Native
-<a href="https://reactnative.dev/docs/environment-setup"><img src="https://apiko.com/blog/content/images/2020/04/12-Apps-Using-React-Native-Explaining-Value-and-Popularity.jpg"/></a>
-
-> **Obs**: `ctrl + m ou ⌘ + D` = chacoalhada para o menu. `ctrl + r` = reload the application.
   
 ## Conhecendo os pacotes do React Native (CLI)
+> **Obs**: `ctrl + m ou ⌘ + D` = chacoalhada para o menu. `ctrl + r` = reload the application.
+
 > Desenvolvendo nativamente com o Command Line Interface do React Native.
 
 ### Step 1: Start Metro
