@@ -98,8 +98,7 @@ yarn init
 Esse comando serve para iniciar seu gerenciador de dependencias no arquivo `package.json`.
 
 ```sh
-yarn install \
-yarn run dev
+yarn install && yarn run dev
 ```
 
 Esse comando serve para instalar todas as dependências, após essa etapa irá surgir um arquivo chamado `yarn.lock` contendo todas as dependências instaladas com suas respectivas versões e ao executar o comando abaixo, você executará sua aplicação no modo de desenvolvimento com o Yarn.
@@ -122,13 +121,13 @@ Antes de voltarmos a falar do Expo e de vermos como instalá-lo, precisamos trat
 
 > Desenvolvendo nativamente com o Command Line Interface do React Native.
 
-### Step 1: Start Metro
+**Step 1**: Start Metro
 
 ```sh
 npx react-native start
 ```
 
-### Step 2: Start your application
+**Step 2**: Start your application
 
 ```sh
 cd "/Users/isaacpinheiro/AwesomeProject" && npx react-native run-android && npx react-native run-ios
@@ -150,7 +149,8 @@ Antes de prosseguirmos, temos de fazer algumas observações sobre o comando `np
 
 > **Dica**: Ao utilizar o terminal, observe as questões de permissão em seu sistema operacional. Pode haver a necessidade de executar o terminal ou os comandos com permissões de administrador.
 
-## Teste
+**Teste**:
+
 Após a execução do comando de instalação — e não tendo ocorrido nenhum erro —, já temos a interface cliente do Expo disponível em nosso computador. A partir disso, já poderemos criar nossa primeira aplicação.
 
 Para isso, faça o seguinte:
