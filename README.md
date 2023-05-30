@@ -1167,7 +1167,7 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 
 ### 2° Solução: Num arquivo a ser importado
  
-# 📜 Prototype
+## Prototype
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="177" align="right"/>
 
 Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado <b>prototype</b>. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto <b>constructor</b>. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
@@ -1177,8 +1177,6 @@ Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Ca
 ```javascript
 console.log(document.__proto__);
 ```
-
-## Cadeia de protótipos (Prototype chain)
 <img src="https://www.sdlclabs.com/images/services/PrototypeJs.png" align="right" height="177"/>
 
 Nota-se que o <code>Object.prototype</code> é o único que não tem duas conexões, pois ele faz uma lista dos objetos inseridos. Esse objeto prototype também tem um atributo prototype, e assim por diante até o que o valor <code>null</code> seja encontrado como sendo o seu prototype <code>null</code> que, por definição, não tem prototype, e age como um link final nesta cadeia de protótipos (prototype chain).
