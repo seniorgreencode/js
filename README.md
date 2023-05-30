@@ -65,11 +65,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 
 <table>
   <tr>
-    <td>Estrutura do diretório</td>
-    
-    <td>  [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)  </td>
-    <td>  [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)  </td>
-    
+    <td colspan="3" align="center">Estrutura do diretório</td>
   </tr>
   
 <tr>
