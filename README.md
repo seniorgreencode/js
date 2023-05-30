@@ -725,28 +725,30 @@ Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100
 E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os <b>laços de repetição</b>.</p>
 
 ### `For` loop
-<p>Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.</p>
-<ol type="I">
-  <li>Normalmente é a criação de uma variável de controle.</li>
-  <li>A condição para encerrar o <code>for</code>. Neste caso, ele executará enquanto <b>i</b> for menor do que <b>10</b>, ou seja todos os números antecessores de 10 até 0. Caso essa condição nunca se torne “false”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina!</li>
-  <li>Final de cada repetição. Normalmente é o incremento ou decremento de 1 da variável.</li>
-</ol>
+Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
+
+1. Normalmente é a criação de uma variável de controle.
+
+2. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “false”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina!
+
+3. Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
 
 **Sintaxe**:
-
-<pre><b>for</b> (declaração 1; declaração 2; declaração 3) {
+```javascript
+for (declaração 1; declaração 2; declaração 3) {
   // code block to be executed
-}</pre>
+}
+```
 
 **Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
 
-<blockquote><b>Utilidade:</b> O <code>for</code> é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.</blockquote>
+> **Utilidade**: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
 
 **Exemplo 2**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
 
-<blockquote><b>Utilidade:</b> Podemos ler ou modificar todos os itens de um vetor.</blockquote>
+> **Utilidade**: Podemos ler ou modificar todos os itens de um vetor.
 
 **Exemplo 3**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
@@ -764,7 +766,7 @@ E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples co
 ### `For of`
 <p>Este loop é específico para <b>iterar</b> entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.</p>
 
-### Sintaxe:
+**Sintaxe**:
 <pre><b>for</b> (variável <b>of</b> interável) {
   // bloco de código a ser executado 
 }</pre>
