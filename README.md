@@ -1958,7 +1958,7 @@ A característica que permite podermos utilizar funções para definir valores d
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
 # 📜 [ES6] Rest, Spread Operator e destructing
-<p>Observe a função abaixo:</p>
+Observe a função abaixo:
 
 ### Exemplo 1: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
@@ -1971,8 +1971,7 @@ A característica que permite podermos utilizar funções para definir valores d
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
 ## Rest Operator
-<p>Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
-</p>
+Escreve com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
@@ -1993,7 +1992,7 @@ console.log(sum(5,5,5,2,3));
 ```
 
 ### Exemplo 5: Integrar uma função com a outra
-<pre>
+```javascript
 const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
 
 const sum = (...rest) => {
@@ -2001,14 +2000,14 @@ const sum = (...rest) => {
 };
 
 console.log(sum(5,5,5,2,3));
-</pre>
+```
 
 ## Spread Operator
-<p>Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
+Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
 
-A forma de combinar dois arrays utilizando spread operator: <code>[...arr1, ...arr2];</code></p>
+A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
 ### Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
@@ -2068,7 +2067,7 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 # 📜 [ES6] Generators
 
 ## Symbols
-<p>Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.</p>
+Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.
 
 ### Exemplo 1:
 O valor do Symbol não é texto, uma String, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
@@ -2126,7 +2125,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 # 📜 Aplicando conceitos Promises e Fetch
 
 # 🔃 AJAX (Asynchronous JavaScript And XML)
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="177" align="right">
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
 
