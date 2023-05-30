@@ -496,7 +496,8 @@ Como vimos antes, esse operador serve para negação. Ele inverte os valores do 
 ```
 
 ### Operador Unário `typeof`
-<p>Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.</p>
+Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.
+
 <pre>typeof 3</pre>
 
 ## Operador Ternário
@@ -512,15 +513,23 @@ Se a resposta for falsa, o terceiro elemento que passamos será retornado, no ca
 
 ## Conversão automática de tipos
 No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.
+
 Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "ABC". Mesmo que ele escreva apenas números, receberemos uma String, como "21".
 Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a String em Number.
-<p>Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. Precisaremos converter esse número para String para podermos concatená-lo com nosso texto.</p>
-<p>Em muitas linguagens de programação, essa conversão deve ser feita manualmente. O JavaScript faz conversões automaticamente. Isso pode deixá-lo mais dinâmico, mas se não for usado com cuidado pode causar muitos problemas e falhas de lógica, causando resultados inesperados.</p>
+
+Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. Precisaremos converter esse número para String para podermos concatená-lo com nosso texto.
+
+Em muitas linguagens de programação, essa conversão deve ser feita manualmente. O JavaScript faz conversões automaticamente. Isso pode deixá-lo mais dinâmico, mas se não for usado com cuidado pode causar muitos problemas e falhas de lógica, causando resultados inesperados.
+
 <pre>"5" – 1</pre>
-<p>Estamos subtraindo 1 de uma String. O JavaScript automaticamente tenta converter a String para o tipo Number para fazer a operação de subtração, resultando em 4.</p>
+
+Estamos subtraindo 1 de uma String. O JavaScript automaticamente tenta converter a String para o tipo Number para fazer a operação de subtração, resultando em 4.
+
 <pre>"5" + 1</pre>
-<p>Aqui ele verá a operação como uma concatenação de Strings. Então o 1 será convertido para String, resultando em "51".</p>
-<p>Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.</p>
+
+Aqui ele verá a operação como uma concatenação de Strings. Então o 1 será convertido para String, resultando em "51".
+
+Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.
 
 ## O que são expressões?
 Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de "5 + 3" que produz o valor "8".
@@ -528,7 +537,7 @@ Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragm
 Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.
 Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
 
-## Variáveis no JavaScript
+# 📜 [JS] Variáveis
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177" align="right">
 
 Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos. Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor.
