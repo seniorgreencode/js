@@ -638,9 +638,9 @@ Executando o documento percebe-se que há um textbox que dá pra inserir o valor
 > Logo, a variável receberá o seu valor.
 
 ## Escopo do código no JavaScript
-<div align="center"><img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177"/></div></br>
+<img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177" align="right"/>
 
-<p>É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:</p>
+É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
 
 ### Escopo Global
 Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
@@ -666,20 +666,19 @@ Variáveis declaradas dentro de um local cercado por `{ }`.
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177"/>
 
 ### O que são condições?
-<p><b>Condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
+As <b>condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
 
 O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
 Um exemplo é o Operador Ternário Condicional que vimos anteriormente.
-</p>
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103034640-18bc0500-4544-11eb-8c4d-f3914652f0d4.jpg)
 
 <blockquote>retorna a String "É menor"</blockquote>
 
-<p>Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando <code>if</code>. 
+Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando <code>if</code>. 
   
-Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>else</code>. Se precisar de mais decisões utilize o <code>else if</code> que é mais indicado do que somente <code>if</code> e o <code>else</code> no escopo, pois eles podem gerar conflito no código!</p>
+Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>else</code>. Se precisar de mais decisões utilize o <code>else if</code> que é mais indicado do que somente <code>if</code> e o <code>else</code> no escopo, pois eles podem gerar conflito no código!
 
 ### Exemplo 1:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
