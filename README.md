@@ -511,7 +511,7 @@ Podemos aninhar expressões para gerar códigos mais complexos, assim como podem
 Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
 
 ## Variáveis no JavaScript
-<div align="center"><img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177"></div>
+<img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177" align="right">
 
 Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos. Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor.
 
