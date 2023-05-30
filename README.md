@@ -155,13 +155,12 @@ Veja a linha de baixo, a qual tem valores 128, 64, 32, etc. Tudo é lido da dire
   
 Na computação, todas as contagens começam no 0, e não no 1.
 
-<ul>
-  <li>2 elevado a 0 é igual a 1;</li>
-  <li>2 elevado a 1 é igual a 2;</li>
-  <li>2 elevado a 2 é igual a 4;</li>
-  <li>etc...</li>
-</ul>
-<p>E com isso nós vamos obtendo os valores da linha de baixo, de 1 a 128.
+- 2 elevado a 0 é igual a 1;
+- 2 elevado a 1 é igual a 2;
+- 2 elevado a 2 é igual a 4;
+- etc...
+
+E com isso nós vamos obtendo os valores da linha de baixo, de 1 a 128.
   
 Lembra que esses bits podem ter o valor 1 e 0 como se fosse um interruptor de liga e desliga? Repare então na linha de cima, onde temos apenas 0 e 1. Os 0 são o "desligado", e o 1, "ligado".
 
@@ -172,12 +171,12 @@ Isso significa que a sequência 00001101 equivale ao valor 13 em binário. É de
 Mas isso é só uma curiosidade. Com JavaScript e outras linguagens modernas você não precisará se preocupar com o sistema binário.
 As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simples comando, fazem operações mais complexas.</p>
 
-<blockquote><b>👍 Dica:</b> Curiosidade: 128+64+32+16+8+4+2+1 = 255. E se tivermos todos os campos "desligados", teremos o valor 0, o que nos dá um total de 256 possíveis valores. Você já deve ter visto esse número por aí no mundo da informática, não é mesmo? Como os antigos pendrives de 256MB, 512MB e 1024MB que é igual a 1GB.</blockquote>
+> **Curiosidade**: `128+64+32+16+8+4+2+1 = 255`. E se tivermos todos os campos "desligados", teremos o valor 0, o que nos dá um total de 256 possíveis valores. Você já deve ter visto esse número por aí no mundo da informática, não é mesmo? Como os antigos pendrives de 256MB, 512MB e 1024MB que é igual a 1GB.</blockquote>
 
-<blockquote><b>👍 Dica:</b> Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.</blockquote>
+> **Dica**: Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.
 
 ## `STDIN` e `STDOUT`
-<p>Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
   
 ### JavaScript
 
