@@ -65,18 +65,13 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 
 <table>
   <tr>
-    <td>Estrutura</td>
-    <td>
-      
-      [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
-      
-    </td>
-    <td>
-      
-      [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-      
-    </td>
+    <td>Estrutura do diretório</td>
+    
+    <td>  [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)  </td>
+    <td>  [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)  </td>
+    
   </tr>
+  
 <tr>
 <td>
 <pre>
@@ -112,6 +107,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 ```javascript
 alert("Hello, World!");
 ```
+  
 </td>
 </tr>
 </table>
