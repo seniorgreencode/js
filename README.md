@@ -1149,18 +1149,21 @@ Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguin
   <li><code><b>document</b></code>: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.</li>
 </ol>
 
-<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="177"/>
+<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
 
 Cada objeto existente na manipulação do JavaScript possuem <b>propriedades</b> (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
 
 A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:</p>
-<pre>nomeObjeto<b>.</b>propriedade</pre>
-<p>Além das propriedades, os objetos podem conter <b>métodos</b> (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.</p>
-<pre>nomeObjeto.método(argumento/ parâmetro)</pre>
-<p>Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.</p>
 
-## Onde escrever um JavaScript?
-<p>Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem!</p>
+<pre>nomeObjeto<b>.</b>propriedade</pre>
+
+Além das propriedades, os objetos podem conter <b>métodos</b> (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.
+  
+<pre>nomeObjeto.método(argumento/ parâmetro)</pre>
+
+Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.
+
+> Onde escrever um JavaScript? Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem! Por meio do DOM e BOM.
 
 ### 1° Solução: Embutido na página HTML
 <ol>
