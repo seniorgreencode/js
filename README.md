@@ -1,4 +1,4 @@
-# 🍦 Vanilla JavaScript <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a>
+# 🍦 Vanilla JavaScript <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a>
 
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="177" align="right"></a>
 
