@@ -1146,8 +1146,10 @@ Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguin
   <li><code><b>history</b></code>: Contém as propriedades das URLs visitadas anteriormente.</li>
   <li><code><b>document</b></code>: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.</li>
 </ol>
-<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png"/>
-<p>Cada objeto existente na manipulação do JavaScript possuem <b>propriedades</b> (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
+
+<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="177"/>
+
+Cada objeto existente na manipulação do JavaScript possuem <b>propriedades</b> (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
 
 A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:</p>
 <pre>nomeObjeto<b>.</b>propriedade</pre>
