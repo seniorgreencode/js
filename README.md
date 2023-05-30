@@ -911,7 +911,7 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
 </table>
 
 # 📜 Valores em JS
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177"/></div><br />
+<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177" align="right"/>
 
 Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
   
