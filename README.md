@@ -237,11 +237,11 @@ O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com m
 - `Symbol` - armazena símbolos.
 
 ### `Boolean`
-<p><b>Boolean</b> (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
+<b>Boolean</b> (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
 Assim como os bits, eles também só armazenam 2 possíveis valores: <b>true</b> ou <b>false</b> (verdadeiro ou falso).
 
-Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.</p>
+Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
 ### `Undefined` e `Null`
 Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
@@ -256,13 +256,12 @@ Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é q
 O tipo number é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas <b>no JavaScript tudo é Number</b>.
-<ul>
-  <li>Número inteiro (int): 5</li>
-<li>Número flutuante (float): 5.3157</li>
-<li>Para números muito grandes, podemos usar a notação científica, adicionando um "e" seguido pelo expoente do número.
-  2.998e8</li>
-  <li>Isso é o mesmo que 2,998 x 10^8, que é igual a 299.800.000</li>
-</ul>
+
+- Número inteiro (int): 5
+- Número flutuante (float): 5.3157
+- Para números muito grandes, podemos usar a notação científica, adicionando um "e" seguido pelo expoente do número.
+- 2.998e8
+- Isso é o mesmo que 2,998 x 10^8, que é igual a 299.800.000
 
 ## Números Especiais
 Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
@@ -286,7 +285,7 @@ Porém, se você precisar usar aspas simples em um texto, é mais fácil criar a
 
 Hoje em dia também temos um novo tipo de string, que usa o acento grave (crase) ao invés de aspas. Mais para frente veremos melhor sobre como trabalhar com Strings e a importância desse novo tipo de String.
 
-Para descobrir o tamanho de uma string é usado a propriedade **length**:
+Para descobrir o tamanho de uma string é usado a propriedade `length`:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
@@ -295,17 +294,15 @@ var txt = 'abcdfghijklmnopqrstuvwxyz'
 console.log(txt.length);
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102538561-30e6dc80-408b-11eb-8bae-1a59295efe0e.jpg)
-
 ## Escape de Caracteres
 Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102540262-87edb100-408d-11eb-9018-ff3681325d89.jpg)
 
-<p>A solução para resolver esse problema é com o uso de caractere de escape de barra invertida.
+A solução para resolver esse problema é com o uso de caractere de escape de barra invertida.
 
-O caractere de escape de barra invertida “\” torna caracteres especiais em caracteres de string:</p>
+O caractere de escape de barra invertida “\” torna caracteres especiais em caracteres de string:
 
 ### `\’` aspas simples
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
