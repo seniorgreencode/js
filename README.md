@@ -85,19 +85,11 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 <html>
   <head>
     <meta charset="UTF-8">
-    <script>
-      alert("Ola, Mundo!");
-    </script>
-    <title>JavaScript</title>
-    <script>
-      alert("Hello, World!");
-    </script>
+    <script src="./public/scripts/js/main.js"></script>
     <title>Hello, World! - JS</title>
   </head>
    <body>
-    <script>
-      alert("Hello, World!");
-    </script>
+    <script src="./public/scripts/js/main.js"></script>
   </body>
 </html>
 ```
