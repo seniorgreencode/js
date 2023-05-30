@@ -1631,7 +1631,7 @@ A utilização de propriedades se dá acompanhada de seu objeto sendo separados 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/103964080-51a9cb80-5139-11eb-8a2b-f03f6be7fd2e.jpg"/></div>
 
 # 📜 BOM - Browser Object Model
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/204873026-0c6374bb-b9c6-445f-a956-00f2c0652c6f.png" height="177"></div><br />
+<img src="https://user-images.githubusercontent.com/61624336/204873026-0c6374bb-b9c6-445f-a956-00f2c0652c6f.png" height="177" align="right">
   
 Anteriormente, no capítulo 15 foi apresentado a <a href="https://github.com/IsaacAlves7/javascript-programming/blob/master/README.md#-hierarquia-de-objetos-">hierarquia de objetos</a>, porém sem uma explicação bem aprofundada somente uma introdução rasa para informar mais sobre a ordem de objetos. Portanto, nesse capítulo e no 18 serão apresentados o <b>BOM</b> e o <b>DOM</b> que estão por trás da hierarquia de objetos. 
   
