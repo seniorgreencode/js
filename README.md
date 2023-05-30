@@ -111,7 +111,7 @@ yarn upgrade-interactive --latest --exact
 Esse comando irá mostrar as suas dependências instaladas comparando a versão das atuais, apresentando a você uma oportunidade de atualizar ou não. É recomendado utilizar esse comando em um ambiente isolado, como por exemplo em uma branch chamada `deps-update [DMY]` do que em uma branch de produção como `master` ou `main`.
 
 ## Node.js
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177"></div><br />
+<img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" align="right">
 
 Antes de voltarmos a falar do Expo e de vermos como instalá-lo, precisamos tratar de outro assunto: o **Node.js**. O Node pode ser definido como um ambiente server-side para a execução de códigos escritos utilizando a linguagem JavaScript. Com ele, é possível criar quaisquer tipos de aplicações no back-end utilizando uma linguagem até então restrita ao front-end, desde servidores web, estáticos ou dinâmicos até robustas APIs ou softwares baseados em microsserviços.
 
