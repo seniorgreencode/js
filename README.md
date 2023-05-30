@@ -52,7 +52,7 @@ O primeiro passo para se poder usar o Expo — e que também é o ponto de parti
 > **Dica**: Saiba que você pode escolher o gerenciador de sua preferência, uma vez que ambos desempenham o mesmo papel.
 
 ## NPM - Node Package Manager
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="177"></div><br />
+<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="177" align="right">
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
 
