@@ -32,7 +32,7 @@ No ambiente mobile, algumas etapas extras se fazem necessárias — sobretudo no
 
 > **Emuladores** são softwares instalados em nosso computador que fazem o papel de um dispositivo móvel.
 
-<img src="https://miro.medium.com/max/2052/1*QT7NIsR-X8_SKdtI7BTghw.png" align="right" height="277">
+<img src="https://miro.medium.com/max/2052/1*QT7NIsR-X8_SKdtI7BTghw.png" align="right" height="177">
 
 Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o React Native roda de forma "híbrida" de forma nativa dentro do Sistema Operacional utilizando como base o JavaScript dentro do gerenciador de núcleos de processos do smartphone, tornando ele um apk nativo para a interface do dispositivo móvel.
 
