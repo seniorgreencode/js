@@ -63,10 +63,21 @@ No arquivo:
 
 Outra maneira válida é criar um documento com a extensão `.js`, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no `<head>` como no `<body>`:
 
-[![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#) [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-
-
 <table>
+  <tr>
+    <td>Estrutura</td>
+    <td>
+      
+      [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
+      
+    </td>
+    <td>
+      
+      [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+      
+    </td>
+  </tr>
+<tr>
 <td>
 <pre>
 ├── public
@@ -102,7 +113,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 alert("Hello, World!");
 ```
 </td>
-  
+</tr>
 </table>
   
 o comando `alert();` exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).
