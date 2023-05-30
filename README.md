@@ -63,6 +63,11 @@ No arquivo:
 
 Outra maneira válida é criar um documento com a extensão `.js`, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no `<head>` como no `<body>`:
 
+[![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#) [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
+
+<table>
+<td>
 <pre>
 ├── public
 |   └── scripts
@@ -72,9 +77,10 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
     └── pages
         └── index.html
 </pre>
+</td>
 
-[![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
-
+<td>  
+  
 ```html
 <html>
   <head>
@@ -88,13 +94,18 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 </html>
 ```
   
-o comando `alert();` exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).
-
-[![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-
+</td>
+  
+<td>
+  
 ```javascript
 alert("Hello, World!");
 ```
+</td>
+  
+</table>
+  
+o comando `alert();` exibe uma janela pop-up no navegador que revela o conteúdo inserido dentro do parêntese, pode ser uma variável ou um texto (entre aspas).
 
 Dessa forma, é possível diminuir a quantidade de linhas de código no seu arquivo HTML, porém deixa o seu website mais pesado com a quantidade de scripts. 
   
