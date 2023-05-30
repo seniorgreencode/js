@@ -112,13 +112,11 @@ Nesse caso, para exibir resultados ou mensagens no console do navegador utilize 
 
 Outros comandos para serem executados em janela:
 
-<ul>
-  <li><code>window.alert()</code> janela ok;</li>
-  <li><code>window.confirm()</code> janela ok e cancel;</li>
-  <li><code>window.prompt()</code> janela com textbox e ok.</li>
-</ul>
+- `window.alert()` janela ok;
+- `window.confirm()` janela ok e cancel;
+- `window.prompt()` janela com textbox e ok.
 
-# Comentários em JavaScript
+## Comentários em JavaScript
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
