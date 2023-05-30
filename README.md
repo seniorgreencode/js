@@ -690,22 +690,21 @@ Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legí
   
 Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>else</code>. Se precisar de mais decisões utilize o <code>else if</code> que é mais indicado do que somente <code>if</code> e o <code>else</code> no escopo, pois eles podem gerar conflito no código!
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
 
-### Exemplo 2:
+**Exemplo 2**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103038271-cfbc7e80-454c-11eb-9d5a-bd6a4bf9af67.jpg)
 
-### Exemplo 3:
+**Exemplo 3**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
 
-## Comparando valores com o `switch`
-<p>Para um grande número de condições é necessário um comando mais especializado do que somente o <code>if</code>, <code>else</code> ou <code>else if</code>, o comando <code>switch</code> é ideal para essa proposta. Observe a imagem abaixo:</p>
+Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
 
-<blockquote><b>Obs:</b> O <code>break</code> serve para pausar a execução por cada <code>case</code>, pois senão ele executa todas de uma só vez.</blockquote>
+> **Obs**: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
 
 ## Laços de Repetição (Loops)
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
