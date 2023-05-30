@@ -1940,7 +1940,7 @@ A característica que permite podermos utilizar funções para definir valores d
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
 # 📜 [ES6] Enhanced Object Literals
-<p>A maneira clássica de escrever objetos literais é como o exemplo abaixo:</p>
+A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 ### Exemplo 1:
 ![12](https://user-images.githubusercontent.com/61624336/107830786-592d4780-6d6b-11eb-8c24-e0e94809995b.jpg)
