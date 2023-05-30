@@ -280,20 +280,25 @@ As Strings são usadas para representar textos. Sempre que quisermos um texto te
 As aspas servem para definir onde um texto começa e onde ele termina. Em JavaScript, para manter um padrão de código, é recomendado usar as aspas simples.
 
 Porém, se você precisar usar aspas simples em um texto, é mais fácil criar a String com aspas duplas, ou sua String será fechada:
-<ul>
-  <li><code>"Mc Donald's"</code> A aspa simples pôde ser usada normalmente dentro desta String;</li>
-  <li><code>'Mc Donald's'</code> Após o "d", a aspa simples fechou a string, deixando o "s" e a outra aspa soltos. Isso irá resultar em um erro.</li>
-</ul>
+
+- `"Mc Donald's"` A aspa simples pôde ser usada normalmente dentro desta String;
+- `'Mc Donald's'` Após o "d", a aspa simples fechou a string, deixando o "s" e a outra aspa soltos. Isso irá resultar em um erro.
+
 Hoje em dia também temos um novo tipo de string, que usa o acento grave (crase) ao invés de aspas. Mais para frente veremos melhor sobre como trabalhar com Strings e a importância desse novo tipo de String.
-</br >
-</p>
-<p>Para descobrir o tamanho de uma string é usado a propriedade <b>length</b>:</p>
+
+Para descobrir o tamanho de uma string é usado a propriedade **length**:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
+```javascript
+var txt = 'abcdfghijklmnopqrstuvwxyz'
+console.log(txt.length);
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102538561-30e6dc80-408b-11eb-8bae-1a59295efe0e.jpg)
 
 ## Escape de Caracteres
-<p>Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.</p>
+Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102540262-87edb100-408d-11eb-9018-ff3681325d89.jpg)
