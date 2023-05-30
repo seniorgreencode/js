@@ -943,7 +943,7 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 </table>
 
 # 📜 Data e horário em JS
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="177"/></div><br />
+<img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="177" align="right"/>
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
