@@ -114,12 +114,10 @@ Nesse caso, para exibir resultados ou mensagens no console do navegador utilize 
 
 [![Brave](https://img.shields.io/badge/-Console-fff?style=social&logo=Brave&logoColor=orangered)](#)
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/61624336/102270246-8ccf2b00-3efc-11eb-8654-99d6a6171eeb.jpg" align="right" height="177">
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/102270246-8ccf2b00-3efc-11eb-8654-99d6a6171eeb.jpg)
+Outros comandos para serem executados em janela:
 
-</div>
-<p>Outros comandos para serem executados em janela:</p>
 <ul>
   <li><code>window.alert()</code> janela ok;</li>
   <li><code>window.confirm()</code> janela ok e cancel;</li>
