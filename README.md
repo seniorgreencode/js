@@ -69,7 +69,38 @@ No arquivo:
 
 Outra maneira válida é criar um documento com a extensão `.js`, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no `<head>` como no `<body>`:
 
+<pre>
+├── public
+|   └── scripts
+|       └── js
+|           └── main.js
+└── src
+    └── pages
+        └── index.html
+</pre>
+
 [![HTML5](https://img.shields.io/badge/-index.html-000000?style=social&logo=HTML5&logoColor=orangered)](#)
+
+```html
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      alert("Ola, Mundo!");
+    </script>
+    <title>JavaScript</title>
+    <script>
+      alert("Hello, World!");
+    </script>
+    <title>Hello, World! - JS</title>
+  </head>
+   <body>
+    <script>
+      alert("Hello, World!");
+    </script>
+  </body>
+</html>
+```
   
 ![Sem Título-3](https://user-images.githubusercontent.com/61624336/102267944-5e038580-3ef9-11eb-89bb-4191481918f6.jpg)
 
