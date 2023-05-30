@@ -467,12 +467,12 @@ Para ter certeza que algo é diferente, incluindo o tipo, temos o operador `!==`
 > **Dica**: `!==` é um operador que é usado para extrema diferença.
   
 ## Operadores Relacionais
-Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor true ou false.
+Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor `true` ou `false`.
 
-- `<=` verifica se um valor é menor ou igual;</li>
-- `>=` verifica se um valor é maior ou igual;</li>
-- `<` verifica se um valor é menor;</li>
-- `>` verifica se um valor é maior;</li>
+- `<=` verifica se um valor é menor ou igual;
+- `>=` verifica se um valor é maior ou igual;
+- `<` verifica se um valor é menor;
+- `>` verifica se um valor é maior;
 
 Além de valores numéricos, podemos também comparar Strings, como:
 
@@ -480,7 +480,7 @@ Além de valores numéricos, podemos também comparar Strings, como:
 "a" < "z".
 ```
 
-## Concatenação de Strings `+`
+## Concatenação de Strings
 O Operador `+` também tem outra função além de somar números: ele concatena Strings.
 Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 
@@ -497,24 +497,23 @@ Até agora vimos operadores que precisam de dois elementos para funcionar, como 
 
 Também temos os <b>Operadores Unários</b>, que são aqueles que só recebem um valor para funcionar.
 
-### Operador Unário `-`
 O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
 
 ```javascript
 -3
 ```
 
-### Operador Unário `!`
 Como vimos antes, esse operador serve para negação. Ele inverte os valores do tipo Boolean. Então um valor true se torna false e um false se torna true.
 
 ```javascript
 !true
 ```
 
-### Operador Unário `typeof`
 Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.
 
-<pre>typeof 3</pre>
+```javascript
+typeof 3
+```
 
 ## Operador Ternário
 Vimos os operadores binários e unários. Vamos ver agora o <b>Operador Ternário Condicional</b>.
