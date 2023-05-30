@@ -107,7 +107,8 @@ Dessa forma, é possível diminuir a quantidade de linhas de código no seu arqu
 Próximo passo, execute o documento index.html. Resultado:</p>
 
 [![Brave](https://img.shields.io/badge/-Console-fff?style=social&logo=Brave&logoColor=orangered)](#)
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/102268834-8cce2b80-3efa-11eb-9e41-71f1ac458d69.jpg)
+
+<img src="https://user-images.githubusercontent.com/61624336/102268834-8cce2b80-3efa-11eb-9e41-71f1ac458d69.jpg" align="right" height="177">
 
 <blockquote>O script funcionou perfeitamente!</blockquote>
 
