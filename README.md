@@ -807,7 +807,7 @@ do {
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
 ### `Continue` x `break`
-Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o <code>break</code> quebra no final da execução e assim o compilador executa outra etapa do código, já o <code>continue</code> continua até finalizar a execução.
+Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
@@ -818,22 +818,22 @@ Servem para loops e condições, porém a diferença entre eles é na sua funcio
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
 
-<b>Atribuindo valores:</b> Você pode criar um vetor com seus valores separados por vírgula.
+Atribuindo valores: Você pode criar um vetor com seus valores separados por vírgula.
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
 
-### Exemplo 2:
-<p>Você pode adicionar valores de qualquer tipo no vetor.</p>
+**Exemplo 2**:
+Você pode adicionar valores de qualquer tipo no vetor.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465854-2df01b00-4d1e-11eb-9699-48ca48bba14f.jpg)
 
-## <b>Acessando valores:</b> Os valores podem ser acessados através de seu índice.
+Acessando valores: Os valores podem ser acessados através de seu índice.
 
-### Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103466103-79a3c400-4d20-11eb-96fd-c7cb2ae02329.jpg)
 
-<p>Observe que o índice começa no 0. Então o primeiro item está na posição 0, o segundo na posição 1 e assim por diante.</p>
+Observe que o índice começa no 0. Então o primeiro item está na posição 0, o segundo na posição 1 e assim por diante.
 
 ## Alterando e atribuindo valores pelo índice: Com o índice, você pode:
 <ol type="a">
@@ -945,10 +945,10 @@ Como faço para mudar o nome de uma string no JavaScript?
   
 A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
 
-## Exemplo 1:
+**Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
 
-### Tabela de métodos para os valores em JS
+Tabela de métodos para os valores em JS:
 <table>
     <tr>
       <td><b>Método</b></td>
@@ -1212,10 +1212,10 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 
 São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A <b>associação</b> é realizada em HTML nos elementos que suportam eventos do tipo Event através dos <b>atributos onEvent</b>.
 
-## Exemplo 1: Executando um evento
+**Exemplo 1**: Executando um evento
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103590963-92051180-4ecd-11eb-8db0-e7a8cdce8a9f.jpg)
 
-## Exemplo 2: Chamada de função por evento
+**Exemplo 2**: Chamada de função por evento
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103591717-a9dd9500-4ecf-11eb-855a-fb88ffcd7f4b.jpg)
 ![Sem Título-12e2](https://user-images.githubusercontent.com/61624336/103591719-aa762b80-4ecf-11eb-822f-fcd9114180c2.jpg)
 
@@ -1293,10 +1293,10 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 # 📜 [ES6] Rest, Spread Operator e destructing
 Observe a função abaixo:
 
-### Exemplo 1: Função normal
+**Exemplo 1**: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
 
-### Exemplo 2: Função com vários argumentos (método antigo do ES6)
+**Exemplo 2**: Função com vários argumentos (método antigo do ES6)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860550-956db000-6e1e-11eb-8b96-8860230d10d3.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860612-e67da400-6e1e-11eb-88ad-5ca7851216a3.jpg)
 
