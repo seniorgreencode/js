@@ -1204,8 +1204,7 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 
 ## JS Modulos
 
-# 📜 JavaScript Promises [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
-
+# 📜 [ES6] Promises [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="177" title="Read the Blog" align="right"></a>
 
 As **Promises** são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono.
@@ -1215,13 +1214,13 @@ Promises são um padrão de desenvolvimento que visam representar a conclusão d
 As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
 
 ## Código Síncrono
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg)
+<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
 
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
 
 De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
 
-## Uso de código assíncrono
+**Uso de código assíncrono**:
 - Requests HTTP
 - Leitura de arquivos
 - Acesso a serviço externo
