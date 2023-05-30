@@ -1063,35 +1063,35 @@ Note que para fazer a função executar, você precisa chama-la com os parêntes
 
 Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o <b>arrow function</b> a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
 
-### Sintaxe (Function):
+**Sintaxe (Function)**:
 ```javascript
 function funcao() {
    código;
 }
 ```
 
-### Sintaxe (Arrow Function)
+**Sintaxe (Arrow Function)**:
 ```javascript
 funcao = () => {
   código;
 }
 ```
 
-### Sintaxe (auto-exec function with Arrow Function)
+**Sintaxe (auto-exec function with Arrow Function)**:
 ```javascript
 ((x, y) => {
  console.log(x + y);
 })(10, 5);
 ```
 
-## Sintaxe (Immediatly invoked function expression with Arrow Function)
+**Sintaxe (Immediatly invoked function expression with Arrow Function)**:
 ```javascript
 (() => {
   console.log('Hello, world!');
 })();
 ```
 
-### Sintaxe (Anonymous Function)
+**Sintaxe (Anonymous Function)**:
 ```javascript
 var log = function(value){
   console.log(value);
@@ -1100,7 +1100,7 @@ var log = function(value){
 log('test');
 ```
 
-### Sintaxe (Anonymous Function) - segundo tipo
+**Sintaxe (Anonymous Function) - segundo tipo**:
 ```javascript
 (function() {
   return 'Hello World';
@@ -1180,7 +1180,6 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado <b>prototype</b>. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto <b>constructor</b>. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
 
 **Exemplo 1**:
-
 ```javascript
 console.log(document.__proto__);
 ```
@@ -1238,20 +1237,21 @@ No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremo
 # 📜 ECMAScript (ES)
 <div align="center"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177"/></div><br \>
 
-<p>Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
+Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
 
 Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos.
+
 Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e TypeScript.</p>
 <blockquote>👍 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 ## ECMAScript Versions
-<div align="center"><img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg"></div><br \>
+<img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg" align="right" height="177">
 
 # ES6 - ECMAScript 6 (2015)
 <div align="center"><img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177"></div><br \>
 
 # 📜 [Advanced ES6] Default Function Arguments
-<p>Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!</p>
+Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 **Exemplo 1**:
 ![12](https://user-images.githubusercontent.com/61624336/107806090-19ec0000-6d45-11eb-8b81-ef25ee970c74.jpg)
