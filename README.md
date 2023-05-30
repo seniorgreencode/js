@@ -680,7 +680,7 @@ Variáveis declaradas dentro de um local cercado por `{ }`.
 
 # 📜 [JS] Estruturas de programação
 
-## Estrutura condicional
+## [JS] Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177" align="right"/>
 
 As <b>condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
@@ -713,7 +713,7 @@ Para um grande número de condições é necessário um comando mais especializa
 
 > **Obs**: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
 
-## Laços de Repetição (Loops)
+## [JS] Laços de Repetição (Loops)
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
 
 Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
