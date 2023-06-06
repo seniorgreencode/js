@@ -729,7 +729,11 @@ Fazendo uso de uma IDE, deve-se inserir pontos de interrupção (ou pontos de pa
 
 > Ao longo deste módulo, apresentamos algumas ferramentas e técnicas para a depuração de aplicativos. Entretanto, tal conteúdo é extenso, contando ainda com várias outras ferramentas entre elas, a utilização de plug-ins em diferentes IDEs. Tendo isso em vista e após ter visto na prática e testado as ferramentas aqui esquematizadas, procure aprofundar seu conhecimento. Um bom ponto de partida é a documentação do próprio React Native, que possui vários tópicos sobre esse assunto.
 
+# 👨🏾‍💻 Interface interativa de um aplicativo mobile
+Como primeiro passo para a esquematização da interface e interatividade de nosso aplicativo mobile, devemos ter em mãos as suas funcionalidades, ou seja, precisamos conhecer tudo o que o aplicativo deverá fazer e tudo o que poderá ser feito por meio dele. Essa lista de funcionalidades pode ser:
 
+- Simples: Como uma mera lista.
 
+- Elaborada: Incluindo protótipos e requisitos, como paleta de cores e restrições visuais ou estruturais, além de outros aspectos.
 
 <!-- # 📖 React Native Navigation -->
