@@ -579,8 +579,10 @@ react-native link react-native-camera
 npm run android
 ```
 
-# DEPURAÇÃO no React Native (debug)
+# 🐞 DEPURAÇÃO no React Native (debug)
 Uma **depuração** ou um **debug** (termo em inglês comumente utilizado na área de desenvolvimento de software) é o processo de identificar erros (bugs) ou problemas no código-fonte de um software.
+
+> Ao desenvolvermos um aplicativo usando o React Native, contamos com uma série de ferramentas de fácil acesso nativamente disponíveis, como logs detalhados, debug por meio do console do navegador e bibliotecas voltadas para aplicações que usam tal tecnologia.
 
 Ao longo de tal processo, o código-fonte é inspecionado e analisado durante sua execução, a fim de que qualquer erro existente possa ser identificado e corrigido.
 
