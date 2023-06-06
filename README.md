@@ -579,5 +579,119 @@ react-native link react-native-camera
 npm run android
 ```
 
+# DEPURAÇÃO no React Native (debug)
+Uma **depuração** ou um **debug** (termo em inglês comumente utilizado na área de desenvolvimento de software) é o processo de identificar erros (bugs) ou problemas no código-fonte de um software.
+
+Ao longo de tal processo, o código-fonte é inspecionado e analisado durante sua execução, a fim de que qualquer erro existente possa ser identificado e corrigido.
+
+O processo de debug pode ser iniciado de duas formas:
+
+- **Indiretamente**: A partir de um erro gerado na execução do aplicativo.
+- **Iniciativa do dev**: De maneira estruturada e previamente organizada, tal processo pretende testar o software em diferentes situações de uso.
+
+Para depurar um software, normalmente é utilizada uma IDE e/ou, no caso de aplicações React Native (e aplicações web em geral), o próprio console do navegador ou suas bibliotecas/ferramentas adicionais. Tal processo consiste geralmente na observação, independentemente da ferramenta utilizada, de partes do código, como:
+
+- Estado de objetos.
+- Valores de variáveis ou propriedades.
+- Validação de instruções condicionais ou laços de repetição.
+
+Nesse processo, é possível, entre algumas opções, realizar as seguintes ações:
+
+- Criar **pontos de observação** (**break points**) nas IDEs – Um pouco mais rebuscada, essa forma pode variar a partir de recursos nativos e de plug-ins disponíveis na IDE utilizada.
+
+- Inserir instruções simples, como, por exemplo, “`console.log`” – Um pouco menos refinada, ela também é útil em muitas situações.
+
+## FERRAMENTAS DE DEPURAÇÃO DE CÓDIGO
+Há várias ferramentas e técnicas disponíveis para o debug de aplicações React. Ao longo deste conteúdo, apresentaremos algumas delas, já que elas podem nos auxiliar no processo de depuração de aplicações escritas em React Native.
+
+A principal e mais simples ferramenta a ser apresentada é o console do navegador. Bastante útil em aplicações que utilizam o JavaScript e rodam no navegador, ele também pode ser usado para depurar os aplicativos React.
+
+No caso do uso do JavaScript, basta acionar, a partir do navegador, a opção Inspecionar Elementos ou Inspecionador de Elementos. Em seguida, você só precisa acessar a aba Console para ter acesso a ele.
+
+No React Native, contudo, o passo a passo é um pouquinho diferente. Nesse ambiente, você pode acessá-lo de algumas formas, a saber:
+
+- A partir da janela do Metro, pressione a tecla “d”
+
+- React Developer Tools
+
+- In-App Developer Menu
+
+- Depuração de código nativo
+
+A seguir, veremos mais detalhes de cada uma das formas apresentadas.
+
+<img src="https://github.com/IsaacAlves7/js/assets/61624336/64c5b382-0836-4383-9e50-61bc09bb6f81" align="right" height="177">
+
+A partir da janela do **Metro**, pressione a tecla “`d`”
+
+Em seguida, um novo menu será exibido no dispositivo virtual ou físico que você está utilizando. Entre as opções existentes, escolha Debug. Então uma nova janela do navegador será exibida. A partir dela, já é possível realizar a depuração.
+
+![s35](https://github.com/IsaacAlves7/js/assets/61624336/b8f83dba-cd10-47a2-b826-ecd7e72a869d)
+
+Essa tela contém algumas informações adicionais para direcioná-lo. Você pode, a partir dela, abrir o console pressionando as telas `CTRL + J` (repare que é a letra J maiúscula, ou seja, combine `CTRL + SHIFT + J`). Com o console aberto, será possível analisar alguns aspectos do seu aplicativo.
+
+Na prática, você verá que o console é bastante útil quando estamos trafegando dados externos em nossos aplicativos, já que é possível visualizar a chamada (request) e a resposta (response) de cada recurso. Além disso, a saída da instrução “`console.log`”, quando utilizada em nosso código, também pode ser vista nessa janela.
+
+Observe que, conforme já mencionamos, há alguns links e algumas indicações de outras ferramentas de debug na janela aberta no navegador da imagem acima — entre elas, a ferramenta React Developer Tools, que será vista a seguir.
+
+> Outra forma de acessar a opção de debug é, no dispositivo físico, sacudir o aparelho. Isso fará com que o menu seja apresentado, possibilitando que a opção seja selecionada.
+
+**React Developer Tools**: Esta ferramenta é uma biblioteca que, ao ser instalada, permite, por meio do navegador, a depuração da hierarquia de:
+
+- Componentes.
+- Estilos.
+- Propriedades.
+- Estados do aplicativo.
+
+Para instalar essa ferramenta, execute o comando abaixo no terminal:
+
+```sh
+npm install –g react-devtools
+```
+
+> Por se tratar de uma ferramenta, recomenda-se a instalação da biblioteca de forma global. Por isso, utilizamos a opção “`-g`”.
+
+Após realizar a instalação, já no terminal, você precisará executar na pasta do projeto o seguinte comando:
+
+```sh
+react-devtools
+```
+
+O comando abrirá uma nova janela (mostrada abaixo). A seguir, você poderá acessar o DevTools, por meio do menu Developer (teclando “d” na janela do Metro; CTRL + M, no emulador; ou sacudindo o dispositivo físico), na opção Show Inspetor. Lembre-se de que o aplicativo também precisa estar rodando.
+
+> É possível que haja erros no processo em curso dependendo do dispositivo que você estiver usando para testar sua aplicação e/ou das versões das bibliotecas instaladas. Fique atento às janelas do terminal e do DevTools, pois elas exibirão os possíveis erros encontrados.
+
+Ao final das etapas descritas, a janela do DevTools exibirá a hierarquia de componentes de seu aplicativo conforme a imagem a seguir:
+
+![s37](https://github.com/IsaacAlves7/js/assets/61624336/25139899-29a0-4b6f-9178-7a4f72bd812c)
+
+É possível obter mais informações sobre cada um dos elementos que compõem o aplicativo graças ao painel à esquerda da janela na qual eles são exibidos. Para isso, clique em um elemento e veja detalhes sobre ele no painel da direita. A imagem adiante exibe detalhes de um componente Image.
+
+![s38](https://github.com/IsaacAlves7/js/assets/61624336/756b5608-be67-4a50-adbf-e5105e5afe25)
+
+> Outra forma de debugar o aplicativo por meio do DevTools é no In-App Developer Menu (combinação de teclas apresentada anteriormente). Nele, é possível clicar, a partir de um dispositivo físico, em Toggle Inspector. Isso permite a obtenção das mesmas informações exibidas na janela do DevTools — e diretamente do dispositivo.
+
+Como já vimos, essa ferramenta é muito detalhada, apresentando várias informações sobre o aplicativo e possuindo uma série de opções. Logo, além de navegar e analisar as informações e o conteúdo do aplicativo exibidos nela, recomendamos a leitura do site oficial para a obtenção de mais orientações.
+
+**In-App Developer Menu**: Acessível tanto no dispositivo virtual quanto no físico (teclando “d” na janela do Metro; CTRL + M, no emulador; ou sacudindo o dispositivo físico), o In-App Developer Menu apresenta uma série de outras opções bastante úteis para a depuração de aplicativos.
+
+Além das já mencionadas anteriormente, destacam-se ainda:
+
+- **Fast Refresh**: Permite a visualização mais rápida de mudanças feitas no código.
+- **Sampling Profiler e Perf Monitor**: Quando habilitados, ambos exibem informações detalhadas sobre o código JavaScript (threads) em execução e a performance do aplicativo.
+
+## Depuração de código nativo
+Restrito a códigos nativos e não disponível em aplicações criadas utilizando o Expo, esse tipo de depuração acessa os logs detalhados do sistema. Para ter acesso a eles, você precisa fazer a execução destes comandos em três diferentes janelas do terminal:
+
+1. Rodar o aplicativo a partir da pasta dele: `npx react-native run-android`
+
+2. Quando o aplicativo estiver rodando, habilitar estes logs: `npx react-native log-android adb logcat *:S ReactNative:V ReactNativeJS:V`
+
+3. Os logs são exibidos na janela de terminal do Metro.
+
+## COMO ORGANIZAR O PROCESSO DE DEPURAÇÃO
+Após ter decidido qual conjunto de ferramentas será utilizado na depuração de seu aplicativo, a etapa seguinte consiste em organizar o processo em si. Ou seja, tendo em mãos o conjunto de ferramentas necessário, precisamos agora decidir como usá-lo.
+
+Este passo a passo contém algumas dicas para ajudá-lo ao longo dessa etapa:
 
 <!-- # 📖 React Native Navigation -->
