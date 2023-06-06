@@ -319,6 +319,26 @@ Em React, os componentes são escritos utilizando o JSX e estão agrupados em di
   </tr>
 </table>
 
+O React Native possui alguns componentes nativos que são transpilados para os componentes equivalentes em cada plataforma onde o aplicativo é executado. Além disso, pode-se criar os próprios componentes customizados. Por outro lado, caso se utilize um componente não existente entre os nativos ou que não tenha sido criado por nós mesmos (ou seja, um importado para o projeto), a aplicação retornará um erro, informando que o elemento em questão não existe. Como, por exemplo:
+
+```jsx
+	export default function App() {
+		return (
+			<Div style={styles.container}>
+				<Text style={styles.paragraph}>
+					Change code in the editor and watch it change on your phone! Save to get a 
+	shareable url.
+				</Text>
+				<Card>
+					<AssetExample />
+				</Card>
+			</Div>
+		);
+	}
+```
+
+> Será exibido um erro informando que a variável “`Div`” não existe.
+
 ### `View`
 A `View` é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
 
@@ -359,6 +379,8 @@ Este componente é utilizado para a apresentação de textos. Ele suporta aninha
 
 O exemplo a seguir mostra a utilização aninhada de dois elementos `Text`. Além disso, nesse exemplo, o componente é estilizado com uso do StyleSheet:
 
+[![App.jsx](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
+
 ```jsx
 import React, { useState } from "react";
 import { Text, StyleSheet } from "react-native";
@@ -396,5 +418,147 @@ const styles = StyleSheet.create({
 
 export default TextoAninhado;
 ```
+
+> **Dica**: Embora seja possível utilizar estilos inline, como ocorreu no exemplo visto na `View`, é recomendado, sempre que possível, dar preferência ao `StyleSheet`, já que sua utilização facilita a separação e a leitura do código, tornando-o mais fluido.
+
+Da mesma forma que a observada no código anterior — e isso vale para todos os códigos utilizados como exemplo, pode-se copiar o código acima e rodá-lo (no Expo ou no dispositivo virtual ou físico) para ver o Text funcionando na prática. Repare que, além desse elemento, novas funcionalidades do React são introduzidas a cada exemplo.
+
+Nesse último, o destaque fica por conta do evento “`onPress`”. Ele demonstra que, ao se tocar no texto inicialmente exibido, um novo é carregado em seu lugar. Experimente realizar outras modificações no código, isso vai ajudá-lo a compreender melhor o comportamento de cada componente.
+
+### `Image`
+Assim como a tag HTML `<img>`, este componente permite a exibição de diferentes tipos de imagens com origens distintas e aqui o destaque fica por conta da possibilidade de utilização até mesmo das imagens armazenadas no próprio dispositivo móvel. O `Image` herda as propriedades do componente `View`, além de possuir uma série de outros atributos.
+
+Vejamos um exemplo de sua utilização:
+
+```jsx
+import React from 'react';
+import { View, Image, StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+	paddingTop: 50,
+  },
+  imagem: {
+	width: 50,
+	height: 50,
+	alignSelf: 'center'
+  }
+});
+
+const ComponenteSimplesImage = () => {
+  return (
+	<View style={styles.container}>
+	  <Image
+		style={styles.imagem}
+		source={{
+		  uri: 'https://reactnative.dev/img/tiny_logo.png',
+		}}
+	  />
+	</View>
+  );
+}
+
+export default ComponenteSimplesImage;
+```
+
+### `TextInput`
+Este componente permite a entrada de textos por meio do teclado, provendo ainda uma série de funcionalidades, por exemplo, autocorreção, autocapitalização e utilização de diferentes tipos de teclado, assim como apenas do teclado numérico (digite algum texto no segundo input no exemplo). Observemos um exemplo simples de `TextInput`:
+
+```jsx
+import React from "react";
+import { SafeAreaView, StyleSheet, TextInput } from "react-native";
+
+const MeuTextInput = () => {
+  const [texto, setTexto] = React.useState(null);
+  const [numero, setNumero] = React.useState(0);
+
+  return (
+	<SafeAreaView>
+	  <TextInput
+		style={styles.meutextinput}
+		value={texto}
+	  />
+	  <TextInput
+		style={styles.meutextinput}
+		onChangeText={setNumero}
+		value={numero}
+		keyboardType="numeric"
+	  />
+	</SafeAreaView>
+  );
+};
+
+const styles = StyleSheet.create({
+  meutextinput: {
+	marginTop:100,
+	height: 40,
+	margin: 12,
+	borderWidth: 1,
+  },
+});
+
+export default MeuTextInput;
+```
+
+Em relação às suas propriedades, atributos e eventos, destacam-se dois eventos disponíveis (e muito utilizados quando trabalhamos com formulários): focus e blur. Ambos ocorrem quando o elemento respectivamente ganha e perde foco, ou seja, quando o cursor fica sobre eles e sai. Eles são úteis para validar informações inseridas ou aplicar máscaras nos valores digitados, como números de telefone e CPF.
+
+### `ScrollView`
+Este componente também é um contêiner, sendo, a exemplo da `View`, utilizado para armazenar conteúdo e outros elementos, permitindo a interação na tela por meio de rolagem (scrolling). Logo, o `ScrollView`, para funcionar corretamente, precisa ter uma altura limitada/definida, já que sua serventia é justamente conter elementos filhos com altura ilimitada. Teste o código a seguir, modificando o tamanho do texto (aumentando-o e o diminuindo) a fim de visualizar, na prática, como tal componente se comporta:
+
+```jsx
+import React from 'react';
+import { StyleSheet, Text, SafeAreaView, ScrollView, StatusBar } from 'react-native';
+
+const Lista = () => {
+  return (
+	<SafeAreaView style={styles.safecontainer}>
+	  <ScrollView style={styles.containerScrollView}>
+		<Text style={styles.text}>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Pellentesque id dui sed nulla imperdiet scelerisque.
+					Integer malesuada facilisis nibh varius eleifend.
+					Cras a velit laoreet dui interdum consectetur.
+					Pellentesque volutpat placerat mauris in interdum.
+					Pellentesque non egestas sem. Suspendisse malesuada at augue
+					sit amet pretium.
+					Praesent odio nisl, semper vitae purus a, elementum ultrices arcu.
+					Praesent blandit lectus et aliquet posuere.
+					Nulla dictum, nisi id feugiat suscipit, mi sem maximus turpis,
+					vel aliquet massa ex sit amet sem.
+					Sed ullamcorper enim non elit vestibulum, feugiat euismod elit
+					consectetur. In et pulvinar eros.
+		</Text>
+	  </ScrollView>
+	</SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  safecontainer: {
+	flex: 1,
+	paddingTop: StatusBar.currentHeight,
+  },
+  containerScrollView: {
+	backgroundColor: 'grey',
+	marginHorizontal: 20,
+  },
+  text: {
+	fontSize: 26,
+  },
+});
+
+export default Lista;
+```
+
+> **Dica**: Quando desenvolvemos uma aplicação que consome conteúdo externo por meio de uma API, por exemplo, nem sempre sabemos a quantidade de informações ou de elementos filhos que serão carregados. Nesse caso, por questões de melhor performance, devemos utilizar outro componente com funcionalidade semelhante à do `ScrollView`: a `FlatList`.
+
+Além daqueles já apresentados, o React Native possui outros componentes nativos. Apontaremos três deles a seguir:
+
+- `Button`
+- `Switch`
+- `FlatList`
+
+> **Saiba mais**: Consulte a documentação oficial para obter mais detalhes sobre outros componentes. Pratique também seu conhecimento com os códigos apresentados neste material, combinando suas utilizações e gerando, com isso, interfaces mais ricas e completas.
+
 
 <!-- # 📖 React Native Navigation -->
