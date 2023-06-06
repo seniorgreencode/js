@@ -40,7 +40,7 @@ Diferente de outros tipos de `.apk` nativos para rodar no Android ou no iOS, o R
 
 Para a biblioteca React Native, há ainda outra possibilidade: o **Expo**, um framework que permite a codificação e o teste de aplicativos de forma bastante simples. Embora possua algumas limitações, essa opção é interessante, já que consome menos recursos de hardware em relação às demais opções citadas.
 
-# Expo
+# Expo ![Expo](https://img.shields.io/badge/Expo-48.0.19-000000?style=flat&logo=Expo&logoColor=31A8FF)
 <img src="https://www.svgrepo.com/show/353722/expo.svg" height="177" align="right">
 
 Veremos agora como definir e configurar nosso ambiente de desenvolvimento para podermos programar em React Native. A forma mais simples de se desenvolver nele é mediante a utilização do Expo.
