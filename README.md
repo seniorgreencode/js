@@ -192,6 +192,8 @@ export default class App extends Component {
 }
 ```
 
+> Note que usamos importação com chaves e algumas não, com chaves é uma exportação simples e sem é um `EXPORT & DEFAULT`, é uma exportação padrão.
+
 # 📲 `Hello, World!` - React Native (Expo)
 Após termos realizado a configuração de nosso ambiente com o Expo CLI, estamos prontos para iniciar o processo de desenvolvimento. Você pode dar seus próximos passos ao analisar a estrutura de pastas criadas por default nas aplicações usadas como teste e até mesmo modificando o código gerado inicialmente (para isso, edite o arquivo `App.js`).
 
@@ -217,6 +219,8 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+
 
 ## Componentes em React Native
 Na engenharia de software, alguns conceitos são muito utilizados para se definir o que são os **componentes**. Tais conceitos se referem tanto aos aspectos mais técnicos quanto aos mais práticos.
