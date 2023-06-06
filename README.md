@@ -559,5 +559,21 @@ Além daqueles já apresentados, o React Native possui outros componentes nativo
 
 > **Saiba mais**: Consulte a documentação oficial para obter mais detalhes sobre outros componentes. Pratique também seu conhecimento com os códigos apresentados neste material, combinando suas utilizações e gerando, com isso, interfaces mais ricas e completas.
 
+### SamuraiCam
+- https://devsamurai.com.br/react-native-camera/
+
+Vamos aprender como usar a câmera no React Native:
+ 
+```sh
+react-native init SamuraiCam
+
+cd SamuraiCam
+npm add react-native-vector-icons
+react-native link react-native-vector-icons
+npm add react-native-camera
+react-native link react-native-camera
+npm run android
+```
+
 
 <!-- # 📖 React Native Navigation -->
