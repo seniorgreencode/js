@@ -174,8 +174,11 @@ npm start
 ```
 
 # 📲 `Hello, World!` - React Native (CLI)
+Após termos realizado a configuração de nosso ambiente com o Expo CLI ou o React Native CLI, estamos prontos para iniciar o processo de desenvolvimento. Você pode dar seus próximos passos ao analisar a estrutura de pastas criadas por default nas aplicações usadas como teste e até mesmo modificando o código gerado inicialmente (para isso, edite o arquivo `App.js`).
+
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
-```jsx
+
+```javascript
 import React, {Component} from "react";
 import {Plataform, Stylesheet, Text, View} from "react-native";
  
@@ -183,4 +186,6 @@ export default class App extends Component {
 }
 ```
 
-# 📖 React Native Navigation
+
+
+<!-- # 📖 React Native Navigation -->
