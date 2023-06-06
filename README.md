@@ -319,7 +319,7 @@ Em React, os componentes são escritos utilizando o JSX e estão agrupados em di
   </tr>
 </table>
 
-## View
+### `View`
 A `View` é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
 
 > Lembra muito o termo View do padrão de projeto MVC (Model View Controller), mas nesse caso, são coisas distintas, veja abaixo:
@@ -348,6 +348,53 @@ const ViewExemplo = () => {
 };
 
 export default ViewExemplo;
+```
+
+O componente `View` ainda possui vários atributos, além de poder “ouvir e responder” a alguns eventos.
+
+> **Saiba mais**: Consulte a documentação do React Native para conhecer mais detalhes sobre ele.
+
+### `Text`
+Este componente é utilizado para a apresentação de textos. Ele suporta aninhamento, estilização e manuseio de toque.
+
+O exemplo a seguir mostra a utilização aninhada de dois elementos `Text`. Além disso, nesse exemplo, o componente é estilizado com uso do StyleSheet:
+
+```jsx
+import React, { useState } from "react";
+import { Text, StyleSheet } from "react-native";
+
+const TextoAninhado = () => {
+  const [titulo, setTitulo] = useState("Texto do elemento filho");
+
+  const modificaTexto = () => {
+	setTitulo("Esse texto está sendo exibido pois o primeiro elemento de texto foi pressionado/tocado");
+  };
+
+  return (
+	<Text style={styles.baseText}>
+	  <Text style={styles.titulo} onPress={modificaTexto}>
+		{titulo}
+		{"\n"}
+		{"\n"}
+	  </Text>
+	</Text>
+  );
+};
+
+const styles = StyleSheet.create({
+  baseText: {
+	fontFamily: "Verdana",
+	marginTop:50,
+	marginLeft:10
+  },
+  titulo: {
+	marginTop:10,
+	fontSize: 18,
+	fontWeight: "bold"
+  }
+});
+
+export default TextoAninhado;
 ```
 
 <!-- # 📖 React Native Navigation -->
