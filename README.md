@@ -694,4 +694,38 @@ Após ter decidido qual conjunto de ferramentas será utilizado na depuração d
 
 Este passo a passo contém algumas dicas para ajudá-lo ao longo dessa etapa:
 
+### Confrontar o resultado esperado com o resultado obtido
+Nosso aplicativo normalmente realiza uma série de ações, como obter dados externos ou realizar cálculos, por exemplo. Por isso, há uma série de resultados esperados para cada uma dessas ações.
+
+O primeiro passo consiste, portanto, em isolar uma das ações realizadas no aplicativo e analisá-la, a fim de verificar se o resultado dela corresponde ao esperado (conforme as definições realizadas na fase de análise e planejamento do software). Tendo feito isso para uma ação, devemos repetir o mesmo procedimento para as demais etapas.
+
+### Analisar os (eventuais) erros obtidos
+Ao se deparar com um erro durante o processo de depuração, é preciso analisar o que levou à sua ocorrência. As causas podem ser várias, desde erro no código-fonte até motivos externos. Por exemplo, se o aplicativo depender da obtenção de dados provenientes de uma API externa e ela estiver indisponível, teremos um erro em nosso software.
+
+Esse tipo de erro pode ser rapidamente identificado pelos logs do console no inspecionador de elementos. Além disso, outros erros de código JavaScript também podem ser diagnosticados por intermédio do console.
+
+Na análise dos erros, é bastante comum esquecer a instanciação das variáveis ou não as utilizar dentro do seu real escopo (variáveis locais versus globais). Nesse caso — e conforme apontamos no passo anterior —, o erro não será tão evidente, não será possível vê-lo de forma destacada no console, mas é possível identificá-lo ao se obter um resultado diferente daquele esperado.
+
+### Isolar cenários de execução
+Durante o planejamento de software, é comum definir diferentes fluxos de execução para a aplicação. Em cada funcionalidade, existem:
+
+- Fluxos básicos
+- Fluxos alternativos
+
+Por conta disso, é importante isolar tais cenários e analisar se os erros acontecem em todos eles ou apenas em algum(s) específico(s).
+
+### Utilizar pontos de interrupção
+Em muitas situações, existe a necessidade de depurar o código desenvolvido por outros programadores. Nesses casos, pode-se não ter em mãos a documentação ou sequer conhecer os fluxos e o funcionamento da aplicação.
+
+Uma boa estratégia aqui é identificar o ponto de entrada da aplicação, ou seja, o fluxo pelo qual a aplicação começa a ser executada.
+
+Normalmente, existe uma tela de login; após seu processamento, em caso de sucesso, determinado fluxo é executado. Isso geralmente é um bom ponto de partida.
+
+Fazendo uso de uma IDE, deve-se inserir pontos de interrupção (ou pontos de pausa; nas IDEs, eles normalmente são chamados de breakpoints) nesse fluxo e começar a depurar o código a partir deles. As IDEs fornecem meios de seguir o fluxo de execução da aplicação ao analisarem sua sequência de forma automatizada.
+
+> Ao longo deste módulo, apresentamos algumas ferramentas e técnicas para a depuração de aplicativos. Entretanto, tal conteúdo é extenso, contando ainda com várias outras ferramentas entre elas, a utilização de plug-ins em diferentes IDEs. Tendo isso em vista e após ter visto na prática e testado as ferramentas aqui esquematizadas, procure aprofundar seu conhecimento. Um bom ponto de partida é a documentação do próprio React Native, que possui vários tópicos sobre esse assunto.
+
+
+
+
 <!-- # 📖 React Native Navigation -->
