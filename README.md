@@ -279,7 +279,7 @@ No desenvolvimento específico para Android e iOS, as views são construídas ut
 
 Em React, os componentes são escritos utilizando o JSX e estão agrupados em diferentes categorias. Os elementos principais estão destacados no quadro a seguir. Os componentes correspondentes em cada tecnologia que constam nela, por sua vez, serão descritos em detalhes na sequência.
 
-<table>
+<table width="100%">
 	<tr><td colspan="4" align="center">Componentes</td></tr>
 	<tr>
 		<th>Componente UI React Native</th>
