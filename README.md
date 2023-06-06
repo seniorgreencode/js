@@ -736,4 +736,20 @@ Como primeiro passo para a esquematização da interface e interatividade de nos
 
 - Elaborada: Incluindo protótipos e requisitos, como paleta de cores e restrições visuais ou estruturais, além de outros aspectos.
 
+Como exercício, confeccionaremos juntos a lista de funcionalidades de um aplicativo bancário. Por meio desse app, deve ser possível, graças ao fluxo básico, realizar as seguintes atividades:
+
+1. Logar com as credenciais (usuário e senha) previamente fornecidas pela instituição bancária.
+
+2. Após o login, o usuário deverá visualizar, de imediato, um resumo de seu saldo e os últimos lançamentos realizados em sua conta.
+
+3. Na primeira tela após o login, deverá ser possível exibir banners publicitários rotativos para o usuário.
+
+4. As demais ações ou opções disponíveis, após o usuário se logar, são:
+
+  - Consulta de extrato detalhado.
+  - Pagamento de contas.
+  - Transferência bancária.
+  - Consulta de fatura e lançamentos de cartão de crédito.
+  - Consulta de investimento financeiro.
+
 <!-- # 📖 React Native Navigation -->
