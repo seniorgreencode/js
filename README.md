@@ -320,9 +320,11 @@ Em React, os componentes são escritos utilizando o JSX e estão agrupados em di
 </table>
 
 ## View
-A **View** é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
+A `View` é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
 
-O fragmento de código adiante demonstra, de forma simples, a utilização de uma view como contêiner de outra view e de um elemento Text:
+> Lembra muito o termo View do padrão de projeto MVC (Model View Controller), mas nesse caso, são coisas distintas, veja abaixo:
+
+O fragmento de código adiante demonstra, de forma simples, a utilização de uma view como contêiner de outra view e de um elemento `Text`:
 
 [![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
 
