@@ -188,6 +188,30 @@ export default class App extends Component {
 }
 ```
 
+# 📲 `Hello, World!` - React Native (Expo)
+Após termos realizado a configuração de nosso ambiente com o Expo CLI ou o React Native CLI, estamos prontos para iniciar o processo de desenvolvimento. Você pode dar seus próximos passos ao analisar a estrutura de pastas criadas por default nas aplicações usadas como teste e até mesmo modificando o código gerado inicialmente (para isso, edite o arquivo `App.js`).
 
+[![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+
+```javascript
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { Stylesheet, Text, View } from "react-native";
+ 
+export default function App () {
+  return(
+    <View style={styles.container}>
+      <Text>SEU TEXTO AQUI</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#fff',
+    alignItems: 'center', justifyContent: 'center',
+  },
+});
+```
 
 <!-- # 📖 React Native Navigation -->
