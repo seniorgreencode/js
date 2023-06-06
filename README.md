@@ -322,19 +322,16 @@ Em React, os componentes são escritos utilizando o JSX e estão agrupados em di
 O React Native possui alguns componentes nativos que são transpilados para os componentes equivalentes em cada plataforma onde o aplicativo é executado. Além disso, pode-se criar os próprios componentes customizados. Por outro lado, caso se utilize um componente não existente entre os nativos ou que não tenha sido criado por nós mesmos (ou seja, um importado para o projeto), a aplicação retornará um erro, informando que o elemento em questão não existe. Como, por exemplo:
 
 ```jsx
-	export default function App() {
-		return (
-			<Div style={styles.container}>
-				<Text style={styles.paragraph}>
-					Change code in the editor and watch it change on your phone! Save to get a 
-	shareable url.
-				</Text>
-				<Card>
-					<AssetExample />
-				</Card>
-			</Div>
-		);
-	}
+export default function App() {
+  return (
+    <Div style={styles.container}>
+	<Text style={styles.paragraph}>Change code in the editor and watch it change on your phone! Save to get a shareable url.</Text>
+	<Card>
+	  <AssetExample />
+	</Card>
+    </Div>
+  );
+}
 ```
 
 > Será exibido um erro informando que a variável “`Div`” não existe.
