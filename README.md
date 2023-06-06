@@ -238,7 +238,7 @@ Aprofundando um pouco os conceitos, o JSX também é conhecido como JavaScript X
 
 Este fragmento de código mostra a forma de um elemento JSX:
 
-[![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=aqua)](#)
+[![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
 
 ```jsx
 var element = (
@@ -318,5 +318,34 @@ Em React, os componentes são escritos utilizando o JSX e estão agrupados em di
 		<td>&lt;div&gt;</td>
   </tr>
 </table>
+
+## View
+A **View** é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
+
+O fragmento de código adiante demonstra, de forma simples, a utilização de uma view como contêiner de outra view e de um elemento Text:
+
+[![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
+
+```jsx
+import React from "react";
+import { View, Text } from "react-native";
+
+const ViewExemplo = () => {
+  return (
+	<View
+	  style={{
+		flexDirection: "row",
+		height: 100,
+		padding: 20
+	  }}
+	>
+	  <View style={{ backgroundColor: "red", flex: 0.5 }} />
+	  <Text>Hello, World!</Text>
+	</View>
+  );
+};
+
+export default ViewExemplo;
+```
 
 <!-- # 📖 React Native Navigation -->
