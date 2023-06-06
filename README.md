@@ -279,4 +279,43 @@ No desenvolvimento específico para Android e iOS, as views são construídas ut
 
 Em React, os componentes são escritos utilizando o JSX e estão agrupados em diferentes categorias. Os elementos principais estão destacados no quadro a seguir. Os componentes correspondentes em cada tecnologia que constam nela, por sua vez, serão descritos em detalhes na sequência.
 
+<table>
+	<tr>
+		<th>Componente UI React Native</th>
+		<th>Componente Android</th>
+		<th>Componente iOS</th>
+		<th>Elemento HTML</th>
+	</tr>
+	<tr>
+		<td>&lt;View&gt;</td>
+		<td>&lt;ViewGroup&gt;</td>
+		<td>&lt;UIView&gt;</td>
+		<td>&lt;div&gt;</td>
+	</tr>
+	<tr>
+		<td>&lt;Text&gt;</td>
+	  <td>&lt;TextView&gt;</td>
+		<td>&lt;UITextView&gt;</td>
+		<td>&lt;p&gt;</td>
+	</tr>
+	<tr>
+		<td>&lt;Image&gt;</td>
+		<td>&lt;ImageView&gt;</td>
+		<td>&lt;UIImageView&gt;</td>
+		<td>&lt;img&gt;</td>
+	</tr>
+	<tr>
+		<td>&lt;TextInput&gt;</td>
+		<td>&lt;EditText&gt;</td>
+		<td>&lt;UITextField&gt;</td>
+		<td>&lt;input type=”text”&gt;</td>
+  </tr>
+	<tr>
+	  <td>&lt;ScrollView&gt;</td>
+		<td>&lt;ScrollView&gt;</td>
+		<td>&lt;UIScrollView&gt;</td>
+		<td>&lt;div&gt;</td>
+  </tr>
+</table>
+
 <!-- # 📖 React Native Navigation -->
