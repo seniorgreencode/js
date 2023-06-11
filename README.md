@@ -18,6 +18,7 @@
 </div>
 
 - https://javascript.info
+- https://github.com/ryanmcdermott/clean-code-javascript
 - https://github.com/braziljs/eloquente-javascript/blob/master/pdf/livro.pdf
 - https://developers.google.com/blockly
 - https://www.code.org
