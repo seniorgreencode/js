@@ -244,7 +244,7 @@ Aprofundando um pouco os conceitos, o JSX também é conhecido como JavaScript X
 
 Este fragmento de código mostra a forma de um elemento JSX:
 
-[![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
+[![App.jsx](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=blue)](#)
 
 ```jsx
 var element = (
