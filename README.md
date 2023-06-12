@@ -349,7 +349,7 @@ A `View` é o principal componente na construção de uma interface gráfica de 
 
 O fragmento de código adiante demonstra, de forma simples, a utilização de uma view como contêiner de outra view e de um elemento `Text`:
 
-[![App.js](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
+[![App.js](https://img.shields.io/badge/-App.jsx-000?style=social&logo=React&logoColor=62cdf5)](#)
 
 ```jsx
 import React from "react";
@@ -382,7 +382,7 @@ Este componente é utilizado para a apresentação de textos. Ele suporta aninha
 
 O exemplo a seguir mostra a utilização aninhada de dois elementos `Text`. Além disso, nesse exemplo, o componente é estilizado com uso do StyleSheet:
 
-[![App.jsx](https://img.shields.io/badge/-JSX-000?style=social&logo=React&logoColor=cyan)](#)
+[![App.jsx](https://img.shields.io/badge/-App.jsx-000?style=social&logo=React&logoColor=62cdf5)](#)
 
 ```jsx
 import React, { useState } from "react";
