@@ -729,12 +729,12 @@ Fazendo uso de uma IDE, deve-se inserir pontos de interrupção (ou pontos de pa
 
 > Ao longo deste módulo, apresentamos algumas ferramentas e técnicas para a depuração de aplicativos. Entretanto, tal conteúdo é extenso, contando ainda com várias outras ferramentas entre elas, a utilização de plug-ins em diferentes IDEs. Tendo isso em vista e após ter visto na prática e testado as ferramentas aqui esquematizadas, procure aprofundar seu conhecimento. Um bom ponto de partida é a documentação do próprio React Native, que possui vários tópicos sobre esse assunto.
 
-# 👨🏾‍💻 Interface interativa de um aplicativo mobile
+# 👨🏾‍💻 Interface Gráfica Com React Native
 O processo de desenvolvimento de aplicativos envolve uma série de conhecimentos. Entre eles, destacam-se a organização do processo como um todo e o conhecimento de ferramentas, bibliotecas e demais recursos a serem utilizados no projeto.
 
 Este conteúdo tem como um de seus principais objetivos apresentar alguns dos recursos e componentes disponíveis no framework React Native que estão voltados para a construção da interface gráfica: os elementos de interatividade, navegação e estilização. Ao final deste texto, teremos visto os conceitos necessários para a construção da interface normalmente composta por telas e componentes reutilizáveis de um aplicativo mobile.
 
-## Interface Gráfica Com React Native
+## Interface interativa de um aplicativo mobile
 Como primeiro passo para a esquematização da interface e interatividade de nosso aplicativo mobile, devemos ter em mãos as suas funcionalidades, ou seja, precisamos conhecer tudo o que o aplicativo deverá fazer e tudo o que poderá ser feito por meio dele. Essa lista de funcionalidades pode ser:
 
 - Simples: Como uma mera lista.
