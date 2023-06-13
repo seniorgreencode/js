@@ -769,6 +769,16 @@ Como exercício, confeccionaremos juntos a **lista de funcionalidades de um apli
    - Consulta de fatura e lançamentos de cartão de crédito.
    - Consulta de investimento financeiro.
 
+Já no fluxo alternativo, que acontece quando o usuário não se loga, tem de ser possível:
+
+1. Exibir os canais de contato.
+2. Exibir banners rotativos de publicidade.
+
+As funcionalidades descritas, embora bastante reduzidas na comparação com um aplicativo real, nos ajudam a começar o planejamento da interface de nosso aplicativo. Graças a tais requisitos é possível, por exemplo, entender quantas telas existirão no aplicativo, assim como identificar os elementos de interação, desde botões simples até elementos visuais com função de publicidade.
+
+### Telas e elementos visuais
+Continuando nosso exercício e considerando os requisitos descritos, podemos fazer um primeiro esboço dos sete elementos que comporão a interface de nossa aplicação:
+
 ## Componentes de lista e multivalorados
 
 ## Principais modelos de navegação
