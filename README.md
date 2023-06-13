@@ -760,12 +760,11 @@ Como exercício, confeccionaremos juntos a **lista de funcionalidades de um apli
 3. Na primeira tela após o login, deverá ser possível exibir banners publicitários rotativos para o usuário.
 
 4. As demais ações ou opções disponíveis, após o usuário se logar, são:
-
-  - Consulta de extrato detalhado.
-  - Pagamento de contas.
-  - Transferência bancária.
-  - Consulta de fatura e lançamentos de cartão de crédito.
-  - Consulta de investimento financeiro.
+   - Consulta de extrato detalhado.
+   - Pagamento de contas.
+   - Transferência bancária.
+   - Consulta de fatura e lançamentos de cartão de crédito.
+   - Consulta de investimento financeiro.
 
 ## Componentes de lista e multivalorados
 
