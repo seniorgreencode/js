@@ -741,6 +741,8 @@ Um importante passo antes de se iniciar, de fato, a codificação de um aplicati
 
 Para isso, é preciso ter em mente não só os requisitos de software, ou seja, as funcionalidades do aplicativo, mas também como tais funcionalidades devem estar dispostas, como são acessadas por meio da navegação pelo aplicativo e, por fim, mas não somente, como se dispõe cada elemento da interface gráfica de modo a criar a melhor experiência possível para o usuário.
 
+Tendo em mente a disposição dos elementos da interface gráfica citada, destacaremos adiante algumas técnicas para a definição da interface de um aplicativo mobile.
+
 Como primeiro passo para a esquematização da interface e interatividade de nosso aplicativo mobile, devemos ter em mãos as suas funcionalidades, ou seja, precisamos conhecer tudo o que o aplicativo deverá fazer e tudo o que poderá ser feito por meio dele. Essa lista de funcionalidades pode ser:
 
 - Simples: Como uma mera lista.
