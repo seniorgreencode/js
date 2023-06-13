@@ -1,3 +1,6 @@
+<a href="https://github.com/IsaacAlves7/js/tree/vanilla">![JS](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678975381">![TS](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=ffffff)</a>
+<a href="https://github.com/IsaacAlves7/js/tree/node.js">![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff)</a> <a href="https://github.com/IsaacAlves7/js/tree/node.js">![Deno](https://img.shields.io/badge/Deno-0a0a0a?style=for-the-badge&logo=Deno&logoColor=ffffff)</a> <a href="https://github.com/IsaacAlves7/js/tree/react.js">![React.js](https://img.shields.io/badge/React.js-000000?style=for-the-badge&logo=React&logoColor=61DAFB)</a>
+
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/React-Native"><img src="https://user-images.githubusercontent.com/61624336/131352203-c7781b9a-ef7d-4b8c-8254-bdafcef0bb6a.gif" width="100%"></a>
 
 # It's a repository of React Native Development 📲
