@@ -606,6 +606,10 @@ Nesse processo, é possível, entre algumas opções, realizar as seguintes aç�
 - Inserir instruções simples, como, por exemplo, “`console.log`” – Um pouco menos refinada, ela também é útil em muitas situações.
 
 ## FERRAMENTAS DE DEPURAÇÃO DE CÓDIGO
+<img src="https://github.com/IsaacAlves7/js/assets/61624336/64c5b382-0836-4383-9e50-61bc09bb6f81" align="right" height="177">
+
+> Visite também o site do Metro para mais detalhes: https://facebook.github.io/metro/
+
 Há várias ferramentas e técnicas disponíveis para o debug de aplicações React. Ao longo deste conteúdo, apresentaremos algumas delas, já que elas podem nos auxiliar no processo de depuração de aplicações escritas em React Native.
 
 A principal e mais simples ferramenta a ser apresentada é o console do navegador. Bastante útil em aplicações que utilizam o JavaScript e rodam no navegador, ele também pode ser usado para depurar os aplicativos React.
@@ -623,10 +627,6 @@ No React Native, contudo, o passo a passo é um pouquinho diferente. Nesse ambie
 - Depuração de código nativo
 
 A seguir, veremos mais detalhes de cada uma das formas apresentadas.
-
-<img src="https://github.com/IsaacAlves7/js/assets/61624336/64c5b382-0836-4383-9e50-61bc09bb6f81" align="right" height="177">
-
-> Visite também o site do Metro para mais detalhes: https://facebook.github.io/metro/
 
 A partir da janela do **Metro**, pressione a tecla “`d`”
 
