@@ -749,7 +749,9 @@ Como primeiro passo para a esquematização da interface e interatividade de nos
 
 - Elaborada: Incluindo protótipos e requisitos, como paleta de cores e restrições visuais ou estruturais, além de outros aspectos.
 
-Como exercício, confeccionaremos juntos a lista de funcionalidades de um aplicativo bancário. Por meio desse app, deve ser possível, graças ao fluxo básico, realizar as seguintes atividades:
+[![App.jsx](https://img.shields.io/badge/-Lista-de-funcionalidades-de-um-app-bancário.jsx-000?style=social&logo=React&logoColor=62cdf5)](#)
+
+Como exercício, confeccionaremos juntos a **lista de funcionalidades de um aplicativo bancário**. Por meio desse app, deve ser possível, graças ao fluxo básico, realizar as seguintes atividades:
 
 1. Logar com as credenciais (usuário e senha) previamente fornecidas pela instituição bancária.
 
