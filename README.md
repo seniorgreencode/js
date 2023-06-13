@@ -626,6 +626,8 @@ A seguir, veremos mais detalhes de cada uma das formas apresentadas.
 
 <img src="https://github.com/IsaacAlves7/js/assets/61624336/64c5b382-0836-4383-9e50-61bc09bb6f81" align="right" height="177">
 
+> Visite também o site do Metro para mais detalhes: https://facebook.github.io/metro/
+
 A partir da janela do **Metro**, pressione a tecla “`d`”
 
 Em seguida, um novo menu será exibido no dispositivo virtual ou físico que você está utilizando. Entre as opções existentes, escolha Debug. Então uma nova janela do navegador será exibida. A partir dela, já é possível realizar a depuração.
