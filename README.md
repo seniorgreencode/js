@@ -1757,6 +1757,10 @@ Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e cr
 npm create vite@latest ./ -- --template react
 ```
 
+# Next.js
+- https://www.youtube.com/watch?v=PGPGcKBpAk8
+- https://youtu.be/mj_Qe2jBYS4
+
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
 <img src="https://miro.medium.com/max/3440/1*Rvs7u_g6dnDTRF-FMY4vsA.png"/>
