@@ -201,15 +201,7 @@ Esse código intermediário não é específico para uma plataforma, possibilita
 <blockquote>Duas importantes linguagens implementaram essa solução, com diferentes formas usando máquinas virtuais: <b>Python</b> e <b>Java</b>.</blockquote>
 
 # 📜 The History of JavaScript (JS)
-<div align="center">
-
-<table>
-    <tr>
-        <td><img src="https://avatars.githubusercontent.com/u/313317?v=4" height="177"></td>
-         <td><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="177"></td>
-    </tr>
-</table>
-</div>
+<img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right">
 
 Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela.
 
