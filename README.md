@@ -11,8 +11,7 @@ https://king.host/blog/wp-content/uploads/2018/05/2018-05-08-img-blog-node-socke
 -->
 
 # ✌️ Vue.js
-
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="170"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right">
 
 <p>O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
   
