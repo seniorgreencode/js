@@ -107,11 +107,12 @@ sudo apt install nodejs
 ```
 
 # 📦 `npm` - Node Package Manager
-<a href="https://www.npmjs.com/"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="177" title="Site do NPM" align="right"/></a>
+<a href="https://www.npmjs.com/"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" title="Site do NPM" align="right"/></a>
 
 O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node.js, mesmo sendo o gerenciador ele também é independente do Node.js. É através do NPM que podemos instalar a bibliotecas do Node para desenvolver qualquer tipo de aplicação.
 
-## Inicializando o projeto com o `package.json`
+Inicializando o projeto com o `package.json`:
+
 [![NPM](https://img.shields.io/badge/-npm_init-fff?style=social&logo=npm&logoColor=red)](#) [![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 
 ```sh
@@ -120,29 +121,28 @@ npm init
 
 <img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
-
-### Listando todos os pacotes instalados pelo NPM (local)
+Listando todos os pacotes instalados pelo NPM (local):
 [![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
 
 ```sh
 npm list -g --depth=0
 ```
 
-### Atualizando o NPM para a versão mais recente
+Atualizando o NPM para a versão mais recente:
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
 sudo npm install npm -g
 ```
 
-### Removendo/ Desinstalando um pacote do NPM (local)
+Removendo/ Desinstalando um pacote do NPM (local):
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
 npm -g uninstall <nome do pacote>
 ```
 
-### NPM Save
+NPM Save:
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -150,7 +150,7 @@ npm install <pacote> --save
 ```
 
 # 🧶 `yarn` - yet another resource negotiator
-<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="177" align="right">
+<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
 
