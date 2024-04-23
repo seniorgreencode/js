@@ -241,14 +241,14 @@ Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printa
 npm install express
 ```
 
-<!-- 
+
 ## Socket.io
-<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
 
 - https://www.igniterealtime.org/downloads/#spark
-- https://pusher.com/ -->
+- https://pusher.com/
 
 ## AdonisJS 
 
@@ -339,7 +339,7 @@ Quando a sua operação principal acabar, ela vai chamar a sua função de Callb
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
 # ☁️ Cloudnary
-<img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="177" align="right">
+<img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="77" align="right">
 
 Vamos fazer os uploads das fotos de perfil ou outros documentos, mas para isso será preciso algum ambiente com capacidade de armazenamento eficaz para tal tarefa. Isso é a escolha, alguns utilizam algum serviço de armazenamento na computação em nuvem como o **Amazon S3 - Simple Storage Service**, porém iremos utilizar o **Cloudnary**.
 
@@ -352,27 +352,27 @@ Em `Upload preset name` nomeie o projeto como `AUTOGLASS-CHAT` e depois clique e
 
 Na seção `Signing Mode:` configure para `Unsigned`, isso é muito importante para a aplicação funcionar! 
 
-### Cloud name
+Cloud name:
 ```
 isaacalves7
 ```
 
-### API Base URL
+API Base URL:
 ```
 https://api.cloudnary.com/v1_1/isaacalves7
 ```
 
-### API Environment variable
+API Environment variable:
 ```
 CLOUDINARY_URL=cloudinary://658366239586916:YDSdH0j38xHQhdDDhV3BAjgCRNE@isaacalves7
 ```
 
-### Base and Seccure delivery URL
+Base and Seccure delivery URL:
 ```
 http://res.cloudinary.com/isaacalves7
 ```
 
-### API do UPLOAD
+API do UPLOAD:
 ```
 https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
