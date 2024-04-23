@@ -378,7 +378,7 @@ https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
 
 # ⚛︎ GraphQL
-<a href="https://graphql.org/"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="177" align="right"></a>
+<a href="https://graphql.org/"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="77" align="right"></a>
 
 O **GraphQL** é uma especificação para criar e usar APIs que têm sua própria linguagem de query. O que isso significa então? É que às vezes o Graphql é entendido ou é percebido como sendo uma tecnologia voltada para bancos de dados, ele não é. Ele é uma especificação para APIs, para escrever, criar e utilizar APIs e não está ligado a nenhum tipo de banco, inclusive ele pode ser usado com qualquer base de dados, ou mesmo nenhuma base de dados.
 
@@ -444,7 +444,7 @@ const { ApolloServer } = require('apollo-server')
 const server = new ApolloServer()
 ```
 
-<a href="https://www.apollographql.com/docs/apollo-server/"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" align="right" height="177"></a>
+<a href="https://www.apollographql.com/docs/apollo-server/"><img src="https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg" align="right" height="77"></a>
 
 O GraphQL faz uma separação clara entre **estrutura** e **comportamento**.
 
