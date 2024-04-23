@@ -42,7 +42,7 @@ Antigamente, o JavaScript foi feito apenas para rodar na interface/ cliente dos 
 
 Com o Node.js conseguimos criar:
 
-<a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js/assets/61624336/da0c322f-1825-481f-995f-bab669f7e326" height="177" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js/assets/61624336/da0c322f-1825-481f-995f-bab669f7e326" height="77" title="Site do Node.js" align="right"/></a>
 
 - Páginas interativas e dinâmicas;
 - Jogos eletrônicos;
@@ -61,7 +61,7 @@ Com o Node.js conseguimos criar:
 
 Porque usar o Node.js?
 
-<a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="177" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="77" align="right"/></a>
 
 - Muito leve;
 - Muito rápido;
@@ -133,6 +133,21 @@ Atualizando o NPM para a versão mais recente:
 
 ```sh
 sudo npm install npm -g
+```
+
+Instalando um pacote com npm:
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```sh
+npm install <pacote>
+```
+
+Instalando vários pacotes:
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```sh
+npm i <pacote> <pacote> <pacote> ...
 ```
 
 Removendo/ Desinstalando um pacote do NPM (local):
