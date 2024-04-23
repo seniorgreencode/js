@@ -257,7 +257,11 @@ node index.js
 - http://vitaly-t.github.io/pg-promise/
 
 ## Nodemon
-<div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="177" title="Site do Node.js"/></a></div><br \>
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+**Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
+
+Com o Nodemon, os desenvolvedores podem manter um ciclo de desenvolvimento mais ágil e eficiente, permitindo que eles se concentrem na escrita do código sem interrupções para reiniciar o servidor. Além disso, o Nodemon oferece várias opções de configuração, permitindo que os desenvolvedores personalizem seu comportamento de acordo com as necessidades específicas do projeto.
 
 ## Node-Sass
 <div align="center"><a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/node-sass.svg" height="177" title="Site do Node.js"/></a></div><br \>
