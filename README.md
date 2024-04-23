@@ -23,16 +23,16 @@
 
 - chrome://inspect/#devices -->
 
-# ⬢ Node.js <img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> 
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="177" title="Site do Node.js" align="right"/></a>
+# ⬢ Node.js 
+<img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> 
+
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 (A engine/ motor do Google Chrome) fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
 
-<img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="100" title="Site do Node.js" align="left"/>
+<img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do Node.js" align="left"/>
 
-> Em setembro de 2008 a Google lançou seu navegador, o **Google Chrome**. O Chrome tem um interpretador/motor (engine) de JavaScript muito poderoso, o **V8**. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
->
-> O V8 "compila" o JavaScript, mas por trás ele executa a linguagem **C++**. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
+Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador/motor (engine) de JavaScript muito poderoso, o **V8**. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc. O V8 "compila" o JavaScript, mas por trás ele executa a linguagem **C++**. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
   
 Empresas grandes começaram a migrar de linguagens como Ruby e Java para o Node.js, como é o caso do PayPal, Yahoo!, eBay, Linkedin e Trello. Todas elas afirmam que conseguiram desenvolver em menos tempo, com menos linhas de códigos e que seus sistemas agora possuem um melhor desempenho.
 
@@ -73,7 +73,6 @@ Porque usar o Node.js?
 - Muitas bibliotecas feitas com o Node.js e o JavaScript;
 - Posso utilizar a linguagem JavaScript tanto pro back-end quanto pro front-end, não preciso de outras linguagens para isso! Uma só já basta.
 
-## Instalação do Node.js
 <a href="https://nodejs.org/en/"><img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-01-tela-boas-vindas.png" height="270" title="Site do Node.js" align="right"/></a>
 
 O primeiro passo é instalar o Node.js, tendo consequentemente o NPM instalado. Ele pode ser instalado de duas maneiras:
@@ -99,11 +98,9 @@ npm -v
 
 > Sempre recomendo que instale a versão LTS.
 
-### Windows
-- https://nodejs.org/en/
+Windows: https://nodejs.org/en/
 
-### Linux
-No diretório do usuário (root):
+Linux: No diretório do usuário (root):
 
 ```sh
 sudo apt install nodejs
@@ -177,8 +174,14 @@ console.log(Hello, World)
 Ele exibirá no console do seu terminal, utilize o comando:
 
 #### Startar a aplicação no console do terminal
-```
+```sh
 node app.js
+```
+
+Caso, você faça muitas alterações e não deseja parar a execução do terminal, recomendo usar o comando `node --watch`, onde qualquer alteração que fizer o terminal será atualizado instantaneamente:
+
+```sh
+node --watch app.js
 ```
 
 Vamos fazer um código mais elaborado!
