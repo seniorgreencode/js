@@ -143,6 +143,16 @@ Instalando vários pacotes:
 npm i <pacote 1> <pacote 2> <pacote 3> ... <pacote n>
 ```
 
+[![package-lock.json](https://img.shields.io/badge/-package--lock.json-fff?style=social&logo=Node.js&logoColor=green)](#) [![node_modules](https://img.shields.io/badge/-./node__modules-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+Após os pacotes serem instalados, será criado a pasta `node_modules` que carrega todas as dependências dos pacotes instalados pelo npm e o arquivo `package-lock.json` é gerado automaticamente pelo npm (Node Package Manager) sempre que você instala ou atualiza os pacotes de uma aplicação Node.js usando o comando `npm install`. Ele registra a árvore exata de dependências instaladas, incluindo as versões específicas de cada pacote e suas dependências transitivas. Este arquivo é importante para garantir que as versões exatas das dependências sejam instaladas em ambientes de desenvolvimento e produção, evitando inconsistências entre diferentes instalações do projeto. Ele é usado principalmente para garantir a reproducibilidade das instalações de pacotes, o que é crucial para garantir que a aplicação funcione de forma consistente em diferentes máquinas e ambientes.
+
+O `package-lock.json` é especialmente útil em projetos colaborativos, onde diferentes desenvolvedores podem ter configurações de ambiente ligeiramente diferentes. Ele fornece uma especificação precisa das dependências para garantir que todos os desenvolvedores estejam trabalhando com as mesmas versões de pacotes.
+
+> Recomenda-se ignorar a pasta `node_modules` ao fazer o controle de versões, mas é recomendado subir o arquivo `package-lock.json`.
+
+Além disso, o `package-lock.json` também ajuda a garantir que as dependências sejam instaladas de forma rápida e eficiente, evitando a necessidade de resolver novamente as versões de pacotes durante cada instalação. Isso é especialmente útil em ambientes de CI/CD (Integração Contínua/Entrega Contínua), onde a velocidade e a consistência das instalações de pacotes são importantes para o fluxo de trabalho de desenvolvimento.
+
 <img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
 
 Listando todos os pacotes instalados pelo NPM (local):
