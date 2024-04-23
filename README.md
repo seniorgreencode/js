@@ -119,16 +119,8 @@ Inicializando o projeto com o `package.json`:
 npm init
 ```
 
-<img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
-
-Listando todos os pacotes instalados pelo NPM (local):
-[![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
-
-```sh
-npm list -g --depth=0
-```
-
 Atualizando o NPM para a versão mais recente:
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -136,6 +128,7 @@ sudo npm install npm -g
 ```
 
 Instalando um pacote com npm:
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -150,7 +143,18 @@ Instalando vários pacotes:
 npm i <pacote> <pacote> <pacote> ...
 ```
 
+<img src="https://i.stack.imgur.com/VQVGv.gif" align="right">
+
+Listando todos os pacotes instalados pelo NPM (local):
+
+[![NPM](https://img.shields.io/badge/-npm-fff?style=social&logo=npm&logoColor=red)](#)
+
+```sh
+npm list -g --depth=0
+```
+
 Removendo/ Desinstalando um pacote do NPM (local):
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -158,6 +162,7 @@ npm -g uninstall <nome do pacote>
 ```
 
 NPM Save:
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
