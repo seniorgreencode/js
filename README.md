@@ -22,7 +22,7 @@
 - Adicione o fluxo de dados inverso
 
 # ⚛️ React.js
-<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="177" align="right"></a>
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right"></a>
 
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
 
@@ -37,14 +37,20 @@ Foi criada em 2011 por <a href="https://github.com/jordwalke">Jordan Walke</a> n
 
 O **React.js** trabalha muito com componentização para criação de interfaces, ou seja, ele é **baseado em componentes** como se fossem pequenas caixinhas e consegue trabalhar em conjunto com outros frameworks JavaScript, como jQuery, Vue.js ou Angular, ou outras linguagens de programação como Ruby, PHP, Python etc..., isso é claro, tomando o devido cuidado, dependendo de qual for o caso do projeto ou caso de uso, você consegue utilizar sem problema algum.
 
-<a href="https://pt-br.reactjs.org/"><img src="https://icon-library.com/images/react-icon/react-icon-0.jpg" height="107" align="right"></a>
+<a href="https://pt-br.reactjs.org/"><img src="https://icon-library.com/images/react-icon/react-icon-0.jpg" height="77" align="right"></a>
 
 Ele possui um paradigma de linguagem de programação declarativa, ou seja, o React.js só está preocupado apenas com o que é exibido na interface do usuário.
 
 Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulares, criação de PWA, criação de Front-End com outros frameworks e linguagens, server-side render ou Next.js.
 
+Instalação do React:
+
+```sh
+npm install -g create-react-app
+```
+
 ## Configuração do React.js
-<img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="17%" />
+<img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="77" />
 
 - React Create App
 - React Scripts
@@ -74,13 +80,6 @@ Com o comando `npm init` podemos iniciar e configurar o arquivo `package.json`, 
 [![./node_modules/](https://img.shields.io/badge/-./node_modules/-fff?style=social&logo=Node.js&logoColor=339933)](#)
 
 Após criar o `package.json`, o segundo comando irá instalar o React.js juntamente com o DOM e scripts para o melhor aproveitamento da biblioteca, note que irá surgir o `package-lock.json` e a pasta `.node_modules`, isso comprova que o módulo da biblioteca foi instalado corretamente na pasta.
-
-> Vão existir casos em que você verá que a sua aplicação ficou muito volumosa para enviar para o repositório remoto ou outro tipo de ambiente. Se for o caso de precisar reduzir o volume, recomendo utilizar o arquivo `.gitignore` para ignorar os módulos, mesmo assim se tiver ainda volumoso, você pode excluir o `.node_modules` e o `package-lock.json` sem problemas, basta excluir pela seguinte ordem:
-> 
-> 1. <del>package.json</del>
-> 2. <del>./node_modules/</del>
-> 
-> Com isso, você ficará somente com o `package.json` que é responsável por administrar os pacotes e a inicialização da sua aplicação. Note que em `dependences` possui todas as dependências ainda lá, então, você só precisa rodar o comando `npm install` ou `npm i` para que as dependências sejam instaladas novamente.
 
 ## Iniciando a aplicação
 [![NPM](https://img.shields.io/badge/-npm_run_start-fff?style=social&logo=NPM&logoColor=red)](#)
