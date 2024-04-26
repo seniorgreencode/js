@@ -308,7 +308,7 @@ O React foi projetado desde o início para adoção gradual, e você pode usar o
 ## Vite
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77" align="right"></a>
 
-O Vite é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto (boilerplate). Algumas especialidades dele incluem:
+O **Vite** é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto (boilerplate). Algumas especialidades dele incluem:
 
 - Um servidor de desenvolvimento que atende seus arquivos de origem em módulos ES nativos, com recursos integrados avançados e substituição de módulo quente (HMR) surpreendentemente rápida.
 - Um comando de compilação que agrupa seu código com Rollup, pré-configurado para produzir ativos estáticos altamente otimizados para produção.
@@ -318,7 +318,7 @@ Além disso, o Vite é altamente extensível por meio de sua API de plug-in e AP
 ## Meteor.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="77" title="Site do Node.js" align="right"/></a>
 
-O Meteor.js é uma plataforma de código aberto para criar e implantar aplicativos Web, móveis e de desktop em Javascript ou TypeScript. O Meteor, ou MeteorJS, é um framework web JavaScript isomórfico parcialmente proprietário, principalmente livre e de código aberto, escrito usando Node.js. O Meteor permite a prototipagem rápida e produz código multiplataforma.
+O **Meteor.js** é uma plataforma de código aberto para criar e implantar aplicativos Web, móveis e de desktop em Javascript ou TypeScript. O Meteor, ou MeteorJS, é um framework web JavaScript isomórfico parcialmente proprietário, principalmente livre e de código aberto, escrito usando Node.js. O Meteor permite a prototipagem rápida e produz código multiplataforma.
 
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
@@ -338,9 +338,11 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 
 Seu grande diferencial é a opção de conseguimos controlar o método de renderização que queremos para a nossa aplicação, que são:
 
-- SSR - Server-side Rendering
-- SPA - Single Page Aplication
-- SSG - Static Site Generation
+- SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React 
+  
+- SPA - Single Page Aplication: 
+
+- SSG - Static Site Generation: 
   
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
