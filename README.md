@@ -61,7 +61,8 @@ npx create-react-app client
 
 > Nos exemplos feitos, contrui mais modelos de **SPA** - _Single-Page Applications_ (React Create App) para trabalhar com o React.js, mas isso fica a seu critério.
 
-# Aprendendo a configurar a primeira aplicação
+Vamos aprender a configurar a primeira aplicação:
+
 [![NPM](https://img.shields.io/badge/-bootstrapping_a_react.js_project_with_npm-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -76,11 +77,12 @@ Com o comando `npm init` podemos iniciar e configurar o arquivo `package.json`, 
 > Se você não estiver usando o **NPM** como package manager, mas sim o **Yarn**, não tem problema, isso é a gosto!
 
 [![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-[![./node_modules/](https://img.shields.io/badge/-./node_modules/-fff?style=social&logo=Node.js&logoColor=339933)](#)
+[![./node_modules/](https://img.shields.io/badge/-./node__modules/-fff?style=social&logo=Node.js&logoColor=339933)](#)
 
 Após criar o `package.json`, o segundo comando irá instalar o React.js juntamente com o DOM e scripts para o melhor aproveitamento da biblioteca, note que irá surgir o `package-lock.json` e a pasta `.node_modules`, isso comprova que o módulo da biblioteca foi instalado corretamente na pasta.
 
-## Iniciando a aplicação
+Iniciando a aplicação:
+
 [![NPM](https://img.shields.io/badge/-npm_run_start-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```sh
@@ -98,11 +100,11 @@ A porta padrão para acessar a aplicação é a `3000`, caso tenha outro tipo de
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160663182-300647e6-65ee-49cb-ae03-0e4f2bb7abf0.jpg"></div>
 
 ## O que é JSX?
-<div align="center"><img src="https://daniel-vinicius.gallerycdn.vsassets.io/extensions/daniel-vinicius/code-snipptes-reactjs-pt-br/0.5.0/1610479284868/Microsoft.VisualStudio.Services.Icons.Default" height="177"></div><br \>
+<img src="https://daniel-vinicius.gallerycdn.vsassets.io/extensions/daniel-vinicius/code-snipptes-reactjs-pt-br/0.5.0/1610479284868/Microsoft.VisualStudio.Services.Icons.Default" height="77" align="right">
 
 O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcação criada para poder utilizar a linguagem de marcação **XML** e a linguagem de programação **JavaScript** no seu código-fonte. Não necessariamente ele precisa estar em um arquivo com extensão `.jsx`, mas pode sim estar em um arquivo `.html`, `.js` e etc, porém ele possui um volume menor em arquivos `.jsx` comparado com o demais.
 
-### Sintaxe do JSX
+Sintaxe do JSX:
 
 [![JSX](https://img.shields.io/badge/-JSX-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```javascript
@@ -113,12 +115,11 @@ O React.js não separa as tecnologias colocando marcação em arquivos separados
 
 Não é obrigatório a utilização do JSX. Ele é um **Sintax Suggar** para `React.createElement`.
 
-### Babel.js
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right">
 
 O browser não interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender o código. O mais utilizado é o **Babel**.
 
-### Criando o primeiro JSX no `index.js`
+Criando o primeiro JSX no `index.js`:
 
 [![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
