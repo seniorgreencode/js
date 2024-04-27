@@ -455,7 +455,7 @@ Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossis
 E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
 # Webpack
-<div align="center"><a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="277"></a></div>
+<a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
 O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5.
 
@@ -467,10 +467,11 @@ Tem suporte a:
 - JS;
 - Plugins.
 
-## Configuração do Webpack
-<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" width="20%" /></a>
+Configuração do Webpack:
+<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
 
 Os principais conceitos do Webpack:
+
 - **Entry** - Utilizando _grafo_, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
 - **Output** - É para determinar quais são os bundlers que o Webpack irá emitir.
 - **Loaders** - É para permitir que o Webpack gerencie arquivos não são JavaScript.
@@ -481,7 +482,8 @@ Os principais conceitos do Webpack:
   
   - **Development** é executado com três plugins: **UglifyJsPlugin**, **ModuleConcatenationPlugin** e **NoEmitOnErrorsPlugin**.
 
-### `webpack.config.js`
+Instale o comando abaixo no terminal:
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```
@@ -599,8 +601,6 @@ ReactDOM.render(<App />, document.getElementById("app"));
 </html>
 ```
 
-#### `.babelrc`
-
 Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser preciso criar um arquivo chamado `.babelrc` e definir as configurações.
 
 [![.babelrc](https://img.shields.io/badge/-.babelrc-fff?style=social&logo=Babel&logoColor=yellow)](#)
@@ -666,7 +666,7 @@ export default App;
 ```
 
 # ESLint
-<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="177" align="right"></a>
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
 
 Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
 
@@ -683,7 +683,6 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 ```
 
-## `.eslintrc`
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="207" align="right"></a>
 
 Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
