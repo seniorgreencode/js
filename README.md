@@ -153,11 +153,9 @@ Essa abordagem permite que você reutilize elementos estáticos da página da We
 # ⚙️ EJS - Embedded JavaScript
 <a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
 
-O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js.
+O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js. Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
 
-Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
-
-> A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor.
+> A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor. Além disso, o PHP e EJS compartilham o objetivo comum de facilitar a renderização de conteúdo dinâmico em páginas web, eles diferem em suas abordagens, sintaxe e ecossistemas subjacentes.
 
 > Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
   
@@ -340,9 +338,9 @@ Seu grande diferencial é a opção de conseguimos controlar o método de render
 
 - SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React que necessitam principalmente de SEO. Em algumas aplicações React você acabará percebendo que nem sempre é eficiente carregar todo o conteúdo na parte do cliente (client-side) que é o padrão do React.
   
-- SPA - Single Page Aplication: 
+- SPA - Single Page Aplication: As SPAs são aplicações Web que tem como objetivo trazer uma experiência similar a de um app desktop para o usuário, sem os reloads comuns de uma página dos sites, este é o método padrão utilizado pelo React. No entanto, nem tudo é vantajoso, é necessário uma aplicação que aja tanto no lado do cliente quanto pro lado do servidor.
 
-- SSG - Static Site Generation: 
+- SSG - Static Site Generation: Next.js pré-renderiza páginas usando geração estática, o 
   
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
