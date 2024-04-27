@@ -338,7 +338,7 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 
 Seu grande diferencial é a opção de conseguimos controlar o método de renderização que queremos para a nossa aplicação, que são:
 
-- SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React 
+- SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React que necessitam principalmente de SEO. Em algumas aplicações React você acabará percebendo que nem sempre é eficiente carregar todo o conteúdo na parte do cliente (client-side) que é o padrão do React.
   
 - SPA - Single Page Aplication: 
 
