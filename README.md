@@ -1439,7 +1439,22 @@ list-and-keys
 </details>
 
 # React Hooks
-<div align="center"><img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="277"></div>
+<img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="77" align="right">
+
+**React Hooks** é uma característica introduzida no React versão 16.8 que permite que você use estado e outros recursos do React em componentes de função, que são conhecidos como "functional components" ou "componentes funcionais". Antes da introdução dos Hooks, esses recursos estavam disponíveis apenas em componentes de classe.
+
+Os Hooks são funções que permitem que você "engate" ou "conecte" o estado do React e o ciclo de vida do componente a componentes de função sem precisar escrever uma classe. Eles foram projetados para resolver alguns problemas comuns em React, como compartilhamento de estado entre componentes, reutilização de lógica entre componentes e simplificação de componentes complexos.
+
+Alguns dos Hooks mais comuns incluem:
+
+1. `useState`: Permite adicionar estado local a componentes de função.
+2. `useEffect`: Permite executar efeitos secundários em componentes de função, como solicitações de rede, manipulação de eventos ou atualização do DOM.
+3. `useContext`: Permite acessar o contexto do React em componentes de função.
+4. `useReducer`: Uma alternativa a useState que é mais adequada para gerenciar estados mais complexos.
+5. `useRef`: Permite acessar o DOM ou armazenar valores mutáveis sem acionar uma nova renderização.
+6. `useMemo` e `useCallback`: Otimizam a performance de componentes memoizados, evitando recálculos desnecessários.
+
+Os Hooks oferecem uma maneira mais concisa e expressiva de escrever componentes em React, reduzindo a necessidade de classes e simplificando a lógica do componente. Eles também promovem a reutilização de lógica entre componentes, facilitando a criação de componentes mais modulares e legíveis.
 
 [![index.js](https://img.shields.io/badge/-components/Card/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
