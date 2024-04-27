@@ -49,7 +49,6 @@ Instalação do React:
 npm install -g create-react-app
 ```
 
-## Configuração do React.js
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="77" />
 
 - React Create App
@@ -1748,6 +1747,20 @@ Ele foi feito para criar aplicações Web escaláveis e trazer novas possibilida
 Vamos fazer um teste, após rodar, no modelo hot reloading, a aplicação no ambiente de desenvolvimento (localhost) vamos entrar no navegador e encontrar a página inicial da aplicação e em seguida entre nas ferramentas de desenvolvedor do Browser e `desative o JavaScript`, logo depois recarregue a página e você perceberá que a página inicial do Next.js não irá se apagar com o JavaScript desabilitado do lado do cliente, pois está todo o processamento do React.js está sendo renderizado no lado do servidor, no back-end.
   
 Para criar uma rota, basta somente entrar no diretório/caminho `src/pages` e criar um arquivo com extensão `.js`, `.jsx` ou `typescript` que ele criará uma rota automaticamente.
+
+Seu grande diferencial é a opção de conseguimos controlar o método de renderização que queremos para a nossa aplicação, que são:
+
+- SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React que necessitam principalmente de SEO. Em algumas aplicações React você acabará percebendo que nem sempre é eficiente carregar todo o conteúdo na parte do cliente (client-side) que é o padrão do React.
+  
+- SPA - Single Page Aplication: As SPAs são aplicações Web que tem como objetivo trazer uma experiência similar a de um app desktop para o usuário, sem os reloads comuns de uma página dos sites, este é o método padrão utilizado pelo React. No entanto, nem tudo é vantajoso, é necessário uma aplicação que aja tanto no lado do cliente quanto pro lado do servidor.
+
+- SSG - Static Site Generation: Next.js pré-renderiza páginas usando geração estática, o que, entre outras coisas, significa que ele não busca nenhum dado por padrão. Se você precisar gerar uma página que inclua esses dados. O SSG é recomendado para o uso em qualquer página em que você precise pré-renderizar dados. Ele pode ser gerado antes que uma solicitação do usuário ocorra.
+
+Para instalar o Next.js use o comando abaixo:
+
+```sh
+npx create-next-app@latest my-project
+```
 
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="277"></div> 
