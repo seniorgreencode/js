@@ -1443,6 +1443,8 @@ list-and-keys
 
 **React Hooks** é uma característica introduzida no React versão 16.8 que permite que você use estado e outros recursos do React em componentes de função, que são conhecidos como "functional components" ou "componentes funcionais". Antes da introdução dos Hooks, esses recursos estavam disponíveis apenas em componentes de classe.
 
+> O estado se refere aos dados que um componente mantém e pode alterar ao longo do tempo. Em resumo, os estados do React são uma parte fundamental do desenvolvimento de aplicativos React, pois permitem que os componentes mantenham e atualizem dinamicamente os dados, proporcionando uma experiência de usuário interativa e responsiva.
+
 Os Hooks são funções que permitem que você "engate" ou "conecte" o estado do React e o ciclo de vida do componente a componentes de função sem precisar escrever uma classe. Eles foram projetados para resolver alguns problemas comuns em React, como compartilhamento de estado entre componentes, reutilização de lógica entre componentes e simplificação de componentes complexos.
 
 Alguns dos Hooks mais comuns incluem:
