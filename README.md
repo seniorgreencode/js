@@ -340,7 +340,7 @@ Seu grande diferencial é a opção de conseguimos controlar o método de render
   
 - SPA - Single Page Aplication: As SPAs são aplicações Web que tem como objetivo trazer uma experiência similar a de um app desktop para o usuário, sem os reloads comuns de uma página dos sites, este é o método padrão utilizado pelo React. No entanto, nem tudo é vantajoso, é necessário uma aplicação que aja tanto no lado do cliente quanto pro lado do servidor.
 
-- SSG - Static Site Generation: Next.js pré-renderiza páginas usando geração estática, o 
+- SSG - Static Site Generation: Next.js pré-renderiza páginas usando geração estática, o que, entre outras coisas, significa que ele não busca nenhum dado por padrão. Se você precisar gerar uma página que inclua esses dados. O SSG é recomendado para o uso em qualquer página em que você precise pré-renderizar dados. Ele pode ser gerado antes que uma solicitação do usuário ocorra.
   
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
