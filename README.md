@@ -332,16 +332,6 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 - Roteamento para o lado do cliente com prefetching (pré-busca otimizada);
 - Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
   
-> Algo bem parecido com o que a linguagem de programação PHP faz, porém diferente em muitos aspectos.
-
-Seu grande diferencial é a opção de conseguimos controlar o método de renderização que queremos para a nossa aplicação, que são:
-
-- SSR - Server-side Rendering: O grande diferencial no começo do Next.js foi a possibilidade de utilizar a renderização na parte do servidor (SSR) isto resolve um problema em aplicações e sites construídos com React que necessitam principalmente de SEO. Em algumas aplicações React você acabará percebendo que nem sempre é eficiente carregar todo o conteúdo na parte do cliente (client-side) que é o padrão do React.
-  
-- SPA - Single Page Aplication: As SPAs são aplicações Web que tem como objetivo trazer uma experiência similar a de um app desktop para o usuário, sem os reloads comuns de uma página dos sites, este é o método padrão utilizado pelo React. No entanto, nem tudo é vantajoso, é necessário uma aplicação que aja tanto no lado do cliente quanto pro lado do servidor.
-
-- SSG - Static Site Generation: Next.js pré-renderiza páginas usando geração estática, o que, entre outras coisas, significa que ele não busca nenhum dado por padrão. Se você precisar gerar uma página que inclua esses dados. O SSG é recomendado para o uso em qualquer página em que você precise pré-renderizar dados. Ele pode ser gerado antes que uma solicitação do usuário ocorra.
-  
 ## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
