@@ -1580,7 +1580,7 @@ export default Card;
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
 # ♻️ Redux
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação escrita em JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como React ou Angular para criar interfaces de usuário. Semelhante pela **arquitetura Flux** do Facebook, apresentada no evento que buscava minimizar erros de unificação e transporte de componentes no front-end, e baseado na linguagem de programação **Elm**, foi criado por Dan Abramov e Andrew Clark.
   
@@ -1661,7 +1661,7 @@ O **Redux** pode ser dividido em algumas seções durante a construção do apli
 - **Middlewares**: O middleware pode ser usado para várias coisas, incluindo chamadas de API assíncronas. Middleware parece muito mais complicado do que realmente é. A única maneira de realmente entender o middleware é ver como o middleware existente funciona e tentar escrever o seu próprio. Trataremos do middleware no próximo blog.
 
 ## React + Redux
-<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="177" align="right">
+<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="77" align="right">
 
 Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca JavaScript para a construção de interfaces para usuários, de forma declarativa e baseado em **componentes**, já o Redux é um **contêiner de estado** (_State container_) previsível para aplicativos JS.
 
@@ -1731,7 +1731,7 @@ function counterReducer (state={value:0}, action){
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="177"></div>
 
 ## Next.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: CSS, Sass e qualquer lib CSS-in-JS, ambiente de desenvolvimento com suporte a Fast-Refresh, API Routes para construção de APIs Endpoints, Serverless Functions, divisão de código automática para carregamento da página mais rápido, otimização de SEO por padrão, roteamento para o lado do cliente com prefetching (pré-busca otimizada), bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
   
