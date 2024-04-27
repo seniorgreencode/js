@@ -1127,9 +1127,9 @@ ReactDOM. render(
 document.getElementById('root')
 );
 ```
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="77" align="right">
 
-## Inserindo um framework front-end: Bootstrap (via CDN)
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" height="177"></div><br \>
+Inserindo um framework front-end: Bootstrap (via CDN)
 
 - https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
