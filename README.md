@@ -1677,22 +1677,6 @@ O **Redux** pode ser dividido em algumas seções durante a construção do apli
 
 - **Middlewares**: O middleware pode ser usado para várias coisas, incluindo chamadas de API assíncronas. Middleware parece muito mais complicado do que realmente é. A única maneira de realmente entender o middleware é ver como o middleware existente funciona e tentar escrever o seu próprio. Trataremos do middleware no próximo blog.
 
-## React + Redux
-<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="77" align="right">
-
-Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca JavaScript para a construção de interfaces para usuários, de forma declarativa e baseado em **componentes**, já o Redux é um **contêiner de estado** (_State container_) previsível para aplicativos JS.
-
-E o **State container** é um bloco (container) da sua aplicação que armazena um estado de forma centralizada, que pode ser lida por outros blocos da aplicação.
-
-> A ideia é centralizar o estado para que você não precise reescrever e também compartilhar ele para outro bloco da aplicação. Ou seja, é mais dinâmico e enxuto do que usar o **React Hooks** para realizar esse compartilhamento de estados.
-
-As principais características do Redux são:
-- Previsível;
-- Centralizado;
-- Debugável;
-- Flexível.
-
-## 3 princípios do Redux
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/167924816-480315d9-36e8-41b9-9948-77686a670dfc.jpg" height="177"></div><br />
 
 O Redux foi fundamentado em 3 princípios básicos para ser trabalhado, são eles:
@@ -1725,6 +1709,41 @@ function counterReducer (state={value:0}, action){
   }
 }
 ```
+
+<img src="https://repository-images.githubusercontent.com/224272914/9f688f00-1071-11ea-9187-0162a4e3044c" height="77" align="right">
+
+Existem diferenças entre o React.js e o Redux, o React.js é uma biblioteca JavaScript para a construção de interfaces para usuários, de forma declarativa e baseado em **componentes**, já o Redux é um **contêiner de estado** (_State container_) previsível para aplicativos JS.
+
+E o **State container** é um bloco (container) da sua aplicação que armazena um estado de forma centralizada, que pode ser lida por outros blocos da aplicação.
+
+> A ideia é centralizar o estado para que você não precise reescrever e também compartilhar ele para outro bloco da aplicação. Ou seja, é mais dinâmico e enxuto do que usar o **React Hooks** para realizar esse compartilhamento de estados.
+
+As principais características do Redux são:
+- Previsível;
+- Centralizado;
+- Debugável;
+- Flexível.
+
+## Redux Saga
+<img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="77" align="right">
+
+O **Redux Saga** é uma biblioteca para o Redux que lida com efeitos colaterais de forma assíncrona em aplicativos JavaScript, especialmente em aplicativos React/Redux. Ele utiliza funções geradoras (generators) do JavaScript para criar código assíncrono mais legível e gerenciável.
+
+Em um aplicativo Redux típico, as ações são disparadas para atualizar o estado do Redux, e os redutores respondem a essas ações para atualizar o estado de forma síncrona. No entanto, às vezes é necessário lidar com tarefas assíncronas, como solicitações de rede, acesso a bancos de dados, etc. É aí que o Redux Saga entra em jogo.
+
+Principais características do Redux Saga:
+
+1. **Baseado em generadores**: Redux Saga utiliza generadores (funções geradoras) do JavaScript para criar código assíncrono de forma síncrona. Isso permite que você escreva código assíncrono de maneira mais fácil de entender e testar.
+
+2. **Efeitos**: Redux Saga fornece uma série de efeitos para lidar com tarefas assíncronas, como `take`, `put`, `call`, `fork`, `select`, etc. Esses efeitos permitem que você descreva de forma declarativa a lógica de como lidar com ações e efeitos colaterais.
+
+3. **Não bloqueante**: As sagas são executadas de forma não bloqueante, o que significa que você pode lidar com tarefas assíncronas sem interromper a execução do restante do código.
+
+4. **Fácil testabilidade**: Como as sagas são funções puras que retornam iteradores, elas são facilmente testáveis. Você pode testar cada etapa da saga de forma isolada, o que facilita a escrita de testes unitários e de integração.
+
+5. **Gerenciamento de fluxo complexo**: Redux Saga é útil para lidar com fluxos de dados complexos e lógica de negócios que envolvem várias etapas assíncronas e sincronização de dados.
+
+No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assíncronas em aplicativos Redux, oferecendo uma maneira limpa, expressiva e testável de lidar com efeitos colaterais em suas aplicações.
 
 # React Router
 <div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="177"></div><br \>
@@ -1783,14 +1802,29 @@ Styled-components se tornou uma escolha popular para estilização em projetos R
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
 
-# Redux Saga
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="177"></div>
-
 # Gatsby.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177"></div>
 
 # Preact 
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="177"></div>
+<img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
+
+O **Preact** é uma biblioteca JavaScript de código aberto que se destina a ser uma alternativa mais leve e rápida ao React. Ele implementa uma API compatível com React, o que significa que você pode usar componentes e conceitos semelhantes aos do React, mas com uma pegada menor devido à sua implementação mais enxuta.
+
+Algumas características principais do Preact incluem:
+
+1. **Tamanho pequeno**: O Preact é significativamente menor em tamanho quando comparado ao React. Isso o torna uma escolha atraente para projetos que exigem um carregamento mais rápido ou que têm restrições de largura de banda.
+
+2. **Desempenho rápido**: Devido ao seu tamanho reduzido, o Preact geralmente oferece um desempenho mais rápido do que o React em termos de tempo de inicialização e velocidade de renderização.
+
+3. **API compatível com React**: O Preact é projetado para ser uma substituição direta para o React. Isso significa que você pode usar componentes, hooks e outros recursos do React sem fazer muitas alterações em seu código.
+
+4. **Suporte a Progressive Web Apps (PWAs)**: O Preact é otimizado para Progressive Web Apps, permitindo que você crie aplicativos da web com ótimo desempenho e experiência do usuário.
+
+5. **Ecossistema ativo**: Apesar de ser uma biblioteca menor, o Preact possui uma comunidade ativa e um ecossistema crescente de bibliotecas e ferramentas complementares.
+
+6. **Compatibilidade com React**: Se você já tem um projeto React existente, é relativamente fácil migrar para o Preact, já que a API é muito semelhante.
+
+Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
 
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
