@@ -1733,7 +1733,52 @@ function counterReducer (state={value:0}, action){
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="177"></div><br \>
 
 # Styled-components
-<div align="center"><img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="177"></div><br \>
+<img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
+
+O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes.
+
+Com styled-components, você pode criar componentes React com estilos específicos, definidos usando uma sintaxe de template literal semelhante ao CSS-in-JS. Aqui está um exemplo básico de como usar styled-components:
+
+```javascript
+import styled from 'styled-components';
+
+// Define um componente de botão estilizado
+const Button = styled.button`
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darkblue;
+  }
+`;
+
+// Usa o componente de botão estilizado
+function App() {
+  return (
+    <div>
+      <Button>Clique Aqui</Button>
+    </div>
+  );
+}
+```
+
+Neste exemplo, `Button` é um componente React estilizado usando styled-components. O estilo é definido dentro do template literal (``) e pode incluir CSS normal, incluindo pseudoelementos e pseudoclasse, como `:hover`.
+
+As principais vantagens do styled-components incluem:
+
+1. **Encapsulamento de estilos**: Os estilos são definidos dentro do escopo do componente, o que significa que não há vazamento de estilos para outros componentes.
+
+2. **Facilidade de manutenção**: Como os estilos estão diretamente associados aos componentes, é mais fácil entender e manter o código, especialmente em projetos maiores.
+
+3. **Componentização dos estilos**: Os estilos podem ser reutilizados e compartilhados entre os componentes, o que promove a modularidade e a consistência do design.
+
+4. **Suporte total para CSS**: Você pode usar todas as características do CSS, incluindo variáveis, mixins, animações, etc., dentro dos componentes estilizados.
+
+Styled-components se tornou uma escolha popular para estilização em projetos React e React Native devido à sua simplicidade, flexibilidade e poder.
 
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
