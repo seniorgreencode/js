@@ -1732,7 +1732,7 @@ function counterReducer (state={value:0}, action){
 ## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
-O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: CSS, Sass e qualquer lib CSS-in-JS, ambiente de desenvolvimento com suporte a Fast-Refresh, API Routes para construção de APIs Endpoints, Serverless Functions, divisão de código automática para carregamento da página mais rápido, otimização de SEO por padrão, roteamento para o lado do cliente com prefetching (pré-busca otimizada), bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
+O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: CSS, Sass e qualquer lib CSS-in-JS, ambiente de desenvolvimento com suporte a Fast-Refresh, API Routes para construção de APIs Endpoints, Serverless Functions, divisão de código automática para carregamento da página mais rápido, otimização de SEO por padrão, roteamento para o lado do cliente com prefetching (pré-busca otimizada), bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
   
 > Algo bem parecido com o que a linguagem de programação PHP faz, porém diferente em muitos aspectos.
   
@@ -1740,7 +1740,7 @@ Dentre todos os benefícios que o Next.js trás, podemos destacar o desenvolvime
 
 Ele foi feito para criar aplicações Web escaláveis e trazer novas possibilidades. No entanto, ele não está sozinho, existem outras possibilidades de alternativas no mercado de desenvolvimento como: Gatsby.js, Nuxt.js, Hexo, LoopBack, Angular Universal e Frontity (solução para temas WordPress utilizando React).
   
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" height="77" align="right"></a>
 
 > As desvantagens do Next.js incluem algumas bibliotecas externas podem precisar de um tratamento especial para serem executadas numa aplicação Next.js, como é o caso de Styled Components e Redux, pois ele exige um modelo de importação e build mais sofesticados e o ambiente de produção não pode ser um servidor comum de arquivos estáticos, é necessário ter um ambiente Node.js sendo executado. Outro ponto seria de mais carga do servidor, obviamente vai consumir mais CPU, então se prepare para escalar o melhor servidor e usar estratégias de cache mais inteligentes.
   
