@@ -143,7 +143,7 @@ Instalando vários pacotes:
 npm i <pacote 1> <pacote 2> <pacote 3> ... <pacote n>
 ```
 
-[![package-lock.json](https://img.shields.io/badge/-package--lock.json-fff?style=social&logo=Node.js&logoColor=green)](#) [![node_modules](https://img.shields.io/badge/-./node__modules-fff?style=social&logo=Node.js&logoColor=green)](#)
+[![package-lock.json](https://img.shields.io/badge/-package--lock.json-fff?style=social&logo=Node.js&logoColor=green)](#) [![node_modules](https://img.shields.io/badge/-./node__modules/-fff?style=social&logo=Node.js&logoColor=forestgreen)](#)
 
 Após os pacotes serem instalados, será criado a pasta `node_modules` que carrega todas as dependências dos pacotes instalados pelo npm e o arquivo `package-lock.json` é gerado automaticamente pelo npm (Node Package Manager) sempre que você instala ou atualiza os pacotes de uma aplicação Node.js usando o comando `npm install`. Ele registra a árvore exata de dependências instaladas, incluindo as versões específicas de cada pacote e suas dependências transitivas. Este arquivo é importante para garantir que as versões exatas das dependências sejam instaladas em ambientes de desenvolvimento e produção, evitando inconsistências entre diferentes instalações do projeto. Ele é usado principalmente para garantir a reproducibilidade das instalações de pacotes, o que é crucial para garantir que a aplicação funcione de forma consistente em diferentes máquinas e ambientes.
 
@@ -192,7 +192,9 @@ Além disso, o `npx` também pode ser usado para executar comandos de ferramenta
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
 
-> Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
+[![Choco](https://img.shields.io/badge/-yarn.lock-fff?style=social&logo=Yarn&logoColor=blue)](#)
+
+Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações. O arquivo `yarn.lock` é um arquivo de manifesto gerado pelo Yarn, um gerenciador de pacotes para JavaScript. Ele é criado automaticamente sempre que você instala as dependências de um projeto usando o Yarn. O objetivo principal do arquivo `yarn.lock` é garantir a consistência das dependências do projeto. Ele contém informações detalhadas sobre as versões exatas de todas as dependências do projeto e suas dependências transitivas, incluindo a versão exata de cada pacote instalado, bem como quaisquer subdependências.
 
 Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
 
@@ -201,6 +203,31 @@ No final das contas — e como é bastante comum em ferramentas “concorrentes�
 Tanto o NPM quanto o YARN cumprem a mesma função: gerenciar a instalação de dependências de um projeto React Native. Embora isso se dê com processos diferentes, ambos utilizam o arquivo `package.json` para anotar as dependências e suas versões, além de baixarem e salvarem as dependências/bibliotecas na pasta `node_modules`.
 
 > **Atenção**: O importante na escolha do gerenciador é usar apenas um deles no projeto. Isso evita comportamentos inadequados e/ou até mesmo falhas e conflitos de dependências. Ao longo deste estudo, utilizaremos o NPM.
+
+Instalação do Yarn:
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```sh
+npm install --global yarn
+```
+
+[![Choco](https://img.shields.io/badge/-choco_install-fff?style=social&logo=Chocolatey&logoColor=blue)](#)
+
+```sh
+choco install yarn
+```
+
+Depois de instalado, para inserir o Yarn em seu projeto, siga estas etapas:
+
+1. Verifique se o Yarn está instalado
+2. Crie um projeto e navegue até o diretório do seu projeto recém-criado e execute o comando `yarn` para instalar as dependências usando o Yarn.
+3. Isso irá instalar todas as dependências listadas no arquivo `package.json` e criará o arquivo `yarn.lock`.
+4. Agora você pode usar comandos Yarn em seu projeto normalmente. Por exemplo, para iniciar o servidor de desenvolvimento, você pode usar:
+
+```sh
+yarn dev
+```
 
 ## Hello, World - Node.js
 Crie uma pasta e lá crie o script `App.js` e escreva o seguinte comando:
