@@ -467,12 +467,11 @@ Tem suporte a:
 - JS;
 - Plugins.
 
-Configuração do Webpack:
+Os principais conceitos do Webpack são:
+
 <a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
 
-Os principais conceitos do Webpack:
-
-- **Entry** - Utilizando _grafo_, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
+- **Entry** - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
 - **Output** - É para determinar quais são os bundlers que o Webpack irá emitir.
 - **Loaders** - É para permitir que o Webpack gerencie arquivos não são JavaScript.
 - **Plugins** - Plugins podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e muito mais.
