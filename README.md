@@ -106,7 +106,7 @@ O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcaç
 
 Sintaxe do JSX:
 
-[![JSX](https://img.shields.io/badge/-JSX-fff?style=social&logo=React&logoColor=61DAFB)](#)
+[![JSX](https://img.shields.io/badge/-index.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```javascript
 const element = <h1>Hello, world!</h1>
 ```
