@@ -179,6 +179,14 @@ NPM Save:
 npm install <pacote> --save
 ```
 
+O comando `npx` é uma ferramenta do Node.js que permite executar pacotes Node.js temporariamente, sem a necessidade de instalá-los globalmente ou localmente. Ele vem pré-instalado com o Node.js desde a versão 5.2.0. A principal função do `npx` é facilitar o uso de ferramentas de linha de comando que estão disponíveis no npm (Node Package Manager) ou em outros repositórios. Basicamente, `npx` executa o pacote npm especificado, baixando-o temporariamente, se necessário, e então executa o comando associado ao pacote. Se o pacote não estiver instalado localmente, o `npx` o instala temporariamente antes de executar o comando e, em seguida, o remove após a execução.
+
+> O NPX é muito usado para criar projetos de templates front-end, como o React, Vite e Next.js.
+
+Por exemplo, se você quiser executar um script que está contido em um pacote npm específico, você pode usar `npx` em vez de instalar globalmente o pacote ou instalá-lo localmente em seu projeto. Isso ajuda a evitar problemas de compatibilidade entre versões e mantém seu ambiente de desenvolvimento mais limpo.
+
+Além disso, o `npx` também pode ser usado para executar comandos de ferramentas que não estão necessariamente vinculadas ao npm, mas estão disponíveis no PATH do seu sistema. Isso é útil quando você precisa executar uma ferramenta de linha de comando que não está instalada globalmente ou localmente, mas pode ser encontrada em seu ambiente. 
+
 # 🧶 `yarn` - yet another resource negotiator
 <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
