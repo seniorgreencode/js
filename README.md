@@ -1913,9 +1913,9 @@ export default function Produto() {
   }
 ```
 
-Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação com a rota: http://localhost:3000/produto/pc-gamer
+Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação com a rota: http://localhost:3000/produto/pc-gamer. Suponhamos que o id seja o produto da loja, daí tanto o id é representado na URL como na página.
 
-Suponhamos que o id seja o produto da loja, daí tanto o id é representado na URL como na página.
+Tanto o arquivo JS ou o diretório é interpretado pelo Next.js para criar rotas e ids.
 
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
