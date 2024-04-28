@@ -1826,8 +1826,11 @@ Algumas características principais do Preact incluem:
 
 Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
 
-## Next.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
+# △ Next.js
+<a href=""><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
+
+<a href="https://www.youtube.com/watch?v=PGPGcKBpAk8"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
+<a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: 
 
@@ -1870,15 +1873,11 @@ npx create-next-app@latest my-project
 Ao executar e rodar o app, recomendo entrar na pasta `page.js` onde lá vai estar todo o corpo do HTML dentro de uma função. No arquivo `layout.js` vai importar o estilo, importações e conteúdo global, ou seja, é a porta de entrada da aplicação. Edite essa parte do diretório `App` para `src/pages`, renomeie o arquivo `page.js` para `index.js` e crie uma pasta com o nome `produto` e o arquivo `index.js`, cole o mesmo código que o arquivo principal e modifique para produto, e você verá que automaticamente foi criada uma rota da aplicação automática a partir dessa estrutura, sem precisar usar um Router para isso: http://localhost:3000/produto.
 
 # Vite
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="277"></div> 
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
 
 ```sh
 npm create vite@latest ./ -- --template react
 ```
-
-# Next.js
-- https://www.youtube.com/watch?v=PGPGcKBpAk8
-- https://youtu.be/mj_Qe2jBYS4
 
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
