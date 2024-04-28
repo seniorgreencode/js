@@ -1890,7 +1890,7 @@ export default function Produto() {
   }
 ```
 
-Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação.
+Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação com a rota: http://localhost:3000/produto/2 reais ou id misterioso
 
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
