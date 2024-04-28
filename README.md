@@ -1917,6 +1917,10 @@ Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação com a 
 
 Tanto o arquivo JS ou o diretório é interpretado pelo Next.js para criar rotas e ids.
 
+<a href="https://next-auth.js.org/"><img src="https://next-auth.js.org/img/logo/logo-sm.png" align="right" height="77"></a>
+
+Vamos ver agora, a autenticação com Next.js com a biblioteca NextAuth.js.
+
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
 
