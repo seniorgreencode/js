@@ -1594,6 +1594,29 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
+# ↔️ Axios
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/IsaacAlves7/js/assets/61624336/a9c40a0b-60c5-4a59-bb73-a4fb3b8d4092" height="77" align="right"></a>
+
+O **Axios** é uma biblioteca JavaScript popular, escrita para fazer requisições HTTP a servidores. Ela é amplamente utilizada em projetos web, especialmente em aplicações que consomem APIs RESTful. O Axios é uma biblioteca JavaScript que é utilizada principalmente no lado do cliente, ou seja, em navegadores da web ou em ambientes JavaScript em front-end, como frameworks como o React, Vue.js, Angular, etc. Ele é projetado para fazer requisições HTTP a servidores a partir do navegador.
+
+No entanto, o Axios também pode ser utilizado no lado do servidor em ambientes Node.js, embora seja mais comumente associado ao desenvolvimento de front-end. No Node.js, ele pode ser usado para fazer requisições HTTP a outros servidores ou para criar APIs HTTP.
+
+> Em resumo, o Axios pode ser utilizado tanto no lado do cliente quanto no lado do servidor, mas é mais frequentemente utilizado no lado do cliente para fazer requisições HTTP em aplicações web.
+
+Algumas das principais características e vantagens do Axios incluem:
+
+1. **Simplicidade de uso**: Axios fornece uma API simples e fácil de usar para fazer requisições HTTP. Ele suporta os métodos HTTP mais comuns, como GET, POST, PUT, DELETE, etc.
+
+2. **Suporte a Promises**: Axios é baseado em Promises, o que significa que ele permite lidar facilmente com operações assíncronas e encadeá-las de forma eficiente.
+
+3. **Suporte a interceptores de requisição e resposta**: Axios permite definir interceptores tanto para requisições quanto para respostas. Isso é útil para adicionar cabeçalhos comuns a todas as requisições, lidar com erros de forma centralizada ou realizar transformações nos dados de entrada ou saída.
+
+4. **Compatibilidade com navegadores e Node.js**: Axios pode ser utilizado tanto em navegadores quanto em ambientes Node.js, o que o torna uma escolha versátil para desenvolvedores que trabalham em diferentes tipos de projetos.
+
+5. **CSRF Protection**: Axios tem suporte embutido para proteção contra CSRF (Cross-Site Request Forgery), tornando mais fácil lidar com essa preocupação de segurança comum em aplicações web.
+
+Em resumo, Axios simplifica o processo de fazer requisições HTTP em JavaScript, fornecendo uma API intuitiva e flexível que permite lidar facilmente com comunicações de rede em aplicações web.
+
 # ♻️ Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
