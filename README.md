@@ -1870,7 +1870,27 @@ Para instalar o Next.js use o comando abaixo:
 npx create-next-app@latest my-project
 ```
 
-Ao executar e rodar o app, recomendo entrar na pasta `page.js` onde lá vai estar todo o corpo do HTML dentro de uma função. No arquivo `layout.js` vai importar o estilo, importações e conteúdo global, ou seja, é a porta de entrada da aplicação. Edite essa parte do diretório `App` para `src/pages`, renomeie o arquivo `page.js` para `index.js` e crie uma pasta com o nome `produto` e o arquivo `index.js`, cole o mesmo código que o arquivo principal e modifique para produto, e você verá que automaticamente foi criada uma rota da aplicação automática a partir dessa estrutura, sem precisar usar um Router para isso: http://localhost:3000/produto.
+Ao executar e rodar o app, recomendo entrar na pasta `./App/`, lá vai ter o arquivo principal da aplicação chamado `page.js` onde lá vai estar todo o corpo do HTML dentro de uma função. No arquivo `layout.js` vai importar o estilo, importações de bibliotecas e conteúdo global, ou seja, é a porta de entrada da aplicação. Edite essa parte do diretório `App` para `src/pages`, renomeie o arquivo `page.js` para `index.js` e crie uma pasta com o nome `produto` e o arquivo `index.js`, cole o mesmo código que o arquivo principal e modifique para produto, e você verá que automaticamente foi criada uma rota da aplicação automática a partir dessa estrutura, sem precisar usar um Router para isso: http://localhost:3000/produto
+
+Feito isso, você também pode modificar o arquivo dentro da pasta `produto` para `[id].js`, depois você irá realizar os comandos abaixo:
+
+```javascript
+import {useRouter} from "next/router";
+
+export default function Produto() {
+    
+    const route = useRouter()
+
+    const { id } = route.query
+    return (
+    <div>
+      <h1>Produto {id}</h1>
+    </div>
+    );
+  }
+```
+
+Dessa forma, o id da sua URL irá refletir para dentro da sua aplicação.
 
 # Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
