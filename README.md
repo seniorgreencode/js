@@ -187,6 +187,10 @@ Por exemplo, se você quiser executar um script que está contido em um pacote n
 
 Além disso, o `npx` também pode ser usado para executar comandos de ferramentas que não estão necessariamente vinculadas ao npm, mas estão disponíveis no PATH do seu sistema. Isso é útil quando você precisa executar uma ferramenta de linha de comando que não está instalada globalmente ou localmente, mas pode ser encontrada em seu ambiente. 
 
+Gostaria de apresentar também alguns pacotes interessantes do NPM como:
+
+- <a href="">open</a>: Abre URLs, executáveis e outros arquivos em aplicações desejadas
+
 # 🧶 `yarn` - yet another resource negotiator
 <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
