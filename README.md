@@ -1777,7 +1777,11 @@ No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assínc
 # Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
 
-O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes.
+O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes. Os componentes são renderizados com a página, e o CSS é aplicado conforme a necessidade. E com o CSS no mesmo arquivo do JavaScript, fica fácil localizar as informações caso precise realizar uma manutenção.
+
+```sh
+npm install --save styled-components
+```
 
 Com styled-components, você pode criar componentes React com estilos específicos, definidos usando uma sintaxe de template literal semelhante ao CSS-in-JS. Aqui está um exemplo básico de como usar styled-components:
 
@@ -1798,7 +1802,7 @@ const Button = styled.button`
   }
 `;
 
-// Usa o componente de botão estilizado
+// Usa o componente de botão estilizado (E foi chamado no componente App)
 function App() {
   return (
     <div>
