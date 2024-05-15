@@ -1812,7 +1812,7 @@ function App() {
 }
 ```
 
-Neste exemplo, `Button` é um componente React estilizado usando styled-components. O estilo é definido dentro do template literal (``) e pode incluir CSS normal, incluindo pseudoelementos e pseudoclasse, como `:hover`.
+Neste exemplo, `Button` é um componente React estilizado usando styled-components. O estilo é definido dentro do <a href="">tagged template literals</a> (<code>``</code>) e pode incluir CSS normal, incluindo pseudoelementos e pseudoclasse, como `:hover`.
 
 As principais vantagens do styled-components incluem:
 
