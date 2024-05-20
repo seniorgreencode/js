@@ -828,7 +828,7 @@ Servem para loops e condições, porém a diferença entre eles é na sua funcio
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 # 📜 [JS] Arrays
-É uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
+Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
@@ -850,7 +850,8 @@ Acessando valores: Os valores podem ser acessados através de seu índice.
 
 Observe que o índice começa no 0. Então o primeiro item está na posição 0, o segundo na posição 1 e assim por diante.
 
-## Alterando e atribuindo valores pelo índice: Com o índice, você pode:
+Alterando e atribuindo valores pelo índice: Com o índice, você pode:
+
 <ol type="a">
   <li>Alterar um valor existente;</li>
   <li>Inserir um novo valor em uma posição específica.</li>
@@ -894,19 +895,22 @@ No caso de um objeto com propriedades (variáveis), fazemos assim:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
 
-## Outra forma de inserir um array "separadamente"
+Outra forma de inserir um array "separadamente":
+
 > [🍎] [🍐] [🍊] [🍇]
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/106766196-63876d00-6618-11eb-8536-9e362e887874.jpg)
 
-## Array Mod
+Array Mod
+
 > [🍎, 🍐, 🍊, 🍇]
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
 
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
 
-### Tabela de métodos de Arrays
+Tabela de métodos de Arrays
+
 > .("🍎","🍐")
 > .("🍊","🍇")
 
@@ -950,6 +954,31 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
     <td>Remove o item</td>
   </tr>
 </table>
+
+Remova itens duplicados de array
+
+Use `filter` para obter itens únicos de uma array
+
+```javascript
+const techs = [
+  'javascript',
+  'v8',
+  'v8',
+  'typescript',
+  'nodejs',
+  'css',
+  'v8',
+  'typescript',
+  'css'
+]
+
+const filteredTechs = techs.filter((tech, index) => {
+  return techs.indexOf(tech) === index
+})
+
+console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
+```
+
 
 # 📜 [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177" align="right"/>
