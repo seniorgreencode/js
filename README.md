@@ -907,6 +907,18 @@ Array Mod
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
 
+```javascript
+const cars = [
+  "Porsche 911",
+  "Ferrari 488",
+  "Lamborghini Aventador",
+  "McLaren 720S",
+  "Ford GT"
+];
+
+console.log(cars.sort(Intl.Collator().compare));
+```
+
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
 
 Tabela de métodos de Arrays
