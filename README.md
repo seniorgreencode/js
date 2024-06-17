@@ -120,6 +120,10 @@ Essa padronização define a estrutura da linguagem, seus comandos, como ela dev
 2. **JScript**: Implementação da Microsoft, usada no Internet Explorer.
 3. **ActionScript**: Usada no Adobe Flash.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="77" align="right"></a>
+
+> 🍦 **Curiosidade**: O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o JavaScript puro. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
+
 Padrões e Compatibilidade:
 
 1. **ECMA-262**: Documento que define a especificação ECMAScript.
@@ -315,13 +319,6 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
     ```
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
-
-# 🍦 Vanilla JavaScript
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="77" align="right"></a>
-
-O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o JavaScript puro. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
-
-E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
