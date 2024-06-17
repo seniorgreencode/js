@@ -198,6 +198,8 @@ Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho 
 
 Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programação de partes do lado do servidor de aplicações web complexas, também chamadas de back-end. Estes programas são executados em servidores, processando dados (por exemplo, de bases de dados), que após processamento ficarão disponíveis no lado do cliente. A flexibilidade desta linguagem e a sua relativa simplicidade tornaram-na muito mais aplicável, por exemplo, em aplicações móveis, ou mesmo na programação de UAVs (alguns drones executam programas escritos nesta linguagem).
 
+> **Curiosidade**: JavaScript é uma opção viável para a ciência de dados, especialmente para visualização e desenvolvimento de interfaces interativas. Com o uso das bibliotecas e ferramentas certas, é possível realizar muitas tarefas de ciência de dados de maneira eficiente e eficaz. Embora possa não ser a escolha principal para tarefas intensivas de análise de dados ou machine learning, ele complementa bem outras linguagens e pode ser integrado em pipelines de dados completos.
+
 Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
@@ -213,6 +215,24 @@ Algumas limitações se devem ao próprio conceito da linguagem, mas a grande ma
 Outro inconveniente é que, como o código não é compilado, ele entra no navegador da mesma forma ou de forma muito semelhante à que nós mesmos escrevemos. Por que isso é uma desvantagem? Isso ocorre porque todos podem ver nossa solução de uma forma fácil de ler e usá-la (sejam fragmentos ou mesmo a totalidade) sem nossa permissão para escrever seu próprio programa.
 
 Uma ajuda aqui pode ser a ofuscação de código, que consiste em transformar nosso script pronto em um formato um pouco menos legível (por exemplo, gerando nomes aleatórios curtos de variáveis ​​e funções, eliminando sinais de fim de linha e assim por diante), mas o simples fato é que se alguém quiser roubar nosso código JavaScript, há muito pouco que possamos fazer para impedi-lo.
+
+**Vantagens do JavaScript**:
+
+Por outro lado, JavaScript tem muitas vantagens sobre outras linguagens de programação, e uma das maiores é uma comunidade muito ativa e de apoio. É fácil encontrar soluções para problemas comuns e encontrar ajuda em geral. Isso também significa que ferramentas que funcionam com JavaScript são desenvolvidas ativamente.
+
+Outra grande vantagem é um grande número de estruturas e bibliotecas prontas para uso que fornecem a maioria das funcionalidades e recursos comumente necessários. A linguagem em si é relativamente fácil de aprender e nos permite focar no trabalho em vez de lutar com a sintaxe (ou seja, a forma de construir as instruções que compõem o código do nosso programa).
+
+Além disso, o JavaScript não exige que você compre ferramentas caras para trabalhar com ele, e ferramentas realmente boas já estão incorporadas ao seu navegador. Por último, mas não menos importante, grandes players como Google, Facebook e Mozilla apoiam ativamente ferramentas JavaScript e seu desenvolvimento.
+
+Porém, o que é uma vantagem para alguns pode ser uma desvantagem para outros. Um exemplo pode ser a característica de digitação dinâmica do JavaScript. Resumindo, consiste no fato de podermos armazenar dados de qualquer tipo em uma variável (uma variável é um contêiner no qual armazenamos os dados que utilizaremos).
+
+Por exemplo, durante a execução do programa, podemos armazenar o número 10 em uma variável, e no próximo passo usar a mesma variável para armazenar a string “abc” (excluindo o valor anterior automaticamente, é claro – não se preocupe se você não entendo agora, porque abordaremos todos esses termos mais tarde).
+
+Geralmente isso é muito conveniente, mas algumas pessoas consideram esse recurso da linguagem uma desvantagem. Na opinião deles, torna mais fácil para um programador cometer erros em determinadas situações. Ao adicionar digitação estática, onde uma variável pode conter apenas um tipo de variável (por exemplo, números) durante a execução do programa, uma nova linguagem chamada TypeScript foi introduzida.
+
+Lembre-se também que se você aprender a programar em uma linguagem, normalmente será muito mais fácil aprender a próxima, que por algum motivo pode ser melhor para resolver um problema específico.
+
+Mas vamos começar agora com JavaScript, que, devido à sua sintaxe flexível e simples, é perfeito para aprender como primeira língua.
 
 ## `Hello, World!` - JavaScript
 
