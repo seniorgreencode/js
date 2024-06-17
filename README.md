@@ -157,6 +157,11 @@ class Pessoa {
 const pessoa = new Pessoa(nome, idade);
 console.log(saudacao(pessoa.nome));
 console.log(pessoa.apresentar());
+
+// Output:
+//
+// 'Olá, Alice!'
+// 'Meu nome é Alice e eu tenho 30 anos.'
 ```
 
 Vamos analisar o código do ECMAScript acima:
@@ -175,7 +180,7 @@ Vamos analisar o código do ECMAScript acima:
 
 - Exportação e Importação de Módulos: Este é um comentário que mostra como você exportaria uma classe `Carro` de um módulo e como importaria essa classe em outro arquivo. Isto é apenas um exemplo e não é executado no código principal.
 
-- Criação de Instância: Cria uma nova instância da classe `Pessoa` chamada pessoa, passando `nome` e `idade` como argumentos para o `construtor`.
+- Criação de Instância: Cria uma nova instância da classe `new Pessoa` chamada `pessoa`, passando `nome` e `idade` como argumentos para o `construtor`.
 
 - `console.log(saudacao(pessoa.nome));`: Chama a função `saudacao` passando `pessoa.nome` como argumento e imprime o resultado no console. Se `pessoa.nome` for `'Alice'`, o resultado será `'Olá, Alice!'`.
   
