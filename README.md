@@ -76,6 +76,86 @@ Um exemplo simples de uma área um pouco diferente: em algum momento da sua vida
 
 Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o que devem ilustrar, em que ordem determinadas ações devem ser realizadas, em quais etapas algo é mais fácil de confundir, e assim por diante. E, claro, eles devem saber qual o efeito a ser alcançado no final.
 
+<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
+
+Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. ECMAScript é uma especificação de linguagem de script padronizada pela Ecma International. É a base para várias linguagens de script, sendo JavaScript a implementação mais conhecida. ECMAScript é uma especificação que define a linguagem de script usada para implementar JavaScript e outras linguagens relacionadas. Ela evolui continuamente para incluir novos recursos, permitindo que os desenvolvedores escrevam código mais eficiente, legível e poderoso. JavaScript, como a implementação mais popular, segue essas especificações para garantir consistência e compatibilidade em diferentes ambientes e plataformas.
+
+> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.
+
+História e Evolução do ES:
+
+1. **Origem**: ECMAScript foi inicialmente padronizado em 1997 como ECMA-262. Ele foi criado para padronizar JavaScript, que havia sido desenvolvido pela Netscape.
+2. **Versões**: Desde sua criação, houve várias versões de ECMAScript, cada uma trazendo novas funcionalidades e melhorias. As versões mais significativas incluem:
+   - **ES3 (1999)**: Primeira versão amplamente adotada.
+   - **ES5 (2009)**: Introduziu recursos como `strict mode`, getters/setters, métodos de array (`forEach`, `map`, `filter`).
+   - **ES6/ES2015 (2015)**: Uma das maiores atualizações, introduziu `let`/`const`, classes, módulos, funções arrow, Promises, entre outros.
+   - **Versões anuais (ES2016 em diante)**: Desde ES2016, ECMAScript é atualizado anualmente, com pequenas atualizações incrementais.
+
+Principais Recursos de ECMAScript:
+
+1. **Tipos de Dados e Estruturas**:
+   - Primitivos: `Number`, `String`, `Boolean`, `Undefined`, `Null`, `Symbol` (adicionado em ES6), `BigInt` (adicionado em ES2020).
+   - Objetos: Tudo que não é primitivo é um objeto, incluindo arrays, funções, e instâncias de classes.
+
+2. **Sintaxe e Funcionalidades**:
+   - **Variáveis**: `var`, `let` e `const`.
+   - **Funções**: Declaração de funções, funções anônimas, funções arrow (`=>`), funções assíncronas (`async/await`).
+   - **Objetos e Classes**: Sintaxe de objetos literais, classes e herança de classes (`extends`).
+   - **Módulos**: Importação e exportação de módulos (`import`/`export`).
+   - **Controle de Fluxo**: Estruturas de controle como `if`, `else`, `switch`, loops (`for`, `while`, `do-while`).
+
+3. **Metodologias**:
+   - **Orientação a Objetos**: Classes, herança, encapsulamento.
+   - **Programação Funcional**: Funções de alta ordem, imutabilidade, métodos de array como `map`, `reduce`.
+
+Implementações de ECMAScript:
+
+<img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="177" align="right"/>
+
+Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos. Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e **TypeScript**.
+
+1. **JavaScript**: A implementação mais amplamente utilizada de ECMAScript. Usada em navegadores web, servidores (Node.js), e outras plataformas.
+2. **JScript**: Implementação da Microsoft, usada no Internet Explorer.
+3. **ActionScript**: Usada no Adobe Flash.
+
+Padrões e Compatibilidade:
+
+1. **ECMA-262**: Documento que define a especificação ECMAScript.
+2. **Compatibilidade**: Nem todos os navegadores ou ambientes suportam todas as funcionalidades de todas as versões de ECMAScript imediatamente. Ferramentas como Babel podem ser usadas para transpilar código moderno para versões mais antigas compatíveis com todos os navegadores.
+
+Exemplo de Código ECMAScript (JavaScript):
+
+Aqui está um exemplo que mostra alguns dos recursos introduzidos em ES6:
+
+```javascript
+// Declaração de variáveis
+let nome = 'Alice';
+const idade = 30;
+
+// Função Arrow
+const saudacao = (nome) => `Olá, ${nome}!`;
+
+// Classe
+class Pessoa {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+
+  apresentar() {
+    return `Meu nome é ${this.nome} e eu tenho ${this.idade} anos.`;
+  }
+}
+
+// Módulo (em um arquivo separado, e.g., modulo.js)
+// export class Carro { ... }
+// import { Carro } from './modulo';
+
+const pessoa = new Pessoa(nome, idade);
+console.log(saudacao(pessoa.nome));
+console.log(pessoa.apresentar());
+```
+
 ## `Hello, World!` - JavaScript
 
 ```javascript
@@ -155,16 +235,6 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
     ```
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
- 
-<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
-
-Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
-
-Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos. Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e **TypeScript**.
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="177"/></div><br \>
-
-<blockquote>📜 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 # 🍦 Vanilla JavaScript
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://i.etsystatic.com/13517909/r/il/e028cc/1802571151/il_fullxfull.1802571151_kie1.jpg" title="Full-Stack JS Development" height="77" align="right"></a>
