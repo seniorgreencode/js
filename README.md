@@ -144,6 +144,7 @@ class Pessoa {
     this.idade = idade;
   }
 
+// Método apresentar
   apresentar() {
     return `Meu nome é ${this.nome} e eu tenho ${this.idade} anos.`;
   }
@@ -157,6 +158,14 @@ const pessoa = new Pessoa(nome, idade);
 console.log(saudacao(pessoa.nome));
 console.log(pessoa.apresentar());
 ```
+
+Vamos analisar o código do ECMAScript acima:
+
+- `let nome = 'Alice';` Declara uma variável nome usando `let`, que permite reatribuir o valor da variável posteriormente. Inicializa a variável com a string `'Alice'`.
+
+- `const idade = 30;` Declara uma constante idade usando `const`, o que significa que seu valor não pode ser reatribuído. Inicializa a constante com o número `30`.
+
+- Função Arrow: Define uma função usando a sintaxe de função arrow (=>). A função `saudacao` aceita um parâmetro nome e retorna uma string interpolada usando template literals (cercados por crases ``). A string resultante será `'Olá, Alice!'` se nome for `'Alice'`.
 
 ## `Hello, World!` - JavaScript
 
