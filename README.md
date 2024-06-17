@@ -186,7 +186,7 @@ Vamos analisar o código do ECMAScript acima:
   
 - `console.log(pessoa.apresentar());`: Chama o método `apresentar` na instância `pessoa` e imprime o resultado no console. Se `pessoa.nome` for `'Alice'` e `pessoa.idade` for `30`, o resultado será `'Meu nome é Alice e eu tenho 30 anos.'`.
 
-<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
+<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="77" align="right"/>
 
 Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
 
