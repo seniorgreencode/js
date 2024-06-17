@@ -125,9 +125,9 @@ Padrões e Compatibilidade:
 1. **ECMA-262**: Documento que define a especificação ECMAScript.
 2. **Compatibilidade**: Nem todos os navegadores ou ambientes suportam todas as funcionalidades de todas as versões de ECMAScript imediatamente. Ferramentas como Babel podem ser usadas para transpilar código moderno para versões mais antigas compatíveis com todos os navegadores.
 
-Exemplo de Código ECMAScript (JavaScript):
+Exemplo de Código ECMAScript (JavaScript): Aqui está um exemplo que mostra alguns dos recursos introduzidos em ES6:
 
-Aqui está um exemplo que mostra alguns dos recursos introduzidos em ES6:
+[![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
 // Declaração de variáveis
@@ -185,6 +185,24 @@ Vamos analisar o código do ECMAScript acima:
 - `console.log(saudacao(pessoa.nome));`: Chama a função `saudacao` passando `pessoa.nome` como argumento e imprime o resultado no console. Se `pessoa.nome` for `'Alice'`, o resultado será `'Olá, Alice!'`.
   
 - `console.log(pessoa.apresentar());`: Chama o método `apresentar` na instância `pessoa` e imprime o resultado no console. Se `pessoa.nome` for `'Alice'` e `pessoa.idade` for `30`, o resultado será `'Meu nome é Alice e eu tenho 30 anos.'`.
+
+<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
+
+Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
+
+Hoje, JavaScript é a única linguagem suportada por todos os principais navegadores da web, e cerca de 95% das páginas da web em todo o mundo incorporam código JavaScript neles. Desde o início, as páginas da web usaram JavaScript no lado do cliente para adicionar interatividade e alterar dinamicamente o conteúdo.
+
+Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks excelentes para construir aplicativos web e redes sociais enormes e complexos (você provavelmente já ouviu nomes de frameworks como React ou Angular ou Vue).
+
+Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho de alto desempenho até simples smartphones. Graças ao poder do JavaScript, podemos pedir comida, jogar jogos no navegador, assistir filmes em plataformas de streaming e estar em contato constante com pessoas importantes para nós. JavaScript é tão popular que cada vez mais esforços são necessários para usá-lo, não apenas como uma solução do lado do cliente.
+
+Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programação de partes do lado do servidor de aplicações web complexas, também chamadas de back-end. Estes programas são executados em servidores, processando dados (por exemplo, de bases de dados), que após processamento ficarão disponíveis no lado do cliente. A flexibilidade desta linguagem e a sua relativa simplicidade tornaram-na muito mais aplicável, por exemplo, em aplicações móveis, ou mesmo na programação de UAVs (alguns drones executam programas escritos nesta linguagem).
+
+Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
+  
+O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
+
+Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte uso entre os desenvolvedores web:
 
 ## `Hello, World!` - JavaScript
 
@@ -274,15 +292,6 @@ Essas funções oferecem uma gama mais ampla de funcionalidades para depuração
 O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo para o JavaScript puro. Ou seja, muitos podem achar que se trata de uma biblioteca, pacote, módulo ou framework, mas não...é o bom e velho JavaScript.
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
-
-# ⚛️ A presença do JavaScript atualmente
-<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
-
-Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
-  
-O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
-
-Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte uso entre os desenvolvedores web:
   
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
