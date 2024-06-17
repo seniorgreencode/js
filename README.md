@@ -57,9 +57,84 @@ Por fim, que venha o JavaScript, uma linguagem flexível que consegue se aproxim
 > Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos, isto significa que <b>todos os elementos de uma página da Web são tratados como objetos</b>. Estes objetos são agrupados de acordo com seu tipo ou finalidade.
 
 ## `Hello, World!` - JavaScript
+
 ```javascript
 console.log("Hello, World!");
 ```
+
+Além do `console.log`, existem várias outras funções do objeto `console` no JavaScript que podem ser usadas para diferentes tipos de saída no console. Aqui estão algumas das mais comuns:
+
+1. **`console.error()`**: Exibe uma mensagem de erro.
+    ```javascript
+    console.error("Isto é uma mensagem de erro.");
+    ```
+
+2. **`console.warn()`**: Exibe uma mensagem de aviso.
+    ```javascript
+    console.warn("Isto é uma mensagem de aviso.");
+    ```
+
+3. **`console.info()`**: Exibe uma mensagem informativa.
+    ```javascript
+    console.info("Isto é uma mensagem informativa.");
+    ```
+
+4. **`console.debug()`**: Exibe uma mensagem de depuração. (Em alguns navegadores, este é um alias para `console.log`.)
+    ```javascript
+    console.debug("Isto é uma mensagem de depuração.");
+    ```
+
+5. **`console.table()`**: Exibe dados em uma tabela.
+    ```javascript
+    const pessoas = [
+        { nome: "Alice", idade: 30 },
+        { nome: "Bob", idade: 25 },
+    ];
+    console.table(pessoas);
+    ```
+
+6. **`console.assert()`**: Exibe uma mensagem de erro se a expressão passada for falsa.
+    ```javascript
+    const x = 5;
+    console.assert(x > 10, "x não é maior que 10"); // Exibirá uma mensagem de erro no console
+    ```
+
+7. **`console.group()`** e **`console.groupEnd()`**: Agrupa mensagens de log, criando uma hierarquia de mensagens.
+    ```javascript
+    console.group("Grupo 1");
+    console.log("Mensagem no grupo 1");
+    console.group("Subgrupo 1.1");
+    console.log("Mensagem no subgrupo 1.1");
+    console.groupEnd();
+    console.groupEnd();
+    ```
+
+8. **`console.groupCollapsed()`**: Similar a `console.group()`, mas inicia o grupo colapsado (fechado).
+    ```javascript
+    console.groupCollapsed("Grupo colapsado");
+    console.log("Mensagem no grupo colapsado");
+    console.groupEnd();
+    ```
+
+9. **`console.time()`** e **`console.timeEnd()`**: Mede o tempo de execução entre essas duas chamadas.
+    ```javascript
+    console.time("Timer");
+    // Algum código que você quer medir o tempo de execução
+    console.timeEnd("Timer"); // Exibe o tempo de execução no console
+    ```
+
+10. **`console.trace()`**: Exibe uma stack trace (rastro de chamadas) da execução do código.
+    ```javascript
+    function funcaoA() {
+        function funcaoB() {
+            console.trace("Rastro de execução");
+        }
+        funcaoB();
+    }
+    funcaoA();
+    ```
+
+Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
  
 # 📒 ECMAScript (ES)
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
