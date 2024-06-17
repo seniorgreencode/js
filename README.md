@@ -167,6 +167,20 @@ Vamos analisar o código do ECMAScript acima:
 
 - Função Arrow: Define uma função usando a sintaxe de função arrow (=>). A função `saudacao` aceita um parâmetro nome e retorna uma string interpolada usando template literals (cercados por crases ``). A string resultante será `'Olá, Alice!'` se nome for `'Alice'`.
 
+- Classe `Pessoa`: Define uma classe chamada `Pessoa` usando a nova sintaxe de classes do ES6.
+  
+- Construtor: O método `constructor` é chamado quando uma nova instância da classe é criada. Ele inicializa os objetos com as propriedades `nome` e `idade` passadas como argumentos.
+  
+- Método `apresentar`: Define um método na classe `Pessoa` que retorna uma string interpolada apresentando a pessoa com seu `nome` e `idade`.
+
+- Exportação e Importação de Módulos: Este é um comentário que mostra como você exportaria uma classe `Carro` de um módulo e como importaria essa classe em outro arquivo. Isto é apenas um exemplo e não é executado no código principal.
+
+- Criação de Instância: Cria uma nova instância da classe `Pessoa` chamada pessoa, passando `nome` e `idade` como argumentos para o `construtor`.
+
+- `console.log(saudacao(pessoa.nome));`: Chama a função `saudacao` passando `pessoa.nome` como argumento e imprime o resultado no console. Se `pessoa.nome` for `'Alice'`, o resultado será `'Olá, Alice!'`.
+  
+- `console.log(pessoa.apresentar());`: Chama o método `apresentar` na instância `pessoa` e imprime o resultado no console. Se `pessoa.nome` for `'Alice'` e `pessoa.idade` for `30`, o resultado será `'Meu nome é Alice e eu tenho 30 anos.'`.
+
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
