@@ -110,7 +110,7 @@ Principais Recursos de ECMAScript:
 
 Implementações de ECMAScript:
 
-<img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="177" align="right"/>
+<img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="77" align="right"/>
 
 Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos. Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e **TypeScript**.
 
