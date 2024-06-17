@@ -169,6 +169,8 @@ Vamos analisar o código do ECMAScript acima:
 
 ## `Hello, World!` - JavaScript
 
+[![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
 ```javascript
 console.log("Hello, World!");
 ```
