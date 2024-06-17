@@ -58,30 +58,6 @@ Como mencionamos antes, JavaScript é uma linguagem de programação interpretad
 
 No início dos anos 90, todas as páginas da web eram estáticas. As coisas mudaram em 1995, quando a corporação Netscape contratou Brendan Eich e o encarregou de desenvolver uma nova linguagem para seu produto, o navegador Netscape Navigator. A nova linguagem foi chamada de LiveScript, mas logo depois seu nome foi alterado para JavaScript. A sua principal tarefa era dinamizar os websites, o que permitisse, por exemplo, uma interação mais complexa com o utilizador. E assim começou a carreira do JavaScript.
 
-JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
-
-> **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o V8 do Google Chrome, o SpiderMonkey do Mozilla Firefox e o Chakra do Microsoft Edge.
-
-<a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do V8" align="right"/></a>
-
-Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc. O V8 "compila" o JavaScript, mas por trás ele executa a linguagem de programação C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
-
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
-
-Talvez você já tenha ouvido falar de <a href="">node.js</a>. Também é um intérprete, mas instalado independentemente dos navegadores como ambiente no sistema operacional do computador (pode ser macOS, Windows ou Linux). Usar node.js permite escrever programas em JavaScript que irão, por exemplo, transformar seu computador em um servidor. Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
-
-No início deste parágrafo, simplificamos um pouco as coisas. JavaScript é uma linguagem interpretada – não há dúvida disso. E, de fato, executar um programa escrito em JavaScript parece que estamos executando nosso código-fonte (ou seja, o código que escrevemos) passo a passo. No entanto, você pode encontrar informações sobre essa linguagem e, mais especificamente, sobre intérpretes específicos, que são um pouco diferentes.
-
-A maioria dos mecanismos JavaScript modernos usa a técnica Just In Time Compilation (JIT Compilation). Esta técnica consiste em compilar fragmentos de código durante a execução do programa (mais de uma instrução) e permite aumentar seu desempenho. Entretanto, do ponto de vista do usuário, tal mudança é praticamente imperceptível – ainda parece que apenas o interpretador está executando o código-fonte, instrução por instrução.
-
-Independentemente da linguagem escolhida, algumas coisas permanecem as mesmas durante a escrita do programa. Em primeiro lugar, uma etapa importante e provavelmente a mais difícil deste processo é definir corretamente o problema que queremos resolver. Só então tentamos encontrar a solução ótima, que finalmente apresentaremos na forma de um programa escrito na linguagem escolhida.
-
-Portanto, antes de começar a explicar algo ao computador, ou seja, escrever um programa, você precisa entender exatamente o que deseja alcançar e como deseja alcançá-lo. Em segundo lugar, a solução que propomos e escrevemos na forma de um programa deve ser 100% inequívoca – o computador não consegue adivinhar nada.
-
-Um exemplo simples de uma área um pouco diferente: em algum momento da sua vida, você provavelmente comprou um móvel que exigia montagem. Montá-lo é um problema com o qual você, o comprador, está sobrecarregado. Para que você possa realizar esta tarefa, você receberá um conjunto de instruções para orientá-lo em todo o processo. Você está atuando como intérprete neste momento, usando um programa que lhe permitirá completar a tarefa. O sucesso da sua missão depende da qualidade destas instruções, se são precisas e inequívocas, e não provêm de outro móvel. No final, pode acontecer que você não tenha construído os móveis dos seus sonhos, mas uma construção surrealista de outra dimensão.
-
-Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o que devem ilustrar, em que ordem determinadas ações devem ser realizadas, em quais etapas algo é mais fácil de confundir, e assim por diante. E, claro, eles devem saber qual o efeito a ser alcançado no final.
-
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
 
 Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. ECMAScript é uma especificação de linguagem de script padronizada pela Ecma International. É a base para várias linguagens de script, sendo JavaScript a implementação mais conhecida. ECMAScript é uma especificação que define a linguagem de script usada para implementar JavaScript e outras linguagens relacionadas. Ela evolui continuamente para incluir novos recursos, permitindo que os desenvolvedores escrevam código mais eficiente, legível e poderoso. JavaScript, como a implementação mais popular, segue essas especificações para garantir consistência e compatibilidade em diferentes ambientes e plataformas.
@@ -193,6 +169,32 @@ Vamos analisar o código do ECMAScript acima:
 - `console.log(saudacao(pessoa.nome));`: Chama a função `saudacao` passando `pessoa.nome` como argumento e imprime o resultado no console. Se `pessoa.nome` for `'Alice'`, o resultado será `'Olá, Alice!'`.
   
 - `console.log(pessoa.apresentar());`: Chama o método `apresentar` na instância `pessoa` e imprime o resultado no console. Se `pessoa.nome` for `'Alice'` e `pessoa.idade` for `30`, o resultado será `'Meu nome é Alice e eu tenho 30 anos.'`.
+
+Então, o output (saída) desse código será 'Olá, Alice!' com uma quebra de linha, seguindo o resultado 'Meu nome é Alice e eu tenho 30 anos.'.
+
+Portanto, o JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
+
+> **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o V8 do Google Chrome, o SpiderMonkey do Mozilla Firefox e o Chakra do Microsoft Edge.
+
+<a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do V8" align="right"/></a>
+
+Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc. O V8 "compila" o JavaScript, mas por trás ele executa a linguagem de programação C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
+
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+Talvez você já tenha ouvido falar de <a href="">node.js</a>. Também é um intérprete, mas instalado independentemente dos navegadores como ambiente no sistema operacional do computador (pode ser macOS, Windows ou Linux). Usar node.js permite escrever programas em JavaScript que irão, por exemplo, transformar seu computador em um servidor. Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
+
+No início deste parágrafo, simplificamos um pouco as coisas. JavaScript é uma linguagem interpretada – não há dúvida disso. E, de fato, executar um programa escrito em JavaScript parece que estamos executando nosso código-fonte (ou seja, o código que escrevemos) passo a passo. No entanto, você pode encontrar informações sobre essa linguagem e, mais especificamente, sobre intérpretes específicos, que são um pouco diferentes.
+
+A maioria dos mecanismos JavaScript modernos usa a técnica Just In Time Compilation (JIT Compilation). Esta técnica consiste em compilar fragmentos de código durante a execução do programa (mais de uma instrução) e permite aumentar seu desempenho. Entretanto, do ponto de vista do usuário, tal mudança é praticamente imperceptível – ainda parece que apenas o interpretador está executando o código-fonte, instrução por instrução.
+
+Independentemente da linguagem escolhida, algumas coisas permanecem as mesmas durante a escrita do programa. Em primeiro lugar, uma etapa importante e provavelmente a mais difícil deste processo é definir corretamente o problema que queremos resolver. Só então tentamos encontrar a solução ótima, que finalmente apresentaremos na forma de um programa escrito na linguagem escolhida.
+
+Portanto, antes de começar a explicar algo ao computador, ou seja, escrever um programa, você precisa entender exatamente o que deseja alcançar e como deseja alcançá-lo. Em segundo lugar, a solução que propomos e escrevemos na forma de um programa deve ser 100% inequívoca – o computador não consegue adivinhar nada.
+
+Um exemplo simples de uma área um pouco diferente: em algum momento da sua vida, você provavelmente comprou um móvel que exigia montagem. Montá-lo é um problema com o qual você, o comprador, está sobrecarregado. Para que você possa realizar esta tarefa, você receberá um conjunto de instruções para orientá-lo em todo o processo. Você está atuando como intérprete neste momento, usando um programa que lhe permitirá completar a tarefa. O sucesso da sua missão depende da qualidade destas instruções, se são precisas e inequívocas, e não provêm de outro móvel. No final, pode acontecer que você não tenha construído os móveis dos seus sonhos, mas uma construção surrealista de outra dimensão.
+
+Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o que devem ilustrar, em que ordem determinadas ações devem ser realizadas, em quais etapas algo é mais fácil de confundir, e assim por diante. E, claro, eles devem saber qual o efeito a ser alcançado no final.
 
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="77" align="right"/>
 
