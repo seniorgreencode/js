@@ -202,8 +202,6 @@ Hoje em dia, quando você visita uma página e vê elementos interagindo com voc
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
 
-Abaixo, você verá algumas bibliotecas e frameworks muito utilizados dentro da linguagem de programação e com forte uso entre os desenvolvedores web:
-
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
