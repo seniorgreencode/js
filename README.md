@@ -202,6 +202,18 @@ Hoje em dia, quando você visita uma página e vê elementos interagindo com voc
   
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
 
+**Desvantagens do JavaScript**:
+
+Dizemos que JavaScript é uma linguagem madura, o que significa que a maioria dos recursos já está implementada e estável, e provavelmente não veremos grandes mudanças na linguagem. Desde 2015, muitos aspectos do JavaScript mudaram e muitos novos recursos foram adicionados. Muitas dessas mudanças foram introduzidas para facilitar a migração para JavaScript para programadores que conhecem outras linguagens populares, das quais o JavaScript originalmente diferia bastante em certos aspectos, como no manuseio de objetos. Ainda podemos usar a linguagem da maneira antiga, mas é recomendado usar o JavaScript moderno.
+
+Mas... não existem soluções ideais, portanto não existem boas linguagens de programação para todas as aplicações. Cada um deles tem suas próprias limitações e não é diferente com JavaScript. Apesar de sua popularidade e sucesso, JavaScript não é uma linguagem de programação perfeita. Devido à sua natureza, não é adequado para determinadas aplicações. Por exemplo, não faz sentido usá-lo para escrever programas que exijam cálculos matemáticos avançados ou desempenho muito alto.
+
+Algumas limitações se devem ao próprio conceito da linguagem, mas a grande maioria está relacionada à plataforma em que a utilizamos. Isso é especialmente visível ao escrever código para ser executado em um navegador, que como dissemos anteriormente é chamado de lado do cliente. Em tal situação, a funcionalidade do JavaScript é limitada pelo fato de que os navegadores, por razões de segurança, executam código de script em um ambiente **sandbox** (um ambiente separado do mundo exterior), que não permite acesso a arquivos e recursos locais ( ou seja, aqueles arquivos que estão no computador onde o navegador é iniciado).
+
+Outro inconveniente é que, como o código não é compilado, ele entra no navegador da mesma forma ou de forma muito semelhante à que nós mesmos escrevemos. Por que isso é uma desvantagem? Isso ocorre porque todos podem ver nossa solução de uma forma fácil de ler e usá-la (sejam fragmentos ou mesmo a totalidade) sem nossa permissão para escrever seu próprio programa.
+
+Uma ajuda aqui pode ser a ofuscação de código, que consiste em transformar nosso script pronto em um formato um pouco menos legível (por exemplo, gerando nomes aleatórios curtos de variáveis ​​e funções, eliminando sinais de fim de linha e assim por diante), mas o simples fato é que se alguém quiser roubar nosso código JavaScript, há muito pouco que possamos fazer para impedi-lo.
+
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
