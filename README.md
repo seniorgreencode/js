@@ -192,7 +192,7 @@ Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais co
 
 Hoje, JavaScript é a única linguagem suportada por todos os principais navegadores da web, e cerca de 95% das páginas da web em todo o mundo incorporam código JavaScript neles. Desde o início, as páginas da web usaram JavaScript no lado do cliente para adicionar interatividade e alterar dinamicamente o conteúdo.
 
-Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks excelentes para construir aplicativos web e redes sociais enormes e complexos (você provavelmente já ouviu nomes de frameworks como React ou Angular ou Vue).
+Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks excelentes para construir aplicativos web e redes sociais enormes e complexos (você provavelmente já ouviu nomes de frameworks como <a href="">React</a> ou <a href="">Angular</a> ou <a href="">Vue</a>).
 
 Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho de alto desempenho até simples smartphones. Graças ao poder do JavaScript, podemos pedir comida, jogar jogos no navegador, assistir filmes em plataformas de streaming e estar em contato constante com pessoas importantes para nós. JavaScript é tão popular que cada vez mais esforços são necessários para usá-lo, não apenas como uma solução do lado do cliente.
 
