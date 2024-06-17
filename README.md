@@ -156,13 +156,11 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
  
-# 📒 ECMAScript (ES)
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
 
 Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
 
-Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos.
-Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e **TypeScript**.
+Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos. Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e **TypeScript**.
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/131336732-e61cc335-927e-4ba5-86be-624d5619a1f7.png" height="177"/></div><br \>
 
