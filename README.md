@@ -232,7 +232,7 @@ Geralmente isso é muito conveniente, mas algumas pessoas consideram esse recurs
 
 Lembre-se também que se você aprender a programar em uma linguagem, normalmente será muito mais fácil aprender a próxima, que por algum motivo pode ser melhor para resolver um problema específico.
 
-Mas vamos começar agora com JavaScript, que, devido à sua sintaxe flexível e simples, é perfeito para aprender como primeira língua.
+Mas vamos começar agora com JavaScript, que, devido à sua sintaxe flexível e simples, é perfeito para aprender como primeira linguagem.
 
 ## `Hello, World!` - JavaScript
 
