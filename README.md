@@ -8,6 +8,22 @@ O termo "Vanilla", traduzido como "baunilha", nada mais é do que um sarcasmo pa
 
 E como estamos envolvendo o JavaScript puro, por que não utilizar esse branch pra se tratar do paradigma imperativo/ procedural da linguagem? Embora, ela ainda seja orientada a objetos e tudo dentro dela é considerado um objeto.
 
+<img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" align="right" height="77">
+
+Como qualquer outra tarefa, a programação requer ferramentas e espaço de trabalho adequados. O desenvolvimento de software, na maioria dos casos, requer um editor de código e um compilador ou intérprete de uma determinada linguagem. Este é um conjunto mínimo, que podemos estender conforme necessário com várias outras ferramentas. No caso, estarei utilizando o Visual Studio Code, que possui muitas funcionalidade e extensões que facilitam o desenvolvimento em JavaScript.
+
+Além do editor e interpretador de código JavaScript, podemos também utilizar o depurador, que é uma ferramenta que nos permite, entre outras coisas, pausar o programa no local indicado e analisar o seu estado atual (por exemplo, os valores das variáveis ​​indicadas).
+
+É claro que as ferramentas em questão deverão ser executadas no computador. Nesta fase, o seu desempenho não é particularmente importante, e qualquer unidade que possa lidar com tarefas normais de escritório será suficiente, por isso é altamente recomendável trabalhar a partir de um computador desktop ou laptop.
+Não há como negar que o tamanho do monitor afetará o conforto do seu trabalho. Quanto maior o monitor, mais fácil será colocar o editor de código, o intérprete e outros conteúdos (por exemplo, este curso) próximos uns dos outros. Em circunstâncias normais de trabalho, os programadores costumam usar vários monitores.
+
+O sistema operacional não importa, pois a ferramenta apropriada pode ser encontrada para Windows, macOS e Linux.
+
+Neste momento, existem duas opções. Você pode instalar todas as ferramentas necessárias em sua máquina e trabalhar no ambiente local. Esta é a abordagem preferida, pois é assim que acontece em projetos comerciais reais na maioria das vezes. Você também pode personalizar tudo para atender às suas necessidades.
+Outra abordagem é usar ferramentas online. Eles podem ser convenientes, pois você não precisa instalar ou configurar nada – eles simplesmente funcionam. A maioria deles permite armazenar seu trabalho em uma nuvem para que você possa acessá-lo de diferentes dispositivos, mas por outro lado, carecem de opções de personalização e você precisa ter uma conexão constante com a Internet.
+
+Todo o código que você verá neste curso foi testado em ambientes locais e online, portanto ambas as opções são válidas. Finalmente, podemos passar para a escolha das ferramentas.
+
 ## [JS] `Hello, World!` - JavaScript
 Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
 
