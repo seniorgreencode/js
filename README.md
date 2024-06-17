@@ -58,7 +58,9 @@ Por fim, que venha o JavaScript, uma linguagem flexível que consegue se aproxim
 
 JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
 
-Talvez você já tenha ouvido falar de <a href="">node.js</a>. Também é um intérprete, mas instalado independentemente dos navegadores como ambiente no sistema operacional do computador (pode ser macOS, Windows ou Linux). Usar node.js permite escrever programas em JavaScript que irão, por exemplo, transformar seu computador em um servidor.
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+Talvez você já tenha ouvido falar de <a href="">node.js</a>. Também é um intérprete, mas instalado independentemente dos navegadores como ambiente no sistema operacional do computador (pode ser macOS, Windows ou Linux). Usar node.js permite escrever programas em JavaScript que irão, por exemplo, transformar seu computador em um servidor. Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
 
 No início deste parágrafo, simplificamos um pouco as coisas. JavaScript é uma linguagem interpretada – não há dúvida disso. E, de fato, executar um programa escrito em JavaScript parece que estamos executando nosso código-fonte (ou seja, o código que escrevemos) passo a passo. No entanto, você pode encontrar informações sobre esse idioma e, mais especificamente, sobre intérpretes específicos, que são um pouco diferentes.
 
@@ -198,13 +200,6 @@ Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content De
 Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc.
 
 O V8 "compila" o JavaScript, mas por trás ele executa C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
-
-# ⬢ Node.js
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
-
-Em 2009, <a href="https://github.com/ry">Ryan Dahl</a> desenvolveu o <b>Node.js</b> que é um run-time-environment do JavaScript, ou seja, um ambiente de execução do JS, dessa forma ele pode entender a linguagem de programação JavaScript e executar códigos do mesmo, portanto onde for possível instalar o Node.js se torna possível usar o JS. 
-
-O Node usa o V8 fora do navegador, e possui muitas outras funcionalidades que nos permite programar com JavaScript no lado do servidor. Com o Node foi possível a criação de coisas como automatizadores de tarefas e criação de servidores em JavaScript.
 
 ## NPM - Node Package Manager
 <img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
