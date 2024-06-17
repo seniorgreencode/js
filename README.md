@@ -56,6 +56,22 @@ Por fim, que venha o JavaScript, uma linguagem flexível que consegue se aproxim
 
 > Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos, isto significa que <b>todos os elementos de uma página da Web são tratados como objetos</b>. Estes objetos são agrupados de acordo com seu tipo ou finalidade.
 
+JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
+
+Talvez você já tenha ouvido falar de <a href="">node.js</a>. Também é um intérprete, mas instalado independentemente dos navegadores como ambiente no sistema operacional do computador (pode ser macOS, Windows ou Linux). Usar node.js permite escrever programas em JavaScript que irão, por exemplo, transformar seu computador em um servidor.
+
+No início deste parágrafo, simplificamos um pouco as coisas. JavaScript é uma linguagem interpretada – não há dúvida disso. E, de fato, executar um programa escrito em JavaScript parece que estamos executando nosso código-fonte (ou seja, o código que escrevemos) passo a passo. No entanto, você pode encontrar informações sobre esse idioma e, mais especificamente, sobre intérpretes específicos, que são um pouco diferentes.
+
+A maioria dos mecanismos JavaScript modernos usa a técnica Just In Time Compilation (JIT Compilation). Esta técnica consiste em compilar fragmentos de código durante a execução do programa (mais de uma instrução) e permite aumentar seu desempenho. Entretanto, do ponto de vista do usuário, tal mudança é praticamente imperceptível – ainda parece que apenas o interpretador está executando o código-fonte, instrução por instrução.
+
+Independentemente do idioma escolhido, algumas coisas permanecem as mesmas durante a escrita do programa. Em primeiro lugar, uma etapa importante e provavelmente a mais difícil deste processo é definir corretamente o problema que queremos resolver. Só então tentamos encontrar a solução ótima, que finalmente apresentaremos na forma de um programa escrito na linguagem escolhida.
+
+Portanto, antes de começar a explicar algo ao computador, ou seja, escrever um programa, você precisa entender exatamente o que deseja alcançar e como deseja alcançá-lo. Em segundo lugar, a solução que propomos e escrevemos na forma de um programa deve ser 100% inequívoca – o computador não consegue adivinhar nada.
+
+Um exemplo simples de uma área um pouco diferente: em algum momento da sua vida, você provavelmente comprou um móvel que exigia montagem. Montá-lo é um problema com o qual você, o comprador, está sobrecarregado. Para que você possa realizar esta tarefa, você receberá um conjunto de instruções para orientá-lo em todo o processo. Você está atuando como intérprete neste momento, usando um programa que lhe permitirá completar a tarefa. O sucesso da sua missão depende da qualidade destas instruções, se são precisas e inequívocas, e não provêm de outro móvel. No final, pode acontecer que você não tenha construído os móveis dos seus sonhos, mas uma construção surrealista de outra dimensão.
+
+Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o que devem ilustrar, em que ordem determinadas ações devem ser realizadas, em quais etapas algo é mais fácil de confundir, e assim por diante. E, claro, eles devem saber qual o efeito a ser alcançado no final.
+
 ## `Hello, World!` - JavaScript
 
 ```javascript
