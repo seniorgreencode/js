@@ -258,6 +258,14 @@ Hoje, JavaScript é a única linguagem suportada por todos os principais navegad
 
 Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks excelentes para construir aplicativos web e redes sociais enormes e complexos (você provavelmente já ouviu nomes de frameworks como <a href="">React</a> ou <a href="">Angular</a> ou <a href="">Vue</a>).
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
+
+O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
+
+O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React. Ao iniciar um projeto React, uma página HTML simples com tags de script ainda pode ser a melhor opção. Leva apenas um minuto para configurar!
+
+À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
+
 Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho de alto desempenho até simples smartphones. Graças ao poder do JavaScript, podemos pedir comida, jogar jogos no navegador, assistir filmes em plataformas de streaming e estar em contato constante com pessoas importantes para nós. JavaScript é tão popular que cada vez mais esforços são necessários para usá-lo, não apenas como uma solução do lado do cliente.
 
 Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programação de partes do lado do servidor de aplicações web complexas, também chamadas de back-end. Estes programas são executados em servidores, processando dados (por exemplo, de bases de dados), que após processamento ficarão disponíveis no lado do cliente. A flexibilidade desta linguagem e a sua relativa simplicidade tornaram-na muito mais aplicável, por exemplo, em aplicações móveis, ou mesmo na programação de UAVs (alguns drones executam programas escritos nesta linguagem).
@@ -639,15 +647,6 @@ Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e J
 O Ember.js, ou somente Ember, é um framework web JavaScript de código aberto, baseado na arquitetura Model–view–viewmodel. Ele permite aos desenvolvedores aplicativos web de página única escaláveis, ao incorporar expressões idiomáticas comuns e boas práticas de desenvolvimento em seu núcleo.
 
 O Ember.js é uma estrutura JavaScript produtiva e testada em batalha para a criação de aplicativos da Web modernos. Ele inclui tudo o que você precisa para criar interfaces de usuário avançadas que funcionam em qualquer dispositivo.
-
-# ⚛️ React.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
-
-O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
-
-O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React. Ao iniciar um projeto React, uma página HTML simples com tags de script ainda pode ser a melhor opção. Leva apenas um minuto para configurar!
-
-À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
 
 ## Vite
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77" align="right"></a>
