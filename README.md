@@ -260,11 +260,7 @@ Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks 
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
 
-O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário.
-
-O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React. Ao iniciar um projeto React, uma página HTML simples com tags de script ainda pode ser a melhor opção. Leva apenas um minuto para configurar!
-
-À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
+O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário. O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React. Ao iniciar um projeto React, uma página HTML simples com tags de script ainda pode ser a melhor opção. Leva apenas um minuto para configurar! À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
 
 Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho de alto desempenho até simples smartphones. Graças ao poder do JavaScript, podemos pedir comida, jogar jogos no navegador, assistir filmes em plataformas de streaming e estar em contato constante com pessoas importantes para nós. JavaScript é tão popular que cada vez mais esforços são necessários para usá-lo, não apenas como uma solução do lado do cliente.
 
