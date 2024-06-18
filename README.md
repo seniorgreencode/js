@@ -487,6 +487,34 @@ Mas para nós, este é um problema para um futuro distante.
 
 Por enquanto, precisamos do trio mínimo: editor de código, intérprete e depurador.
 
+Os programas de computador são feras complicadas, milhares ou até milhões de linhas de código (mas calma, começaremos com apenas algumas). Com tanta complexidade e tamanho, é impossível produzir código sem erros. Alguns tipos de erros, especialmente os lógicos (formalmente, o programa está escrito corretamente, mas provavelmente inventamos a solução errada para o problema), só podem ser encontrados enquanto o programa está em execução e, muitas vezes, apenas em circunstâncias especiais. É realmente difícil descobrir o que exatamente está acontecendo dentro de um programa que é executado extremamente rápido e, para esses problemas, existem depuradores.
+
+Um **depurador (debugger)** é uma ferramenta que permite desacelerar ou até mesmo interromper a execução de um programa, executar instruções passo a passo e observar e analisar o estado do programa a qualquer momento.
+
+Felizmente, no momento em que decidimos usar o navegador da web como ambiente de inicialização e interpretador de JavaScript, também adquirimos um depurador. Todos os navegadores modernos estão equipados com ferramentas de desenvolvedor. Durante o funcionamento normal, eles ficam invisíveis e temos que habilitá-los nas opções do navegador (mais sobre isso no próximo capítulo).
+
+Dependendo do navegador, encontraremos lá várias ferramentas, mas certamente haverá:
+
+- o inspetor – que nos permitirá, por exemplo, analisar os elementos HTML individuais de um site aberto;
+
+- o console JavaScript – que em primeiro lugar mostra todas as informações sobre os erros e, em segundo lugar, nos permite executar comandos JavaScript únicos no contexto da página atual;
+
+- o `debugger` – que, entre outras coisas, mostra os valores atuais das variáveis, e permite pausar a execução do código no local indicado e realizar trabalho passo a passo (ou seja, executar instruções únicas do programa).
+
+Como você habilita as ferramentas do desenvolvedor? Infelizmente, não existe uma resposta única; depende do navegador que você está usando (às vezes também da versão) e do sistema operacional. As interfaces do navegador mudam com frequência, por isso é melhor aprender os atalhos corretos em vez de procurar a opção certa no menu.
+
+Experimente as seguintes combinações de teclas:
+
+- Sistemas operacionais Windows e Linux, todos os navegadores comuns, exceto Internet Explorer e Edge: `ctrl + shift + i`
+
+- Sistema operacional Windows, Internet Explorer e Edge: `F12`
+
+- Sistema operacional macOS, todos os navegadores comuns: `⌘ + ⌥ + i`
+
+No próximo capítulo, retornaremos a este tópico e aprenderemos mais algumas coisas sobre essas ferramentas úteis.
+
+No próximo capítulo escreveremos nosso primeiro trecho de código JavaScript. Iremos testá-lo primeiro no ambiente de execução integrado à nossa plataforma de treinamento. Também o usaremos para verificar como funciona nosso ambiente de desenvolvimento local. Portanto, certifique-se de que as ferramentas selecionadas estejam instaladas e que você possa iniciá-las. Se você ainda não sabe o que escolher, sugerimos usar o ambiente local com o Visual Studio Code (nosso editor de código) e o Chrome (navegador com interpretador e depurador JavaScript).
+
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
