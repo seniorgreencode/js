@@ -269,7 +269,13 @@ Porém, o que é uma vantagem para alguns pode ser uma desvantagem para outros. 
 
 Por exemplo, durante a execução do programa, podemos armazenar o número 10 em uma variável, e no próximo passo usar a mesma variável para armazenar a string “abc” (excluindo o valor anterior automaticamente, é claro – não se preocupe se você não entendo agora, porque abordaremos todos esses termos mais tarde).
 
-Geralmente isso é muito conveniente, mas algumas pessoas consideram esse recurso da linguagem uma desvantagem. Na opinião deles, torna mais fácil para um programador cometer erros em determinadas situações. Ao adicionar digitação estática, onde uma variável pode conter apenas um tipo de variável (por exemplo, números) durante a execução do programa, uma nova linguagem chamada TypeScript foi introduzida.
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+
+Geralmente isso é muito conveniente, mas algumas pessoas consideram esse recurso da linguagem uma desvantagem. Na opinião deles, torna mais fácil para um programador cometer erros em determinadas situações. Ao adicionar digitação estática, onde uma variável pode conter apenas um tipo de variável (por exemplo, números) durante a execução do programa, uma nova linguagem chamada **TypeScript** foi introduzida.
+
+O TypeScript, abreviado como TS, é um superset da linguagem de programação JavaScript, desenvolvido e mantido pela Microsoft. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS.
+
+> **Obs**: Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
 
 Lembre-se também que se você aprender a programar em uma linguagem, normalmente será muito mais fácil aprender a próxima, que por algum motivo pode ser melhor para resolver um problema específico.
 
@@ -513,13 +519,6 @@ Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedore
 **Flow** é um verificador de tipo estático para JavaScript que permite ao desenvolvedor verificar erros de tipo durante o desenvolvimento do código. Isso significa que um desenvolvedor recebe feedback mais rápido sobre o código, que pode ser usado para melhorar sua qualidade. O <a href="https://medium.com/@dudousxd/o-flow-do-javascript-9050daa37f33">Flow</a> funciona usando anotações e definições de tipo para adicionar suporte de verificação de tipo ao seu código. A sintaxe é fácil de usar e você pode removê-la rapidamente com uma ferramenta de pós-processador para que não afete seu código.
 
 O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
-
-# 🟦 TypeScript (TS)
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
-
-O **TypeScript**, abreviado como **TS**, é um superset da linguagem de programação JavaScript, desenvolvido e mantido pela Microsoft. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS.
-
-> **Obs**: Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
 
 # 🟪 ESLint
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
