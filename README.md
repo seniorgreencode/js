@@ -281,6 +281,22 @@ Lembre-se também que se você aprender a programar em uma linguagem, normalment
 
 Mas vamos começar agora com JavaScript, que, devido à sua sintaxe flexível e simples, é perfeito para aprender como primeira linguagem.
 
+Há também ambientes online, comumente conhecidos como playgrounds de código, são sites que atuam como um editor simples e um ambiente de tempo de execução. Todos eles têm conjuntos semelhantes de recursos. Eles têm interfaces de usuário diferentes, mas, em princípio, se comportam de maneira semelhante. Eles permitem que você escreva código, execute-o para fins de teste e, na maioria das vezes, compartilhe-o com outros usuários.
+
+No caso do JavaScript, onde a preparação de um ambiente local totalmente funcional se resume à instalação de um editor de código e à execução do navegador, eles não são tão importantes quanto os ambientes de desenvolvimento regulares. Eles são usados ​​principalmente como plataformas de treinamento e teste, ou locais para publicar exemplos de soluções para problemas de programação.
+
+Entre os programadores JavaScript, os mais populares são os seguintes:
+
+- https://jsfiddle.net/
+- https://codepen.io/pen/
+- https://jsbin.com/
+- https://plnkr.co/
+- https://observablehq.com/
+
+Utilizaremos um ambiente online integrado à plataforma de treinamento. <a href="https://openedg.org/">OpenEDG</a> fornece um ambiente simples para escrever e executar código em diversas linguagens de programação, incluindo JavaScript. Não se esqueça, porém, que esta plataforma é uma solução puramente didática e de teste, e certamente não pode ser usada como um ambiente de desenvolvimento completo. Porém, é ideal para as nossas necessidades, pois na maioria dos casos poderemos esquecer o ambiente web dos programas escritos em JavaScript, incluindo os elementos HTML. Isso nos permitirá focar apenas no aprendizado da própria linguagem JavaScript.
+
+No entanto, é altamente recomendável que você também configure seu próprio ambiente de desenvolvimento local. Não é difícil, como você descobrirá imediatamente, e permitirá que você faça alguns exercícios de uma forma muito mais próxima de como você faria durante o desenvolvimento normal de software.
+
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
