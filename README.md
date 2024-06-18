@@ -601,6 +601,50 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
 
+Tente outros tipos de dados:
+
+```javascript
+console.log('1542'); // output: '1542'
+```
+
+```javascript
+console.log(1542); // output: 1542
+```
+
+
+```javascript
+console.log("abc", "def", "ghi"); // output: abc def ghi
+```
+
+```javascript
+console.log("Mary Stuart (1542)");
+console.log("Mary", "Stuart", "(1542)");
+```
+
+```javascript
+console.log("Mary");
+console.log("Stuart");
+console.log("(1542)");
+
+// output:
+// Mary Stuart (1542)
+// Mary Stuart (1542)
+```
+
+```javascript
+console.log("Mary");
+console.log("Stuart");
+console.log("(1542)");
+
+// output:
+// Mary Stuart (1542)
+// Mary Stuart (1542)
+```
+
+```javascript
+console.log("Mary" + "Stuart" + "(1542)");
+```
+
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/9e9b43ba-8ad7-4a10-9f2a-c6adbff5ced3" align="right" height="177">
 
 Mas, e em aplicações web? Como podemos executar nosso código JavaScript? Vamos começar com um exemplo simples, onde o navegador obtém uma página simples (talvez até vazia) de https://test.org. O endereço foi criado para este exemplo, então não tente digitá-lo. Veja a figura ao lado.
