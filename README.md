@@ -212,6 +212,31 @@ Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programa
 
 Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
 
+<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="177" align="right"/>
+
+Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
+  
+Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais poder com a linguagem, como acesso à câmera e microfone, leitura e edição de arquivos, edição de som e imagem, envio de notificações, modelagem 3D, geolocalização, etc. Grandes empresas usam JavaScript, até mesmo no back-end.
+  
+Hoje ele é utilizado nos mais diversos lugares, como:
+
+- Websites;
+- Aplicações Web;
+- Audio/Visual;
+- Desenvolvimento de Jogos Eletrônicos (Videogames);
+- Animações;
+- Servidores;
+- Bancos de Dados;
+- Sistemas Operacionais de SmartTvs;
+- Automação de Tarefas;
+- Automação de Testes;
+- Softwares Desktop;
+- Controle de Hardware;
+- IoT - Internet das Coisas;  
+- Inteligência Artificial;
+- Desenvolvimento Mobile Multiplataforma (Apps Híbridos);
+- Plugins para programas, como Photoshop.
+
 <img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="77" align="right">
  
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
@@ -765,32 +790,6 @@ O WebAssembly foi projetado para ser impresso em um formato textual para depura�
 Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura.
 
 Podemos utilizar o Node.js SDK para criar funções para nossas APIs Serverless, e essas funções podem ser mais de uma, e dessa forma podemos criar microsserviços serverless, juntamente com um API Gateway e um ou mais banco de dados para gerenciar nossa API.
-
-# 🏆 A importância do JavaScript para o mundo
-<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="287" align="right"/>
-
-Cada vez mais o JavaScript começou a ganhar mais força. Hoje em dia temos várias bibliotecas, frameworks, plugins, etc. O JavaScript não é mais só uma pequena ferramenta para criar interação em sites.
-  
-Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais poder com a linguagem, como acesso à câmera e microfone, leitura e edição de arquivos, edição de som e imagem, envio de notificações, modelagem 3D, geolocalização, etc. Grandes empresas usam JavaScript, até mesmo no back-end.
-  
-Hoje ele é utilizado nos mais diversos lugares, como:
-
-- Websites;
-- Aplicações Web;
-- Audio/Visual;
-- Desenvolvimento de Jogos Eletrônicos (Videogames);
-- Animações;
-- Servidores;
-- Bancos de Dados;
-- Sistemas Operacionais de SmartTvs;
-- Automação de Tarefas;
-- Automação de Testes;
-- Softwares Desktop;
-- Controle de Hardware;
-- IoT - Internet das Coisas;  
-- Inteligência Artificial;
-- Desenvolvimento Mobile Multiplataforma (Apps Híbridos);
-- Plugins para programas, como Photoshop.
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
