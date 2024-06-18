@@ -307,7 +307,7 @@ Serão, entre outros:
 
 <img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
 
-- Gerenciadores de pacotes (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
+Gerenciadores de pacotes (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
 
@@ -321,7 +321,7 @@ Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
-- Executores de tarefas e empacotadores de módulos (Task Runners and Module bundlers) – usados, em termos simples, para automatizar o processo de desenvolvimento de software e mesclar o código resultante de muitos arquivos e bibliotecas (por exemplo, Grunt ou Webpack)
+Executores de tarefas e empacotadores de módulos (Task Runners and Module bundlers) – usados, em termos simples, para automatizar o processo de desenvolvimento de software e mesclar o código resultante de muitos arquivos e bibliotecas (por exemplo, Grunt ou Webpack)
 
 O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
 
@@ -329,9 +329,19 @@ Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos
 
 > Muito usado para frameworks Front-end JavaScript como: Angular, Vue e React.
 
-- Estrutura de teste – permite testar automaticamente a correção do nosso programa em busca de erros potenciais (por exemplo, Mocha, Jasmine ou Jest)
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
 
-- Analisadores de segurança – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
+Estrutura de teste – permite testar automaticamente a correção do nosso programa em busca de erros potenciais (por exemplo, Mocha, Jasmine ou Jest)
+
+O Jest é um poderoso framework de testes unitários de código aberto em JavaScript com um foco na simplicidade, criado pelo Facebook a partir do framework Jasmine e foi projetado para garantir a correção de qualquer código JavaScript. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript e funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais! 
+
+> **Curiosidade**: O Jest foi inicialmente criado para testar o framework React, também criado pelo Facebook. Porém sua implementação se tornou muito mais ampla, sendo utilizado como ferramenta de teste unitário para diversas plataformas JavaScript como Node e Redux, e até mesmo plataformas em TypeScript como Angular e Ionic.
+
+Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/snyk.svg" height="77" align="right"></a>
+
+Analisadores de segurança – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
 A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldição. Temos à sua escolha centenas de componentes, a partir dos quais podemos criar o ambiente mais confortável para nós.
 
 Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
@@ -676,15 +686,6 @@ Escreva tarefas individuais e focadas e componha-as em operações maiores, forn
 <img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
 
 O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
-
-# 🃏 Jest
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
-
-O Jest é um poderoso framework de testes unitários de código aberto em JavaScript com um foco na simplicidade, criado pelo Facebook a partir do framework Jasmine e foi projetado para garantir a correção de qualquer código JavaScript. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript e funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais! 
-
-> **Curiosidade**: O Jest foi inicialmente criado para testar o framework React, também criado pelo Facebook. Porém sua implementação se tornou muito mais ampla, sendo utilizado como ferramenta de teste unitário para diversas plataformas JavaScript como Node e Redux, e até mesmo plataformas em TypeScript como Angular e Ionic.
-
-Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 
 # ⚫ Cypress
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="77" align="right"></a>
