@@ -299,6 +299,47 @@ Utilizaremos um ambiente online integrado à plataforma de treinamento. <a href=
 
 No entanto, é altamente recomendável que você também configure seu próprio ambiente de desenvolvimento local. Não é difícil, como você descobrirá imediatamente, e permitirá que você faça alguns exercícios de uma forma muito mais próxima de como você faria durante o desenvolvimento normal de software.
 
+Como escrevemos anteriormente, os requisitos de JavaScript para o ambiente de desenvolvimento são muito modestos. Na maioria dos casos, especialmente no início do desenvolvimento, apenas três elementos são suficientes: um editor de código, um interpretador (ou seja, um ambiente inicializável) e um depurador.
+
+Dependendo do nível de sofisticação, da complexidade do projeto escrito ou do ambiente para o qual escrevemos nossos programas (lado cliente, lado servidor, móvel), outras ferramentas também podem ser necessárias.
+
+Serão, entre outros:
+
+<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
+
+- Gerenciadores de pacotes (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
+
+O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
+
+<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
+
+O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
+
+> Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
+
+Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
+
+- Executores de tarefas e empacotadores de módulos (Task Runners and Module bundlers) – usados, em termos simples, para automatizar o processo de desenvolvimento de software e mesclar o código resultante de muitos arquivos e bibliotecas (por exemplo, Grunt ou Webpack)
+
+O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
+
+Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
+
+> Muito usado para frameworks Front-end JavaScript como: Angular, Vue e React.
+
+- Estrutura de teste – permite testar automaticamente a correção do nosso programa em busca de erros potenciais (por exemplo, Mocha, Jasmine ou Jest)
+
+- Analisadores de segurança – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
+A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldição. Temos à sua escolha centenas de componentes, a partir dos quais podemos criar o ambiente mais confortável para nós.
+
+Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
+
+Mas para nós, este é um problema para um futuro distante.
+
+Por enquanto, precisamos do trio mínimo: editor de código, intérprete e depurador.
+
 ## `Hello, World!` - JavaScript
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -385,20 +426,6 @@ Essas funções oferecem uma gama mais ampla de funcionalidades para depuração
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
-
-## NPM - Node Package Manager
-<img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
-
-O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
-
-## YARN - yet another resource negotiator
-<img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
-
-O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
-
-> Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
-
-Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
 
 # 🐾 Pug.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
@@ -635,15 +662,6 @@ O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue
 Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes que Evan Nyu mais gostava no framework e assim criou um framework bem mais leve.
 
 O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e Ruby On Rails por exemplo, e logicamente é possível usar o Vue em toda a aplicação ou em SPA - Single Page Applications, usando um ecossistema completo com Core, o Vuex e o Vue-Router.
-  
-# 🧊 Webpack
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
-
-O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos.
-
-Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
-
-> Muito usado para frameworks Front-end JavaScript como: Angular, Vue e React.
 
 # 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="77" align="right"></a>
