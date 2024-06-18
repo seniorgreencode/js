@@ -501,6 +501,8 @@ Dependendo do navegador, encontraremos lá várias ferramentas, mas certamente h
 
 - o `debugger` – que, entre outras coisas, mostra os valores atuais das variáveis, e permite pausar a execução do código no local indicado e realizar trabalho passo a passo (ou seja, executar instruções únicas do programa).
 
+> **Dica**: Se familiarize com todos os conceitos e práticas existentes dentro do navegador, pois o debugger do JavaScript se encontra a maioria de todos os problemas dentro dele para que você possa resolver os erros mais rapidamente. Isso vai te dar uma experiência profissional muito boa, com habilidades como autonomia e resolução de problemas.
+
 Como você habilita as ferramentas do desenvolvedor? Infelizmente, não existe uma resposta única; depende do navegador que você está usando (às vezes também da versão) e do sistema operacional. As interfaces do navegador mudam com frequência, por isso é melhor aprender os atalhos corretos em vez de procurar a opção certa no menu.
 
 Experimente as seguintes combinações de teclas:
