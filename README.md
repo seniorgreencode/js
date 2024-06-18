@@ -343,6 +343,14 @@ O **Testing Library** é da família de pacotes que ajuda a testar os componente
 
 O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes. O Cypress é ideal para testes end-to-end (E2E) e integração em aplicações web. Ele é conhecido por seu foco em testes que simulam o comportamento real do usuário interagindo com a aplicação em um navegador.
 
+<img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="77" align="right">
+
+O **Chai** é uma biblioteca open-source de asserção BDD/TDD para Node.js e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript. Os desenvolvedores frequentemente usam o Mocha com Chai, tornando essa combinação com o nome "Mocha & Chai".
+
+O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica.
+
+Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/snyk.svg" height="77" align="right"></a>
 
 **Analisadores de segurança** – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
@@ -728,17 +736,6 @@ Você poderá testar ele no lado do servidor com o Node ou no lado do cliente, e
 O Mocha executa testes em série para fornecer relatórios flexíveis e precisos enquanto mapeia exceções não capturadas para seus casos de teste correspondentes. O Mocha fornece funções que são executadas em uma ordem específica, registrando os resultados na janela do terminal. O Mocha também limpa o estado do software que está sendo testado para garantir que os casos de teste sejam executados independentemente uns dos outros.
 
 Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é comumente usado com Chai, uma biblioteca de asserção popular para Node.js e o navegador.
-
-# 🍵 Chai
-<img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="77" align="right">
-
-O **Chai** é uma biblioteca open-source de asserção BDD/TDD para nó e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript.
-
-> Os desenvolvedores frequentemente usam o Mocha com Chai, tornando essa combinação com o nome "Mocha & Chai".
-
-O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica.
-
-Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
 
 # 🐉 RxJS
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="77" align="right">
