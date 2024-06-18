@@ -337,13 +337,11 @@ O **Jest** é um poderoso framework de testes unitários de código aberto em Ja
 
 <img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
 
-O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
+O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. O Testing Library é usado principalmente para testes de interface de usuário (UI) em aplicações web. Ele foca em testes de interação do usuário e acessibilidade, promovendo melhores práticas de testes ao encorajar os desenvolvedores a testar a aplicação da perspectiva do usuário final.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="77" align="right"></a>
 
-O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes.
-
-À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes.
+O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes. O Cypress é ideal para testes end-to-end (E2E) e integração em aplicações web. Ele é conhecido por seu foco em testes que simulam o comportamento real do usuário interagindo com a aplicação em um navegador.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/snyk.svg" height="77" align="right"></a>
 
