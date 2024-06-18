@@ -562,11 +562,15 @@ Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. 
 
 Em muitas linguagens de programação, essa conversão deve ser feita manualmente. O JavaScript faz conversões automaticamente. Isso pode deixá-lo mais dinâmico, mas se não for usado com cuidado pode causar muitos problemas e falhas de lógica, causando resultados inesperados.
 
-<pre>"5" – 1</pre>
+```javascript
+"5" – 1
+```
 
-Estamos subtraindo 1 de uma String. O JavaScript automaticamente tenta converter a String para o tipo Number para fazer a operação de subtração, resultando em 4.
+Estamos subtraindo `1` de uma `String`. O JavaScript automaticamente tenta converter a `String` para o tipo `Number` para fazer a operação de subtração, resultando em 4.
 
-<pre>"5" + 1</pre>
+```javascript
+"5" + 1
+```
 
 Aqui ele verá a operação como uma concatenação de Strings. Então o 1 será convertido para String, resultando em "51".
 
