@@ -293,6 +293,10 @@ Hoje ele é utilizado nos mais diversos lugares, como:
 - Desenvolvimento Mobile Multiplataforma (Apps Híbridos);
 - Plugins para programas, como Photoshop.
 
+<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="77" align="right">
+
+Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura. Podemos utilizar o Node.js SDK para criar funções para nossas APIs Serverless, e essas funções podem ser mais de uma, e dessa forma podemos criar microsserviços serverless, juntamente com um API Gateway e um ou mais banco de dados para gerenciar nossa API.
+
 <img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="77" align="right">
  
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>. Para ser mais preciso o jQuery é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM (Document Object Model) e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins. Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN. Assim, como também, pode ser baixado o pacote de dependência via NPM.
@@ -809,13 +813,6 @@ A máquina de pilha Wasm foi projetada para ser codificada em um formato binári
 O WebAssembly descreve um ambiente de execução em área restrita com proteção de memória que pode até ser implementado dentro de máquinas virtuais JavaScript existentes. Quando incorporado na Web, o WebAssembly aplicará as políticas de segurança de mesma origem e permissões do navegador.
 
 O WebAssembly foi projetado para ser impresso em um formato textual para depuração, teste, experimentação, otimização, aprendizado, ensino e escrita de programas à mão. O formato textual será usado ao visualizar a fonte dos módulos Wasm na web. E, também, para manter a natureza sem versão, com recursos testados e compatível com versões anteriores da web. Os módulos WebAssembly poderão entrar e sair do contexto JavaScript e acessar a funcionalidade do navegador por meio das mesmas APIs da Web acessíveis a partir do JavaScript. O WebAssembly também oferece suporte a incorporações não-web.
-
-# ☁️ JavaScript em Cloud Computing
-<img src="https://symbols.getvecta.com/stencil_22/7_javascript.d3625e9594.svg" height="77" align="right">
-
-Para computação em nuvem, podemos fazer o deploy da nossa aplicação JavaScript seja para front-end e back-end, assim como também podemos criar aplicações serverless e combinar elas na nossa infraestrutura.
-
-Podemos utilizar o Node.js SDK para criar funções para nossas APIs Serverless, e essas funções podem ser mais de uma, e dessa forma podemos criar microsserviços serverless, juntamente com um API Gateway e um ou mais banco de dados para gerenciar nossa API.
 
 <!--
 ![JS Functional Programming](https://user-images.githubusercontent.com/61624336/103607708-52075400-4ef8-11eb-9f07-39ee85636a67.jpg)
