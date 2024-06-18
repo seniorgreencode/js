@@ -172,6 +172,12 @@ Vamos analisar o código do ECMAScript acima:
 
 Então, o output (saída) desse código será 'Olá, Alice!' com uma quebra de linha, seguindo o resultado 'Meu nome é Alice e eu tenho 30 anos.'.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
+
+O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
+
+Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do TC39, o comitê técnico que especifica o ECMAScript. O Babel também pode converter a sintaxe JSX (JS + XML) e remover anotações de tipo do Flow e do TypeScript. Babel é construído a partir de plugins e componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
+
 Portanto, o JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
 
 > **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o V8 do Google Chrome, o SpiderMonkey do Mozilla Firefox e o Chakra do Microsoft Edge.
@@ -345,11 +351,7 @@ O **Cypress** é um framework de testes, de código aberto e de fácil configur
 
 <img src="https://cdn.worldvectorlogo.com/logos/mocha-1.svg" height="77" align="right">
 
-O **Mocha** é uma estrutura de teste JavaScript para programas Node.js, com suporte a navegadores, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserção. Você poderá testar ele no lado do servidor com o Node ou no lado do cliente, em seu navegador.
-  
-O Mocha executa testes em série para fornecer relatórios flexíveis e precisos enquanto mapeia exceções não capturadas para seus casos de teste correspondentes. O Mocha fornece funções que são executadas em uma ordem específica, registrando os resultados na janela do terminal. O Mocha também limpa o estado do software que está sendo testado para garantir que os casos de teste sejam executados independentemente uns dos outros.
-
-Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é comumente usado com Chai, uma biblioteca de asserção popular para Node.js e o navegador.
+O **Mocha** é uma estrutura de teste JavaScript para programas Node.js, com suporte a navegadores, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserção. Você poderá testar ele no lado do servidor com o Node ou no lado do cliente, em seu navegador. O Mocha executa testes em série para fornecer relatórios flexíveis e precisos enquanto mapeia exceções não capturadas para seus casos de teste correspondentes. O Mocha fornece funções que são executadas em uma ordem específica, registrando os resultados na janela do terminal. O Mocha também limpa o estado do software que está sendo testado para garantir que os casos de teste sejam executados independentemente uns dos outros. Embora possa ser usado com a maioria das bibliotecas de asserção, o Mocha é comumente usado com Chai, uma biblioteca de asserção popular para Node.js e o navegador.
 
 <img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="77" align="right">
 
@@ -566,13 +568,6 @@ Manter o controle de todos esses pacotes e garantir que eles estejam atualizados
 Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, cuidando da busca, localização, download e salvamento do que você está procurando. O Bower rastreia esses pacotes em um arquivo de manifesto, `bower.json`. Como você usa os pacotes depende de você. O Bower fornece ganchos para facilitar o uso de pacotes em suas ferramentas e fluxos de trabalho.
 
 Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
-
-# 🐠 Babel
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
-
-O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
-
-Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do **TC39**, o comitê técnico que especifica o ECMAScript. O Babel também pode **converter a sintaxe JSX** (JS + XML) e **remover anotações de tipo do Flow** e do **TypeScript**. Babel é **construído a partir de plugins**. Componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
 # ⚡ Flow
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="77" align="right">
