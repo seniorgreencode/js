@@ -41,8 +41,6 @@ Veja abaixo a linha cronológica do JavaScript:
 
 <img src="https://user-images.githubusercontent.com/61624336/102109990-697c8100-3e13-11eb-92c1-9f04c4a5edb5.jpg" width="100%"/>
 
-<img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"/>
-
 O <b>JavaScript</b>, abreviado como **JS**, é uma linguagem de programação dinâmica, que é comumente utilizada como parte dos navegadores, criada para esse propósito, manipular elementos no HTML. Mas acabou crescendo, e atualmente podemos ver diversos ambientes que rodam JavaScript, além de desenvolver para os mais variados fins, como extensões para aplicações, desenvolvimento híbrido para desktop ou mobile e até mesmo códigos back-end. 
 
 Quando falamos de linguagens de programação, percebemos que estas se parecem como times de futebol, cada desenvolvedor gosta de uma e acredita na qualidade que ela oferece, mas nenhuma delas consegue assumir uma característica que JavaScript assumiu: a "onipresença" em aplicações. Amando ou odiando, ele está em todos os lugares, é difícil escapar. Uma linguagem que muitas vezes é julgada como simples brinquedo de front-end, criando firulas para os olhos de usuários leigos, na verdade, é uma grande ferramenta. A web atualmente está infestada de códigos JavaScript. Os recursos oferecidos por muitos dos sites que acessamos são controlados por ele, desde a mais simples interação com formulários, até mesmo grandes plataformas como Google Docs, foram desenvolvidas com base nos recursos dessa linguagem. Aprender esta linguagem se torna essencial, uma grande ferramenta para auxiliar o desenvolvimento.
