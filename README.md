@@ -608,6 +608,12 @@ Vamos começar do lado direito da figura. O usuário executa um navegador da web
 No servidor remoto (lado esquerdo do desenho), associado ao endereço https://test.org, é lançado um servidor web que, após receber uma solicitação do nosso usuário, preparará uma resposta para ele. No caso mais simples, a resposta conterá apenas um arquivo html, que pode ser armazenado no mesmo servidor. O arquivo html (neste exemplo, index.html) é enviado de volta ao usuário e processado pelo navegador. Se algum conteúdo (por exemplo, um parágrafo com texto) estiver definido nele, ele será exibido na janela do navegador.
 
 Entretanto, estamos mais interessados ​​no fato de que o arquivo index.html contém as tags `</script>` e `</script>`, com um trecho de código JavaScript entre elas. Você reconhece isso? Isto é obviamente uma tentativa de mostrar o nosso "Hello, World!" no console. Ao carregar a página, o código colocado dentro das tags `</script>` deverá ser executado e, se as ferramentas do desenvolvedor estiverem habilitadas e o painel do console estiver visível, o console mostrará "Hello, World!".
+
+Tudo funcionará exatamente como no cenário anterior, exceto que o servidor web fornecerá o arquivo `main.js` além de `index.html`. O usuário não notará nenhuma diferença. É claro que colocar nosso código em um servidor remoto apenas para testá-lo seria um pouco complicado.
+
+Temos outra possibilidade: podemos carregar um arquivo html local (ou seja, um que está em nosso computador) no navegador. Se este código contiver uma tag `<script>` indicando algum arquivo JavaScript, então este arquivo também será carregado a partir dos recursos locais.
+
+A imagem mostra um cenário simples em que o usuário carrega um arquivo `index.html` local no navegador, no qual há uma referência a `main.js` (portanto, esse arquivo também será carregado automaticamente).
   
 # 🐾 Pug.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
