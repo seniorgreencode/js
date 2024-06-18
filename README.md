@@ -224,9 +224,17 @@ Vamos analisar o código do ECMAScript acima:
 
 Então, o output (saída) desse código será 'Olá, Alice!' com uma quebra de linha, seguindo o resultado 'Meu nome é Alice e eu tenho 30 anos.'.
 
-Agora, dando mais ênfase ao JSE - JavaScript Engine, sabemos que ele é um mecanismo que é um componente de software que executa código JavaScript. Os primeiros mecanismos JavaScript eram meros intérpretes, mas todos os mecanismos modernos relevantes usam compilação just-in-time para melhorar o desempenho
+Agora, dando mais ênfase ao JSE - JavaScript Engine, sabemos que ele é um mecanismo que é um componente de software que executa código JavaScript. Os primeiros mecanismos JavaScript eram meros intérpretes, mas todos os mecanismos modernos relevantes usam compilação just-in-time para melhorar o desempenho.
 
-> **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o V8 do Google Chrome, o SpiderMonkey do Mozilla Firefox e o Chakra do Microsoft Edge.
+Já falamos um pouco sobre o intérprete e seu papel. Ele funciona como um ambiente de execução para nosso programa. Ele verifica se cometemos algum erro formal, por exemplo, cometer um erro de digitação no nome de uma função ou esquecer de fechar um parêntese, e então executa o programa instrução por instrução.
+
+A escolha do interpretador JavaScript dependerá da plataforma para a qual escrevemos nosso software. Por exemplo, se quisermos escrever uma aplicação simples do lado do servidor, quase certamente escolheremos o ambiente node.js, que teremos que instalar diretamente em nosso sistema operacional. No caso de software do lado do cliente, nosso intérprete será simplesmente o navegador que você já instalou. Aqueles elementos de linguagem que serão igualmente úteis em soluções móveis, do lado do cliente e do lado do servidor. Assim podemos praticá-los em qualquer ambiente, utilizando qualquer intérprete. A maneira mais fácil de fazer isso é limitar-se a um navegador da web.
+
+Como dissemos antes, praticamente todos os navegadores possuem mecanismos (ou interpretadores) JavaScript integrados, mas recomendamos fortemente o uso do Chrome do Google ou do FireFox da Mozilla. Ambos são conhecidos por sua eficiência e ferramentas avançadas integradas para desenvolvedores web (é você). Eles estão disponíveis para Windows, macOS e Linux.
+
+Lembre-se de atualizar regularmente o navegador escolhido e usar a versão mais recente. Isto é especialmente importante ao trabalhar com JavaScript. A linguagem está em constante mudança, com novos recursos e mecanismos sendo adicionados. Você pode descobrir que seu navegador favorito, mas um tanto desatualizado, não oferece suporte a determinados recursos do idioma. Seu navegador agora é uma ferramenta, então tente mantê-lo em bom estado atualizando-o regularmente.
+
+> **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o **V8** do Google Chrome, o SpiderMonkey do Mozilla Firefox, Chakra do Microsoft Edge e Internet Explorer, JavaScriptCore (WebKit) que é o motor da Apple para o navegador Safari.
 
 <a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do V8" align="right"/></a>
 
