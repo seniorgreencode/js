@@ -287,6 +287,8 @@ No caso do JavaScript, onde a preparação de um ambiente local totalmente funci
 
 Entre os programadores JavaScript, os mais populares são os seguintes:
 
+<img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="77" align="right">
+
 - https://jsfiddle.net/
 - https://codepen.io/pen/
 - https://jsbin.com/
@@ -733,19 +735,6 @@ O **Chai** é uma biblioteca open-source de asserção BDD/TDD para nó e navega
 O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica.
 
 Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
-
-# 🗑️ JSBin
-<img src="https://cdn.worldvectorlogo.com/logos/js-bin-1.svg" height="77" align="right">
-
-O **JSBin** é um aplicativo da web open-source projetado especificamente para ajudar os trechos de código de teste populares de JavaScript e CSS, dentro de algum contexto, e depurar o código de forma colaborativa.
-
-Ou seja, o JSBin é um pastebin ao vivo para HTML, CSS e JavaScript e uma variedade de processadores, incluindo SCSS, CoffeeScript, Jade e mais. Com ele você pode:
-
-- Escrever o código e salve-o em tempo real, mas também renderize uma visualização completa em tempo real;
-- Ajudar a depurar o JavaScript, HTML ou CSS de outras pessoas compartilhando e editando urls; 
-- CodeCast - onde você compartilha o que está digitando no JS Bin em renderização remota em tempo real;
-- Visualizar a saída do seu JS Bin em qualquer dispositivo em qualquer plataforma, atualizando em processadores em tempo real, incluindo: coffee-script, LESS, Markdown e Jade;
-- Depurar chamadas Ajax remotas.
 
 # 🐉 RxJS
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="77" align="right">
