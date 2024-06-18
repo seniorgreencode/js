@@ -601,7 +601,20 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
 
-Tente outros tipos de dados:
+É possível também estilizar a saída dos dados do console do navegador com `%c`, observe abaixo:
+
+```javascript
+console.log (
+  `%c Result = ${2+2}`,
+  "font-size: 50px; background: yellow; color: black; padding: 10px; border: 2px solid #000000;"
+)
+```
+
+Resultado:
+
+https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg
+
+Tente também com outros tipos de dados:
 
 ```javascript
 console.log('1542'); // output: '1542'
