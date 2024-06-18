@@ -517,6 +517,8 @@ No próximo capítulo escreveremos nosso primeiro trecho de código JavaScript. 
 
 ## `Hello, World!` - JavaScript
 
+Vamos rodar no console do navegador o seguinte comando abaixo:
+
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
@@ -596,6 +598,16 @@ Além do `console.log`, existem várias outras funções do objeto `console` no 
     ```
 
 Essas funções oferecem uma gama mais ampla de funcionalidades para depuração e monitoramento de código, ajudando os desenvolvedores a entender melhor o comportamento e o desempenho de suas aplicações JavaScript.
+
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/9e9b43ba-8ad7-4a10-9f2a-c6adbff5ced3" align="right" height="177">
+
+Mas, e em aplicações web? Como podemos executar nosso código JavaScript? Vamos começar com um exemplo simples, onde o navegador obtém uma página simples (talvez até vazia) de https://test.org. O endereço foi criado para este exemplo, então não tente digitá-lo. Veja a figura ao lado.
+
+Vamos começar do lado direito da figura. O usuário executa um navegador da web em seu computador (por exemplo, Chrome). Usando o atalho de tecla de atalho apropriado, eles ativam as ferramentas do desenvolvedor (veja o capítulo anterior) para poder usar o console. Lembre-se de que essas ferramentas não são necessárias para o uso normal do navegador e, portanto, ficam ocultas por padrão. Em seguida, o usuário digita https://test.org (a URL do nosso site falso) na barra de endereço.
+
+No servidor remoto (lado esquerdo do desenho), associado ao endereço https://test.org, é lançado um servidor web que, após receber uma solicitação do nosso usuário, preparará uma resposta para ele. No caso mais simples, a resposta conterá apenas um arquivo html, que pode ser armazenado no mesmo servidor. O arquivo html (neste exemplo, index.html) é enviado de volta ao usuário e processado pelo navegador. Se algum conteúdo (por exemplo, um parágrafo com texto) estiver definido nele, ele será exibido na janela do navegador.
+
+Entretanto, estamos mais interessados ​​no fato de que o arquivo index.html contém as tags `</script>` e `</script>`, com um trecho de código JavaScript entre elas. Você reconhece isso? Isto é obviamente uma tentativa de mostrar o nosso "Hello, World!" no console. Ao carregar a página, o código colocado dentro das tags `</script>` deverá ser executado e, se as ferramentas do desenvolvedor estiverem habilitadas e o painel do console estiver visível, o console mostrará "Hello, World!".
   
 # 🐾 Pug.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
