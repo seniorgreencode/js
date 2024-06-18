@@ -612,7 +612,7 @@ console.log (
 
 Resultado:
 
-https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg
+<img src="https://user-images.githubusercontent.com/61624336/107866364-d978a900-6e4e-11eb-9f38-48fe97352ec1.jpg">
 
 Tente também com outros tipos de dados:
 
