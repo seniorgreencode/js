@@ -345,11 +345,7 @@ O **Cypress** é um framework de testes, de código aberto e de fácil configur
 
 <img src="https://cdn.worldvectorlogo.com/logos/chai.svg" height="77" align="right">
 
-O **Chai** é uma biblioteca open-source de asserção BDD/TDD para Node.js e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript. Os desenvolvedores frequentemente usam o Mocha com Chai, tornando essa combinação com o nome "Mocha & Chai".
-
-O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica.
-
-Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
+O **Chai** é uma biblioteca open-source de asserção BDD/TDD para Node.js e navegador que pode ser emparelhada com qualquer estrutura de teste de javascript. Os desenvolvedores frequentemente usam o Mocha com Chai, tornando essa combinação com o nome "Mocha & Chai". O Chai possui diversas interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo TDD assert fornece uma sensação mais clássica. Os plug-ins estendem as afirmações de Chai a novos contextos, como integração de fornecedores e construção de objetos. Os desenvolvedores podem criar seus próprios plug-ins para compartilhar com a comunidade ou usar o padrão de plug-in para secar os testes existentes.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/snyk.svg" height="77" align="right"></a>
 
