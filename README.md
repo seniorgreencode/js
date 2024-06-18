@@ -279,9 +279,37 @@ Hoje, JavaScript é a única linguagem suportada por todos os principais navegad
 
 Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks excelentes para construir aplicativos web e redes sociais enormes e complexos (você provavelmente já ouviu nomes de frameworks como <a href="">React</a> ou <a href="">Angular</a> ou <a href="">Vue</a>).
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
+  
+O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
+
+A biblioteca lê o HTML que contém atributos especiais e então executa a diretiva na qual esta tag pertence, e faz a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O valor dessas variáveis JavaScript podem ser setadas manualmente, ou via um recurso JSON estático ou dinâmico.
+
+O AngularJS é construído sob a crença de que a programação declarativa é melhor do que a programação imperativa quando se trata da construção de interfaces com o usuário e da conexão de componentes software, enquanto a programação imperativa é excelente para a escrita de regras de negócio. O framework adapta e estende o HTML tradicional para uma melhor experiência com conteúdo dinâmico, com a ligação direta e bidirecional dos dados (two-way data-binding) que permite sincronização automática de models e views. Como resultado, AngularJS abstrai a manipulação do DOM e melhora os testes.
+
+**Objetivos**:
+- Abstrair a manipulação do DOM da lógica do aplicativo. Isto melhora os testes do código.
+- Considera os testes do aplicativo tão importantes quanto seu desenvolvimento. A dificuldade do teste é diretamente afetada pela maneira como o código é estruturado.
+- Abstrai o acoplamento entre o lado cliente e o lado servidor da aplicação. Isto permite que o desenvolvimento do aplicativo evolua em ambos os lados, de forma paralela, e permite o reuso de código.
+- Guia os desenvolvedores através da construção de todo o aplicativo: desde o design de Interface, passando pela escrita das regras de negócio, até chegar aos testes da aplicação.
+
+Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplamento entre apresentação, dados e componentes lógicos. Usando *injeção de dependência*, Angular traz serviços comumente designados ao lado servidor da aplicação, como controllers para os componentes visuais, para o lado cliente da aplicação. Consequentemente, o peso do backend é radicalmente reduzido, levando à aplicações muito mais leves.
+
+> **Injeção de dependência** (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por "injetar" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste. Alguns dos frameworks mais utilizados que fazem uso de injeção de dependência são o Spring, ASP.NET Core, Laravel e o AngularJS.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="77" align="right"></a>
+
+O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
+
+No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
 
 O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada dentre as demais, para criar aplicações web de interfaces para usuário. O React foi projetado desde o início para adoção gradual, e você pode usar o mínimo ou o máximo de React que precisar. Se você deseja experimentar o React, adicionar alguma interatividade a uma página HTML simples ou iniciar um aplicativo complexo baseado em React. Ao iniciar um projeto React, uma página HTML simples com tags de script ainda pode ser a melhor opção. Leva apenas um minuto para configurar! À medida que seu aplicativo cresce, convém considerar uma configuração mais integrada. Existem várias cadeias de ferramentas JavaScript que recomendamos para aplicativos maiores. Cada um deles pode funcionar com pouca ou nenhuma configuração e permite que você aproveite ao máximo o rico ecossistema React.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right"></a>
+
+O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance para criação de componentes em páginas Web e modelos SPA - Single Page Applications. Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes que Evan Nyu mais gostava no framework e assim criou um framework bem mais leve. O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e Ruby On Rails por exemplo, e logicamente é possível usar o Vue em toda a aplicação ou em SPA - Single Page Applications, usando um ecossistema completo com Core, o Vuex e o Vue-Router.
 
 Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho de alto desempenho até simples smartphones. Graças ao poder do JavaScript, podemos pedir comida, jogar jogos no navegador, assistir filmes em plataformas de streaming e estar em contato constante com pessoas importantes para nós. JavaScript é tão popular que cada vez mais esforços são necessários para usá-lo, não apenas como uma solução do lado do cliente.
 
@@ -683,41 +711,6 @@ O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, ond
 O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
 > Diferente do Next.js, o Gatsby funciona 
-
-# 🛡️ Angular.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
-  
-O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
-
-A biblioteca lê o HTML que contém atributos especiais e então executa a diretiva na qual esta tag pertence, e faz a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O valor dessas variáveis JavaScript podem ser setadas manualmente, ou via um recurso JSON estático ou dinâmico.
-
-O AngularJS é construído sob a crença de que a programação declarativa é melhor do que a programação imperativa quando se trata da construção de interfaces com o usuário e da conexão de componentes software, enquanto a programação imperativa é excelente para a escrita de regras de negócio. O framework adapta e estende o HTML tradicional para uma melhor experiência com conteúdo dinâmico, com a ligação direta e bidirecional dos dados (two-way data-binding) que permite sincronização automática de models e views. Como resultado, AngularJS abstrai a manipulação do DOM e melhora os testes.
-
-**Objetivos**:
-- Abstrair a manipulação do DOM da lógica do aplicativo. Isto melhora os testes do código.
-- Considera os testes do aplicativo tão importantes quanto seu desenvolvimento. A dificuldade do teste é diretamente afetada pela maneira como o código é estruturado.
-- Abstrai o acoplamento entre o lado cliente e o lado servidor da aplicação. Isto permite que o desenvolvimento do aplicativo evolua em ambos os lados, de forma paralela, e permite o reuso de código.
-- Guia os desenvolvedores através da construção de todo o aplicativo: desde o design de Interface, passando pela escrita das regras de negócio, até chegar aos testes da aplicação.
-
-Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplamento entre apresentação, dados e componentes lógicos. Usando *injeção de dependência*, Angular traz serviços comumente designados ao lado servidor da aplicação, como controllers para os componentes visuais, para o lado cliente da aplicação. Consequentemente, o peso do backend é radicalmente reduzido, levando à aplicações muito mais leves.
-
-> **Injeção de dependência** (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por "injetar" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste. Alguns dos frameworks mais utilizados que fazem uso de injeção de dependência são o Spring, ASP.NET Core, Laravel e o AngularJS.
-
-# 🅰️ Angular
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="77" align="right"></a>
-
-O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
-
-No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
-
-# ✌️ Vue.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right"></a>
-
-O <b>Vue.js</b> é um framework JavaScript progressivo e reativo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance para criação de componentes em páginas Web e modelos SPA - Single Page Applications. 
-
-Ele foi criado na empresa Google a partir do Angular, onde envolvia as partes que Evan Nyu mais gostava no framework e assim criou um framework bem mais leve.
-
-O Vue pode ser integrado na parte visual de frameworks back-end como Laravel e Ruby On Rails por exemplo, e logicamente é possível usar o Vue em toda a aplicação ou em SPA - Single Page Applications, usando um ecossistema completo com Core, o Vuex e o Vue-Router.
 
 # 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="77" align="right"></a>
