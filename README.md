@@ -155,6 +155,10 @@ O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguage
 
 Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do TC39, o comitê técnico que especifica o ECMAScript. O Babel também pode converter a sintaxe JSX (JS + XML) e remover anotações de tipo do Flow e do TypeScript. Babel é construído a partir de plugins e componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="77" align="right">
+
+**Flow** é um verificador de tipo estático para JavaScript que permite ao desenvolvedor verificar erros de tipo durante o desenvolvimento do código. Isso significa que um desenvolvedor recebe feedback mais rápido sobre o código, que pode ser usado para melhorar sua qualidade. O <a href="https://medium.com/@dudousxd/o-flow-do-javascript-9050daa37f33">Flow</a> funciona usando anotações e definições de tipo para adicionar suporte de verificação de tipo ao seu código. A sintaxe é fácil de usar e você pode removê-la rapidamente com uma ferramenta de pós-processador para que não afete seu código. O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
+
 Portanto, o JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
 
 Exemplo de Código ECMAScript (JavaScript): Aqui está um exemplo que mostra alguns dos recursos introduzidos em ES6:
@@ -637,13 +641,6 @@ Manter o controle de todos esses pacotes e garantir que eles estejam atualizados
 Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, cuidando da busca, localização, download e salvamento do que você está procurando. O Bower rastreia esses pacotes em um arquivo de manifesto, `bower.json`. Como você usa os pacotes depende de você. O Bower fornece ganchos para facilitar o uso de pacotes em suas ferramentas e fluxos de trabalho.
 
 Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
-
-# ⚡ Flow
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/flow.svg" height="77" align="right">
-
-**Flow** é um verificador de tipo estático para JavaScript que permite ao desenvolvedor verificar erros de tipo durante o desenvolvimento do código. Isso significa que um desenvolvedor recebe feedback mais rápido sobre o código, que pode ser usado para melhorar sua qualidade. O <a href="https://medium.com/@dudousxd/o-flow-do-javascript-9050daa37f33">Flow</a> funciona usando anotações e definições de tipo para adicionar suporte de verificação de tipo ao seu código. A sintaxe é fácil de usar e você pode removê-la rapidamente com uma ferramenta de pós-processador para que não afete seu código.
-
-O Flow foi projetado para ajudá-lo a aumentar a confiança em seu código. Se você precisar fazer grandes alterações em sua base de código, o Flow o ajudará a refatorar seu código com segurança.
 
 # 🟪 ESLint
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
