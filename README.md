@@ -416,7 +416,7 @@ Serão, entre outros:
 
 <img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
 
-Gerenciadores de pacotes (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
+**Gerenciadores de pacotes** (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
 
@@ -467,7 +467,11 @@ A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldiçã
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/IsaacAlves7/js/assets/61624336/0ff275cd-2361-41d2-ad5f-3e6c00c68f22" height="77" align="right"></a>
 
-**Analytics** - Implementações de ferramentas de análise de dados para acompanhar as ações dos usuários na plataforma. (por exemplo, Google Analytics 4, Amplitude)
+**Analytics** - Implementações de ferramentas de análise de dados para acompanhar as ações dos usuários na plataforma (por exemplo, Google Analytics 4, Amplitude, Mixpanel, Hotjar, Adobe Analytics, Chartbeat, Segment, etc). Essas ferramentas de Analytics utilizam JavaScript para coletar dados sobre como os usuários interagem com websites e aplicativos, fornecendo insights valiosos para otimização de produto, marketing e experiência do usuário. Cada ferramenta tem suas próprias funcionalidades e pontos fortes, e a escolha da ferramenta certa depende das necessidades específicas do seu projeto ou organização.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
+
+**Linting** - O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
 Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
 
@@ -641,15 +645,6 @@ Manter o controle de todos esses pacotes e garantir que eles estejam atualizados
 Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, cuidando da busca, localização, download e salvamento do que você está procurando. O Bower rastreia esses pacotes em um arquivo de manifesto, `bower.json`. Como você usa os pacotes depende de você. O Bower fornece ganchos para facilitar o uso de pacotes em suas ferramentas e fluxos de trabalho.
 
 Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
-
-# 🟪 ESLint
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
-
-Antes de entender o que é o **ESLint**, você precisa aprender o conceito de **Lint**. 
-
-O **Lint** ou **Linter** é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. 
-
-Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
 # 🐹 Ember
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="77" align="right"></a>
