@@ -352,6 +352,10 @@ O **Chai** é uma biblioteca open-source de asserção BDD/TDD para Node.js e na
 **Analisadores de segurança** – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
 A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldição. Temos à sua escolha centenas de componentes, a partir dos quais podemos criar o ambiente mais confortável para nós.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/IsaacAlves7/js/assets/61624336/0ff275cd-2361-41d2-ad5f-3e6c00c68f22" height="77" align="right"></a>
+
+**Analytics** - Implementações de ferramentas de análise de dados para acompanhar as ações dos usuários na plataforma. (por exemplo, Google Analytics 4, Amplitude)
+
 Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
 
 Mas para nós, este é um problema para um futuro distante.
