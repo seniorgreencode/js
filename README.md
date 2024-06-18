@@ -248,6 +248,29 @@ Um exemplo simples de uma área um pouco diferente: em algum momento da sua vida
 
 Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o que devem ilustrar, em que ordem determinadas ações devem ser realizadas, em quais etapas algo é mais fácil de confundir, e assim por diante. E, claro, eles devem saber qual o efeito a ser alcançado no final.
 
+  
+<a href="" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="77" align="right"></a>
+
+O **Node Web-Kit**, ou simplesmente **NW.js**, foi lançado pela primeira vez em janeiro de 2011. Desenvolvido pela equipe da Intel Open Source Technology Center, NW.js é uma tecnologia que combina Node.js com Chromium para permitir o desenvolvimento de aplicativos desktop usando tecnologias web como HTML, CSS e JavaScript. Com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
+
+Foi construído no Centro de tecnologia de código aberto da Intel combinando a estrutura Node.js. com um mecanismo Chromium (anteriormente conhecido como **Webkit**).
+
+Graças à combinação Node.js e Chromium, você pode criar um aplicativo que não apenas carrega um site local em uma janela de aplicativo, mas também se conecta ao sistema operacional por meio da API JavaScript. Esta solução permite controlar parâmetros como dimensões da janela, barra de ferramentas e itens de menu , além de fornecer acesso aos arquivos do computador local.
+
+O NW.js não tem opinião e oferece a liberdade de escolher estruturas e bibliotecas que você deseja usar em um projeto. Permite chamar os módulos Node.js. diretamente do DOM, suporta todos os recursos do navegador, fornece proteção de fonte JavaScript e está disponível no Linux, Mac OS e Windows.
+
+Para ter uma ideia do que é possível fazer com ele visite o site:
+
+- https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
+
+<a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="77" align="right"></a>
+
+O **Electron** é um framework de código aberto criada inicialmente pelo editor GitHub for Atom em 2013. Essa biblioteca permite criar aplicativos GUI de desktop com tecnologias da web como JavaScript, HTML e CSS. A vantagem significativa dessa solução é que não há necessidade de um desenvolvedor web JavaScript aprender novas tecnologias ou idiomas para criar um aplicativo de desktop. O aplicativo Electron geralmente reutiliza a lógica comercial, o design e a estrutura geral de um aplicativo Web. É uma ótima maneira de economizar tempo e dinheiro no lado comercial e de desenvolvimento.
+
+Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas relativamente simples sobre como o Electron funciona e sua API. Provavelmente, você poderá configurar seu primeiro aplicativo de desktop Electron em apenas alguns dias.
+
+> :electron: O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
+
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="77" align="right"/>
 
 Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
@@ -533,32 +556,7 @@ O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos ut
 A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor. Além disso, o PHP e EJS compartilham o objetivo comum de facilitar a renderização de conteúdo dinâmico em páginas web, eles diferem em suas abordagens, sintaxe e ecossistemas subjacentes.
 
 Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
-  
-# 🧭 NW.js
-<a href="" height="270" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="77" align="right"></a>
 
-O **Node Web-Kit**, ou simplesmente **NW.js** é uma aplicação em tempo de execução baseado em *Chromium* e *Node.js*, com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
-
-Foi construído no Centro de tecnologia de código aberto da Intel combinando a estrutura Node.js. com um mecanismo Chromium (anteriormente conhecido como **Webkit**).
-
-Graças à combinação Node.js e Chromium, você pode criar um aplicativo que não apenas carrega um site local em uma janela de aplicativo, mas também se conecta ao sistema operacional por meio da API JavaScript. Esta solução permite controlar parâmetros como dimensões da janela, barra de ferramentas e itens de menu , além de fornecer acesso aos arquivos do computador local.
-
-O NW.js não tem opinião e oferece a liberdade de escolher estruturas e bibliotecas que você deseja usar em um projeto. Permite chamar os módulos Node.js. diretamente do DOM, suporta todos os recursos do navegador, fornece proteção de fonte JavaScript e está disponível no Linux, Mac OS e Windows.
-
-Para ter uma ideia do que é possível fazer com ele visite o site:
-- https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
-
-# :electron: Electron
-<a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="77" align="right"></a>
-
-O **Electron** é um framework de código aberto criada inicialmente pelo editor _GitHub for Atom_ em 2013. Essa biblioteca permite criar aplicativos GUI de desktop com tecnologias da web como JavaScript, HTML e CSS.
-
-A vantagem significativa dessa solução é que não há necessidade de um desenvolvedor web JavaScript aprender novas tecnologias ou idiomas para criar um aplicativo de desktop. O aplicativo Electron geralmente reutiliza a lógica comercial, o design e a estrutura geral de um aplicativo Web. É uma ótima maneira de economizar tempo e dinheiro no lado comercial e de desenvolvimento.
-
-Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas relativamente simples sobre como o Electron funciona e sua API. Provavelmente, você poderá configurar seu primeiro aplicativo de desktop Electron em apenas alguns dias.
-
-O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
- 
 # 🕹️ Phaser
 <a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="77" align="right"></a>
 
