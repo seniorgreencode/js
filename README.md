@@ -614,6 +614,10 @@ Tudo funcionará exatamente como no cenário anterior, exceto que o servidor web
 Temos outra possibilidade: podemos carregar um arquivo html local (ou seja, um que está em nosso computador) no navegador. Se este código contiver uma tag `<script>` indicando algum arquivo JavaScript, então este arquivo também será carregado a partir dos recursos locais.
 
 A imagem mostra um cenário simples em que o usuário carrega um arquivo `index.html` local no navegador, no qual há uma referência a `main.js` (portanto, esse arquivo também será carregado automaticamente).
+
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/785349d2-4358-4d21-9e40-89a8bc31006e" align="right" height="177">
+
+Você pode carregar um arquivo html local digitando seu caminho local após file:/// na barra de endereço ou simplesmente abrindo-o em seu navegador usando o comando Abrir no menu. Como o menu dos navegadores muitas vezes fica oculto, uma maneira mais simples pode ser usar um atalho para abrir documentos existentes nos aplicativos. O atalho é universal, não só para navegadores e provavelmente você já o viu: `ctrl + o` ou `command + o`
   
 # 🐾 Pug.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
