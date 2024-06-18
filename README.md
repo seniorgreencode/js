@@ -211,8 +211,14 @@ Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programa
 > **Curiosidade**: JavaScript é uma opção viável para a ciência de dados, especialmente para visualização e desenvolvimento de interfaces interativas. Com o uso das bibliotecas e ferramentas certas, é possível realizar muitas tarefas de ciência de dados de maneira eficiente e eficaz. Embora possa não ser a escolha principal para tarefas intensivas de análise de dados ou machine learning, ele complementa bem outras linguagens e pode ser integrado em pipelines de dados completos.
 
 Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
-  
+
+<img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="77" align="right">
+ 
 O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no início dos anos 2000, várias bibliotecas com o intuito de facilitar o uso do JavaScript surgiram, como <b>jQuery</b> e <b>Prototype</b>.
+
+Para ser mais preciso o jQuery é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM (Document Object Model) e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins.
+
+Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN. Assim, como também, pode ser baixado o pacote de dependência via NPM.
 
 **Desvantagens do JavaScript**:
 
@@ -330,13 +336,6 @@ Essas funções oferecem uma gama mais ampla de funcionalidades para depuração
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
-
-# ☄️ jQuery
-<img src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg" height="77" align="right">
- 
-Para ser mais preciso o **jQuery** é um Framework JavaScript para Front-end com uma grande facilidade de manipular o DOM (Document Object Model) e de código simples, muito usado para criar animações, eventos, chamadas AJAX e ainda cria plugins.
-
-Pode ser baixado no site oficial ou usado pelo <a href="">CDN</a> (<i>Content Delivery Network</i>), para isso basta copiar um dos códigos (escolha apenas uma versão) e colar no seu código HTML. Recomenda-se a versão 3 do CDN. Assim, como também, pode ser baixado o pacote de dependência via NPM.
 
 ## NPM - Node Package Manager
 <img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
