@@ -77,6 +77,14 @@ No `<head>` (cabeça):
   </head>
 ```
 
+O código JavaScript a ser executado pelo navegador na página deve ser anexado ao HTML usando a tag `<script>`, e há duas maneiras de fazer isso. O código pode ser incorporado diretamente nas tags `<script>` e `</script>`, mas isso só é recomendado quando o código for curto. Outra abordagem é usar o atributo `“src”` para apontar para um arquivo separado que contém o código JavaScript. Isto é especialmente verdade quando o mesmo código vai ser usado em várias páginas, porque repetir exatamente o mesmo código muitas vezes é uma má prática, pois qualquer alteração precisa ser aplicada a todos os arquivos; e além disso, aumenta artificialmente o tamanho da página. A extensão do arquivo JavaScript é .js.
+
+O HTML é lido pelo navegador linha por linha, e as tags de script são executadas no momento em que o navegador analisa a tag `<script>` (a análise de linguagens de programação significa uma análise formal do código por uma máquina para entender sua estrutura) . Normalmente as tags `<script>` são inseridas no cabeçalho da página entre as tags `<head>` e `</head>`, e podemos inserir muitas delas em um arquivo, por exemplo, para incluir código JavaScript de diferentes arquivos. Este comportamento pode ser alterado para scripts externos apontados pelo atributo `"src"` utilizando os atributos `"defer"` ou `"async"`.
+
+- `defer` – significa que o script deve ser executado após o carregamento de toda a página;
+
+- `async` – significa que o script será executado imediatamente, mas paralelamente à análise do resto da página.
+
 **No arquivo**:
 
 Outra maneira válida é criar um documento com a extensão `.js`, é separando ele e linkar-lo no documento HTML. A fonte do link pode ser chamada tanto no `<head>` como no `<body>`:
