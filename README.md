@@ -281,11 +281,7 @@ Agora é muito mais do que isso, já que o JavaScript oferece muitos frameworks 
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
   
-O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
-
-A biblioteca lê o HTML que contém atributos especiais e então executa a diretiva na qual esta tag pertence, e faz a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O valor dessas variáveis JavaScript podem ser setadas manualmente, ou via um recurso JSON estático ou dinâmico.
-
-O AngularJS é construído sob a crença de que a programação declarativa é melhor do que a programação imperativa quando se trata da construção de interfaces com o usuário e da conexão de componentes software, enquanto a programação imperativa é excelente para a escrita de regras de negócio. O framework adapta e estende o HTML tradicional para uma melhor experiência com conteúdo dinâmico, com a ligação direta e bidirecional dos dados (two-way data-binding) que permite sincronização automática de models e views. Como resultado, AngularJS abstrai a manipulação do DOM e melhora os testes.
+O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos. A biblioteca lê o HTML que contém atributos especiais e então executa a diretiva na qual esta tag pertence, e faz a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O valor dessas variáveis JavaScript podem ser setadas manualmente, ou via um recurso JSON estático ou dinâmico. O AngularJS é construído sob a crença de que a programação declarativa é melhor do que a programação imperativa quando se trata da construção de interfaces com o usuário e da conexão de componentes software, enquanto a programação imperativa é excelente para a escrita de regras de negócio. O framework adapta e estende o HTML tradicional para uma melhor experiência com conteúdo dinâmico, com a ligação direta e bidirecional dos dados (two-way data-binding) que permite sincronização automática de models e views. Como resultado, AngularJS abstrai a manipulação do DOM e melhora os testes.
 
 **Objetivos**:
 - Abstrair a manipulação do DOM da lógica do aplicativo. Isto melhora os testes do código.
@@ -299,9 +295,7 @@ Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplam
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="77" align="right"></a>
 
-O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
-
-No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
+O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes. No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right">
 
