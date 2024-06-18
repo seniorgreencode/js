@@ -313,15 +313,13 @@ O **NPM** (node package manager) é um gerenciador de pacotes lançado no biêni
 
 <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
-O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
-
-> Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
+O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências. Outra característica própria do YARN é a forma como a gestão de dependências é realizada: por intermédio de um arquivo de lock denominado `yarn.lock`, é guardada a versão exata de cada dependência, garantindo, assim, uma igualdade em todas as instalações.
 
 Por mais que o NPM atualmente também dê suporte a tal parametrização, o YARN faz isso de forma automática. Na comparação entre ambos, alguns benchmarks apontam diferenças, vantagens e desvantagens de um em relação ao outro.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
-Executores de tarefas e empacotadores de módulos (Task Runners and Module bundlers) – usados, em termos simples, para automatizar o processo de desenvolvimento de software e mesclar o código resultante de muitos arquivos e bibliotecas (por exemplo, Grunt ou Webpack)
+**Executores de tarefas e empacotadores de módulos** (Task Runners and Module bundlers) – usados, em termos simples, para automatizar o processo de desenvolvimento de software e mesclar o código resultante de muitos arquivos e bibliotecas (por exemplo, Grunt ou Webpack).
 
 O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito e de código aberto para JavaScript. Ele é feito principalmente para JavaScript, mas pode transformar ativos de front-end, como HTML, CSS e imagens, se os carregadores correspondentes forem incluídos. Ou seja, é um empacotador que pega módulos com dependências e cria conteúdos estáticos para sua aplicação web ir para produção após a etapa de build.
 
@@ -333,17 +331,23 @@ O ecossistema Grunt é enorme e cresce a cada dia. Com literalmente centenas de 
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
 
-Estrutura de teste – permite testar automaticamente a correção do nosso programa em busca de erros potenciais (por exemplo, Mocha, Jasmine ou Jest)
+**Estrutura de teste** – permite testar automaticamente a correção do nosso programa em busca de erros potenciais (por exemplo, Mocha, Jasmine, Cypress ou Jest)
 
-O Jest é um poderoso framework de testes unitários de código aberto em JavaScript com um foco na simplicidade, criado pelo Facebook a partir do framework Jasmine e foi projetado para garantir a correção de qualquer código JavaScript. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript e funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais! 
+O **Jest** é um poderoso framework de testes unitários de código aberto em JavaScript com um foco na simplicidade, criado pelo Facebook a partir do framework Jasmine e foi projetado para garantir a correção de qualquer código JavaScript. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript e funciona com projetos usando: Babel, TypeScript, Node, React, Angular, Vue e muito mais! O Jest foi inicialmente criado para testar o framework React, também criado pelo Facebook. Porém sua implementação se tornou muito mais ampla, sendo utilizado como ferramenta de teste unitário para diversas plataformas JavaScript como Node e Redux, e até mesmo plataformas em TypeScript como Angular e Ionic. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 
-> **Curiosidade**: O Jest foi inicialmente criado para testar o framework React, também criado pelo Facebook. Porém sua implementação se tornou muito mais ampla, sendo utilizado como ferramenta de teste unitário para diversas plataformas JavaScript como Node e Redux, e até mesmo plataformas em TypeScript como Angular e Ionic.
+<img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
 
-Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
+O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="77" align="right"></a>
+
+O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes.
+
+À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/snyk.svg" height="77" align="right"></a>
 
-Analisadores de segurança – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
+**Analisadores de segurança** – como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check)
 A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldição. Temos à sua escolha centenas de componentes, a partir dos quais podemos criar o ambiente mais confortável para nós.
 
 Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
@@ -676,18 +680,6 @@ O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por E
 Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trabalho lentos e repetitivos e compô-los em pipelines de construção eficientes. Usando código sobre configuração, utilize todo o JavaScript para criar seu `gulpfile` onde as tarefas podem ser escritas usando seu próprio código ou plug-ins encadeados de propósito único.
 
 Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
-
-# 🐙 Testing Library
-<img src="https://testing-library.com/img/octopus-128x128.png" align="right" height="77">
-
-O **Testing Library** é da família de pacotes que ajuda a testar os componentes da interface do usuário de maneira centrada no usuário, ou seja, é um utilitário de teste simples e completo que incentiva boas práticas de teste para front-end. 
-
-# ⚫ Cypress
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/1ea257941935e0226b24329d2a2838beabed7ba2/public/logos/cypress.svg" height="77" align="right"></a>
-
-O **Cypress** é um framework de testes, de código aberto e de fácil configuração. Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes.
-
-À medida que o script é escrito, é possível acompanhá-lo, auxiliando o Analista de Testes (QA - Quality Assurance) na visualização de quais partes do código necessitam de ajustes.
 
 # 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="77" align="right"></a>
