@@ -58,11 +58,44 @@ Como mencionamos antes, JavaScript é uma linguagem de programação interpretad
 
 No início dos anos 90, todas as páginas da web eram estáticas. As coisas mudaram em 1995, quando a corporação Netscape contratou Brendan Eich e o encarregou de desenvolver uma nova linguagem para seu produto, o navegador Netscape Navigator. A nova linguagem foi chamada de LiveScript, mas logo depois seu nome foi alterado para JavaScript. A sua principal tarefa era dinamizar os websites, o que permitisse, por exemplo, uma interação mais complexa com o utilizador. E assim começou a carreira do JavaScript.
 
+<img src="https://github.com/IsaacAlves7/js/assets/61624336/e98a13c0-154a-4a90-b905-de0ec4bd153f" height="77" align="right"/>
+
+Em 1996, foi formado o <a href="https://tc39.es/">TC39</a>, ou "Technical Committee 39", que é o comitê responsável pela evolução e manutenção da linguagem de programação JavaScript, formalmente conhecida como ECMAScript. O TC39 desempenha um papel crucial na evolução da linguagem JavaScript, garantindo que ela continue a atender às necessidades da comunidade global de desenvolvedores. Através de um processo estruturado e colaborativo, o TC39 desenvolve e aprimora o padrão ECMAScript, que serve de base para uma das linguagens de programação mais populares e amplamente utilizadas no mundo.
+
+A organização TC39 é um comitê dentro da Ecma International, uma organização de padronização que cria normas para sistemas de informação e comunicação. O comitê é composto por representantes de grandes empresas de tecnologia (como Microsoft, Google, Apple, Mozilla), além de especialistas independentes em JavaScript e ECMAScript. O principal objetivo do TC39 é desenvolver e evoluir o padrão ECMAScript, garantindo que ele atenda às necessidades da comunidade de desenvolvedores e avance a linguagem de forma segura e sustentável. 
+
+Qualquer membro do TC39 pode apresentar propostas para novas funcionalidades ou alterações na linguagem. Propostas passam por várias etapas de maturidade, conhecidas como "Stages", antes de serem incluídas na especificação final. O TC39 se reúne regularmente para discutir propostas, revisar progresso e tomar decisões sobre a inclusão de novas funcionalidades no ECMAScript. Essas reuniões são públicas e as atas são geralmente disponibilizadas online para transparência.
+
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
 
-Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. ECMAScript é uma especificação de linguagem de script padronizada pela Ecma International. É a base para várias linguagens de script, sendo JavaScript a implementação mais conhecida. ECMAScript é uma especificação que define a linguagem de script usada para implementar JavaScript e outras linguagens relacionadas. Ela evolui continuamente para incluir novos recursos, permitindo que os desenvolvedores escrevam código mais eficiente, legível e poderoso. JavaScript, como a implementação mais popular, segue essas especificações para garantir consistência e compatibilidade em diferentes ambientes e plataformas.
+<b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. ECMAScript é uma especificação de linguagem de script padronizada pela Ecma International. É a base para várias linguagens de script, sendo JavaScript a implementação mais conhecida. ECMAScript é uma especificação que define a linguagem de script usada para implementar JavaScript e outras linguagens relacionadas. Ela evolui continuamente para incluir novos recursos, permitindo que os desenvolvedores escrevam código mais eficiente, legível e poderoso. JavaScript, como a implementação mais popular, segue essas especificações para garantir consistência e compatibilidade em diferentes ambientes e plataformas.
+
+O ECMAScript é uma especificação padrão para linguagens de script, da qual JavaScript é a implementação mais conhecida. Criado inicialmente em 1997, o ECMAScript foi padronizado para proporcionar uma base comum para diferentes implementações de JavaScript.
 
 > O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.
+
+TC39 desenvolve e mantém o padrão ECMAScript, que serve como base para JavaScript e outras linguagens de script. Através de suas reuniões e o processo de proposta, o TC39 assegura que o ECMAScript continua a evoluir, incorporando novas funcionalidades e melhorias. Então, o trabalho do TC39 é crucial para garantir que diferentes implementações de JavaScript permaneçam compatíveis entre si, promovendo interoperabilidade e um ecossistema consistente.
+
+Processo de Propostas do TC39:
+
+   - **Stage 0**: Ideia inicial. Uma proposta inicial que pode ser discutida e aprimorada.
+   - **Stage 1**: Proposta formal. Uma descrição mais detalhada e um caso de uso claro.
+   - **Stage 2**: Primeira versão do esboço. Uma especificação inicial e uma implementação de referência.
+   - **Stage 3**: Pronta para a implementação. A proposta está completa e pronta para ser implementada em navegadores e outros ambientes.
+   - **Stage 4**: Inclusão na especificação final. A proposta é oficialmente incorporada na próxima versão do ECMAScript.
+
+Exemplos de Funcionalidades Introduzidas pelo TC39:
+
+- **ES6 (ECMAScript 2015)**: Introduziu grandes melhorias como classes, módulos, arrow functions, let e const, e muito mais.
+- **ES7 (ECMAScript 2016)**: Adicionou o operador de exponenciação (`**`) e o método `Array.prototype.includes`.
+- **ES8 (ECMAScript 2017)**: Incluiu async/await, Object.entries, Object.values, e melhorias em funções de string.
+- **ES9 (ECMAScript 2018)**: Adicionou rest/spread properties para objetos, melhorias em async iterators, e muito mais.
+
+Importância para Desenvolvedores:
+
+- **Inovação e Melhorias**: A evolução contínua do ECMAScript significa que os desenvolvedores têm acesso a novas funcionalidades e melhorias de desempenho que tornam o desenvolvimento mais eficiente e agradável.
+
+- **Padrões Unificados**: A padronização facilita o aprendizado e o uso da linguagem, pois os desenvolvedores podem contar com um conjunto consistente de funcionalidades e comportamentos.
 
 História e Evolução do ES:
 
@@ -76,18 +109,27 @@ História e Evolução do ES:
 Principais Recursos de ECMAScript:
 
 1. **Tipos de Dados e Estruturas**:
+
    - Primitivos: `Number`, `String`, `Boolean`, `Undefined`, `Null`, `Symbol` (adicionado em ES6), `BigInt` (adicionado em ES2020).
+
    - Objetos: Tudo que não é primitivo é um objeto, incluindo arrays, funções, e instâncias de classes.
 
-2. **Sintaxe e Funcionalidades**:
+3. **Sintaxe e Funcionalidades**:
+
    - **Variáveis**: `var`, `let` e `const`.
+
    - **Funções**: Declaração de funções, funções anônimas, funções arrow (`=>`), funções assíncronas (`async/await`).
+
    - **Objetos e Classes**: Sintaxe de objetos literais, classes e herança de classes (`extends`).
+
    - **Módulos**: Importação e exportação de módulos (`import`/`export`).
+
    - **Controle de Fluxo**: Estruturas de controle como `if`, `else`, `switch`, loops (`for`, `while`, `do-while`).
 
-3. **Metodologias**:
+5. **Metodologias**:
+
    - **Orientação a Objetos**: Classes, herança, encapsulamento.
+
    - **Programação Funcional**: Funções de alta ordem, imutabilidade, métodos de array como `map`, `reduce`.
 
 Implementações de ECMAScript:
