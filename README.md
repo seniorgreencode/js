@@ -109,6 +109,14 @@ Padrões e Compatibilidade:
 1. **ECMA-262**: Documento que define a especificação ECMAScript.
 2. **Compatibilidade**: Nem todos os navegadores ou ambientes suportam todas as funcionalidades de todas as versões de ECMAScript imediatamente. Ferramentas como Babel podem ser usadas para transpilar código moderno para versões mais antigas compatíveis com todos os navegadores.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
+
+O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
+
+Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do TC39, o comitê técnico que especifica o ECMAScript. O Babel também pode converter a sintaxe JSX (JS + XML) e remover anotações de tipo do Flow e do TypeScript. Babel é construído a partir de plugins e componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
+
+Portanto, o JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
+
 Exemplo de Código ECMAScript (JavaScript): Aqui está um exemplo que mostra alguns dos recursos introduzidos em ES6:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -172,19 +180,17 @@ Vamos analisar o código do ECMAScript acima:
 
 Então, o output (saída) desse código será 'Olá, Alice!' com uma quebra de linha, seguindo o resultado 'Meu nome é Alice e eu tenho 30 anos.'.
 
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
-
-O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5).
-
-Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do TC39, o comitê técnico que especifica o ECMAScript. O Babel também pode converter a sintaxe JSX (JS + XML) e remover anotações de tipo do Flow e do TypeScript. Babel é construído a partir de plugins e componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
-
-Portanto, o JavaScript é uma linguagem interpretada típica. Se executarmos um código escrito em JavaScript em um navegador web, como está acontecendo, como depois de carregar a página que estamos lendo (sim, sim, há elementos escritos em JavaScript nesta página também), o interpreter será o JavaScript Engine integrado ao navegador. Esta não é a única maneira de executar código JavaScript.
+Agora, dando mais ênfase ao JSE - JavaScript Engine, sabemos que ele é um mecanismo que é um componente de software que executa código JavaScript. Os primeiros mecanismos JavaScript eram meros intérpretes, mas todos os mecanismos modernos relevantes usam compilação just-in-time para melhorar o desempenho
 
 > **JSE - JavaScript Engine**: Este é um motor que executa o código JavaScript, comumente usado em navegadores web para executar scripts em páginas web. Exemplos de motores JavaScript incluem o V8 do Google Chrome, o SpiderMonkey do Mozilla Firefox e o Chakra do Microsoft Edge.
 
 <a href="https://v8.dev/"><img src="https://cdn.worldvectorlogo.com/logos/v8-5.svg" height="77" title="Site do V8" align="right"/></a>
 
+Os mecanismos JavaScript são normalmente desenvolvidos por fornecedores de navegadores da Web, e todos os principais navegadores têm um. Em um navegador, o mecanismo JavaScript é executado em conjunto com o mecanismo de renderização por meio das ligações do DOM - Document Object Model e do IDL da Web. No entanto, o uso de mecanismos JavaScript não se limita a navegadores; por exemplo, o mecanismo V8 é um componente central do sistema de tempo de execução Node.js.
+
 Em setembro de 2008 a Google lançou seu navegador, o Google Chrome. O Chrome tem um interpretador de JavaScript muito poderoso, o <a href="https://v8.dev/"><b>V8</b></a>. Esse nome é baseado no motor de combustão V8, que tem esse nome por ter 8 cilindros unidos na parte de baixo, formando um "V". São normalmente usados em automóveis de grande porte, embarcações marítimas, aeronáuticas, etc. O V8 "compila" o JavaScript, mas por trás ele executa a linguagem de programação C++. Assim, o JavaScript ganhou muita velocidade, próximo a um código binário compilado.
+
+Como ECMAScript é a especificação padronizada do JavaScript, o mecanismo ECMAScript é outro nome para essas implementações. Com o advento do WebAssembly, alguns mecanismos também podem executar esse código na mesma área restrita que o código JavaScript normal.
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
 
