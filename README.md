@@ -581,17 +581,20 @@ Um programa é feito de linhas de códigos cheios de comandos, que em outras pal
 # 📜 [JS] Variáveis
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177" align="right">
 
-Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos. Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor.
+A capacidade de escrever diversas informações na tela, como "Olá, mundo!" pode ser divertido por um tempo, mas não é uma forma universal de escrever programas. É hora de começar a aprender mais sobre os elementos do quebra-cabeça que permitirão criar programas que resolvam problemas reais. Existem alguns desses elementos e iremos apresentá-los gradualmente, embora não necessariamente em uma cronologia simples. Freqüentemente voltaremos ao que já foi discutido, ampliando as informações anteriores com algo novo. Às vezes também avançaremos, utilizando mecanismos que só serão explicados com mais detalhes ao longo do tempo. 
 
-Mas se escrevermos um valor, como acessá-lo novamente em outro lugar? Se escrevemos um valor "5" no comando, como alterá-lo depois ou gerar novos valores? É aí que entram em cena as chamadas <b>variáveis</b>.
+No início pode parecer um pouco esmagador, mas com o tempo tudo deverá começar a fundir-se num quadro coerente. O primeiro elemento de programação sobre o qual falaremos é a **variável**. Você pode conhecer o nome de uma variável da matemática, onde significa um símbolo usado como espaço reservado para diferentes valores que podem mudar. Eles têm um papel semelhante na programação. Para que realmente precisamos deles? Como você pode imaginar, a maioria dos programas é bastante complexa e raramente conseguimos resolver o problema com uma única operação. Normalmente, o programa consistirá em muito mais operações, cada uma das quais poderá produzir alguns resultados intermediários, que serão necessários nas próximas etapas. As variáveis ​​nos permitem armazenar tais resultados, modificá-los ou alimentá-los em operações subsequentes, funcionam como contêineres de dados.
 
-Imagine as variáveis como caixinhas onde podemos armazenar um valor e depois ir lá modificar ou apagar. Também damos um nome para essa "caixinha", para podermos acessar o nosso valor por um nome.
+Até agora só escrevemos simples códigos que não servem para nada. Simplesmente escrevemos um valor e no máximo fizemos algumas operações com os valores que digitamos. Como você deve imaginar, um programa não fica pedindo dados toda hora para o usuário. Ele armazena esses dados e pode fazer várias operações com esse valor. Mas se escrevermos um valor, como acessá-lo novamente em outro lugar? Se escrevemos um valor `"5"` no comando, como alterá-lo depois ou gerar novos valores? É aí que entram em cena as chamadas variáveis.
 
-Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o tipo que a variável irá armazenar, como Boolean ou String. Dizemos que a linguagem possui "Tipagem Estática".
+> Imagine as variáveis como caixinhas onde podemos armazenar um valor e depois ir lá modificar ou apagar. Também damos um nome para essa "caixinha", para podermos acessar o nosso valor por um nome.
+
+Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o tipo que a variável irá armazenar, como `Boolean` (real) ou `String` (caractere). Dizemos que a linguagem possui "Tipagem Estática".
 
 O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo Number. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
 
-## Declarando e nomeando variáveis
+Declarando e nomeando variáveis:
+
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696091-8ac1e080-420a-11eb-9553-477915979001.jpg)
 
