@@ -561,10 +561,11 @@ Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado
 ## Conversão automática de tipos
 No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.
 
-Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "ABC". Mesmo que ele escreva apenas números, receberemos uma String, como "21".
-Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a String em Number.
+Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "`ABC`". Mesmo que ele escreva apenas números, receberemos uma `String`, como "`21`".
 
-Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. Precisaremos converter esse número para String para podermos concatená-lo com nosso texto.
+Porém, para trabalharmos com isso, precisamos que este valor seja do tipo Number. Então precisaremos converter a `String` em `Number`.
+
+Ou caso a gente faça um cálculo e queira exibir uma mensagem com o resultado. Precisaremos converter esse número para `String` para podermos concatená-lo com nosso texto.
 
 Em muitas linguagens de programação, essa conversão deve ser feita manualmente. O JavaScript faz conversões automaticamente. Isso pode deixá-lo mais dinâmico, mas se não for usado com cuidado pode causar muitos problemas e falhas de lógica, causando resultados inesperados.
 
@@ -572,7 +573,7 @@ Em muitas linguagens de programação, essa conversão deve ser feita manualment
 "5" – 1
 ```
 
-Estamos subtraindo `1` de uma `String`. O JavaScript automaticamente tenta converter a `String` para o tipo `Number` para fazer a operação de subtração, resultando em 4.
+Estamos subtraindo `1` de uma `String`. O JavaScript automaticamente tenta converter a `String` para o tipo `Number` para fazer a operação de subtração, resultando em `4`.
 
 ```javascript
 "5" + 1
@@ -591,7 +592,7 @@ Podemos aninhar expressões para gerar códigos mais complexos, assim como podem
 # 📜 [JS] Variáveis
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177" align="right">
 
-A capacidade de escrever diversas informações na tela, como "Olá, mundo!" pode ser divertido por um tempo, mas não é uma forma universal de escrever programas. É hora de começar a aprender mais sobre os elementos do quebra-cabeça que permitirão criar programas que resolvam problemas reais. Existem alguns desses elementos e iremos apresentá-los gradualmente, embora não necessariamente em uma cronologia simples. Freqüentemente voltaremos ao que já foi discutido, ampliando as informações anteriores com algo novo. Às vezes também avançaremos, utilizando mecanismos que só serão explicados com mais detalhes ao longo do tempo. 
+A capacidade de escrever diversas informações na tela, como `"Olá, mundo!"` pode ser divertido por um tempo, mas não é uma forma universal de escrever programas. É hora de começar a aprender mais sobre os elementos do quebra-cabeça que permitirão criar programas que resolvam problemas reais. Existem alguns desses elementos e iremos apresentá-los gradualmente, embora não necessariamente em uma cronologia simples. Freqüentemente voltaremos ao que já foi discutido, ampliando as informações anteriores com algo novo. Às vezes também avançaremos, utilizando mecanismos que só serão explicados com mais detalhes ao longo do tempo. 
 
 No início pode parecer um pouco esmagador, mas com o tempo tudo deverá começar a fundir-se num quadro coerente. O primeiro elemento de programação sobre o qual falaremos é a **variável**. Você pode conhecer o nome de uma variável da matemática, onde significa um símbolo usado como espaço reservado para diferentes valores que podem mudar. Eles têm um papel semelhante na programação. Para que realmente precisamos deles? Como você pode imaginar, a maioria dos programas é bastante complexa e raramente conseguimos resolver o problema com uma única operação. Normalmente, o programa consistirá em muito mais operações, cada uma das quais poderá produzir alguns resultados intermediários, que serão necessários nas próximas etapas. As variáveis ​​nos permitem armazenar tais resultados, modificá-los ou alimentá-los em operações subsequentes, funcionam como contêineres de dados.
 
