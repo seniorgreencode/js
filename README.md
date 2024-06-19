@@ -721,21 +721,49 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 
 </tbody></table>
 
-Declarando e nomeando variáveis:
+Vamos ver como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
-As variáveis podem ser classificadas em duas categorias:
+**Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
 
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
+```javascript
+function showLocalVar() {
+  var localVar = "I am local";
+  console.log(localVar); // Output: "I am local"
+}
 
-- **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento.
+showLocalVar();
+console.log(localVar); // Error: localVar is not defined
+```
 
-- **Variáveis globais** são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.
+**Variáveis globais** são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa. São acessíveis em qualquer parte do código.
+
+```javascript
+var globalVar = "I am global";
+
+function showGlobalVar() {
+  console.log(globalVar); // Output: "I am global"
+}
+
+showGlobalVar();
+console.log(globalVar); // Output: "I am global"
+```
+
+Agora, vamos ver alguns princípios de noções e boas práticas de código para essas variáveis:
+
+A variável global não é muito recomendada, pois pode gerar conflitos com outras variáveis dependendo do escopo.<img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/>
+  variável local e global, muito recomendada para ambos os escopos!<img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/>
+  Esse tipo de variável está dizendo explicitamente que a variável é global na janela<img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/>
+
+Exemplo de execução de variáveis:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
 var idade = 5;
 var idade = 7;
+
+console.log(idade)
+// Output: 7
 ```
 
 O JS é Case Sensitive, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "`$`" e o "`_`", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.
@@ -747,6 +775,9 @@ Exemplo: O nome da variável `Idade` substitua para `Old` ou `yearOld`.
 ```javascript
 var Old = 5;
 var yearOld = 7;
+
+console.log(idade)
+// Output: 7
 ```
 
 Bem uniforme e fácil de compreensão para todos!
@@ -758,7 +789,7 @@ var myValue = 5;
 myValue = myValue + 2; // myValue += 2
 ```
 
-Os atalhos de operação de código são: 
+Os atalhos de operação de atribuição são: 
 
 - `+=` - 
 - `-=` - 
@@ -773,8 +804,6 @@ Os atalhos de operação de código são:
 var myText = 'abc';
 myText = myText + 'def'; // myText += 'def'
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
 
 Podemos também alterar o valor de definição dessa variável, no exemplo abaixo, eu usei no console do browser:
  
@@ -795,7 +824,13 @@ Incremento e decremento de valores das variáveis:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
 
+```javascript
+
+```
+
 A diferença entre eles é algo bastante notório no escopo:
+
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
 
@@ -806,25 +841,23 @@ A diferença entre eles é algo bastante notório no escopo:
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102960938-dbaf2e80-44c1-11eb-95eb-5e87dee0f451.jpg)
 
 `let` funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
-        
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102961936-6d1fa000-44c4-11eb-82d5-4475c3d79687.jpg)
 
 `const` não deixa você alterar o dado atribuído. Só trabalha com valores fixos!
 
+```javascript
+
+```
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446794-561a4400-4c62-11eb-8be2-7840e633ae6b.jpg)
 
-> Obs: const e let só funcionam dentro do escopo do bloco { }.
+> Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
 
-
-Existe mais de um tipo de variável global, como:
-
-  Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.<img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/>
-  variável local e global, muito recomendada para ambos os escopos!<img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/>
-  Esse tipo de variável está dizendo explicitamente que a variável é global na janela<img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/>
-
-
-### Outra forma de chamar uma variável
-Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
+Há uma outra forma de chamar uma variável, com template string, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
