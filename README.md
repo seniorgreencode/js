@@ -542,7 +542,7 @@ typeof 3
 Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional. Ele recebe três valores e serve para verificarmos uma condição.
 
 ```javascript
-3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
+3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"
 ```
 
 Podemos dividir então em três partes:
@@ -738,22 +738,38 @@ var idade = 5;
 var idade = 7;
 ```
 
-> Obs: O JS é Case Sensitive, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "`$`" e o "`_`", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.
+O JS é Case Sensitive, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "`$`" e o "`_`", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.
 
 > Dica: É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
 
-**Exemplo**:
+Exemplo: O nome da variável `Idade` substitua para `Old` ou `yearOld`.
 
-> Dica: O nome da variável `Idade` substitua para `Old` ou `yearOld`.
+```javascript
+var Old = 5;
+var yearOld = 7;
+```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696882-6b2db680-4210-11eb-80b8-7dc0048c8f15.jpg)
-
-> Bem uniforme e fácil de compreensão para todos!
+Bem uniforme e fácil de compreensão para todos!
 
 Declarando variáveis com operadores de atribuição:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
-<blockquote>Obs: Também funciona com a concatenação.</blockquote>
+
+```javascript
+var myValue = 5;
+myValue = myValue + 2; // myValue += 2
+```
+
+Os atalhos de operação de código são: 
+
+- `+=` - 
+- `-=` - 
+- `/=` - 
+- `*=` - 
+- `%=` - 
+- `**=` -  
+
+> Obs: Também funciona com a concatenação e incremento.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
 
