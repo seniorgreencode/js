@@ -93,7 +93,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 
 <table>
   <tr>
-    <td colspan="3" align="center">No arquivo: Estrutura do diretório<code></td>
+    <td colspan="3" align="center">No arquivo: Estrutura do diretório</td>
   </tr>
   
 <tr>
@@ -107,9 +107,9 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
     └── pages
         └── index.html
 </pre>
-<code></td>
+</td>
 
-<td><code> 
+<td>
   
 ```html
 <html>
@@ -124,7 +124,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 </html>
 ```
   
-<code></td>
+</td>
   
 <td>
   
@@ -132,7 +132,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 alert("Hello, World!");
 ```
   
-<code></td>
+</td>
 </tr>
 </table>
   
@@ -219,12 +219,12 @@ As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simpl
 
 > **Dica**: Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.
 
-## `STDIN` e `STDOUT`
+## [JS] `STDIN` e `STDOUT`
 Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
 
 Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função gets é implementada internamente para auxiliar a entrada dos dados.
 
-**Exemplo**:
+Exemplo:
   
 ```javascript
 let line = gets(); // Retorna a próxima linha de entrada
@@ -233,7 +233,7 @@ console.log(line); // Imprime o dado
 
 Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>BufferedReader</code> para o STDIN e o <code>System.out.println</code> para o STDOUT.
 
-**Exemplo**:
+Exemplo:
   
 ```java
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -244,7 +244,7 @@ System.out.println(a); // Imprime o dado
 
 Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>sys.stdin.readline</code> para o STDIN e o <code>print</code> para o STDOUT.
 
-**Exemplo**:
+Exemplo:
   
 ```python
 import sys
@@ -354,27 +354,27 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 Outras seis sequências escapes são válidas em JavaScript:
 <table>
   <tr>
-    <td>\b<code></td>
-    <td>Retrocesso<code></td>
+    <td><code>\b</code></td>
+    <td>Retrocesso</td>
   </tr>
   <tr>
-    <td>\f<code></td>
-    <td>Formulário voluntário<code></td>
+    <td><code>\f</code></td>
+    <td>Formulário voluntário</td>
   </tr>
     <tr>
-    <td>\n<code></td>
-    <td>Nova linha<code></td>
+    <td><code>\n</code></td>
+    <td>Nova linha</td>
   </tr>
     <tr>
-    <td>\r<code></td>
+    <td><code>\r</code></td>
     <td>Retorno de transporte<code></td>
   </tr>
     <tr>
-    <td>\t<code></td>
-    <td>Tabulador horizontal<code></td>
+    <td><code>\t</code></td>
+    <td>Tabulador horizontal</td>
   </tr>
     <tr>
-    <td>\v<code></td>
+    <td><code>\v</code></td>
     <td>Tabulador vertical<code></td>
   </tr>
 </table>
