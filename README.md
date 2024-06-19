@@ -600,7 +600,7 @@ Até agora só escrevemos simples códigos que não servem para nada. Simplesmen
 
 > Imagine as variáveis como caixinhas onde podemos armazenar um valor e depois ir lá modificar ou apagar. Também damos um nome para essa "caixinha", para podermos acessar o nosso valor por um nome.
 
-Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o tipo que a variável irá armazenar, como `Boolean` (real) ou `String` (caractere). Dizemos que a linguagem possui "Tipagem Estática".
+Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o tipo que a variável irá armazenar, como `Boolean` (booleano) ou `String` (caractere). Dizemos que a linguagem possui "Tipagem Estática".
 
 O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo Number. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
 
@@ -615,6 +615,108 @@ Na maioria das linguagens de programação, uma variável deve ser declarada ant
 Em JavaScript, os nomes das variáveis ​​podem consistir em qualquer sequência de letras (minúsculas e maiúsculas), dígitos, caracteres de sublinhado e cifrões, mas não devem começar com um dígito. Existe uma lista de palavras reservadas que não podem ser usadas como nomes de variáveis ​​(veja a tabela abaixo).
 
 O importante também é que o interpretador JavaScript faça distinção entre letras minúsculas e maiúsculas, também em nomes de variáveis, portanto nomes como `teste`, `Teste` ou `TESTE` serão tratados como diferentes.
+
+<table class="custom-table">
+   
+	  <tbody><tr><td colspan="4">Os nomes das variáveis ​​em JavaScript podem ser praticamente qualquer sequência de caracteres. No entanto, existe um conjunto de palavras reservadas que não podem ser usadas para nomear variáveis, funções ou qualquer outra coisa. Eles são partes integrantes da linguagem e recebem um significado que não pode ser alterado. Abaixo você encontrará uma lista deles.</td>
+      </tr><tr>
+	  <td> abstract </td>
+	  <td> arguments </td>
+	  <td> await </td>
+	  <td> boolean </td>
+	  </tr>
+      <tr>
+	  <td> break </td>
+	  <td> byte </td>
+	  <td> case </td>
+	  <td> catch </td>
+	  </tr>
+      <tr>
+	  <td> char </td>
+	  <td> class </td>
+	  <td> const </td>
+	  <td> continue </td>
+	  </tr>
+      <tr>
+	  <td> debugger	</td>
+	  <td> default </td>
+	  <td> delete </td>
+	  <td> do </td>
+	  </tr>
+      <tr>
+	  <td> double </td>
+	  <td> else </td>
+	  <td> enum </td>
+	  <td> eval </td>
+	  </tr>
+      <tr>
+	  <td> export </td>
+	  <td> extends </td>
+	  <td> false </td>
+	  <td> final </td>
+	  </tr>
+      <tr>
+	  <td> finally </td>
+	  <td> float </td>
+	  <td> for </td>
+	  <td> function </td>
+	  </tr>
+      <tr>
+	  <td> goto	</td>
+	  <td> implements </td>
+	  <td> if </td>
+	  <td> import </td>
+	  </tr>
+      <tr>
+	  <td> in </td>
+	  <td> instanceof </td>
+	  <td> int </td>
+	  <td> interface </td>
+	  </tr>
+      <tr>
+	  <td> let </td>
+	  <td> long </td>
+	  <td> native </td>
+	  <td> new </td>
+	  </tr>
+      <tr>
+	  <td> null </td>
+	  <td> package </td>
+	  <td> private </td>
+	  <td> protected </td>
+	  </tr>
+      <tr>
+	  <td> public </td>
+	  <td> return </td>
+	  <td> short </td>
+	  <td> static </td>
+	  </tr>
+      <tr>
+	  <td> super </td>
+	  <td> switch </td>
+	  <td> synchronized </td>
+	  <td> this </td>
+	  </tr>
+      <tr>
+	  <td> throw </td>
+	  <td> throws </td>
+	  <td> transient </td>
+	  <td> true </td>
+	  </tr>
+      <tr>
+	  <td> try </td>
+	  <td> typeof </td>
+	  <td> var </td>
+	  <td> void </td>
+	  </tr>
+      <tr>
+	  <td> volatile </td>
+	  <td> while </td>
+	  <td> with </td>
+	  <td> yield </td>
+	  </tr>
+
+</tbody></table>
 
 Declarando e nomeando variáveis:
 
