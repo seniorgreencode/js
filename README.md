@@ -1886,7 +1886,6 @@ Promises são um padrão de desenvolvimento que visam representar a conclusão d
 
 As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
 
-## Código Síncrono
 <img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
 
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
