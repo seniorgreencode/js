@@ -93,7 +93,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 
 <table>
   <tr>
-    <td colspan="3" align="center">No arquivo: Estrutura do diretório</td>
+    <td colspan="3" align="center">No arquivo: Estrutura do diretório` </td>
   </tr>
   
 <tr>
@@ -107,9 +107,9 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
     └── pages
         └── index.html
 </pre>
-</td>
+` </td>
 
-<td>  
+<td> ` 
   
 ```html
 <html>
@@ -124,7 +124,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 </html>
 ```
   
-</td>
+` </td>
   
 <td>
   
@@ -132,7 +132,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 alert("Hello, World!");
 ```
   
-</td>
+` </td>
 </tr>
 </table>
   
@@ -354,28 +354,28 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 Outras seis sequências escapes são válidas em JavaScript:
 <table>
   <tr>
-    <td>\b</td>
-    <td>Retrocesso</td>
+    <td>\b` </td>
+    <td>Retrocesso` </td>
   </tr>
   <tr>
-    <td>\f</td>
-    <td>Formulário voluntário</td>
+    <td>\f` </td>
+    <td>Formulário voluntário` </td>
   </tr>
     <tr>
-    <td>\n</td>
-    <td>Nova linha</td>
+    <td>\n` </td>
+    <td>Nova linha` </td>
   </tr>
     <tr>
-    <td>\r</td>
-    <td>Retorno de transporte</td>
+    <td>\r` </td>
+    <td>Retorno de transporte` </td>
   </tr>
     <tr>
-    <td>\t</td>
-    <td>Tabulador horizontal</td>
+    <td>\t` </td>
+    <td>Tabulador horizontal` </td>
   </tr>
     <tr>
-    <td>\v</td>
-    <td>Tabulador vertical</td>
+    <td>\v` </td>
+    <td>Tabulador vertical` </td>
   </tr>
 </table>
 
@@ -600,9 +600,9 @@ Até agora só escrevemos simples códigos que não servem para nada. Simplesmen
 
 > Imagine as variáveis como caixinhas onde podemos armazenar um valor e depois ir lá modificar ou apagar. Também damos um nome para essa "caixinha", para podermos acessar o nosso valor por um nome.
 
-Em muitas linguagens de programação, como Java e C#, precisamos indicar qual o tipo que a variável irá armazenar, como `Boolean` (booleano) ou `String` (caractere). Dizemos que a linguagem possui "Tipagem Estática".
+Em muitas linguagens de programação, como Java, C# e TypeScript, precisamos indicar qual o tipo que a variável irá armazenar, como `Boolean` (booleano) ou `String` (caractere). Dizemos que a linguagem possui "Tipagem Estática".
 
-O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo Number. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
+O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo `Number`. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
 
 Nomeando as variáveis:
 
@@ -618,102 +618,102 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 
 <table class="custom-table">
    
-	  <tbody><tr><td colspan="4">Os nomes das variáveis ​​em JavaScript podem ser praticamente qualquer sequência de caracteres. No entanto, existe um conjunto de palavras reservadas que não podem ser usadas para nomear variáveis, funções ou qualquer outra coisa. Eles são partes integrantes da linguagem e recebem um significado que não pode ser alterado. Abaixo você encontrará uma lista deles.</td>
+	  <tbody><tr><td colspan="4">Os nomes das variáveis ​​em JavaScript podem ser praticamente qualquer sequência de caracteres. No entanto, existe um conjunto de palavras reservadas que não podem ser usadas para nomear variáveis, funções ou qualquer outra coisa. Eles são partes integrantes da linguagem e recebem um significado que não pode ser alterado. Abaixo você encontrará uma lista deles.` </td>
       </tr><tr>
-	  <td> abstract </td>
-	  <td> arguments </td>
-	  <td> await </td>
-	  <td> boolean </td>
+	  <td> `abstract`  </td>
+	  <td> `arguments`  </td>
+	  <td> `await`  </td>
+	  <td> `boolean`  </td>
 	  </tr>
       <tr>
-	  <td> break </td>
-	  <td> byte </td>
-	  <td> case </td>
-	  <td> catch </td>
+	  <td> `break`  </td>
+	  <td> `byte`  </td>
+	  <td> `case`  </td>
+	  <td> `catch`  </td>
 	  </tr>
       <tr>
-	  <td> char </td>
-	  <td> class </td>
-	  <td> const </td>
-	  <td> continue </td>
+	  <td> `char`  </td>
+	  <td> `class`  </td>
+	  <td> `const`  </td>
+	  <td> `continue`  </td>
 	  </tr>
       <tr>
-	  <td> debugger	</td>
-	  <td> default </td>
-	  <td> delete </td>
-	  <td> do </td>
+	  <td> `debugger` </td>
+	  <td> `default` </td>
+	  <td> `delete` </td>
+	  <td> `do`  </td>
 	  </tr>
       <tr>
-	  <td> double </td>
-	  <td> else </td>
-	  <td> enum </td>
-	  <td> eval </td>
+	  <td> `double`  </td>
+	  <td> `else`  </td>
+	  <td> `enum`  </td>
+	  <td> `eval`  </td>
 	  </tr>
       <tr>
-	  <td> export </td>
-	  <td> extends </td>
-	  <td> false </td>
-	  <td> final </td>
+	  <td> `export`  </td>
+	  <td> `extends`  </td>
+	  <td> `false`  </td>
+	  <td> `final`  </td>
 	  </tr>
       <tr>
-	  <td> finally </td>
-	  <td> float </td>
-	  <td> for </td>
-	  <td> function </td>
+	  <td> `finally`  </td>
+	  <td> `float`  </td>
+	  <td> `for`  </td>
+	  <td> `function`  </td>
 	  </tr>
       <tr>
-	  <td> goto	</td>
-	  <td> implements </td>
-	  <td> if </td>
-	  <td> import </td>
+	  <td> `goto`  </td>
+	  <td> `implements`  </td>
+	  <td> `if`  </td>
+	  <td> `import`  </td>
 	  </tr>
       <tr>
-	  <td> in </td>
-	  <td> instanceof </td>
-	  <td> int </td>
-	  <td> interface </td>
+	  <td> `in`  </td>
+	  <td> `instanceof`  </td>
+	  <td> `int`  </td>
+	  <td> `interface`  </td>
 	  </tr>
       <tr>
-	  <td> let </td>
-	  <td> long </td>
-	  <td> native </td>
-	  <td> new </td>
+	  <td> `let`  </td>
+	  <td> `long`  </td>
+	  <td> `native`  </td>
+	  <td> `new`  </td>
 	  </tr>
       <tr>
-	  <td> null </td>
-	  <td> package </td>
-	  <td> private </td>
-	  <td> protected </td>
+	  <td> `null`  </td>
+	  <td> `package`  </td>
+	  <td> `private`  </td>
+	  <td> `protected`  </td>
 	  </tr>
       <tr>
-	  <td> public </td>
-	  <td> return </td>
-	  <td> short </td>
-	  <td> static </td>
+	  <td> `public`  </td>
+	  <td> `return`  </td>
+	  <td> `short`  </td>
+	  <td> `static`  </td>
 	  </tr>
       <tr>
-	  <td> super </td>
-	  <td> switch </td>
-	  <td> synchronized </td>
-	  <td> this </td>
+	  <td> `super`  </td>
+	  <td> `switch`  </td>
+	  <td> `synchronized`  </td>
+	  <td> `this`  </td>
 	  </tr>
       <tr>
-	  <td> throw </td>
-	  <td> throws </td>
-	  <td> transient </td>
-	  <td> true </td>
+	  <td> `throw`  </td>
+	  <td> `throws`  </td>
+	  <td> `transient`  </td>
+	  <td> `true`  </td>
 	  </tr>
       <tr>
-	  <td> try </td>
-	  <td> typeof </td>
-	  <td> var </td>
-	  <td> void </td>
+	  <td> `try`  </td>
+	  <td> `typeof`  </td>
+	  <td> `var`  </td>
+	  <td> `void`  </td>
 	  </tr>
       <tr>
-	  <td> volatile </td>
-	  <td> while </td>
-	  <td> with </td>
-	  <td> yield </td>
+	  <td> `volatile`  </td>
+	  <td> `while`  </td>
+	  <td> `with`  </td>
+	  <td> `yield`  </td>
 	  </tr>
 
 </tbody></table>
@@ -1078,40 +1078,40 @@ Tabela de métodos de Arrays
 
 <table>
   <tr>
-    <td>Método</td>
-    <td>Função do método</td>
+    <td>Método` </td>
+    <td>Função do método` </td>
   </tr>
   <tr>
-    <td><code>push("value")</code></td>
-    <td>Adiciona elemento</td>
+    <td><code>push("value")</code>` </td>
+    <td>Adiciona elemento` </td>
   </tr>
   <tr>
-    <td><code>pop("array value")</code></td>
-    <td>Retira elemento</td>
+    <td><code>pop("array value")</code>` </td>
+    <td>Retira elemento` </td>
   </tr>
   <tr>
-    <td>length</td>
-    <td>Retorna o tamanho da lista ou n° de elementos</td>
+    <td>length` </td>
+    <td>Retorna o tamanho da lista ou n° de elementos` </td>
   </tr>
   <tr>
-    <td>filter(function(currentValue, index, arr), thisValue)</td>
-    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)</td>
+    <td>filter(function(currentValue, index, arr), thisValue)` </td>
+    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)` </td>
   </tr>
   <tr>
-    <td>toString(Array)</td>
-    <td>Mostra todos os itens da lista</td>
+    <td>toString(Array)` </td>
+    <td>Mostra todos os itens da lista` </td>
   </tr>
    <tr>
-    <td>join()</td>
-    <td>Substitui elementos que separam a string</td>
+    <td>join()` </td>
+    <td>Substitui elementos que separam a string` </td>
   </tr>
   <tr>
-    <td>reverse()</td>
-    <td>Reverte</td>
+    <td>reverse()` </td>
+    <td>Reverte` </td>
   </tr>
   <tr>
-    <td>shift("array value")</td>
-    <td>Remove o item</td>
+    <td>shift("array value")` </td>
+    <td>Remove o item` </td>
   </tr>
 </table>
 
@@ -1155,20 +1155,20 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 Tabela de métodos para os valores em JS:
 <table>
     <tr>
-      <td>Método</td>
-      <td>Função do método</td>
+      <td>Método` </td>
+      <td>Função do método` </td>
   </tr>
   <tr>
-  <td>replace("", "")</td>
-  <td>muda a String selecionada por outra string informada</td>
+  <td>replace("", "")` </td>
+  <td>muda a String selecionada por outra string informada` </td>
   </tr>
   <tr>
-    <td>toUpperCase()</td>
-    <td>Todas as letras maiúsculas da String</td>
+    <td>toUpperCase()` </td>
+    <td>Todas as letras maiúsculas da String` </td>
   </tr>
   <tr>
-    <td>toLowerCase()</td>
-    <td>Todas as letras minúsculas da String</td>
+    <td>toLowerCase()` </td>
+    <td>Todas as letras minúsculas da String` </td>
   </tr>
 </table>
 
@@ -1191,44 +1191,44 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
 ## Tabela de métodos que definem o tempo no JS:
 <table>
   <tr>
-    <td>Método</td>
-    <td>Função do método</td>
+    <td>Método` </td>
+    <td>Função do método` </td>
   </tr>
     <tr>
-    <td>getDate()</td>
-    <td>Define a data atual</td>
+    <td>getDate()` </td>
+    <td>Define a data atual` </td>
   </tr>
     <tr>
-    <td>getFullYear()</td>
-    <td>Define o ano atual e completo</td>
+    <td>getFullYear()` </td>
+    <td>Define o ano atual e completo` </td>
   </tr>
   <tr>
-    <td>getYear()</td>
-    <td>Define o ano e incompleto</td>
+    <td>getYear()` </td>
+    <td>Define o ano e incompleto` </td>
   </tr>
   <tr>
-    <td>getMonth()</td>
-    <td>Define os meses</td>
+    <td>getMonth()` </td>
+    <td>Define os meses` </td>
   </tr>
   <tr>
-    <td>getDay()</td>
-    <td>Define o dia</td>
+    <td>getDay()` </td>
+    <td>Define o dia` </td>
   </tr>
   <tr>
-    <td>getHours()</td>
-    <td>Define as horas</td>
+    <td>getHours()` </td>
+    <td>Define as horas` </td>
   </tr>
   <tr>
-    <td>getMinutes()</td>
-    <td>Define os minutos</td>
+    <td>getMinutes()` </td>
+    <td>Define os minutos` </td>
   </tr>
   <tr>
-    <td>getMilliseconds()</td>
-    <td>Define os milisegundos</td>
+    <td>getMilliseconds()` </td>
+    <td>Define os milisegundos` </td>
   </tr>
     <tr>
-    <td>getSeconds()</td>
-    <td>Define os segundos</td>
+    <td>getSeconds()` </td>
+    <td>Define os segundos` </td>
   </tr>
 </table>
 
