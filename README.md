@@ -1,4 +1,4 @@
-# 🍦 Vanilla JavaScript 
+# 🍦 [JS] Vanilla JavaScript 
 
 <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a>
 
@@ -173,9 +173,10 @@ duas ou mais linhas
 
 Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados.
 
-Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma **variável**.
+Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
 
 A maior parte das linguagens de programação trabalha com variações baseadas nos quatro tipos primitivos abaixo:
+
  - `INT` ou número inteiro: valores numéricos inteiros (positivos ou negativos);
  - `FLOAT` ou o chamado “ponto flutuante”: valores numéricos com casas após a vírgula (positivos ou negativos);
  - `BOOLEAN` ou booleanos: representado apenas por dois valores, “verdadeiro” e “falso”. Também chamados de operadores lógicos;
@@ -187,7 +188,7 @@ Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de aco
 
 O C, por sua vez, não tem um tipo próprio de dado booleano; `false` é representado pelo número `0` e qualquer outro algarismo representa `true`. Outras linguagens podem trabalhar com outras variações.
 
-Os dados são armazenados no que conhecemos como bits. Cada bit pode ter um valor `0` ou `1`, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de sistema binário. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
+Os dados são armazenados no que conhecemos como bits. Cada bit pode ter um valor `0` ou `1`, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter `2` possíveis valores, chamamos isso de sistema binário. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
 
 Mas se tudo é feito por `0` e `1`, como outros valores são formados?
 
@@ -195,34 +196,34 @@ Bom, abaixo temos um exemplo simples:
 
 <img src="https://user-images.githubusercontent.com/61624336/102372658-2f8bb600-3f9e-11eb-9593-e147e8367efe.png" align="right" height="177">
 
-Veja a linha de baixo, a qual tem valores 128, 64, 32, etc. Tudo é lido da direita para a esquerda. Lembra que Bits podem ter valor 1 ou 0? Então temos dois valores possíveis, o que nos faz ter um número de base 2.
+Veja a linha de baixo, a qual tem valores `128`, `64`, `32`, etc. Tudo é lido da direita para a esquerda. Lembra que Bits podem ter valor `1` ou `0`? Então temos dois valores possíveis, o que nos faz ter um número de base `2`.
   
-Na computação, todas as contagens começam no 0, e não no 1.
+Na computação, todas as contagens começam no `0`, e não no `1`.
 
 - 2 elevado a 0 é igual a 1;
 - 2 elevado a 1 é igual a 2;
 - 2 elevado a 2 é igual a 4;
 - etc...
 
-E com isso nós vamos obtendo os valores da linha de baixo, de 1 a 128.
+E com isso nós vamos obtendo os valores da linha de baixo, de `1` a `128`.
   
-Lembra que esses bits podem ter o valor 1 e 0 como se fosse um interruptor de liga e desliga? Repare então na linha de cima, onde temos apenas 0 e 1. Os 0 são o "desligado", e o 1, "ligado".
+Lembra que esses bits podem ter o valor `1` e `0` como se fosse um interruptor de liga e desliga? Repare então na linha de cima, onde temos apenas `0` e `1`. Os `0` são o "desligado", e o `1`, "ligado".
 
-Então temos os valores 1, 4 e 8 ligados, certo? 1+4+8 = 13.
+Então temos os valores `1`, `4` e `8` ligados, certo? `1+4+8 = 13`.
 
-Isso significa que a sequência 00001101 equivale ao valor 13 em binário. É dessa maneira que dados são armazenados e interpretados pelas máquinas.
+Isso significa que a sequência `00001101` equivale ao valor `13` em binário. É dessa maneira que dados são armazenados e interpretados pelas máquinas.
 
 Mas isso é só uma curiosidade. Com JavaScript e outras linguagens modernas você não precisará se preocupar com o sistema binário.
 As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simples comando, fazem operações mais complexas.
 
-> **Curiosidade**: `128+64+32+16+8+4+2+1 = 255`. E se tivermos todos os campos "desligados", teremos o valor 0, o que nos dá um total de 256 possíveis valores. Você já deve ter visto esse número por aí no mundo da informática, não é mesmo? Como os antigos pendrives de 256MB, 512MB e 1024MB que é igual a 1GB.</blockquote>
+> **Curiosidade**: `128+64+32+16+8+4+2+1 = 255`. E se tivermos todos os campos "desligados", teremos o valor `0`, o que nos dá um total de 256 possíveis valores. Você já deve ter visto esse número por aí no mundo da informática, não é mesmo? Como os antigos pendrives de 256MB, 512MB e 1024MB que é igual a 1GB.
 
 > **Dica**: Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.
 
 ## [JS] `STDIN` e `STDOUT`
-Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
+Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem. Basicamente, estamos lidando com a leitura e escrita dos dados.
 
-Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função gets é implementada internamente para auxiliar a entrada dos dados.
+Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função `gets` é implementada internamente para auxiliar a entrada dos dados.
 
 Exemplo:
   
