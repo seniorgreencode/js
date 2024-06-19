@@ -854,7 +854,7 @@ E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicament
 
 > Isso funciona com o incremento `++` também.
 
-A diferença entre eles é algo bastante notório no escopo:
+Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bastante notório no escopo e na execução do código:
 
 <img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
