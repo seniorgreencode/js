@@ -559,7 +559,7 @@ Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado
 3 > 8 ? 'É maior' : 'É menor' // retorna a String "É menor"
 ```
 
-## Conversão automática de tipos
+## [JS] Conversão automática de tipos
 No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.
 
 Um exemplo clássico é quando perguntamos a idade de um usuário. Nada impede que o usuário tecle "`ABC`". Mesmo que ele escreva apenas números, receberemos uma `String`, como "`21`".
@@ -584,7 +584,7 @@ Aqui ele verá a operação como uma concatenação de Strings. Então o `1` ser
 
 Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.
 
-## O que são expressões?
+## [JS] O que são expressões?
 Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de `"5 + 3"` que produz o valor `"8"`.
 Até mesmo quando simplesmente digitamos `8` estamos gerando o valor `8`. Todo fragmento de código que produz um valor é chamado de "expressão".
 
@@ -723,29 +723,35 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 
 Declarando e nomeando variáveis:
 
-
 As variáveis podem ser classificadas em duas categorias:
 
 <img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 - **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento.
+
 - **Variáveis globais** são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696091-8ac1e080-420a-11eb-9553-477915979001.jpg)
 
-<blockquote>Obs: O JS é <em>Case Sensitive</em>, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "$" e o "_", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.</blockquote>
+```javascript
+var idade = 5;
+var idade = 7;
+```
 
-> 👍 Dica: É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
+> Obs: O JS é Case Sensitive, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "`$`" e o "`_`", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.
+
+> Dica: É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
 
 **Exemplo**:
-> 👍 Dica: O nome da variável Idade substitua para Old ou yearOld.
+
+> Dica: O nome da variável `Idade` substitua para `Old` ou `yearOld`.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696882-6b2db680-4210-11eb-80b8-7dc0048c8f15.jpg)
 
 > Bem uniforme e fácil de compreensão para todos!
 
-## Declarando variáveis com operadores de atribuição
+Declarando variáveis com operadores de atribuição:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
 <blockquote>Obs: Também funciona com a concatenação.</blockquote>
 
@@ -789,7 +795,7 @@ A diferença entre eles é algo bastante notório no escopo:
 
 > Obs: const e let só funcionam dentro do escopo do bloco { }.
 
-## Alguns tipos de variáveis globais
+
 Existe mais de um tipo de variável global, como:
 
   Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.<img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/>
