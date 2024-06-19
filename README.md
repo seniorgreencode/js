@@ -253,7 +253,7 @@ a = int(sys.stdin.readline()) // Lê a linha de entrada
 print(a); // Imprime o dado
 ```
 
-# 📜 [JS] Tipos primitivos
+## [JS] Tipos primitivos
 Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (0 e 1).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
@@ -270,14 +270,14 @@ O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais det
 - `String` - armazena textos;
 - `Symbol` - armazena símbolos.
 
-## `Boolean`
+### [JS] `Boolean`
 `Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
 Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso).
 
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
-## `Undefined` e `Null`
+### [JS] `Undefined` e `Null`
 Há dois tipos especiais de valores, undefined e null. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
@@ -286,7 +286,7 @@ Há uma diferença bem pequena entre undefined e null. Na verdade a existência 
 
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
-## `Number`
+### [JS] `Number`
 O tipo number é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
@@ -297,14 +297,14 @@ Podemos ter números inteiros (sem casas decimais) e números flutuantes (com ca
 - `2.998e8`
 - Isso é o mesmo que `2,998 x 10^8`, que é igual a `299.800.000`
 
-## Números Especiais
+### [JS] Números Especiais
 Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
 
 Os dois primeiros são o `Infinity` e `-Infinity`, que indicam valores infinitos positivos e negativos.
 
 O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
 
-## `String`
+### [JS] `String`
 As Strings são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
 
 - `"Olá, sou uma string"`
@@ -328,7 +328,7 @@ var txt = 'abcdfghijklmnopqrstuvwxyz'
 console.log(txt.length);
 ```
 
-### Escape de Caracteres
+### [JS] Escape de Caracteres
 Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -338,21 +338,23 @@ A solução para resolver esse problema é com o uso de caractere de escape de b
 
 O caractere de escape de barra invertida “\” torna caracteres especiais em caracteres de string:
 
-#### `\’` aspas simples
+`\’` aspas simples:
+
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102550356-78299900-409c-11eb-975c-9b1b491afdd8.jpg)
 
-#### `\"` aspas duplas
+`\"` aspas duplas:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/102550361-79f35c80-409c-11eb-8b3d-b2864b43aa49.jpg)
 
-#### `\\` barras invertidas
+`\\` barras invertidas:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102549993-d6a24780-409b-11eb-9814-fffb47e86f0f.jpg)
 
 Outras seis sequências escapes são válidas em JavaScript:
+
 <table>
   <tr>
     <td><code>\b</code></td>
@@ -368,7 +370,7 @@ Outras seis sequências escapes são válidas em JavaScript:
   </tr>
     <tr>
     <td><code>\r</code></td>
-    <td>Retorno de transporte<code></td>
+    <td>Retorno de transporte</td>
   </tr>
     <tr>
     <td><code>\t</code></td>
@@ -376,14 +378,14 @@ Outras seis sequências escapes são válidas em JavaScript:
   </tr>
     <tr>
     <td><code>\v</code></td>
-    <td>Tabulador vertical<code></td>
+    <td>Tabulador vertical</td>
   </tr>
 </table>
 
-## Symbols
-O Symbol é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
+### [JS] Symbols
+O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
 
-## Valores verdadeiros e falsos
+### [JS] Valores verdadeiros e falsos
 Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
   
 Um exemplo é o número `0`. Ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
