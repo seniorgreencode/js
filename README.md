@@ -767,7 +767,12 @@ Os atalhos de operação de código são:
 - `%=` - 
 - `**=` -  
 
-> Obs: Também funciona com a concatenação e incremento.
+> Obs: Também funciona com a concatenação e incremento ou decremento.
+
+```javascript
+var myText = 'abc';
+myText = myText + 'def'; // myText += 'def'
+```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
 
