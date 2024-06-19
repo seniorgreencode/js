@@ -896,13 +896,12 @@ console.log(pi); // Output: 3.14159
 // pi = 3.14; // Isso causará um TypeError: Assignment to constant variable.
 ```
 
-  ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446794-561a4400-4c62-11eb-8be2-7840e633ae6b.jpg)
-
 > Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
 
 Há uma outra forma de chamar uma variável, com template string, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
 
-**Exemplo 1**:
+Exemplo 1:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
 
 ## Variáveis Input no JS
