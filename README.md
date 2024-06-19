@@ -753,8 +753,6 @@ Bem uniforme e fácil de compreensão para todos!
 
 Declarando variáveis com operadores de atribuição:
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
-
 ```javascript
 var myValue = 5;
 myValue = myValue + 2; // myValue += 2
@@ -788,7 +786,8 @@ curso = "PHP";
 // resultado = 'PHP'
 ```
 
-## Incremento e decremento de valores
+Incremento e decremento de valores das variáveis:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
 
 A diferença entre eles é algo bastante notório no escopo:
