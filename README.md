@@ -93,7 +93,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 
 <table>
   <tr>
-    <td colspan="3" align="center">No arquivo: Estrutura do diretório` </td>
+    <td colspan="3" align="center">No arquivo: Estrutura do diretório<code></td>
   </tr>
   
 <tr>
@@ -107,9 +107,9 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
     └── pages
         └── index.html
 </pre>
-` </td>
+<code></td>
 
-<td> ` 
+<td><code> 
   
 ```html
 <html>
@@ -124,7 +124,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 </html>
 ```
   
-` </td>
+<code></td>
   
 <td>
   
@@ -132,7 +132,7 @@ Outra maneira válida é criar um documento com a extensão `.js`, é separando 
 alert("Hello, World!");
 ```
   
-` </td>
+<code></td>
 </tr>
 </table>
   
@@ -354,28 +354,28 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 Outras seis sequências escapes são válidas em JavaScript:
 <table>
   <tr>
-    <td>\b` </td>
-    <td>Retrocesso` </td>
+    <td>\b<code></td>
+    <td>Retrocesso<code></td>
   </tr>
   <tr>
-    <td>\f` </td>
-    <td>Formulário voluntário` </td>
+    <td>\f<code></td>
+    <td>Formulário voluntário<code></td>
   </tr>
     <tr>
-    <td>\n` </td>
-    <td>Nova linha` </td>
+    <td>\n<code></td>
+    <td>Nova linha<code></td>
   </tr>
     <tr>
-    <td>\r` </td>
-    <td>Retorno de transporte` </td>
+    <td>\r<code></td>
+    <td>Retorno de transporte<code></td>
   </tr>
     <tr>
-    <td>\t` </td>
-    <td>Tabulador horizontal` </td>
+    <td>\t<code></td>
+    <td>Tabulador horizontal<code></td>
   </tr>
     <tr>
-    <td>\v` </td>
-    <td>Tabulador vertical` </td>
+    <td>\v<code></td>
+    <td>Tabulador vertical<code></td>
   </tr>
 </table>
 
@@ -617,103 +617,105 @@ Em JavaScript, os nomes das variáveis ​​podem consistir em qualquer sequên
 O importante também é que o interpretador JavaScript faça distinção entre letras minúsculas e maiúsculas, também em nomes de variáveis, portanto nomes como `teste`, `Teste` ou `TESTE` serão tratados como diferentes.
 
 <table class="custom-table">
-   
-	  <tbody><tr><td colspan="4">Os nomes das variáveis ​​em JavaScript podem ser praticamente qualquer sequência de caracteres. No entanto, existe um conjunto de palavras reservadas que não podem ser usadas para nomear variáveis, funções ou qualquer outra coisa. Eles são partes integrantes da linguagem e recebem um significado que não pode ser alterado. Abaixo você encontrará uma lista deles.` </td>
-      </tr><tr>
-	  <td> `abstract`  </td>
-	  <td> `arguments`  </td>
-	  <td> `await`  </td>
-	  <td> `boolean`  </td>
+<tbody>
+   <tr>
+   <td colspan="4">Os nomes das variáveis ​​em JavaScript podem ser praticamente qualquer sequência de caracteres. No entanto, existe um conjunto de palavras reservadas que não podem ser usadas para nomear variáveis, funções ou qualquer outra coisa. Eles são partes integrantes da linguagem e recebem um significado que não pode ser alterado. Abaixo você encontrará uma lista deles.</td>
+      </tr>
+      <tr>
+	  <td><code>abstract<code></td>
+	  <td><code>arguments<code></td>
+	  <td><code>await<code></td>
+	  <td><code>boolean<code></td>
 	  </tr>
       <tr>
-	  <td> `break`  </td>
-	  <td> `byte`  </td>
-	  <td> `case`  </td>
-	  <td> `catch`  </td>
+	  <td><code>break<code></td>
+	  <td><code>byte<code></td>
+	  <td><code>case<code></td>
+	  <td><code>catch<code></td>
+      </tr>
+      <tr>
+	  <td><code>char<code></td>
+	  <td><code>class<code></td>
+	  <td><code>const<code></td>
+	  <td><code>continue<code></td>
 	  </tr>
       <tr>
-	  <td> `char`  </td>
-	  <td> `class`  </td>
-	  <td> `const`  </td>
-	  <td> `continue`  </td>
+	  <td><code>debugger<code></td>
+	  <td><code>default<code></td>
+	  <td><code>delete<code></td>
+	  <td><code>do<code></td>
 	  </tr>
       <tr>
-	  <td> `debugger` </td>
-	  <td> `default` </td>
-	  <td> `delete` </td>
-	  <td> `do`  </td>
+	  <td><code>double<code></td>
+	  <td><code>else<code></td>
+	  <td><code>enum<code></td>
+	  <td><code>eval<code></td>
 	  </tr>
       <tr>
-	  <td> `double`  </td>
-	  <td> `else`  </td>
-	  <td> `enum`  </td>
-	  <td> `eval`  </td>
+	  <td><code>export<code></td>
+	  <td><code>extends<code></td>
+	  <td><code>false<code></td>
+	  <td><code>final<code></td>
 	  </tr>
       <tr>
-	  <td> `export`  </td>
-	  <td> `extends`  </td>
-	  <td> `false`  </td>
-	  <td> `final`  </td>
+	  <td><code>finally<code></td>
+	  <td><code>float<code></td>
+	  <td><code>for<code></td>
+	  <td><code>function<code></td>
 	  </tr>
       <tr>
-	  <td> `finally`  </td>
-	  <td> `float`  </td>
-	  <td> `for`  </td>
-	  <td> `function`  </td>
+	  <td><code>goto<code></td>
+	  <td><code>implements<code></td>
+	  <td><code>if<code></td>
+	  <td><code>import<code></td>
 	  </tr>
       <tr>
-	  <td> `goto`  </td>
-	  <td> `implements`  </td>
-	  <td> `if`  </td>
-	  <td> `import`  </td>
+	  <td><code>in<code></td>
+	  <td><code>instanceof<code></td>
+	  <td><code>int<code></td>
+	  <td><code>interface<code></td>
 	  </tr>
       <tr>
-	  <td> `in`  </td>
-	  <td> `instanceof`  </td>
-	  <td> `int`  </td>
-	  <td> `interface`  </td>
+	  <td><code>let<code></td>
+	  <td><code>long<code></td>
+	  <td><code>native<code></td>
+	  <td><code>new<code></td>
 	  </tr>
       <tr>
-	  <td> `let`  </td>
-	  <td> `long`  </td>
-	  <td> `native`  </td>
-	  <td> `new`  </td>
+	  <td><code>null<code></td>
+	  <td><code>package<code></td>
+	  <td><code>private<code></td>
+	  <td><code>protected<code></td>
 	  </tr>
       <tr>
-	  <td> `null`  </td>
-	  <td> `package`  </td>
-	  <td> `private`  </td>
-	  <td> `protected`  </td>
+	  <td><code>public<code></td>
+	  <td><code>return<code></td>
+	  <td><code>short<code></td>
+	  <td><code>static<code></td>
 	  </tr>
       <tr>
-	  <td> `public`  </td>
-	  <td> `return`  </td>
-	  <td> `short`  </td>
-	  <td> `static`  </td>
+	  <td><code>super<code></td>
+	  <td><code>switch<code></td>
+	  <td><code>synchronized<code></td>
+	  <td><code>this<code></td>
 	  </tr>
       <tr>
-	  <td> `super`  </td>
-	  <td> `switch`  </td>
-	  <td> `synchronized`  </td>
-	  <td> `this`  </td>
+	  <td><code>throw<code></td>
+	  <td><code>throws<code></td>
+	  <td><code>transient<code></td>
+	  <td><code>true<code></td>
 	  </tr>
       <tr>
-	  <td> `throw`  </td>
-	  <td> `throws`  </td>
-	  <td> `transient`  </td>
-	  <td> `true`  </td>
+	  <td><code>try<code></td>
+	  <td><code>typeof<code></td>
+	  <td><code>var<code></td>
+	  <td><code>void<code></td>
 	  </tr>
       <tr>
-	  <td> `try`  </td>
-	  <td> `typeof`  </td>
-	  <td> `var`  </td>
-	  <td> `void`  </td>
-	  </tr>
-      <tr>
-	  <td> `volatile`  </td>
-	  <td> `while`  </td>
-	  <td> `with`  </td>
-	  <td> `yield`  </td>
+	  <td><code>volatile<code></td>
+	  <td><code>while<code></td>
+	  <td><code>with<code></td>
+	  <td><code>yield<code></td>
 	  </tr>
 
 </tbody></table>
@@ -1078,40 +1080,40 @@ Tabela de métodos de Arrays
 
 <table>
   <tr>
-    <td>Método` </td>
-    <td>Função do método` </td>
+    <td>Método<code></td>
+    <td>Função do método<code></td>
   </tr>
   <tr>
-    <td><code>push("value")</code>` </td>
-    <td>Adiciona elemento` </td>
+    <td><code>push("value")</code><code></td>
+    <td>Adiciona elemento<code></td>
   </tr>
   <tr>
-    <td><code>pop("array value")</code>` </td>
-    <td>Retira elemento` </td>
+    <td><code>pop("array value")</code><code></td>
+    <td>Retira elemento<code></td>
   </tr>
   <tr>
-    <td>length` </td>
-    <td>Retorna o tamanho da lista ou n° de elementos` </td>
+    <td>length<code></td>
+    <td>Retorna o tamanho da lista ou n° de elementos<code></td>
   </tr>
   <tr>
-    <td>filter(function(currentValue, index, arr), thisValue)` </td>
-    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)` </td>
+    <td>filter(function(currentValue, index, arr), thisValue)<code></td>
+    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)<code></td>
   </tr>
   <tr>
-    <td>toString(Array)` </td>
-    <td>Mostra todos os itens da lista` </td>
+    <td>toString(Array)<code></td>
+    <td>Mostra todos os itens da lista<code></td>
   </tr>
    <tr>
-    <td>join()` </td>
-    <td>Substitui elementos que separam a string` </td>
+    <td>join()<code></td>
+    <td>Substitui elementos que separam a string<code></td>
   </tr>
   <tr>
-    <td>reverse()` </td>
-    <td>Reverte` </td>
+    <td>reverse()<code></td>
+    <td>Reverte<code></td>
   </tr>
   <tr>
-    <td>shift("array value")` </td>
-    <td>Remove o item` </td>
+    <td>shift("array value")<code></td>
+    <td>Remove o item<code></td>
   </tr>
 </table>
 
@@ -1155,20 +1157,20 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 Tabela de métodos para os valores em JS:
 <table>
     <tr>
-      <td>Método` </td>
-      <td>Função do método` </td>
+      <td>Método<code></td>
+      <td>Função do método<code></td>
   </tr>
   <tr>
-  <td>replace("", "")` </td>
-  <td>muda a String selecionada por outra string informada` </td>
+  <td>replace("", "")<code></td>
+  <td>muda a String selecionada por outra string informada<code></td>
   </tr>
   <tr>
-    <td>toUpperCase()` </td>
-    <td>Todas as letras maiúsculas da String` </td>
+    <td>toUpperCase()<code></td>
+    <td>Todas as letras maiúsculas da String<code></td>
   </tr>
   <tr>
-    <td>toLowerCase()` </td>
-    <td>Todas as letras minúsculas da String` </td>
+    <td>toLowerCase()<code></td>
+    <td>Todas as letras minúsculas da String<code></td>
   </tr>
 </table>
 
@@ -1191,44 +1193,44 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
 ## Tabela de métodos que definem o tempo no JS:
 <table>
   <tr>
-    <td>Método` </td>
-    <td>Função do método` </td>
+    <td>Método<code></td>
+    <td>Função do método<code></td>
   </tr>
     <tr>
-    <td>getDate()` </td>
-    <td>Define a data atual` </td>
+    <td>getDate()<code></td>
+    <td>Define a data atual<code></td>
   </tr>
     <tr>
-    <td>getFullYear()` </td>
-    <td>Define o ano atual e completo` </td>
+    <td>getFullYear()<code></td>
+    <td>Define o ano atual e completo<code></td>
   </tr>
   <tr>
-    <td>getYear()` </td>
-    <td>Define o ano e incompleto` </td>
+    <td>getYear()<code></td>
+    <td>Define o ano e incompleto<code></td>
   </tr>
   <tr>
-    <td>getMonth()` </td>
-    <td>Define os meses` </td>
+    <td>getMonth()<code></td>
+    <td>Define os meses<code></td>
   </tr>
   <tr>
-    <td>getDay()` </td>
-    <td>Define o dia` </td>
+    <td>getDay()<code></td>
+    <td>Define o dia<code></td>
   </tr>
   <tr>
-    <td>getHours()` </td>
-    <td>Define as horas` </td>
+    <td>getHours()<code></td>
+    <td>Define as horas<code></td>
   </tr>
   <tr>
-    <td>getMinutes()` </td>
-    <td>Define os minutos` </td>
+    <td>getMinutes()<code></td>
+    <td>Define os minutos<code></td>
   </tr>
   <tr>
-    <td>getMilliseconds()` </td>
-    <td>Define os milisegundos` </td>
+    <td>getMilliseconds()<code></td>
+    <td>Define os milisegundos<code></td>
   </tr>
     <tr>
-    <td>getSeconds()` </td>
-    <td>Define os segundos` </td>
+    <td>getSeconds()<code></td>
+    <td>Define os segundos<code></td>
   </tr>
 </table>
 
