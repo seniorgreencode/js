@@ -402,8 +402,6 @@ Os seguintes valores são considerados falsos no JavaScript:
 
 Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, pois não são Strings vazias.
 
-## Informando o tipo do valor primitivo na operação
-
 # 📜 [JS] O que são operadores?
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
   
@@ -413,17 +411,18 @@ O sinal `+` é um operador, o qual podemos usar para somar dois valores numéric
 
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
-## Operadores Lógicos
-Chamamos de Operadores Lógicos aqueles que nos ajudam a trabalhar com o tipo Boolean (verdadeiro ou falso).
+## [JS] Operadores Lógicos
+Chamamos de **Operadores Lógicos** aqueles que nos ajudam a trabalhar com o tipo `Boolean` (verdadeiro ou falso).
 
 O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`).
 
-**Exemplo**: Copo azul
+Exemplo: `Copo azul`
 
-### Operador `&&`
+Operador `&&`:
+
 Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
   
-Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em true.
+Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
 
 E se tivermos duas mentiras, o resultado só pode ser falso.
 
@@ -433,10 +432,11 @@ Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não im
 
 Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa torna a frase inteira falsa.
 
-<blockquote>👍 Dica: Resumindo, o resultado do operador && só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
+> Dica: Resumindo, o resultado do operador `&&` só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.
 
-### Operador `||`
-Vamos usar o mesmo copo azul para explicar o operador OU. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
+Operador `||`:
+
+Vamos usar o mesmo copo azul para explicar o operador **OU**. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
 
 Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <code>garfo OU é vermelho</code>, são duas mentiras, o que resulta em `false`.
 
