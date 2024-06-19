@@ -278,11 +278,11 @@ Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
 ### [JS] `Undefined` e `Null`
-Há dois tipos especiais de valores, undefined e null. Eles indicam a ausência de valor.
+Há dois tipos especiais de valores, `undefined` e `null`. Eles indicam a ausência de valor.
   
-Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
+Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é `0`. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos `undefined` ou `null`.
 
-Há uma diferença bem pequena entre undefined e null. Na verdade a existência de ambos para definir um valor inexistente foi devido a um acidente no projeto do desenvolvimento do JavaScript. Em outras linguagens de programação, normalmente existe apenas o Null.
+Há uma diferença bem pequena entre `undefined` e `null`. Na verdade a existência de ambos para definir um valor inexistente foi devido a um acidente no projeto do desenvolvimento do JavaScript. Em outras linguagens de programação, normalmente existe apenas o `Null`.
 
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
@@ -312,9 +312,9 @@ As `Strings` são usadas para representar textos. Sempre que quisermos um texto 
 
 As aspas servem para definir onde um texto começa e onde ele termina. Em JavaScript, para manter um padrão de código, é recomendado usar as aspas simples.
 
-Porém, se você precisar usar aspas simples em um texto, é mais fácil criar a String com aspas duplas, ou sua String será fechada:
+Porém, se você precisar usar aspas simples em um texto, é mais fácil criar a `String` com aspas duplas, ou sua `String` será fechada:
 
-- `"Mc Donald's"` A aspa simples pôde ser usada normalmente dentro desta String;
+- `"Mc Donald's"` A aspa simples pôde ser usada normalmente dentro desta `String`;
 - `'Mc Donald's'` Após o "d", a aspa simples fechou a string, deixando o "s" e a outra aspa soltos. Isso irá resultar em um erro.
 
 Hoje em dia também temos um novo tipo de string, que usa o acento grave (crase) ao invés de aspas. Mais para frente veremos melhor sobre como trabalhar com Strings e a importância desse novo tipo de String.
@@ -336,7 +336,7 @@ Como as strings são descritas entre aspas, o JavaScript não entenderá a strin
 
 A solução para resolver esse problema é com o uso de caractere de escape de barra invertida.
 
-O caractere de escape de barra invertida “\” torna caracteres especiais em caracteres de string:
+O caractere de escape de barra invertida “`\`” torna caracteres especiais em caracteres de string:
 
 `\’` aspas simples:
 
@@ -447,7 +447,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 > **Dica**: Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.
 
 ## [JS] Operadores Aritméticos
-Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
+Os **Operadores Aritméticos** são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
 
 - `+` (adição)
 - `-` (subtração)
@@ -477,13 +477,13 @@ Usar esses comparadores pode causar alguns problemas, pois eles vão pelo valor,
 
 Lembra que foi dito que o `0` tem valor `false`? Então se compararmos `>0 == false` será retornado `true`.
 
-Se tivermos um número 3 e uma String "3", ambos são diferentes, certo? Pois o primeiro é um número e o segundo é um texto.
+Se tivermos um número `3` e uma String "3", ambos são diferentes, certo? Pois o primeiro é um número e o segundo é um texto.
 
-Porém, se fizermos a comparação `3 == "3"`, a String será convertida automaticamente para o tipo Number, e a comparação retornará true.
+Porém, se fizermos a comparação `3 == "3"`, a `String` será convertida automaticamente para o tipo `Number`, e a comparação retornará `true`.
 
 Isso pode causar algumas inconsistências em certos casos. Por isso que é muito recomendado sempre fazer comparações com valores do mesmo tipo. Para garantir que estamos fazendo comparações com valores e tipos iguais, acrescentamos um `=` a mais na comparação.
 
-Isso significa que a comparação `3 == "3"` retorna true, mas a comparação `3 === "3"` retorna false, pois `===` também leva em consideração o tipo do valor.
+Isso significa que a comparação `3 == "3"` retorna `true`, mas a comparação `3 === "3"` retorna `false`, pois `===` também leva em consideração o tipo do valor.
   
 > **Dica**: `===` é um operador que é usado para extrema igualdade.
 
