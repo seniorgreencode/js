@@ -1468,7 +1468,7 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 ### 2° Solução: Num arquivo a ser importado
  
-## Prototype
+## [JS] Prototype
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
 
 Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado **prototype**. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
