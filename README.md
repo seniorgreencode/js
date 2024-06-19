@@ -525,28 +525,38 @@ O primeiro é o "-". Além de ser usado como operador de subtração, ele pode s
 -3
 ```
 
-Como vimos antes, esse operador serve para negação. Ele inverte os valores do tipo Boolean. Então um valor true se torna false e um false se torna true.
+Como vimos antes, esse operador serve para negação `!`. Ele inverte os valores do tipo `Boolean`. Então um valor `true` se torna `false` e um `false` se torna `true`.
 
 ```javascript
 !true
 ```
 
-Nem todos os operadores são símbolos. Um exemplo deles é o "typeof". Ele nos ajuda a descobrir o tipo de algum valor, se é String, Number, etc.
+Nem todos os operadores são símbolos. Um exemplo deles é o "`typeof`". Ele nos ajuda a descobrir o tipo de algum valor, se é `String`, `Number`, etc.
 
 ```javascript
 typeof 3
 ```
 
 ## Operador Ternário
-Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional.
-Ele recebe três valores e serve para verificarmos uma condição.
-<pre>3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
+Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional. Ele recebe três valores e serve para verificarmos uma condição.
+
+```javascript
+3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
+```
+
 Podemos dividir então em três partes:
-<pre>(3 > 1) ? ('É maior') : ('É menor')</pre>
-A primeira parte é uma condição, a qual deve ter um valor true ou false. Nós comparamos se 3 é maior que 1. Veja que é como se perguntássemos "3 é maior que 1?"
-Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado, no caso, a String "É maior".
-Se a resposta for falsa, o terceiro elemento que passamos será retornado, no caso, a String "É menor".
-<pre>3 > 8 ? 'É maior' : 'É menor' // retorna a String "É menor"</pre>
+
+```javascript
+(3 > 1) ? ('É maior') : ('É menor')
+```
+  
+A primeira parte é uma condição, a qual deve ter um valor `true` ou `false`. Nós comparamos se 3 é maior que 1. Veja que é como se perguntássemos "3 é maior que 1?"
+
+Caso a resposta seja verdadeira, o segundo elemento que passamos será retornado, no caso, a String "É maior". Se a resposta for falsa, o terceiro elemento que passamos será retornado, no caso, a String "É menor".
+
+```javascript
+3 > 8 ? 'É maior' : 'É menor' // retorna a String "É menor"
+```
 
 ## Conversão automática de tipos
 No mundo da programação temos o chamado "Conversão de Tipos". Isso porque muitas vezes estamos trabalhando com um valor que é de um tipo, mas precisamos fazer alguma operação com ele como se ele fosse de um outro tipo.
@@ -568,15 +578,15 @@ Estamos subtraindo `1` de uma `String`. O JavaScript automaticamente tenta conve
 "5" + 1
 ```
 
-Aqui ele verá a operação como uma concatenação de Strings. Então o 1 será convertido para String, resultando em "51".
+Aqui ele verá a operação como uma concatenação de Strings. Então o `1` será convertido para String, resultando em `"51"`.
 
 Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.
 
 ## O que são expressões?
-Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de "5 + 3" que produz o valor "8".
-Até mesmo quando simplesmente digitamos 8 estamos gerando o valor 8. Todo fragmento de código que produz um valor é chamado de "expressão".
-Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas.
-Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
+Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de `"5 + 3"` que produz o valor `"8"`.
+Até mesmo quando simplesmente digitamos `8` estamos gerando o valor `8`. Todo fragmento de código que produz um valor é chamado de "expressão".
+
+Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas. Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
 
 # 📜 [JS] Variáveis
 <img src="https://miro.medium.com/max/1152/1*SntGwD7Wfd2v0S7aPybdzg.png" height="177" align="right">
