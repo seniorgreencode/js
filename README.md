@@ -169,6 +169,8 @@ duas ou mais linhas
 ```
 
 # 📜 [JS] O que são dados?
+<a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data__Engineering-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
+
 Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados.
 
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma **variável**.
@@ -179,13 +181,17 @@ A maior parte das linguagens de programação trabalha com variações baseadas 
  - `BOOLEAN` ou booleanos: representado apenas por dois valores, “verdadeiro” e “falso”. Também chamados de operadores lógicos;
  - `TEXT`: sequências ou cadeias de caracteres, utilizados para manipular textos e/ou outros tipos de dados não numéricos ou booleanos, como hashes de criptografia.
 
-O JavaScript, por exemplo, tem como tipos primitivos embutidos na estrutura básica da linguagem: `number`, `string`, `boolean` e `symbol` (de “nome simbólico”, usado entre outras coisas para criar propriedades únicas em objetos). Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de acordo com o espaço de memória que será ocupado pela variável: `Boolean`, `Byte`, `SByte`, `Int16`, `UInt16`, `Int32`, `UInt32`, `Int64`, UInt64, IntPtr, UIntPtr, Char, Double e Single. O C, por sua vez, não tem um tipo próprio de dado booleano; false é representado pelo número 0 e qualquer outro algarismo representa `true`. Outras linguagens podem trabalhar com outras variações.
+O JavaScript, por exemplo, tem como tipos primitivos embutidos na estrutura básica da linguagem: `number`, `string`, `boolean` e `symbol` (de “nome simbólico”, usado entre outras coisas para criar propriedades únicas em objetos). 
 
-Os dados são armazenados no que conhecemos como bits. Cada bit pode ter um valor 0 ou 1, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de sistema binário. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
+Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de acordo com o espaço de memória que será ocupado pela variável: `Boolean`, `Byte`, `SByte`, `Int16`, `UInt16`, `Int32`, `UInt32`, `Int64`, `UInt64`, `IntPtr`, `UIntPtr`, `Char`, `Double` e `Single`. 
 
-Mas se tudo é feito por 0 e 1, como outros valores são formados?
+O C, por sua vez, não tem um tipo próprio de dado booleano; `false` é representado pelo número `0` e qualquer outro algarismo representa `true`. Outras linguagens podem trabalhar com outras variações.
 
-Bom, abaixo temos um exemplo simples.
+Os dados são armazenados no que conhecemos como bits. Cada bit pode ter um valor `0` ou `1`, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de sistema binário. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
+
+Mas se tudo é feito por `0` e `1`, como outros valores são formados?
+
+Bom, abaixo temos um exemplo simples:
 
 <img src="https://user-images.githubusercontent.com/61624336/102372658-2f8bb600-3f9e-11eb-9593-e147e8367efe.png" align="right" height="177">
 
@@ -215,8 +221,6 @@ As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simpl
 
 ## `STDIN` e `STDOUT`
 Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem.
-  
-### JavaScript
 
 Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função gets é implementada internamente para auxiliar a entrada dos dados.
 
@@ -226,8 +230,6 @@ Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</
 let line = gets(); // Retorna a próxima linha de entrada
 console.log(line); // Imprime o dado
 ```
-
-### Java
 
 Em Java existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>BufferedReader</code> para o STDIN e o <code>System.out.println</code> para o STDOUT.
 
@@ -239,8 +241,6 @@ StringTokenizer st = new StringTokenizer(br.readLine()); // Lê a linha de entra
 int a = Integer.parseInt(st.nextToken());
 System.out.println(a); // Imprime o dado
 ```
-
-### Python
 
 Em Python existe várias formas de implementar o STDIN e STDOUT recomendamos utilizar <code>sys.stdin.readline</code> para o STDIN e o <code>print</code> para o STDOUT.
 
@@ -272,7 +272,7 @@ O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais det
 ## `Boolean`
 `Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
-Assim como os bits, eles também só armazenam 2 possíveis valores: true ou false (verdadeiro ou falso).
+Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso).
 
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
@@ -288,13 +288,13 @@ Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é q
 ## `Number`
 O tipo number é usado para armazenar valores numéricos.
   
-Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é Number.
+Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
 
-- Número inteiro (int): 5
-- Número flutuante (float): 5.3157
-- Para números muito grandes, podemos usar a notação científica, adicionando um "e" seguido pelo expoente do número.
-- 2.998e8
-- Isso é o mesmo que 2,998 x 10^8, que é igual a 299.800.000
+- Número inteiro (int): `5`
+- Número flutuante (float): `5.3157`
+- Para números muito grandes, podemos usar a notação científica, adicionando um "`e`" seguido pelo expoente do número.
+- `2.998e8`
+- Isso é o mesmo que `2,998 x 10^8`, que é igual a `299.800.000`
 
 ## Números Especiais
 Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
