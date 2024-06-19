@@ -287,7 +287,7 @@ Há uma diferença bem pequena entre `undefined` e `null`. Na verdade a existên
 Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
 
 ### [JS] `Number`
-O tipo number é usado para armazenar valores numéricos.
+O tipo `number` é usado para armazenar valores numéricos.
   
 Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
 
@@ -302,7 +302,7 @@ Também temos três valores especiais no JavaScript que são considerados do tip
 
 Os dois primeiros são o `Infinity` e `-Infinity`, que indicam valores infinitos positivos e negativos.
 
-O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra "a" pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
+O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra `"a"` pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
 
 ### [JS] `String`
 As `Strings` são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
@@ -463,7 +463,7 @@ O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o val
 ## [JS] Operadores de Igualdade
 <img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
-Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
+Os **operadores de Igualdade** servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
 
 - `==` serve para verificarmos se dois valores são iguais.
 - `!=` serve para verificarmos se dois valores são diferentes.
@@ -492,7 +492,7 @@ Para ter certeza que algo é diferente, incluindo o tipo, temos o operador `!==`
 > **Dica**: `!==` é um operador que é usado para extrema diferença.
   
 ## [JS] Operadores Relacionais
-Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor `true` ou `false`.
+Os **Operadores Relacionais** servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor `true` ou `false`.
 
 - `<=` verifica se um valor é menor ou igual;
 - `>=` verifica se um valor é maior ou igual;
@@ -506,16 +506,14 @@ Além de valores numéricos, podemos também comparar Strings, como:
 ```
 
 ## [JS] Concatenação de Strings
-O Operador `+` também tem outra função além de somar números: ele concatena Strings.
-Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
+O Operador `+` também tem outra função além de somar números: ele concatena Strings. Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 
 ```javascript
 "Olá" + "" + "João";
 "Minha idade é" + 20;
 ```
 
-No exemplo acima nós juntamos uma String com um cumprimento, uma String com um espaço vazio e uma String com um nome.
-Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.
+No exemplo acima nós juntamos uma String com um cumprimento, uma String com um espaço vazio e uma String com um nome. Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.
 
 ## [JS] Operadores Unários
 Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de Operadores Binários.
