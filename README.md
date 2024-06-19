@@ -861,15 +861,28 @@ Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bas
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
 
 ```javascript
+var nome = "Samuel";
 
+if(true) {
+  var nome = "Isaac";
+}
+
+console.log(nome);
+// Output: Isaac
 ```
   
-  ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102960938-dbaf2e80-44c1-11eb-95eb-5e87dee0f451.jpg)
-
 `let` funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
 
 ```javascript
+nome = "Samuel"
 
+if(true) {
+  let nome = "Isaac";
+  nome += " Alves";
+  console.log(nome);
+}
+
+// Output: Isaac Alves
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102961936-6d1fa000-44c4-11eb-82d5-4475c3d79687.jpg)
