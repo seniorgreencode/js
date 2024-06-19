@@ -840,11 +840,19 @@ curso = "PHP";
 
 Incremento e decremento de valores das variáveis:
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
-
 ```javascript
+var myValue = 5;
+myValue = myValue - 1; // myValue -= 1;
 
+var newValue = myValue++;
 ```
+
+E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicamente o nosso código:
+
+- `--myValue` ignora o valor antigo e executa o decremento;
+- `myValue--` chama o antigo e executa o decremento.
+
+> Isso funciona com o incremento `++` também.
 
 A diferença entre eles é algo bastante notório no escopo:
 
