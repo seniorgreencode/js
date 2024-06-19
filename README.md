@@ -885,25 +885,17 @@ if(true) {
 // Output: Isaac Alves
 ```
 
-`const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos!
+`const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos! Variáveis declaradas com `const` são ideais para valores que não devem ser reatribuídos ao longo do tempo, proporcionando maior segurança e previsibilidade no código. No entanto, é importante lembrar que `const` não impede a modificação de objetos ou arrays, apenas a reatribuição do identificador da variável, o que o torna imutável é o valor de uma variável declarada com `const` não poder ser reatribuído. Isso significa que após a inicialização, você não pode alterar o valor armazenado nessa variável. Você deve inicializar uma variável `const` no momento em que ela é declarada. Lembrando, não é possível declarar uma variável `const` sem atribuir um valor a ela imediatamente.
 
 ```javascript
-nome = "Samuel";
+const pi = 3.14159; // Declaração de uma constante chamada 'pi'
 
-if(true) {
-  const nome = "Isaac";
-  nome += " Alves";
-  console.log(nome);
-}
+console.log(pi); // Output: 3.14159
 
-if("Samuel") {
-  let nome = "Janaina";
-  nome += " Alves";
-  console.log(nome);
-}
-
-console.log(nome); 
+// Tentando reatribuir um valor a uma variável 'const' resultará em um erro
+// pi = 3.14; // Isso causará um TypeError: Assignment to constant variable.
 ```
+
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446794-561a4400-4c62-11eb-8be2-7840e633ae6b.jpg)
 
 > Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
