@@ -305,10 +305,14 @@ Os dois primeiros são o `Infinity` e `-Infinity`, que indicam valores infinitos
 O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra `"a"` pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
 
 ### [JS] `String`
-As `Strings` são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples.
+As `Strings` são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples. 
+
+Exemplos:
 
 - `"Olá, sou uma string"`
 - `'Eu também sou'`
+- `'7'`
+- `' '`
 
 As aspas servem para definir onde um texto começa e onde ele termina. Em JavaScript, para manter um padrão de código, é recomendado usar as aspas simples.
 
