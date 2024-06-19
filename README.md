@@ -27,7 +27,7 @@ Todo o código que você verá neste curso foi testado em ambientes locais e onl
 ## [JS] `Hello, World!` - JavaScript
 Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
 
-> <b>Dica:</b> Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.
+> Dica: Caso já tenha familiaridade com editores de texto ou IDE’s mais robustas, sinta-se à vontade para utilizá-los, pois o JavaScript é independente do editor. Somente certifique-se de que o navegador utilizado lhe dará o devido suporte.
 
 Primeiramente, crie um documento HTML, nomeie-o como “index.html”.
 
@@ -144,7 +144,7 @@ Próximo passo, execute o documento `index.html`. Resultado:
 
 > O script funcionou perfeitamente!
 
-Para acessar o console, pressione a tecla <b>F12</b> do seu teclado, você será redirecionado as ferramentas de desenvolvedor do seu navegador, vá até console, lá você poderá fazer alterações ou até programar.
+Para acessar o console, pressione a tecla F12 do seu teclado, você será redirecionado as ferramentas de desenvolvedor do seu navegador, vá até console, lá você poderá fazer alterações ou até programar.
 
 Nesse caso, para exibir resultados ou mensagens no console do navegador utilize o comando `console.log()`, ele possui uma função semelhante ao <code>alert</code>, porém somente exibe no console, enquanto o <code>alert</code> exibe ao usuário.
 
@@ -169,7 +169,7 @@ duas ou mais linhas
 ```
 
 # 📜 [JS] O que são dados?
-Tudo o que existe no mundo dos computadores são <b>dados</b>. Os dados podem ser criados, modificados e apagados.
+Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados.
 
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma **variável**.
 
@@ -181,7 +181,7 @@ A maior parte das linguagens de programação trabalha com variações baseadas 
 
 O JavaScript, por exemplo, tem como tipos primitivos embutidos na estrutura básica da linguagem: `number`, `string`, `boolean` e `symbol` (de “nome simbólico”, usado entre outras coisas para criar propriedades únicas em objetos). Já o C# (C-Sharp) trabalha com uma quantidade maior de tipos primitivos, de acordo com o espaço de memória que será ocupado pela variável: `Boolean`, `Byte`, `SByte`, `Int16`, `UInt16`, `Int32`, `UInt32`, `Int64`, UInt64, IntPtr, UIntPtr, Char, Double e Single. O C, por sua vez, não tem um tipo próprio de dado booleano; false é representado pelo número 0 e qualquer outro algarismo representa `true`. Outras linguagens podem trabalhar com outras variações.
 
-Os dados são armazenados no que conhecemos como <b>bits</b>. Cada bit pode ter um valor 0 ou 1, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de <b>sistema binário</b>. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
+Os dados são armazenados no que conhecemos como bits. Cada bit pode ter um valor 0 ou 1, que podemos imaginar como um interruptor que pode estar ligado ou desligado. Por ter 2 possíveis valores, chamamos isso de sistema binário. Essa sequência de zeros e uns fazem o computador conseguir armazenar e interpretar valores. Esses valores serão usados para algum cálculo. Sim, computadores são grandes e caras calculadoras. Tudo o que fazem são cálculos. Quando você está assistindo um vídeo ou escutando uma música, tudo está armazenado em vários zeros e uns, e para reproduzir isso em forma de imagens e sons, cálculos são feitos.
 
 Mas se tudo é feito por 0 e 1, como outros valores são formados?
 
@@ -207,7 +207,7 @@ Então temos os valores 1, 4 e 8 ligados, certo? 1+4+8 = 13.
 Isso significa que a sequência 00001101 equivale ao valor 13 em binário. É dessa maneira que dados são armazenados e interpretados pelas máquinas.
 
 Mas isso é só uma curiosidade. Com JavaScript e outras linguagens modernas você não precisará se preocupar com o sistema binário.
-As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simples comando, fazem operações mais complexas.</p>
+As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simples comando, fazem operações mais complexas.
 
 > **Curiosidade**: `128+64+32+16+8+4+2+1 = 255`. E se tivermos todos os campos "desligados", teremos o valor 0, o que nos dá um total de 256 possíveis valores. Você já deve ter visto esse número por aí no mundo da informática, não é mesmo? Como os antigos pendrives de 256MB, 512MB e 1024MB que é igual a 1GB.</blockquote>
 
@@ -258,9 +258,9 @@ Como vimos anteriormente, os computadores armazenam e entendem dados na forma bi
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
 
 Com números podemos fazer cálculos, e com textos podemos guardar um texto e fazer uma pesquisa por uma palavra do seu interesse.
-Os tipos mais simples que uma linguagem possui são chamados de <b>Tipos Primitivos</b>.
+Os tipos mais simples que uma linguagem possui são chamados de Tipos Primitivos.
 
-O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com mais detalhes depois. São eles:</p>
+O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais detalhes depois. São eles:
 
 - `Boolean` - possuem apenas dois valores: verdadeiro ou falso;
 - `Undefined` - indica que não foi definido um valor;
@@ -272,12 +272,12 @@ O <b>JavaScript</b> possui 6 tipos primitivos no momento, os quais veremos com m
 ## `Boolean`
 `Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
 
-Assim como os bits, eles também só armazenam 2 possíveis valores: <b>true</b> ou <b>false</b> (verdadeiro ou falso).
+Assim como os bits, eles também só armazenam 2 possíveis valores: true ou false (verdadeiro ou falso).
 
 Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
 ## `Undefined` e `Null`
-Há dois tipos especiais de valores, <b>undefined</b> e <b>null</b>. Eles indicam a ausência de valor.
+Há dois tipos especiais de valores, undefined e null. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é 0. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos undefined ou null.
 
@@ -288,7 +288,7 @@ Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é q
 ## `Number`
 O tipo number é usado para armazenar valores numéricos.
   
-Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas <b>no JavaScript tudo é Number</b>.
+Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é Number.
 
 - Número inteiro (int): 5
 - Número flutuante (float): 5.3157
@@ -351,7 +351,7 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102549993-d6a24780-409b-11eb-9814-fffb47e86f0f.jpg)
 
-<p>Outras seis sequências escapes são válidas em JavaScript:</p>
+Outras seis sequências escapes são válidas em JavaScript:
 <table>
   <tr>
     <td>\b</td>
@@ -380,7 +380,7 @@ O caractere de escape de barra invertida “\” torna caracteres especiais em c
 </table>
 
 ## Symbols
-O <b>Symbol</b> é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
+O Symbol é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
 
 ## Valores verdadeiros e falsos
 Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
@@ -420,17 +420,17 @@ O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamen
 ### Operador `&&`
 Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
   
-Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em <b>true</b>.
+Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em true.
 
-E se tivermos duas mentiras, o resultado só pode ser <b>falso</b>.
+E se tivermos duas mentiras, o resultado só pode ser falso.
 
-Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em <b>false</b>.
+Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em false.
 
-Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja <b>falsa</b>.
+Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja falsa.
 
-Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa torna a frase inteira <b>falsa</b>.
+Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa torna a frase inteira falsa.
 
-<blockquote><b>👍 Dica:</b> Resumindo, o resultado do operador <b>&&</b> só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
+<blockquote>👍 Dica: Resumindo, o resultado do operador && só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.</blockquote>
 
 ### Operador `||`
 Vamos usar o mesmo copo azul para explicar o operador OU. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
@@ -439,7 +439,7 @@ Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <
 
 Agora aqui é diferente do `&&`. Em uma comparação `||`, se houver uma verdade, o resultado será verdadeiro.
 
-Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será <b>true</b>.
+Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será true.
 
 > **Dica**: Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.
 
@@ -462,8 +462,8 @@ O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o val
 
 Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
 
-- `==` serve para verificarmos se dois valores são <b>iguais</b>.
-- `!=` serve para verificarmos se dois valores são <b>diferentes</b>.
+- `==` serve para verificarmos se dois valores são iguais.
+- `!=` serve para verificarmos se dois valores são diferentes.
   
 > **Obs**: O operador `=` é somente usado para atribuir um valor e não para verificar os dois valores como os operadores `==` ou `!=`. Ele é muito usado em 
 **variáveis**, que veremos mais pra frente!
@@ -515,9 +515,9 @@ No exemplo acima nós juntamos uma String com um cumprimento, uma String com um 
 Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.
 
 ## Operadores Unários
-Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de <b>Operadores Binários</b>.
+Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de Operadores Binários.
 
-Também temos os <b>Operadores Unários</b>, que são aqueles que só recebem um valor para funcionar.
+Também temos os Operadores Unários, que são aqueles que só recebem um valor para funcionar.
 
 O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
 
@@ -538,7 +538,7 @@ typeof 3
 ```
 
 ## Operador Ternário
-Vimos os operadores binários e unários. Vamos ver agora o <b>Operador Ternário Condicional</b>.
+Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional.
 Ele recebe três valores e serve para verificarmos uma condição.
 <pre>3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"</pre>
 Podemos dividir então em três partes:
@@ -607,15 +607,23 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 
 Declarando e nomeando variáveis:
 
+
+As variáveis podem ser classificadas em duas categorias:
+
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
+
+- **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento.
+- **Variáveis globais** são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.
+
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696091-8ac1e080-420a-11eb-9553-477915979001.jpg)
 
-<blockquote><b>Obs:</b> O JS é <em>Case Sensitive</em>, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "$" e o "_", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.</blockquote>
+<blockquote>Obs: O JS é <em>Case Sensitive</em>, ou seja, as letras maiúsculas e minúsculas fazem diferença na declaração de variáveis. Ademais, as variáveis no JS são declaradas no topo do código para baixo, por isso o valor é definido corretamente. Além disso, as variáveis não podem conter acentos ou espaços, para caracteres especiais somento o "$" e o "_", mas não são muito recomendados. Ademais, números são permitidos desde que sejam precedidos de uma ou mais letras.</blockquote>
 
-> <b>👍 Dica:</b> É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
+> 👍 Dica: É opcional, mas se possível crie variáveis em inglês para deixar o seu código mais uniforme, facilitará muito mais no entendimento.
 
 **Exemplo**:
-> <b>👍 Dica:</b> O nome da variável <b>Idade</b> substitua para <b>Old</b> ou <b>yearOld</b>.
+> 👍 Dica: O nome da variável Idade substitua para Old ou yearOld.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102696882-6b2db680-4210-11eb-80b8-7dc0048c8f15.jpg)
 
@@ -623,7 +631,7 @@ Declarando e nomeando variáveis:
 
 ## Declarando variáveis com operadores de atribuição
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102698306-28bda700-421b-11eb-9430-c432e875cf0b.jpg)
-<blockquote><b>Obs:</b> Também funciona com a concatenação.</blockquote>
+<blockquote>Obs: Também funciona com a concatenação.</blockquote>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102699060-a7691300-4220-11eb-8543-6e7593c01795.jpg)
 
@@ -645,19 +653,7 @@ curso = "PHP";
 ## Incremento e decremento de valores
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102937044-0bd9db80-4488-11eb-9861-500df9186e5e.jpg)
 
-## Variáveis locais e globais
-<p>As variáveis podem ser classificadas em duas categorias:</p>
-<ul>
-  <li><b>Variáveis locais</b> são as variáveis que estão dentro do escopo de um programa / função / procedimento.</li>
-  <li><b>Variáveis globais</b> são as variáveis que estão no escopo para o tempo de execução do programa. Elas podem ser recuperadas por qualquer parte do programa.</li>
-</ul>
-
-## `let` vs `var` vs `const`
-<div align="center"><img src="https://miro.medium.com/max/320/0*2Iz9vcaOtPNivfen.png" height="177"/></div><br />
-
 A diferença entre eles é algo bastante notório no escopo:
-
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
 
@@ -671,21 +667,19 @@ A diferença entre eles é algo bastante notório no escopo:
         
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102961936-6d1fa000-44c4-11eb-82d5-4475c3d79687.jpg)
 
-`const</b> não deixa você alterar o dado atribuído. Só trabalha com valores fixos!
+`const` não deixa você alterar o dado atribuído. Só trabalha com valores fixos!
 
   ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446794-561a4400-4c62-11eb-8be2-7840e633ae6b.jpg)
 
-</li>
-</ul>
-<blockquote><b>Obs:</b> const e let só funcionam dentro do escopo do bloco <b>{ }</b>.</blockquote>
+> Obs: const e let só funcionam dentro do escopo do bloco { }.
 
 ## Alguns tipos de variáveis globais
 Existe mais de um tipo de variável global, como:
-<ul>
-  <li><p>Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.</p><img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/></li>
-  <li><p>variável local e global, muito recomendada para ambos os escopos!</p><img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/></li>
-  <li><p>Esse tipo de variável está dizendo explicitamente que a variável é global na janela</p><img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/></li>
-</ul>
+
+  Não é muito recomendado, pois pode gerar conflitos com outras variáveis dependendo do escopo.<img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/>
+  variável local e global, muito recomendada para ambos os escopos!<img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/>
+  Esse tipo de variável está dizendo explicitamente que a variável é global na janela<img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/>
+
 
 ### Outra forma de chamar uma variável
 Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
@@ -694,12 +688,12 @@ Usando as crases e o cifrão com as chaves, esse placeholder concatena a frase c
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
 
 ## Variáveis Input no JS
-<p>O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.</p>
+O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028368-603b9480-4536-11eb-99dc-0219aeead300.jpg)
 
-<p>O segundo passo é chamar o script no documento HTML, somente assim exibe a janela no navegador!</p>
+O segundo passo é chamar o script no documento HTML, somente assim exibe a janela no navegador!
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028814-43539100-4537-11eb-96ec-beaf6610f93b.jpg)
 
@@ -739,7 +733,7 @@ Variáveis declaradas dentro de um local cercado por `{ }`.
 ## [JS] Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177" align="right"/>
 
-As <b>condições</b> são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
+As condições são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
 
 O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
 Um exemplo é o Operador Ternário Condicional que vimos anteriormente.
@@ -778,7 +772,7 @@ Após a tomada de decisões, outra parte básica no aprendizado da programação
 
 Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100. Daria muito trabalho digitar tudo.
   
-E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os <b>laços de repetição</b>.</p>
+E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
 ### `For` loop
 Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
@@ -810,20 +804,20 @@ for (declaração 1; declaração 2; declaração 3) {
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
 ### `For in`
-<p>Este loop serve para percorrer pelas propriedades de um objeto.</p>
-<pre><b>for</b> (variável <b>in</b> interável) {
+Este loop serve para percorrer pelas propriedades de um objeto.
+<pre>for (variável in interável) {
   // bloco de código a ser executado
 }</pre>
 
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
-<blockquote><b>Output:</b> John Doe 25</blockquote>
+<blockquote>Output: John Doe 25</blockquote>
 
 ### `For of`
-<p>Este loop é específico para <b>iterar</b> entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.</p>
+Este loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
 **Sintaxe**:
-<pre><b>for</b> (variável <b>of</b> interável) {
+<pre>for (variável of interável) {
   // bloco de código a ser executado 
 }</pre>
 
@@ -894,31 +888,31 @@ Observe que o índice começa no 0. Então o primeiro item está na posição 0,
 Alterando e atribuindo valores pelo índice: Com o índice, você pode:
 
 <ol type="a">
-  <li>Alterar um valor existente;</li>
-  <li>Inserir um novo valor em uma posição específica.</li>
+  Alterar um valor existente;
+  Inserir um novo valor em uma posição específica.
 </ol>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103466456-2764a200-4d24-11eb-8021-fd5f974265c0.jpg)
 
-<p><b>Null</b>: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.</p>
+Null: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
 
-<p><b>Undefined</b>: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.</p>
+Undefined: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
 
-<p><b>Undefined !== Null</b>: <code>undefined</code> e <code>null</code> são diferentes.</p>
+Undefined !== Null: <code>undefined</code> e <code>null</code> são diferentes.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
 
 Resumidamente, isto ocorre pois null ainda é um valor e undefined é quando o JavaScript não sabe qual o tipo de dado.
 
-<b>Objeto</b>: é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável. Os dados do objeto são acessados pelas propriedades desses objetos.
+Objeto: é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável. Os dados do objeto são acessados pelas propriedades desses objetos.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467659-030ec280-4d30-11eb-9ab5-9fe4ab065691.jpg)
 
-<b>Criação</b>: Um objeto vazio é bem simples de criar.
+Criação: Um objeto vazio é bem simples de criar.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467820-c9d75200-4d31-11eb-9676-04e0a7b7f2f9.jpg)
 
@@ -926,13 +920,13 @@ No caso de um objeto com propriedades (variáveis), fazemos assim:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469613-dd8cb380-4d45-11eb-833c-7eee28591f69.jpg)
 
-<p>Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:</p>
+Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469652-47a55880-4d46-11eb-973f-07edec2c5571.jpg)
 
-<p>Note que se você usar a segunda opção, precisa ter uma String dentro dos <code>[ ]</code>.</p>
+Note que se você usar a segunda opção, precisa ter uma String dentro dos <code>[ ]</code>.
 
-<p>A alteração de dados funciona da mesma forma.</p>
+A alteração de dados funciona da mesma forma.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
 
@@ -971,8 +965,8 @@ Tabela de métodos de Arrays
 
 <table>
   <tr>
-    <td><b>Método</b></td>
-    <td><b>Função do método</b></td>
+    <td>Método</td>
+    <td>Função do método</td>
   </tr>
   <tr>
     <td><code>push("value")</code></td>
@@ -1048,8 +1042,8 @@ A resposta para essa pergunta é com uma série de métodos que alteram os valor
 Tabela de métodos para os valores em JS:
 <table>
     <tr>
-      <td><b>Método</b></td>
-      <td><b>Função do método</b></td>
+      <td>Método</td>
+      <td>Função do método</td>
   </tr>
   <tr>
   <td>replace("", "")</td>
@@ -1084,8 +1078,8 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
 ## Tabela de métodos que definem o tempo no JS:
 <table>
   <tr>
-    <td><b>Método</b></td>
-    <td><b>Função do método</b></td>
+    <td>Método</td>
+    <td>Função do método</td>
   </tr>
     <tr>
     <td>getDate()</td>
@@ -1157,7 +1151,7 @@ O <code>return</code> devolve um valor para a função.
 **Exemplo 4**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
 
-<blockquote><b>Curiosidade:</b> Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
+<blockquote>Curiosidade: Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
 
 **Exemplo 5**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
@@ -1171,7 +1165,7 @@ O <code>return</code> devolve um valor para a função.
 ## Arrow Function
 <img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="177"/>
 
-Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o <b>arrow function</b> a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
+Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o arrow function a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
 
 **Sintaxe (Function)**:
 ```javascript
@@ -1237,7 +1231,7 @@ log('test');
 # 📜 [JS] Procedural/Imperativo JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
 
-Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a <b>procedural</b>. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
+Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
 **Exemplo 1**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
@@ -1254,21 +1248,21 @@ tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou fi
 Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
 
 <ol>
-  <li><code><b>window</b></code>: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.</li>
-  <li><code><b>location</b></code>: Contém as propriedades da URL atual.</li>
-  <li><code><b>history</b></code>: Contém as propriedades das URLs visitadas anteriormente.</li>
-  <li><code><b>document</b></code>: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.</li>
+  <code>window</code>: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
+  <code>location</code>: Contém as propriedades da URL atual.
+  <code>history</code>: Contém as propriedades das URLs visitadas anteriormente.
+  <code>document</code>: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
 </ol>
 
 <img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
 
-Cada objeto existente na manipulação do JavaScript possuem <b>propriedades</b> (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
+Cada objeto existente na manipulação do JavaScript possuem propriedades (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
 
-A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:</p>
+A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:
 
-<pre>nomeObjeto<b>.</b>propriedade</pre>
+<pre>nomeObjeto.propriedade</pre>
 
-Além das propriedades, os objetos podem conter <b>métodos</b> (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.
+Além das propriedades, os objetos podem conter métodos (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.
   
 <pre>nomeObjeto.método(argumento/ parâmetro)</pre>
 
@@ -1278,9 +1272,9 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 ### 1° Solução: Embutido na página HTML
 <ol>
-  <li>Como evento de um elemento (IMG, A, INPUT etc);</li>
-  <li>Como elemento &lt;script&gt; dentro de &lt;body&gt;;</li>
-  <li>Como função, dentro de &lt;head&gt;</li>
+  Como evento de um elemento (IMG, A, INPUT etc);
+  Como elemento &lt;script&gt; dentro de &lt;body&gt;;
+  Como função, dentro de &lt;head&gt;
 </ol>
 
 ### 2° Solução: Num arquivo a ser importado
@@ -1288,7 +1282,7 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 ## Prototype
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="177" align="right"/>
 
-Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado <b>prototype</b>. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto <b>constructor</b>. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
+Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado prototype. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
 
 **Exemplo 1**:
 ```javascript
@@ -1305,7 +1299,7 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 # 📜 [JS] Eventos
 <img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="177"/>
 
-São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A <b>associação</b> é realizada em HTML nos elementos que suportam eventos do tipo Event através dos <b>atributos onEvent</b>.
+São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A associação é realizada em HTML nos elementos que suportam eventos do tipo Event através dos atributos onEvent.
 
 **Exemplo 1**: Executando um evento
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103590963-92051180-4ecd-11eb-8db0-e7a8cdce8a9f.jpg)
@@ -1319,12 +1313,12 @@ São fatos que ocorrem durante a execução do sistema, a partir dos quais o pro
 # 📜 ECMAScript (ES)
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="177" align="right"/>
 
-Outro nome muito conhecido entre os desenvolvedores é o <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
+Outro nome muito conhecido entre os desenvolvedores é o ECMAScript (ES), derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript.
 
 Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos.
 
-Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e TypeScript.</p>
-<blockquote>👍 <b>Dica:</b> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
+Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e TypeScript.
+<blockquote>👍 Dica: O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.</blockquote>
 
 ## ECMAScript Versions
 <img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg" align="right" height="177">
@@ -1598,7 +1592,7 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
 ## Destructuring
-Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em <b>nested objects</b> (objetos aninhados).
+Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
 
 **Exemplo 1**: Destructuring Assignment
 Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
@@ -1654,7 +1648,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
 
 ## Propriedades do Symbols
-<p>Você pode modificar o symbols com as suas propriedades.</p>
+Você pode modificar o symbols com as suas propriedades.
 
 ### Exemplo 1: Well known Symbols
 <pre>Symbol.</pre>
@@ -1672,7 +1666,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
 # 📜 [ES6] Aprenda sobre Generators e onde utilizá-los
-<p>Generators são funções com pausa e elas despausam valores através da interface de iteração.</p>
+Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
 ### Exemplo 1: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
@@ -1725,7 +1719,7 @@ No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremo
 # 🔃 AJAX (Asynchronous JavaScript And XML)
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
 
-Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.</b>
+Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada AJAX (Asynchronous JavaScript And XML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
 
 ---
 
