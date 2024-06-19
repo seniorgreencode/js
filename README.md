@@ -750,9 +750,23 @@ console.log(globalVar); // Output: "I am global"
 
 Agora, vamos ver alguns princípios de noções e boas práticas de código para essas variáveis:
 
-A variável global não é muito recomendada, pois pode gerar conflitos com outras variáveis dependendo do escopo.<img src="https://user-images.githubusercontent.com/61624336/103024474-ad1b6d00-452e-11eb-9110-9ae03ebaada0.jpg"/>
-  variável local e global, muito recomendada para ambos os escopos!<img src="https://user-images.githubusercontent.com/61624336/103024858-68dc9c80-452f-11eb-823b-29b790892a67.jpg"/>
-  Esse tipo de variável está dizendo explicitamente que a variável é global na janela<img src="https://user-images.githubusercontent.com/61624336/103025149-f4eec400-452f-11eb-8e4f-cc9df377fe09.jpg"/>
+A variável global não é muito recomendada, pois pode gerar conflitos com outras variáveis dependendo do escopo.
+
+```javascript
+a = 5;
+```
+
+variável local e global, muito recomendada para ambos os escopos!
+
+```javascript
+var a = 5;
+```
+
+Esse tipo de variável está dizendo explicitamente que a variável é global na janela
+
+```javascript
+window = 5;
+```
 
 Exemplo de execução de variáveis:
 
