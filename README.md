@@ -444,7 +444,7 @@ Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não impo
 
 > **Dica**: Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.
 
-## Operadores Aritméticos
+## [JS] Operadores Aritméticos
 Os Operadores Aritméticos são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
 
 - `+` (adição)
@@ -458,7 +458,7 @@ Também temos os operadores de incremento `++` e decremento `--`. O operador `++
   
 O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o valor `3`, seu valor se tornará `2`. Veremos melhor sobre esses operadores mais para frente.
 
-## Operadores de Igualdade
+## [JS] Operadores de Igualdade
 <img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
 Os operadores de Igualdade servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
@@ -489,7 +489,7 @@ Para ter certeza que algo é diferente, incluindo o tipo, temos o operador `!==`
 
 > **Dica**: `!==` é um operador que é usado para extrema diferença.
   
-## Operadores Relacionais
+## [JS] Operadores Relacionais
 Os Operadores Relacionais servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor `true` ou `false`.
 
 - `<=` verifica se um valor é menor ou igual;
@@ -503,7 +503,7 @@ Além de valores numéricos, podemos também comparar Strings, como:
 "a" < "z".
 ```
 
-## Concatenação de Strings
+## [JS] Concatenação de Strings
 O Operador `+` também tem outra função além de somar números: ele concatena Strings.
 Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 
@@ -515,7 +515,7 @@ Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 No exemplo acima nós juntamos uma String com um cumprimento, uma String com um espaço vazio e uma String com um nome.
 Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.
 
-## Operadores Unários
+## [JS] Operadores Unários
 Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de Operadores Binários.
 
 Também temos os Operadores Unários, que são aqueles que só recebem um valor para funcionar.
@@ -538,7 +538,7 @@ Nem todos os operadores são símbolos. Um exemplo deles é o "`typeof`". Ele no
 typeof 3
 ```
 
-## Operador Ternário
+## [JS] Operador Ternário
 Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional. Ele recebe três valores e serve para verificarmos uma condição.
 
 ```javascript
