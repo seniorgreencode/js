@@ -621,6 +621,11 @@ Em JavaScript, os nomes das variáveis ​​podem consistir em qualquer sequên
 
 O importante também é que o interpretador JavaScript faça distinção entre letras minúsculas e maiúsculas, também em nomes de variáveis, portanto nomes como `teste`, `Teste` ou `TESTE` serão tratados como diferentes.
 
+<img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="77" align="right"/>
+
+Os escopos são definidos pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
+
+
 <table class="custom-table">
 <tbody>
    <tr>
@@ -915,19 +920,6 @@ Exemplo:
 const nome = prompt('Digite o seu nome: ');
 console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028814-43539100-4537-11eb-96ec-beaf6610f93b.jpg)
-
-Executando o documento percebe-se que há um textbox que dá pra inserir o valor.
-
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103035031-160ddf80-4545-11eb-8ce5-2470fe943edc.jpg)
-
-> Logo, a variável receberá o seu valor.
-
-## Escopo do código no JavaScript
-<img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="177" align="right"/>
-
-É definido pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
 
 ### Escopo Global
 Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
