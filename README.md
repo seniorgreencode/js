@@ -754,7 +754,9 @@ console.log(globalVar); // Output: "I am global"
 
 <img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
 
-Outro ponto, são os escopos são definidos pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
+Outro ponto, são os escopos que são definidos pela região ao qual variáveis e outros dados são visíveis dentro do código, funcionam como se fosse uma hierarquia em camadas. Em ambos os casos e os tipos de escopos, podemos utilizar as variáveis do JS: `var`, `let` e `const`.
+
+Existem três tipos de escopos:
 
 **Escopo Global** é quando uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
 
