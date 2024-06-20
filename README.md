@@ -781,17 +781,21 @@ function testarValor () {
   if(valor > 15){
     return 'O valor é maior do que 15';
   }
-  elseif(valor < 15){
+  else if(valor < 15){
     return 'O valor é menor do que 15';
   }
-  elseif(valor >= 15 && valor <= 15){
+  else if(valor >= 15 && valor <= 15){
     return 'O valor está na faixa de 15';
   }
   else{
     return 'Não é um número';
   }
 }
+
+testarValor();
 ```
+
+> Obs: Não utilize o comando `return` para chamar a função, isso retornará o erro `Uncaught SyntaxError: Illegal return statement`. Isso sinaliza que o `return` não é necessário para retornar uma função simples.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
 
