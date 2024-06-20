@@ -621,11 +621,6 @@ Em JavaScript, os nomes das variáveis ​​podem consistir em qualquer sequên
 
 O importante também é que o interpretador JavaScript faça distinção entre letras minúsculas e maiúsculas, também em nomes de variáveis, portanto nomes como `teste`, `Teste` ou `TESTE` serão tratados como diferentes.
 
-<img src="https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png" height="77" align="right"/>
-
-Os escopos são definidos pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
-
-
 <table class="custom-table">
 <tbody>
    <tr>
@@ -756,6 +751,27 @@ function showGlobalVar() {
 showGlobalVar();
 console.log(globalVar); // Output: "I am global"
 ```
+
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
+
+Outro ponto, são os escopos são definidos pela região ao qual variáveis e outros dados são visíveis (código). Existem três tipos de escopos:
+
+**Escopo Global** é quando uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
+
+Exemplo:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
+
+**Escopo de Função** é quando Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
+
+**Escopo Local** são variáveis declaradas dentro de um local cercado por `{ }`.
+
+Exemplo:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
 Agora, vamos ver alguns princípios de noções e boas práticas de código para essas variáveis:
 
@@ -920,26 +936,6 @@ Exemplo:
 const nome = prompt('Digite o seu nome: ');
 console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
-
-### Escopo Global
-Uma variável declarada fora de uma função, torna-se global e todos os scripts e funções em uma página da Web podem acessá-la.
-
-**Exemplo**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
-
-<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
-
-### Escopo de Função
-Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
-
-**Exemplo**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
-
-### Escopo Local
-Variáveis declaradas dentro de um local cercado por `{ }`.
-
-**Exemplo**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
 # 📜 [JS] Estruturas de programação
 
