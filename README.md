@@ -652,7 +652,7 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 	  </tr>
       <tr>
 	  <td><code>double</code></td>
-	  <td><code>else</code></td>
+	  <td>`else`</td>
 	  <td><code>enum</code></td>
 	  <td><code>eval</code></td>
 	  </tr>
@@ -671,7 +671,7 @@ O importante também é que o interpretador JavaScript faça distinção entre l
       <tr>
 	  <td><code>goto</code></td>
 	  <td><code>implements</code></td>
-	  <td><code>if</code></td>
+	  <td>`if`</td>
 	  <td><code>import</code></td>
 	  </tr>
       <tr>
@@ -1005,19 +1005,20 @@ Aqui estão as principais estruturas de programação em JavaScript (e na maiori
 ## [JS] Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177" align="right"/>
 
-As condições são expressões que retornam um valor true ou false. Podem ser usadas como previsões para algum valor ou evento acionado.
+As **condições** são expressões que retornam um valor `true` ou `false`. Podem ser usadas como previsões para algum valor ou evento acionado.
 
-O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
-Um exemplo é o Operador Ternário Condicional que vimos anteriormente.
+O valor `true` ou `false` é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
+Um exemplo é o <a href="">Operador Ternário Condicional</a> que vimos anteriormente.
 
 Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103034640-18bc0500-4544-11eb-8c4d-f3914652f0d4.jpg)
 
-<blockquote>retorna a String "É menor"</blockquote>
+```javascript
+3 > 8 ? 'É maior' : 'É menor' // Output: 'É menor'
+```
 
-Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando <code>if</code>. 
+Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando `if`. 
   
-Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>else</code>. Se precisar de mais decisões utilize o <code>else if</code> que é mais indicado do que somente <code>if</code> e o <code>else</code> no escopo, pois eles podem gerar conflito no código!
+Caso precise de uma segunda decisão oposta da primeira (if) utilize o `else`. Se precisar de mais decisões utilize o `else if` que é mais indicado do que somente `if` e o `else` no escopo, pois eles podem gerar conflito no código!
 
 Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
