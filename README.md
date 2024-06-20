@@ -903,17 +903,18 @@ Há uma outra forma de chamar uma variável, com **template string**, usando as 
 Exemplo:
 
 ```javascript
-const nome = Jennifer;
+const nome = 'Jennifer';
 console.log(`O nome dela é ${nome}`);
 ```
 
-## Variáveis Input no JS
-O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
+Tem uma forma de fazermos variáveis input também, o método `prompt()` exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
 
-**Exemplo 1**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028368-603b9480-4536-11eb-99dc-0219aeead300.jpg)
+Exemplo:
 
-O segundo passo é chamar o script no documento HTML, somente assim exibe a janela no navegador!
+```javascript
+const nome = prompt('Digite o seu nome: ');
+console.log(`Parabéns! Você é um campeão ${nome}!`);
+```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103028814-43539100-4537-11eb-96ec-beaf6610f93b.jpg)
 
