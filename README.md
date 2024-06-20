@@ -1430,7 +1430,8 @@ Tabela de métodos para os valores em JS:
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
-Sintaxe:
+Sintaxe: No código abaixo, iniciamos uma variável `data` criando uma instância JavaScript de `Date` que representa um único momento no tempo. Objetos `Date` são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
+
 ```javascript
 variável data = new Date();
 console.log(data.getTime());
