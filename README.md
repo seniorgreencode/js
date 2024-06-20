@@ -797,17 +797,27 @@ testarValor();
 
 > Obs: Não utilize o comando `return` para chamar a função, isso retornará o erro `Uncaught SyntaxError: Illegal return statement`. Isso sinaliza que o `return` não é necessário para retornar uma função simples.
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
-
 **Escopo Local** são variáveis declaradas dentro de um local cercado por `{ }`.
 
 Exemplo:
 
 ```javascript
+function exemploFuncao() {
+    if (true) {
+        let localLet = "Eu sou uma variável local com let";
+        const localConst = "Eu sou uma variável local com const";
 
+        console.log(localLet); // Saída: Eu sou uma variável local com let
+        console.log(localConst); // Saída: Eu sou uma variável local com const
+    }
+
+    // Tentando acessar as variáveis fora do bloco resultará em erro
+    // console.log(localLet); // Erro: localLet is not defined
+    // console.log(localConst); // Erro: localConst is not defined
+}
+
+exemploFuncao();
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
 Agora, vamos ver alguns princípios de noções e boas práticas de código para essas variáveis:
 
