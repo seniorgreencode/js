@@ -990,13 +990,15 @@ console.log(`Parabéns! Você é um campeão ${nome}!`);
 
 **Estruturas de programação** são os blocos básicos que compõem um programa de computador. Elas definem a forma como o código é organizado, como as instruções são executadas e como os dados são manipulados. As estruturas de programação permitem controlar o fluxo de execução e a lógica do programa. 
 
+Note que o diagrama de fluxo ao lado representa a seguinte condição: se o número `A` for maior que o número `B`, o algoritmo irá entender que a condição é `verdadeira` e deve exibir a mensagem “`o número A é maior que o número B`”, se esta condição não for atendida, ou seja, se ela for `falsa`, o algoritmo não irá tomar nenhuma ação, pois ela não atende a condição.
+
 Existem algumas categorias para as estruturas de programação, elas podem ser:
 
-- Estruturas Iterativas: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
-- Estruturas Condicionais: Usadas para tomar decisões no código com base em condições.
-- Estruturas Sequenciais: Executam instruções em ordem linear, uma após a outra.
-- Estruturas de Funções/Sub-rotinas: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
-- Estruturas de Tratamento de Exceções: Usadas para lidar com erros de maneira controlada.
+- <a>Estruturas Iterativas</a>: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
+- <a>Estruturas Condicionais</a>: Usadas para tomar decisões no código com base em condições.
+- <a>Estruturas Sequenciais</a>: Executam instruções em ordem linear, uma após a outra.
+- <a>Estruturas de Funções/Sub-rotinas</a>: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
+- <a>Estruturas de Tratamento de Exceções</a>: Usadas para lidar com erros de maneira controlada.
 
 Aqui estão as principais estruturas de programação em JavaScript (e na maioria das linguagens de programação):
 
