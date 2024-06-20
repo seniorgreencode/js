@@ -422,15 +422,11 @@ O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamen
 
 Exemplo: `Copo azul`
 
-Operador `&&`:
+Operador `&&` (AND):
 
-Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto?
-  
-Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
+Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
 
-E se tivermos duas mentiras, o resultado só pode ser falso.
-
-Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em false.
+E se tivermos duas mentiras, o resultado só pode ser falso. Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em `false`.
 
 Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja falsa.
 
@@ -438,7 +434,7 @@ Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa t
 
 > Dica: Resumindo, o resultado do operador `&&` só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.
 
-Operador `||`:
+Operador `||` (OU):
 
 Vamos usar o mesmo copo azul para explicar o operador **OU**. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
 
