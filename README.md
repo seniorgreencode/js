@@ -918,14 +918,14 @@ var newValue = myValue++;
 
 E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicamente o nosso código:
 
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
+
 - `--myValue` ignora o valor antigo e executa o decremento;
 - `myValue--` chama o antigo e executa o decremento.
 
 > Isso funciona com o incremento `++` também.
 
 Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bastante notório no escopo e na execução do código:
-
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
 
@@ -973,7 +973,7 @@ Exemplo:
 
 ```javascript
 const nome = 'Jennifer';
-console.log(`O nome dela é ${nome}`);
+console.log(`O nome dela é ${nome}`); // Output: 'O nome dela é Jennifer'
 ```
 
 Tem uma forma de fazermos variáveis input também, o método `prompt()` exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
@@ -986,6 +986,19 @@ console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
 
 # 📜 [JS] Estruturas de programação
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/cbe79d06-9676-4415-bc64-38a52e360d1b" align="right" height="177">
+
+**Estruturas de programação** são os blocos básicos que compõem um programa de computador. Elas definem a forma como o código é organizado, como as instruções são executadas e como os dados são manipulados. As estruturas de programação permitem controlar o fluxo de execução e a lógica do programa. 
+
+Existem algumas categorias para as estruturas de programação, elas podem ser:
+
+- Estruturas Iterativas: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
+- Estruturas Condicionais: Usadas para tomar decisões no código com base em condições.
+- Estruturas Sequenciais: Executam instruções em ordem linear, uma após a outra.
+- Estruturas de Funções/Sub-rotinas: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
+- Estruturas de Tratamento de Exceções: Usadas para lidar com erros de maneira controlada.
+
+Aqui estão as principais estruturas de programação em JavaScript (e na maioria das linguagens de programação):
 
 ## [JS] Estrutura condicional
 <img src="https://p5.ssl.qhimg.com/t019058f235d658586e.jpg" height="177" align="right"/>
@@ -1031,8 +1044,7 @@ Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100
   
 E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
-### `For` loop
-Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
+O `for` loop executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
 1. Normalmente é a criação de uma variável de controle.
 
