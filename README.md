@@ -1007,10 +1007,10 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103038271-cfbc7e80-454c-11eb-9d5a-bd6a4bf9af67.jpg)
 
-**Exemplo 3**:
+Exemplo 3:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
 
 Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
@@ -1052,12 +1052,12 @@ Exemplo:
 
 > **Utilidade**: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
 
 > **Utilidade**: Podemos ler ou modificar todos os itens de um vetor.
 
-**Exemplo 3**:
+Exemplo 3:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
 ### `For in`
@@ -1081,7 +1081,7 @@ Sintaxe:
 Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060468-f39cb600-4586-11eb-8827-fb3508208e56.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060597-758cdf00-4587-11eb-87e4-28aacbe5468a.jpg)
 
 ### `While` loop
@@ -1130,7 +1130,7 @@ Atribuindo valores: Você pode criar um vetor com seus valores separados por ví
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 Você pode adicionar valores de qualquer tipo no vetor.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465854-2df01b00-4d1e-11eb-9699-48ca48bba14f.jpg)
@@ -1314,7 +1314,7 @@ Tabela de métodos para os valores em JS:
 </table>
 
 # 📜 [JS] Data e horário
-<img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="177" align="right"/>
+<img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
@@ -1329,7 +1329,8 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103485348-66eac700-4dd4-11eb-86a3-f9999105e40f.jpg)
 
-## Tabela de métodos que definem o tempo no JS:
+Tabela de métodos que definem o tempo no JS:
+
 <table>
   <tr>
     <td>Método</code></td>
@@ -1381,23 +1382,23 @@ Exemplo:
 
 Também funcionam com arrays, dessa forma `[{ }]`:
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 [JS] Funções
 <img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
 
-São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
+As **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
 
 Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
 
-**Exemplo 2**:
+Exemplo 2:
 ![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
 
-**Exemplo 3**:
+Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
 O <code>return</code> devolve um valor para a função.
@@ -1468,10 +1469,10 @@ log('test');
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
 
-**Exemplo 2**: com parâmetros (return implícito)
+Exemplo 2: com parâmetros (return implícito)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
 
-**Exemplo 3**: retornando ao valor por padrão
+Exemplo 3: retornando ao valor por padrão
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493854-89033a00-4e12-11eb-9142-16e75a3a45f3.jpg)
 
 **Exemplo 4**:
@@ -1587,10 +1588,10 @@ Exemplo:
 ![12](https://user-images.githubusercontent.com/61624336/107806090-19ec0000-6d45-11eb-8b81-ef25ee970c74.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107806363-85ce6880-6d45-11eb-9a3f-2b8c3d7b2022.jpg)
 
-**Exemplo 2**: Validação de Tipo (com operador ternário)
+Exemplo 2: Validação de Tipo (com operador ternário)
 ![12](https://user-images.githubusercontent.com/61624336/107807013-55d39500-6d46-11eb-8d3d-3a9af3f8f521.jpg)
 
-**Exemplo 3**: Inserindo o valor no parâmetro da função
+Exemplo 3: Inserindo o valor no parâmetro da função
 ![12](https://user-images.githubusercontent.com/61624336/107807785-6cc6b700-6d47-11eb-987e-d45d04ad392f.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107808428-553bfe00-6d48-11eb-805d-986b36f5f2a1.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107808122-da72e300-6d47-11eb-9998-fe7f41d73d9a.jpg)
@@ -1615,10 +1616,10 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 Exemplo:
 ![12](https://user-images.githubusercontent.com/61624336/107830786-592d4780-6d6b-11eb-8c24-e0e94809995b.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![12](https://user-images.githubusercontent.com/61624336/107836537-4cfdb600-6d7c-11eb-918d-737ba9c555a9.jpg)
 
-**Exemplo 3**:
+Exemplo 3:
 ![12](https://user-images.githubusercontent.com/61624336/107836713-da410a80-6d7c-11eb-8d41-3e8bf5816bcb.jpg)
 
 **Exemplo 4**:
@@ -1639,11 +1640,11 @@ Observe a função abaixo:
 Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
 
-**Exemplo 2**: Função com vários argumentos (método antigo do ES6)
+Exemplo 2: Função com vários argumentos (método antigo do ES6)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860550-956db000-6e1e-11eb-8b96-8860230d10d3.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860612-e67da400-6e1e-11eb-88ad-5ca7851216a3.jpg)
 
-**Exemplo 3**: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
+Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
 ## Rest Operator
@@ -1652,10 +1653,10 @@ Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array pa
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861989-58a6b680-6e28-11eb-9887-03679ec3d5ca.jpg)
 
-**Exemplo 3**: Ele pega parâmetros restantes na função transformando o Rest em um array
+Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
 
 **Exemplo 4**:
@@ -1688,10 +1689,10 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
-**Exemplo 3**:
+Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
 
 **Exemplo 4**:
@@ -1711,10 +1712,10 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
 
-**Exemplo 3**:
+Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
 
 **Exemplo 4**:
@@ -1750,10 +1751,10 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
 
-**Exemplo 3**: Comparando identificação
+Exemplo 3: Comparando identificação
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
 
 **Exemplo 4**: Gerando propriedade privada
@@ -1765,10 +1766,10 @@ Você pode modificar o symbols com as suas propriedades.
 Exemplo: Well known Symbols
 <pre>Symbol.</pre>
 
-**Exemplo 2**: Symbol.iterator
+Exemplo 2: Symbol.iterator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
 
-**Exemplo 3**: 
+Exemplo 3: 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
 
 **Exemplo 4**:
@@ -1782,7 +1783,7 @@ Generators são funções com pausa e elas despausam valores através da interfa
 Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
-**Exemplo 2**: Função Generator
+Exemplo 2: Função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
 ### Exemplo 3: Ordenando a função Generator
@@ -1830,7 +1831,7 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
-**Exemplo 2**:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
 ### Exemplo 3:
