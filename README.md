@@ -995,7 +995,7 @@ As condições são expressões que retornam um valor true ou false. Podem ser u
 O valor true ou false é usado para que a máquina escolha se uma expressão deve ou não ser executada. Chamamos isso de Execução Condicional.
 Um exemplo é o Operador Ternário Condicional que vimos anteriormente.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103034640-18bc0500-4544-11eb-8c4d-f3914652f0d4.jpg)
 
 <blockquote>retorna a String "É menor"</blockquote>
@@ -1004,7 +1004,7 @@ Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legí
   
 Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>else</code>. Se precisar de mais decisões utilize o <code>else if</code> que é mais indicado do que somente <code>if</code> e o <code>else</code> no escopo, pois eles podem gerar conflito no código!
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
 
 **Exemplo 2**:
@@ -1015,7 +1015,7 @@ Caso precise de uma segunda decisão oposta da primeira (if) utilize o <code>els
 
 Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
 
 > **Obs**: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
@@ -1040,14 +1040,14 @@ Executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. 
 
 3. Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
 
-**Sintaxe**:
+Sintaxe:
 ```javascript
 for (declaração 1; declaração 2; declaração 3) {
   // code block to be executed
 }
 ```
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
 
 > **Utilidade**: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
@@ -1066,19 +1066,19 @@ Este loop serve para percorrer pelas propriedades de um objeto.
   // bloco de código a ser executado
 }</pre>
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
 <blockquote>Output: John Doe 25</blockquote>
 
 ### `For of`
 Este loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
-**Sintaxe**:
+Sintaxe:
 <pre>for (variável of interável) {
   // bloco de código a ser executado 
 }</pre>
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060468-f39cb600-4586-11eb-8827-fb3508208e56.jpg)
 
 **Exemplo 2**:
@@ -1087,7 +1087,7 @@ Este loop é específico para iterar entre os elementos de uma lista. Você pode
 ### `While` loop
 Laços de repetição podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
-**Sintaxe**:
+Sintaxe:
 ```javascript
 while (condição) {
   // Bloco de código a ser executado
@@ -1095,7 +1095,7 @@ while (condição) {
 }
 ```
 
-**Exemplo 1**:
+Exemplo:
 Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 0 a 9, enquanto (i) é menor do que 10:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
@@ -1103,31 +1103,31 @@ Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 
 ### `Do while`
 Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
-**Sintaxe**:
+Sintaxe:
 ```javascript
 do {
   // bloco de código a ser executado
 } while (condição);
 ```
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
 ### `Continue` x `break`
 Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 # 📜 [JS] Arrays
 Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
 
 Atribuindo valores: Você pode criar um vetor com seus valores separados por vírgula.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
 
 **Exemplo 2**:
@@ -1137,7 +1137,7 @@ Você pode adicionar valores de qualquer tipo no vetor.
 
 Acessando valores: Os valores podem ser acessados através de seu índice.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103466103-79a3c400-4d20-11eb-96fd-c7cb2ae02329.jpg)
 
 Observe que o índice começa no 0. Então o primeiro item está na posição 0, o segundo na posição 1 e assim por diante.
@@ -1283,17 +1283,14 @@ const filteredTechs = techs.filter((tech, index) => {
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
 ```
 
-
 # 📜 [JS] Valores
-<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="177" align="right"/>
+<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
-Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? 
-  
-Como faço para mudar o nome de uma string no JavaScript? 
+Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? 
   
 A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
 
 Tabela de métodos para os valores em JS:
@@ -1321,7 +1318,7 @@ Tabela de métodos para os valores em JS:
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
-**Sintaxe**:
+Sintaxe:
 ```javascript
 variável data = new Date();
 console.log(data.getTime());
@@ -1329,7 +1326,7 @@ console.log(data.getTime());
 
 O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript:
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103485348-66eac700-4dd4-11eb-86a3-f9999105e40f.jpg)
 
 ## Tabela de métodos que definem o tempo no JS:
@@ -1379,7 +1376,7 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
 # 📜 [JS] Dicionários
 Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
 
 Também funcionam com arrays, dessa forma `[{ }]`:
@@ -1392,7 +1389,7 @@ Também funcionam com arrays, dessa forma `[{ }]`:
 
 São utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
 
 Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
@@ -1468,7 +1465,7 @@ log('test');
 })()
 ```
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
 
 **Exemplo 2**: com parâmetros (return implícito)
@@ -1490,7 +1487,7 @@ log('test');
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
 
 # 📜 [JS] JavaScript OOP
@@ -1586,7 +1583,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 # 📜 [ES6] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
-**Exemplo 1**:
+Exemplo:
 ![12](https://user-images.githubusercontent.com/61624336/107806090-19ec0000-6d45-11eb-8b81-ef25ee970c74.jpg)
 ![12](https://user-images.githubusercontent.com/61624336/107806363-85ce6880-6d45-11eb-9a3f-2b8c3d7b2022.jpg)
 
@@ -1615,7 +1612,7 @@ A característica que permite podermos utilizar funções para definir valores d
 # [ES6] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
-**Exemplo 1**:
+Exemplo:
 ![12](https://user-images.githubusercontent.com/61624336/107830786-592d4780-6d6b-11eb-8c24-e0e94809995b.jpg)
 
 **Exemplo 2**:
@@ -1639,7 +1636,7 @@ A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 # 📜 [ES6] Rest, Spread Operator e destructing
 Observe a função abaixo:
 
-**Exemplo 1**: Função normal
+Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
 
 **Exemplo 2**: Função com vários argumentos (método antigo do ES6)
@@ -1652,7 +1649,7 @@ Observe a função abaixo:
 ## Rest Operator
 Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
 
 **Exemplo 2**:
@@ -1688,7 +1685,7 @@ Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. S�
 
 A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
 **Exemplo 2**:
@@ -1709,7 +1706,7 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 ## Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
-**Exemplo 1**: Destructuring Assignment
+Exemplo: Destructuring Assignment
 Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
@@ -1748,7 +1745,7 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 ## Symbols
 Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.
 
-**Exemplo 1**:
+Exemplo:
 O valor do Symbol não é texto, uma String, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
@@ -1765,7 +1762,7 @@ O valor do Symbol não é texto, uma String, não é um número e etc. Ele é ú
 ## Propriedades do Symbols
 Você pode modificar o symbols com as suas propriedades.
 
-**Exemplo 1**: Well known Symbols
+Exemplo: Well known Symbols
 <pre>Symbol.</pre>
 
 **Exemplo 2**: Symbol.iterator
@@ -1782,7 +1779,7 @@ Você pode modificar o symbols com as suas propriedades.
 
 Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
-**Exemplo 1**: Função normal
+Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
 **Exemplo 2**: Função Generator
@@ -1830,7 +1827,7 @@ Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. S�
 
 A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
-**Exemplo 1**:
+Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
 **Exemplo 2**:
@@ -1851,7 +1848,7 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 ## Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
 
-**Exemplo 1**: Destructuring Assignment
+Exemplo: Destructuring Assignment
 Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
