@@ -760,16 +760,48 @@ Outro ponto, são os escopos são definidos pela região ao qual variáveis e ou
 
 Exemplo:
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448064-b0bb9c00-4c72-11eb-897f-ab8a697318ad.jpg)
+```javascript
+var valor = 12;
 
-**Escopo de Função** é quando Uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
+let umaFuncao = function() {
+  console.log(valor + 2);
+}
+
+umaFuncao();
+```
+
+**Escopo de Função** é quando uma variável declarada dentro de uma função, torna-se parte somente da função que a página da Web pode acessá-la.
 
 Exemplo:
+
+```javascript
+function testarValor () {
+  const valor = prompt('Digite o valor: ');
+
+  if(valor > 15){
+    return 'O valor é maior do que 15';
+  }
+  elseif(valor < 15){
+    return 'O valor é menor do que 15';
+  }
+  elseif(valor >= 15 && valor <= 15){
+    return 'O valor está na faixa de 15';
+  }
+  else{
+    return 'Não é um número';
+  }
+}
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448597-8b329080-4c7a-11eb-9a9c-9240128b8a5b.jpg)
 
 **Escopo Local** são variáveis declaradas dentro de um local cercado por `{ }`.
 
 Exemplo:
+
+```javascript
+
+```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103448946-7efd0200-4c7f-11eb-8cc7-c35fbbfa77b8.jpg)
 
@@ -781,13 +813,13 @@ A variável global não é muito recomendada, pois pode gerar conflitos com outr
 a = 5;
 ```
 
-variável local e global, muito recomendada para ambos os escopos!
+A variável local e global, muito recomendada para ambos os escopos!
 
 ```javascript
 var a = 5;
 ```
 
-Esse tipo de variável está dizendo explicitamente que a variável é global na janela
+Esse tipo de variável está dizendo explicitamente que a variável é global na janela:
 
 ```javascript
 window = 5;
