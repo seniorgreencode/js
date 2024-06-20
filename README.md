@@ -1797,22 +1797,22 @@ Exemplo: Função normal
 Exemplo 2: Função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
-### Exemplo 3: Ordenando a função Generator
+Exemplo 3: Ordenando a função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
 
-### Exemplo 4: 
+Exemplo 4: 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
 
-### Exemplo 5:
+Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
 
-### Exemplo 6:
+Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
-### Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
+Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
 
-### Exemplo 4:
+Exemplo 4:
 ```javascript
   function sum(...args) {
     return args.reduce((acc, value) => acc + value, 0);
@@ -1821,7 +1821,7 @@ Exemplo 2: Função Generator
 console.log(sum(5,5,5,2,3));
 ```
 
-### Exemplo 5: Integrar uma função com a outra
+Exemplo 5: Integrar uma função com a outra
 ```javascript
 const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
 
@@ -1845,16 +1845,16 @@ Exemplo:
 Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
-### Exemplo 3:
+Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
 
-### Exemplo 4:
+Exemplo 4:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
 
-### Exemplo 5: Shallow Clone
+Exemplo 5: Shallow Clone
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
 
-### Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
+Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
 ## Destructuring
@@ -1865,31 +1865,31 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
 
-### Exemplo 2:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
 
-### Exemplo 3:
+Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
 
-### Exemplo 4:
+Exemplo 4:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
 
-### Exemplo 5:
+Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
 
-### Exemplo 6:
+Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
 
-### Exemplo 7:
+Exemplo 7:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
 
-### Exemplo 8:
+Exemplo 8:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
 
-### Exemplo 9:
+Exemplo 9:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
 
-### Exemplo 10:
+Exemplo 10:
 É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
@@ -1899,57 +1899,57 @@ Como fazer um destructuring assignement em um array (arr), atribuindo o valor do
 ## Symbols
 Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.
 
-### Exemplo 1:
+Exemplo 1:
 O valor do Symbol não é texto, uma String, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
 
-### Exemplo 2:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
 
-### Exemplo 3: Comparando identificação
+Exemplo 3: Comparando identificação
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
 
-### Exemplo 4: Gerando propriedade privada
+Exemplo 4: Gerando propriedade privada
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
 
 ## Propriedades do Symbols
 Você pode modificar o symbols com as suas propriedades.
 
-### Exemplo 1: Well known Symbols
+Exemplo 1: Well known Symbols
 <pre>Symbol.</pre>
 
-### Exemplo 2: Symbol.iterator
+Exemplo 2: Symbol.iterator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
 
-### Exemplo 3: 
+Exemplo 3: 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
 
-### Exemplo 4:
+Exemplo 4:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
 
-### Exemplo 5:
+Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
 # 📜 [ES6] Aprenda sobre Generators e onde utilizá-los
 Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
-### Exemplo 1: Função normal
+Exemplo 1: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
-### Exemplo 2: Função Generator
+Exemplo 2: Função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
-### Exemplo 3: Ordenando a função Generator
+Exemplo 3: Ordenando a função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
 
-### Exemplo 4: 
+Exemplo 4: 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
 
-### Exemplo 5:
+Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
 
-### Exemplo 6:
+Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
 # 📜 [ES6] Promises 
