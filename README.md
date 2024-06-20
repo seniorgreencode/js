@@ -1075,7 +1075,7 @@ Exemplo 2:
 Exemplo 3:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
-### `For in`
+`For in`
 Este loop serve para percorrer pelas propriedades de um objeto.
 <pre>for (variável in interável) {
   // bloco de código a ser executado
@@ -1085,7 +1085,7 @@ Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
 <blockquote>Output: John Doe 25</blockquote>
 
-### `For of`
+`For of`
 Este loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
 Sintaxe:
@@ -1099,7 +1099,7 @@ Exemplo:
 Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060597-758cdf00-4587-11eb-87e4-28aacbe5468a.jpg)
 
-### `While` loop
+`While` loop
 Laços de repetição podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
 Sintaxe:
@@ -1115,7 +1115,7 @@ Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
 
-### `Do while`
+`Do while`
 Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
 Sintaxe:
@@ -1128,11 +1128,108 @@ do {
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
-### `Continue` x `break`
+`Continue` x `break`
 Servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
+
+## [JS] Funções
+<img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
+
+As **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
+
+Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
+
+Exemplo 2:
+![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
+
+Exemplo 3:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
+
+O <code>return</code> devolve um valor para a função.
+
+**Exemplo 4**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
+
+<blockquote>Curiosidade: Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
+
+**Exemplo 5**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
+
+**Exemplo 6**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
+
+**Exemplo 7**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107418551-91c3eb80-6af5-11eb-9635-fbebf2f958b0.jpg)
+
+<img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
+
+Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o arrow function a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
+
+**Sintaxe (Function)**:
+```javascript
+function funcao() {
+   código;
+}
+```
+
+**Sintaxe (Arrow Function)**:
+```javascript
+funcao = () => {
+  código;
+}
+```
+
+**Sintaxe (auto-exec function with Arrow Function)**:
+```javascript
+((x, y) => {
+ console.log(x + y);
+})(10, 5);
+```
+
+**Sintaxe (Immediatly invoked function expression with Arrow Function)**:
+```javascript
+(() => {
+  console.log('Hello, world!');
+})();
+```
+
+**Sintaxe (Anonymous Function)**:
+```javascript
+var log = function(value){
+  console.log(value);
+}
+
+log('test');
+```
+
+**Sintaxe (Anonymous Function) - segundo tipo**:
+```javascript
+(function() {
+  return 'Hello World';
+})()
+```
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
+
+Exemplo 2: com parâmetros (return implícito)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
+
+Exemplo 3: retornando ao valor por padrão
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493854-89033a00-4e12-11eb-9142-16e75a3a45f3.jpg)
+
+**Exemplo 4**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107413609-b1581580-6aef-11eb-83eb-d0132956f567.jpg)
+
+**Exemplo 5**: Sem parênteses e um argumento
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
+
+> **Obs**: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 [JS] Arrays
 Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
@@ -1399,104 +1496,6 @@ Também funcionam com arrays, dessa forma `[{ }]`:
 
 Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
-
-# 📜 [JS] Funções
-<img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
-
-As **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções.
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491028-d9709c80-4dfe-11eb-9e25-7c50dd69fca2.jpg)
-
-Note que para fazer a função executar, você precisa chama-la com os parênteses. Também é possível passar valores para a função acessar.
-
-Exemplo 2:
-![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
-
-Exemplo 3:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
-
-O <code>return</code> devolve um valor para a função.
-
-**Exemplo 4**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
-
-<blockquote>Curiosidade: Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
-
-**Exemplo 5**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
-
-**Exemplo 6**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
-
-**Exemplo 7**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107418551-91c3eb80-6af5-11eb-9635-fbebf2f958b0.jpg)
-
-## Arrow Function
-<img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="177"/>
-
-Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o arrow function a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
-
-**Sintaxe (Function)**:
-```javascript
-function funcao() {
-   código;
-}
-```
-
-**Sintaxe (Arrow Function)**:
-```javascript
-funcao = () => {
-  código;
-}
-```
-
-**Sintaxe (auto-exec function with Arrow Function)**:
-```javascript
-((x, y) => {
- console.log(x + y);
-})(10, 5);
-```
-
-**Sintaxe (Immediatly invoked function expression with Arrow Function)**:
-```javascript
-(() => {
-  console.log('Hello, world!');
-})();
-```
-
-**Sintaxe (Anonymous Function)**:
-```javascript
-var log = function(value){
-  console.log(value);
-}
-
-log('test');
-```
-
-**Sintaxe (Anonymous Function) - segundo tipo**:
-```javascript
-(function() {
-  return 'Hello World';
-})()
-```
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
-
-Exemplo 2: com parâmetros (return implícito)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
-
-Exemplo 3: retornando ao valor por padrão
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493854-89033a00-4e12-11eb-9142-16e75a3a45f3.jpg)
-
-**Exemplo 4**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107413609-b1581580-6aef-11eb-83eb-d0132956f567.jpg)
-
-**Exemplo 5**: Sem parênteses e um argumento
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
-
-> **Obs**: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 [JS] Procedural/Imperativo JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
