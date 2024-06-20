@@ -898,11 +898,14 @@ console.log(pi); // Output: 3.14159
 
 > Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
 
-Há uma outra forma de chamar uma variável, com template string, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
+Há uma outra forma de chamar uma variável, com **template string**, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
 
-Exemplo 1:
+Exemplo:
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103025789-4e0b2780-4531-11eb-8448-7eb9415164d8.jpg)
+```javascript
+const nome = Jennifer;
+console.log(`O nome dela é ${nome}`);
+```
 
 ## Variáveis Input no JS
 O método <code>prompt()</code> exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
