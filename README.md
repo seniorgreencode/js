@@ -1049,15 +1049,18 @@ else{
 }
 ```
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
-
 Exemplo 2:
 
 ```javascript
-
+let disponível = true;
+let quantidade = 1;
+if (disponível && quantidade > 0){
+  console.log(`O produto está disponível! Há ${quantidade} no estoque.`);
+}
+else{
+  console.log('Produto indisponível');
+}
 ```
-
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103038271-cfbc7e80-454c-11eb-9d5a-bd6a4bf9af67.jpg)
 
 Exemplo 3:
 
