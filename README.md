@@ -336,7 +336,11 @@ console.log(txt.length);
 Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102540262-87edb100-408d-11eb-9018-ff3681325d89.jpg)
+
+```javascript
+var txt = 'We are the so-called'Vikings'from the north';
+console.log(txt);
+```
 
 A solução para resolver esse problema é com o uso de caractere de escape de barra invertida.
 
