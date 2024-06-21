@@ -1094,10 +1094,8 @@ function conexaoLogin() {
 }
     
 // Usando a função com objetoServidor
-conexaoLogin.call(objetoServidor,objetoServidor2); // Saída: login: mundoJS
+conexaoLogin.call(objetoServidor,objetoServidor2); // Output: login: mundoJS
 ```
-
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
 
 Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
 
