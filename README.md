@@ -538,7 +538,7 @@ Até agora vimos operadores que precisam de dois elementos para funcionar, como 
 
 Também temos os Operadores Unários, que são aqueles que só recebem um valor para funcionar.
 
-O primeiro é o "-". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
+O primeiro é o "`-`". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
 
 ```javascript
 -3
@@ -1008,11 +1008,11 @@ Note que o diagrama de fluxo ao lado representa a seguinte condição: se o núm
 
 Existem algumas categorias para as estruturas de programação, elas podem ser:
 
-- <a>Estruturas Iterativas</a>: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
-- <a>Estruturas Condicionais</a>: Usadas para tomar decisões no código com base em condições.
-- <a>Estruturas Sequenciais</a>: Executam instruções em ordem linear, uma após a outra.
-- <a>Estruturas de Funções/Sub-rotinas</a>: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
-- <a>Estruturas de Tratamento de Exceções</a>: Usadas para lidar com erros de maneira controlada.
+- <a href="">Estruturas Iterativas</a>: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
+- <a href="">Estruturas Condicionais</a>: Usadas para tomar decisões no código com base em condições.
+- <a href="">Estruturas Sequenciais</a>: Executam instruções em ordem linear, uma após a outra.
+- <a href="">Estruturas de Funções/Sub-rotinas</a>: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
+- <a href="">Estruturas de Tratamento de Exceções</a>: Usadas para lidar com erros de maneira controlada.
 
 Aqui estão as principais estruturas de programação em JavaScript (e na maioria das linguagens de programação):
 
@@ -1034,7 +1034,7 @@ Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legí
   
 Caso precise de uma segunda decisão oposta da primeira `if` utilize o `else` (senão). Se precisar de mais decisões utilize o `else if` (senão se) que é mais indicado do que somente `if` e o `else` no escopo, pois eles podem gerar conflito no código!
 
-Exemplo:
+Exemplo: Variáveis com vírgula.
 
 ```javascript
 var n1 = 3, n2 = 5;
@@ -1049,23 +1049,50 @@ else{
 }
 ```
 
-Exemplo 2:
+Exemplo 2: Confirmando a quantidade de produtos com as variáveis. Note que não é necessário declarar em uma condição se o valor é `true`, ele reconhece automaticamente.
 
 ```javascript
+let pedido = prompt('Digite quantos produtos deseja:')
 let disponível = true;
 let quantidade = 1;
-if (disponível && quantidade > 0){
-  console.log(`O produto está disponível! Há ${quantidade} no estoque.`);
+pedido == quantidade;
+
+if (disponível && pedido == 1){
+  console.log(`O produto está disponível! Há ${quantidade} unidade no estoque.`);
+}
+else if (disponível && pedido > 1){
+  console.log(`Lamentamos, mas só possuímos ${quantidade} unidade no estoque.`);
 }
 else{
   console.log('Produto indisponível');
 }
 ```
 
-Exemplo 3:
+Exemplo 3: Com objeto JavaScript, caso se 
 
 ```javascript
+let objetoServidor = {
+  acesso: true,
+  login: "mundoJS"
+};
 
+let objetoServidor2 = {
+  erro: "Erro ao se conectar no servidor!"
+};
+
+function conexaoLogin(respostaDoServidor.acesso) {
+  if(respostaDoServidor.erro == null){
+    if(acesso){
+      console.log(`login: ${respostaDoServidor.login}`)
+    }
+    else{
+      console.log('Acesso negado!')
+    }
+  }
+  else{
+    console.log(respostaDoServidor.erro);
+  }
+}
 ```
 
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
@@ -1080,14 +1107,12 @@ Exemplo:
 
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
 
-> **Obs**: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
+> Obs: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
 
 ## [JS] Laços de Repetição (Loops)
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
 
-Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida.
-
-Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de Laços de Repetição.
+Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops).
 
 Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100. Daria muito trabalho digitar tudo.
   
@@ -1108,15 +1133,11 @@ for (declaração 1; declaração 2; declaração 3) {
 }
 ```
 
-Exemplo:
+Exemplo: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
 
-> **Utilidade**: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
-
-Exemplo 2:
+Exemplo 2: Podemos ler ou modificar todos os itens de um vetor.
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
-
-> **Utilidade**: Podemos ler ou modificar todos os itens de um vetor.
 
 Exemplo 3:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
