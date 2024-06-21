@@ -339,7 +339,7 @@ Como as strings são descritas entre aspas, o JavaScript não entenderá a strin
 
 ```javascript
 var txt = 'We are the so-called'Vikings'from the north';
-console.log(txt);
+console.log(txt); // Output: Uncaught SyntaxError: Unexpected identifier 'Vikings'
 ```
 
 A solução para resolver esse problema é com o uso de caractere de escape de barra invertida.
@@ -349,12 +349,24 @@ O caractere de escape de barra invertida “`\`” torna caracteres especiais em
 `\’` aspas simples:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
+
+```javascript
+var txt = 'We are the so-called \'Vikings\' from the north';
+console.log(txt); // Output: We are the so-called 'Vikings' from the north
+```
+
+> Obs: É possível também alterar o formato das aspas com os <a href="">valores</a> da linguagem JavaScript.
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/102550356-78299900-409c-11eb-975c-9b1b491afdd8.jpg)
 
 `\"` aspas duplas:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/102550361-79f35c80-409c-11eb-8b3d-b2864b43aa49.jpg)
+
+```javascript
+var txt = 'We are the so-called \"Vikings\" from the north';
+console.log(txt); // Output: We are the so-called "Vikings" from the north
+```
 
 `\\` barras invertidas:
 
