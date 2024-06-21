@@ -357,8 +357,6 @@ console.log(txt); // Output: We are the so-called 'Vikings' from the north
 
 > Obs: É possível também alterar o formato das aspas com os <a href="">valores</a> da linguagem JavaScript.
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102550356-78299900-409c-11eb-975c-9b1b491afdd8.jpg)
-
 `\"` aspas duplas:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -371,7 +369,11 @@ console.log(txt); // Output: We are the so-called "Vikings" from the north
 `\\` barras invertidas:
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/102549993-d6a24780-409b-11eb-9814-fffb47e86f0f.jpg)
+
+```javascript
+var txt = 'We are the so-called \\ from the north';
+console.log(txt); // Output: We are the so-called \ from the north
+```
 
 Outras seis sequências escapes são válidas em JavaScript:
 
