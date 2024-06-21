@@ -1071,6 +1071,8 @@ else{
 Exemplo 3: Com objeto JavaScript, caso se 
 
 ```javascript
+let pessoa = prompt('Digite seu nome:')
+
 let objetoServidor = {
   acesso: true,
   login: "mundoJS"
@@ -1080,19 +1082,19 @@ let objetoServidor2 = {
   erro: "Erro ao se conectar no servidor!"
 };
 
-function conexaoLogin(respostaDoServidor.acesso) {
-  if(respostaDoServidor.erro == null){
-    if(acesso){
-      console.log(`login: ${respostaDoServidor.login}`)
+function conexaoLogin() {
+    if(this.acesso && pessoa == this.login) {
+      return `login: ${this.login}`;
+    } 
+    else if(this.acesso && pessoa !== this.login){
+      return 'Acesso negado!';
+    } else {
+      return this.erro;
     }
-    else{
-      console.log('Acesso negado!')
-    }
-  }
-  else{
-    console.log(respostaDoServidor.erro);
-  }
 }
+    
+// Usando a função com objetoServidor
+conexaoLogin.call(objetoServidor,objetoServidor2); // Saída: login: mundoJS
 ```
 
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
