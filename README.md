@@ -1030,22 +1030,51 @@ Exemplo:
 3 > 8 ? 'É maior' : 'É menor' // Output: 'É menor'
 ```
 
-Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando `if`. 
+Ele escolhe o que irá retornar. Porém, tudo na mesma linha não é muito legível. O Operador Ternário é recomendado apenas para operações simples e curtas. Para a maioria dos casos, usaremos o comando `if` (se). 
   
-Caso precise de uma segunda decisão oposta da primeira (if) utilize o `else`. Se precisar de mais decisões utilize o `else if` que é mais indicado do que somente `if` e o `else` no escopo, pois eles podem gerar conflito no código!
+Caso precise de uma segunda decisão oposta da primeira `if` utilize o `else` (senão). Se precisar de mais decisões utilize o `else if` (senão se) que é mais indicado do que somente `if` e o `else` no escopo, pois eles podem gerar conflito no código!
 
 Exemplo:
+
+```javascript
+var n1 = 3, n2 = 5;
+if (n1 > n2) {
+  n1 + n2
+}
+else if (n1 >= n2) {
+  n1 / n2
+}
+else{
+  n1 * n2
+}
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103043802-f2569380-455c-11eb-86b6-36e46cb25496.jpg)
 
 Exemplo 2:
+
+```javascript
+
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103038271-cfbc7e80-454c-11eb-9d5a-bd6a4bf9af67.jpg)
 
 Exemplo 3:
+
+```javascript
+
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103040686-f978a400-4552-11eb-8781-42c3f58802d3.jpg)
 
 Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
 
 Exemplo:
+
+```javascript
+
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
 
 > **Obs**: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
