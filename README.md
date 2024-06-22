@@ -1346,7 +1346,10 @@ Exemplo 6:
 Exemplo 7:
 
 ```javascript
-
+function Car() {
+  this.foo = 'bar';
+}
+console.log(new Car());
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107418551-91c3eb80-6af5-11eb-9635-fbebf2f958b0.jpg)
