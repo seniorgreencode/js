@@ -1232,12 +1232,10 @@ Exemplo 2:
 Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
-O <code>return</code> devolve um valor para a função.
+O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
 
 **Exemplo 4**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
-
-<blockquote>Curiosidade: Caso você não coloque o <code>return</code>, por padrão as funções devolvem <code>undefined</code>.</blockquote>
 
 **Exemplo 5**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
@@ -1252,32 +1250,54 @@ O <code>return</code> devolve um valor para a função.
 
 Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o arrow function a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
 
-**Sintaxe (Function)**:
+<table>
+  <tr>
+    <td colspan="3" align="center">Sintaxe de diferentes funções</td>
+  </tr>
+  <tr>
+    <td>Function</td>
+    <td>Arrow function</td>
+    <td>Immediatly invoked function expression with Arrow Function</td>
+  </tr>
+<tr>
+<td>
+	
 ```javascript
 function funcao() {
    código;
 }
 ```
 
-**Sintaxe (Arrow Function)**:
+</td>
+
+<td>
+  
 ```javascript
 funcao = () => {
   código;
 }
 ```
-
-**Sintaxe (auto-exec function with Arrow Function)**:
-```javascript
-((x, y) => {
- console.log(x + y);
-})(10, 5);
-```
-
-**Sintaxe (Immediatly invoked function expression with Arrow Function)**:
+  
+</td>
+  
+<td>
+  
 ```javascript
 (() => {
   console.log('Hello, world!');
 })();
+```
+  
+</td>
+</tr>
+</table>
+
+Exemplo:
+
+```javascript
+((x, y) => {
+ console.log(x + y);
+})(10, 5);
 ```
 
 **Sintaxe (Anonymous Function)**:
