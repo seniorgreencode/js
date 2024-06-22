@@ -1260,6 +1260,25 @@ hello();
 </tr>
 </table>
 
+Exemplo:
+
+```javascript
+function inicio() {
+  let numbers = [39, 45, 55, 77];
+  for(var position = 0; position <= 3; position++){
+    console.log(numbers[position]);
+  }
+}
+inicio();
+
+/* Output:
+ 39
+ 45
+ 55
+ 77
+*/
+```
+
 Exemplo: Podemos também inserir variáveis antes de nomear nossa função.
 
 ```javascript
@@ -1273,7 +1292,16 @@ funcao();
 Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
 
 Exemplo 2:
-![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
+
+```javascript
+function inicio() {
+  let numbers = [39, 45, 55, 77];
+  for(var position = 0; position <= 3; position++){
+    console.log(numbers[position]);
+  }
+}
+inicio();
+```
 
 Exemplo 3:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
