@@ -1212,9 +1212,53 @@ Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 ## [JS] Funções
-<img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="177" align="right"/>
+<img src="https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15687/comprehensive-guide-javascript-design-patterns-cf0c7c0e69d51d97044a8431da9175e3.png" height="77" align="right"/>
 
-As **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar.
+Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+
+<table>
+  <tr>
+    <td colspan="3" align="center">Sintaxe de diferentes funções no JavaScript</td>
+  </tr>
+  <tr>
+    <td>Function</td>
+    <td>Arrow function</td>
+    <td>(auto-exec) Immediatly invoked function expression with Arrow Function</td>
+  </tr>
+<tr>
+<td>
+	
+```javascript
+function hello() {
+   return('Hello, world!');
+}
+hello();
+```
+
+</td>
+
+<td>
+  
+```javascript
+hello = () => {
+  return('Hello, world!');
+}
+hello();
+```
+  
+</td>
+  
+<td>
+  
+```javascript
+(() => {
+  return('Hello, world!');
+})();
+```
+  
+</td>
+</tr>
+</table>
 
 Exemplo:
 
@@ -1225,6 +1269,8 @@ let funcao = function(){
 
 funcao();
 ```
+
+Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
 
 Exemplo 2:
 ![ewr33r](https://user-images.githubusercontent.com/61624336/104746887-9f709600-572e-11eb-8b9d-ec08b0df6957.jpg)
@@ -1248,49 +1294,6 @@ O `return` devolve um valor para a função, e deve ser usado somente em funçõ
 
 <img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
 
-Agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o arrow function a função possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
-
-<table>
-  <tr>
-    <td colspan="3" align="center">Sintaxe de diferentes funções</td>
-  </tr>
-  <tr>
-    <td>Function</td>
-    <td>Arrow function</td>
-    <td>Immediatly invoked function expression with Arrow Function</td>
-  </tr>
-<tr>
-<td>
-	
-```javascript
-function funcao() {
-   código;
-}
-```
-
-</td>
-
-<td>
-  
-```javascript
-funcao = () => {
-  código;
-}
-```
-  
-</td>
-  
-<td>
-  
-```javascript
-(() => {
-  console.log('Hello, world!');
-})();
-```
-  
-</td>
-</tr>
-</table>
 
 Exemplo:
 
