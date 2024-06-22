@@ -1068,8 +1068,8 @@ else{
 }
 ```
 
-Exemplo 3: Com objeto JavaScript, caso se 
-
+Exemplo 3: Com objeto JavaScript, onde o acesso ao sistema está liberado se a pessoa for o usuário "mundoJS", daí pode realizar o login, caso contrário o acesso será negado, e se o valor for contra o estabelecido terá o aviso de erro ao se conectar no servidor!
+ 
 ```javascript
 let pessoa = prompt('Digite seu nome:')
 
