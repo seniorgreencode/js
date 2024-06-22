@@ -1304,23 +1304,48 @@ inicio();
 ```
 
 Exemplo 3:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
 O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
 
-**Exemplo 4**:
+Exemplo 4:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
 
-**Exemplo 5**:
+Exemplo 5:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
 
-**Exemplo 6**:
+Exemplo 6:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
-**Exemplo 7**:
+Exemplo 7:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107418551-91c3eb80-6af5-11eb-9635-fbebf2f958b0.jpg)
 
-Exemplo:
+Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
 
 ```javascript
 ((x, y) => {
@@ -1348,18 +1373,38 @@ Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
 
 Exemplo 2: com parâmetros (return implícito)
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
 
 Exemplo 3: retornando ao valor por padrão
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493854-89033a00-4e12-11eb-9142-16e75a3a45f3.jpg)
 
-**Exemplo 4**:
+Exemplo 4:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107413609-b1581580-6aef-11eb-83eb-d0132956f567.jpg)
 
-**Exemplo 5**: Sem parênteses e um argumento
+Exemplo 5: Sem parênteses e um argumento
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
 
-> **Obs**: Se for mais de um argumento, é obrigatório o uso de parênteses!
+> Obs: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 [JS] Arrays
 Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
