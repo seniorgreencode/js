@@ -1260,7 +1260,7 @@ hello();
 </tr>
 </table>
 
-Exemplo:
+Exemplo: Podemos também inserir variáveis antes de nomear nossa função.
 
 ```javascript
 let funcao = function(){
