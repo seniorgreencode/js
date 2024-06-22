@@ -1320,10 +1320,12 @@ O `return` devolve um valor para a função, e deve ser usado somente em funçõ
 Exemplo 4:
 
 ```javascript
-
+let funcaoSomar = function(valor1, valor2) {
+  let resultado = valor1 + valor2;
+  return resultado;
+}
+console.log(funcaoSomar(7,7));
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491947-56534480-4e06-11eb-9dfe-2bd57a0a8524.jpg)
 
 Exemplo 5:
 
