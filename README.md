@@ -481,7 +481,7 @@ O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o val
 ## [JS] Operadores de Igualdade
 <img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
-Os **operadores de Igualdade** servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
+Os **operadores de igualdade** servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
 
 - `==` serve para verificarmos se dois valores são iguais.
 - `!=` serve para verificarmos se dois valores são diferentes.
@@ -489,11 +489,11 @@ Os **operadores de Igualdade** servem para compararmos se dois valores são igua
 > **Obs**: O operador `=` é somente usado para atribuir um valor e não para verificar os dois valores como os operadores `==` ou `!=`. Ele é muito usado em 
 **variáveis**, que veremos mais pra frente!
 
-> Dica: `!` é um operador que indica negação. Então "!=" seria o equivalente que dizer que algo é "não igual".</blockquote>
+> Dica: `!` é um operador que indica negação. Então "`!=`" seria o equivalente que dizer que algo é "não igual".</blockquote>
 
 Usar esses comparadores pode causar alguns problemas, pois eles vão pelo valor, ignorando o tipo do valor. Vamos entender melhor:
 
-Lembra que foi dito que o `0` tem valor `false`? Então se compararmos `>0 == false` será retornado `true`.
+Lembra que foi dito que o `0` tem valor `false`? Então se compararmos `0 == false` será retornado `true`.
 
 Se tivermos um número `3` e uma String "3", ambos são diferentes, certo? Pois o primeiro é um número e o segundo é um texto.
 
@@ -1097,17 +1097,27 @@ function conexaoLogin() {
 conexaoLogin.call(objetoServidor,objetoServidor2); // Output: login: mundoJS
 ```
 
-Para um grande número de condições é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
+Para um grande número de condições e categorias específicas é necessário um comando mais especializado do que somente o `if`, `else` ou `else if`, o comando `switch` é ideal para essa proposta. Observe a imagem abaixo:
 
 Exemplo:
 
 ```javascript
-
+var n1 = 3;
+switch(n1) {
+  case 1: // if (n1 === 1)
+    console.log('n1 é igual a 1')
+  break;
+  case 2: // if (n1 === 2)
+    console.log('n1 é igual a 2')
+  break;
+  case 3: // if (n1 === 3)
+    console.log('n1 é igual a 3')
+  break;
+  default: console.log('n1 possui valor fora da categoria')
+}
 ```
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103044820-e10f8600-4560-11eb-8151-4bf9cccd3e48.jpg)
-
-> Obs: O `break` serve para pausar a execução por cada `case`, pois senão ele executa todas de uma só vez.
+O comando `break` (quebrar) serve para pausar a execução por cada `case` (caso), pois senão ele executa todas de uma só vez. O comando `default` funciona como se fosse o "senão" em termos de funcionalidade da declaração e sintaxe do `switch case`.
 
 ## [JS] Laços de Repetição (Loops)
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
