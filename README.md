@@ -1306,10 +1306,14 @@ inicio();
 Exemplo 3:
 
 ```javascript
-
+let somar = function(valor1, valor2) {
+  let resultado = valor1 + valor2;
+  console.log(resultado)
+}
+somar(7,7);
+somar(14,8);
+somar(8,9);
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103491193-6405cb80-4e00-11eb-997a-a3d22e75d47a.jpg)
 
 O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
 
@@ -1353,7 +1357,8 @@ Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de aut
 })(10, 5);
 ```
 
-**Sintaxe (Anonymous Function)**:
+Sintaxe (Anonymous Function):
+
 ```javascript
 var log = function(value){
   console.log(value);
@@ -1362,7 +1367,8 @@ var log = function(value){
 log('test');
 ```
 
-**Sintaxe (Anonymous Function) - segundo tipo**:
+Sintaxe (Anonymous Function) - segundo tipo:
+
 ```javascript
 (function() {
   return 'Hello World';
@@ -1407,7 +1413,7 @@ Exemplo 5: Sem parênteses e um argumento
 > Obs: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 [JS] Arrays
-Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir <code>[ ]</code> a ela.
+Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela.
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
