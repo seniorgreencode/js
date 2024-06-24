@@ -1301,7 +1301,7 @@ function inicio() {
 inicio();
 ```
 
-Exemplo 3:
+Exemplo 3: Criamos uma **função anônima atribuída a uma variável**, cuja a variável `let` atribui a função `somar`, onde possuimos duas variáveis como parâmetro dessa função, `valor1` e `valor2`.
 
 ```javascript
 let somar = function(valor1, valor2) {
@@ -1326,17 +1326,26 @@ console.log(hello());
 
 O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
 
-Exemplo 4:
+Exemplo 4: Estamos definindo uma função com a variável `const` onde somamos o `valor1` e `valor2`
 
 ```javascript
-let funcaoSomar = function(valor1, valor2) {
+const funcaoSomar = function(valor1, valor2) {
   let resultado = valor1 + valor2;
   return resultado;
 }
 console.log(funcaoSomar(7,7));
 ```
 
-Exemplo 5:
+Exemplo 5: 
+
+```javascript
+function soma(n1,n2){
+  return n1 + n2;
+}
+console.log(soma(5,10));
+```
+
+Exemplo 6:
 
 ```javascript
 
@@ -1344,11 +1353,6 @@ Exemplo 5:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
 
-Exemplo 6:
-
-```javascript
-
-```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
