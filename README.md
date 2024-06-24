@@ -263,9 +263,7 @@ Para que as instruções sejam boas, quem as desenvolve deve saber exatamente o 
   
 <a href="" title="Site do Node-Webkite"/><img src="https://cdn.worldvectorlogo.com/logos/node-webkit.svg" height="77" align="right"></a>
 
-O **Node Web-Kit**, ou simplesmente **NW.js**, foi lançado pela primeira vez em janeiro de 2011. Desenvolvido pela equipe da Intel Open Source Technology Center, NW.js é uma tecnologia que combina Node.js com Chromium para permitir o desenvolvimento de aplicativos desktop usando tecnologias web como HTML, CSS e JavaScript. Com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js.
-
-Foi construído no Centro de tecnologia de código aberto da Intel combinando a estrutura Node.js. com um mecanismo Chromium (anteriormente conhecido como **Webkit**).
+O **Node Web-Kit**, ou simplesmente **NW.js**, foi lançado pela primeira vez em janeiro de 2011. Desenvolvido pela equipe da Intel Open Source Technology Center, NW.js é uma tecnologia que combina Node.js com Chromium para permitir o desenvolvimento de aplicativos desktop usando tecnologias web como HTML, CSS e JavaScript. Com ele é possível desenvolver aplicativos nativos para Windows, Linux e Mac, usando tecnologias web e usufruindo dos pacotes do Node.js. Foi construído no Centro de tecnologia de código aberto da Intel combinando a estrutura Node.js com um mecanismo Chromium (anteriormente conhecido como **Webkit**).
 
 Graças à combinação Node.js e Chromium, você pode criar um aplicativo que não apenas carrega um site local em uma janela de aplicativo, mas também se conecta ao sistema operacional por meio da API JavaScript. Esta solução permite controlar parâmetros como dimensões da janela, barra de ferramentas e itens de menu , além de fornecer acesso aos arquivos do computador local.
 
