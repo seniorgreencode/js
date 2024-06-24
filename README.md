@@ -1279,7 +1279,9 @@ inicio();
 */
 ```
 
-Exemplo: Podemos também inserir variáveis antes de nomear nossa função.
+Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
+
+Exemplo: função anônima atribuída a uma variável.
 
 ```javascript
 let funcao = function(){
