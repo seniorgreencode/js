@@ -1260,6 +1260,8 @@ hello();
 </tr>
 </table>
 
+O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
+
 Exemplo:
 
 ```javascript
@@ -1334,6 +1336,16 @@ const funcaoSomar = function(valor1, valor2) {
 console.log(funcaoSomar(7,7));
 ```
 
+Exemplo 4:
+
+```javascript
+var log = function(value){
+  return(value);
+}
+
+log('test');
+```
+
 Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** (funcão flecha) é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função. 
 
 Em JavaScript, uma arrow function pode ser definida e imediatamente invocada sem a necessidade de atribuí-la a uma variável. No exemplo abaixo, a arrow function `hello` é atribuída a uma variável de escopo global e depois chamada. No entanto, você também pode definir e chamar uma arrow function diretamente dentro de uma expressão.
@@ -1347,14 +1359,20 @@ hello = () => {
 console.log(hello());
 ```
 
-O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
-
 Exemplo 2: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
 
 ```javascript
 ((x, y) => {
  console.log(x + y);
 })(10, 5);
+```
+
+Veja agora, uma função anônima imediatamente invocada, em comparação ao Exemplo 2.
+
+```javascript
+(function() {
+  return 'Hello World';
+})()
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
@@ -1369,24 +1387,6 @@ function Car() {
   this.foo = 'bar';
 }
 console.log(new Car());
-```
-
-Sintaxe (Anonymous Function):
-
-```javascript
-var log = function(value){
-  console.log(value);
-}
-
-log('test');
-```
-
-Sintaxe (Anonymous Function) - segundo tipo:
-
-```javascript
-(function() {
-  return 'Hello World';
-})()
 ```
 
 Exemplo 2: com parâmetros (return implícito)
