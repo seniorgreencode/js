@@ -1291,6 +1291,15 @@ function inicio() {
 inicio();
 ```
 
+Exemplo 3: 
+
+```javascript
+function soma(n1,n2){
+  return n1 + n2;
+}
+console.log(soma(5,10));
+```
+
 Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
 
 Exemplo: função anônima atribuída a uma variável.
@@ -1315,20 +1324,7 @@ somar(14,8);
 somar(8,9);
 ```
 
-Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
-
-Exemplo: Caso comum de arrow function
-
-```javascript
-hello = () => {
-  return "Hello, World!";
-}
-console.log(hello());
-```
-
-O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
-
-Exemplo 4: Estamos definindo uma função com a variável `const` onde somamos o `valor1` e `valor2`
+Exemplo 3: função anônima atribuída a uma variável, semelhante ao Exemplo 2, porém com o resultado diferente.
 
 ```javascript
 const funcaoSomar = function(valor1, valor2) {
@@ -1338,19 +1334,27 @@ const funcaoSomar = function(valor1, valor2) {
 console.log(funcaoSomar(7,7));
 ```
 
-Exemplo 5: 
+Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** (funcão flecha) é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função. 
+
+Em JavaScript, uma arrow function pode ser definida e imediatamente invocada sem a necessidade de atribuí-la a uma variável. No exemplo abaixo, a arrow function `hello` é atribuída a uma variável de escopo global e depois chamada. No entanto, você também pode definir e chamar uma arrow function diretamente dentro de uma expressão.
+
+Exemplo: Caso comum de arrow function. 
 
 ```javascript
-function soma(n1,n2){
-  return n1 + n2;
+hello = () => {
+  return "Hello, World!";
 }
-console.log(soma(5,10));
+console.log(hello());
 ```
 
-Exemplo 6:
+O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
+
+Exemplo 2: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
 
 ```javascript
-
+((x, y) => {
+ console.log(x + y);
+})(10, 5);
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
@@ -1365,14 +1369,6 @@ function Car() {
   this.foo = 'bar';
 }
 console.log(new Car());
-```
-
-Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
-
-```javascript
-((x, y) => {
- console.log(x + y);
-})(10, 5);
 ```
 
 Sintaxe (Anonymous Function):
