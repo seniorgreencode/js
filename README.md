@@ -1261,6 +1261,16 @@ hello();
 </tr>
 </table>
 
+Algumas funções são peculiares da própria linguagem de programação JavaScript, tais como:
+
+- Funções são cidadãos de primeira classe.
+- Arrow functions e seu `this` lexical.
+- Contexto dinâmico de `this`.
+- Funções como construtores (para objetos).
+- Closures e escopo léxico.
+- Hoisting de funções.
+- Funções anônimas e IIFEs (Immediately Invoked Function Expressions).
+
 O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
 
 Exemplo:
