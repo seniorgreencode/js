@@ -1289,8 +1289,6 @@ let funcao = function(){
 funcao();
 ```
 
-Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
-
 Exemplo 2:
 
 ```javascript
@@ -1313,6 +1311,17 @@ let somar = function(valor1, valor2) {
 somar(7,7);
 somar(14,8);
 somar(8,9);
+```
+
+Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função.
+
+Exemplo: Caso comum de arrow function
+
+```javascript
+hello = () => {
+  return "Hello, World!";
+}
+console.log(hello());
 ```
 
 O `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
@@ -1343,7 +1352,7 @@ Exemplo 6:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
-Exemplo 7:
+Exemplo 7: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
 
 ```javascript
 function Car() {
@@ -1377,9 +1386,6 @@ Sintaxe (Anonymous Function) - segundo tipo:
   return 'Hello World';
 })()
 ```
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493496-78ea5b00-4e10-11eb-9e44-00e8e9648549.jpg)
 
 Exemplo 2: com parâmetros (return implícito)
 
