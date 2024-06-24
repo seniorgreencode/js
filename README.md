@@ -1279,18 +1279,6 @@ inicio();
 */
 ```
 
-Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
-
-Exemplo: função anônima atribuída a uma variável.
-
-```javascript
-let funcao = function(){
-  console.log('Olá!');
-}
-
-funcao();
-```
-
 Exemplo 2:
 
 ```javascript
@@ -1303,10 +1291,22 @@ function inicio() {
 inicio();
 ```
 
-Exemplo 3: Criamos uma **função anônima atribuída a uma variável**, cuja a variável `let` atribui a função `somar`, onde possuimos duas variáveis como parâmetro dessa função, `valor1` e `valor2`.
+Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
+
+Exemplo: função anônima atribuída a uma variável.
 
 ```javascript
-let somar = function(valor1, valor2) {
+let funcao = function(){
+  console.log('Olá!');
+}
+
+funcao();
+```
+
+Exemplo 2: Criamos uma função anônima atribuída a uma variável, cuja a variável `const` atribui a função `somar`, onde possuimos duas variáveis como parâmetros dessa função, `valor1` e `valor2`.
+
+```javascript
+const somar = function(valor1, valor2) {
   let resultado = valor1 + valor2;
   console.log(resultado)
 }
