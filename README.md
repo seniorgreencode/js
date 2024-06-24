@@ -1403,7 +1403,8 @@ console.log(new Car());
 Exemplo 2: com parâmetros (return implícito)
 
 ```javascript
-
+hello = (val) => "Hello" + "World";
+console.log(hello());
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
