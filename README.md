@@ -1411,7 +1411,7 @@ console.log(hello());
 Exemplo 3: Retornando ao valor por padrão.
 
 ```javascript
-
+hello = () => "Hello, World!"; console.log(hello()); // Output: "Hello, World!"
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493854-89033a00-4e12-11eb-9142-16e75a3a45f3.jpg)
