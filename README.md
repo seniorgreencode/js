@@ -1400,16 +1400,15 @@ function Car() {
 console.log(new Car());
 ```
 
-Exemplo 2: com parâmetros (return implícito)
+Exemplo 2: Com parâmetros (`return` implícito)
 
 ```javascript
-hello = (val) => "Hello" + "World";
+hello = (val) => "Hello," + " " + "World!";
 console.log(hello());
+// Output: Hello, World!
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103493750-daf79000-4e11-11eb-981d-ac100ffc9b0e.jpg)
-
-Exemplo 3: retornando ao valor por padrão
+Exemplo 3: Retornando ao valor por padrão.
 
 ```javascript
 
