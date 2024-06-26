@@ -1425,10 +1425,9 @@ Exemplo 4:
 Exemplo 5: Sem parênteses e um argumento
 
 ```javascript
-
+var sum = a => a;
+console.log(sum(5));
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107415115-bae27d00-6af1-11eb-9295-594dcfd942c9.jpg)
 
 > Obs: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
