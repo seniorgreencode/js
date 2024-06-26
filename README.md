@@ -1224,14 +1224,14 @@ As funções possuem um corpo onde pode conter várias declarações, relacionad
   <tr>
     <td>Function</td>
     <td>Arrow function</td>
-    <td>(auto-exec) Immediatly invoked function expression with Arrow Function</td>
+    <td>Immediatly invoked function expression with Arrow Function</td>
   </tr>
 <tr>
 <td>
 	
 ```javascript
 function hello() {
-   return 'Hello, world!'; // body: return 'Hello, world!' 
+   return 'Hello, world!';
 }
 hello();
 ```
