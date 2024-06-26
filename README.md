@@ -1605,12 +1605,10 @@ const filteredTechs = techs.filter((tech, index) => {
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
 ```
 
-# 📜 [JS] Valores
+## [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
-Já vimos como alterar o valor de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? 
-  
-A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
+Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
