@@ -1215,6 +1215,8 @@ Como já vimos anteriormente, as **funções** (`function`) são utilizadas para
 
 > Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
 
+As funções possuem um corpo onde pode conter várias declarações, relacionadas aos parâmetros ou não, e retornando a saída desse corpo com a palavra-chave `return`. Veja abaixo, os principais tipos de sintaxe de funções JavaScript:
+
 <table>
   <tr>
     <td colspan="3" align="center">Sintaxe de diferentes funções no JavaScript</td>
@@ -1228,8 +1230,8 @@ Como já vimos anteriormente, as **funções** (`function`) são utilizadas para
 <td>
 	
 ```javascript
-function hello() {
-   return('Hello, world!');
+function hello() { // name: hello // input/parameters: undefined
+   return 'Hello, world!'; // body: return 'Hello, world!' 
 }
 hello();
 ```
@@ -1290,7 +1292,7 @@ inicio();
 */
 ```
 
-Exemplo 2:
+Exemplo:
 
 ```javascript
 function inicio() {
@@ -1302,7 +1304,7 @@ function inicio() {
 inicio();
 ```
 
-Exemplo 3: 
+Exemplo: 
 
 ```javascript
 function soma(n1,n2){
@@ -1323,7 +1325,7 @@ let funcao = function(){
 funcao();
 ```
 
-Exemplo 2: Criamos uma função anônima atribuída a uma variável, cuja a variável `const` atribui a função `somar`, onde possuimos duas variáveis como parâmetros dessa função, `valor1` e `valor2`.
+Exemplo: Criamos uma função anônima atribuída a uma variável, cuja a variável `const` atribui a função `somar`, onde possuimos duas variáveis como parâmetros dessa função, `valor1` e `valor2`.
 
 ```javascript
 const somar = function(valor1, valor2) {
@@ -1335,7 +1337,7 @@ somar(14,8);
 somar(8,9);
 ```
 
-Exemplo 3: função anônima atribuída a uma variável, semelhante ao Exemplo 2, porém com o resultado diferente.
+Exemplo: função anônima atribuída a uma variável, semelhante ao Exemplo 2, porém com o resultado diferente.
 
 ```javascript
 const funcaoSomar = function(valor1, valor2) {
@@ -1345,7 +1347,7 @@ const funcaoSomar = function(valor1, valor2) {
 console.log(funcaoSomar(7,7));
 ```
 
-Exemplo 4:
+Exemplo:
 
 ```javascript
 var log = function(value){
@@ -1368,7 +1370,7 @@ hello = () => {
 console.log(hello());
 ```
 
-Exemplo 2: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
+Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
 
 ```javascript
 ((x, y) => {
@@ -1389,7 +1391,7 @@ Veja agora, uma função anônima imediatamente invocada, em comparação ao Exe
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
-Exemplo 7: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
+Exemplo: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
 
 ```javascript
 function Car() {
@@ -1398,7 +1400,7 @@ function Car() {
 console.log(new Car());
 ```
 
-Exemplo 2: Com parâmetros (`return` implícito)
+Exemplo: Com parâmetros (`return` implícito).
 
 ```javascript
 hello = (val) => "Hello," + " " + "World!";
@@ -1433,7 +1435,7 @@ console.log(resultado);  // Output: 12
 ```
 
 # 📜 [JS] Arrays
-Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela.
+Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela.
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
@@ -1443,8 +1445,7 @@ Atribuindo valores: Você pode criar um vetor com seus valores separados por ví
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
 
-Exemplo 2:
-Você pode adicionar valores de qualquer tipo no vetor.
+Exemplo: Você pode adicionar valores de qualquer tipo no vetor.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465854-2df01b00-4d1e-11eb-9699-48ca48bba14f.jpg)
 
