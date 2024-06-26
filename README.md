@@ -997,6 +997,17 @@ const nome = prompt('Digite o seu nome: ');
 console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
 
+## [JS] Dicionários
+Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
+
+Também funcionam com arrays, dessa forma `[{ }]`:
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
+
 # 📜 [JS] Estruturas de programação
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/cbe79d06-9676-4415-bc64-38a52e360d1b" align="right" height="177">
 
@@ -1695,16 +1706,6 @@ Tabela de métodos que definem o tempo no JS:
   </tr>
 </table>
 
-# 📜 [JS] Dicionários
-Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os dicionários do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
-
-Também funcionam com arrays, dessa forma `[{ }]`:
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 [JS] Procedural/Imperativo JavaScript
 <div align="center"><img src="https://miro.medium.com/max/700/1*g_md6pY90xurj3j_ApaaLA.jpeg" height="177"/></div><br />
