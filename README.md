@@ -1269,7 +1269,7 @@ Algumas funções são peculiares da própria linguagem de programação JavaScr
 - Hoisting de funções.
 - Funções anônimas e IIFEs (Immediately Invoked Function Expressions).
 
-O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`.
+O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`. Outro ponto sobre funções é se for mais de um argumento, é obrigatório o uso de parênteses.
 
 Exemplo:
 
@@ -1412,7 +1412,14 @@ Mesmo exemplo acima, porém com redução de linhas:
 hello = () => "Hello, World!"; console.log(hello()); // Output: "Hello, World!"
 ```
 
-Exemplo: O exemplo abaixo estamos puxando a função `soma` para dentro da função `calcularSoma`, onde os parâmetros `a,b` são convertidos para `x,y`, e assim, exibindo o resultado da função na variável.
+Exemplo: Sem parênteses e um argumento.
+
+```javascript
+var sum = a => a;
+console.log(sum(5));
+```
+
+Exemplo: Estamos puxando a função `soma` para dentro da função `calcularSoma`, onde os parâmetros `a,b` são convertidos para `x,y`, e assim, exibindo o resultado da função na variável.
 
 ```javascript
 var soma = function(a,b){
@@ -1424,15 +1431,6 @@ const calcularSoma = (x, y) => soma(x, y); // f(a,b)
 let resultado = calcularSoma(5, 7);
 console.log(resultado);  // Output: 12
 ```
-
-Exemplo 5: Sem parênteses e um argumento
-
-```javascript
-var sum = a => a;
-console.log(sum(5));
-```
-
-> Obs: Se for mais de um argumento, é obrigatório o uso de parênteses!
 
 # 📜 [JS] Arrays
 Os vetor ou array é uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela.
