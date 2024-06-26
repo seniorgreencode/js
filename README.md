@@ -997,6 +997,205 @@ const nome = prompt('Digite o seu nome: ');
 console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
 
+# 📜 [JS] Arrays
+Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
+
+Exemplo:
+
+```javascript
+let vetor = [ ];
+```
+
+Exemplo: Vamos atribuir valores, você pode criar um vetor com seus valores separados por vírgula.
+
+```javascript
+let vetor = [1, 22, 0, 100];
+// 4 itens = indices [0,1,2,3]
+// 1 === indice [0]
+console.log(vetor);
+```
+
+Exemplo: Você pode adicionar valores de qualquer tipo no vetor e acessar os valores através de seu índice.
+
+```javascript
+let vetor = [1, "Hello, World!", true, [1,2,3], '100'];
+console.log(vetor[1]); // Output: Hello, World!
+console.log(vetor[0]+vetor[4]); // Output: 1100
+```
+
+Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você pode:
+
+1. Alterar um valor existente;
+2. Inserir um novo valor em uma posição específica.
+
+```javascript
+let vetor = [1, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
+vetor[11] = 7; // Inserindo o valor 7 na posição 11, cujo não existia, mas foi criada após a execução.
+vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
+console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
+```
+
+Null: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
+
+Undefined: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
+
+Undefined !== Null: <code>undefined</code> e <code>null</code> são diferentes.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
+
+Resumidamente, isto ocorre pois null ainda é um valor e undefined é quando o JavaScript não sabe qual o tipo de dado.
+
+## [JS] Objetos
+Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467659-030ec280-4d30-11eb-9ab5-9fe4ab065691.jpg)
+
+Criação: Um objeto vazio é bem simples de criar.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467820-c9d75200-4d31-11eb-9676-04e0a7b7f2f9.jpg)
+
+No caso de um objeto com propriedades (variáveis), fazemos assim:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469613-dd8cb380-4d45-11eb-833c-7eee28591f69.jpg)
+
+Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469652-47a55880-4d46-11eb-973f-07edec2c5571.jpg)
+
+Note que se você usar a segunda opção, precisa ter uma String dentro dos <code>[ ]</code>.
+
+A alteração de dados funciona da mesma forma.
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
+
+Outra forma de inserir um array "separadamente":
+
+> [🍎] [🍐] [🍊] [🍇]
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/106766196-63876d00-6618-11eb-8536-9e362e887874.jpg)
+
+Array Mod
+
+> [🍎, 🍐, 🍊, 🍇]
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
+
+```javascript
+const cars = [
+  "Porsche 911",
+  "Ferrari 488",
+  "Lamborghini Aventador",
+  "McLaren 720S",
+  "Ford GT"
+];
+
+console.log(cars.sort(Intl.Collator().compare));
+```
+
+Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
+
+Tabela de métodos de Arrays
+
+> .("🍎","🍐")
+> .("🍊","🍇")
+
+![JavaScript-Array-Methods](https://user-images.githubusercontent.com/61624336/112920823-1be50500-90e0-11eb-8adc-7d57c467aab7.jpg)
+
+<table>
+  <tr>
+    <td>Método</code></td>
+    <td>Função do método</code></td>
+  </tr>
+  <tr>
+    <td><code>push("value")</code></code></td>
+    <td>Adiciona elemento</code></td>
+  </tr>
+  <tr>
+    <td><code>pop("array value")</code></code></td>
+    <td>Retira elemento</code></td>
+  </tr>
+  <tr>
+    <td>length</code></td>
+    <td>Retorna o tamanho da lista ou n° de elementos</code></td>
+  </tr>
+  <tr>
+    <td>filter(function(currentValue, index, arr), thisValue)</code></td>
+    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)</code></td>
+  </tr>
+  <tr>
+    <td>toString(Array)</code></td>
+    <td>Mostra todos os itens da lista</code></td>
+  </tr>
+   <tr>
+    <td>join()</code></td>
+    <td>Substitui elementos que separam a string</code></td>
+  </tr>
+  <tr>
+    <td>reverse()</code></td>
+    <td>Reverte</code></td>
+  </tr>
+  <tr>
+    <td>shift("array value")</code></td>
+    <td>Remove o item</code></td>
+  </tr>
+</table>
+
+Remova itens duplicados de array
+
+Use `filter` para obter itens únicos de uma array
+
+```javascript
+const techs = [
+  'javascript',
+  'v8',
+  'v8',
+  'typescript',
+  'nodejs',
+  'css',
+  'v8',
+  'typescript',
+  'css'
+]
+
+const filteredTechs = techs.filter((tech, index) => {
+  return techs.indexOf(tech) === index
+})
+
+console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
+```
+
+## [JS] Valores
+<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
+
+Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
+
+Tabela de métodos para os valores em JS:
+<table>
+    <tr>
+      <td>Método</code></td>
+      <td>Função do método</code></td>
+  </tr>
+  <tr>
+  <td>replace("", "")</code></td>
+  <td>muda a String selecionada por outra string informada</code></td>
+  </tr>
+  <tr>
+    <td>toUpperCase()</code></td>
+    <td>Todas as letras maiúsculas da String</code></td>
+  </tr>
+  <tr>
+    <td>toLowerCase()</code></td>
+    <td>Todas as letras minúsculas da String</code></td>
+  </tr>
+</table>
+
 ## [JS] Dicionários
 Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
 
@@ -1444,205 +1643,6 @@ const calcularSoma = (x, y) => soma(x, y); // f(a,b)
 let resultado = calcularSoma(5, 7);
 console.log(resultado);  // Output: 12
 ```
-
-# 📜 [JS] Arrays
-Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
-
-Exemplo:
-
-```javascript
-let vetor = [ ];
-```
-
-Exemplo: Vamos atribuir valores, você pode criar um vetor com seus valores separados por vírgula.
-
-```javascript
-let vetor = [1, 22, 0, 100];
-// 4 itens = indices [0,1,2,3]
-// 1 === indice [0]
-console.log(vetor);
-```
-
-Exemplo: Você pode adicionar valores de qualquer tipo no vetor e acessar os valores através de seu índice.
-
-```javascript
-let vetor = [1, "Hello, World!", true, [1,2,3], '100'];
-console.log(vetor[1]); // Output: Hello, World!
-console.log(vetor[0]+vetor[4]); // Output: 1100
-```
-
-Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você pode:
-
-1. Alterar um valor existente;
-2. Inserir um novo valor em uma posição específica.
-
-```javascript
-let vetor = [1, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
-vetor[11] = 7; // Inserindo o valor 7 na posição 11, cujo não existia, mas foi criada após a execução.
-vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
-console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
-```
-
-Null: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
-
-Undefined: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
-
-Undefined !== Null: <code>undefined</code> e <code>null</code> são diferentes.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
-
-Resumidamente, isto ocorre pois null ainda é um valor e undefined é quando o JavaScript não sabe qual o tipo de dado.
-
-## [JS] Objetos
-Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467659-030ec280-4d30-11eb-9ab5-9fe4ab065691.jpg)
-
-Criação: Um objeto vazio é bem simples de criar.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467820-c9d75200-4d31-11eb-9676-04e0a7b7f2f9.jpg)
-
-No caso de um objeto com propriedades (variáveis), fazemos assim:
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469613-dd8cb380-4d45-11eb-833c-7eee28591f69.jpg)
-
-Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469652-47a55880-4d46-11eb-973f-07edec2c5571.jpg)
-
-Note que se você usar a segunda opção, precisa ter uma String dentro dos <code>[ ]</code>.
-
-A alteração de dados funciona da mesma forma.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
-
-Outra forma de inserir um array "separadamente":
-
-> [🍎] [🍐] [🍊] [🍇]
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/106766196-63876d00-6618-11eb-8536-9e362e887874.jpg)
-
-Array Mod
-
-> [🍎, 🍐, 🍊, 🍇]
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
-
-```javascript
-const cars = [
-  "Porsche 911",
-  "Ferrari 488",
-  "Lamborghini Aventador",
-  "McLaren 720S",
-  "Ford GT"
-];
-
-console.log(cars.sort(Intl.Collator().compare));
-```
-
-Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
-
-Tabela de métodos de Arrays
-
-> .("🍎","🍐")
-> .("🍊","🍇")
-
-![JavaScript-Array-Methods](https://user-images.githubusercontent.com/61624336/112920823-1be50500-90e0-11eb-8adc-7d57c467aab7.jpg)
-
-<table>
-  <tr>
-    <td>Método</code></td>
-    <td>Função do método</code></td>
-  </tr>
-  <tr>
-    <td><code>push("value")</code></code></td>
-    <td>Adiciona elemento</code></td>
-  </tr>
-  <tr>
-    <td><code>pop("array value")</code></code></td>
-    <td>Retira elemento</code></td>
-  </tr>
-  <tr>
-    <td>length</code></td>
-    <td>Retorna o tamanho da lista ou n° de elementos</code></td>
-  </tr>
-  <tr>
-    <td>filter(function(currentValue, index, arr), thisValue)</code></td>
-    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)</code></td>
-  </tr>
-  <tr>
-    <td>toString(Array)</code></td>
-    <td>Mostra todos os itens da lista</code></td>
-  </tr>
-   <tr>
-    <td>join()</code></td>
-    <td>Substitui elementos que separam a string</code></td>
-  </tr>
-  <tr>
-    <td>reverse()</code></td>
-    <td>Reverte</code></td>
-  </tr>
-  <tr>
-    <td>shift("array value")</code></td>
-    <td>Remove o item</code></td>
-  </tr>
-</table>
-
-Remova itens duplicados de array
-
-Use `filter` para obter itens únicos de uma array
-
-```javascript
-const techs = [
-  'javascript',
-  'v8',
-  'v8',
-  'typescript',
-  'nodejs',
-  'css',
-  'v8',
-  'typescript',
-  'css'
-]
-
-const filteredTechs = techs.filter((tech, index) => {
-  return techs.indexOf(tech) === index
-})
-
-console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
-```
-
-## [JS] Valores
-<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
-
-Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
-
-Tabela de métodos para os valores em JS:
-<table>
-    <tr>
-      <td>Método</code></td>
-      <td>Função do método</code></td>
-  </tr>
-  <tr>
-  <td>replace("", "")</code></td>
-  <td>muda a String selecionada por outra string informada</code></td>
-  </tr>
-  <tr>
-    <td>toUpperCase()</code></td>
-    <td>Todas as letras maiúsculas da String</code></td>
-  </tr>
-  <tr>
-    <td>toLowerCase()</code></td>
-    <td>Todas as letras minúsculas da String</code></td>
-  </tr>
-</table>
 
 # 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
