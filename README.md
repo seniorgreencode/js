@@ -1230,7 +1230,7 @@ As funções possuem um corpo onde pode conter várias declarações, relacionad
 <td>
 	
 ```javascript
-function hello() { // name: hello // input/parameters: undefined
+function hello() {
    return 'Hello, world!'; // body: return 'Hello, world!' 
 }
 hello();
@@ -1260,6 +1260,8 @@ hello();
 </td>
 </tr>
 </table>
+
+O nome das duas funções é `hello` e a entrada dos dados (input/parameters/argumentos) é `undefined`, note que as funções não recebem nenhum parâmetro, como indicado pelos parênteses vazios `()`. Quando você chama `hello()`, não está passando nenhum argumento para a função. Portanto, no início da execução, a função `hello` não tem nenhum parâmetro.
 
 Algumas funções são peculiares da própria linguagem de programação JavaScript, tais como:
 
