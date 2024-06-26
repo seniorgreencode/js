@@ -1261,7 +1261,7 @@ hello();
 </tr>
 </table>
 
-O nome das duas funções é `hello` e a entrada dos dados (input/parameters/argumentos) é `undefined`, note que as funções não recebem nenhum parâmetro, como indicado pelos parênteses vazios `()`. Quando você chama `hello()`, não está passando nenhum argumento para a função. Portanto, no início da execução, a função `hello` não tem nenhum parâmetro.
+O nome (name) das duas funções é `hello` e a entrada dos dados (input/parameters/argumentos) é `undefined`, note que as funções não recebem nenhum parâmetro, como indicado pelos parênteses vazios `()`. Quando você chama `hello()`, não está passando nenhum argumento para a função. Portanto, no início da execução, a função `hello` não tem nenhum parâmetro. Dentro do corpo da função (body), podemos fazer muitas declarações, tendo ou não haver com os parâmetros/argumentos da função, e a saída do corpo é o comando `return` que devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`. E, por fim, devemos chamar ou invocar a nossa função `hello()`, a partir daí será exibido a saída (output) do nosso código `'Hello, world!'`. Outro ponto sobre funções é se for mais de um argumento, é obrigatório o uso de parênteses.
 
 Algumas funções são peculiares da própria linguagem de programação JavaScript, tais como:
 
@@ -1272,8 +1272,6 @@ Algumas funções são peculiares da própria linguagem de programação JavaScr
 - Closures e escopo léxico.
 - Hoisting de funções.
 - Funções anônimas e IIFEs (Immediately Invoked Function Expressions).
-
-O comando `return` devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`. Outro ponto sobre funções é se for mais de um argumento, é obrigatório o uso de parênteses.
 
 Exemplo:
 
