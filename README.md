@@ -1435,35 +1435,42 @@ console.log(resultado);  // Output: 12
 ```
 
 # 📜 [JS] Arrays
-Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela.
+Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
 
 Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103464102-20cc2f80-4d10-11eb-9a28-77e5bf085cb3.jpg)
 
-Atribuindo valores: Você pode criar um vetor com seus valores separados por vírgula.
+```javascript
+let vetor = [ ];
+```
 
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465773-91c61400-4d1d-11eb-941f-73130512b208.jpg)
+Exemplo: Vamos atribuir valores, você pode criar um vetor com seus valores separados por vírgula.
 
-Exemplo: Você pode adicionar valores de qualquer tipo no vetor.
+```javascript
+let vetor = [1, 22, 0, 100];
+// 4 itens = indices [0,1,2,3]
+// 1 === indice [0]
+console.log(vetor);
+```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103465854-2df01b00-4d1e-11eb-9699-48ca48bba14f.jpg)
+Exemplo: Você pode adicionar valores de qualquer tipo no vetor e acessar os valores através de seu índice.
 
-Acessando valores: Os valores podem ser acessados através de seu índice.
+```javascript
+let vetor = [1, "Hello, World!", true, [1,2,3], '100'];
+console.log(vetor[1]); // Output: Hello, World!
+console.log(vetor[0]+vetor[4]); // Output: 1100
+```
 
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103466103-79a3c400-4d20-11eb-96fd-c7cb2ae02329.jpg)
+Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você pode:
 
-Observe que o índice começa no 0. Então o primeiro item está na posição 0, o segundo na posição 1 e assim por diante.
+1. Alterar um valor existente;
+2. Inserir um novo valor em uma posição específica.
 
-Alterando e atribuindo valores pelo índice: Com o índice, você pode:
-
-<ol type="a">
-  Alterar um valor existente;
-  Inserir um novo valor em uma posição específica.
-</ol>
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103466456-2764a200-4d24-11eb-8021-fd5f974265c0.jpg)
+```javascript
+let vetor = [1, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
+vetor[11] = 7; // Inserindo o valor 7 na posição 11, cujo não existia, mas foi criada após a execução.
+vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
+console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
+```
 
 Null: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
 
