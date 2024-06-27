@@ -282,7 +282,37 @@ Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela
 
 Há uma diferença bem pequena entre `undefined` e `null`. Na verdade a existência de ambos para definir um valor inexistente foi devido a um acidente no projeto do desenvolvimento do JavaScript. Em outras linguagens de programação, normalmente existe apenas o `Null`.
 
-Resumidamente, <code>null</code> ainda é um valor e <code>undefined</code> é quando o JavaScript não sabe qual o tipo de dado.
+Resumidamente, `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
+
+```javascript
+
+```
+
+`Null`: O `null` é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
+
+`Undefined`: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
+
+`Undefined !== Null`: `undefined` e `null` são diferentes.
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
+
+Resumidamente, isto ocorre pois `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
 
 ### [JS] `Number`
 O tipo `number` é usado para armazenar valores numéricos.
@@ -1034,20 +1064,6 @@ vetor[11] = 7; // Inserindo o valor 7 na posição 11, cujo não existia, mas fo
 vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
 console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
 ```
-
-Null: O <code>null</code> é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
-
-Undefined: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
-
-Undefined !== Null: <code>undefined</code> e <code>null</code> são diferentes.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
-
-Resumidamente, isto ocorre pois null ainda é um valor e undefined é quando o JavaScript não sabe qual o tipo de dado.
 
 ## [JS] Objetos
 Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos.
