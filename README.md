@@ -1980,7 +1980,7 @@ Exemplo 3:
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
-# 📜 Generators
+# 📜 [ES6] Generators
 
 ## Symbols
 Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.
