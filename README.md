@@ -1193,22 +1193,22 @@ Já vimos como alterar o **valor** de uma variável ou de um item no array no Ja
   </tr>
   <tr>
   <td><code>replace("", "")</code></td>
-  <td>muda a String selecionada por outra string informada</td>
+  <td>muda a <code>String</code> selecionada por outra <code>string</code> informada</td>
   </tr>
   <tr>
     <td><code>toUpperCase()</code></td>
-    <td>Todas as letras maiúsculas da String</td>
+    <td>Todas as letras maiúsculas da <code>String</code></td>
   </tr>
   <tr>
     <td><code>toLowerCase()</code></td>
-    <td>Todas as letras minúsculas da String</td>
+    <td>Todas as letras minúsculas da <code>String</code></td>
   </tr>
 </table>
 
 ```javascript
 var frase = "O Brasil é o melhor país do mundo!";
-console.log(frase.replace("Brasil", "Estados Unidos"));
-// Output: O Estados Unidos é o melhor país do mundo!
+console.log(frase.replace("Brasil", "Estados Unidos").touppercase());
+// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
 
 ## [JS] Dicionários
