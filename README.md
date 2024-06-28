@@ -268,9 +268,7 @@ O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais det
 ### [JS] `Boolean`
 `Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação. Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso). Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
-Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
-  
-Um exemplo é o número `0`. Ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
+Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`. Um exemplo é o número `0`, ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
 
 Os seguintes valores são considerados falsos no JavaScript:
 
@@ -282,7 +280,7 @@ Os seguintes valores são considerados falsos no JavaScript:
 - `undefined`
 - `""` (string vazia)
 
-Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, pois não são Strings vazias.
+Qualquer outro valor é considerado `true`, até mesmo a `String` `false` e `0`, pois não são `Strings` vazias.
 
 ### [JS] `Undefined` e `Null`
 Há dois tipos especiais de valores, `undefined` e `null`. Eles indicam a ausência de valor.
