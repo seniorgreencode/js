@@ -1721,7 +1721,7 @@ Tabela de métodos que definem o tempo no JS:
 
 
 # 📜 [JS] Procedural/Imperativo JavaScript
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6744885c-dd7c-4555-8a59-5ff484c5f90f" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
