@@ -266,11 +266,23 @@ O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais det
 - `Symbol` - armazena símbolos.
 
 ### [JS] `Boolean`
-`Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação.
+`Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação. Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso). Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
-Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso).
+Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
+  
+Um exemplo é o número `0`. Ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
 
-Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
+Os seguintes valores são considerados falsos no JavaScript:
+
+- `0`
+- `-0`
+- `null`  
+- `false`
+- `NaN`
+- `undefined`
+- `""` (string vazia)
+
+Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, pois não são Strings vazias.
 
 ### [JS] `Undefined` e `Null`
 Há dois tipos especiais de valores, `undefined` e `null`. Eles indicam a ausência de valor.
@@ -431,23 +443,6 @@ Outras seis sequências escapes são válidas em JavaScript:
 
 ### [JS] Symbols
 O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
-
-### [JS] Valores verdadeiros e falsos
-Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`.
-  
-Um exemplo é o número `0`. Ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
-
-Os seguintes valores são considerados falsos no JavaScript:
-
-- `0`
-- `-0`
-- `null`  
-- `false`
-- `NaN`
-- `undefined`
-- `""` (string vazia)
-
-Qualquer outro valor é considerado true, até mesmo a String `false` e `0`, pois não são Strings vazias.
 
 # 📜 [JS] O que são operadores?
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
