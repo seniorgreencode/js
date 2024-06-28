@@ -1184,30 +1184,32 @@ console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css'
 ## [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
-Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma String no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo:
+Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma `String` no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja o exemplo abaixo, juntamente com a tabela de métodos para os valores em JS:
 
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103482135-ba054f80-4dbd-11eb-9ca3-d78279efb6a9.jpg)
-
-Tabela de métodos para os valores em JS:
-<table>
+<table align="left">
     <tr>
       <td>Método</code></td>
-      <td>Função do método</code></td>
+      <td>Função do método</td>
   </tr>
   <tr>
-  <td>replace("", "")</code></td>
-  <td>muda a String selecionada por outra string informada</code></td>
+  <td><code>replace("", "")</code></td>
+  <td>muda a String selecionada por outra string informada</td>
   </tr>
   <tr>
-    <td>toUpperCase()</code></td>
-    <td>Todas as letras maiúsculas da String</code></td>
+    <td><code>toUpperCase()</code></td>
+    <td>Todas as letras maiúsculas da String</td>
   </tr>
   <tr>
-    <td>toLowerCase()</code></td>
-    <td>Todas as letras minúsculas da String</code></td>
+    <td><code>toLowerCase()</code></td>
+    <td>Todas as letras minúsculas da String</td>
   </tr>
 </table>
+
+```javascript
+var frase = "O Brasil é o melhor país do mundo!";
+console.log(frase.replace("Brasil", "Estados Unidos"));
+// Output: O Estados Unidos é o melhor país do mundo!
+```
 
 ## [JS] Dicionários
 Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
