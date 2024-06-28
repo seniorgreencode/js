@@ -10,10 +10,7 @@ Como qualquer outra tarefa, a programação requer ferramentas e espaço de trab
 
 <img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" align="right" height="77">
 
-Além do editor e interpretador de código JavaScript, podemos também utilizar o depurador, que é uma ferramenta que nos permite, entre outras coisas, pausar o programa no local indicado e analisar o seu estado atual (por exemplo, os valores das variáveis ​​indicadas).
-
-É claro que as ferramentas em questão deverão ser executadas no computador. Nesta fase, o seu desempenho não é particularmente importante, e qualquer unidade que possa lidar com tarefas normais de escritório será suficiente, por isso é altamente recomendável trabalhar a partir de um computador desktop ou laptop.
-Não há como negar que o tamanho do monitor afetará o conforto do seu trabalho. Quanto maior o monitor, mais fácil será colocar o editor de código, o intérprete e outros conteúdos (por exemplo, este curso) próximos uns dos outros. Em circunstâncias normais de trabalho, os programadores costumam usar vários monitores.
+Além do editor e interpretador de código JavaScript, podemos também utilizar o depurador, que é uma ferramenta que nos permite, entre outras coisas, pausar o programa no local indicado e analisar o seu estado atual (por exemplo, os valores das variáveis ​​indicadas). É claro que as ferramentas em questão deverão ser executadas no computador. Nesta fase, o seu desempenho não é particularmente importante, e qualquer unidade que possa lidar com tarefas normais de escritório será suficiente, por isso é altamente recomendável trabalhar a partir de um computador desktop ou laptop. Não há como negar que o tamanho do monitor afetará o conforto do seu trabalho. Quanto maior o monitor, mais fácil será colocar o editor de código, o intérprete e outros conteúdos (por exemplo, este curso) próximos uns dos outros. Em circunstâncias normais de trabalho, os programadores costumam usar vários monitores.
 
 O sistema operacional não importa, pois a ferramenta apropriada pode ser encontrada para Windows, macOS e Linux.
 
@@ -1724,7 +1721,7 @@ Tabela de métodos que definem o tempo no JS:
 
 
 # 📜 [JS] Procedural/Imperativo JavaScript
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/87fec5b0-4ce8-49eb-9be7-e00ffcac3b81" height="77" align="right">
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6744885c-dd7c-4555-8a59-5ff484c5f90f" height="77" align="right">
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
@@ -1773,7 +1770,7 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 ### 2° Solução: Num arquivo a ser importado
  
-# ⛓️ [JS] Prototype
+## [JS] Prototype
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
 
 Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado **prototype**. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
@@ -1886,7 +1883,7 @@ Exemplo 2: Função com vários argumentos (método antigo do ES6)
 Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
-## Rest Operator
+## [JS] Rest Operator
 Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 Exemplo:
