@@ -1669,14 +1669,9 @@ variável data = new Date();
 console.log(data.getTime());
 ```
 
-O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript:
+O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript, veja os exemplos abaixo:
 
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103485348-66eac700-4dd4-11eb-86a3-f9999105e40f.jpg)
-
-Tabela de métodos que definem o tempo no JS:
-
-<table>
+<table align="left">
   <tr>
     <td>Método</code></td>
     <td>Função do método</code></td>
@@ -1719,6 +1714,17 @@ Tabela de métodos que definem o tempo no JS:
   </tr>
 </table>
 
+```javascript
+const ano = new Date();
+console.log(ano.getFullYear());
+// Output: 2024
+```
+
+```javascript
+const dia = new Date();
+console.log(dia.getDate());
+// Output: Dia atual
+```
 
 # 📜 [JS] Procedural/Imperativo JavaScript
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
