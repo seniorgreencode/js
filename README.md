@@ -1056,11 +1056,15 @@ console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4
 ```
 
 ## [JS] Objetos
-Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos.
+Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`.
+
+```javascript
+let objeto = {
+  
+}
+```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467659-030ec280-4d30-11eb-9ab5-9fe4ab065691.jpg)
-
-Criação: Um objeto vazio é bem simples de criar.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467820-c9d75200-4d31-11eb-9676-04e0a7b7f2f9.jpg)
 
