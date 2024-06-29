@@ -1188,6 +1188,37 @@ console.log(pessoas[0].nome); // Output: 'Alice'
 console.log(pessoas[1].idade); // Output: 30
 ```
 
+Podemos também fazer **objetos com arrays como propriedades**, você pode ter um objeto que contém arrays como valores de suas propriedades. Isso é útil para organizar dados relacionados.
+
+Exemplo: objetos com arrays como propriedades em uma variável `turma`.
+
+```javascript
+const turma = {
+  nome: 'Turma A',
+  alunos: ['Alice', 'Bob', 'Carol']
+};
+
+console.log(turma.nome); // Saída: 'Turma A'
+console.log(turma.alunos[1]); // Saída: 'Bob'
+```
+
+Além disso, podemos trabalhar com **objetos aninhados em arrays**, onde você pode aninhar objetos dentro de arrays e vice-versa para criar estruturas de dados mais complexas.
+
+Exemplo: objetos aninhados em arrays com a variável `escola`.
+
+```javascript
+const escola = {
+  nome: 'Escola XYZ',
+  turmas: [
+    { nome: 'Turma A', alunos: ['Alice', 'Bob'] },
+    { nome: 'Turma B', alunos: ['Carol', 'Dave'] }
+  ]
+};
+
+console.log(escola.turmas[0].alunos[1]); // Saída: 'Bob'
+console.log(escola.turmas[1].nome); // Saída: 'Turma B'
+```
+
 ## [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
