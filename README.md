@@ -1058,7 +1058,7 @@ console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4
 ## [JS] Objetos
 Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
 
-Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim.
+Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim. Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
 
 ```javascript
 let veiculo = {
@@ -1069,15 +1069,14 @@ let veiculo = {
   ano: 2017,
   venda: true
 }
+
+carro.portas = 4;
+carro["cor"] = "vermelho";
+
+console.log(veiculo);
 ```
 
-Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469652-47a55880-4d46-11eb-973f-07edec2c5571.jpg)
-
-Note que se você usar a segunda opção, precisa ter uma String dentro dos <code>[ ]</code>.
-
-A alteração de dados funciona da mesma forma.
+Note que se você usar a segunda opção, precisa ter uma String dentro dos `[ ]`. A alteração de dados funciona da mesma forma.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
 
