@@ -684,7 +684,7 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 	  </tr>
       <tr>
 	  <td><code>double</code></td>
-	  <td>`else`</td>
+	  <td><code>else</code></td>
 	  <td><code>enum</code></td>
 	  <td><code>eval</code></td>
 	  </tr>
@@ -703,7 +703,7 @@ O importante também é que o interpretador JavaScript faça distinção entre l
       <tr>
 	  <td><code>goto</code></td>
 	  <td><code>implements</code></td>
-	  <td>`if`</td>
+	  <td><code>if</code></td>
 	  <td><code>import</code></td>
 	  </tr>
       <tr>
@@ -753,8 +753,7 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 	  <td><code>while</code></td>
 	  <td><code>with</code></td>
 	  <td><code>yield</code></td>
-	  </tr>
-
+      </tr>
 </tbody></table>
 
 Vamos ver como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
