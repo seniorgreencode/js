@@ -1116,39 +1116,39 @@ Tabela de métodos de Arrays
 <table>
   <tr>
     <td>Método</code></td>
-    <td>Função do método</code></td>
+    <td>Função do método</td>
   </tr>
   <tr>
     <td><code>push("value")</code></code></td>
-    <td>Adiciona elemento</code></td>
+    <td>Adiciona elemento</td>
   </tr>
   <tr>
     <td><code>pop("array value")</code></code></td>
-    <td>Retira elemento</code></td>
+    <td>Retira elemento</td>
   </tr>
   <tr>
-    <td>length</code></td>
-    <td>Retorna o tamanho da lista ou n° de elementos</code></td>
+    <td><code>length</code></td>
+    <td>Retorna o tamanho da lista ou n° de elementos</td>
   </tr>
   <tr>
-    <td>filter(function(currentValue, index, arr), thisValue)</code></td>
-    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)</code></td>
+    <td><code>filter(function(currentValue, index, arr), thisValue)</code></td>
+    <td>Cria um array preenchida com todos os elementos do array que passam em um teste (fornecido como uma função)</td>
   </tr>
   <tr>
-    <td>toString(Array)</code></td>
-    <td>Mostra todos os itens da lista</code></td>
+    <td><code>toString(Array)</code></td>
+    <td>Mostra todos os itens da lista</td>
   </tr>
    <tr>
-    <td>join()</code></td>
-    <td>Substitui elementos que separam a string</code></td>
+    <td><code>join()</code></td>
+    <td>Substitui elementos que separam a string</td>
   </tr>
   <tr>
-    <td>reverse()</code></td>
-    <td>Reverte</code></td>
+    <td><code>reverse()</code></td>
+    <td>Reverte</td>
   </tr>
   <tr>
-    <td>shift("array value")</code></td>
-    <td>Remove o item</code></td>
+    <td><code>shift("array value")</code></td>
+    <td>Remove o item</td>
   </tr>
 </table>
 
