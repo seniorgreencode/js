@@ -1017,6 +1017,37 @@ const nome = prompt('Digite o seu nome: ');
 console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
 
+<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
+
+Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma `String` no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja a tabela de métodos para os valores em JS:
+
+<table>
+    <tr>
+      <td>Método</code></td>
+      <td>Função do método</td>
+  </tr>
+  <tr>
+  <td><code>replace("", "")</code></td>
+  <td>muda a <code>String</code> selecionada por outra <code>string</code> informada</td>
+  </tr>
+  <tr>
+    <td><code>toUpperCase()</code></td>
+    <td>Todas as letras maiúsculas da <code>String</code></td>
+  </tr>
+  <tr>
+    <td><code>toLowerCase()</code></td>
+    <td>Todas as letras minúsculas da <code>String</code></td>
+  </tr>
+</table>
+
+Exemplo:
+
+```javascript
+var frase = "O Brasil é o melhor país do mundo!";
+console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
+// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
+```
+
 # 📜 [JS] Arrays
 Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
 
@@ -1269,38 +1300,6 @@ Exemplo:
 var fruta = [{nome: "maçã", cor: "verde"}, {nome: 'uva', cor: 'roxa'}];
 console.log(fruta[1].nome, fruta[0].cor);
 // Output: uva verde
-```
-
-## [JS] Valores
-<img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
-
-Já vimos como alterar o **valor** de uma variável ou de um item no array no JavaScript, mas posso mudar o nome de uma `String` no JS? Como faço para mudar o nome de uma string no JavaScript? A resposta para essa pergunta é com uma série de métodos que alteram os valores das variáveis, veja a tabela de métodos para os valores em JS:
-
-<table>
-    <tr>
-      <td>Método</code></td>
-      <td>Função do método</td>
-  </tr>
-  <tr>
-  <td><code>replace("", "")</code></td>
-  <td>muda a <code>String</code> selecionada por outra <code>string</code> informada</td>
-  </tr>
-  <tr>
-    <td><code>toUpperCase()</code></td>
-    <td>Todas as letras maiúsculas da <code>String</code></td>
-  </tr>
-  <tr>
-    <td><code>toLowerCase()</code></td>
-    <td>Todas as letras minúsculas da <code>String</code></td>
-  </tr>
-</table>
-
-Exemplo:
-
-```javascript
-var frase = "O Brasil é o melhor país do mundo!";
-console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
-// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
 
 # 📜 [JS] Estruturas de programação
