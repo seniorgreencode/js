@@ -1249,6 +1249,28 @@ pessoas.forEach(pessoa => {
 // Dave tem 40 anos.
 ```
 
+Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>. Dicionário é um termo genérico usado para descrever uma estrutura de dados que armazena pares chave-valor e permite a recuperação eficiente de valores baseados em suas chaves. Em muitas linguagens de programação, como Python, há uma estrutura de dados específica chamada "dicionário" (`dict`). No JavaScript, os **objetos** são usados como a implementação padrão desse conceito.
+
+Embora JavaScript não tenha uma estrutura de dados chamada "dicionário", um objeto JavaScript pode funcionar de forma muito semelhante a um dicionário em outras linguagens:
+
+Exemplo:
+
+```javascript
+var fruta = {nome: "maçã", cor: "verde"};
+console.log(fruta.nome, fruta.cor);
+// Output: maçã verde
+```
+
+> Obs: Também funcionam com arrays, dessa forma `[{ }]`.
+
+Exemplo:
+
+```javascript
+var fruta = [{nome: "maçã", cor: "verde"}, {nome: 'uva', cor: 'roxa'}];
+console.log(fruta[1].nome, fruta[0].cor);
+// Output: uva verde
+```
+
 ## [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
@@ -1280,31 +1302,6 @@ var frase = "O Brasil é o melhor país do mundo!";
 console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
 // Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
-
-## [JS] Dicionários
-Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
-
-Exemplo:
-
-```javascript
-var frase = "O Brasil é o melhor país do mundo!";
-console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
-// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
-
-Também funcionam com arrays, dessa forma `[{ }]`.
-
-Exemplo 2:
-
-```javascript
-var frase = "O Brasil é o melhor país do mundo!";
-console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
-// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 [JS] Estruturas de programação
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/cbe79d06-9676-4415-bc64-38a52e360d1b" align="right" height="177">
@@ -1431,19 +1428,18 @@ O comando `break` (quebrar) serve para pausar a execução por cada `case` (caso
 
 Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops).
 
-Imagine que você queira imprimir na tela a soma de todos os números de 1 a 100. Daria muito trabalho digitar tudo.
-  
-E se precisássemos alterar esse 100 para 1.000? Ou 1.000.000? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
+Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
 O `for` loop executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
 1. Normalmente é a criação de uma variável de controle.
 
-2. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “false”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina!
+2. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “`false`”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina!
 
 3. Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
 
 Sintaxe:
+
 ```javascript
 for (declaração 1; declaração 2; declaração 3) {
   // code block to be executed
@@ -1451,16 +1447,18 @@ for (declaração 1; declaração 2; declaração 3) {
 ```
 
 Exemplo: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
 
 Exemplo 2: Podemos ler ou modificar todos os itens de um vetor.
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
 
 Exemplo 3:
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
-`For in`
-Este loop serve para percorrer pelas propriedades de um objeto.
+`For in` este loop serve para percorrer pelas propriedades de um objeto.
 <pre>for (variável in interável) {
   // bloco de código a ser executado
 }</pre>
