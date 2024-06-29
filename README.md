@@ -1055,30 +1055,6 @@ vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
 console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
 ```
 
-## [JS] Objetos
-Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
-
-Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim. Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
-
-```javascript
-let veiculo = {
-  rodas: 4,
-  cor: "branco",
-  marca: "Hyundai",
-  Modelo: "Hyundai Creta",
-  ano: 2017,
-  venda: true
-}
-
-carro.portas = 4;
-carro["cor"] = "vermelho";
-
-console.log(veiculo);
-```
-
-Note que se você usar a segunda opção, precisa ter uma String dentro dos `[ ]`. A alteração de dados funciona da mesma forma.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103469746-77089500-4d47-11eb-87b7-8e5f07697e0d.jpg)
 
 Outra forma de inserir um array "separadamente":
 
@@ -1152,9 +1128,7 @@ Tabela de métodos de Arrays
   </tr>
 </table>
 
-Remova itens duplicados de array
-
-Use `filter` para obter itens únicos de uma array
+Exemplo: Caso queira remover itens duplicados de array, use `filter` para obter itens únicos de uma array.
 
 ```javascript
 const techs = [
@@ -1174,6 +1148,44 @@ const filteredTechs = techs.filter((tech, index) => {
 })
 
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
+```
+
+## [JS] Objetos
+Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
+
+Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim. Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
+
+```javascript
+let veiculo = {
+  rodas: 4,
+  cor: "branco",
+  marca: "Hyundai",
+  Modelo: "Hyundai Creta",
+  ano: 2017,
+  venda: true
+}
+
+veiculo.portas = 4;
+veiculo["cor"] = "vermelho";
+
+console.log(veiculo); // Output: {rodas: 4, cor: 'vermelho', marca: 'Hyundai', Modelo: 'Hyundai Creta', ano: 2017, …}
+```
+
+Note que se você usar a segunda opção, precisa ter uma `String` dentro dos `[ ]`, a alteração de dados funciona da mesma forma. 
+
+Podemos também inserir objetos dentro de arrays, fomando **Arrays de Objetos** `[{ }]`, você pode ter um array que contém vários objetos. Isso é útil, por exemplo, para representar uma lista de itens, onde cada item é um objeto com várias propriedades.
+
+Exemplo: Array de objetos `pessoas`.
+
+```javascript
+const pessoas = [
+  { nome: 'Alice', idade: 25 },
+  { nome: 'Bob', idade: 30 },
+  { nome: 'Carol', idade: 35 }
+];
+
+console.log(pessoas[0].nome); // Output: 'Alice'
+console.log(pessoas[1].idade); // Output: 30
 ```
 
 ## [JS] Valores
