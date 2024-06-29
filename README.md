@@ -1763,39 +1763,39 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
     <td>Função do método</code></td>
   </tr>
     <tr>
-    <td>getDate()</code></td>
+    <td><code>getDate()</code></td>
     <td>Define a data atual</code></td>
   </tr>
     <tr>
-    <td>getFullYear()</code></td>
+    <td><code>getFullYear()</code></td>
     <td>Define o ano atual e completo</code></td>
   </tr>
   <tr>
-    <td>getYear()</code></td>
+    <td><code>getYear()</code></td>
     <td>Define o ano e incompleto</code></td>
   </tr>
   <tr>
-    <td>getMonth()</code></td>
+    <td><code>getMonth()</code></td>
     <td>Define os meses</code></td>
   </tr>
   <tr>
-    <td>getDay()</code></td>
+    <td><code>getDay()</code></td>
     <td>Define o dia</code></td>
   </tr>
   <tr>
-    <td>getHours()</code></td>
+    <td><code>getHours()</code></td>
     <td>Define as horas</code></td>
   </tr>
   <tr>
-    <td>getMinutes()</code></td>
+    <td><code>getMinutes()</code></td>
     <td>Define os minutos</code></td>
   </tr>
   <tr>
-    <td>getMilliseconds()</code></td>
+    <td><code>getMilliseconds()</code></td>
     <td>Define os milisegundos</code></td>
   </tr>
     <tr>
-    <td>getSeconds()</code></td>
+    <td><code>getSeconds()</code></td>
     <td>Define os segundos</code></td>
   </tr>
 </table>
