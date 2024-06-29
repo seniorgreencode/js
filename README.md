@@ -1020,12 +1020,6 @@ console.log(`Parabéns! Você é um campeão ${nome}!`);
 # 📜 [JS] Arrays
 Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
 
-Exemplo:
-
-```javascript
-let vetor = [ ];
-```
-
 Exemplo: Vamos atribuir valores, você pode criar um vetor com seus valores separados por vírgula.
 
 ```javascript
