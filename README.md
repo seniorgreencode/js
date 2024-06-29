@@ -1049,7 +1049,7 @@ Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você p
 2. Inserir um novo valor em uma posição específica.
 
 ```javascript
-let vetor = [1, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
+let vetor = [3, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
 vetor[11] = 7; // Inserindo o valor 7 na posição 11, cujo não existia, mas foi criada após a execução.
 vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
 console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
@@ -1059,14 +1059,15 @@ console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4
 Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`.
 
 ```javascript
-let objeto = {
-  
+let carro = {
+  rodas: 4,
+  cor: "branco",
+  marca: "Hyundai",
+  Modelo: "Hyundai Creta",
+  ano: 2017,
+  venda: true
 }
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467659-030ec280-4d30-11eb-9ab5-9fe4ab065691.jpg)
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467820-c9d75200-4d31-11eb-9676-04e0a7b7f2f9.jpg)
 
 No caso de um objeto com propriedades (variáveis), fazemos assim:
 
@@ -1214,11 +1215,25 @@ console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
 Existe outra forma de inserir variáveis de uma só vez e chamar elas de uma vez, com os **dicionários** do JS que envolvem as variáveis entre <code>{ }</code>, veja o exemplo abaixo:
 
 Exemplo:
+
+```javascript
+var frase = "O Brasil é o melhor país do mundo!";
+console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
+// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489687-eab4ab80-4df4-11eb-8fd9-ca7e330d5c21.jpg)
 
-Também funcionam com arrays, dessa forma `[{ }]`:
+Também funcionam com arrays, dessa forma `[{ }]`.
 
 Exemplo 2:
+
+```javascript
+var frase = "O Brasil é o melhor país do mundo!";
+console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
+// Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103489857-53505800-4df6-11eb-9a02-ef2c6d90a396.jpg)
 
 # 📜 [JS] Estruturas de programação
