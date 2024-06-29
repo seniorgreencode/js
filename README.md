@@ -1219,6 +1219,42 @@ console.log(escola.turmas[0].alunos[1]); // Saída: 'Bob'
 console.log(escola.turmas[1].nome); // Saída: 'Turma B'
 ```
 
+Portanto, podemos manipular arrays e objetos, podemos facilmente adicionar, remover ou modificar elementos em arrays e objetos usando métodos e operadores JavaScript. Veja o exemplo abaixo:
+
+```javascript
+// Adicionar um objeto a um array
+pessoas.push({ nome: 'Dave', idade: 40 });
+console.log(pessoas);
+
+// Modificar uma propriedade de um objeto dentro de um array
+pessoas[0].idade = 26;
+console.log(pessoas[0]);
+
+// Adicionar um novo aluno a uma turma
+escola.turmas[0].alunos.push('Eve');
+console.log(escola.turmas[0].alunos);
+```
+
+Podemos também usar laços de repetição, iterando sobre arrays de objetos, você pode usar loops para iterar sobre arrays de objetos e acessar ou modificar suas propriedades.
+
+```javascript
+const pessoas = [
+  { nome: 'Alice', idade: 25 },
+  { nome: 'Bob', idade: 30 },
+  { nome: 'Carol', idade: 35 }
+];
+
+pessoas.forEach(pessoa => {
+  console.log(`${pessoa.nome} tem ${pessoa.idade} anos.`);
+});
+
+// Output:
+// Alice tem 26 anos.
+// Bob tem 30 anos.
+// Carol tem 35 anos.
+// Dave tem 40 anos.
+```
+
 ## [JS] Valores
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
