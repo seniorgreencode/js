@@ -1447,12 +1447,6 @@ Imagine que você queira imprimir na tela a soma de todos os números de `1` a `
 
 O **`for` loop** executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
-1. Normalmente é a criação de uma variável de controle.
-
-2. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “`false`”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina!
-
-3. Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
-
 Sintaxe:
 
 ```javascript
@@ -1461,7 +1455,7 @@ for (declaração 1; declaração 2; declaração 3) {
 }
 ```
 
-Exemplo: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
+Exemplo: Normalmente é a criação de uma variável de controle. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “`false`”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina! Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
 
 ```javascript
 for (var i = 0; i < 10; i++) { // i += 1 , i + 8
