@@ -455,19 +455,15 @@ O sinal `+` é um operador, o qual podemos usar para somar dois valores numéric
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
 ## [JS] Operadores Lógicos
-Chamamos de **Operadores Lógicos** aqueles que nos ajudam a trabalhar com o tipo `Boolean` (verdadeiro ou falso).
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/2caeeae0-19de-4294-85cb-b692067dfdb2" align="right" height="177">
 
-O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`).
+Chamamos de **Operadores Lógicos** aqueles que nos ajudam a trabalhar com o tipo `Boolean` (verdadeiro ou falso). Assim como na tabela-verdade e portas lógicas, o `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`). Vamos se basear no seguinte exemplo: `sorvete de baunilha`
 
-Exemplo: `Copo azul`
+Operador `&&` (AND): Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um `sorvete E é baunilha`, são duas verdades, o que resulta em `true`.
 
-Operador `&&` (AND): Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
+E se tivermos duas mentiras, o resultado só pode ser falso. Se eu disser que esse objeto é um `garfo E é vermelho`, são duas mentiras, o que resulta em `false`.
 
-E se tivermos duas mentiras, o resultado só pode ser falso. Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em `false`.
-
-Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja falsa.
-
-Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa torna a frase inteira falsa.
+Agora, se eu disser algo falso e algo verdadeiro (ou verdadeiro e falso, não importa a ordem), isso fará com que minha frase seja falsa. Se eu disser que é um `sorvete E é chocolate`, uma simples parte falsa torna a frase inteira falsa.
 
 > Dica: Resumindo, o resultado do operador `&&` só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.
 
