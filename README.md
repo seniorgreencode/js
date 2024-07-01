@@ -325,15 +325,19 @@ console.log(undefined !== null); // Output: true
 Resumidamente, isto ocorre pois `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
 
 ### [JS] `Number`
-O tipo `number` é usado para armazenar valores numéricos.
-  
-Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
+O tipo `number` é usado para armazenar valores numéricos. Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
 
 - Número inteiro (int): `5`
 - Número flutuante (float): `5.3157`
 - Para números muito grandes, podemos usar a notação científica, adicionando um "`e`" seguido pelo expoente do número.
 - `2.998e8`
 - Isso é o mesmo que `2,998 x 10^8`, que é igual a `299.800.000`
+
+```javascript
+const obj = {};
+const result = obj.toString.apply(7);
+console.log(result) // Output: [object] number
+```
 
 ### [JS] Números Especiais
 Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
