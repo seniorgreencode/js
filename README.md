@@ -1598,6 +1598,15 @@ Algumas funções são peculiares da própria linguagem de programação JavaScr
 - Hoisting de funções.
 - Funções anônimas e IIFEs (Immediately Invoked Function Expressions).
 
+Exemplo: Um simples exemplo de cálculo de soma de valores.
+
+```javascript
+function soma(n1,n2){
+  return n1 + n2;
+}
+console.log(soma(7,7)); // Output: 14
+```
+
 Exemplo: Testando o tamanho do valor inserido.
 
 ```javascript
@@ -1727,8 +1736,6 @@ Veja agora, uma função anônima imediatamente invocada, em comparação ao Exe
   return 'Hello World';
 })()
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
 Exemplo: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
 
