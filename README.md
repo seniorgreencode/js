@@ -164,11 +164,9 @@ duas ou mais linhas
 ```
 
 # 📜 [JS] O que são dados?
-<a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data__Engineering-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
+<a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
 
-Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados.
-
-Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
+Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados. Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
 
 A maior parte das linguagens de programação trabalha com variações baseadas nos quatro tipos primitivos abaixo:
 
