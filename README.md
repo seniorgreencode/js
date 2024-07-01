@@ -1597,6 +1597,23 @@ Algumas funções são peculiares da própria linguagem de programação JavaScr
 - Hoisting de funções.
 - Funções anônimas e IIFEs (Immediately Invoked Function Expressions).
 
+Exemplo: Testando o tamanho do valor inserido.
+
+```javascript
+function testarTamanho(valor){
+  if(valor > 0){
+    return "maior";
+  }
+  else if(valor < 0){
+    return "menor";
+  }
+  else if(valor >= 3 && valor <= 3){
+    return "na faixa"
+  }
+}
+console.log(testarTamanho(20)) // Output: maior
+```
+
 Exemplo:
 
 ```javascript
@@ -1709,9 +1726,6 @@ Veja agora, uma função anônima imediatamente invocada, em comparação ao Exe
   return 'Hello World';
 })()
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492431-91a34280-4e09-11eb-88b2-35e526530318.jpg)
-
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103492479-ec3c9e80-4e09-11eb-92e6-638585d008f5.jpg)
 
