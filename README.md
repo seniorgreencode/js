@@ -292,32 +292,35 @@ Há uma diferença bem pequena entre `undefined` e `null`. Na verdade a existên
 Resumidamente, `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
 
 ```javascript
+let x = null;
+let y = 1;
+y = null;
 
+console.log(x,y);
 ```
 
 `Null`: O `null` é um tipo de dado especial, ele representa a falta de valor de qualquer outro tipo de dado.
 
+Exemplo: Neste exemplo, `obj` é um objeto vazio, e tentamos acessar uma propriedade chamada `someProperty` e o método `someMethod` que não existe. Isso resultará em um erro e, consequentemente, em `null` como saída.
+
 ```javascript
-
+const obj = {};
+const result = obj?.someProperty?.someMethod() ?? null;
+console.log(result); // Output: null
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467110-6990e200-4d2a-11eb-9fbb-68f39ed8d249.jpg)
 
 `Undefined`: Este tipo de dado aparece quando criamos uma variável e tentamos acessar seu valor antes de ter atribuído algo a ela.
 
 ```javascript
-
+let x;
+console.log(x); // Output: undefined
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467297-8b8b6400-4d2c-11eb-852b-93ad43fe1136.jpg)
 
 `Undefined !== Null`: `undefined` e `null` são diferentes.
 
 ```javascript
-
+console.log(undefined !== null); // Output: true
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103467504-64359680-4d2e-11eb-833d-6dca7fe3531b.jpg)
 
 Resumidamente, isto ocorre pois `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
 
@@ -458,9 +461,7 @@ O `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamen
 
 Exemplo: `Copo azul`
 
-Operador `&&` (AND):
-
-Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
+Operador `&&` (AND): Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um <code>copo E é azul</code>, são duas verdades, o que resulta em `true`.
 
 E se tivermos duas mentiras, o resultado só pode ser falso. Se eu disser que esse objeto é um <code>garfo E é vermelho</code>, são duas mentiras, o que resulta em `false`.
 
@@ -470,9 +471,7 @@ Se eu disser que é um <code>copo E é laranja</code>, uma simples parte falsa t
 
 > Dica: Resumindo, o resultado do operador `&&` só será verdadeiro se tudo na operação também for verdadeira. Basta apenas um elemento ser falso que o resultado se tornará falso.
 
-Operador `||` (OU):
-
-Vamos usar o mesmo copo azul para explicar o operador **OU**. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
+Operador `||` (OU): Vamos usar o mesmo `copo azul` para explicar o operador **OU**. Se eu disser duas verdades, o resultado só pode ser verdadeiro. Se eu disser que o objeto é um <code>copo OU é azul</code>, são duas verdades, o que resulta em `true`.
 
 Se eu disser duas mentiras, o resultado só pode ser falso. Se eu disser é um <code>garfo OU é vermelho</code>, são duas mentiras, o que resulta em `false`.
 
@@ -481,6 +480,24 @@ Agora aqui é diferente do `&&`. Em uma comparação `||`, se houver uma verdade
 Se eu disser que o objeto é um <code>copo OU é verde</code> (a ordem não importa), eu não estou mentindo. O resultado aqui será true.
 
 > **Dica**: Resumindo, o resultado do operador `||` só será falso se tudo na operação também for falso. Basta apenas um elemento ser verdadeiro que o resultado se tornará verdadeiro.
+
+Operador `??`: O operador de coalescência nula (`??`) em JavaScript é um operador lógico que retorna o seu operando do lado direito quando o operando do lado esquerdo é `null` ou `undefined`. Caso contrário, ele retorna o seu operando do lado esquerdo.
+
+Em outras palavras:
+
+- Se o valor à esquerda do operador for `null` ou `undefined`, o valor à direita é retornado.
+- Se o valor à esquerda não for `null` nem `undefined`, o valor à esquerda é retornado.
+
+Isso é útil para fornecer um valor padrão quando o valor original é `null` ou `undefined`. Por exemplo:
+
+```javascript
+const valorOriginal = null;
+const valorPadrao = "Olá!";
+const resultado = valorOriginal ?? valorPadrao;
+console.log(resultado); // Output: "Olá!"
+```
+
+O operador de coalescência nula evita comportamentos inesperados que podem ocorrer com o operador lógico OR (`||`), que também é usado para fornecer valores padrão, mas considera outros valores “**falsy**” (como `0`, `‘’`, ou `NaN`) como utilizáveis.
 
 ## [JS] Operadores Aritméticos
 Os **Operadores Aritméticos** são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
