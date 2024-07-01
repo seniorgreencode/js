@@ -249,6 +249,8 @@ print(a); // Imprime o dado
 ```
 
 ## [JS] Tipos primitivos
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/4b63bc9b-6986-4186-9c7d-449678082766" align="right" height="77">
+
 Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (`0` e `1`).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
