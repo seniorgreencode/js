@@ -1465,7 +1465,11 @@ for (declaração 1; declaração 2; declaração 3) {
 
 Exemplo: O `for` é ótimo para ler vetores. Não se preocupe, aprenderemos o que são vetores mais pra frente.
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103056307-59834080-457b-11eb-9c50-ad2ce0646148.jpg)
+```javascript
+for (var i = 0; i < 10; i++) { // i += 1 , i + 8
+  console.log(i); // Output: Imprime o número de 0 a 9
+}
+```
 
 Exemplo 2: Podemos ler ou modificar todos os itens de um vetor.
 
