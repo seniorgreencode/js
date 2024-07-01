@@ -1445,7 +1445,7 @@ Uma das vantagens das máquinas sobre as pessoas é que elas podem executar vár
 
 Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
-O `for` loop executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
+O **`for` loop** executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
 1. Normalmente é a criação de uma variável de controle.
 
@@ -1469,11 +1469,16 @@ for (var i = 0; i < 10; i++) { // i += 1 , i + 8
 }
 ```
 
-Exemplo 2: Podemos ler ou modificar todos os itens de um vetor.
+Exemplo: Podemos ler ou modificar todos os itens de um vetor.
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103058289-8a19a900-4580-11eb-82a4-396c2fa3f9d8.jpg)
+```javascript
+let lista = ["cachorro", "gato", "galinha"];
+for (let i = 0; i < lista.length; i++) {
+   console.log(lista[i]);
+}
+```
 
-Exemplo 3:
+Exemplo:
 
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
 
