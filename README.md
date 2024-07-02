@@ -1084,10 +1084,7 @@ console.log(vetor[1]); // Output: Hello, World!
 console.log(vetor[0]+vetor[4]); // Output: 1100
 ```
 
-Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você pode:
-
-1. Alterar um valor existente;
-2. Inserir um novo valor em uma posição específica.
+Exemplo: Podemos alterar e atribuir valores pelo índice, com o índice, você pode: Alterar um valor existente e inserir um novo valor em uma posição específica.
 
 ```javascript
 let vetor = [3, "Hello, World!", true, 0, false, [0,1,2,3], '100', null, undefined, NaN, (0,1,2,3)];
@@ -1096,18 +1093,21 @@ vetor[0] = 1; // Alterando o índice na posição 0 com o valor 1
 console.log(vetor) // Output: (12) [1, 'Hello, World!', true, 0, false, Array(4), '100', null, undefined, NaN, 3, 7]
 ```
 
+Exemplo: Outra forma de inserir um array "separadamente".
 
-Outra forma de inserir um array "separadamente":
+```javascript
+numero = Array(4);
 
-> [🍎] [🍐] [🍊] [🍇]
+numero[0] = -2;
+numero[1] = 12;
+numero[2] = 4;
+numero[3] = 0;
+numero[4] = -1;
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/106766196-63876d00-6618-11eb-8536-9e362e887874.jpg)
+console.log(numero) // Output: (5) [-2, 12, 4, 0, -1]
+```
 
-Array Mod
-
-> [🍎, 🍐, 🍊, 🍇]
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
+Exemplo: Podemos organizar um array da seguinte forma.
 
 ```javascript
 const cars = [
@@ -1120,6 +1120,10 @@ const cars = [
 
 console.log(cars.sort(Intl.Collator().compare));
 ```
+
+Exemplo: Array Mod
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
 
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
 
