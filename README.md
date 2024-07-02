@@ -1137,6 +1137,10 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
     <td>Método</code></td>
     <td>Função do método</td>
   </tr>
+ <tr>
+    <td><code>sort()</code></code></td>
+    <td></td>
+  </tr>
   <tr>
     <td><code>push("value")</code></code></td>
     <td>Adiciona elemento</td>
@@ -1179,6 +1183,14 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
   <tr>
     <td><code>map()</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>forEach()</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>concat()</code></td>
     <td></td>
   </tr>
   <tr>
