@@ -1161,6 +1161,14 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
     <td><code>find()</code></td>
     <td></td>
   </tr>
+ <tr>
+    <td><code>splice()</code></td>
+    <td></td>
+  </tr>
+ <tr>
+    <td><code>slice()</code></td>
+    <td></td>
+  </tr>
    <tr>
     <td><code>join()</code></td>
     <td>Substitui elementos que separam a string</td>
