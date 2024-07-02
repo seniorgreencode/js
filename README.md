@@ -1128,14 +1128,7 @@ var lista = ["maçã", "laranja", "pêra"];
 console.log(`Adicionando: ${lista.push("uva")} - ${lista[3]} \n Lista atualizada: ${lista.toString()}.\n`);
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
-
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
-
-Tabela de métodos de Arrays
-
-> .("🍎","🍐")
-> .("🍊","🍇")
 
 ![JavaScript-Array-Methods](https://user-images.githubusercontent.com/61624336/112920823-1be50500-90e0-11eb-8adc-7d57c467aab7.jpg)
 
@@ -1164,6 +1157,10 @@ Tabela de métodos de Arrays
     <td><code>toString(Array)</code></td>
     <td>Mostra todos os itens da lista</td>
   </tr>
+ <tr>
+    <td><code>find()</code></td>
+    <td></td>
+  </tr>
    <tr>
     <td><code>join()</code></td>
     <td>Substitui elementos que separam a string</td>
@@ -1173,7 +1170,15 @@ Tabela de métodos de Arrays
     <td>Reverte</td>
   </tr>
   <tr>
+    <td><code>map()</code></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><code>shift("array value")</code></td>
+    <td>Remove o item</td>
+  </tr>
+  <tr>
+    <td><code>unshift("array value")</code></td>
     <td>Remove o item</td>
   </tr>
 </table>
