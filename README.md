@@ -1123,6 +1123,11 @@ console.log(cars.sort(Intl.Collator().compare));
 
 Exemplo: Array Mod
 
+```javascript
+var lista = ["maçã", "laranja", "pêra"];
+console.log(`Adicionando: ${lista.push("uva")} - ${lista[3]} \n Lista atualizada: ${lista.toString()}.\n`);
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103718412-6fdec280-4fa5-11eb-94c2-98a815ef78b4.jpg)
 
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
