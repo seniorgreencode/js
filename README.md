@@ -1130,8 +1130,6 @@ console.log(`Adicionando: ${lista.push("uva")} - ${lista[3]} \n Lista atualizada
 
 Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
 
-![JavaScript-Array-Methods](https://user-images.githubusercontent.com/61624336/112920823-1be50500-90e0-11eb-8adc-7d57c467aab7.jpg)
-
 <table>
   <tr>
     <td>Método</code></td>
@@ -1152,6 +1150,18 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   <tr>
     <td><code>length</code></td>
     <td>Retorna o tamanho da lista ou n° de elementos</td>
+  </tr>
+  <tr>
+    <td><code>reduce()</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>every()</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>some()</code></td>
+    <td></td>
   </tr>
   <tr>
     <td><code>filter(function(currentValue, index, arr), thisValue)</code></td>
