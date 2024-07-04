@@ -1709,15 +1709,6 @@ function inicio() {
 inicio();
 ```
 
-Exemplo: 
-
-```javascript
-function soma(n1,n2){
-  return n1 + n2;
-}
-console.log(soma(5,10));
-```
-
 Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
 
 Exemplo: função anônima atribuída a uma variável.
