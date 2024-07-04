@@ -1205,11 +1205,11 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
   <tr>
     <td><code>shift("array value")</code></td>
-    <td>Remove o item</td>
+    <td></td></td>
   </tr>
   <tr>
     <td><code>unshift("array value")</code></td>
-    <td>Remove o item</td>
+    <td></td>
   </tr>
 </table>
 
@@ -1534,10 +1534,19 @@ for (variável in interável) {
 }
 ```
 
-Exemplo:
+Exemplo: Nesse caso, temos um objeto JS `person`, uma variável do tipo `String` sem texto chamada `text` e uma variável vazia chamada `x`. Quando executamos o laço de repetição `for(x in person)` significa que a variável `x` vazia está em um objeto JS. Logo, a variável sem texto opera a soma juntamente com o objeto JS. 
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
-<blockquote>Output: John Doe 25</blockquote>
+```javascript
+var person = {fname: "John", lname: "Doe", age: 25};
+var text = "";
+var x;
+
+for (x in person){
+  text += person[x];
+}
+
+// Output: JohnDoe25
+```
 
 **`for of` loop** é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
@@ -1595,11 +1604,19 @@ do {
 ```
 
 Exemplo:
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
 Os comandos `continue` e `break` servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
 
 Exemplo:
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 ## [JS] Funções
