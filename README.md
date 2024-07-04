@@ -1621,14 +1621,17 @@ The square root is: ${Math.sqrt(number)}
 } while(number = number)
 ```
 
-Os comandos `continue` e `break` servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
+Os comandos `continue` e `break` servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` (quebrar) quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` (continuar) continua até finalizar a execução.
 
 Exemplo:
 ```javascript
-
+for(var i = 0; i < 5; i++){
+  if (i === 2){
+    continue;
+  }
+  console.log(i);
+}
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103481609-d0f67280-4dba-11eb-99c4-be7be4bff65f.jpg)
 
 ## [JS] Funções
 <img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
