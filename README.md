@@ -1526,7 +1526,7 @@ for(let i = 0; i < valores.length ; i++) {
 }
 ```
 
-`For in` este loop serve para percorrer pelas propriedades de um objeto.
+**`For in` loop** serve para percorrer pelas propriedades de um objeto.
 
 ```javascript
 for (variável in interável) {
@@ -1539,8 +1539,7 @@ Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
 <blockquote>Output: John Doe 25</blockquote>
 
-`For of`
-Este loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
+**`for of` loop** é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
 Sintaxe:
 <pre>for (variável of interável) {
@@ -1553,8 +1552,7 @@ Exemplo:
 Exemplo 2:
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060597-758cdf00-4587-11eb-87e4-28aacbe5468a.jpg)
 
-`While` loop
-Laços de repetição podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
+**`while` loop** são laços de repetição que podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
 Sintaxe:
 ```javascript
@@ -1569,8 +1567,7 @@ Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
 
-`Do while`
-Esse loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
+**`Do while` loop** é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
 Sintaxe:
 ```javascript
