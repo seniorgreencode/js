@@ -1607,10 +1607,19 @@ do {
 
 Exemplo:
 ```javascript
-
+do {
+var number = Number.parseFloat(prompt('Insira um número:'));
+window.alert(`
+The number entered is: ${number} \n
+His predecessor is: ${number-1} \n
+His sucessor is: ${number+1} \n
+The double is: ${number*2} \n
+The triple is: ${number*3} \n
+The half is: ${number/2} \n
+The square root is: ${Math.sqrt(number)}
+`)
+} while(number = number)
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103446306-db025f00-4c5c-11eb-91a3-7522d3c1510b.jpg)
 
 Os comandos `continue` e `break` servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` continua até finalizar a execução.
 
