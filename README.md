@@ -1572,14 +1572,18 @@ Sintaxe:
 ```javascript
 while (condição) {
   // Bloco de código a ser executado
-  incremento++ / decremento--
+  incremento++ || decremento--
 }
 ```
 
-Exemplo:
-Seguindo o exemplo, o código no laço de repetição vai rodar, os números de 0 a 9, enquanto (i) é menor do que 10:
+Exemplo: Seguindo o exemplo, o código no laço de repetição vai rodar, os números de `0` a `9`, enquanto (`i`) é menor do que `10`.
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103141057-c60e5480-46cd-11eb-84e4-31a79e7d1e84.jpg)
+```javascript
+var i = 0;
+while (i < 10) {
+  console.log(i); i++;
+}
+```
 
 **`Do while` loop** é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
