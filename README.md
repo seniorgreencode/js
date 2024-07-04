@@ -2114,7 +2114,7 @@ Exemplo 3:
 **Exemplo 7**:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
-# 📜 [ES6] Rest, Spread Operator e destructing
+# 📜 [ES6] Generators
 Observe a função abaixo:
 
 Exemplo: Função normal
@@ -2356,7 +2356,6 @@ Exemplo 10:
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
-# 📜 [ES6] Generators
 
 ## Symbols
 Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o Symbol.
