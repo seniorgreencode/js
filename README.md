@@ -1507,7 +1507,7 @@ for (var i = 0; i < 10; i++) { // i += 1 , i + 8
 }
 ```
 
-Exemplo: Podemos ler ou modificar todos os itens de um vetor.
+Exemplo: Podemos ler ou modificar todos os itens de um vetor. Nesse caso, estamos interessados em saber o tamanho da nossa lista.
 
 ```javascript
 let lista = ["cachorro", "gato", "galinha"];
@@ -1516,16 +1516,26 @@ for (let i = 0; i < lista.length; i++) {
 }
 ```
 
-Exemplo:
+Exemplo: Combinando as variáveis e multiplicando os itens do array por `2`. Com isso, iremos imprimir somente os valores pares de uma contagem de `1` a `10`.
 
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103059359-a5d27e80-4583-11eb-81eb-45260edda8a9.jpg)
+```javascript
+let valores = [1,2,3,4,5];
+for(let i = 0; i < valores.length ; i++) {
+  valores[i] = valores[i] * 2;
+  console.log(valores[i]);
+}
+```
 
 `For in` este loop serve para percorrer pelas propriedades de um objeto.
-<pre>for (variável in interável) {
+
+```javascript
+for (variável in interável) {
   // bloco de código a ser executado
-}</pre>
+}
+```
 
 Exemplo:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103426737-59e29380-4b9a-11eb-9a15-8226eabdb357.jpg)
 <blockquote>Output: John Doe 25</blockquote>
 
