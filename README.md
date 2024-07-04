@@ -2392,7 +2392,6 @@ Exemplo 4:
 Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
-# 📜 [ES6] Aprenda sobre Generators e onde utilizá-los
 Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
 Exemplo 1: Função normal
