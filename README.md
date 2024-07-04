@@ -2176,7 +2176,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## Spread Operator
+## [JS] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
@@ -2201,7 +2201,7 @@ Exemplo 3:
 **Exemplo 6**: Shallow Clone - um Subobjeto gerando um Spread 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
-## Destructuring
+## [JS] Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
 Exemplo: Destructuring Assignment
@@ -2250,7 +2250,6 @@ Exemplo 3: Comparando identificação
 **Exemplo 4**: Gerando propriedade privada
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
 
-## Propriedades do Symbols
 Você pode modificar o symbols com as suas propriedades.
 
 Exemplo: Well known Symbols
@@ -2311,7 +2310,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## Spread Operator
+## [JS] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
