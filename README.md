@@ -1487,9 +1487,9 @@ O comando `break` (quebrar) serve para pausar a execução por cada `case` (caso
 ## [JS] Laços de Repetição (Loops)
 <img src="https://i.ytimg.com/vi/Kn06785pkJg/maxresdefault.jpg" height="177" align="right"/>
 
-Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops).
+Em ciência da computação, **estruturas iterativas** são construções de programação que permitem a repetição de um bloco de código várias vezes até que uma condição específica seja atendida. Essas estruturas são fundamentais para a execução de tarefas repetitivas de maneira eficiente. Essas estruturas iterativas são essenciais para tarefas como processamento de listas, operações de busca e ordenação, repetição de cálculos até a convergência, e muitas outras situações onde a repetição controlada é necessária.
 
-Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
+Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops). Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
 O **`for` loop** executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
