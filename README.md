@@ -2089,7 +2089,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 <img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
 
-# 📜 [ES6] Default Function Arguments
+## [ES6] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 Exemplo:
@@ -2118,7 +2118,7 @@ A característica que permite podermos utilizar funções para definir valores d
 **Exemplo 6**:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-# [ES6] Enhanced Object Literals
+## [ES6] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 Exemplo:
