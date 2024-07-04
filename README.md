@@ -1542,15 +1542,29 @@ Exemplo:
 **`for of` loop** é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
 Sintaxe:
-<pre>for (variável of interável) {
+
+```javascript
+for (variável of interável) {
   // bloco de código a ser executado 
-}</pre>
+}
+```
 
 Exemplo:
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060468-f39cb600-4586-11eb-8827-fb3508208e56.jpg)
 
-Exemplo 2:
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/103060597-758cdf00-4587-11eb-87e4-28aacbe5468a.jpg)
+```javascript
+let dias = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+for (let dia of dias) {
+  console.log(dia);
+}
+```
+
+Exemplo:
+
+```javascript
+for(let numero of [0,1,2,3,4,5,6,7]){
+  console.log(numero);
+}
+```
 
 **`while` loop** são laços de repetição que podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
