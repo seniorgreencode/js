@@ -204,7 +204,7 @@ Vamos analisar o código do ECMAScript acima:
 
 - `const idade = 30;` Declara uma constante idade usando `const`, o que significa que seu valor não pode ser reatribuído. Inicializa a constante com o número `30`.
 
-- Função Arrow: Define uma função usando a sintaxe de função arrow (=>). A função `saudacao` aceita um parâmetro nome e retorna uma string interpolada usando template literals (cercados por crases ``). A string resultante será `'Olá, Alice!'` se nome for `'Alice'`.
+- Função Arrow: Define uma função usando a sintaxe de função arrow (`=>`). A função `saudacao` aceita um parâmetro nome e retorna uma string interpolada usando template literals (cercados por crases <code>``</code>). A string resultante será `'Olá, Alice!'` se nome for <code>'Alice'</code>.
 
 - Classe `Pessoa`: Define uma classe chamada `Pessoa` usando a nova sintaxe de classes do ES6.
   
