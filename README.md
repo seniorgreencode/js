@@ -2089,7 +2089,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 <img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
 
-## [ES6] Default Function Arguments
+## [ES] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 Exemplo:
@@ -2118,7 +2118,7 @@ A característica que permite podermos utilizar funções para definir valores d
 **Exemplo 6**:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-## [ES6] Enhanced Object Literals
+## [ES] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 Exemplo:
@@ -2142,7 +2142,7 @@ Exemplo 3:
 **Exemplo 7**:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
-# 📜 [ES6] Generators
+# 📜 [ES] Generators
 Observe a função abaixo:
 
 Exemplo: Função normal
@@ -2155,7 +2155,7 @@ Exemplo 2: Função com vários argumentos (método antigo do ES6)
 Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
-## [JS] Rest Operator
+## [ES] Rest Operator
 Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 Exemplo:
@@ -2187,7 +2187,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## [JS] Spread Operator
+## [ES] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
@@ -2212,7 +2212,7 @@ Exemplo 3:
 **Exemplo 6**: Shallow Clone - um Subobjeto gerando um Spread 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
-## [JS] Destructuring
+## [ES] Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
 Exemplo: Destructuring Assignment
@@ -2321,7 +2321,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## [JS] Spread Operator
+## [ES] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
@@ -2346,7 +2346,6 @@ Exemplo 5: Shallow Clone
 Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
-## Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
 
 Exemplo: Destructuring Assignment
