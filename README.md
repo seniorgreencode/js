@@ -826,6 +826,23 @@ console.log(weight); // -> 70
 
 No exemplo acima (confira no editor), as declarações das variáveis ​​`height` e `anotherHeight` são combinadas com sua inicialização, enquanto a variável `weight` é declarada e inicializada separadamente. As variáveis ​​`height` e `weight` são inicializadas fornecendo valores específicos (mais precisamente, um número), enquanto a variável `anotherHeight` recebe um valor lido da variável `height`. Os valores de todas as variáveis ​​são exibidos no console.
 
+A propósito, preste atenção em uma coisa. Se você especificar um nome de variável em `console.log`, o interpretador a reconhecerá e exibirá seu valor. Se você colocar o mesmo nome entre aspas, ele será tratado como texto simples e exibido como tal.
+
+```javascript
+let height = 180;
+console.log(height); // -> 180
+console.log("height"); // -> height
+```
+
+O JavaScript teve algumas mudanças importantes introduzidas em 2009 e 2015. A maioria dessas mudanças estendeu a sintaxe da linguagem com novos elementos, mas algumas delas diziam respeito apenas à operação dos interpretadores JavaScript. Muitas vezes tratava-se de esclarecer o comportamento dos intérpretes em situações potencialmente errôneas, como em casos de inicialização de variáveis ​​sem qualquer declaração prévia. Vejamos um exemplo:
+
+```javascript
+height  =  180;
+console.log(height);  //  ->  180
+```
+
+No início do nosso código, adicionamos `"use strict";`. Esta afirmação mudou radicalmente o comportamento do intérprete. Por que? Usamos isso quando queremos forçar o interpretador a se comportar de acordo com os padrões modernos do JavaScript. Portanto, contanto que você não esteja executando um código muito antigo, você deve sempre usá-lo. E desta vez, usar uma variável sem sua declaração anterior é tratado como um erro. A frase `“use strict”;` deve ser colocado bem no início do código. Isso fará com que o intérprete lide com o restante do código usando o modo estrito, que é o padrão JavaScript moderno. Todos os outros exemplos do nosso curso estarão preparados para funcionar neste modo por padrão, mesmo que `"use strict";` nem sempre aparece no início do código.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
