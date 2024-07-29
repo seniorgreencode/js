@@ -794,6 +794,26 @@ console.log(height);  //  ->  undefined
 
 Uma das diferenças básicas no uso de `var` e `let` é que `let` nos impede de declarar outra variável com o mesmo nome (é gerado um erro). Usar `var` permite declarar novamente uma variável, o que pode levar a erros na execução do programa.
 
+```javascript
+var height;
+var height;
+console.log(height); // -> undefined
+```
+
+O exemplo acima demonstra a possibilidade de redeclarar uma variável usando a palavra-chave `var`. Nesta situação não causará erro, mas em programas mais complexos uma redeclaração, principalmente por acidente, pode não ser mais isenta de consequências. Ao declarar com `let`, o interpretador verifica se tal variável já foi declarada, independentemente de `let` ou `var` ter sido usado na declaração anterior.
+
+```javascript
+let height;
+let height; // -> Uncaught SyntaxError: Identifier 'height' has already been declared
+console.log(height);
+```
+
+Portanto, use `let` para declarar variáveis, mesmo porque você não deseja declarar acidentalmente uma variável novamente.
+
+Após uma declaração bem-sucedida, a variável deve ser inicializada, ou seja, deve receber seu primeiro valor. A inicialização é feita atribuindo um determinado valor a uma variável (indicada pelo seu nome). Para atribuí-lo, usamos o operador `=`.
+
+Você pode atribuir a uma variável: um valor específico; o conteúdo de outra variável; ou, por exemplo, o resultado retornado por uma função. A inicialização pode ser feita junto com a declaração ou separadamente como um comando independente. É importante inserir o primeiro valor na variável antes de tentar lê-la, modificá-la ou exibi-la.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
