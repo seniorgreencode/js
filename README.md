@@ -660,8 +660,6 @@ Em muitas linguagens de programação, como Java, C# e TypeScript, precisamos in
 
 O JavaScript possui o que chamamos de "Inferência de Tipo". Nós não precisamos declarar o tipo da variável. Se passarmos um número para uma variável, o JavaScript já saberá que aquela variável será do tipo `Number`. Isso também ocorre em linguagens como PHP, Python, Ruby e C# (sim, o C# também aceita inferência de tipos). Nesse caso, dizemos que a linguagem possui uma "Tipagem Dinâmica". Além disso, as variáveis do JS se organizam de cima para baixo.
 
-Nomeando as variáveis:
-
 Imagine variáveis ​​como contêineres nos quais você pode armazenar certas informações (tais informações serão chamadas de valores de variáveis). Cada container deverá ter um nome próprio, pelo qual poderemos indicá-lo claramente.
 
 Normalmente temos bastante liberdade na hora de inventar esses nomes, mas lembre-se que eles devem se referir ao que armazenaremos na variável (por exemplo, altura, cor, contador de passos e assim por diante). É claro que o JavaScript não verificará a correlação entre o nome e o conteúdo da variável – é simplesmente uma das muitas boas práticas que tornam mais fácil para nós e para outros entender o código posteriormente.
@@ -779,7 +777,13 @@ Como mencionamos antes, declaramos a variável para reservar um nome para ela. I
 
 Para as declarações, usamos as palavras-chave `var` ou `let` para variáveis ​​e `const` para constantes. Por enquanto, porém, vamos ficar com as variáveis ​​usuais e retornaremos às constantes em um momento. Vamos analisar o seguinte exemplo de código (você também o encontrará na janela do editor – execute-o lá e observe os resultados no console):
 
-Vamos ver como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
+```javascript
+var height;
+console.log(height); // -> undefined
+console.log(weight); // -> Uncaught ReferenceError: weight is not defined
+```
+
+Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
 
