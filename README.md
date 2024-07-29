@@ -841,7 +841,33 @@ height  =  180;
 console.log(height);  //  ->  180
 ```
 
+Agora, veja outro exemplo:
+
+```javascript
+"use  strict";
+   
+height  =  180;  //  ->  Uncaught  ReferenceError:  height  is  not  defined
+console.log(height);
+```
+
 No início do nosso código, adicionamos `"use strict";`. Esta afirmação mudou radicalmente o comportamento do intérprete. Por que? Usamos isso quando queremos forçar o interpretador a se comportar de acordo com os padrões modernos do JavaScript. Portanto, contanto que você não esteja executando um código muito antigo, você deve sempre usá-lo. E desta vez, usar uma variável sem sua declaração anterior é tratado como um erro. A frase `“use strict”;` deve ser colocado bem no início do código. Isso fará com que o intérprete lide com o restante do código usando o modo estrito, que é o padrão JavaScript moderno. Todos os outros exemplos do nosso curso estarão preparados para funcionar neste modo por padrão, mesmo que `"use strict";` nem sempre aparece no início do código.
+
+O `"Strict mode"` é uma funcionalidade do ECMAScript 5 (ES5) que permite que você coloque um programa ou uma função em um modo operacional que ajuda a escrever código mais seguro e de melhor performance. Isso é feito adicionando a linha `"use strict";` no início do seu script ou função. Quando em strict mode, o JavaScript impõe várias restrições que não estão presentes no modo normal (ou "sloppy mode"). Essas restrições ajudam a evitar erros comuns de programação e a criar um código mais previsível.
+
+Principais benefícios do strict mode:
+
+1. Erros silenciosos tornam-se visíveis: Sem o strict mode, certos erros que normalmente passariam despercebidos ou seriam silenciosamente ignorados são agora lançados como exceções.
+2. Impede o uso de variáveis globais acidentais: No modo estrito, atribuir um valor a uma variável que não foi declarada resulta em um erro.
+3. Elimina alguns recursos que são considerados problemáticos: O strict mode desativa algumas funcionalidades do JavaScript que são confusas ou propensas a erros.
+4. Melhora a otimização pelo compilador: O código em strict mode pode ser otimizado de forma mais eficiente pelos compiladores JavaScript.
+
+Exemplo 1: Uso global do strict mode
+
+```javascript
+"use strict";
+
+x = 3.14;  // Isto causará um erro porque x não foi declarado
+```
 
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
