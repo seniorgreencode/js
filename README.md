@@ -792,6 +792,8 @@ let height;
 console.log(height);  //  ->  undefined
 ```
 
+Uma das diferenças básicas no uso de `var` e `let` é que `let` nos impede de declarar outra variável com o mesmo nome (é gerado um erro). Usar `var` permite declarar novamente uma variável, o que pode levar a erros na execução do programa.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
