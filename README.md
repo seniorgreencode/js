@@ -775,6 +775,10 @@ O importante também é que o interpretador JavaScript faça distinção entre l
       </tr>
 </tbody></table>
 
+Como mencionamos antes, declaramos a variável para reservar um nome para ela. Isso é uma simplificação, pois na verdade o espaço de memória também é reservado para a variável, mas quando programamos em JavaScript praticamente nunca precisamos pensar no que acontece na memória. Normalmente, os valores armazenados na variável poderão ser modificados durante a execução do programa (afinal são "variáveis"). Por que normalmente? Porque podemos declarar variáveis ​​cujos valores não podem ser alterados. Para ser honesto, nós nem as chamamos mais de variáveis ​​– nós as chamamos de constantes. 
+
+Para as declarações, usamos as palavras-chave `var` ou `let` para variáveis ​​e `const` para constantes. Por enquanto, porém, vamos ficar com as variáveis ​​usuais e retornaremos às constantes em um momento. Vamos analisar o seguinte exemplo de código (você também o encontrará na janela do editor – execute-o lá e observe os resultados no console):
+
 Vamos ver como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
