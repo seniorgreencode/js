@@ -814,6 +814,18 @@ Após uma declaração bem-sucedida, a variável deve ser inicializada, ou seja,
 
 Você pode atribuir a uma variável: um valor específico; o conteúdo de outra variável; ou, por exemplo, o resultado retornado por uma função. A inicialização pode ser feita junto com a declaração ou separadamente como um comando independente. É importante inserir o primeiro valor na variável antes de tentar lê-la, modificá-la ou exibi-la.
 
+```javascript
+let height = 180;
+let anotherHeight = height;
+let weight;
+console.log(height); // -> 180
+console.log(anotherHeight); // -> 180
+weight = 70;
+console.log(weight); // -> 70
+```
+
+No exemplo acima (confira no editor), as declarações das variáveis ​​`height` e `anotherHeight` são combinadas com sua inicialização, enquanto a variável `weight` é declarada e inicializada separadamente. As variáveis ​​`height` e `weight` são inicializadas fornecendo valores específicos (mais precisamente, um número), enquanto a variável `anotherHeight` recebe um valor lido da variável `height`. Os valores de todas as variáveis ​​são exibidos no console.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
