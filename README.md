@@ -783,6 +783,15 @@ console.log(height); // -> undefined
 console.log(weight); // -> Uncaught ReferenceError: weight is not defined
 ```
 
+A primeira linha é a declaração da variável (podemos ver a palavra-chave (keyword) chamada `var`). Esta declaração significa que a palavra altura (`height`) será tratada como o nome do contêiner para determinados valores. A declaração, como outras instruções JavaScript, deve terminar com ponto e vírgula (`;`). Na segunda linha, tentamos escrever o valor desta variável (ou seja, o que está no container) no console. Como ainda não colocamos nada lá, o resultado é indefinido (`undefined`) (o intérprete conhece essa variável, mas ela ainda não tem valor – o valor é indefinido). Na próxima linha, tentamos imprimir o conteúdo da variável peso (`weight`) que esquecemos de declarar. Desta vez, veremos `ReferenceError`. O interpretador JavaScript, que executa nosso programa, nos informou que não conhece uma variável com este nome (portanto, a própria variável é indefinida).
+
+A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
+
+```javascript
+let height;
+console.log(height);  //  ->  undefined
+```
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
