@@ -841,7 +841,7 @@ height  =  180;
 console.log(height);  //  ->  180
 ```
 
-Agora, veja outro exemplo:
+À primeira vista, você pode ver que esquecemos de declarar a variável `height`. A sintaxe original do JavaScript permitia tal negligência e no momento da inicialização fez esta declaração para nós. Parece uma solução bastante boa, mas infelizmente às vezes pode levar a situações ambíguas e potencialmente errôneas (diremos mais algumas palavras sobre isso enquanto discutimos o escopo). Vamos modificar nosso exemplo:
 
 ```javascript
 "use  strict";
@@ -868,6 +868,50 @@ Exemplo 1: Uso global do strict mode
 
 x = 3.14;  // Isto causará um erro porque x não foi declarado
 ```
+
+Exemplo 2: Uso do strict mode dentro de uma função
+
+```javascript
+function myFunction() {
+    "use strict";
+    y = 3.14;  // Isto causará um erro porque y não foi declarado
+}
+```
+
+Exemplo 3: Erro ao deletar uma propriedade não configurável
+
+```javascript
+"use strict";
+
+var obj = {};
+Object.defineProperty(obj, "x", { value: 42, writable: false });
+obj.x = 9;  // Isto causará um erro porque x não é gravável
+```
+
+Exemplo 4: Erro ao usar palavras reservadas para variáveis
+
+```javascript
+"use strict";
+
+var eval = 5;  // Isto causará um erro
+var arguments = 10;  // Isto causará um erro
+```
+
+Regras específicas do strict mode:
+
+1. Variáveis não declaradas: No strict mode, qualquer tentativa de atribuir um valor a uma variável que não foi declarada previamente resultará em um erro.
+
+2. Palavras reservadas: Palavras que são reservadas para futuras versões do ECMAScript (como `implements`, `interface`, `let`, `package`, `private`, `protected`, public, `static`, e `yield`) não podem ser usadas como identificadores.
+
+3. Parâmetros duplicados: Funções não podem ter parâmetros duplicados.
+
+4. Objeto `this`: Dentro de funções, o valor de `this` não será convertido em objeto global se não estiver definido.
+
+5. Propriedades não configuráveis: Não é possível deletar propriedades não configuráveis.
+
+6. `with` statement: O uso de `with` não é permitido.
+
+Esses exemplos e regras ilustram como o strict mode pode ajudar a evitar erros comuns e melhorar a qualidade do código JavaScript.
 
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
