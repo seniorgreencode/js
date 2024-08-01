@@ -928,6 +928,11 @@ Em nosso exemplo, declaramos uma variável chamada etapas (`steps`). Inicialment
 
 Variáveis ​​na linguagem JavaScript não são digitadas (ou, para ser mais preciso, são digitadas de forma fraca e dinâmica). Isso significa que o JavaScript não controlará o tipo de valor que armazenamos na variável. Qual é exatamente o tipo de dados? Você provavelmente pode responder intuitivamente a essa pergunta sozinho. O tipo determina a pertença de um determinado dado a um determinado conjunto que compartilha as mesmas propriedades e no qual é possível realizar as mesmas operações. Os tipos de dados variam muito dependendo da linguagem de programação. Em JavaScript, os principais tipos são números e sequências de caracteres. Falaremos muito mais sobre tipos no próximo capítulo. Vamos declarar algumas variáveis ​​e inicializá-las com valores de diferentes tipos:
 
+```javascript
+let greeting = "Hello!";
+let counter = 100;
+```
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
