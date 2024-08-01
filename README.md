@@ -1200,6 +1200,8 @@ const  greeting  =  "Hello!";
 greeting  =  "Hi!";  //  ->  Uncaught  TypeError:  Assignment  to  constant  variable.
 ```
 
+O principal objetivo de uma constante é erradicar a possibilidade de alteração acidental de um valor nela armazenado. Isso é importante quando temos alguns valores que realmente nunca deveriam mudar. Exemplos típicos de constantes são caminhos para recursos, tokens e outros dados que nunca mudam durante a vida útil do script. Mas as constantes também podem ser usadas como subresultados em cálculos ou em outros locais onde qualquer informação que tenha sido coletada ou calculada não sofrerá mais alterações. Utilizar um `const`, além de evitar que um valor seja alterado por engano, permite que o mecanismo JavaScript otimize o código, o que pode afetar seu desempenho.
+
 O `const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos! Variáveis declaradas com `const` são ideais para valores que não devem ser reatribuídos ao longo do tempo, proporcionando maior segurança e previsibilidade no código. No entanto, é importante lembrar que `const` não impede a modificação de objetos ou arrays, apenas a reatribuição do identificador da variável, o que o torna imutável é o valor de uma variável declarada com `const` não poder ser reatribuído. Isso significa que após a inicialização, você não pode alterar o valor armazenado nessa variável. Você deve inicializar uma variável `const` no momento em que ela é declarada. Lembrando, não é possível declarar uma variável `const` sem atribuir um valor a ela imediatamente.
 
 ```javascript
