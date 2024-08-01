@@ -943,6 +943,14 @@ console.log(greeting);  //  ->  1
 
 JavaScript nos permite substituir facilmente a variável de saudação por um valor cujo tipo seja diferente daquele originalmente armazenado lá. JavaScript vai um passo além e não apenas nos permite alterar os tipos de valores mantidos em uma variável, mas também realiza sua conversão implícita se necessário (também voltaremos a este tópico de conversão quando discutirmos tipos). Vamos restaurar o valor original da variável saudação e então adicionar o valor da variável contador a ele.
 
+```javascript
+greeting  =  "Hello!";
+greeting  =  greeting  +  counter;
+console.log(greeting);  //  ->  Hello!100
+```
+
+O intérprete verificará o tipo de valor armazenado na variável de saudação e converterá o valor da variável contador para o mesmo tipo antes de realizar uma operação de adição. Como resultado, a string `"100"` será adicionada ao campo `"Hello!"` cadeia de caracteres e armazenada na variável de saudação. A propósito, observe que o JavaScript interpreta 100 como um número, mas `“100”` como uma string.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
