@@ -957,6 +957,17 @@ Até agora, presumimos que após declarar uma variável, seu nome poderia ser us
 
 Podemos separar o código de um programa em blocos. Nos blocos que criamos usando chaves, existe um conjunto de instruções, que por algum motivo devem ser tratadas de forma independente. Os blocos geralmente estão associados a instruções condicionais, loops ou funções, dos quais falaremos mais tarde. Também podemos separar um bloco de um programa não relacionado com nada de especial, simplesmente escolhendo um determinado conjunto de instruções (na prática, isto não se justifica particularmente, e por enquanto apenas o faremos por motivos educativos). Vejamos um exemplo:
 
+```javascript
+let counter;
+console.log(counter);  //  ->  undefined
+{
+  counter  =  1;
+  console.log(counter);  //  ->  1
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
