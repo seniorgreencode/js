@@ -913,6 +913,21 @@ Regras específicas do strict mode:
 
 Esses exemplos e regras ilustram como o strict mode pode ajudar a evitar erros comuns e melhorar a qualidade do código JavaScript.
 
+Variáveis, como o próprio nome sugere, podem armazenar dados que variam. As alterações são feitas atribuindo um novo valor à variável, que substitui o anterior.
+
+```javascript
+let  steps  =  100;
+console.log(steps);  //  ->  100
+steps  =  120;  //  ->  120
+console.log(steps);
+steps  =  steps  +  200;
+console.log(steps);  //  ->  320
+```
+
+Em nosso exemplo, declaramos uma variável chamada etapas (`steps`). Inicialmente, ele contém o número `100`, que é então alterado para `120`. Em seguida, adicionamos `200` ao conteúdo atual da variável, e como resultado a variável contém `320`.
+
+Variáveis ​​na linguagem JavaScript não são digitadas (ou, para ser mais preciso, são digitadas de forma fraca e dinâmica). Isso significa que o JavaScript não controlará o tipo de valor que armazenamos na variável. Qual é exatamente o tipo de dados? Você provavelmente pode responder intuitivamente a essa pergunta sozinho. O tipo determina a pertença de um determinado dado a um determinado conjunto que compartilha as mesmas propriedades e no qual é possível realizar as mesmas operações. Os tipos de dados variam muito dependendo da linguagem de programação. Em JavaScript, os principais tipos são números e sequências de caracteres. Falaremos muito mais sobre tipos no próximo capítulo. Vamos declarar algumas variáveis ​​e inicializá-las com valores de diferentes tipos:
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
@@ -2214,7 +2229,7 @@ Exemplo 2: Chamada de função por evento
 
 # 📜 [JS] Modulos
 
-# 📜 [ES] ECMAScript
+# 📜 [JS] ECMAScript
 <img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
 
 Outro nome muito conhecido entre os desenvolvedores é o ECMAScript (ES), derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos.
@@ -2227,7 +2242,7 @@ Baseando-se nessas especificações, outras linguagens também surgiram, como o 
 
 <img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
 
-## [ES] Default Function Arguments
+## [JS] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 Exemplo:
@@ -2256,7 +2271,7 @@ A característica que permite podermos utilizar funções para definir valores d
 **Exemplo 6**:
 ![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
-## [ES] Enhanced Object Literals
+## [JS] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 Exemplo:
@@ -2280,7 +2295,7 @@ Exemplo 3:
 **Exemplo 7**:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
-# 📜 [ES] Generators
+# 📜 [JS] Generators
 Observe a função abaixo:
 
 Exemplo: Função normal
@@ -2293,7 +2308,7 @@ Exemplo 2: Função com vários argumentos (método antigo do ES6)
 Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
-## [ES] Rest Operator
+## [JS] Rest Operator
 Escreve com <code>...</code> antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 Exemplo:
@@ -2325,7 +2340,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## [ES] Spread Operator
+## [JS] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
@@ -2350,7 +2365,7 @@ Exemplo 3:
 **Exemplo 6**: Shallow Clone - um Subobjeto gerando um Spread 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
-## [ES] Destructuring
+## [JS] Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
 Exemplo: Destructuring Assignment
@@ -2459,7 +2474,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-## [ES] Spread Operator
+## [JS] Spread Operator
 Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
 Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
