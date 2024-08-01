@@ -933,6 +933,16 @@ let greeting = "Hello!";
 let counter = 100;
 ```
 
+Como você pode ver, a variável saudação (`greeting`) é iniciada com um valor do tipo `string`, enquanto a variável contador (`counter`) é iniciada com um valor do tipo `Number`. Continuando o exemplo, faremos uma pequena alteração no conteúdo da variável saudação.
+
+```javascript
+console.log(greeting);  //  ->  Hello!
+greeting  =  1;
+console.log(greeting);  //  ->  1
+```
+
+JavaScript nos permite substituir facilmente a variável de saudação por um valor cujo tipo seja diferente daquele originalmente armazenado lá. JavaScript vai um passo além e não apenas nos permite alterar os tipos de valores mantidos em uma variável, mas também realiza sua conversão implícita se necessário (também voltaremos a este tópico de conversão quando discutirmos tipos). Vamos restaurar o valor original da variável saudação e então adicionar o valor da variável contador a ele.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
