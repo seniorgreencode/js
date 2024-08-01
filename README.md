@@ -1186,6 +1186,20 @@ A palavra-chave `const` é usada para declarar contêineres semelhantes a variá
 const  greeting  =  "Hello!";
 ```
 
+Mas este próximo definitivamente causa um erro:
+
+```javascript
+const  greeting;  //  ->  Uncaught  SyntaxError:  Missing  initializer  in  const  declaration
+greeting  =  "Hello!";
+```
+
+Como dissemos, uma mudança na constante é impossível. Desta vez a declaração está correta, mas tentamos modificar o valor armazenado na constante.
+
+```javascript
+const  greeting  =  "Hello!";
+greeting  =  "Hi!";  //  ->  Uncaught  TypeError:  Assignment  to  constant  variable.
+```
+
 O `const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos! Variáveis declaradas com `const` são ideais para valores que não devem ser reatribuídos ao longo do tempo, proporcionando maior segurança e previsibilidade no código. No entanto, é importante lembrar que `const` não impede a modificação de objetos ou arrays, apenas a reatribuição do identificador da variável, o que o torna imutável é o valor de uma variável declarada com `const` não poder ser reatribuído. Isso significa que após a inicialização, você não pode alterar o valor armazenado nessa variável. Você deve inicializar uma variável `const` no momento em que ela é declarada. Lembrando, não é possível declarar uma variável `const` sem atribuir um valor a ela imediatamente.
 
 ```javascript
