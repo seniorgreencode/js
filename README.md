@@ -951,6 +951,12 @@ console.log(greeting);  //  ->  Hello!100
 
 O intérprete verificará o tipo de valor armazenado na variável de saudação e converterá o valor da variável contador para o mesmo tipo antes de realizar uma operação de adição. Como resultado, a string `"100"` será adicionada ao campo `"Hello!"` cadeia de caracteres e armazenada na variável de saudação. A propósito, observe que o JavaScript interpreta `100` como um número, mas `“100”` como uma string.
 
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
+
+Até agora, presumimos que após declarar uma variável, seu nome poderia ser usado em todo o código do programa (ou seja, o escopo da variável é global). Isto não é totalmente verdade – o escopo de uma variável depende de onde ela é declarada. Infelizmente, para uma boa compreensão do escopo de variáveis, precisamos aprender mais alguns elementos de programação, como instruções ou funções condicionais, que serão discutidos com mais detalhes posteriormente neste curso. Portanto, aqui nos limitaremos às informações básicas e voltaremos a esse assunto em diferentes partes do curso. Um dos elementos básicos que influenciam o escopo das variáveis ​​é um **bloco de programa**.
+
+Podemos separar o código de um programa em blocos. Nos blocos que criamos usando chaves, existe um conjunto de instruções, que por algum motivo devem ser tratadas de forma independente. Os blocos geralmente estão associados a instruções condicionais, loops ou funções, dos quais falaremos mais tarde. Também podemos separar um bloco de um programa não relacionado com nada de especial, simplesmente escolhendo um determinado conjunto de instruções (na prática, isto não se justifica particularmente, e por enquanto apenas o faremos por motivos educativos). Vejamos um exemplo:
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
@@ -977,8 +983,6 @@ function showGlobalVar() {
 showGlobalVar();
 console.log(globalVar); // Output: "I am global"
 ```
-
-<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
 
 Outro ponto, são os escopos que são definidos pela região ao qual variáveis e outros dados são visíveis dentro do código, funcionam como se fosse uma hierarquia em camadas. Em ambos os casos e os tipos de escopos, podemos utilizar as variáveis do JS: `var`, `let` e `const`.
 
