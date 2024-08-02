@@ -968,6 +968,25 @@ counter  =  counter  +  1;
 console.log(counter);  //  ->  2
 ```
 
+Primeiro, declaramos a variável contador. Em seguida, abrimos um bloco dentro do qual inicializamos esta variável e exibimos seu conteúdo. Fora do bloco, aumentamos o valor armazenado na variável em `1` e o exibimos novamente. Neste caso, o intérprete executará o programa como se não tivesse percebido o bloco, percorrendo as instruções antes do bloco, no bloco e depois do bloco. Criar um bloco aqui, sem, por exemplo, instruções condicionais, não tem justificativa real – é apenas um exemplo de uso de colchetes.
+
+Os blocos de programa podem ser aninhados, ou seja, podemos criar um bloco dentro de outro.
+
+```javascript
+let counter;
+console.log(counter);  //  ->  undefined
+{
+         counter  =  1;
+         {
+                 console.log(counter);  //  ->  1
+         }
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
+
+A propósito, observe que o código dentro do bloco foi movido para a direita. Isso é chamado de recuo. Para um interpretador JavaScript, isso não importa, mas definitivamente aumenta a legibilidade do código, permitindo que os leitores (incluindo você) descubram rapidamente quais partes do código estão dentro e quais estão fora do bloco. Os editores de código geralmente adicionam recuos nos lugares certos sozinhos, mas é um bom hábito lembrar disso você mesmo e, se eles não aparecerem automaticamente, formatar o código manualmente.
+
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
