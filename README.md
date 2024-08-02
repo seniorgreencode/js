@@ -2308,15 +2308,6 @@ Exemplo 2: Chamada de função por evento
 
 # 📜 [JS] Modulos
 
-# 📜 [JS] ECMAScript
-<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
-
-Outro nome muito conhecido entre os desenvolvedores é o ECMAScript (ES), derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. Essa padronização define a estrutura da linguagem, seus comandos, como ela deve se comportar, etc. Baseando-se nessas especificações, os desenvolvedores dos navegadores sabem o que um interpretador de JavaScript deve ter e como deve responder aos comandos.
-
-Baseando-se nessas especificações, outras linguagens também surgiram, como o JScript, ActionScript e TypeScript.
-
-> O nome JavaScript e ECMAScript definem a mesma linguagem, então podem ser usados livremente como sinônimos.
-
 <img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg" align="right" height="177">
 
 <img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
