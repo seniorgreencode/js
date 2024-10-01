@@ -2282,9 +2282,11 @@ console.log(vowerVerification());
 # 📜 [JS] JavaScript OOP
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
 
-O paradigma de Orientação a Objetos (OOP - Object-Oriented Programming) é um modelo de desenvolvimento de software baseado na criação e interação de objetos. É uma das abordagens mais populares para projetar e implementar sistemas de software, e é especialmente útil para resolver problemas complexos por meio da abstração e modularização. O objetivo principal do OOP é estruturar o software em unidades reutilizáveis, chamadas objetos, que possuem dados e comportamentos que representam conceitos do mundo real.
+O **paradigma de Orientação a Objetos** (OOP - Object-Oriented Programming) é um modelo de desenvolvimento de software baseado na criação e interação de objetos. É uma das abordagens mais populares para projetar e implementar sistemas de software, e é especialmente útil para resolver problemas complexos por meio da abstração e modularização. O objetivo principal do OOP é estruturar o software em unidades reutilizáveis, chamadas objetos, que possuem dados e comportamentos que representam conceitos do mundo real.
 
-Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade. O JavaScript OOP (Orientação a Objetos) é um estilo de programação em que você organiza o código em objetos, que representam entidades do mundo real e contêm tanto dados (atributos) quanto comportamentos (métodos). A Orientação a Objetos é uma maneira eficaz de organizar e estruturar código para ser reutilizável, modular e mais fácil de manter.
+Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade. O fato de todos os elementos no JavaScript serem tratados como objetos pelo DOM (Document Object Model) realmente auxilia na aplicação do paradigma de Orientação a Objetos (OOP) em JavaScript. O DOM é uma interface de programação para documentos HTML e XML, que representa a estrutura do documento como uma árvore de objetos. Cada elemento do documento é um nó que é manipulado como um objeto, com propriedades e métodos que permitem interação e modificação. Isso é altamente compatível com a abordagem orientada a objetos.
+
+Portanto, o JavaScript OOP (Orientação a Objetos) é um estilo de programação em que você organiza o código em objetos, que representam entidades do mundo real e contêm tanto dados (atributos) quanto comportamentos (métodos). A Orientação a Objetos é uma maneira eficaz de organizar e estruturar código para ser reutilizável, modular e mais fácil de manter.
 
 Em JavaScript, o paradigma de programação orientada a objetos pode ser implementado utilizando funções construtoras, prototipagem e, mais recentemente, a sintaxe de classes introduzida com o ECMAScript 6 (ES6). Abaixo, apresento os principais tópicos abordados pelo paradigma OOP em JavaScript:
 
@@ -2467,7 +2469,16 @@ console.log(`O valor de pi é ${meuModulo.pi}`);
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
 
 Exemplo:
-![12](https://user-images.githubusercontent.com/61624336/107806090-19ec0000-6d45-11eb-8b81-ef25ee970c74.jpg)
+
+```javascript
+function multiply(a,b){
+  b = b || 1;
+
+  return a * b;
+}
+console.log(multiply(5));
+```
+
 ![12](https://user-images.githubusercontent.com/61624336/107806363-85ce6880-6d45-11eb-9a3f-2b8c3d7b2022.jpg)
 
 Exemplo 2: Validação de Tipo (com operador ternário)
