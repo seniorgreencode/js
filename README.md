@@ -526,6 +526,13 @@ console.log(it.next()); // cada índice da iteração - 2
 console.log(it.next()); // cada índice da iteração - 3
 console.log(it.next()); // cada índice da iteração - 4
 console.log(it.next()); // acabou (undefined)
+
+// Output:
+// {value: undefined, done: true} 
+// {value: undefined, done: true}
+// {value: undefined, done: true}
+// {value: undefined, done: true}
+// {value: undefined, done: true}
 ```
 
 No JavaScript, a expressão `arr[Symbol.iterator]()` é usada para obter um iterador para o <a href="">array</a> `arr`. Nesse contexto, `arr` é um array em JavaScript, ou seja, uma estrutura de dados que pode armazenar uma coleção de elementos, como números, strings, objetos, etc. Um array é um tipo de objeto iterável, o que significa que ele tem um método Symbol.iterator, que permite acessar os elementos um por um.
