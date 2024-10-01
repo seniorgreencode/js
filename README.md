@@ -2686,7 +2686,7 @@ No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremo
 
 ## Fetch
 
-# 🔃 AJAX (Asynchronous JavaScript And XML)
+# 🔃 [JS] AJAX - Asynchronous JavaScript And XML
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada AJAX (Asynchronous JavaScript And XML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
