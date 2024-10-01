@@ -2377,10 +2377,9 @@ function alertar(){
 ```
 
 # 📜 [JS] Modulos
+Módulos em JavaScript são uma forma de dividir o código em partes menores e reutilizáveis, permitindo que você organize e compartilhe funcionalidades de maneira mais eficiente e segura. Eles ajudam a manter o código limpo, modular e fácil de gerenciar, especialmente em projetos maiores.
 
-<img src="https://i.morioh.com/2020/01/06/2b34e42c3159.jpg" align="right" height="177">
-
-<img src="https://jaeyeophan.github.io/images/javascript_es6.png" height="177" align="right">
+A partir do ECMAScript 6 (ES6), JavaScript introduziu oficialmente suporte para módulos, o que facilitou muito o uso dessa abordagem. Com módulos, você pode exportar funções, classes, objetos ou valores de um arquivo e importá-los em outro.
 
 ## [JS] Default Function Arguments
 Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
