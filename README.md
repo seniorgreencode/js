@@ -2158,7 +2158,9 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
   </tr>
 </table>
 
-> Obs: É interessante utilizar a variável `const` para a função de tempo no JavaScript, pois quando tratamos de data e hora, tratamos de dados exatos para períodos o qual não podem ser mutáveis com a modificação da linguagem.
+É interessante utilizar a variável `const` para a função de tempo no JavaScript, pois quando tratamos de data e hora, tratamos de dados exatos para períodos o qual não podem ser mutáveis com a modificação da linguagem.
+
+Assim como também podemos mesclar o tempo com outra variável constante para criarmos combinações de ano, mês, dia ou também de hora, minuto e segundos.
 
 Exemplo: Retorna o ano atual.
 
