@@ -2174,7 +2174,25 @@ console.log(dia.getDate());
 // Output: Dia atual
 ```
 
-Exemplo: Aplicação front-end para manipular o tempo com um contador de final de ano.
+Exemplo: Retorna a data atual.
+
+```javascript
+// Variável const: Obtém a data atual
+const dataAtual = new Date();
+
+// Variáveis const: Extrai o dia, mês e ano
+const dia = dataAtual.getDate();
+const mes = dataAtual.getMonth() + 1; // Lembrando que o mês começa em 0 (Janeiro é 0)
+const ano = dataAtual.getFullYear();
+
+// Template string: Formata a data no estilo "D/M/A"
+const dataFormatada = `${dia}/${mes}/${ano}`;
+
+// Console.log: Imprime a data formatada
+console.log(dataFormatada);
+```
+
+Exercício: Aplicação front-end para manipular o tempo com um contador de final de ano.
 
 ```javascript
 // DOM do Tempo
