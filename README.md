@@ -2406,108 +2406,6 @@ function vowerVerification(){
 console.log(vowerVerification());
 ```
 
-# 📜 [JS] JavaScript OOP
-<img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
-
-O **paradigma de Orientação a Objetos** (OOP - Object-Oriented Programming) é um modelo de desenvolvimento de software baseado na criação e interação de objetos. É uma das abordagens mais populares para projetar e implementar sistemas de software, e é especialmente útil para resolver problemas complexos por meio da abstração e modularização. O objetivo principal do OOP é estruturar o software em unidades reutilizáveis, chamadas objetos, que possuem dados e comportamentos que representam conceitos do mundo real.
-
-Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade. O fato de todos os elementos no JavaScript serem tratados como objetos pelo DOM (Document Object Model) realmente auxilia na aplicação do paradigma de Orientação a Objetos (OOP) em JavaScript. O DOM é uma interface de programação para documentos HTML e XML, que representa a estrutura do documento como uma árvore de objetos. Cada elemento do documento é um nó que é manipulado como um objeto, com propriedades e métodos que permitem interação e modificação. Isso é altamente compatível com a abordagem orientada a objetos.
-
-Portanto, o JavaScript OOP (Orientação a Objetos) é um estilo de programação em que você organiza o código em objetos, que representam entidades do mundo real e contêm tanto dados (atributos) quanto comportamentos (métodos). A Orientação a Objetos é uma maneira eficaz de organizar e estruturar código para ser reutilizável, modular e mais fácil de manter.
-
-Em JavaScript, o paradigma de programação orientada a objetos pode ser implementado utilizando funções construtoras, prototipagem e, mais recentemente, a sintaxe de classes introduzida com o ECMAScript 6 (ES6). Abaixo, apresento os principais tópicos abordados pelo paradigma OOP em JavaScript:
-
-<img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png" height="277" align="right"/>
-
-Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
-
-1. `window`: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
-2. `location`: Contém as propriedades da URL atual.
-3. `history`: Contém as propriedades das URLs visitadas anteriormente.
-4. `document`: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
-
-<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
-
-Cada objeto existente na manipulação do JavaScript possuem propriedades (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
-
-A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:
-
-<pre>nomeObjeto.propriedade</pre>
-
-Além das propriedades, os objetos podem conter métodos (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.
-  
-<pre>nomeObjeto.método(argumento/ parâmetro)</pre>
-
-Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.
-
-> Onde escrever um JavaScript? Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem! Por meio do DOM e BOM.
-
-### 1° Solução: Embutido na página HTML
-<ol>
-  Como evento de um elemento (IMG, A, INPUT etc);
-  Como elemento &lt;script&gt; dentro de &lt;body&gt;;
-  Como função, dentro de &lt;head&gt;
-</ol>
-
-### 2° Solução: Num arquivo a ser importado
- 
-## [JS] Prototype
-<img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
-
-Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado **prototype**. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
-
-Exemplo:
-
-```javascript
-console.log(document.__proto__);
-```
-
-<img src="https://user-images.githubusercontent.com/61624336/104111183-e0dfec00-52bd-11eb-8602-60813a7a3b18.png" align="right" height="177"/>
-
-Nota-se que o <code>Object.prototype</code> é o único que não tem duas conexões, pois ele faz uma lista dos objetos inseridos. Esse objeto prototype também tem um atributo prototype, e assim por diante até o que o valor <code>null</code> seja encontrado como sendo o seu prototype <code>null</code> que, por definição, não tem prototype, e age como um link final nesta cadeia de protótipos (prototype chain).
-
-Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.
-
-# 📜 [JS] Eventos
-<img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="177"/>
-
-São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A associação é realizada em HTML nos elementos que suportam eventos do tipo Event através dos atributos `onEvent`.
-
-Exemplo 1: Executando um evento inline
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Click here!</title>
-  </head>
-  <body>
-    <input type="button" value="Click here!" onclick="alert(Hello, world!);"/>
-  </body>
-</html>
-```
-
-Exemplo 2: Chamada de função por evento
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Click here!</title>
-  </head>
-  <body>
-    <input type="button" value="Click here!" onclick="Alertar();"/>
-    <script src="main.js"></script>
-  </body>
-</html>
-```
-
-```javascript
-function alertar(){
-  alert("Hello, world!");
-}
-```
-
 # 📜 [JS] Modulos
 Os **módulos** em JavaScript são uma forma de dividir o código em partes menores e reutilizáveis, permitindo que você organize e compartilhe funcionalidades de maneira mais eficiente e segura. Eles ajudam a manter o código limpo, modular e fácil de gerenciar, especialmente em projetos maiores. A partir do ECMAScript 6 (ES6), JavaScript introduziu oficialmente suporte para módulos, o que facilitou muito o uso dessa abordagem. Com módulos, você pode exportar funções, classes, objetos ou valores de um arquivo e importá-los em outro. Os módulos são uma ferramenta poderosa para organizar código de maneira eficiente e colaborar melhor em projetos maiores.
 
@@ -2587,6 +2485,107 @@ const meuModulo = require('./meuModulo');
 
 console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
 console.log(`O valor de pi é ${meuModulo.pi}`);
+```
+
+# 📜 [JS] JavaScript OOP
+<img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
+
+O **paradigma de Orientação a Objetos** (OOP - Object-Oriented Programming) é um modelo de desenvolvimento de software baseado na criação e interação de objetos. É uma das abordagens mais populares para projetar e implementar sistemas de software, e é especialmente útil para resolver problemas complexos por meio da abstração e modularização. O objetivo principal do OOP é estruturar o software em unidades reutilizáveis, chamadas objetos, que possuem dados e comportamentos que representam conceitos do mundo real.
+
+Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade. O fato de todos os elementos no JavaScript serem tratados como objetos pelo DOM (Document Object Model) realmente auxilia na aplicação do paradigma de Orientação a Objetos (OOP) em JavaScript. O DOM é uma interface de programação para documentos HTML e XML, que representa a estrutura do documento como uma árvore de objetos. Cada elemento do documento é um nó que é manipulado como um objeto, com propriedades e métodos que permitem interação e modificação. Isso é altamente compatível com a abordagem orientada a objetos.
+
+Portanto, o JavaScript OOP (Orientação a Objetos) é um estilo de programação em que você organiza o código em objetos, que representam entidades do mundo real e contêm tanto dados (atributos) quanto comportamentos (métodos). A Orientação a Objetos é uma maneira eficaz de organizar e estruturar código para ser reutilizável, modular e mais fácil de manter.
+
+Em JavaScript, o paradigma de programação orientada a objetos pode ser implementado utilizando funções construtoras, prototipagem e, mais recentemente, a sintaxe de classes introduzida com o ECMAScript 6 (ES6). Abaixo, apresento os principais tópicos abordados pelo paradigma OOP em JavaScript:
+
+<img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png" height="277" align="right"/>
+
+Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
+
+1. `window`: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
+2. `location`: Contém as propriedades da URL atual.
+3. `history`: Contém as propriedades das URLs visitadas anteriormente.
+4. `document`: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
+
+<img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
+
+Cada objeto existente na manipulação do JavaScript possuem propriedades (características/ atributos). Exemplo, sabemos que um documento HTML possuem título e corpo, estas características do documento podemos chamar de propriedades que existem neste documento.
+
+A utilização de propriedades se dá acompanhada de seu objeto sendo separados por um ponto <code>.</code> apenas. Abaixo, a sintaxe de utilização de propriedades:
+
+<pre>nomeObjeto.propriedade</pre>
+
+Além das propriedades, os objetos podem conter métodos (ações/ verbos), que são funções prédefinidas pela linguagem JavaScript que irão executar determinada operação.
+  
+<pre>nomeObjeto.método(argumento/ parâmetro)</pre>
+
+Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser utilizado e o qual sofrerá uma ação do método, já método é o nome de identificação do método usado e entre parênteses (argumento/ parâmetro) é a expressão ou valor opcional que será usada para alterar sobre o objeto.
+
+> Onde escrever um JavaScript? Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem! Por meio do DOM e BOM.
+
+### 1° Solução: Embutido na página HTML
+<ol>
+  Como evento de um elemento (IMG, A, INPUT etc);
+  Como elemento &lt;script&gt; dentro de &lt;body&gt;;
+  Como função, dentro de &lt;head&gt;
+</ol>
+
+### 2° Solução: Num arquivo a ser importado
+ 
+<img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
+
+Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado **prototype**. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
+
+Exemplo:
+
+```javascript
+console.log(document.__proto__);
+```
+
+<img src="https://user-images.githubusercontent.com/61624336/104111183-e0dfec00-52bd-11eb-8602-60813a7a3b18.png" align="right" height="177"/>
+
+Nota-se que o <code>Object.prototype</code> é o único que não tem duas conexões, pois ele faz uma lista dos objetos inseridos. Esse objeto prototype também tem um atributo prototype, e assim por diante até o que o valor <code>null</code> seja encontrado como sendo o seu prototype <code>null</code> que, por definição, não tem prototype, e age como um link final nesta cadeia de protótipos (prototype chain).
+
+Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.
+
+# 📜 [JS] Eventos
+<img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="177"/>
+
+São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A associação é realizada em HTML nos elementos que suportam eventos do tipo Event através dos atributos `onEvent`.
+
+Exemplo 1: Executando um evento inline
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Click here!</title>
+  </head>
+  <body>
+    <input type="button" value="Click here!" onclick="alert(Hello, world!);"/>
+  </body>
+</html>
+```
+
+Exemplo 2: Chamada de função por evento
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Click here!</title>
+  </head>
+  <body>
+    <input type="button" value="Click here!" onclick="Alertar();"/>
+    <script src="main.js"></script>
+  </body>
+</html>
+```
+
+```javascript
+function alertar(){
+  alert("Hello, world!");
+}
 ```
 
 ## [JS] Enhanced Object Literals
