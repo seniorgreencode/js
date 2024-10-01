@@ -447,41 +447,56 @@ Outras seis sequências escapes são válidas em JavaScript:
 </table>
 
 ### [JS] Symbols
-O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de objetos, que o conheceremos melhor mais para frente. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
+O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de <a href="">objetos</a>, onde cada identificador é único. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos.
 
 Exemplo:
 
 ```javascript
-
+const uniqueId = Symbol();
+console.log(uniqueId);
+// Output: Symbol()
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
 
 Exemplo 2:
 
 ```javascript
-
+const uniqueId = Symbol('Hello, world!');
+console.log(uniqueId);
+// Output: Symbol(Hello, world!)
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
 
 Exemplo 3: Comparando identificação
 
 ```javascript
-
+const uniqueId = Symbol('Hello, world!');
+const uniqueId2 = Symbol('Hello, world!');
+console.log(uniqueId === uniqueId2);
+// Output: false
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
+O output é `false` porque, em JavaScript, cada símbolo (Symbol) é único, mesmo quando criado com a mesma descrição.
 
 Exemplo 4: Gerando propriedade privada
 
 ```javascript
+const uniqueId = Symbol('Hello, world!');
 
-```
+// gerando propriedades privadas (evitar ser acessada, somente quem acessa pelo Symbol ou pelo método)
+const obj = {
+  [uniqueId]: 'Hello'
+}
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
+console.log(obj);
+Object.keys(obj);
+Object.getOwnPropertySymbols(obj); // Propriedade privada
+// Output: {Symbol(Hello, world!): 'Hello'}
+``
 
-Você pode modificar o symbols com as suas propriedades.
+O `Object.keys(obj)` é um método em JavaScript que retorna um array contendo as chaves das propriedades enumeráveis próprias de um objeto.
+
+A função `Object.getOwnPropertySymbols()` em JavaScript é usada para retornar um array de todos os símbolos (`Symbol`) que são propriedades próprias de um determinado objeto. Ela permite acessar propriedades do objeto que são identificadas por símbolos, em vez de strings.
+
+Você pode modificar o `symbols` com as suas propriedades.
 
 Exemplo 1: Well known Symbols
 <pre>Symbol.</pre>
