@@ -2191,7 +2191,7 @@ console.log(multiply(5));
 
 > OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
 
-O **Lazy evaluation** (ou "avaliação preguiçosa") é uma técnica em que a avaliação de uma expressão é adiada até o momento em que o valor é realmente necessário, ao invés de ser calculada imediatamente. Isso permite que o código seja mais eficiente, pois evita o processamento desnecessário de valores que podem nunca ser utilizados.
+No JS, também temos o **Lazy evaluation** (ou "avaliação preguiçosa") é uma técnica em que a avaliação de uma expressão é adiada até o momento em que o valor é realmente necessário, ao invés de ser calculada imediatamente. Isso permite que o código seja mais eficiente, pois evita o processamento desnecessário de valores que podem nunca ser utilizados.
 
 Relacionado a esse conceito, ocorre quando usamos valores padrão em funções no JavaScript, ou seja, é a característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido. Nesse contexto, a função usada como valor padrão de um argumento é avaliada apenas quando o argumento é `undefined`. Ou seja, a função só será executada se o argumento não for fornecido pelo usuário, o que é uma forma de avaliação preguiçosa.
 
