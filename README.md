@@ -2372,6 +2372,30 @@ console.log(multiply(5));
 // Output: Número aleatório
 ```
 
+No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores.
+
+Os Generators são úteis quando queremos criar iteradores personalizados ou produzir uma sequência de valores de forma "preguiçosa" (lazy evaluation), ou seja, um valor por vez, conforme solicitado. Eles são uma alternativa conveniente para controlar a execução de funções e para trabalhar com conjuntos de dados que podem ser infinitos ou grandes demais para carregar de uma só vez.
+
+Exemplo: Função normal
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
+
+Exemplo 2: Função com vários argumentos (método antigo do ES6)
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860550-956db000-6e1e-11eb-8b96-8860230d10d3.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860612-e67da400-6e1e-11eb-88ad-5ca7851216a3.jpg)
+
+Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
+
 Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
 Exemplo 1: Função normal
@@ -2797,31 +2821,6 @@ Exemplo 3:
 
 **Exemplo 7**:
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
-
-# 📜 [JS] Generators
-Os **Generators** são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores.
-
-Os Generators são úteis quando queremos criar iteradores personalizados ou produzir uma sequência de valores de forma "preguiçosa" (lazy evaluation), ou seja, um valor por vez, conforme solicitado. Eles são uma alternativa conveniente para controlar a execução de funções e para trabalhar com conjuntos de dados que podem ser infinitos ou grandes demais para carregar de uma só vez.
-
-Exemplo: Função normal
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
-
-Exemplo 2: Função com vários argumentos (método antigo do ES6)
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860550-956db000-6e1e-11eb-8b96-8860230d10d3.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860612-e67da400-6e1e-11eb-88ad-5ca7851216a3.jpg)
-
-Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
 ## [JS] Rest Operator
 Escreve com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
