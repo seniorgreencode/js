@@ -474,7 +474,7 @@ console.log(uniqueId === uniqueId2);
 // Output: false
 ```
 
-O output é `false` porque, em JavaScript, cada símbolo (Symbol) é único, mesmo quando criado com a mesma descrição.
+O output é `false` porque, em JavaScript, cada símbolo (`Symbol`) é único, mesmo quando criado com a mesma descrição.
 
 Exemplo 4: Gerando propriedade privada
 
@@ -496,7 +496,7 @@ O `Object.keys(obj)` é um método em JavaScript que retorna um array contendo a
 
 A função `Object.getOwnPropertySymbols()` em JavaScript é usada para retornar um array de todos os símbolos (`Symbol`) que são propriedades próprias de um determinado objeto. Ela permite acessar propriedades do objeto que são identificadas por símbolos, em vez de strings.
 
-Você pode modificar o `symbols` com as suas propriedades.
+Mesmo se tratando de imutabilidade e identificadores únicos, você também pode modificar o `symbols` com as suas propriedades.
 
 Exemplo: Well known Symbols = propriedades para um objeto
 
@@ -538,22 +538,45 @@ console.log(it.next()); // acabou (undefined)
 No JavaScript, a expressão `arr[Symbol.iterator]()` é usada para obter um iterador para o <a href="">array</a> `arr`. Nesse contexto, `arr` é um array em JavaScript, ou seja, uma estrutura de dados que pode armazenar uma coleção de elementos, como números, strings, objetos, etc. Um array é um tipo de objeto iterável, o que significa que ele tem um método Symbol.iterator, que permite acessar os elementos um por um.
 
 Exemplo 3: 
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
-
-Exemplo 4:
 	
 ```javascript
+const arr = [1,2,3,4];
+const str = 'Digital Innovation One';
 
+// console.log(arr[Symbol.iterator]()).next();
+
+const obj = {
+  values: [1,2,3,4],
+  [Symbol.iterator]() {
+     let i = 0;
+    return {
+      next: () => {
+         i++;
+       return{
+  	 value: this.values[i - 1],
+         done: i > this.values.length
+        }
+      }
+    }
+  }
+};
+
+const it = obj[Symbol.iterator]()
+console.log(it.next()); // 1
+console.log(it.next()); // 2
+console.log(it.next()); // 3
+console.log(it.next()); // 4
+console.log(it.next()); // 5 (undefined)
+
+// Output:
+// {value: 1, done: false}
+// {value: 2, done: false}
+// {value: 3, done: false}
+// {value: 4, done: false}
+// {value: undefined, done: true}
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
-
-Exemplo 5:
+Exemplo 4:
 
 ```javascript
 
