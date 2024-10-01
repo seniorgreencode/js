@@ -2245,7 +2245,7 @@ setInterval(updateCountdown, 1000);
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
   
-Exemplo:
+Exemplo: Verificador de vogais
 
 ```javascript
 var letter = prompt("Digite uma letra:", " "), isVower = false;
