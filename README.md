@@ -2369,43 +2369,6 @@ setTimeout(handleCountdownDisplay, 1000);
 setInterval(updateCountdown, 1000);
 ```
 
-# 📜 [JS] Procedural/Imperativo JavaScript
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
-
-Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
-  
-Exemplo: Verificador de vogais
-
-```javascript
-var letter = prompt("Digite uma letra:", " "), isVower = false;
-
-function vowerVerification(){
-  switch(letter){
-     case 'a':
-      isVower = true;
-     break; 
-     case 'e':
-      isVower = true;
-     break; 
-     case 'i':
-      isVower = true;
-     break; 
-     case 'o':
-      isVower = true;
-     break; 
-     case 'u':
-      isVower = true;
-     break; 
-  }
-  if (isVower = true){
-    console.log('É vogal!');
-  } else {
-    console.log('Não é vogal!');
-  }
-}
-console.log(vowerVerification());
-```
-
 # 📜 [JS] Modulos
 Os **módulos** em JavaScript são uma forma de dividir o código em partes menores e reutilizáveis, permitindo que você organize e compartilhe funcionalidades de maneira mais eficiente e segura. Eles ajudam a manter o código limpo, modular e fácil de gerenciar, especialmente em projetos maiores. A partir do ECMAScript 6 (ES6), JavaScript introduziu oficialmente suporte para módulos, o que facilitou muito o uso dessa abordagem. Com módulos, você pode exportar funções, classes, objetos ou valores de um arquivo e importá-los em outro. Os módulos são uma ferramenta poderosa para organizar código de maneira eficiente e colaborar melhor em projetos maiores.
 
@@ -2485,6 +2448,43 @@ const meuModulo = require('./meuModulo');
 
 console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
 console.log(`O valor de pi é ${meuModulo.pi}`);
+```
+
+# 📜 [JS] Procedural/Imperativo JavaScript
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
+
+Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
+  
+Exemplo: Verificador de vogais
+
+```javascript
+var letter = prompt("Digite uma letra:", " "), isVower = false;
+
+function vowerVerification(){
+  switch(letter){
+     case 'a':
+      isVower = true;
+     break; 
+     case 'e':
+      isVower = true;
+     break; 
+     case 'i':
+      isVower = true;
+     break; 
+     case 'o':
+      isVower = true;
+     break; 
+     case 'u':
+      isVower = true;
+     break; 
+  }
+  if (isVower = true){
+    console.log('É vogal!');
+  } else {
+    console.log('Não é vogal!');
+  }
+}
+console.log(vowerVerification());
 ```
 
 # 📜 [JS] JavaScript OOP
