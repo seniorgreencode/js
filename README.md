@@ -2179,18 +2179,51 @@ console.log(multiply(undefined, 5));
 // Output: 10
 ```
 
-**Exemplo 4**: Poder de atribuição
-![12](https://user-images.githubusercontent.com/61624336/107809900-97663f00-6d4a-11eb-93af-d9efb1690588.jpg)
+Exemplo 4: Poder de atribuição
 
-<blockquote><strong>OBS:</strong> A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.</blockquote>
+```javascript
+function multiply(a, b = a){
+  return a * b;
+}
+console.log(multiply(5));
+// Output: 25
+```
 
-**Exemplo 5**: Lazy evaluation
+> OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
+
+Exemplo 5: Lazy evaluation
 A característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido.
 
-![12](https://user-images.githubusercontent.com/61624336/107815875-b8329280-6d52-11eb-9b29-7865fbcd28f4.jpg)
+```javascript
+// Lazy evaluation
+function randomNumber(){
+  return Math.random() * 10;
+}
 
-**Exemplo 6**:
-![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
+function multiply(a, b = randomNumber()){
+  return a * b;
+}
+
+console.log(multiply(5));
+// Output: Número aleatório
+```
+
+Exemplo 6:
+
+```javascript
+// Lazy evaluation
+function randomNumber(){
+  return Math.random() * 10;
+}
+
+function multiply(a, b = randomNumber()){
+  return a * b;
+}
+
+console.log(multiply(5));
+console.log(multiply(5));
+// Output: Número aleatório
+```
 
 # 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
