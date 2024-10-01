@@ -2101,6 +2101,54 @@ let resultado = calcularSoma(5, 7);
 console.log(resultado);  // Output: 12
 ```
 
+No JS, temos o **Default Function Arguments** (ou Parâmetros Padrão de Função) em JavaScript são valores definidos para parâmetros de uma função que são usados quando nenhum valor ou `undefined` é passado para aquele parâmetro ao chamar a função. Esse recurso foi introduzido no ES6 (ECMAScript 2015) e facilita a definição de valores padrões para tornar o código mais robusto e legível.
+
+Exemplo: Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função.
+
+```javascript
+function multiply(a,b){
+  b = b || 1; // atribuindo b com possivelmente o valor 1
+
+  return a * b;
+}
+console.log(multiply(5));
+// Output: 5
+```
+
+Exemplo 2:
+
+```javascript
+function multiply(a,b){
+  b = b || 1; // atribuindo b com possivelmente o valor 1
+
+  return a * b;
+}
+console.log(multiply(5, 0)); // valor de b é undefined, pois 0 é um número nulo de atribuição
+// Output: 5
+```
+
+Exemplo 2: Validação de Tipo (com operador ternário)
+![12](https://user-images.githubusercontent.com/61624336/107807013-55d39500-6d46-11eb-8d3d-3a9af3f8f521.jpg)
+
+Exemplo 3: Inserindo o valor no parâmetro da função
+![12](https://user-images.githubusercontent.com/61624336/107807785-6cc6b700-6d47-11eb-987e-d45d04ad392f.jpg)
+![12](https://user-images.githubusercontent.com/61624336/107808428-553bfe00-6d48-11eb-805d-986b36f5f2a1.jpg)
+![12](https://user-images.githubusercontent.com/61624336/107808122-da72e300-6d47-11eb-9998-fe7f41d73d9a.jpg)
+![12](https://user-images.githubusercontent.com/61624336/107809428-d6e05b80-6d49-11eb-803a-7faa4f1e5d5c.jpg)
+
+**Exemplo 4**: Poder de atribuição
+![12](https://user-images.githubusercontent.com/61624336/107809900-97663f00-6d4a-11eb-93af-d9efb1690588.jpg)
+
+<blockquote><strong>OBS:</strong> A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.</blockquote>
+
+**Exemplo 5**: Lazy evaluation
+A característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido.
+
+![12](https://user-images.githubusercontent.com/61624336/107815875-b8329280-6d52-11eb-9b29-7865fbcd28f4.jpg)
+
+**Exemplo 6**:
+![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
+
 # 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
 
@@ -2464,44 +2512,6 @@ const meuModulo = require('./meuModulo');
 console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
 console.log(`O valor de pi é ${meuModulo.pi}`);
 ```
-
-## [JS] Default Function Arguments
-Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função, observe abaixo!
-
-Exemplo:
-
-```javascript
-function multiply(a,b){
-  b = b || 1;
-
-  return a * b;
-}
-console.log(multiply(5));
-```
-
-![12](https://user-images.githubusercontent.com/61624336/107806363-85ce6880-6d45-11eb-9a3f-2b8c3d7b2022.jpg)
-
-Exemplo 2: Validação de Tipo (com operador ternário)
-![12](https://user-images.githubusercontent.com/61624336/107807013-55d39500-6d46-11eb-8d3d-3a9af3f8f521.jpg)
-
-Exemplo 3: Inserindo o valor no parâmetro da função
-![12](https://user-images.githubusercontent.com/61624336/107807785-6cc6b700-6d47-11eb-987e-d45d04ad392f.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107808428-553bfe00-6d48-11eb-805d-986b36f5f2a1.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107808122-da72e300-6d47-11eb-9998-fe7f41d73d9a.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107809428-d6e05b80-6d49-11eb-803a-7faa4f1e5d5c.jpg)
-
-**Exemplo 4**: Poder de atribuição
-![12](https://user-images.githubusercontent.com/61624336/107809900-97663f00-6d4a-11eb-93af-d9efb1690588.jpg)
-
-<blockquote><strong>OBS:</strong> A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.</blockquote>
-
-**Exemplo 5**: Lazy evaluation
-A característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido.
-
-![12](https://user-images.githubusercontent.com/61624336/107815875-b8329280-6d52-11eb-9b29-7865fbcd28f4.jpg)
-
-**Exemplo 6**:
-![12](https://user-images.githubusercontent.com/61624336/107820477-9d175100-6d59-11eb-8403-1f78814ec417.jpg)
 
 ## [JS] Enhanced Object Literals
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
