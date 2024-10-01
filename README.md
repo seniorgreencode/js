@@ -2341,10 +2341,28 @@ Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como fu
 
 São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A associação é realizada em HTML nos elementos que suportam eventos do tipo Event através dos atributos `onEvent`.
 
-Exemplo 1: Executando um evento
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103590963-92051180-4ecd-11eb-8db0-e7a8cdce8a9f.jpg)
+Exemplo:
 
-Exemplo 2: Chamada de função por evento
+1. Executando um evento
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Click here!</title>
+  </head>
+  <body>
+    <input type="button" value="Click here!" onclick="alert(Hello, world!);"/>
+  </body>
+</html>
+```
+
+2. Chamada de função por evento
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/103591717-a9dd9500-4ecf-11eb-855a-fb88ffcd7f4b.jpg)
 ![Sem Título-12e2](https://user-images.githubusercontent.com/61624336/103591719-aa762b80-4ecf-11eb-822f-fcd9114180c2.jpg)
 
