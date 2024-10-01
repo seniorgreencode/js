@@ -2231,9 +2231,33 @@ Exemplo:
 
 ```javascript
 var letter = prompt("Digite uma letra:", " "), isVower = false;
-```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/103537648-8a188380-4e73-11eb-8d72-7291abf3f473.jpg)
+function vowerVerification(){
+  switch(letter){
+     case 'a':
+      isVower = true;
+     break; 
+     case 'e':
+      isVower = true;
+     break; 
+     case 'i':
+      isVower = true;
+     break; 
+     case 'o':
+      isVower = true;
+     break; 
+     case 'u':
+      isVower = true;
+     break; 
+  }
+  if (isVower = true){
+    console.log('É vogal!');
+  } else {
+    console.log('Não é vogal!');
+  }
+}
+console.log(vowerVerification());
+```
 
 # 📜 [JS] JavaScript OOP
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
