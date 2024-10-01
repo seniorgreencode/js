@@ -1586,9 +1586,7 @@ console.log(fruta.nome, fruta.cor);
 // Output: maçã verde
 ```
 
-> Obs: Também funcionam com arrays, dessa forma `[{ }]`.
-
-Exemplo:
+Exemplo: Também funcionam com arrays, dessa forma `[{ }]`.
 
 ```javascript
 var fruta = [{nome: "maçã", cor: "verde"}, {nome: 'uva', cor: 'roxa'}];
