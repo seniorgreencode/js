@@ -2417,17 +2417,16 @@ Portanto, o JavaScript OOP (Orientação a Objetos) é um estilo de programaçã
 
 Em JavaScript, o paradigma de programação orientada a objetos pode ser implementado utilizando funções construtoras, prototipagem e, mais recentemente, a sintaxe de classes introduzida com o ECMAScript 6 (ES6). Abaixo, apresento os principais tópicos abordados pelo paradigma OOP em JavaScript:
 
-## Hierarquia de Objetos
+Hierarquia de Objetos:
+
 <img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png" height="177" align="right"/>
 
 Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
 
-<ol>
-  <code>window</code>: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
-  <code>location</code>: Contém as propriedades da URL atual.
-  <code>history</code>: Contém as propriedades das URLs visitadas anteriormente.
-  <code>document</code>: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
-</ol>
+1. `window`: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
+2. `location`: Contém as propriedades da URL atual.
+3. `history`: Contém as propriedades das URLs visitadas anteriormente.
+4. `document`: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
 
 <img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
 
