@@ -2379,10 +2379,12 @@ Os Generators são úteis quando queremos criar iteradores personalizados ou pro
 Exemplo: Função normal
 
 ```javascript
+function sum(a, b){
+  return a + b;
+}
 
+console.log(sum(5, 5));
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860456-2a23de00-6e1e-11eb-855e-32fda75ca282.jpg)
 
 Exemplo 2: Função com vários argumentos (método antigo do ES6)
 
