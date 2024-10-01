@@ -2861,7 +2861,126 @@ No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremo
 # 🔃 [JS] AJAX - Asynchronous JavaScript And XML
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
 
-Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada AJAX (Asynchronous JavaScript And XML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
+Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada **AJAX (Asynchronous JavaScript And XML)**, a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
+
+O AJAX (Asynchronous JavaScript and XML) é uma técnica usada para fazer solicitações assíncronas a servidores web sem recarregar a página inteira. Isso permite uma experiência mais fluida para o usuário, pois dados podem ser trocados em segundo plano e o conteúdo da página atualizado dinamicamente. Embora o nome mencione **XML**, AJAX hoje em dia é comumente utilizado com **JSON** (JavaScript Object Notation) devido à simplicidade e eficiência deste formato para troca de dados. AJAX é uma técnica poderosa que permite tornar as páginas da web mais dinâmicas e responsivas, fazendo requisições ao servidor de forma assíncrona, sem a necessidade de recarregar a página. Seja utilizando `XMLHttpRequest` ou a API moderna `fetch`, o JavaScript facilita a comunicação entre o cliente e o servidor, permitindo criar uma experiência de usuário mais rica e interativa. AJAX é usado para fazer requisições HTTP, o que o torna uma ferramenta ideal para trabalhar com APIs REST. No entanto, ele não é adequado para trabalhar com WebSockets, pois ambos têm diferentes propósitos e características.
+
+AJAX envolve a utilização do objeto `XMLHttpRequest` (ou do `fetch` API em versões mais modernas de JavaScript) para enviar e receber dados de um servidor. Ele permite que você:
+
+1. Envie uma requisição para um servidor.
+2. Receba uma resposta do servidor (em diferentes formatos como JSON, XML, texto, etc.).
+3. Atualize partes específicas de uma página sem recarregar tudo.
+
+Vantagens do AJAX:
+
+1. **Atualização Parcial da Página**: Atualiza partes específicas da página sem recarregar toda a página, proporcionando uma melhor experiência ao usuário.
+2. **Melhor Performance**: Como apenas partes da página são atualizadas, a quantidade de dados trocados é reduzida, o que melhora o desempenho do aplicativo.
+3. **Experiência do Usuário**: Aplicações mais dinâmicas e responsivas, permitindo que o usuário continue interagindo com a página enquanto as requisições são feitas em segundo plano.
+
+1. Usando `XMLHttpRequest`:
+
+Exemplo: Como fazer uma solicitação `GET` usando `XMLHttpRequest` para buscar dados de um servidor:
+
+```javascript
+function carregarDados() {
+  const xhr = new XMLHttpRequest();
+  
+  xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
+
+  xhr.onload = function() {
+    if (this.status === 200) {
+      const dados = JSON.parse(this.responseText);
+      console.log(dados); // Exibir os dados recebidos
+    } else {
+      console.error('Erro ao buscar dados');
+    }
+  };
+
+  xhr.onerror = function() {
+    console.error('Erro de rede');
+  };
+
+  xhr.send(); // Envia a solicitação
+}
+
+carregarDados();
+```
+
+No exemplo acima:
+
+- `open('GET', url, true)`: Abre uma conexão para uma requisição do tipo GET para a URL fornecida. O `true` indica que a solicitação é assíncrona.
+- `onload`: Função callback que é chamada quando a resposta é recebida.
+- `send()`: Envia a requisição para o servidor.
+
+2. Usando a API `fetch`: A API `fetch` é uma alternativa moderna ao `XMLHttpRequest` e oferece uma interface mais simples e baseada em <a href="">Promises</a>:
+
+```javascript
+function carregarDados() {
+  fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro na requisição: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(dados => {
+      console.log(dados); // Exibir os dados recebidos
+    })
+    .catch(erro => {
+      console.error('Erro:', erro);
+    });
+}
+
+carregarDados();
+```
+
+No exemplo acima:
+
+- `fetch('URL')`: Faz uma requisição GET para a URL fornecida.
+- `.then(response => response.json())`: Extrai o conteúdo da resposta no formato JSON.
+- `.catch(erro => { ... })`: Captura e trata erros que podem ocorrer durante a requisição.
+
+3. Enviando Dados com AJAX (POST):
+
+Você também pode enviar dados para o servidor usando AJAX. Aqui está um exemplo de como fazer uma requisição POST usando `fetch`:
+
+```javascript
+function enviarDados() {
+  const dados = {
+    title: 'Meu Post',
+    body: 'Conteúdo do post',
+    userId: 1
+  };
+
+  fetch('https://jsonplaceholder.typicode.com/posts', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dados)
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro na requisição: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(dadosCriados => {
+      console.log('Dados enviados:', dadosCriados);
+    })
+    .catch(erro => {
+      console.error('Erro:', erro);
+    });
+}
+
+enviarDados();
+```
+
+No exemplo acima:
+
+- `method: 'POST'`: Define o método HTTP como POST.
+- `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
+- `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
 ---
 
