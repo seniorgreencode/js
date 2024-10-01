@@ -513,11 +513,22 @@ const arr = [1, 2, 3, 4];
 
 // Interface para consumir cada passo da estrutura de dados do tipo array
 const it = arr[Symbol.iterator]();
+
+while(true) {
+  let { value, done } = it.next()
+  if(done){
+    break;
+  }
+}
+
+console.log(it.next()); // cada índice da iteração - 1
+console.log(it.next()); // cada índice da iteração - 2
+console.log(it.next()); // cada índice da iteração - 3
+console.log(it.next()); // cada índice da iteração - 4
+console.log(it.next()); // acabou (undefined)
 ```
 
 No JavaScript, a expressão `arr[Symbol.iterator]()` é usada para obter um iterador para o <a href="">array</a> `arr`. Nesse contexto, `arr` é um array em JavaScript, ou seja, uma estrutura de dados que pode armazenar uma coleção de elementos, como números, strings, objetos, etc. Um array é um tipo de objeto iterável, o que significa que ele tem um método Symbol.iterator, que permite acessar os elementos um por um.
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
 
 Exemplo 3: 
 
