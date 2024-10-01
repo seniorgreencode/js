@@ -2127,14 +2127,57 @@ console.log(multiply(5, 0)); // valor de b é undefined, pois 0 é um número nu
 // Output: 5
 ```
 
-Exemplo 2: Validação de Tipo (com operador ternário)
-![12](https://user-images.githubusercontent.com/61624336/107807013-55d39500-6d46-11eb-8d3d-3a9af3f8f521.jpg)
+Exemplo: Validação de Tipo com operador ternário
 
-Exemplo 3: Inserindo o valor no parâmetro da função
-![12](https://user-images.githubusercontent.com/61624336/107807785-6cc6b700-6d47-11eb-987e-d45d04ad392f.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107808428-553bfe00-6d48-11eb-805d-986b36f5f2a1.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107808122-da72e300-6d47-11eb-9998-fe7f41d73d9a.jpg)
-![12](https://user-images.githubusercontent.com/61624336/107809428-d6e05b80-6d49-11eb-803a-7faa4f1e5d5c.jpg)
+```javascript
+function multiply(a,b){
+  b = typeof b === 'undefined' ? 1 : b; // validação de tipo
+
+  return a * b;
+}
+console.log(multiply(5, 0));
+// Output: 0
+```
+
+Exemplo: Inserindo o valor no parâmetro da função
+
+```javascript
+function multiply(a, b = 1){
+  return a * b;
+}
+console.log(multiply(5));
+// Output: 5
+```
+
+Exemplo 2:
+
+```javascript
+function multiply(a, b = 1){
+  return a * b;
+}
+console.log(multiply(5, undefined));
+// Output: 5
+```
+
+Exemplo 3:
+
+```javascript
+function multiply(a = 5, b = 1){
+  return a * b;
+}
+console.log(multiply());
+// Output: 5
+```
+
+Exemplo 4:
+
+```javascript
+function multiply(a = 2, b = 1){
+  return a * b;
+}
+console.log(multiply(undefined, 5));
+// Output: 10
+```
 
 **Exemplo 4**: Poder de atribuição
 ![12](https://user-images.githubusercontent.com/61624336/107809900-97663f00-6d4a-11eb-93af-d9efb1690588.jpg)
