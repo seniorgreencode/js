@@ -584,49 +584,7 @@ Exemplo 4:
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
-Generators são funções com pausa e elas despausam valores através da interface de iteração.
-
-Exemplo 1: Função normal
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
-
-Exemplo 2: Função Generator
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
-
-Exemplo 3: Ordenando a função Generator
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
-
-Exemplo 4:
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
-
 Exemplo 5:
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
-
-Exemplo 6:
 
 ```javascript
 
@@ -2413,6 +2371,48 @@ console.log(multiply(5));
 console.log(multiply(5));
 // Output: Número aleatório
 ```
+
+Generators são funções com pausa e elas despausam valores através da interface de iteração.
+
+Exemplo 1: Função normal
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
+
+Exemplo 2: Função Generator
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
+
+Exemplo 3: Ordenando a função Generator
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
+
+Exemplo 4:
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
+
+Exemplo 5:
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
 
 # 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
