@@ -451,15 +451,34 @@ O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que �
 
 Exemplo:
 
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
 
 Exemplo 2:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
 
 Exemplo 3: Comparando identificação
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
 
 Exemplo 4: Gerando propriedade privada
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
 
 Você pode modificar o symbols com as suas propriedades.
@@ -500,7 +519,7 @@ Exemplo 6:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
 
-# 📜 [JS] O que são operadores?
+# 📜 [JS] Operadores
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
 
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
