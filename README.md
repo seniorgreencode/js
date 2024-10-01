@@ -2933,6 +2933,153 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
 ## Fetch
+**Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente. Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. O `fetch()` é uma API moderna e conveniente para realizar requisições HTTP no JavaScript. Sua interface baseada em Promises facilita o tratamento assíncrono e torna o código mais legível, especialmente quando combinado com `async/await`. Embora tenha algumas limitações, `fetch()` é geralmente preferido para requisições HTTP em JavaScript, exceto em situações onde seja necessário lidar com funcionalidades mais avançadas que `XMLHttpRequest` possa oferecer.
+
+Características do `fetch()`:
+
+1. **Baseado em Promises**: Diferentemente do `XMLHttpRequest`, a função `fetch()` retorna uma **Promise**, o que permite manipular a resposta de maneira assíncrona usando `.then()` e `.catch()`, ou com **`async/await`** para simplificar o código.
+
+2. **Suporte a Diferentes Tipos de Requisição**: `fetch()` pode ser usado para fazer todos os tipos de requisição HTTP, como **GET**, **POST**, **PUT**, e **DELETE**.
+
+3. **API Simples e Concisa**: `fetch()` tem uma sintaxe mais simples e fácil de ler, principalmente quando comparado ao `XMLHttpRequest`.
+
+Sintaxe: A função `fetch()` é usada assim:
+
+```javascript
+fetch(url, [opções])
+  .then(response => {
+    // manipular a resposta
+  })
+  .catch(error => {
+    // tratar erros
+  });
+```
+
+- **`url`**: A URL para onde a requisição será enviada.
+- **`opções`** (opcional): Um objeto com configurações adicionais, como o método HTTP, cabeçalhos, corpo da requisição, etc.
+
+1. Requisição GET
+
+Uma requisição GET para buscar dados de uma API:
+
+```javascript
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    return response.json(); // Extrai os dados JSON da resposta
+  })
+  .then(data => {
+    console.log(data); // Exibe os dados recebidos
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+```
+
+No exemplo acima:
+
+- `fetch('url')`: Faz a requisição GET para a URL fornecida.
+- `response.ok`: Verifica se a resposta foi bem-sucedida.
+- `response.json()`: Retorna os dados no formato JSON.
+
+2. Requisição POST
+
+Enviando dados para o servidor usando `fetch()`:
+
+```javascript
+const dados = {
+  title: 'Meu Post',
+  body: 'Conteúdo do post',
+  userId: 1
+};
+
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(dados) // Converte o objeto em uma string JSON
+})
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log('Dados enviados:', data);
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+```
+
+Neste exemplo:
+
+- **`method: 'POST'`**: Define o método HTTP como POST.
+- **`headers`**: Define o cabeçalho `Content-Type` para informar que o corpo da requisição é JSON.
+- **`body: JSON.stringify(dados)`**: Converte o objeto `dados` em uma string JSON para ser enviado ao servidor.
+
+3. Usando `async/await`
+
+Você pode usar `fetch()` com `async/await` para deixar o código mais limpo e fácil de entender:
+
+```javascript
+async function carregarDados() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Erro:', error);
+  }
+}
+
+carregarDados();
+```
+
+Aqui, o uso de `async/await` faz com que o código pareça mais sequencial, melhorando a legibilidade.
+
+Opções Adicionais: O `fetch()` permite uma variedade de configurações através do objeto `opções`, como:
+
+- **`method`**: O método HTTP a ser utilizado (`GET`, `POST`, etc.).
+- **`headers`**: Cabeçalhos da requisição, como `Content-Type`.
+- **`body`**: O corpo da requisição (usado em métodos como `POST` ou `PUT`).
+- **`credentials`**: Pode ser `include`, `same-origin` ou `omit`, para enviar ou não cookies e informações de autenticação.
+
+Exemplo com mais opções:
+
+```javascript
+fetch('https://api.exemplo.com/dados', {
+  method: 'PUT',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer token_aqui'
+  },
+  body: JSON.stringify({ nome: 'João', idade: 30 })
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Erro:', error));
+```
+
+Tratamento de Erros: Quando usamos `fetch()`, uma requisição com falha não dispara automaticamente a função `catch` a menos que ocorra um problema de rede ou a requisição seja bloqueada. Por isso, é importante verificar o status da resposta (`response.ok`) antes de processar os dados.
+
+Diferenças entre `fetch()` e `XMLHttpRequest`
+
+- **Simplicidade**: `fetch()` é mais conciso e fácil de ler.
+- **Promises**: `fetch()` usa **Promises**, tornando-o mais moderno e melhor integrado com `async/await`.
+- **Suporte a Streams**: A resposta do `fetch()` pode ser processada como uma **Stream**, permitindo um controle mais detalhado sobre como os dados são lidos.
+
+Limitações do `fetch()`
+
+1. **Suporte ao CORS**: `fetch()` é limitado pelo mesmo esquema de segurança **CORS (Cross-Origin Resource Sharing)** que o `XMLHttpRequest`.
+2. **Erro apenas para problemas de rede**: Diferente do `XMLHttpRequest`, `fetch()` não rejeita a Promise para respostas HTTP como 404 ou 500, sendo necessário verificar manualmente se `response.ok` é `true` ou `false`.
 
 # 🔃 [JS] AJAX - Asynchronous JavaScript And XML
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
