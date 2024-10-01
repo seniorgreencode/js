@@ -490,7 +490,7 @@ console.log(obj);
 Object.keys(obj);
 Object.getOwnPropertySymbols(obj); // Propriedade privada
 // Output: {Symbol(Hello, world!): 'Hello'}
-``
+```
 
 O `Object.keys(obj)` é um método em JavaScript que retorna um array contendo as chaves das propriedades enumeráveis próprias de um objeto.
 
