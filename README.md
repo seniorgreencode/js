@@ -2280,7 +2280,7 @@ console.log(vowerVerification());
 # 📜 [JS] JavaScript OOP
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
 
-Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade.
+Diferente da linguagem HTML, a linguagem JavaScript corresponde à programação orientada a objetos (OOP), isto significa que todos os elementos de uma página da Web são tratados como objetos. Estes objetos são agrupados de acordo com seu tipo ou finalidade. O JavaScript OOP (Orientação a Objetos) é um estilo de programação em que você organiza o código em objetos, que representam entidades do mundo real e contêm tanto dados (atributos) quanto comportamentos (métodos). A Orientação a Objetos é uma maneira eficaz de organizar e estruturar código para ser reutilizável, modular e mais fácil de manter.
 
 ## Hierarquia de Objetos
 <img src="https://user-images.githubusercontent.com/61624336/103469686-b2569400-4d46-11eb-88fb-d615916b17c2.png" height="177" align="right"/>
