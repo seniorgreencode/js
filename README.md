@@ -163,7 +163,7 @@ duas ou mais linhas
 */
 ```
 
-# 📜 [JS] O que são dados?
+# 📜 [JS] Dados
 <a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
 
 Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados. Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
@@ -447,7 +447,58 @@ Outras seis sequências escapes são válidas em JavaScript:
 </table>
 
 ### [JS] Symbols
-O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável. Podemos usá-los como identificadores de propriedades de objetos, que conheceremos melhor mais para frente.
+O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de objetos, que o conheceremos melhor mais para frente. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
+
+Exemplo:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
+
+Exemplo 3: Comparando identificação
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
+
+Exemplo 4: Gerando propriedade privada
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
+
+Você pode modificar o symbols com as suas propriedades.
+
+Exemplo 1: Well known Symbols
+<pre>Symbol.</pre>
+
+Exemplo 2: Symbol.iterator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
+
+Exemplo 3: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
+
+Exemplo 4:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
+
+Exemplo 5:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
+
+Generators são funções com pausa e elas despausam valores através da interface de iteração.
+
+Exemplo 1: Função normal
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
+
+Exemplo 2: Função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
+
+Exemplo 3: Ordenando a função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
+
+Exemplo 4: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
+
+Exemplo 5:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
+
+Exemplo 6:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
+
 
 # 📜 [JS] O que são operadores?
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
@@ -2863,61 +2914,6 @@ Exemplo 10:
 É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
-
-
-## Symbols
-Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`.
-
-Exemplo 1:
-O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
-
-Exemplo 3: Comparando identificação
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
-
-Exemplo 4: Gerando propriedade privada
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
-
-Você pode modificar o symbols com as suas propriedades.
-
-Exemplo 1: Well known Symbols
-<pre>Symbol.</pre>
-
-Exemplo 2: Symbol.iterator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
-
-Exemplo 3: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
-
-Exemplo 4:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
-
-Exemplo 5:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
-
-Generators são funções com pausa e elas despausam valores através da interface de iteração.
-
-Exemplo 1: Função normal
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
-
-Exemplo 2: Função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
-
-Exemplo 3: Ordenando a função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
-
-Exemplo 4: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
-
-Exemplo 5:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
-
-Exemplo 6:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
 # 📜 [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
