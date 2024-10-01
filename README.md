@@ -498,39 +498,99 @@ A função `Object.getOwnPropertySymbols()` em JavaScript é usada para retornar
 
 Você pode modificar o `symbols` com as suas propriedades.
 
-Exemplo 1: Well known Symbols
-<pre>Symbol.</pre>
+Exemplo: Well known Symbols = propriedades para um objeto
 
-Exemplo 2: Symbol.iterator
+```javascript
+const uniqueId = Symbol('Hello, world!');
+
+// Well known symbols
+Symbol.iterator // Symbol(Symbol.iterator)
+Symbol.split // Symbol(Symbol.split)
+Symbol.toPrimitive // Symbol(Symbol.toPrimitive)
+Symbol.asyncIterator // Symbol(Symbol.asyncIterator)
+
+const arr = [1, 2, 3, 4];
+
+// Interface para consumir cada passo da estrutura de dados do tipo array
+const it = arr[Symbol.iterator]();
+```
+
+No JavaScript, a expressão `arr[Symbol.iterator]()` é usada para obter um iterador para o <a href="">array</a> `arr`. Nesse contexto, `arr` é um array em JavaScript, ou seja, uma estrutura de dados que pode armazenar uma coleção de elementos, como números, strings, objetos, etc. Um array é um tipo de objeto iterável, o que significa que ele tem um método Symbol.iterator, que permite acessar os elementos um por um.
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
 
 Exemplo 3: 
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
 
 Exemplo 4:
+	
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
 
 Exemplo 5:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
 Generators são funções com pausa e elas despausam valores através da interface de iteração.
 
 Exemplo 1: Função normal
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
 Exemplo 2: Função Generator
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
 Exemplo 3: Ordenando a função Generator
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
 
-Exemplo 4: 
+Exemplo 4:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
 
 Exemplo 5:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
 
 Exemplo 6:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
 
 
@@ -724,7 +784,7 @@ Aqui ele verá a operação como uma concatenação de Strings. Então o `1` ser
 
 Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.
 
-## [JS] O que são expressões?
+## [JS] Expressões
 Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de `"5 + 3"` que produz o valor `"8"`.
 Até mesmo quando simplesmente digitamos `8` estamos gerando o valor `8`. Todo fragmento de código que produz um valor é chamado de "expressão".
 
