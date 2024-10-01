@@ -1214,7 +1214,7 @@ if(true) {
 // Output: Isaac Alves
 ```
 
-A palavra-chave `const` é usada para declarar contêineres semelhantes a variáveis. Esses contêineres são chamados de constantes. Constantes também são usadas para armazenar certos valores, mas uma vez que os valores tenham sido inseridos nelas durante a inicialização, eles não poderão mais ser modificados. Isso significa que este tipo de contêiner é declarado e inicializado simultaneamente. Por exemplo, a seguinte declaração da constante de saudação está correta:
+A palavra-chave `const` é usada para declarar contêineres semelhantes a variáveis que são chamados de constantes. Constantes também são usadas para armazenar certos valores, mas uma vez que os valores tenham sido inseridos nelas durante a inicialização, eles não poderão mais ser modificados. Isso significa que este tipo de contêiner é declarado e inicializado simultaneamente. Por exemplo, a seguinte declaração da constante de saudação está correta:
 
 ```javascript
 const  greeting  =  "Hello!";
@@ -2106,7 +2106,7 @@ console.log(resultado);  // Output: 12
 
 Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
 
-Sintaxe: No código abaixo, iniciamos uma variável `data` criando uma instância JavaScript de `Date` que representa um único momento no tempo. Objetos `Date` são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
+Sintaxe: No código abaixo, iniciamos uma variável `data` criando uma nova instância JavaScript para a função nativa em JavaScript chamada `Date` que é um construtor usado para criar objetos de data e hora, que representam um ponto específico no tempo que representa um único momento no tempo. Objetos `Date` são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
 
 ```javascript
 variável data = new Date();
@@ -2157,6 +2157,8 @@ O JS é ótimo para manipular o tempo através de seus métodos, os métodos adi
     <td>Define os segundos</code></td>
   </tr>
 </table>
+
+> Obs: É interessante utilizar a variável `const` para a função de tempo no JavaScript, pois quando tratamos de data e hora, tratamos de dados exatos para períodos o qual não podem ser mutáveis com a modificação da linguagem.
 
 Exemplo: Retorna o ano atual.
 
