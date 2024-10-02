@@ -1510,8 +1510,8 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
 
 <table>
   <tr>
-    <td>Método</code></td>
-    <td>Função do método</td>
+    <td><b>Método</b></code></td>
+    <td><b>Função do método</b></td>
   </tr>
  <tr>
     <td><code>sort()</code></code></td>
@@ -1980,6 +1980,7 @@ do {
 ```
 
 Exemplo:
+
 ```javascript
 do {
 var number = Number.parseFloat(prompt('Insira um número:'));
@@ -1998,6 +1999,7 @@ The square root is: ${Math.sqrt(number)}
 Os comandos `continue` e `break` servem para loops e condições, porém a diferença entre eles é na sua funcionalidade, o `break` (quebrar) quebra no final da execução e assim o compilador executa outra etapa do código, já o `continue` (continuar) continua até finalizar a execução.
 
 Exemplo:
+
 ```javascript
 for(var i = 0; i < 5; i++){
   if (i === 2){
@@ -2389,11 +2391,22 @@ console.log(sum(5, 5));
 Exemplo 2: Função com vários argumentos (método antigo do ES6)
 
 ```javascript
-
+function sum(a,b){
+  return a + b;
+}
+console.log(sum(5,5,5,2,3));
+// Output: 10
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860550-956db000-6e1e-11eb-8b96-8860230d10d3.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860612-e67da400-6e1e-11eb-88ad-5ca7851216a3.jpg)
+```javascript
+function sum(a,b){
+  console.log(arguments);
+  return a + b;
+}
+console.log(sum(5,5,5,2,3));
+// Output: Arguments(5) [5, 5, 5, 2, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+// Output: 10
+```
 
 Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
