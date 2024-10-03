@@ -3038,28 +3038,52 @@ Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. S�
 A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
 Exemplo:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
 Exemplo 2:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
 Exemplo 3:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
 
-**Exemplo 4**:
+Exemplo 4:
+
+```javascript
+
+```
+
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
 
-**Exemplo 5**: Shallow Clone
+Exemplo 5: Shallow Clone
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
 
-**Exemplo 6**: Shallow Clone - um Subobjeto gerando um Spread 
+Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
-
-Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
-  
-Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
-
-A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
 
 Exemplo:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
