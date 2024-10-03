@@ -3077,6 +3077,10 @@ Exemplo 10:
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
+# 📜 [JS] Map
+
+# 📜 [JS] Async/Await
+
 # 📜 [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
