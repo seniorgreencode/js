@@ -2466,15 +2466,30 @@ console.log(it.next());
 // {value: undefined, done: true}
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
-
 Exemplo 3: Ordenando a função Generator
 
 ```javascript
+function* hello(){
+  console.log('Hello');
+  yield 1;
+  console.log('From');
+  yield 2;
+  console.log('Function!');
+}
 
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+// Output
+// Hello
+// {value: 1, done: false}
+// From
+// {value: 2, done: false}
+// Function!
+// {value: undefined, done: true}
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
 
 Exemplo 4:
 
