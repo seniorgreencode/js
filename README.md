@@ -2429,15 +2429,23 @@ Vamos ver como os Generators são funções onde pausam e despausam valores atra
 Exemplo 1: Função normal
 
 ```javascript
-
+function hello(){
+  console.log('Hello');
+  console.log('From');
+  console.log('Function');
+}
+hello();
+// Output:
+// Hello
+// From
+// Function
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
 
 Exemplo 2: Função Generator
 
 ```javascript
-
+function* hello(){
+}
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
