@@ -2409,9 +2409,22 @@ console.log(sum(5,5,5,2,3));
 ```
 
 Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107860767-f2b63100-6e1f-11eb-87f2-1b868dc34e52.jpg)
 
-Generators são funções com pausa e elas despausam valores através da interface de iteração.
+```javascript
+function sum(a,b){
+   var value = 0;
+
+   for(var i = 0; i < arguments.length; i++){
+     value += arguments[i];
+   }
+   return value;
+}
+
+console.log(sum(5,5,5,2,3))
+// Output: 20
+```
+
+Vamos ver como os Generators são funções onde pausam e despausam valores através da interface de iteração.
 
 Exemplo 1: Função normal
 
