@@ -579,7 +579,7 @@ console.log(it.next()); // 5 (undefined)
 Exemplo 4:
 
 ```javascript
-
+const arr = [1,2,3,4];
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
