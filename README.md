@@ -2445,7 +2445,25 @@ Exemplo 2: Função Generator
 
 ```javascript
 function* hello(){
+  console.log('Hello');
+  yield;
+  console.log('From');
+  yield;
+  console.log('Function!');
 }
+
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+// Output
+// Hello
+// {value: undefined, done: false}
+// From
+// {value: undefined, done: false}
+// Function!
+// {value: undefined, done: true}
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
