@@ -3145,6 +3145,60 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
 
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
+## [JS] Async/Await
+O `async` e `await` são palavras-chave no JavaScript introduzidas no ES2017 (ES8) que facilitam o trabalho com operações assíncronas, tornando o código mais legível e mais fácil de entender, como se fosse síncrono. Em resumo, o `async` é usado para definir uma função que retorna uma `Promise`, já o `await` faz com que o JavaScript espere pela resolução de uma `Promise`. Isso torna o código assíncrono mais parecido com código síncrono, facilitando a leitura e manutenção.
+
+O `async` é uma função onde sempre retorna uma `Promise`. Mesmo que você não retorne explicitamente uma `Promise`, o valor retornado será automaticamente encapsulado em uma. Uma função `async` permite o uso da palavra-chave `await` dentro dela.
+
+Exemplo: Função `async` simples
+
+```javascript
+async function exemploAsync() {
+  return "Resultado";
+}
+
+exemploAsync().then(result => console.log(result)); // "Resultado"
+```
+
+Nesse exemplo, `exemploAsync` retorna uma `Promise`, e `then` é usado para acessar o valor resolvido.
+
+A palavra-chave `await` só pode ser usada dentro de uma função `async`. Ela faz com que o JavaScript espere a resolução de uma `Promise` antes de prosseguir para a próxima linha de código, permitindo que o código assíncrono seja escrito de forma mais sequencial.
+
+Exemplo:
+
+```javascript
+async function exemploAwait() {
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Feito!"), 1000);
+  });
+
+  let resultado = await promise; // espera até a promise ser resolvida
+  console.log(resultado); // "Feito!"
+}
+
+exemploAwait();
+```
+
+Nesse exemplo, o `await` faz com que a execução da função `exemploAwait` pare até que a `promise` seja resolvida. Isso evita a necessidade de usar callbacks ou `then`, facilitando a leitura e manutenção do código.
+
+As vantagens de `async`/`await` são:
+1. **Código mais legível**: Facilita a leitura de código assíncrono, fazendo-o parecer mais síncrono.
+2. **Tratamento de erros**: Usar `try...catch` com `await` para tratar erros torna o código mais simples e menos aninhado do que usar `then` e `catch`.
+
+Exemplo:
+
+```javascript
+async function exemploErro() {
+  try {
+    let resultado = await Promise.reject("Erro!");
+  } catch (erro) {
+    console.log(erro); // "Erro!"
+  }
+}
+
+exemploErro();
+```
+
 ## [JS] Fetch
 **Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente. Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. O `fetch()` é uma API moderna e conveniente para realizar requisições HTTP no JavaScript. Sua interface baseada em Promises facilita o tratamento assíncrono e torna o código mais legível, especialmente quando combinado com `async/await`. Embora tenha algumas limitações, `fetch()` é geralmente preferido para requisições HTTP em JavaScript, exceto em situações onde seja necessário lidar com funcionalidades mais avançadas que `XMLHttpRequest` possa oferecer.
 
@@ -3293,60 +3347,6 @@ Limitações do `fetch()`
 
 1. **Suporte ao CORS**: `fetch()` é limitado pelo mesmo esquema de segurança **CORS (Cross-Origin Resource Sharing)** que o `XMLHttpRequest`.
 2. **Erro apenas para problemas de rede**: Diferente do `XMLHttpRequest`, `fetch()` não rejeita a Promise para respostas HTTP como 404 ou 500, sendo necessário verificar manualmente se `response.ok` é `true` ou `false`.
-
-## [JS] Async/Await
-O `async` e `await` são palavras-chave no JavaScript introduzidas no ES2017 (ES8) que facilitam o trabalho com operações assíncronas, tornando o código mais legível e mais fácil de entender, como se fosse síncrono. Em resumo, o `async` é usado para definir uma função que retorna uma `Promise`, já o `await` faz com que o JavaScript espere pela resolução de uma `Promise`. Isso torna o código assíncrono mais parecido com código síncrono, facilitando a leitura e manutenção.
-
-O `async` é uma função onde sempre retorna uma `Promise`. Mesmo que você não retorne explicitamente uma `Promise`, o valor retornado será automaticamente encapsulado em uma. Uma função `async` permite o uso da palavra-chave `await` dentro dela.
-
-Exemplo: Função `async` simples
-
-```javascript
-async function exemploAsync() {
-  return "Resultado";
-}
-
-exemploAsync().then(result => console.log(result)); // "Resultado"
-```
-
-Nesse exemplo, `exemploAsync` retorna uma `Promise`, e `then` é usado para acessar o valor resolvido.
-
-A palavra-chave `await` só pode ser usada dentro de uma função `async`. Ela faz com que o JavaScript espere a resolução de uma `Promise` antes de prosseguir para a próxima linha de código, permitindo que o código assíncrono seja escrito de forma mais sequencial.
-
-Exemplo:
-
-```javascript
-async function exemploAwait() {
-  let promise = new Promise((resolve, reject) => {
-    setTimeout(() => resolve("Feito!"), 1000);
-  });
-
-  let resultado = await promise; // espera até a promise ser resolvida
-  console.log(resultado); // "Feito!"
-}
-
-exemploAwait();
-```
-
-Nesse exemplo, o `await` faz com que a execução da função `exemploAwait` pare até que a `promise` seja resolvida. Isso evita a necessidade de usar callbacks ou `then`, facilitando a leitura e manutenção do código.
-
-As vantagens de `async`/`await` são:
-1. **Código mais legível**: Facilita a leitura de código assíncrono, fazendo-o parecer mais síncrono.
-2. **Tratamento de erros**: Usar `try...catch` com `await` para tratar erros torna o código mais simples e menos aninhado do que usar `then` e `catch`.
-
-Exemplo:
-
-```javascript
-async function exemploErro() {
-  try {
-    let resultado = await Promise.reject("Erro!");
-  } catch (erro) {
-    console.log(erro); // "Erro!"
-  }
-}
-
-exemploErro();
-```
 
 # 🔃 [JS] AJAX - Asynchronous JavaScript And XML
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
