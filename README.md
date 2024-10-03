@@ -3147,6 +3147,89 @@ Exemplo 10:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
 # 📜 [JS] Tratamento de exceções
+O **tratamento de exceções** no JavaScript é feito principalmente usando os blocos `try...catch...finally`, que permitem capturar e lidar com erros que ocorrem durante a execução do código. Isso ajuda a evitar que um erro faça o programa parar inesperadamente.
+
+- Use `try` para envolver o código que pode causar uma exceção.
+- Use `catch` para lidar com a exceção caso ela ocorra.
+- O bloco `finally` é executado independentemente do que aconteceu nos blocos `try` e `catch`.
+- `throw` é usado para lançar exceções personalizadas.
+- Em funções assíncronas, `try...catch` também pode ser usado para capturar erros gerados por `await`.
+
+O tratamento de exceções é essencial para garantir que seu programa possa lidar com falhas inesperadas de maneira controlada, mantendo o sistema estável e fornecendo feedback apropriado aos usuários.
+
+Bloco `try...catch`:
+
+1. O bloco `try` contém o código que pode gerar uma exceção.
+2. O bloco `catch` contém o código que será executado se uma exceção for lançada no bloco `try`.
+
+Exemplo:
+
+```javascript
+try {
+  // Código que pode lançar um erro
+  let resultado = 10 / 0;
+  console.log("Resultado:", resultado);
+} catch (erro) {
+  // Código para lidar com o erro
+  console.error("Ocorreu um erro:", erro.message);
+}
+```
+
+Nesse exemplo, se houver algum erro no bloco `try`, a execução passará para o bloco `catch`, onde o erro é tratado. No caso específico acima, embora `10 / 0` não cause erro no JavaScript, outros erros, como uma variável indefinida, sim.
+
+O bloco `finally` é usado para executar código independentemente de ter ocorrido um erro ou não. Ele será executado após os blocos `try` e `catch`.
+
+Exemplo:
+
+```javascript
+try {
+  // Código que pode lançar um erro
+  let x = y + 1; // y não foi definido
+} catch (erro) {
+  console.error("Ocorreu um erro:", erro.message);
+} finally {
+  console.log("O bloco 'finally' foi executado");
+}
+```
+
+Nesse exemplo, mesmo que o erro seja lançado e tratado no `catch`, o bloco `finally` ainda será executado.
+
+O `throw` é usado para lançar exceções personalizadas. Você pode lançar um erro usando um valor (por exemplo, uma string ou um objeto).
+
+Exemplo:
+
+```javascript
+function verificaNumero(numero) {
+  if (typeof numero !== 'number') {
+    throw new Error("O valor fornecido não é um número");
+  }
+  return "Número válido!";
+}
+
+try {
+  verificaNumero("abc");
+} catch (erro) {
+  console.error(erro.message);
+}
+```
+
+Nesse exemplo, se `verificaNumero` for chamado com um valor que não seja um número, a exceção personalizada é lançada usando `throw`, e o erro é capturado no bloco `catch`.
+
+Tratamento de Exceções com `async`/`await`: Quando se lida com funções `async`, o tratamento de exceções pode ser feito com `try...catch`.
+
+```javascript
+async function exemploAsync() {
+  try {
+    let resultado = await Promise.reject("Erro!");
+  } catch (erro) {
+    console.error("Erro capturado:", erro);
+  }
+}
+
+exemploAsync();
+```
+
+O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
 # 📜 [JS] Map
 
