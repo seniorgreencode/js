@@ -3040,10 +3040,17 @@ A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];
 Exemplo:
 
 ```javascript
+const str = 'Digital Innovation One';
 
+function logArgs(...args){
+  console.log(args);
+}
+
+logArgs(...str);
+// Output: (22) ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
+Ele retorna todos os caracteres da constante `str` incluindo os espaços.
 
 Exemplo 2:
 
