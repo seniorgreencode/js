@@ -2800,14 +2800,13 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 > Onde escrever um JavaScript? Já aprendemos algumas formas de escrever o JavaScript anteriormente. No entanto, há uma outra forma para controlar bem os objetos da linguagem! Por meio do DOM e BOM.
 
-### 1° Solução: Embutido na página HTML
-<ol>
-  Como evento de um elemento (IMG, A, INPUT etc);
-  Como elemento &lt;script&gt; dentro de &lt;body&gt;;
-  Como função, dentro de &lt;head&gt;
-</ol>
+1° Solução: Embutido na página HTML:
 
-### 2° Solução: Num arquivo a ser importado
+1. Como evento de um elemento (IMG, A, INPUT etc);
+2. Como elemento &lt;script&gt; dentro de &lt;body&gt;;
+3. Como função, dentro de &lt;head&gt;
+
+2° Solução: Num arquivo a ser importado
  
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
 
