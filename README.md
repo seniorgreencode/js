@@ -578,14 +578,46 @@ Exemplo 4:
 
 ```javascript
 const arr = [1,2,3,4];
-```
+const str = 'Digital Innovation One';
+// console.log(arr[Symbol.iterator]()).next();
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
+const obj = {
+  values: [1,2,3,4],
+  [Symbol.iterator]() {
+     let i = 0;
+    return {
+      next: () => {
+         i++;
+       return{
+  	 value: this.values[i - 1],
+         done: i > this.values.length
+        }
+      }
+    }
+  }
+};
+
+const it = obj[Symbol.iterator]();
+console.log(it.next()); // 1
+console.log(it.next()); // 2
+console.log(it.next()); // 3
+console.log(it.next()); // 4
+console.log(it.next()); // 5 (undefined)
+
+for(let value of obj){
+  console.log(value);
+}
+
+// Spread Operator
+const arr2 = [...obj];
+console.log(arr2);
+```
 
 Exemplo 5:
 
 ```javascript
 const uniqueId = Symbol('Hello');
+const 
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
