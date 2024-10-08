@@ -2537,6 +2537,17 @@ const it = hello();
 console.log(it.next());
 console.log(it.next());
 console.log(it.next('Outside!'));
+
+// Output:
+/*
+Hello
+{value: 1, done: false}
+From
+{value: 2, done: false}
+Outside!
+{value: undefined, done: true}
+undefined
+*/
 ```
 
 Exemplo 5:
