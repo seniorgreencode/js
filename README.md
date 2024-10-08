@@ -2524,10 +2524,20 @@ console.log(it.next());
 Exemplo 4:
 
 ```javascript
+function* hello(){
+  console.log('Hello');
+  yield 1;
+  console.log('From');
+  const value = yield 2;
+  console.log(value);
+}
 
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next('Outside!'));
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
 
 Exemplo 5:
 
