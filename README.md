@@ -477,9 +477,20 @@ A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldiçã
 
 **Linting** - O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
-Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes.
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/2fef07ba-fbd0-4408-af23-9b775bf0ad13" height="77" align="right"></a>
 
-Mas para nós, este é um problema para um futuro distante.
+**Outras linguagens**: Oracle SuiteScript é uma linguagem de programação baseada em JavaScript que permite personalizar e estender as funcionalidades do Oracle NetSuite, um sistema de ERP (Enterprise Resource Planning) baseado em nuvem. Com o SuiteScript, desenvolvedores podem criar scripts para automatizar processos, integrar sistemas, modificar a interface do usuário e criar novas funcionalidades dentro do ambiente NetSuite.
+
+Existem diferentes tipos de scripts no SuiteScript, incluindo:
+
+1. **User Event Scripts**: Executados em resposta a ações do usuário, como criar, atualizar ou excluir registros.
+2. **Client Scripts**: Executados no lado do cliente para melhorar a experiência do usuário, permitindo validações e interações em tempo real.
+3. **Scheduled Scripts**: Executados em horários programados para realizar tarefas de manutenção ou processamento de dados em lote.
+4. **RESTlet Scripts**: Permitem a criação de serviços RESTful personalizados para integração com outras aplicações.
+
+SuiteScript oferece uma maneira poderosa de adaptar o NetSuite às necessidades específicas de uma empresa, promovendo maior eficiência e flexibilidade.
+
+Porém, sua quantidade, mais as mudanças dinâmicas de ferramentas específicas ou mesmo apenas as tendências entre os programadores dificultam o acompanhamento de tudo o que está acontecendo nesses ambientes. Mas para nós, este é um problema para um futuro distante.
 
 Por enquanto, precisamos do trio mínimo: editor de código, intérprete e depurador.
 
