@@ -479,9 +479,7 @@ A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldiçã
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/2fef07ba-fbd0-4408-af23-9b775bf0ad13" height="77" align="right"></a>
 
-**Outras linguagens**: Oracle SuiteScript é uma linguagem de programação baseada em JavaScript que permite personalizar e estender as funcionalidades do Oracle NetSuite, um sistema de ERP (Enterprise Resource Planning) baseado em nuvem. Com o SuiteScript, desenvolvedores podem criar scripts para automatizar processos, integrar sistemas, modificar a interface do usuário e criar novas funcionalidades dentro do ambiente NetSuite.
-
-Existem diferentes tipos de scripts no SuiteScript, incluindo:
+**Outras linguagens**: Oracle SuiteScript é uma linguagem de programação baseada em JavaScript que permite personalizar e estender as funcionalidades do Oracle NetSuite, um sistema de ERP (Enterprise Resource Planning) baseado em nuvem. Com o SuiteScript, desenvolvedores podem criar scripts para automatizar processos, integrar sistemas, modificar a interface do usuário e criar novas funcionalidades dentro do ambiente NetSuite. Existem diferentes tipos de scripts no SuiteScript, incluindo:
 
 1. **User Event Scripts**: Executados em resposta a ações do usuário, como criar, atualizar ou excluir registros.
 2. **Client Scripts**: Executados no lado do cliente para melhorar a experiência do usuário, permitindo validações e interações em tempo real.
