@@ -2944,8 +2944,8 @@ function method1() {
 }
 
 var obj = {
-    method1()
-};
+    method1
+}
 
 console.log(obj);
 ```
@@ -2953,47 +2953,71 @@ console.log(obj);
 Exemplo 3:
 
 ```javascript
+function method1() {
+  console.log('method called')
+}
+
+var obj = {
+    method1
+}
+
+obj.method1;
 ```
 
-![12](https://user-images.githubusercontent.com/61624336/107836713-da410a80-6d7c-11eb-8d41-3e8bf5816bcb.jpg)
-
-**Exemplo 4**:
+Exemplo 4:
 
 ```javascript
 ```
+
 ![12](https://user-images.githubusercontent.com/61624336/107837290-f80f6f00-6d7e-11eb-8d69-3f6dc03a453f.jpg)
 
-**Exemplo 5**:
+Exemplo 5:
 
 ```javascript
 ```
+
 ![12](https://user-images.githubusercontent.com/61624336/107837462-ad422700-6d7f-11eb-9162-b1b192f6e493.jpg)
 
-**Exemplo 6**:
+Exemplo 6:
 
 ```javascript
 ```
+
 ![12](https://user-images.githubusercontent.com/61624336/107837659-d0210b00-6d80-11eb-97b7-4af6ee7bebd8.jpg)
 
-**Exemplo 7**:
+Exemplo 7:
 
 ```javascript
 ```
+
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
 ## [JS] Rest Operator
 Escreve com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 Exemplo:
+
+```javascript
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
 
 Exemplo 2:
+
+```javascript
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861989-58a6b680-6e28-11eb-9887-03679ec3d5ca.jpg)
 
 Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
+
+```javascript
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
 
-**Exemplo 4**:
+Exemplo 4:
+
 ```javascript
   function sum(...args) {
     return args.reduce((acc, value) => acc + value, 0);
@@ -3002,7 +3026,8 @@ Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um
 console.log(sum(5,5,5,2,3));
 ```
 
-**Exemplo 5**: Integrar uma função com a outra
+Exemplo 5: Integrar uma função com a outra
+
 ```javascript
 const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
 
