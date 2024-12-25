@@ -2921,24 +2921,54 @@ function alertar(){
 A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 Exemplo:
-![12](https://user-images.githubusercontent.com/61624336/107830786-592d4780-6d6b-11eb-8c24-e0e94809995b.jpg)
+
+```javascript
+var prop1 = 'Digital Innovation One';
+
+var obj = {
+    prop1: prop1
+};
+
+console.log(obj);
+```
 
 Exemplo 2:
+
+```javascript
+
+```
+
 ![12](https://user-images.githubusercontent.com/61624336/107836537-4cfdb600-6d7c-11eb-918d-737ba9c555a9.jpg)
 
 Exemplo 3:
+
+```javascript
+```
+
 ![12](https://user-images.githubusercontent.com/61624336/107836713-da410a80-6d7c-11eb-8d41-3e8bf5816bcb.jpg)
 
 **Exemplo 4**:
+
+```javascript
+```
 ![12](https://user-images.githubusercontent.com/61624336/107837290-f80f6f00-6d7e-11eb-8d69-3f6dc03a453f.jpg)
 
 **Exemplo 5**:
+
+```javascript
+```
 ![12](https://user-images.githubusercontent.com/61624336/107837462-ad422700-6d7f-11eb-9162-b1b192f6e493.jpg)
 
 **Exemplo 6**:
+
+```javascript
+```
 ![12](https://user-images.githubusercontent.com/61624336/107837659-d0210b00-6d80-11eb-97b7-4af6ee7bebd8.jpg)
 
 **Exemplo 7**:
+
+```javascript
+```
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
 ## [JS] Rest Operator
