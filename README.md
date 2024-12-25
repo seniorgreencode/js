@@ -2918,9 +2918,13 @@ function alertar(){
 ```
 
 ## [JS] Enhanced Object Literals
-A maneira clássica de escrever objetos literais é como o exemplo abaixo:
+O **Enhanced Object Literals**, ou Literais de Objeto Aprimorados, são uma funcionalidade introduzida no ECMAScript 2015 (ES6) que facilita a criação e manipulação de objetos em JavaScript, tornando o código mais conciso e expressivo. Essa funcionalidade permite simplificar a definição de objetos, especialmente quando as propriedades ou métodos têm nomes e valores derivados de variáveis ou funções já existentes.
 
-Exemplo:
+Por exemplo, em vez de escrever explicitamente `const obj = { key: key }`, você pode simplesmente usar `const obj = { key }`, onde o nome da variável e o nome da propriedade são iguais. 
+
+Além disso, os Enhanced Object Literals permitem definir métodos diretamente em objetos sem a necessidade de usar a palavra-chave `function`, tornando o código mais limpo. Outra melhoria significativa é a possibilidade de usar propriedades computadas como chaves de objetos, permitindo que você crie dinamicamente nomes de propriedades utilizando expressões dentro de colchetes, como em `{ [keyName]: value }`. Isso é especialmente útil em cenários dinâmicos, como ao trabalhar com APIs ou ao gerar objetos baseados em lógica variável. Os Enhanced Object Literals também permitem a definição de protótipos diretamente no momento da criação do objeto, usando a sintaxe `__proto__`, eliminando a necessidade de usar métodos como `Object.create`. Com todas essas melhorias, os Enhanced Object Literals não apenas simplificam a sintaxe e reduzem a verbosidade, mas também promovem um estilo de código mais legível e moderno, alinhado às práticas atuais do desenvolvimento JavaScript.
+
+A maneira clássica de escrever objetos literais é como o exemplo abaixo:
 
 ```javascript
 var prop1 = 'Digital Innovation One';
@@ -2935,10 +2939,16 @@ console.log(obj);
 Exemplo 2:
 
 ```javascript
+function method1() {
+  console.log('method called')
+}
 
+var obj = {
+    method1()
+};
+
+console.log(obj);
 ```
-
-![12](https://user-images.githubusercontent.com/61624336/107836537-4cfdb600-6d7c-11eb-918d-737ba9c555a9.jpg)
 
 Exemplo 3:
 
