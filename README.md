@@ -1768,6 +1768,92 @@ console.log(fruta[1].nome, fruta[0].cor);
 // Output: uva verde
 ```
 
+
+## [JS] Enhanced Object Literals
+O **Enhanced Object Literals**, ou Literais de Objeto Aprimorados, são uma funcionalidade introduzida no ECMAScript 2015 (ES6) que facilita a criação e manipulação de objetos em JavaScript, tornando o código mais conciso e expressivo. Essa funcionalidade permite simplificar a definição de objetos, especialmente quando as propriedades ou métodos têm nomes e valores derivados de variáveis ou funções já existentes.
+
+Por exemplo, em vez de escrever explicitamente `const obj = { key: key }`, você pode simplesmente usar `const obj = { key }`, onde o nome da variável e o nome da propriedade são iguais. 
+
+Além disso, os Enhanced Object Literals permitem definir métodos diretamente em objetos sem a necessidade de usar a palavra-chave `function`, tornando o código mais limpo. Outra melhoria significativa é a possibilidade de usar propriedades computadas como chaves de objetos, permitindo que você crie dinamicamente nomes de propriedades utilizando expressões dentro de colchetes, como em `{ [keyName]: value }`. Isso é especialmente útil em cenários dinâmicos, como ao trabalhar com APIs ou ao gerar objetos baseados em lógica variável. Os Enhanced Object Literals também permitem a definição de protótipos diretamente no momento da criação do objeto, usando a sintaxe `__proto__`, eliminando a necessidade de usar métodos como `Object.create`. Com todas essas melhorias, os Enhanced Object Literals não apenas simplificam a sintaxe e reduzem a verbosidade, mas também promovem um estilo de código mais legível e moderno, alinhado às práticas atuais do desenvolvimento JavaScript.
+
+A maneira clássica de escrever objetos literais é como o exemplo abaixo:
+
+```javascript
+var prop1 = 'Digital Innovation One';
+
+var obj = {
+    prop1: prop1
+};
+
+console.log(obj);
+```
+
+Exemplo 2:
+
+```javascript
+function method1() {
+  console.log('method called')
+}
+
+var obj = {
+    method1
+}
+
+console.log(obj);
+```
+
+Exemplo 3:
+
+```javascript
+function method1() {
+  console.log('method called')
+}
+
+var obj = {
+    method1
+}
+
+obj.method1;
+```
+
+Exemplo 4:
+
+```javascript
+var obj = {
+  sum(a, b){
+      return a + b;
+  }
+}
+
+console.log(obj.sum(1, 5));
+```
+
+Exemplo 5:
+
+```javascript
+var propName = 'test';
+
+var obj = {};
+
+obj[propName] = 'prop value';
+
+console.log(obj);
+```
+
+Exemplo 6:
+
+```javascript
+```
+
+![12](https://user-images.githubusercontent.com/61624336/107837659-d0210b00-6d80-11eb-97b7-4af6ee7bebd8.jpg)
+
+Exemplo 7:
+
+```javascript
+```
+
+![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
+
 # 📜 [JS] Estruturas de programação
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/cbe79d06-9676-4415-bc64-38a52e360d1b" align="right" height="177">
 
@@ -2916,81 +3002,6 @@ function alertar(){
   alert("Hello, world!");
 }
 ```
-
-## [JS] Enhanced Object Literals
-O **Enhanced Object Literals**, ou Literais de Objeto Aprimorados, são uma funcionalidade introduzida no ECMAScript 2015 (ES6) que facilita a criação e manipulação de objetos em JavaScript, tornando o código mais conciso e expressivo. Essa funcionalidade permite simplificar a definição de objetos, especialmente quando as propriedades ou métodos têm nomes e valores derivados de variáveis ou funções já existentes.
-
-Por exemplo, em vez de escrever explicitamente `const obj = { key: key }`, você pode simplesmente usar `const obj = { key }`, onde o nome da variável e o nome da propriedade são iguais. 
-
-Além disso, os Enhanced Object Literals permitem definir métodos diretamente em objetos sem a necessidade de usar a palavra-chave `function`, tornando o código mais limpo. Outra melhoria significativa é a possibilidade de usar propriedades computadas como chaves de objetos, permitindo que você crie dinamicamente nomes de propriedades utilizando expressões dentro de colchetes, como em `{ [keyName]: value }`. Isso é especialmente útil em cenários dinâmicos, como ao trabalhar com APIs ou ao gerar objetos baseados em lógica variável. Os Enhanced Object Literals também permitem a definição de protótipos diretamente no momento da criação do objeto, usando a sintaxe `__proto__`, eliminando a necessidade de usar métodos como `Object.create`. Com todas essas melhorias, os Enhanced Object Literals não apenas simplificam a sintaxe e reduzem a verbosidade, mas também promovem um estilo de código mais legível e moderno, alinhado às práticas atuais do desenvolvimento JavaScript.
-
-A maneira clássica de escrever objetos literais é como o exemplo abaixo:
-
-```javascript
-var prop1 = 'Digital Innovation One';
-
-var obj = {
-    prop1: prop1
-};
-
-console.log(obj);
-```
-
-Exemplo 2:
-
-```javascript
-function method1() {
-  console.log('method called')
-}
-
-var obj = {
-    method1
-}
-
-console.log(obj);
-```
-
-Exemplo 3:
-
-```javascript
-function method1() {
-  console.log('method called')
-}
-
-var obj = {
-    method1
-}
-
-obj.method1;
-```
-
-Exemplo 4:
-
-```javascript
-```
-
-![12](https://user-images.githubusercontent.com/61624336/107837290-f80f6f00-6d7e-11eb-8d69-3f6dc03a453f.jpg)
-
-Exemplo 5:
-
-```javascript
-```
-
-![12](https://user-images.githubusercontent.com/61624336/107837462-ad422700-6d7f-11eb-9162-b1b192f6e493.jpg)
-
-Exemplo 6:
-
-```javascript
-```
-
-![12](https://user-images.githubusercontent.com/61624336/107837659-d0210b00-6d80-11eb-97b7-4af6ee7bebd8.jpg)
-
-Exemplo 7:
-
-```javascript
-```
-
-![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
 ## [JS] Rest Operator
 Escreve com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
