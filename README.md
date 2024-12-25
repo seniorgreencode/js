@@ -1643,7 +1643,7 @@ const filteredTechs = techs.filter((tech, index) => {
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
 ```
 
-## [JS] Objetos
+# 📜 [JS] Objetos
 Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
 
 Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim. Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
