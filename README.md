@@ -3446,7 +3446,7 @@ exemploAsync();
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
 # 📜 [JS] Promises 
-[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
+[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
 
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
 
