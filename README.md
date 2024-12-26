@@ -1660,8 +1660,8 @@ const filteredTechs = techs.filter((tech, index) => {
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
 ```
 
-# 📜 [JS] Objetos
-Um **objeto** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
+# 📜 [JS] Objects
+Um **object** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
 
 Exemplo: No caso de um objeto com propriedades (variáveis), fazemos assim. Caso você já tenha criado o objeto e queira adicionar um novo, você pode fazer de duas formas:
 
@@ -1785,7 +1785,6 @@ console.log(fruta[1].nome, fruta[0].cor);
 // Output: uva verde
 ```
 
-
 ## [JS] Enhanced Object Literals
 O **Enhanced Object Literals**, ou Literais de Objeto Aprimorados, são uma funcionalidade introduzida no ECMAScript 2015 (ES6) que facilita a criação e manipulação de objetos em JavaScript, tornando o código mais conciso e expressivo. Essa funcionalidade permite simplificar a definição de objetos, especialmente quando as propriedades ou métodos têm nomes e valores derivados de variáveis ou funções já existentes.
 
@@ -1870,6 +1869,56 @@ Exemplo 7:
 ```
 
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
+
+## [JS] Rest Operator
+O **Rest Operator** é uma ferramenta poderosa que permite coletar elementos restantes em uma função ou ao desestruturar arrays e objetos. Essencialmente, ele "agrupa" elementos extras em um único array. É representado por três pontos, escrevendo com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
+
+Exemplo:
+
+```javascript
+function sum(...args) {
+  console.log(args);
+  console.log(arguments);
+}
+
+console.log(sum(5, 5, 5, 2, 3))
+```
+
+Exemplo 2:
+
+```javascript
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861989-58a6b680-6e28-11eb-9887-03679ec3d5ca.jpg)
+
+Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
+
+```javascript
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
+
+Exemplo 4:
+
+```javascript
+  function sum(...args) {
+    return args.reduce((acc, value) => acc + value, 0);
+}
+
+console.log(sum(5,5,5,2,3));
+```
+
+Exemplo 5: Integrar uma função com a outra
+
+```javascript
+const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
+
+const sum = (...rest) => {
+   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
+};
+
+console.log(sum(5,5,5,2,3));
+```
 
 # 📜 [JS] Map
 Em JavaScript, um **Map** é uma estrutura de dados que associa chaves (`keys`) a valores (`values`). Ao contrário dos objetos JavaScript tradicionais, as chaves de um Map podem ser de qualquer tipo, incluindo objetos, funções e até mesmo outros Maps. Isso oferece uma flexibilidade muito maior na organização e acesso aos dados. O Map é uma ferramenta poderosa em JavaScript que oferece uma forma flexível e eficiente de armazenar e organizar dados. Ao entender suas características e como utilizá-lo, você poderá escrever código mais limpo e organizado, especialmente quando lidar com dados complexos.
@@ -3083,56 +3132,6 @@ Exemplo 2: Chamada de função por evento
 function alertar(){
   alert("Hello, world!");
 }
-```
-
-## [JS] Rest Operator
-O Rest Operator é uma ferramenta poderosa que permite coletar elementos restantes em uma função ou ao desestruturar arrays e objetos. Essencialmente, ele "agrupa" elementos extras em um único array. É representado por três pontos, escrevendo com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
-
-Exemplo:
-
-```javascript
-function sum(...args) {
-  console.log(args);
-  console.log(arguments);
-}
-
-console.log(sum(5, 5, 5, 2, 3))
-```
-
-Exemplo 2:
-
-```javascript
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861989-58a6b680-6e28-11eb-9887-03679ec3d5ca.jpg)
-
-Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
-
-```javascript
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
-
-Exemplo 4:
-
-```javascript
-  function sum(...args) {
-    return args.reduce((acc, value) => acc + value, 0);
-}
-
-console.log(sum(5,5,5,2,3));
-```
-
-Exemplo 5: Integrar uma função com a outra
-
-```javascript
-const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
-
-const sum = (...rest) => {
-   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
-};
-
-console.log(sum(5,5,5,2,3));
 ```
 
 ## [JS] Destructuring
