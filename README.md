@@ -3009,9 +3009,13 @@ Escreve com `...` antes do parâmetro e ele traz métodos de array para manipula
 Exemplo:
 
 ```javascript
-```
+function sum(...args) {
+  console.log(args);
+  console.log(arguments);
+}
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861077-0f536880-6e22-11eb-97fd-8c6aeeb3c604.jpg)
+console.log(sum(5, 5, 5, 2, 3))
+```
 
 Exemplo 2:
 
@@ -3255,6 +3259,7 @@ Exemplo 4:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
 
 Exemplo 5:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
 
 Exemplo 6:
