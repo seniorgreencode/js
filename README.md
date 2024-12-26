@@ -2037,6 +2037,115 @@ Exemplo 10:
  
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
+## [JS] Destructuring
+Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
+
+Exemplo: Destructuring Assignment
+Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
+
+Exemplo 3:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
+
+**Exemplo 4**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
+
+**Exemplo 5**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
+
+**Exemplo 6**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
+
+**Exemplo 7**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
+
+**Exemplo 8**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
+
+**Exemplo 9**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
+
+Exemplo: É possível combinar **default function arguments** com **destructuring**? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
+ 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
+
+Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
+
+Exemplo 3: Comparando identificação
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
+
+**Exemplo 4**: Gerando propriedade privada
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
+
+Você pode modificar o symbols com as suas propriedades.
+
+Exemplo: Well known Symbols
+<pre>Symbol.</pre>
+
+Exemplo 2: Symbol.iterator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
+
+Exemplo 3: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
+
+**Exemplo 4**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
+
+**Exemplo 5**:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
+
+Generators são funções com pausa e elas despausam valores através da interface de iteração.
+
+Exemplo: Função normal
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
+
+Exemplo 2: Função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
+
+Exemplo 3: Ordenando a função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
+
+Exemplo 4: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
+
+Exemplo 5:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
+
+Exemplo 6:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
+
+Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
+
+Exemplo 4:
+```javascript
+  function sum(...args) {
+    return args.reduce((acc, value) => acc + value, 0);
+}
+
+console.log(sum(5,5,5,2,3));
+```
+
+Exemplo 5: Integrar uma função com a outra
+```javascript
+const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
+
+const sum = (...rest) => {
+   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
+};
+
+console.log(sum(5,5,5,2,3));
+```
+
 # 📜 [JS] Map
 Em JavaScript, um **Map** é uma estrutura de dados que associa chaves (`keys`) a valores (`values`). Ao contrário dos objetos JavaScript tradicionais, as chaves de um Map podem ser de qualquer tipo, incluindo objetos, funções e até mesmo outros Maps. Isso oferece uma flexibilidade muito maior na organização e acesso aos dados. O Map é uma ferramenta poderosa em JavaScript que oferece uma forma flexível e eficiente de armazenar e organizar dados. Ao entender suas características e como utilizá-lo, você poderá escrever código mais limpo e organizado, especialmente quando lidar com dados complexos.
 
@@ -3249,115 +3358,6 @@ Exemplo 2: Chamada de função por evento
 function alertar(){
   alert("Hello, world!");
 }
-```
-
-## [JS] Destructuring
-Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
-
-Exemplo: Destructuring Assignment
-Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
-
-Exemplo 3:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
-
-**Exemplo 4**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
-
-**Exemplo 5**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
-
-**Exemplo 6**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
-
-**Exemplo 7**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
-
-**Exemplo 8**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
-
-**Exemplo 9**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
-
-Exemplo: É possível combinar **default function arguments** com **destructuring**? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
- 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
-
-Possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos!
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108003495-c17d6280-6fd1-11eb-8588-e5f4734f9e73.jpg)
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108004884-eb388880-6fd5-11eb-8f8a-1e0e22e1aeef.jpg)
-
-Exemplo 3: Comparando identificação
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108005058-613cef80-6fd6-11eb-82fd-572cfe36ccca.jpg)
-
-**Exemplo 4**: Gerando propriedade privada
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
-
-Você pode modificar o symbols com as suas propriedades.
-
-Exemplo: Well known Symbols
-<pre>Symbol.</pre>
-
-Exemplo 2: Symbol.iterator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
-
-Exemplo 3: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
-
-**Exemplo 4**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
-
-**Exemplo 5**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
-
-Generators são funções com pausa e elas despausam valores através da interface de iteração.
-
-Exemplo: Função normal
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
-
-Exemplo 2: Função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
-
-Exemplo 3: Ordenando a função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
-
-Exemplo 4: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
-
-Exemplo 5:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
-
-Exemplo 6:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
-
-Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
-
-Exemplo 4:
-```javascript
-  function sum(...args) {
-    return args.reduce((acc, value) => acc + value, 0);
-}
-
-console.log(sum(5,5,5,2,3));
-```
-
-Exemplo 5: Integrar uma função com a outra
-```javascript
-const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
-
-const sum = (...rest) => {
-   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
-};
-
-console.log(sum(5,5,5,2,3));
 ```
 
 # 📜 [JS] Tratamento de exceções
