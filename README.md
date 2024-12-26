@@ -3450,15 +3450,16 @@ O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra du
 
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
 
-As **Promises** são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas. Elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam callbacks. As promises são muito necessárias porque paralelalizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
-
-<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
+Em JavaScript, **Promises** são objetos que representam a eventual conclusão (com sucesso ou falha) de uma operação assíncrona. Pense nelas como promessas de que algo será feito no futuro. Elas são fundamentais para lidar com operações que levam tempo para serem concluídas, como requisições de rede, leituras de arquivos ou animações. As Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas, elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam <a href="">callbacks</a>. As promises são muito necessárias porque paralelizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
 
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
 
 De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
 
-**Uso de código assíncrono**:
+Uso de código assíncrono:
+
+<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
+
 - Requests HTTP
 - Leitura de arquivos
 - Acesso a serviço externo
