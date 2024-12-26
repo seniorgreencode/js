@@ -616,12 +616,29 @@ console.log(arr2);
 Exemplo 5:
 
 ```javascript
+// Symbols
 const uniqueId = Symbol('Hello');
-const 
+
+// Well known symbols
+Symbol.iterator;
+
+const arr = [1,2,3,4];
+const str = 'Digital Innovation One';
+
+// Generators
+const obj = {
+  values: [1,2,3,4],
+  *[Symbol.iterator]() {
+    for(var i = 0; i < this.values.length; i++) {
+       yield this.values[i];
+    }
+  }
+};
+
+for(let value of obj) {
+   console.log(value);
+}
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
-
 
 # 📜 [JS] Operadores
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
