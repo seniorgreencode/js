@@ -1920,6 +1920,123 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
+## [JS] Spread Operator
+Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
+  
+Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
+
+A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
+
+Exemplo:
+
+```javascript
+const str = 'Digital Innovation One';
+
+function logArgs(...args){
+  console.log(args);
+}
+
+logArgs(...str);
+// Output: (22) ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
+```
+
+Ele retorna todos os caracteres da constante `str` incluindo os espaços.
+
+Exemplo 2:
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
+
+Exemplo 3:
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
+
+Exemplo 4:
+
+```javascript
+
+```
+
+![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
+
+Exemplo 5: Shallow Clone
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
+
+Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
+
+```javascript
+
+```
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
+
+Exemplo:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
+
+Exemplo 3:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
+
+Exemplo 4:
+![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
+
+Exemplo 5: Shallow Clone
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
+
+Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
+
+Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
+
+Exemplo: Destructuring Assignment
+Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
+
+Exemplo 2:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
+
+Exemplo 3:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
+
+Exemplo 4:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
+
+Exemplo 5:
+
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
+
+Exemplo 6:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
+
+Exemplo 7:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
+
+Exemplo 8:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
+
+Exemplo 9:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
+
+Exemplo 10:
+É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
+ 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
+
 # 📜 [JS] Map
 Em JavaScript, um **Map** é uma estrutura de dados que associa chaves (`keys`) a valores (`values`). Ao contrário dos objetos JavaScript tradicionais, as chaves de um Map podem ser de qualquer tipo, incluindo objetos, funções e até mesmo outros Maps. Isso oferece uma flexibilidade muito maior na organização e acesso aos dados. O Map é uma ferramenta poderosa em JavaScript que oferece uma forma flexível e eficiente de armazenar e organizar dados. Ao entender suas características e como utilizá-lo, você poderá escrever código mais limpo e organizado, especialmente quando lidar com dados complexos.
 
@@ -3242,123 +3359,6 @@ const sum = (...rest) => {
 
 console.log(sum(5,5,5,2,3));
 ```
-
-## [JS] Spread Operator
-Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
-  
-Ele pode ser usado em Strings, Arrays, Objetos Literais e Objetos Iteráveis. Só pode usar o Spread em objetos literais não iteráveis. Que no caso é para construir novos objetos. Além disso, a ordem de cada objeto importa durante a execução! Ao construir um objeto literal a partir de outro, utilizando o spread operator, a ordem é importante pois a ordem define quais valores das chaves com o mesmo nome irão prevalecer.
-
-A forma de combinar dois arrays utilizando spread operator: `[...arr1, ...arr2];`
-
-Exemplo:
-
-```javascript
-const str = 'Digital Innovation One';
-
-function logArgs(...args){
-  console.log(args);
-}
-
-logArgs(...str);
-// Output: (22) ['D', 'i', 'g', 'i', 't', 'a', 'l', ' ', 'I', 'n', 'n', 'o', 'v', 'a', 't', 'i', 'o', 'n', ' ', 'O', 'n', 'e']
-```
-
-Ele retorna todos os caracteres da constante `str` incluindo os espaços.
-
-Exemplo 2:
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
-
-Exemplo 3:
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
-
-Exemplo 4:
-
-```javascript
-
-```
-
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
-
-Exemplo 5: Shallow Clone
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
-
-Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
-
-Exemplo:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
-
-Exemplo 3:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
-
-Exemplo 4:
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
-
-Exemplo 5: Shallow Clone
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
-
-Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
-
-Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
-
-Exemplo: Destructuring Assignment
-Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
-
-Exemplo 2:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
-
-Exemplo 3:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
-
-Exemplo 4:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
-
-Exemplo 5:
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
-
-Exemplo 6:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
-
-Exemplo 7:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
-
-Exemplo 8:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
-
-Exemplo 9:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
-
-Exemplo 10:
-É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
- 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
 # 📜 [JS] Tratamento de exceções
 O **tratamento de exceções** no JavaScript é feito principalmente usando os blocos `try...catch...finally`, que permitem capturar e lidar com erros que ocorrem durante a execução do código. Isso ajuda a evitar que um erro faça o programa parar inesperadamente.
