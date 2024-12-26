@@ -1871,6 +1871,63 @@ Exemplo 7:
 
 ![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
 
+# 📜 [JS] Map
+Em JavaScript, um **Map** é uma estrutura de dados que associa chaves (`keys`) a valores (`values`). Ao contrário dos objetos JavaScript tradicionais, as chaves de um Map podem ser de qualquer tipo, incluindo objetos, funções e até mesmo outros Maps. Isso oferece uma flexibilidade muito maior na organização e acesso aos dados. O Map é uma ferramenta poderosa em JavaScript que oferece uma forma flexível e eficiente de armazenar e organizar dados. Ao entender suas características e como utilizá-lo, você poderá escrever código mais limpo e organizado, especialmente quando lidar com dados complexos.
+
+Por que usar um Map?
+
+* **Chaves flexíveis:** As chaves podem ser de qualquer tipo, não se limitando a strings e números.
+* **Ordem de inserção:** Os elementos são armazenados na ordem em que foram adicionados, o que pode ser útil em algumas situações.
+* **Tamanho:** Você pode obter o tamanho do Map facilmente usando o método `size`.
+* **Métodos úteis:** O Map oferece uma variedade de métodos para adicionar, remover, verificar a existência e iterar sobre os elementos.
+
+Exemplo:
+
+```javascript
+// Criando um novo Map
+const meuMap = new Map();
+
+// Adicionando elementos
+meuMap.set('nome', 'João');
+meuMap.set(1, 'Um');
+meuMap.set(true, 'Verdadeiro');
+meuMap.set({}, 'Objeto vazio'); // A chave é um objeto
+
+// Acessando valores
+console.log(meuMap.get('nome')); // Saída: João
+console.log(meuMap.get(1)); // Saída: Um
+
+// Verificando se uma chave existe
+console.log(meuMap.has('idade')); // Saída: false
+
+// Removendo um elemento
+meuMap.delete(1);
+
+// Obtendo o tamanho
+console.log(meuMap.size);
+
+// Iterando sobre os elementos
+for (const [chave, valor] of meuMap) {
+    console.log(chave, valor);
+}
+```
+
+Comparando Map com Objetos:
+
+| Característica | Map | Objetos |
+|---|---|---|
+| Chaves | Qualquer tipo | Principalmente strings e símbolos |
+| Ordem de inserção | Preservada | Não garantida |
+| Tamanho | Método `size` | Não tem um método direto |
+| Iteração | Métodos `forEach`, `keys`, `values`, `entries` | `for...in`, `Object.keys`, `Object.values`, `Object.entries` |
+
+**Quando usar Map?**
+
+* **Quando a ordem de inserção é importante:** Por exemplo, em um histórico de ações.
+* **Quando as chaves são de tipos variados:** Como em um cache onde as chaves podem ser strings, números ou objetos.
+* **Quando você precisa de um tamanho dinâmico:** O Map te permite saber quantos elementos ele contém.
+* **Quando você precisa de métodos específicos:** Como `set`, `get`, `has` e `delete`.
+
 # 📜 [JS] Estruturas de programação
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/cbe79d06-9676-4415-bc64-38a52e360d1b" align="right" height="177">
 
@@ -3388,8 +3445,6 @@ exemploAsync();
 ```
 
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
-
-# 📜 [JS] Map
 
 # 📜 [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/)
