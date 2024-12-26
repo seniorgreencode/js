@@ -3086,7 +3086,7 @@ function alertar(){
 ```
 
 ## [JS] Rest Operator
-Escreve com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
+O Rest Operator é uma ferramenta poderosa que permite coletar elementos restantes em uma função ou ao desestruturar arrays e objetos. Essencialmente, ele "agrupa" elementos extras em um único array. É representado por três pontos, escrevendo com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
 
 Exemplo:
 
