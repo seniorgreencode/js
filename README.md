@@ -2656,7 +2656,15 @@ undefined
 Exemplo 5:
 
 ```javascript
+// Generators
+function* naturalNumbers() {
+  let number = 0;
+}
 
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
