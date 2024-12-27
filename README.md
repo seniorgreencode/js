@@ -1859,16 +1859,25 @@ console.log(obj);
 Exemplo 6:
 
 ```javascript
-```
+var propName = 'test';
+var obj = {};
 
-![12](https://user-images.githubusercontent.com/61624336/107837659-d0210b00-6d80-11eb-97b7-4af6ee7bebd8.jpg)
+obj[propName] = 'propName';
+
+console.log(obj);
+```
 
 Exemplo 7:
 
 ```javascript
-```
+var propName = 'test';
 
-![12](https://user-images.githubusercontent.com/61624336/107838209-838aff00-6d83-11eb-8ba5-d870e63bbb4f.jpg)
+var obj = {
+  [propName + 'concat']: 'prop value';
+};
+
+console.log(obj);
+```
 
 ## [JS] Rest Operator
 O **Rest Operator** é uma ferramenta poderosa que permite coletar elementos restantes em uma função ou ao desestruturar arrays e objetos. Essencialmente, ele "agrupa" elementos extras em um único array. É representado por três pontos, escrevendo com `...` antes do parâmetro e ele traz métodos de array para manipular os seus argumentos. Quando o rest operator é utilizado nos argumentos de uma função, além da lista de argumentos, ele também traz os métodos e propriedades de array por ser uma instância de um array.
