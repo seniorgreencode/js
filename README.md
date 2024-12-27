@@ -3454,7 +3454,7 @@ exemploAsync();
 
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
-# 📜 Paradigma Assíncrono
+# 📜 [JS] JavaScript Assíncrono
 O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente.
 
 ## [JS] Callbacks
