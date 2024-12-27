@@ -3454,6 +3454,8 @@ exemploAsync();
 
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
+# 📜 [JS] Callbacks
+
 # 📜 [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
 
