@@ -3479,11 +3479,17 @@ Uso de código assíncrono:
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
 ## [JS] Async/Await
-![image](https://github.com/user-attachments/assets/838a863f-a6e5-46f2-8f2c-d41bf1a58afd)
+<img src="https://github.com/user-attachments/assets/34c958e7-d5a8-42cc-8813-023fd61daf7f" align="right" height="77">
 
 O `async` e `await` são palavras-chave no JavaScript introduzidas no ES2017 (ES8) que facilitam o trabalho com operações assíncronas, tornando o código mais legível e mais fácil de entender, como se fosse síncrono. Em resumo, o `async` é usado para definir uma função que retorna uma `Promise`, já o `await` faz com que o JavaScript espere pela resolução de uma `Promise`. Isso torna o código assíncrono mais parecido com código síncrono, facilitando a leitura e manutenção.
 
 O `async` é uma função onde sempre retorna uma `Promise`. Mesmo que você não retorne explicitamente uma `Promise`, o valor retornado será automaticamente encapsulado em uma. Uma função `async` permite o uso da palavra-chave `await` dentro dela.
+
+Sintaxe:
+
+```javascript
+async() => { await }
+```
 
 Exemplo: Função `async` simples
 
