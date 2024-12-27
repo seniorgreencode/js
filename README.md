@@ -3470,6 +3470,8 @@ Uso de código assíncrono:
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
 ## [JS] Async/Await
+![image](https://github.com/user-attachments/assets/838a863f-a6e5-46f2-8f2c-d41bf1a58afd)
+
 O `async` e `await` são palavras-chave no JavaScript introduzidas no ES2017 (ES8) que facilitam o trabalho com operações assíncronas, tornando o código mais legível e mais fácil de entender, como se fosse síncrono. Em resumo, o `async` é usado para definir uma função que retorna uma `Promise`, já o `await` faz com que o JavaScript espere pela resolução de uma `Promise`. Isso torna o código assíncrono mais parecido com código síncrono, facilitando a leitura e manutenção.
 
 O `async` é uma função onde sempre retorna uma `Promise`. Mesmo que você não retorne explicitamente uma `Promise`, o valor retornado será automaticamente encapsulado em uma. Uma função `async` permite o uso da palavra-chave `await` dentro dela.
@@ -3530,7 +3532,7 @@ Características do `fetch()`:
 
 1. **Baseado em Promises**: Diferentemente do `XMLHttpRequest`, a função `fetch()` retorna uma **Promise**, o que permite manipular a resposta de maneira assíncrona usando `.then()` e `.catch()`, ou com **`async/await`** para simplificar o código.
 
-2. **Suporte a Diferentes Tipos de Requisição**: `fetch()` pode ser usado para fazer todos os tipos de requisição HTTP, como **GET**, **POST**, **PUT**, e **DELETE**.
+2. **Suporte a Diferentes Tipos de Requisição**: `fetch()` pode ser usado para fazer todos os tipos de requisição HTTP, como `GET`, `POST`, `PUT`, e `DELETE`.
 
 3. **API Simples e Concisa**: `fetch()` tem uma sintaxe mais simples e fácil de ler, principalmente quando comparado ao `XMLHttpRequest`.
 
@@ -3549,9 +3551,9 @@ fetch(url, [opções])
 - **`url`**: A URL para onde a requisição será enviada.
 - **`opções`** (opcional): Um objeto com configurações adicionais, como o método HTTP, cabeçalhos, corpo da requisição, etc.
 
-1. Requisição GET
+1. Requisição `GET`
 
-Uma requisição GET para buscar dados de uma API:
+Uma requisição `GET` para buscar dados de uma API:
 
 ```javascript
 fetch('https://jsonplaceholder.typicode.com/posts/1')
@@ -3575,7 +3577,7 @@ No exemplo acima:
 - `response.ok`: Verifica se a resposta foi bem-sucedida.
 - `response.json()`: Retorna os dados no formato JSON.
 
-2. Requisição POST
+2. Requisição `POST`
 
 Enviando dados para o servidor usando `fetch()`:
 
