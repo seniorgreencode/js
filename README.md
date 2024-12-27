@@ -3454,9 +3454,12 @@ exemploAsync();
 
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
-# 📜 [JS] Callbacks
+# 📜 Paradigma Assíncrono
+O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente.
 
-# 📜 [JS] Promises 
+## [JS] Callbacks
+
+## [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
 
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
@@ -3691,7 +3694,7 @@ Limitações do `fetch()`
 1. **Suporte ao CORS**: `fetch()` é limitado pelo mesmo esquema de segurança **CORS (Cross-Origin Resource Sharing)** que o `XMLHttpRequest`.
 2. **Erro apenas para problemas de rede**: Diferente do `XMLHttpRequest`, `fetch()` não rejeita a Promise para respostas HTTP como 404 ou 500, sendo necessário verificar manualmente se `response.ok` é `true` ou `false`.
 
-# 🔃 [JS] AJAX - Asynchronous JavaScript And XML
+## [JS] AJAX - Asynchronous JavaScript And XML
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada **AJAX (Asynchronous JavaScript And XML)**, a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
