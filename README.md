@@ -1896,9 +1896,12 @@ console.log(sum(5, 5, 5, 2, 3))
 Exemplo 2:
 
 ```javascript
-```
+function sum(...args) {
+  return args.reduce((acc, value) => acc + value, 0);
+}
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107861989-58a6b680-6e28-11eb-9887-03679ec3d5ca.jpg)
+console.log(sum(5, 5, 5, 2, 3))
+```
 
 Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
 
