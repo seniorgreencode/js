@@ -1970,12 +1970,15 @@ function logsArgs(a,b,c){
 logsArgs(...arr);
 ```
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
-
-Exemplo 3:
+Exemplo 3: Evolução do exemplo anterior, 
 
 ```javascript
+const str = 'Digital Innovation One';
+const arr = [1,2,3,4];
 
+function logsArgs(a,b,c){
+  console.log(a,b,c);
+}
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
