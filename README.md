@@ -3906,6 +3906,19 @@ No exemplo acima:
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
 # 📜 [JS] Paradigma Reativo
+A **programação reativa** é um modelo ou um paradigma de programação criado inicialmente pela Microsoft que é orientado a fluxo de dados e propagações de estados. Estes fluxos de dados (que também são chamados de `streams`) são em grande parte assíncronos, ou seja, as operações são independentes umas das outras e não precisam ser executadas em uma sequência específica. Todas as ações quando falamos sobre programação reativa são transmitidas e detectadas por um fluxo de dados, como eventos, mensagens, chamadas e até mesmo as falhas. Aplicações reativas, então, são constituídas por reações a alterações nestes fluxos de dados.
+
+O paradigma reativo possui alguns conceitos, como a assincronia, a utilização de processos não-bloqueantes e orientação a mensagens e eventos. Estes conceitos trazem algumas vantagens de maneira natural.
+
+Aplicações reativas tendem a ser mais escaláveis, pois todos os processos são fundamentados em cima de eventos não-bloqueantes. A execução de tarefas bloqueantes geralmente tem a tendência de criar bloqueios de recursos computacionais (como memória e processador), o que pode atrapalhar na escalabilidade da aplicação.
+
+A programação reativa tem justamente como uma das principais premissas lidar com processos que não sobrecarreguem ou bloqueiem a utilização desses recursos computacionais.
+
+Existem várias estratégias computacionais para a criação de processos não-bloqueantes, como a utilização de sub-rotinas (como as goroutines no Go ou as coroutines no Kotlin).
+
+Essa abordagem também acaba trazendo por decorrência uma utilização mais eficiente dos recursos computacionais e uma responsividade naturalmente maior da aplicação (a aplicação tende a cair em menos situações em que a mesma trava ou oferece respostas lentas).
+
+A programação reativa também oferece mecanismos mais flexíveis e robustos para lidar com situações de erro. Mecanismos naturais para a programação reativa (como a utilização de backpressure para controlar o fluxo de dados nos streams de dados de acordo com os consumidores) e o fato de que até mesmo as notificações de erro serem constituídas por eventos emitidos dentro de streams fazem com que o tratamento de erros seja mais eficiente do que em abordagens mais “tradicionais”.
 
 ---
 
