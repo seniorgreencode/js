@@ -1992,21 +1992,45 @@ Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
 Exemplo:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107887976-9f5be580-6ee8-11eb-9cf6-3ce4ac782fcb.jpg)
 
 Exemplo 2:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
 Exemplo 3:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
 
 Exemplo 4:
+
+```javascript
+
+```
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
 
 Exemplo 5: Shallow Clone
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
 
 Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
 
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
@@ -2049,33 +2073,70 @@ Exemplo 10:
 ## [JS] Destructuring
 Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
-Exemplo: Destructuring Assignment
-Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
+Exemplo: Destructuring Assignment. Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
+
+```javascript
+
+```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
 
 Exemplo 2:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
 
 Exemplo 3:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
 
-**Exemplo 4**:
+Exemplo 4:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
 
-**Exemplo 5**:
+Exemplo 5:
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
 
-**Exemplo 6**:
+Exemplo 6:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
 
-**Exemplo 7**:
+Exemplo 7:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
 
-**Exemplo 8**:
+Exemplo 8:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
 
-**Exemplo 9**:
+Exemplo 9:
+
+```javascript
+
+```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
 
 Exemplo: É possível combinar **default function arguments** com **destructuring**? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
