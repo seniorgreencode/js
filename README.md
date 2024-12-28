@@ -3578,7 +3578,15 @@ Pensamos de forma linear e sincronamente. A maioria das linguagens de programaç
 
 Promises remontam à década de 70 e eram chamadas de futures, deferred ou delays. Pelo artigo, elas são definidas como:
 
-> 
+> Construtos usados para sincronizar a execução de um programa em linguagens de programação concorrentes. Eles descrevem um objeto que atua como um proxy para um resultado que é, inicialmente, desconhecido devido a sua computação não estar completa no momento da chamada.
+
+De acordo com o que vemos na Internet, no JavaScript, as Promises fizeram sua primeira aparição em 2007 em uma biblioteca chamada **MochiKit**. Depois outras bibliotecas como o **Dojo** e o **jQuery** adotaram a mesma especificação pouco tempo depois.
+
+Por fim, para padronizar todas as implementações, o grupo CommonJS escreveu a especificação chamada **Promises/A+** que visava ditar todas as regras necessárias para definir o que era uma Promise e sua interoperabilidade com outros sistemas.
+
+No caso do NodeJS, nas primeiras versões, o runtime já implementava nativamente Promises, que foram removidas em favor de callbacks (que é a forma como conhecemos NodeJS no início), depois do lançamento do ES6 a plataforma implementou nativamente a funcionalidade de Promises que já estava implementada no V8 desde algum tempo antes. Isto porque o padrão ES6 já implementa o modelo A+, que descrevemos antes, de forma nativa, portanto a grande maioria dos browsers já permite o uso de Promises sem nenhum tipo de biblioteca externa.
+
+Processamento assíncrono das Promises:
 
 <table>
   <tr>
