@@ -3538,6 +3538,13 @@ No dia-a-dia do desenvolvimento web, utilizamos muito (e cada vez mais) dados ex
 
 > Síncrono ou assíncrono diz respeito ao fluxo de execução de um programa. Quando uma operação executa completamente antes de passar o controle à seguinte, a execução é síncrona. Caso a operação seja executada parcialmente e passe o controle à seguinte ela é considerada assíncrona. Além disso, sabemos que a concorrência, programação paralela e multi-threading estão relacionadas a sistemas distribuídos, mas também desempenham um papel importante no paradigma de programação assíncrona. 
 
+Uso de código assíncrono:
+
+- Requests HTTP
+- Leitura de arquivos
+- Acesso a serviço externo
+- I/O
+
 <img src="https://github.com/user-attachments/assets/14d54da9-74d8-496c-9b53-68ac5458feae" align="right" height="77">
 
 <a href="">Concurrency</a> é a mistura de código assíncrono com programação paralela, que é forma de computação em que vários cálculos são realizados ao mesmo tempo. A programação concorrente, ou concurrency, é a habilidade de executar diferentes partes de um programa ao mesmo tempo e sem uma ordem estrita, de forma que isso não afete o resultado final. A ilustração ao lado mostra a execução de duas funções ao mesmo tempo, a função 1 e 2, veja que há momentos em que a primeira função está sendo executada e há momento que a segunda está sendo executada e essa alternância ocorre mesmo sem as funções terem finalizado sua execução. O que acontece aqui é que há momentos na execução dessas funções onde elas precisaram executar tarefas que podem ser demoradas como uma requisição de API por exemplo, e para que haja uma otimização dos recursos, a função libera a thread para outras funções serem executadas, enquanto ela aguarda a resposta da requisição.
@@ -3559,16 +3566,9 @@ Em JavaScript, **Promises** são objetos que representam a eventual conclusão (
 
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
 
-De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
-
-Uso de código assíncrono:
-
 <img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
 
-- Requests HTTP
-- Leitura de arquivos
-- Acesso a serviço externo
-- I/O
+De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
 
 <img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right" height="177">
 
