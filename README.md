@@ -3000,15 +3000,19 @@ Exemplo 5:
 // Generators
 function* naturalNumbers() {
   let number = 0;
+  while(true) {
+    yield number;
+    number++;
+  }
 }
+
+const it = naturalNumbers();
 
 console.log(it.next());
 console.log(it.next());
 console.log(it.next());
 console.log(it.next());
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
 
 # 📜 [JS] Data e horário
 <img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
