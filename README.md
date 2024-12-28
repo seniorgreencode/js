@@ -3572,13 +3572,22 @@ Por outro lado, uma conversa online via algum mensageiro, como o WhatsApp ou ou 
 
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
 
-Em JavaScript, **Promises** são objetos que representam a eventual conclusão (com sucesso ou falha) de uma operação assíncrona. Pense nelas como promessas de que algo será feito no futuro. Elas são fundamentais para lidar com operações que levam tempo para serem concluídas, como requisições de rede, leituras de arquivos ou animações. As Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas, elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam <a href="">callbacks</a>. As promises são muito necessárias porque paralelizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela.
+Em JavaScript, **Promises** (promessas) são objetos que representam a eventual conclusão (com sucesso ou falha) de uma operação assíncrona. Pense nelas como promessas de que algo será feito no futuro. Elas são fundamentais para lidar com operações que levam tempo para serem concluídas, como requisições de rede, leituras de arquivos ou animações. As Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas, elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam <a href="">callbacks</a>. As promises são muito necessárias porque paralelizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela. Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem.
 
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
 
-<img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
+Promises remontam à década de 70 e eram chamadas de futures, deferred ou delays. Pelo artigo, elas são definidas como:
 
-De acordo com a imagem no lado direito você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só. De acordo com a imagem, as operações são executadas de forma sequencial e os tempos associados a cada operação estão indicados:
+> 
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right"></td>
+    <td><img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right"></td>
+  </tr>
+</table>
+
+De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só. De acordo com a imagem, as operações são executadas de forma sequencial e os tempos associados a cada operação estão indicados:
 
 1. Inicialização do array `arr = [1, 2, 3]` leva 1 segundo.
 2. A obtenção do comprimento do array com `const length = arr.length` leva 4 segundos.
@@ -3590,8 +3599,6 @@ Somando os tempos de execução sequenciais, temos:
 1s (inicialização) + 4s (length) + 3s (map) + 1s (return) = **9 segundos**.
 
 A vantagem desse fluxo está na simplicidade e no controle direto do fluxo de execução. Por executar cada passo de forma sequencial, evita-se a complexidade de lidar com múltiplos fluxos ou operações concorrentes simultaneamente. Isso pode reduzir erros e tornar o código mais legível, especialmente quando o número de etapas ou operações é pequeno. Além disso, um fluxo mais linear facilita o rastreamento de problemas e a depuração, pois cada etapa depende diretamente da anterior.
-
-<img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right" height="177">
 
 No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
 
