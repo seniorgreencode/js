@@ -3269,6 +3269,8 @@ function vowerVerification(){
 console.log(vowerVerification());
 ```
 
+# 📜 [JS] Paradigma funcional
+
 # 📜 [JS] JavaScript OOP
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
 
@@ -3823,6 +3825,8 @@ No exemplo acima:
 - `method: 'POST'`: Define o método HTTP como POST.
 - `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
+
+# 📜 [JS] Paradigma Reativo
 
 ---
 
