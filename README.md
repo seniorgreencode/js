@@ -1906,9 +1906,12 @@ console.log(sum(5, 5, 5, 2, 3))
 Exemplo 3: Ele pega parâmetros restantes na função transformando o Rest em um array
 
 ```javascript
-```
+const sum = (a, b, ...rest) => {
+  console.log(a, b, rest);
+}
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107862224-2b5b0800-6e2a-11eb-94ec-fed4235adfe9.jpg)
+console.log(sum(5, 5, 5, 2, 3))
+```
 
 Exemplo 4:
 
