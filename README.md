@@ -3574,6 +3574,8 @@ Por outro lado, uma conversa online via algum mensageiro, como o WhatsApp ou ou 
 
 Em JavaScript, **Promises** (promessas) são objetos que representam a eventual conclusão (com sucesso ou falha) de uma operação assíncrona. Pense nelas como promessas de que algo será feito no futuro. Elas são fundamentais para lidar com operações que levam tempo para serem concluídas, como requisições de rede, leituras de arquivos ou animações. As Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas, elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam <a href="">callbacks</a>. As promises são muito necessárias porque paralelizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela. Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem.
 
+> Há uma diferença entre lançar um erro e rejeitar uma promise. Lançar (dar um `throw` ) no erro, vai parar a execução do seu código, é o equivalente a darmos um `return` em uma função. Porém rejeitar uma Promise fará com que o código continue sendo executado posteriormente
+
 Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
 
 Promises remontam à década de 70 e eram chamadas de futures, deferred ou delays. Pelo artigo, elas são definidas como:
