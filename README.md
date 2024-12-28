@@ -3522,7 +3522,7 @@ exemploAsync();
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
 # 📜 [JS] JavaScript Assíncrono
-<a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-a3c7e0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-79dcdc?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
+<a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-79dcdc?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
  
 <img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
 
