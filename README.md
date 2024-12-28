@@ -2011,13 +2011,33 @@ const obj2 = {
 console.log(obj2);
 ```
 
-Exemplo 5: Shallow Clone
+Exemplo 5: Shallow Clone (Clone raso)
 
 ```javascript
+const obj = {
+  test: 123,
+  subObj: {
+    test: 123
+  }
+};
 
+const obj2 = {
+  test2: 456,
+  ...obj // test2: 456
+};
+
+const objMerged = {
+  ...obj,
+  ...obj2
+};
+
+// Shallow Clone
+const objClone = {...obj}; // Objeto clone do objeto 1
+objClone.subObj.test = 456; // Altera somente o subObj
+
+// Cuidado com os níveis do objeto
+console.log(objClone);
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
 
 Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
 
