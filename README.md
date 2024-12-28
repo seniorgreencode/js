@@ -1979,6 +1979,21 @@ const arr = [1,2,3,4];
 function logsArgs(a,b,c){
   console.log(a,b,c);
 }
+
+const arr2 = [5,6,7,...arr];
+const arr3 = [...arr,0,0,0];
+const arrClone = [...arr];
+
+const obj = {
+  test: 123
+}
+
+const obj2 = {
+  ...obj,
+  test2: 'hello'
+}
+
+console.log(arr2, arr3, arrClone, obj, obj2);
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107889507-d1257a00-6ef1-11eb-8e2a-907b708eb0df.jpg)
