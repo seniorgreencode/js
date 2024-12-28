@@ -3395,16 +3395,18 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 3. Como função, dentro de &lt;head&gt;
 
 2° Solução: Num arquivo a ser importado
- 
+
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
 
-Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado **prototype**. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
+O **Prototype** em JavaScript é um dos conceitos fundamentais da linguagem e está relacionado ao modelo de herança baseado em protótipos (`prototypal inheritance`). Ele permite que objetos compartilhem propriedades e métodos entre si. Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado prototype. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
 
 Exemplo:
 
 ```javascript
 console.log(document.__proto__);
 ```
+
+Todo objeto em JavaScript possui uma propriedade interna chamada `[[Prototype]]` (que pode ser acessada através de `Object.getPrototypeOf(obj)` ou, informalmente, pela propriedade `__proto__`). O Prototype é o objeto de onde o objeto atual pode herdar propriedades e métodos.
 
 <img src="https://user-images.githubusercontent.com/61624336/104111183-e0dfec00-52bd-11eb-8602-60813a7a3b18.png" align="right" height="177"/>
 
