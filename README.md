@@ -3568,7 +3568,18 @@ Pensamos de forma linear e sincronamente. A maioria das linguagens de programaç
 
 <img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right" height="177">
 
-De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só.
+De acordo com a imagem no lado direito você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só. De acordo com a imagem, as operações são executadas de forma sequencial e os tempos associados a cada operação estão indicados:
+
+1. Inicialização do array `arr = [1, 2, 3]` leva 1 segundo.
+2. A obtenção do comprimento do array com `const length = arr.length` leva 4 segundos.
+3. O cálculo do dobro dos elementos do array com `arr.map(e => e * 2)` leva 3 segundos.
+4. A instrução final `return double` leva 1 segundo.
+
+Somando os tempos de execução sequenciais, temos:
+
+1s (inicialização) + 4s (length) + 3s (map) + 1s (return) = **9 segundos**.
+
+A vantagem desse fluxo está na simplicidade e no controle direto do fluxo de execução. Por executar cada passo de forma sequencial, evita-se a complexidade de lidar com múltiplos fluxos ou operações concorrentes simultaneamente. Isso pode reduzir erros e tornar o código mais legível, especialmente quando o número de etapas ou operações é pequeno. Além disso, um fluxo mais linear facilita o rastreamento de problemas e a depuração, pois cada etapa depende diretamente da anterior.
 
 <img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right" height="177">
 
