@@ -2100,15 +2100,22 @@ Exemplo 10:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
 ## [JS] Destructuring
-Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
+O **Destructuring** em JavaScript é uma funcionalidade introduzida com o ES6 que permite extrair valores de arrays ou propriedades de objetos e atribuí-los a variáveis de forma simples e concisa. Ele melhora a legibilidade do código, reduz a necessidade de acessar elementos ou propriedades manualmente e é amplamente utilizado em situações onde precisamos manipular dados estruturados. Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em **nested objects** (objetos aninhados).
 
-Exemplo: Destructuring Assignment. Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
+Exemplo: Destructuring Assignment. Como fazer um destructuring assignement em um array (`arr`), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
 
 ```javascript
+var arr = ['Apple', 'Banana', 'Orange'];
 
+var apple = arr[0];
+var apple = arr[1];
+var apple = arr[2];
+
+// Destructuring Assignment
+var [apple2, banana2, orange2] = ['Apple', 'Banana', 'Orange'];
+
+console.log(apple, apple2);
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
 
 Exemplo 2:
 
