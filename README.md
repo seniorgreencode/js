@@ -3461,7 +3461,7 @@ exemploAsync();
 O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra durante a resolução da `Promise`.
 
 # 📜 [JS] JavaScript Assíncrono
-<a href="">![JS](https://img.shields.io/badge/GitHub-REST-000000?style=flat&logo=GitHub&logoColor=ffd60a)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-000000?style=flat&logo=GitHub&logoColor=ffd60a)</a>
+<a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a>
 
 <img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
 
