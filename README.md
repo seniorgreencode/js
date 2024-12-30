@@ -2121,23 +2121,12 @@ const obj2 = {
 console.log(obj2);
 ```
 
-Exemplo 5: Shallow Clone
-
-```javascript
-
-```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890742-421c6000-6ef9-11eb-842b-503c672612b6.jpg)
-
 Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
-
-Ao trabalhar com JavaScript, em vários cenários a gente acaba pegando partes de variáveis e atribuindo a outras variáveis. No entanto, quando alteramos a variável não alteramos o objeto diretamente. O destructuring pode ser usado em nested objects (objetos aninhados).
-
-Exemplo: Destructuring Assignment. Como fazer um destructuring assignement em um array (arr), atribuindo o valor do seu primeiro índice para uma constante teste? <code>const [ teste ] = arr;</code>
 
 ```javascript
 
