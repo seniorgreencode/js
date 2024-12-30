@@ -2070,9 +2070,15 @@ logArgs(...str);
 Exemplo 2:
 
 ```javascript
+const str = 'Digital Innovation One';
+const arr = [1,2,3,4];
 
+function logArgs(a,b,c){
+  console.log(a,b,c);
+}
+
+logArgs(...arr);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107888274-ff9f5700-6ee9-11eb-85f0-c80852a5a6e4.jpg)
 
 Exemplo 3:
 
