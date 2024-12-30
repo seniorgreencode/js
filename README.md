@@ -2042,7 +2042,14 @@ console.log(objClone);
 Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
 
 ```javascript
+const obj = {
+  test: 123,
+  subObj: {
+    test: 123
+  }
+}
 
+const obj2
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
