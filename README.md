@@ -2049,10 +2049,11 @@ const obj = {
   }
 }
 
-const obj2
-```
+const obj2 = { ...obj, subObj: { ...obj.subObj } };
+obj2.subObj.test = 456;
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
+console.log(obj);
+```
 
 Exemplo:
 
