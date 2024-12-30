@@ -3568,7 +3568,15 @@ Nota-se que o <code>Object.prototype</code> é o único que não tem duas conex�
 Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.
 
 # 📜 [JS] Eventos
-<img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="177"/>
+<img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="277"/>
+
+**Eventos** em JavaScript são ações ou ocorrências que acontecem no navegador e podem ser capturadas para executar um código específico. Eles representam interações dos usuários com a interface da aplicação, como cliques, pressionamento de teclas, movimento do mouse, entre outros, mas também podem ser eventos internos do navegador, como o carregamento de uma página ou a conclusão de um recurso assíncrono. 
+
+Por exemplo, quando o usuário clica em um botão em uma página, o navegador emite um evento de "click". Para reagir a isso, podemos usar JavaScript para "escutar" esse evento e executar um código associado a ele. Esse processo de captura é feito através de um "event listener" que, uma vez registrado em um elemento HTML, fica aguardando o evento específico acontecer. Assim que ocorre, o listener executa uma função, chamada de *callback*, que contém o comportamento desejado. 
+
+Os eventos são fundamentais para criar aplicações interativas e dinâmicas. Eles permitem responder em tempo real às ações do usuário e modificar o conteúdo da página sem precisar recarregá-la. Por exemplo, podemos mudar o texto de um parágrafo ao passar o mouse sobre ele ou validar os dados de um formulário ao clicar em "enviar". Além disso, a manipulação de eventos é flexível: é possível adicionar e remover listeners dinamicamente, delegar eventos a elementos pai para melhorar o desempenho em listas grandes, ou até mesmo criar eventos personalizados para atender necessidades específicas da aplicação. Essa flexibilidade faz dos eventos uma das ferramentas mais poderosas para desenvolver interfaces ricas e responsivas. 
+
+No núcleo de tudo está o objeto de evento, que contém informações detalhadas sobre a ocorrência. Por exemplo, um evento de clique carrega informações como as coordenadas do cursor, o botão do mouse pressionado e o elemento HTML clicado. Essa riqueza de dados permite implementar interações avançadas e contextualmente relevantes. Assim, eventos não são apenas mecanismos que acionam código, mas também portas de entrada para personalizar a experiência do usuário de forma precisa e dinâmica.
 
 São fatos que ocorrem durante a execução do sistema, a partir dos quais o programador pode definir ações a serem realizadas pelo programa. Um evento é gerado como resultado de uma ação: Um clique, um movimento do mouse, uma seleção de texto, o abandono da página etc. A associação é realizada em HTML nos elementos que suportam eventos do tipo Event através dos atributos `onEvent`.
 
