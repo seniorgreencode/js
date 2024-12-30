@@ -2109,9 +2109,17 @@ console.log(arr2, arr3, arrClone, obj, obj2);
 Exemplo 4:
 
 ```javascript
+const obj = {
+  test: 123
+}
 
+const obj2 = {
+  test2: 456,
+  ...obj // test2: 456
+}
+
+console.log(obj2);
 ```
-![Sem Título-2](https://user-images.githubusercontent.com/61624336/107890402-b524d700-6ef7-11eb-8e02-0a2dfccc1244.jpg)
 
 Exemplo 5: Shallow Clone
 
