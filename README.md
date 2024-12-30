@@ -2121,12 +2121,7 @@ const obj2 = {
 console.log(obj2);
 ```
 
-Exemplo 6: Shallow Clone - um Subobjeto gerando um Spread 
-
-```javascript
-
-```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107890903-3715ff80-6efa-11eb-96aa-9729858c47a4.jpg)
+Exemplo:
 
 ```javascript
 
