@@ -3664,24 +3664,24 @@ Exercício: Vamos fazer um bot do instagram diretamente pelo console do navegado
 let listaSeguidos = []
 
 // Classe responsável pela seção de seguindo do perfil do Instagram
-let seguindo = parseInt(document.getElementsByClassName('x5n08af x1s688f')[2].innerHTML) 
+let seguindo = parseInt(document.getElementsByClassName('x5n08af x1s688f').innerHTML) // [2].innerHTML 
 // seguindo[2] = divs HTML dessas classes
 
 function ultimoDaLista(){
      // lista de seguindo
     document.querySelectorAll('._a6hd').forEach((item,index) => {item.scrollIntoView()})
-    // lista dos 26 seguindos do Instagram
+    // lista dos 26 seguindos do Instagram - padrão de carregamento da rede social
    // document.getElementsByClassName('xyi19xy x1ccrb07 xtf3nb5 x1pc53ja x1lliihq x1iyjqo2 xs83m0k xz65tgg x1rife3k x1n2onr6')[0].children[0].children[0].childElementCount
     if ( (document.getElementsByClassName('x1dm5mii').length >= seguindo-1)) { 
         for(i=0; i<=seguindo; i++){
-            listaSeguidos.push(document.getElementsByClassName('_7UhW9   xLCgt        qyrsm KV-D4            se6yk       T0kll')[i].innerHTML)
+            // Colocando o nome das pessoas pela classe
+            listaSeguidos.push(document.getElementsByClassName('_ap3a _aaco _aacw _aacx _aad7 _aade')[i].innerHTML)
         }
     }
-
 }
 
-const parar = setInterval(ultimoDaLista,3000)
-console.log()
+const parar = setInterval(ultimoDaLista,3000);
+console.log(listaSeguidos);
 ```
 
 # 📜 [JS] Eventos
