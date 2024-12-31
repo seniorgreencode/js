@@ -2252,9 +2252,17 @@ console.log(orange2); // undefined
 Exemplo 4:
 
 ```javascript
+var obj = {
+  name: 'Celso'
+}
 
+// Destructuring Assignment
+var {name} = obj;
+
+console.log(`${obj} = ${name}`);
+console.log(obj);
+console.log(name);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
 
 Exemplo 5:
 
