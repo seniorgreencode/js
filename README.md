@@ -640,6 +640,25 @@ for(let value of obj) {
 }
 ```
 
+Exemplo 4: Gerando propriedade privada
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
+
+Você pode modificar o symbols com as suas propriedades.
+
+Exemplo: Well known Symbols: `Symbol.`
+
+Exemplo 2: Symbol.iterator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
+
+Exemplo 3: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
+
+Exemplo 4:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
+
+Exemplo 5:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
+
 # 📜 [JS] Operadores
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
 
@@ -2410,26 +2429,6 @@ function sum([a,b]){ // = [0+0]
 
 console.log(sum([5,5])); // { a: 5, b: 5 } 
 ```
-
-**Exemplo 4**: Gerando propriedade privada
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
-
-Você pode modificar o symbols com as suas propriedades.
-
-Exemplo: Well known Symbols
-<pre>Symbol.</pre>
-
-Exemplo 2: Symbol.iterator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
-
-Exemplo 3: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
-
-**Exemplo 4**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
-
-**Exemplo 5**:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
 ## [JS] Generators
 **Generators** são funções com pausa e elas despausam valores através da interface de iteração.
