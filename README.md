@@ -2350,12 +2350,29 @@ console.log(name);
 Exemplo 9:
 
 ```javascript
+var arr = [{name: 'Apple', type: 'fruit'}];
+var obj = {
+  name: 'Isaac',
+  props: {
+    age: 24,
+    favoriteColors: ['black', 'white', 'red', 'blue']
+  }
+};
 
+var fruit1 = arr[0].name;
+
+// Destructuring Assignment
+var [{name: fruitName}] = arr;
+
+console.log(fruitName);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
 
 Exemplo: É possível combinar **default function arguments** com **destructuring**? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
- 
+
+```javascript
+console.log();
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993918-58d6bb80-6fba-11eb-95db-6ccf6906bc8d.jpg)
 
 **Exemplo 4**: Gerando propriedade privada
