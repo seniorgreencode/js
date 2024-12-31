@@ -3607,8 +3607,11 @@ Em JavaScript, o paradigma de programação orientada a objetos pode ser impleme
 Seguindo a hierarquia de objetos da linguagem JavaScript, são criados os seguintes objetos ao ser carregada uma página:
 
 1. `window`: O objeto mais acima na hierarquia, contém propriedades que se aplicam a toda a janela. Há também um objeto desta classe para todas as "sub-janelas" de um documento com frames.
+
 2. `location`: Contém as propriedades da URL atual.
+
 3. `history`: Contém as propriedades das URLs visitadas anteriormente.
+
 4. `document`: Contém as propriedades do documento contido na janela, tais como o seu conteúdo, título, cores, etc.
 
 <img src="https://webdesignemfoco.com/img/files/ckfinder/images/dom_full2.png" align="right" height="277"/>
@@ -3652,6 +3655,32 @@ Todo objeto em JavaScript possui uma propriedade interna chamada `[[Prototype]]`
 Nota-se que o <code>Object.prototype</code> é o único que não tem duas conexões, pois ele faz uma lista dos objetos inseridos. Esse objeto prototype também tem um atributo prototype, e assim por diante até o que o valor <code>null</code> seja encontrado como sendo o seu prototype <code>null</code> que, por definição, não tem prototype, e age como um link final nesta cadeia de protótipos (prototype chain).
 
 Aprenderemos mais sobre os eventos no próximo capítulo. Veremos melhor como funciona essa hierarquia de objetos e como utiliza-las em uma página, nos próximos capítulos.
+
+Exercício: Vamos fazer um bot do instagram diretamente pelo console do navegador para coletar dados de uma lista de seguindo (following)
+
+```javascript
+let listaSeguidos = []
+
+// Classe responsável pela seção de seguindo do perfil do Instagram
+let seguindo = parseInt(document.getElementsByClassName('x5n08af x1s688f')[2].innerHTML) 
+// seguindo[2] = divs HTML dessas classes
+
+function ultimoDaLista(){
+     // lista de seguindo
+    document.querySelectorAll('._a6hd').forEach((item,index) => {item.scrollIntoView()})
+    // lista dos 26 seguindos do Instagram
+   // document.getElementsByClassName('xyi19xy x1ccrb07 xtf3nb5 x1pc53ja x1lliihq x1iyjqo2 xs83m0k xz65tgg x1rife3k x1n2onr6')[0].children[0].children[0].childElementCount
+    if ( (document.getElementsByClassName('x1dm5mii').length >= seguindo-1)) { 
+        for(i=0; i<=seguindo; i++){
+            listaSeguidos.push(document.getElementsByClassName('_7UhW9   xLCgt        qyrsm KV-D4            se6yk       T0kll')[i].innerHTML)
+        }
+    }
+
+}
+
+const parar = setInterval(ultimoDaLista,3000)
+console.log()
+```
 
 # 📜 [JS] Eventos
 <img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="277"/>
