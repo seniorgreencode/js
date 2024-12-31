@@ -2267,10 +2267,19 @@ console.log(name);
 Exemplo 5:
 
 ```javascript
+var arr = ['Apple', 'Orange'];
+var obj = {
+  name: 'Celso'
+}
 
+// Destructuring Assignment
+var {apple2} = arr;
+var {name: name2} = obj;
+
+name2 = 'Henrique';
+
+console.log(obj);
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
 
 Exemplo 6:
 
