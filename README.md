@@ -2365,7 +2365,8 @@ Exemplo 3:
 **Exemplo 5**:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
-Generators são funções com pausa e elas despausam valores através da interface de iteração.
+## [JS] Generators
+**Generators** são funções com pausa e elas despausam valores através da interface de iteração.
 
 Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
