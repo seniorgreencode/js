@@ -2330,9 +2330,22 @@ console.log(color1);
 Exemplo 8:
 
 ```javascript
+var arr = [{name: 'Apple', type: 'fruit'}];
+var obj = {
+  name: 'Isaac',
+  props: {
+    age: 24,
+    favoriteColors: ['black', 'white', 'red', 'blue']
+  }
+};
 
+var fruit1 = arr[0].name;
+
+// Destructuring Assignment
+var [{name}] = arr;
+
+console.log(name);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
 
 Exemplo 9:
 
