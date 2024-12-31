@@ -2284,16 +2284,48 @@ console.log(obj);
 Exemplo 6:
 
 ```javascript
-var arr = []
+var arr = ['Apple', 'Orange'];
+var obj = {
+  name: 'Isaac',
+  props: {
+    age: 21 
+  }
+};
+
+var age = obj.props.age;
+
+// Destructuring Assignment
+var [apple2] = arr;
+var {props: { age: age2 }} = obj;
+
+console.log(age2);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
 
 Exemplo 7:
 
 ```javascript
+var arr = ['Apple', 'Orange'];
+var obj = {
+  name: 'Isaac',
+  props: {
+    age: 21,
+    favoriteColors: ['black', 'white', 'red', 'blue']
+  }
+};
 
+var age = obj.props.age;
+
+// Destructuring Assignment
+var [apple2] = arr;
+var {
+  props: {
+    age: age2,
+    favoriteColors: [color1,color2]
+  }
+} = obj;
+
+console.log(color1);
 ```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
 
 Exemplo 8:
 
