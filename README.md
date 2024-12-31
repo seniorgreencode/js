@@ -3592,6 +3592,8 @@ console.log(vowerVerification());
 # 📜 [JS] Paradigma funcional
 
 # 📜 [JS] JavaScript OOP
+[![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
+
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
 
 O **paradigma de Orientação a Objetos** (OOP - Object-Oriented Programming) é um modelo de desenvolvimento de software baseado na criação e interação de objetos. É uma das abordagens mais populares para projetar e implementar sistemas de software, e é especialmente útil para resolver problemas complexos por meio da abstração e modularização. O objetivo principal do OOP é estruturar o software em unidades reutilizáveis, chamadas objetos, que possuem dados e comportamentos que representam conceitos do mundo real.
