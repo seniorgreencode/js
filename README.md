@@ -3095,7 +3095,7 @@ O nome (`name`) das duas funções é `hello` e a entrada dos dados (input/param
 
 Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
 
-1. Na década de 30, Alonzo Church, desenvolveu o **Cálculo Lambda**.
+1. Na década de 30, Alonzo Church, desenvolveu o **Cálculo Lambda**. O cálculo lambda foi apresentada por Alonzo Church na década de 1930 como parte da investigação dos fundamentos da matemática. O sistema original foi demonstrado ser logicamente inconsistente em 1935 quando Stephen Kleene e J. Barkley Rosser desenvolveram o paradoxo Kleene-Rosser. Em seguida, em 1936, Church isolou e publicou apenas a computação e que depois ficou conhecida como cálculo lambda não tipado. Em 1940, ele também apresentou uma versão computacionalmente mais fraca, mas com um sistema lógico consistente, conhecido como cálculo lambda simplesmente tipado. Alonzo Church foi orientador de Alan Turing. De certa forma, o trabalho de Church está para o conceito de software assim como o de Turing relaciona-se muito diretamente ao conceito de Hardware.
 
 2. Na década de 50, foi desenvolvida a linguagem de programação LISP.
 
