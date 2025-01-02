@@ -3577,76 +3577,72 @@ const newNumbers = numbers.map(x => x * 2);
 ```
 
 ## [JS] Composição de funções
-   - Combinar pequenas funções para construir lógica mais complexa.
-     ```javascript
-     const multiply = x => x * 2;
-     const subtract = x => x - 3;
-     const compose = (f, g) => x => f(g(x));
-     const operate = compose(multiply, subtract);
-     console.log(operate(5)); // Output: 4
-     ```
+Combinar pequenas funções para construir lógica mais complexa.
+     
+```javascript
+const multiply = x => x * 2;
+const subtract = x => x - 3;
+const compose = (f, g) => x => f(g(x));
+const operate = compose(multiply, subtract);
+console.log(operate(5)); // Output: 4
+```
 
 ## [JS] Higher-order functions
-   - Funções que recebem outras funções como argumentos ou retornam funções.
-     ```javascript
-     const filter = (arr, func) => arr.filter(func);
-     const isEven = x => x % 2 === 0;
-     console.log(filter([1, 2, 3, 4], isEven)); // [2, 4]
-     ```
+Funções que recebem outras funções como argumentos ou retornam funções.
+
+```javascript
+const filter = (arr, func) => arr.filter(func);
+const isEven = x => x % 2 === 0;
+console.log(filter([1, 2, 3, 4], isEven)); // [2, 4]
+```
 
 ## [JS] Recursão
-   - Substituir laços por chamadas recursivas para implementar iteração.
-     ```javascript
-     const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
-     console.log(factorial(5)); // 120
-     ```
+Substituir laços por chamadas recursivas para implementar iteração.
+     
+```javascript
+const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
+console.log(factorial(5)); // 120
+```
 
 ## [JS] Closures
-   - Funções que "lembram" do ambiente onde foram criadas.
-     ```javascript
-     const makeCounter = () => {
-       let count = 0;
-       return () => ++count;
-     };
-     const counter = makeCounter();
-     console.log(counter()); // 1
-     console.log(counter()); // 2
-     ```
+Funções que "lembram" do ambiente onde foram criadas.
+     
+```javascript
+const makeCounter = () => {
+  let count = 0;
+  return () => ++count;
+};
+const counter = makeCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+```
 
 Map, Reduce e Filter** Métodos para transformar, reduzir ou filtrar coleções de dados.
-     ```javascript
-     const nums = [1, 2, 3, 4];
-     console.log(nums.map(x => x * 2)); // [2, 4, 6, 8]
-     console.log(nums.filter(x => x % 2 === 0)); // [2, 4]
-     console.log(nums.reduce((acc, x) => acc + x, 0)); // 10
-     ```
+
+```javascript
+const nums = [1, 2, 3, 4];
+console.log(nums.map(x => x * 2)); // [2, 4, 6, 8]
+console.log(nums.filter(x => x % 2 === 0)); // [2, 4]
+console.log(nums.reduce((acc, x) => acc + x, 0)); // 10
+```
 
 ## [JS] Currying
-   - Transformar uma função que aceita múltiplos argumentos em uma sequência de funções que aceitam um único argumento.
-     ```javascript
-     const add = a => b => a + b;
-     const addFive = add(5);
-     console.log(addFive(3)); // 8
-     ```
+Transformar uma função que aceita múltiplos argumentos em uma sequência de funções que aceitam um único argumento.
+     
+```javascript
+const add = a => b => a + b;
+const addFive = add(5);
+console.log(addFive(3)); // 8
+```
 
 ## [JS] Lazy Evaluation
-   - Adiar a execução até que os dados sejam realmente necessários. Embora não seja nativo no JavaScript, pode ser implementado.
-     ```javascript
-     const lazySum = (a, b) => () => a + b;
-     const result = lazySum(2, 3);
-     console.log(result()); // 5
-     ```
+Adiar a execução até que os dados sejam realmente necessários. Embora não seja nativo no JavaScript, pode ser implementado.
 
-## [JS] Functors e Monads
-   - Estruturas de dados que seguem princípios matemáticos para operar com valores. Embora mais comuns em linguagens funcionais como Haskell, podem ser aplicados em JavaScript.
-     ```javascript
-     const Box = x => ({
-       map: f => Box(f(x)),
-       fold: f => f(x),
-     });
-     const result = Box(3).map(x => x + 2).fold(x => x * 2);
-     console.log(result); // 10
-     ```
+```javascript
+const lazySum = (a, b) => () => a + b;
+const result = lazySum(2, 3);
+console.log(result()); // 5
+```
 
 ## [JS] Generators
 **Generators** são funções com pausa e elas despausam valores através da interface de iteração.
@@ -3687,6 +3683,18 @@ const sum = (...rest) => {
 };
 
 console.log(sum(5,5,5,2,3));
+```
+
+## [JS] Functors e Monads
+Estruturas de dados que seguem princípios matemáticos para operar com valores. Embora mais comuns em linguagens funcionais como Haskell, podem ser aplicados em JavaScript.
+     
+```javascript
+const Box = x => ({
+  map: f => Box(f(x)),
+  fold: f => f(x),
+});
+const result = Box(3).map(x => x + 2).fold(x => x * 2);
+console.log(result); // 10
 ```
 
 # 📜 [JS] JavaScript OOP
