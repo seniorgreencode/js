@@ -3017,7 +3017,7 @@ function vowerVerification(){
 console.log(vowerVerification());
 ```
 
-# 📜 [JS] Paradigma funcional
+# 📜 [JS] FP - Paradigma funcional
 <img src="https://github.com/user-attachments/assets/fca0c30f-687c-4726-ad6d-c9a6c8318258" align="right" height="77"/>
 
 JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
@@ -3055,7 +3055,7 @@ Vou trazer alguns fatos históricos relacionados ao mundo da programação e que
 
 Agora detalhando um pouco mais essas informações.
 
-O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda funções recursivas computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
+O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
 
 A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
 
