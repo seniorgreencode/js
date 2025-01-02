@@ -3630,6 +3630,18 @@ processUserInput(greet); // Saída: Olá, Maria!
 
 A função `greet` é passada como argumento para a função `processUserInput`. Dentro de `processUserInput`, o callback (`greet`) é chamado com o argumento necessário.
 
+As funções callbacks são amplamente utilizadas para gerenciar operações assíncronas em JavaScript, como leitura de arquivos, requisições HTTP e temporizadores.
+
+Exemplo: Como temporizador
+
+```javascript
+function sayHello() {
+    console.log("Olá, mundo!");
+}
+
+setTimeout(sayHello, 2000); // Executa `sayHello` após 2 segundos
+```
+
 ## [JS] Hoisting
 
 ## [JS] Closures
