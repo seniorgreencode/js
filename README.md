@@ -3026,7 +3026,7 @@ Então nosso código será baseado em funções, focando em pequenos algoritmos 
 
 <img src="https://github.com/user-attachments/assets/560994e4-45d8-4dda-a59d-a3d6e3a045c7" align="right" height="177">
 
-Conceitualmente um procedimento difere da função pela ausência de um retorno de valor. Então um procedimento é um algoritmo que será executado, enquanto que a função é um algoritmo que será executado e produzirá um resultado final concreto que poderá ser usado por outro algoritmo.
+Conceitualmente um procedimento difere da função pela ausência de um retorno de valor. Então um **procedimento** é um algoritmo que será executado, enquanto que a **função** é um algoritmo que será executado e produzirá um resultado final concreto que poderá ser usado por outro algoritmo.
 
 Em outras palavras funções são algoritmos que recebem argumentos e retornam valores, já um procedimento é um algoritmo que não retorna valores.
 
@@ -3038,6 +3038,18 @@ const result = sum(1,2) // 3
 // Procedimento
 clearEntries() // nothing
 ```
+
+Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
+
+1. Na década de 30, Alonzo Church, desenvolveu o Cálculo Lambda.
+
+2. Na década de 50, foi desenvolvida a linguagem de programação LISP.
+
+3. Em 1957, o custo de 1 megabyte de memória RAM era de US$400 milhões de dólares.
+
+4. Em 1975, o custo de 1 megabyte de memória RAM era de US$50 milhões de dólares.
+
+5. No ano de 2021, 16GB de memória RAM era aproximadamente US$48 dólares.
 
 Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
