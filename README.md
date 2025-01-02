@@ -3182,110 +3182,6 @@ function inicio() {
 inicio();
 ```
 
-## [JS] Anonymous function
-Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
-
-Exemplo: função anônima atribuída a uma variável.
-
-```javascript
-let funcao = function(){
-  console.log('Olá!');
-}
-
-funcao();
-```
-
-Exemplo: Criamos uma função anônima atribuída a uma variável, cuja a variável `const` atribui a função `somar`, onde possuimos duas variáveis como parâmetros dessa função, `valor1` e `valor2`.
-
-```javascript
-const somar = function(valor1, valor2) {
-  let resultado = valor1 + valor2;
-  console.log(resultado)
-}
-somar(7,7);
-somar(14,8);
-somar(8,9);
-```
-
-Exemplo: função anônima atribuída a uma variável, semelhante ao Exemplo 2, porém com o resultado diferente.
-
-```javascript
-const funcaoSomar = function(valor1, valor2) {
-  let resultado = valor1 + valor2;
-  return resultado;
-}
-console.log(funcaoSomar(7,7));
-```
-
-Exemplo:
-
-```javascript
-var log = function(value){
-  return(value);
-}
-
-log('test');
-```
-
-Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** (funcão flecha) é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função. 
-
-Em JavaScript, uma arrow function pode ser definida e imediatamente invocada sem a necessidade de atribuí-la a uma variável. No exemplo abaixo, a arrow function `hello` é atribuída a uma variável de escopo global e depois chamada. No entanto, você também pode definir e chamar uma arrow function diretamente dentro de uma expressão.
-
-Exemplo: Caso comum de arrow function. 
-
-```javascript
-hello = () => {
-  return "Hello, World!";
-}
-console.log(hello());
-```
-
-Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
-
-```javascript
-((x, y) => {
- console.log(x + y);
-})(10, 5);
-```
-
-Veja agora, uma função anônima imediatamente invocada, em comparação ao Exemplo 2.
-
-```javascript
-(function() {
-  return 'Hello World';
-})()
-```
-
-Exemplo: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
-
-```javascript
-function Car() {
-  this.foo = 'bar';
-}
-console.log(new Car());
-```
-
-Exemplo: Com parâmetros (`return` implícito).
-
-```javascript
-hello = (val) => "Hello," + " " + "World!";
-console.log(hello());
-// Output: Hello, World!
-```
-
-Mesmo exemplo acima, porém com redução de linhas:
-
-```javascript
-hello = () => "Hello, World!"; console.log(hello()); // Output: "Hello, World!"
-```
-
-Exemplo: Sem parênteses e um argumento.
-
-```javascript
-var sum = a => a;
-console.log(sum(5));
-```
-
 Exemplo: Estamos puxando a função `soma` para dentro da função `calcularSoma`, onde os parâmetros `a,b` são convertidos para `x,y`, e assim, exibindo o resultado da função na variável.
 
 ```javascript
@@ -3390,6 +3286,157 @@ console.log(multiply(5));
 > OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
 
 Abaixo estão os principais tópicos associados a este estilo de programação:
+
+## [JS] Anonymous function
+Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
+
+Exemplo: função anônima atribuída a uma variável.
+
+```javascript
+let funcao = function(){
+  console.log('Olá!');
+}
+
+funcao();
+```
+
+Exemplo: Com parâmetros (`return` implícito).
+
+```javascript
+hello = (val) => "Hello," + " " + "World!";
+console.log(hello());
+// Output: Hello, World!
+```
+
+Exemplo: Mesmo exemplo acima, porém com redução de linhas.
+
+```javascript
+hello = () => "Hello, World!"; console.log(hello()); // Output: "Hello, World!"
+```
+
+Exemplo: Sem parênteses e um argumento.
+
+```javascript
+var sum = a => a;
+console.log(sum(5));
+```
+
+
+Exemplo: Criamos uma função anônima atribuída a uma variável, cuja a variável `const` atribui a função `somar`, onde possuimos duas variáveis como parâmetros dessa função, `valor1` e `valor2`.
+
+```javascript
+const somar = function(valor1, valor2) {
+  let resultado = valor1 + valor2;
+  console.log(resultado)
+}
+somar(7,7);
+somar(14,8);
+somar(8,9);
+```
+
+Exemplo: função anônima atribuída a uma variável, semelhante ao Exemplo 2, porém com o resultado diferente.
+
+```javascript
+const funcaoSomar = function(valor1, valor2) {
+  let resultado = valor1 + valor2;
+  return resultado;
+}
+console.log(funcaoSomar(7,7));
+```
+
+Exemplo:
+
+```javascript
+var log = function(value){
+  return(value);
+}
+
+log('test');
+```
+
+Tradicionalmente, para fazer a função executar, você precisa chama-la com os parênteses, mas também é possível passar valores para a função acessar. No entanto, agora vamos conhecer outras maneiras de inserir funções no JavaScript. Com o **arrow function** (funcão flecha) é uma função que possui uma forma bem mais enxuta de ser inserida com os arrows. Elas são funções anônimas, ou seja, você só pode utiliza-las atribuindo a uma variável ou passando para outra função. 
+
+Em JavaScript, uma arrow function pode ser definida e imediatamente invocada sem a necessidade de atribuí-la a uma variável. No exemplo abaixo, a arrow function `hello` é atribuída a uma variável de escopo global e depois chamada. No entanto, você também pode definir e chamar uma arrow function diretamente dentro de uma expressão.
+
+Exemplo: Caso comum de arrow function. 
+
+```javascript
+hello = () => {
+  return "Hello, World!";
+}
+console.log(hello());
+```
+
+Exemplo: A arrow function imediatamente invocada, possui a funcionalidade de auto-execução da função assim que é utilizada.
+
+```javascript
+((x, y) => {
+ console.log(x + y);
+})(10, 5);
+```
+
+Veja agora, uma função anônima imediatamente invocada, em comparação ao Exemplo 2.
+
+```javascript
+(function() {
+  return 'Hello World';
+})()
+```
+
+## [JS] Função construtora
+Uma **função construtora** em JavaScript é uma função especial utilizada para criar e inicializar objetos. Ela serve como um modelo para a criação de instâncias de um tipo específico de objeto, permitindo encapsular propriedades e comportamentos relacionados em um único lugar. As funções construtoras são convenções amplamente utilizadas no JavaScript e se destacam pelo uso da palavra-chave `this`, que se refere ao objeto que está sendo criado, e pela inicialização através do operador `new`.
+
+Ao definir uma função construtora, é comum que seu nome comece com uma letra maiúscula, como uma convenção para diferenciá-la de funções comuns. O propósito dessa convenção é indicar que ela deve ser chamada com o operador `new`, o qual realiza os seguintes passos: cria um novo objeto vazio, vincula o objeto ao protótipo da função construtora, executa a função com o contexto de `this` apontando para o novo objeto e, finalmente, retorna o objeto recém-criado, a menos que outro valor seja explicitamente retornado.
+
+Por exemplo, considere a seguinte definição de função construtora para um objeto `Pessoa`:
+
+```javascript
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+    this.falar = function () {
+        console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    };
+}
+
+const pessoa1 = new Pessoa("João", 30);
+const pessoa2 = new Pessoa("Maria", 25);
+
+pessoa1.falar(); // Olá, meu nome é João e tenho 30 anos.
+pessoa2.falar(); // Olá, meu nome é Maria e tenho 25 anos.
+```
+
+Nesse exemplo, a função `Pessoa` age como um molde para criar instâncias com as propriedades `nome` e `idade`, bem como com o método `falar`. Quando usamos o operador `new`, criamos objetos distintos com suas próprias propriedades e métodos, mas baseados na mesma definição.
+
+Além disso, as funções construtoras podem utilizar o protótipo (`prototype`) para compartilhar métodos ou propriedades entre todas as instâncias criadas. Isso ajuda a economizar memória, já que os métodos definidos no protótipo não são recriados para cada instância:
+
+```javascript
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+}
+
+Pessoa.prototype.falar = function () {
+    console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+};
+
+const pessoa3 = new Pessoa("Carlos", 40);
+pessoa3.falar(); // Olá, meu nome é Carlos e tenho 40 anos.
+```
+
+Neste caso, o método `falar` é definido no protótipo de `Pessoa`, tornando-o acessível a todas as instâncias sem ocupar espaço adicional na memória de cada uma.
+
+Embora as funções construtoras sejam úteis e amplamente utilizadas, com o advento do ECMAScript 2015 (ES6), a introdução da sintaxe de classes tornou mais intuitivo e legível criar objetos e gerenciar heranças. As classes, na verdade, são açúcar sintático sobre as funções construtoras, mas oferecem uma abordagem mais estruturada para a definição de objetos. No entanto, funções construtoras continuam sendo uma parte fundamental do JavaScript, especialmente em código legado ou quando não se utiliza a sintaxe moderna de classes.
+
+Em resumo, uma função construtora é uma maneira eficaz de criar objetos em JavaScript, fornecendo um padrão para encapsular propriedades e métodos em uma estrutura reutilizável, enquanto aproveita os recursos nativos da linguagem, como protótipos e o operador `new`.
+Exemplo: A função `Car` no seu exemplo é uma **função construtora** em JavaScript. Funções construtoras são usadas para criar novos objetos do mesmo tipo e são normalmente nomeadas com a primeira letra maiúscula para diferenciá-las das funções regulares.
+
+```javascript
+function Car() {
+  this.foo = 'bar';
+}
+console.log(new Car());
+```
 
 ## [JS] Funções como cidadãos de primeira classe
 Em JavaScript, as funções podem ser atribuídas a variáveis, passadas como argumentos e retornadas de outras funções. Isso permite um uso mais flexível e expressivo.
@@ -3515,6 +3562,40 @@ setTimeout(() => {
 Para resolver esse problema, JavaScript introduziu <a href="">Promises</a> e, posteriormente, <a href="">async/await</a>, que permitem gerenciar a execução assíncrona de forma mais elegante.
 
 ## [JS] Hoisting
+**Hoisting** é um comportamento do JavaScript em que declarações de variáveis, funções e classes são "movidas" para o topo de seu escopo durante a fase de compilação, antes de o código ser executado. Isso significa que, independentemente de onde uma variável ou função seja declarada em um bloco de código, o JavaScript as trata como se tivessem sido declaradas no topo de seu escopo (global ou local). Essa característica pode ser um tanto confusa para iniciantes, mas é fundamental para entender como o JavaScript lida com a execução de scripts. Em resumo, hoisting é um mecanismo interno do JavaScript que move as declarações de variáveis e funções para o topo de seu escopo antes da execução. Embora seja útil e permita flexibilidade em algumas situações, entender suas nuances é essencial para evitar comportamentos inesperados, especialmente ao usar diferentes formas de declaração de variáveis (`var`, `let` e `const`) e ao trabalhar com funções e classes.
+
+No caso de funções, o hoisting faz com que declarações completas de funções sejam movidas para o topo do escopo, permitindo que elas sejam chamadas antes mesmo de serem declaradas no código. Por exemplo, considere o seguinte código:
+
+```javascript
+sayHello();
+
+function sayHello() {
+    console.log("Olá!");
+}
+```
+
+Nesse exemplo, a função `sayHello` pode ser chamada antes de sua definição porque o JavaScript "eleva" a declaração completa da função para o topo do escopo. O comportamento é seguro e esperado no caso de funções declaradas com a palavra-chave `function`.
+
+Já no caso de variáveis, o comportamento é um pouco diferente e depende do tipo de variável utilizado: `var`, `let` ou `const`. Quando se utiliza `var`, apenas a declaração da variável é içada, mas sua inicialização não. Isso significa que a variável estará disponível no escopo desde o início, mas com o valor `undefined` até que a linha de inicialização seja executada. Veja o exemplo:
+
+```javascript
+console.log(nome); // undefined
+var nome = "João";
+console.log(nome); // João
+```
+
+Nesse caso, o JavaScript move a declaração `var nome;` para o topo do escopo, mas não move a inicialização com o valor `"João"`. Isso resulta em `undefined` ao tentar acessar a variável antes da inicialização.
+
+Com `let` e `const`, o comportamento é diferente. Embora as declarações dessas variáveis também sejam içadas, elas permanecem em uma "zona morta temporal" (temporal dead zone) até que o código que as declara seja executado. Isso significa que tentar acessar essas variáveis antes de sua declaração resulta em um erro `ReferenceError`:
+
+```javascript
+console.log(nome); // ReferenceError: Cannot access 'nome' before initialization
+let nome = "João";
+```
+
+Isso ocorre porque `let` e `const` foram projetados para evitar os comportamentos confusos associados ao hoisting de variáveis do tipo `var`.
+
+O hoisting também afeta as classes declaradas com a palavra-chave `class`. Semelhante ao `let` e `const`, as declarações de classes são içadas, mas não estão disponíveis antes de sua inicialização. Tentar usar uma classe antes de sua declaração também resulta em um `ReferenceError`.
 
 ## [JS] Closures
 Funções que "lembram" do ambiente onde foram criadas.
