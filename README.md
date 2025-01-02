@@ -3018,6 +3018,8 @@ console.log(vowerVerification());
 ```
 
 # 📜 [JS] FP - Paradigma funcional
+<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-observablehq-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-DSA-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-000000?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/React.js-repository-000000?style=flat&logo=React&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-repo-white?style=flat&logo=TypeScript&logoColor=blue)</a> 
+
 <img src="https://github.com/user-attachments/assets/fca0c30f-687c-4726-ad6d-c9a6c8318258" align="right" height="77"/>
 
 JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
