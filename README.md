@@ -3055,7 +3055,9 @@ Vou trazer alguns fatos históricos relacionados ao mundo da programação e que
 
 Agora detalhando um pouco mais essas informações.
 
-O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60.
+O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda funções recursivas computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
+
+A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
 
 Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
 
