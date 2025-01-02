@@ -3182,6 +3182,7 @@ function inicio() {
 inicio();
 ```
 
+## [JS] Anonymous function
 Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
 
 Exemplo: função anônima atribuída a uma variável.
@@ -3388,172 +3389,6 @@ console.log(multiply(5));
 
 > OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
 
-No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores.
-
-Os Generators são úteis quando queremos criar iteradores personalizados ou produzir uma sequência de valores de forma "preguiçosa" (lazy evaluation), ou seja, um valor por vez, conforme solicitado. Eles são uma alternativa conveniente para controlar a execução de funções e para trabalhar com conjuntos de dados que podem ser infinitos ou grandes demais para carregar de uma só vez.
-
-Exemplo: Função normal
-
-```javascript
-function sum(a, b){
-  return a + b;
-}
-
-console.log(sum(5, 5));
-```
-
-Exemplo 2: Função com vários argumentos (método antigo do ES6)
-
-```javascript
-function sum(a,b){
-  return a + b;
-}
-console.log(sum(5,5,5,2,3));
-// Output: 10
-```
-
-```javascript
-function sum(a,b){
-  console.log(arguments);
-  return a + b;
-}
-console.log(sum(5,5,5,2,3));
-// Output: Arguments(5) [5, 5, 5, 2, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
-// Output: 10
-```
-
-Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
-
-```javascript
-function sum(a,b){
-   var value = 0;
-
-   for(var i = 0; i < arguments.length; i++){
-     value += arguments[i];
-   }
-   return value;
-}
-
-console.log(sum(5,5,5,2,3))
-// Output: 20
-```
-
-Vamos ver como os Generators são funções onde pausam e despausam valores através da interface de iteração.
-
-Exemplo 1: Função normal
-
-```javascript
-function hello(){
-  console.log('Hello');
-  console.log('From');
-  console.log('Function');
-}
-hello();
-// Output:
-// Hello
-// From
-// Function
-```
-
-Exemplo 2: Função Generator
-
-```javascript
-function* hello(){
-  console.log('Hello');
-  yield;
-  console.log('From');
-  yield;
-  console.log('Function!');
-}
-
-const it = hello();
-
-console.log(it.next());
-console.log(it.next());
-console.log(it.next());
-// Output
-// Hello
-// {value: undefined, done: false}
-// From
-// {value: undefined, done: false}
-// Function!
-// {value: undefined, done: true}
-```
-
-Exemplo 3: Ordenando a função Generator
-
-```javascript
-function* hello(){
-  console.log('Hello');
-  yield 1;
-  console.log('From');
-  yield 2;
-  console.log('Function!');
-}
-
-const it = hello();
-
-console.log(it.next());
-console.log(it.next());
-console.log(it.next());
-// Output
-// Hello
-// {value: 1, done: false}
-// From
-// {value: 2, done: false}
-// Function!
-// {value: undefined, done: true}
-```
-
-Exemplo 4:
-
-```javascript
-function* hello(){
-  console.log('Hello');
-  yield 1;
-  console.log('From');
-  const value = yield 2;
-  console.log(value);
-}
-
-const it = hello();
-
-console.log(it.next());
-console.log(it.next());
-console.log(it.next('Outside!'));
-
-// Output:
-/*
-Hello
-{value: 1, done: false}
-From
-{value: 2, done: false}
-Outside!
-{value: undefined, done: true}
-undefined
-*/
-```
-
-Exemplo 5:
-
-```javascript
-// Generators
-function* naturalNumbers() {
-  let number = 0;
-  while(true) {
-    yield number;
-    number++;
-  }
-}
-
-const it = naturalNumbers();
-
-console.log(it.next());
-console.log(it.next());
-console.log(it.next());
-console.log(it.next());
-```
-
 Abaixo estão os principais tópicos associados a este estilo de programação:
 
 ## [JS] Funções como cidadãos de primeira classe
@@ -3759,7 +3594,172 @@ console.log(result()); // 5
 ```
 
 ## [JS] Generators
-**Generators** são funções com pausa e elas despausam valores através da interface de iteração.
+No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores. Generators são funções com pausa e elas despausam valores através da interface de iteração. 
+
+Os Generators são úteis quando queremos criar iteradores personalizados ou produzir uma sequência de valores de forma "preguiçosa" (lazy evaluation), ou seja, um valor por vez, conforme solicitado. Eles são uma alternativa conveniente para controlar a execução de funções e para trabalhar com conjuntos de dados que podem ser infinitos ou grandes demais para carregar de uma só vez.
+
+Exemplo: Função normal
+
+```javascript
+function sum(a, b){
+  return a + b;
+}
+
+console.log(sum(5, 5));
+```
+
+Exemplo 2: Função com vários argumentos (método antigo do ES6)
+
+```javascript
+function sum(a,b){
+  return a + b;
+}
+console.log(sum(5,5,5,2,3));
+// Output: 10
+```
+
+```javascript
+function sum(a,b){
+  console.log(arguments);
+  return a + b;
+}
+console.log(sum(5,5,5,2,3));
+// Output: Arguments(5) [5, 5, 5, 2, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+// Output: 10
+```
+
+Exemplo 3: Suponhamos que precisamos fazer uma soma com muitos algarismos em um índice.
+
+```javascript
+function sum(a,b){
+   var value = 0;
+
+   for(var i = 0; i < arguments.length; i++){
+     value += arguments[i];
+   }
+   return value;
+}
+
+console.log(sum(5,5,5,2,3))
+// Output: 20
+```
+
+Vamos ver como os Generators são funções onde pausam e despausam valores através da interface de iteração.
+
+Exemplo 1: Função normal
+
+```javascript
+function hello(){
+  console.log('Hello');
+  console.log('From');
+  console.log('Function');
+}
+hello();
+// Output:
+// Hello
+// From
+// Function
+```
+
+Exemplo 2: Função Generator
+
+```javascript
+function* hello(){
+  console.log('Hello');
+  yield;
+  console.log('From');
+  yield;
+  console.log('Function!');
+}
+
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+// Output
+// Hello
+// {value: undefined, done: false}
+// From
+// {value: undefined, done: false}
+// Function!
+// {value: undefined, done: true}
+```
+
+Exemplo 3: Ordenando a função Generator
+
+```javascript
+function* hello(){
+  console.log('Hello');
+  yield 1;
+  console.log('From');
+  yield 2;
+  console.log('Function!');
+}
+
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+// Output
+// Hello
+// {value: 1, done: false}
+// From
+// {value: 2, done: false}
+// Function!
+// {value: undefined, done: true}
+```
+
+Exemplo 4:
+
+```javascript
+function* hello(){
+  console.log('Hello');
+  yield 1;
+  console.log('From');
+  const value = yield 2;
+  console.log(value);
+}
+
+const it = hello();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next('Outside!'));
+
+// Output:
+/*
+Hello
+{value: 1, done: false}
+From
+{value: 2, done: false}
+Outside!
+{value: undefined, done: true}
+undefined
+*/
+```
+
+Exemplo 5:
+
+```javascript
+// Generators
+function* naturalNumbers() {
+  let number = 0;
+  while(true) {
+    yield number;
+    number++;
+  }
+}
+
+const it = naturalNumbers();
+
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+```
+
 
 Exemplo: Função normal
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
