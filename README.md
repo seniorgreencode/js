@@ -2430,47 +2430,6 @@ function sum([a,b]){ // = [0+0]
 console.log(sum([5,5])); // { a: 5, b: 5 } 
 ```
 
-## [JS] Generators
-**Generators** são funções com pausa e elas despausam valores através da interface de iteração.
-
-Exemplo: Função normal
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
-
-Exemplo 2: Função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
-
-Exemplo 3: Ordenando a função Generator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
-
-Exemplo 4: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
-
-Exemplo 5:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
-
-Exemplo 6:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
-
-Exemplo 4:
-```javascript
-  function sum(...args) {
-    return args.reduce((acc, value) => acc + value, 0);
-}
-
-console.log(sum(5,5,5,2,3));
-```
-
-Exemplo 5: Integrar uma função com a outra
-```javascript
-const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
-
-const sum = (...rest) => {
-   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
-};
-
-console.log(sum(5,5,5,2,3));
-```
-
 # 📜 [JS] Map
 Em JavaScript, um **Map** é uma estrutura de dados que associa chaves (`keys`) a valores (`values`). Ao contrário dos objetos JavaScript tradicionais, as chaves de um Map podem ser de qualquer tipo, incluindo objetos, funções e até mesmo outros Maps. Isso oferece uma flexibilidade muito maior na organização e acesso aos dados. O Map é uma ferramenta poderosa em JavaScript que oferece uma forma flexível e eficiente de armazenar e organizar dados. Ao entender suas características e como utilizá-lo, você poderá escrever código mais limpo e organizado, especialmente quando lidar com dados complexos.
 
@@ -3590,6 +3549,144 @@ console.log(vowerVerification());
 ```
 
 # 📜 [JS] Paradigma funcional
+JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. Abaixo estão os principais tópicos associados a este estilo de programação:
+
+## [JS] Funções como cidadãos de primeira classe
+Em JavaScript, as funções podem ser atribuídas a variáveis, passadas como argumentos e retornadas de outras funções. Isso permite um uso mais flexível e expressivo.
+
+```javascript
+const greet = name => `Hello, ${name}`;
+const processGreeting = (name, func) => func(name);
+console.log(processGreeting("Alice", greet));
+```
+
+## [JS] Funções puras
+Funções que sempre retornam o mesmo resultado para os mesmos argumentos, sem causar efeitos colaterais externos. Side Effects e Controle Reduzir ou isolar efeitos colaterais ao trabalhar com dados e funções puras.
+
+```javascript
+const add = (a, b) => a + b;
+```
+
+## [JS] Imutabilidade
+Evitar modificar o estado ou objetos existentes. Utilizar métodos que retornam novos valores ao invés de alterar os existentes.
+
+```javascript
+const numbers = [1, 2, 3];
+const newNumbers = numbers.map(x => x * 2);
+```
+
+## [JS] Composição de funções
+   - Combinar pequenas funções para construir lógica mais complexa.
+     ```javascript
+     const multiply = x => x * 2;
+     const subtract = x => x - 3;
+     const compose = (f, g) => x => f(g(x));
+     const operate = compose(multiply, subtract);
+     console.log(operate(5)); // Output: 4
+     ```
+
+## [JS] Higher-order functions
+   - Funções que recebem outras funções como argumentos ou retornam funções.
+     ```javascript
+     const filter = (arr, func) => arr.filter(func);
+     const isEven = x => x % 2 === 0;
+     console.log(filter([1, 2, 3, 4], isEven)); // [2, 4]
+     ```
+
+## [JS] Recursão
+   - Substituir laços por chamadas recursivas para implementar iteração.
+     ```javascript
+     const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
+     console.log(factorial(5)); // 120
+     ```
+
+## [JS] Closures
+   - Funções que "lembram" do ambiente onde foram criadas.
+     ```javascript
+     const makeCounter = () => {
+       let count = 0;
+       return () => ++count;
+     };
+     const counter = makeCounter();
+     console.log(counter()); // 1
+     console.log(counter()); // 2
+     ```
+
+Map, Reduce e Filter** Métodos para transformar, reduzir ou filtrar coleções de dados.
+     ```javascript
+     const nums = [1, 2, 3, 4];
+     console.log(nums.map(x => x * 2)); // [2, 4, 6, 8]
+     console.log(nums.filter(x => x % 2 === 0)); // [2, 4]
+     console.log(nums.reduce((acc, x) => acc + x, 0)); // 10
+     ```
+
+## [JS] Currying
+   - Transformar uma função que aceita múltiplos argumentos em uma sequência de funções que aceitam um único argumento.
+     ```javascript
+     const add = a => b => a + b;
+     const addFive = add(5);
+     console.log(addFive(3)); // 8
+     ```
+
+## [JS] Lazy Evaluation
+   - Adiar a execução até que os dados sejam realmente necessários. Embora não seja nativo no JavaScript, pode ser implementado.
+     ```javascript
+     const lazySum = (a, b) => () => a + b;
+     const result = lazySum(2, 3);
+     console.log(result()); // 5
+     ```
+
+## [JS] Functors e Monads
+   - Estruturas de dados que seguem princípios matemáticos para operar com valores. Embora mais comuns em linguagens funcionais como Haskell, podem ser aplicados em JavaScript.
+     ```javascript
+     const Box = x => ({
+       map: f => Box(f(x)),
+       fold: f => f(x),
+     });
+     const result = Box(3).map(x => x + 2).fold(x => x * 2);
+     console.log(result); // 10
+     ```
+
+## [JS] Generators
+**Generators** são funções com pausa e elas despausam valores através da interface de iteração.
+
+Exemplo: Função normal
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
+
+Exemplo 2: Função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
+
+Exemplo 3: Ordenando a função Generator
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108256890-cf032b80-713c-11eb-923d-9198cf0917d3.jpg)
+
+Exemplo 4: 
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108260107-abda7b00-7140-11eb-9ae2-6225c4d1139d.jpg)
+
+Exemplo 5:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108264459-51441d80-7146-11eb-829c-89dfc1ed4288.jpg)
+
+Exemplo 6:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108269391-ac790e80-714c-11eb-8f4c-bb0d9b840eed.jpg)
+
+Exemplo 4:
+```javascript
+  function sum(...args) {
+    return args.reduce((acc, value) => acc + value, 0);
+}
+
+console.log(sum(5,5,5,2,3));
+```
+
+Exemplo 5: Integrar uma função com a outra
+```javascript
+const multiply = (...args) => args.reduce((acc, value)) => acc * value, 1)
+
+const sum = (...rest) => {
+   return multiply.apply(undefined, rest); // método apply serve para integrar uma função com a outra
+};
+
+console.log(sum(5,5,5,2,3));
+```
 
 # 📜 [JS] JavaScript OOP
 [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
