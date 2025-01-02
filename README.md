@@ -3024,7 +3024,7 @@ JavaScript funcional é um paradigma de programação que enfatiza a utilizaçã
 
 Então nosso código será baseado em funções, focando em pequenos algoritmos para compor e combinar com o objetivo de resolver problemas. Muito mais que um paradigma, é uma mudança de mentalidade na forma tradicional de se programar. Mas, você sabe a diferença entre função e procedimento?
 
-![image](https://github.com/user-attachments/assets/560994e4-45d8-4dda-a59d-a3d6e3a045c7)
+<img src="https://github.com/user-attachments/assets/560994e4-45d8-4dda-a59d-a3d6e3a045c7" align="right" height="177">
 
 Conceitualmente um procedimento difere da função pela ausência de um retorno de valor. Então um procedimento é um algoritmo que será executado, enquanto que a função é um algoritmo que será executado e produzirá um resultado final concreto que poderá ser usado por outro algoritmo.
 
