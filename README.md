@@ -3388,43 +3388,6 @@ console.log(multiply(5));
 
 > OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
 
-No JS, também temos o **Lazy evaluation** (ou "avaliação preguiçosa") é uma técnica em que a avaliação de uma expressão é adiada até o momento em que o valor é realmente necessário, ao invés de ser calculada imediatamente. Isso permite que o código seja mais eficiente, pois evita o processamento desnecessário de valores que podem nunca ser utilizados.
-
-Relacionado a esse conceito, ocorre quando usamos valores padrão em funções no JavaScript, ou seja, é a característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido. Nesse contexto, a função usada como valor padrão de um argumento é avaliada apenas quando o argumento é `undefined`. Ou seja, a função só será executada se o argumento não for fornecido pelo usuário, o que é uma forma de avaliação preguiçosa.
-
-Exemplo:
-
-```javascript
-// Lazy evaluation
-function randomNumber(){
-  return Math.random() * 10;
-}
-
-function multiply(a, b = randomNumber()){
-  return a * b;
-}
-
-console.log(multiply(5));
-// Output: Número aleatório
-```
-
-Exemplo 6:
-
-```javascript
-// Lazy evaluation
-function randomNumber(){
-  return Math.random() * 10;
-}
-
-function multiply(a, b = randomNumber()){
-  return a * b;
-}
-
-console.log(multiply(5));
-console.log(multiply(5));
-// Output: Número aleatório
-```
-
 No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores.
 
 Os Generators são úteis quando queremos criar iteradores personalizados ou produzir uma sequência de valores de forma "preguiçosa" (lazy evaluation), ou seja, um valor por vez, conforme solicitado. Eles são uma alternativa conveniente para controlar a execução de funções e para trabalhar com conjuntos de dados que podem ser infinitos ou grandes demais para carregar de uma só vez.
@@ -3645,6 +3608,8 @@ const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
 console.log(factorial(5)); // 120
 ```
 
+## [JS] Hoisting
+
 ## [JS] Closures
 Funções que "lembram" do ambiente onde foram criadas.
      
@@ -3677,7 +3642,44 @@ console.log(addFive(3)); // 8
 ```
 
 ## [JS] Lazy Evaluation
-Adiar a execução até que os dados sejam realmente necessários. Embora não seja nativo no JavaScript, pode ser implementado.
+No JS, também temos o **Lazy evaluation** (ou "avaliação preguiçosa") é uma técnica em que a avaliação de uma expressão é adiada até o momento em que o valor é realmente necessário, ao invés de ser calculada imediatamente. Isso permite que o código seja mais eficiente, pois evita o processamento desnecessário de valores que podem nunca ser utilizados. Adiar a execução até que os dados sejam realmente necessários. Embora não seja nativo no JavaScript, pode ser implementado.
+
+Relacionado a esse conceito, ocorre quando usamos valores padrão em funções no JavaScript, ou seja, é a característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido. Nesse contexto, a função usada como valor padrão de um argumento é avaliada apenas quando o argumento é `undefined`. Ou seja, a função só será executada se o argumento não for fornecido pelo usuário, o que é uma forma de avaliação preguiçosa.
+
+Exemplo:
+
+```javascript
+// Lazy evaluation
+function randomNumber(){
+  return Math.random() * 10;
+}
+
+function multiply(a, b = randomNumber()){
+  return a * b;
+}
+
+console.log(multiply(5));
+// Output: Número aleatório
+```
+
+Exemplo 2:
+
+```javascript
+// Lazy evaluation
+function randomNumber(){
+  return Math.random() * 10;
+}
+
+function multiply(a, b = randomNumber()){
+  return a * b;
+}
+
+console.log(multiply(5));
+console.log(multiply(5));
+// Output: Número aleatório
+```
+
+Exemplo 3:
 
 ```javascript
 const lazySum = (a, b) => () => a + b;
