@@ -3608,6 +3608,24 @@ const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
 console.log(factorial(5)); // 120
 ```
 
+## [JS] Callback
+Uma **função callback** em JavaScript é uma função que é passada como argumento para outra função e é chamada ou executada dentro dessa função externa, geralmente em resposta a um evento ou após a conclusão de uma operação. O conceito de callbacks é fundamental em JavaScript, especialmente no contexto de programação assíncrona, como manipulação de eventos, requisições a APIs, ou temporizadores.
+
+Quando uma função é definida como callback, ela não é imediatamente executada. Em vez disso, a função à qual foi passada controla o momento de sua execução, que pode ser baseado em condições específicas ou na conclusão de uma tarefa.
+
+```javascript
+function greet(name) {
+    console.log(`Olá, ${name}!`);
+}
+
+function processUserInput(callback) {
+    const name = "Maria";
+    callback(name); // Executa a função passada como callback
+}
+
+processUserInput(greet); // Saída: Olá, Maria!
+```
+
 ## [JS] Hoisting
 
 ## [JS] Closures
@@ -4030,8 +4048,6 @@ Utilizamos do recursos do assincronismo, quando precisamos esperar pela resposta
 Para exemplificar, podemos pensar em comunicação. Uma ligação telefônica é um exemplo de comunicação síncrona: quando falamos ao telefone, as informações chegam e saem em sequência, uma após a outra; fazemos uma pergunta, recebemos logo em seguida a resposta, com os dados dessa resposta fazemos outro comentário, etc.
 
 Por outro lado, uma conversa online via algum mensageiro, como o WhatsApp ou ou Telegram, é um exemplo de comunicação assíncrona: enviamos uma mensagem e não ficamos olhando para a tela, esperando, até a outra pessoa responder (ou pelo menos não deveríamos!). Afinal de contas, não temos como saber quando, e se, essa resposta vai chegar. Mandamos a mensagem e vamos fazer outras coisas enquanto a resposta não chega, ao contrário do telefone.
-
-## [JS] Callbacks
 
 ## [JS] Promises 
 [![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
