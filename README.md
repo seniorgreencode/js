@@ -2758,10 +2758,271 @@ for(var i = 0; i < 5; i++){
 }
 ```
 
-# 📜 [JS] Funções
-<img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
+# 📜 [JS] Data e horário
+<img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
 
-Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
+
+Sintaxe: No código abaixo, iniciamos uma variável `data` criando uma nova instância JavaScript para a função nativa em JavaScript chamada `Date` que é um construtor usado para criar objetos de data e hora, que representam um ponto específico no tempo que representa um único momento no tempo. Objetos `Date` são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
+
+```javascript
+variável data = new Date();
+console.log(data.getTime());
+```
+
+O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript, veja os exemplos abaixo:
+
+<table align="left">
+  <tr>
+    <td>Método</code></td>
+    <td>Função do método</code></td>
+  </tr>
+    <tr>
+    <td><code>getDate()</code></td>
+    <td>Define a data atual</code></td>
+  </tr>
+    <tr>
+    <td><code>getFullYear()</code></td>
+    <td>Define o ano atual e completo</code></td>
+  </tr>
+  <tr>
+    <td><code>getYear()</code></td>
+    <td>Define o ano e incompleto</code></td>
+  </tr>
+  <tr>
+    <td><code>getMonth()</code></td>
+    <td>Define os meses</code></td>
+  </tr>
+  <tr>
+    <td><code>getDay()</code></td>
+    <td>Define o dia</code></td>
+  </tr>
+  <tr>
+    <td><code>getHours()</code></td>
+    <td>Define as horas</code></td>
+  </tr>
+  <tr>
+    <td><code>getMinutes()</code></td>
+    <td>Define os minutos</code></td>
+  </tr>
+  <tr>
+    <td><code>getMilliseconds()</code></td>
+    <td>Define os milisegundos</code></td>
+  </tr>
+    <tr>
+    <td><code>getSeconds()</code></td>
+    <td>Define os segundos</code></td>
+  </tr>
+</table>
+
+É interessante utilizar a variável `const` para a função de tempo no JavaScript, pois quando tratamos de data e hora, tratamos de dados exatos para períodos o qual não podem ser mutáveis com a modificação da linguagem.
+
+Assim como também podemos mesclar o tempo com outra variável constante para criarmos combinações de ano, mês, dia ou também de hora, minuto e segundos.
+
+Exemplo: Retorna o ano atual.
+
+```javascript
+const ano = new Date();
+console.log(ano.getFullYear());
+// Output: 2024
+```
+
+Exemplo: Retorna o dia atual.
+
+```javascript
+const dia = new Date();
+console.log(dia.getDate());
+// Output: Dia atual
+```
+
+Exemplo: Retorna a data atual.
+
+```javascript
+// Variável const: Obtém a data atual
+const dataAtual = new Date();
+
+// Variáveis const: Extrai o dia, mês e ano
+const dia = dataAtual.getDate();
+const mes = dataAtual.getMonth() + 1; // Lembrando que o mês começa em 0 (Janeiro é 0)
+const ano = dataAtual.getFullYear();
+
+// Template string: Formata a data no estilo "D/M/A"
+const dataFormatada = `${dia}/${mes}/${ano}`;
+
+// Console.log: Imprime a data formatada
+console.log(dataFormatada);
+```
+
+Exercício: Aplicação front-end para manipular o tempo com um contador de final de ano.
+
+```javascript
+// DOM do Tempo
+const secondsContainer = document.querySelector('#seconds'); // Obter e armazenar os id's
+const minutesContainer = document.querySelector('#minutes');
+const hoursContainer = document.querySelector('#hours');
+const daysContainer = document.querySelector('#days');
+
+// DOM do próximo ano
+const nextYearContainer = document.querySelector('#year');
+const spinnerLoading = document.querySelector('#loading');
+const countdownContainer = document.querySelector('#countdown');
+
+const nextYear = new Date().getFullYear() + 1; // ano dinâmico atualizando para mais 1 ano
+const newYearTime = new Date(`January 01 ${nextYear} 00:00:00`); // "template string" recebendo o ano novo
+
+nextYearContainer.textContent = nextYear;
+
+const insertCountdownValues = ({ days, hours, minutes, seconds}) => {
+    secondsContainer.textContent = seconds < 10 ? '0' + seconds : seconds;
+    minutesContainer.textContent = minutes < 10 ? '0' + minutes : minutes;
+    hoursContainer.textContent = hours < 10 ? '0' + hours : hours;
+    daysContainer.textContent = days < 10 ? '0' + days : days;
+}
+
+const updateCountdown = () => {
+    const currentTime = new Date(); // nova data
+    const difference = newYearTime - currentTime; 
+    const days = Math.floor(difference / 1000 / 60 / 60 / 24); // número arredondado sem milésimos
+    const hours = Math.floor(difference / 1000 / 60 / 60) % 24;
+    const minutes = Math.floor(difference / 1000 / 60) % 60;
+    const seconds = Math.floor(difference / 1000) % 60;
+
+    insertCountdownValues({ days, hours, minutes, seconds});
+}
+
+const handleCountdownDisplay = () => {
+    spinnerLoading.remove();
+    countdownContainer.style.display = 'flex';
+}
+
+setTimeout(handleCountdownDisplay, 1000);
+setInterval(updateCountdown, 1000);
+```
+
+# 📜 [JS] Modulos
+Os **módulos** em JavaScript são uma forma de dividir o código em partes menores e reutilizáveis, permitindo que você organize e compartilhe funcionalidades de maneira mais eficiente e segura. Eles ajudam a manter o código limpo, modular e fácil de gerenciar, especialmente em projetos maiores. A partir do ECMAScript 6 (ES6), JavaScript introduziu oficialmente suporte para módulos, o que facilitou muito o uso dessa abordagem. Com módulos, você pode exportar funções, classes, objetos ou valores de um arquivo e importá-los em outro. Os módulos são uma ferramenta poderosa para organizar código de maneira eficiente e colaborar melhor em projetos maiores.
+
+Vantagens dos Módulos:
+
+1. Encapsulamento: Cada módulo tem seu próprio escopo, o que evita conflitos de variáveis globais.
+2. Reutilização de Código: Módulos permitem reutilizar facilmente funções e classes em diferentes partes da aplicação.
+3. Manutenção e Organização: Facilita a manutenção e organização do código, pois cada módulo foca em uma parte específica da funcionalidade.
+4. Árvore de Dependências: Os módulos ajudam a rastrear dependências, tornando claro qual parte do código usa o quê.
+
+Existem dois tipos principais de módulos em JavaScript:
+
+- **ESM - Módulos ES6** podem ser usados em navegadores modernos e em projetos Node.js, mas você deve garantir que o ambiente suporte ESM ou usar um transpilador, como Babel, se necessário. A palavra-chave `import` e `export` só pode ser usada no contexto de módulos ES6, que geralmente precisam ser carregados como `"type="module"` no HTML ou especificados de maneira apropriada no Node.js.
+  
+- O **CommonJS** ainda é amplamente utilizado em projetos Node.js e, em alguns casos, pode ser preferível por questões de compatibilidade.
+
+Vamos explorar mais sobre a sintaxe e a diferença entre ambos:
+
+1. **Módulos ES6 (ECMAScript Modules, ou ESM)**: Os módulos ES6 são o padrão moderno para trabalhar com módulos no JavaScript. Eles utilizam as palavras-chave `export` e `import` para compartilhar e usar funcionalidades entre diferentes arquivos. Você pode exportar funções, classes, objetos, etc., de um módulo para que possam ser usados em outro arquivo.
+
+Exemplo: Exportando  e importando a função `saudacao` e a variável constante `pi`
+
+```javascript
+// arquivo: meuModulo.js
+export function saudacao(nome) {
+  return `Olá, ${nome}!`;
+}
+
+export const pi = 3.14159;
+```
+
+Você pode importar itens que foram exportados de outro módulo.
+
+```javascript
+// arquivo: app.js
+import { saudacao, pi } from './meuModulo.js';
+
+console.log(saudacao('Maria')); // "Olá, Maria!"
+console.log(`O valor de pi é ${pi}`);
+```
+
+Você também pode exportar um elemento como padrão, que é o que será importado caso não se especifique um nome específico:
+
+```javascript
+// arquivo: meuModulo.js
+export default function saudacaoPadrao() {
+  return "Olá, mundo!";
+}
+```
+
+E importar desta forma:
+
+```javascript
+// arquivo: app.js
+import saudacaoPadrao from './meuModulo.js';
+
+console.log(saudacaoPadrao()); // "Olá, mundo!"
+```
+
+2. **Módulos CommonJS**: Antes do ES6, uma abordagem comum para implementar módulos era através do CommonJS, especialmente no Node.js. O CommonJS usa `module.exports` e `require()` para exportar e importar módulos.
+
+Exemplo: Exportando  e importando a função `saudacao` e a variável `pi`
+
+```javascript
+// arquivo: meuModulo.js
+module.exports = {
+  saudacao: function(nome) {
+    return `Olá, ${nome}!`;
+  },
+  pi: 3.14159
+};
+```
+
+```javascript
+// arquivo: app.js
+const meuModulo = require('./meuModulo');
+
+console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
+console.log(`O valor de pi é ${meuModulo.pi}`);
+```
+
+# 📜 [JS] Procedural/Imperativo JavaScript
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
+
+Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
+  
+Exemplo: Verificador de vogais
+
+```javascript
+var letter = prompt("Digite uma letra:", " "), isVower = false;
+
+function vowerVerification(){
+  switch(letter){
+     case 'a':
+      isVower = true;
+     break; 
+     case 'e':
+      isVower = true;
+     break; 
+     case 'i':
+      isVower = true;
+     break; 
+     case 'o':
+      isVower = true;
+     break; 
+     case 'u':
+      isVower = true;
+     break; 
+  }
+  if (isVower = true){
+    console.log('É vogal!');
+  } else {
+    console.log('Não é vogal!');
+  }
+}
+console.log(vowerVerification());
+```
+
+# 📜 [JS] Paradigma funcional
+<img src="https://github.com/user-attachments/assets/fca0c30f-687c-4726-ad6d-c9a6c8318258" align="right" height="77"/>
+
+JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+
+<img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
 
 > Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
 
@@ -3289,267 +3550,7 @@ console.log(it.next());
 console.log(it.next());
 ```
 
-# 📜 [JS] Data e horário
-<img src="https://user-images.githubusercontent.com/61624336/103482623-9bed1e80-4dc0-11eb-857a-2c188babf60d.png" height="77" align="right"/>
-
-Toda linguagem de programação moderna possui contadores de tempo. Com o JavaScript não é diferente.
-
-Sintaxe: No código abaixo, iniciamos uma variável `data` criando uma nova instância JavaScript para a função nativa em JavaScript chamada `Date` que é um construtor usado para criar objetos de data e hora, que representam um ponto específico no tempo que representa um único momento no tempo. Objetos `Date` são baseados no valor de tempo que é o número de milisegundos desde 1º de Janeiro de 1970 (UTC).
-
-```javascript
-variável data = new Date();
-console.log(data.getTime());
-```
-
-O JS é ótimo para manipular o tempo através de seus métodos, os métodos adiante definem o tempo no JavaScript, veja os exemplos abaixo:
-
-<table align="left">
-  <tr>
-    <td>Método</code></td>
-    <td>Função do método</code></td>
-  </tr>
-    <tr>
-    <td><code>getDate()</code></td>
-    <td>Define a data atual</code></td>
-  </tr>
-    <tr>
-    <td><code>getFullYear()</code></td>
-    <td>Define o ano atual e completo</code></td>
-  </tr>
-  <tr>
-    <td><code>getYear()</code></td>
-    <td>Define o ano e incompleto</code></td>
-  </tr>
-  <tr>
-    <td><code>getMonth()</code></td>
-    <td>Define os meses</code></td>
-  </tr>
-  <tr>
-    <td><code>getDay()</code></td>
-    <td>Define o dia</code></td>
-  </tr>
-  <tr>
-    <td><code>getHours()</code></td>
-    <td>Define as horas</code></td>
-  </tr>
-  <tr>
-    <td><code>getMinutes()</code></td>
-    <td>Define os minutos</code></td>
-  </tr>
-  <tr>
-    <td><code>getMilliseconds()</code></td>
-    <td>Define os milisegundos</code></td>
-  </tr>
-    <tr>
-    <td><code>getSeconds()</code></td>
-    <td>Define os segundos</code></td>
-  </tr>
-</table>
-
-É interessante utilizar a variável `const` para a função de tempo no JavaScript, pois quando tratamos de data e hora, tratamos de dados exatos para períodos o qual não podem ser mutáveis com a modificação da linguagem.
-
-Assim como também podemos mesclar o tempo com outra variável constante para criarmos combinações de ano, mês, dia ou também de hora, minuto e segundos.
-
-Exemplo: Retorna o ano atual.
-
-```javascript
-const ano = new Date();
-console.log(ano.getFullYear());
-// Output: 2024
-```
-
-Exemplo: Retorna o dia atual.
-
-```javascript
-const dia = new Date();
-console.log(dia.getDate());
-// Output: Dia atual
-```
-
-Exemplo: Retorna a data atual.
-
-```javascript
-// Variável const: Obtém a data atual
-const dataAtual = new Date();
-
-// Variáveis const: Extrai o dia, mês e ano
-const dia = dataAtual.getDate();
-const mes = dataAtual.getMonth() + 1; // Lembrando que o mês começa em 0 (Janeiro é 0)
-const ano = dataAtual.getFullYear();
-
-// Template string: Formata a data no estilo "D/M/A"
-const dataFormatada = `${dia}/${mes}/${ano}`;
-
-// Console.log: Imprime a data formatada
-console.log(dataFormatada);
-```
-
-Exercício: Aplicação front-end para manipular o tempo com um contador de final de ano.
-
-```javascript
-// DOM do Tempo
-const secondsContainer = document.querySelector('#seconds'); // Obter e armazenar os id's
-const minutesContainer = document.querySelector('#minutes');
-const hoursContainer = document.querySelector('#hours');
-const daysContainer = document.querySelector('#days');
-
-// DOM do próximo ano
-const nextYearContainer = document.querySelector('#year');
-const spinnerLoading = document.querySelector('#loading');
-const countdownContainer = document.querySelector('#countdown');
-
-const nextYear = new Date().getFullYear() + 1; // ano dinâmico atualizando para mais 1 ano
-const newYearTime = new Date(`January 01 ${nextYear} 00:00:00`); // "template string" recebendo o ano novo
-
-nextYearContainer.textContent = nextYear;
-
-const insertCountdownValues = ({ days, hours, minutes, seconds}) => {
-    secondsContainer.textContent = seconds < 10 ? '0' + seconds : seconds;
-    minutesContainer.textContent = minutes < 10 ? '0' + minutes : minutes;
-    hoursContainer.textContent = hours < 10 ? '0' + hours : hours;
-    daysContainer.textContent = days < 10 ? '0' + days : days;
-}
-
-const updateCountdown = () => {
-    const currentTime = new Date(); // nova data
-    const difference = newYearTime - currentTime; 
-    const days = Math.floor(difference / 1000 / 60 / 60 / 24); // número arredondado sem milésimos
-    const hours = Math.floor(difference / 1000 / 60 / 60) % 24;
-    const minutes = Math.floor(difference / 1000 / 60) % 60;
-    const seconds = Math.floor(difference / 1000) % 60;
-
-    insertCountdownValues({ days, hours, minutes, seconds});
-}
-
-const handleCountdownDisplay = () => {
-    spinnerLoading.remove();
-    countdownContainer.style.display = 'flex';
-}
-
-setTimeout(handleCountdownDisplay, 1000);
-setInterval(updateCountdown, 1000);
-```
-
-# 📜 [JS] Modulos
-Os **módulos** em JavaScript são uma forma de dividir o código em partes menores e reutilizáveis, permitindo que você organize e compartilhe funcionalidades de maneira mais eficiente e segura. Eles ajudam a manter o código limpo, modular e fácil de gerenciar, especialmente em projetos maiores. A partir do ECMAScript 6 (ES6), JavaScript introduziu oficialmente suporte para módulos, o que facilitou muito o uso dessa abordagem. Com módulos, você pode exportar funções, classes, objetos ou valores de um arquivo e importá-los em outro. Os módulos são uma ferramenta poderosa para organizar código de maneira eficiente e colaborar melhor em projetos maiores.
-
-Vantagens dos Módulos:
-
-1. Encapsulamento: Cada módulo tem seu próprio escopo, o que evita conflitos de variáveis globais.
-2. Reutilização de Código: Módulos permitem reutilizar facilmente funções e classes em diferentes partes da aplicação.
-3. Manutenção e Organização: Facilita a manutenção e organização do código, pois cada módulo foca em uma parte específica da funcionalidade.
-4. Árvore de Dependências: Os módulos ajudam a rastrear dependências, tornando claro qual parte do código usa o quê.
-
-Existem dois tipos principais de módulos em JavaScript:
-
-- **ESM - Módulos ES6** podem ser usados em navegadores modernos e em projetos Node.js, mas você deve garantir que o ambiente suporte ESM ou usar um transpilador, como Babel, se necessário. A palavra-chave `import` e `export` só pode ser usada no contexto de módulos ES6, que geralmente precisam ser carregados como `"type="module"` no HTML ou especificados de maneira apropriada no Node.js.
-  
-- O **CommonJS** ainda é amplamente utilizado em projetos Node.js e, em alguns casos, pode ser preferível por questões de compatibilidade.
-
-Vamos explorar mais sobre a sintaxe e a diferença entre ambos:
-
-1. **Módulos ES6 (ECMAScript Modules, ou ESM)**: Os módulos ES6 são o padrão moderno para trabalhar com módulos no JavaScript. Eles utilizam as palavras-chave `export` e `import` para compartilhar e usar funcionalidades entre diferentes arquivos. Você pode exportar funções, classes, objetos, etc., de um módulo para que possam ser usados em outro arquivo.
-
-Exemplo: Exportando  e importando a função `saudacao` e a variável constante `pi`
-
-```javascript
-// arquivo: meuModulo.js
-export function saudacao(nome) {
-  return `Olá, ${nome}!`;
-}
-
-export const pi = 3.14159;
-```
-
-Você pode importar itens que foram exportados de outro módulo.
-
-```javascript
-// arquivo: app.js
-import { saudacao, pi } from './meuModulo.js';
-
-console.log(saudacao('Maria')); // "Olá, Maria!"
-console.log(`O valor de pi é ${pi}`);
-```
-
-Você também pode exportar um elemento como padrão, que é o que será importado caso não se especifique um nome específico:
-
-```javascript
-// arquivo: meuModulo.js
-export default function saudacaoPadrao() {
-  return "Olá, mundo!";
-}
-```
-
-E importar desta forma:
-
-```javascript
-// arquivo: app.js
-import saudacaoPadrao from './meuModulo.js';
-
-console.log(saudacaoPadrao()); // "Olá, mundo!"
-```
-
-2. **Módulos CommonJS**: Antes do ES6, uma abordagem comum para implementar módulos era através do CommonJS, especialmente no Node.js. O CommonJS usa `module.exports` e `require()` para exportar e importar módulos.
-
-Exemplo: Exportando  e importando a função `saudacao` e a variável `pi`
-
-```javascript
-// arquivo: meuModulo.js
-module.exports = {
-  saudacao: function(nome) {
-    return `Olá, ${nome}!`;
-  },
-  pi: 3.14159
-};
-```
-
-```javascript
-// arquivo: app.js
-const meuModulo = require('./meuModulo');
-
-console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
-console.log(`O valor de pi é ${meuModulo.pi}`);
-```
-
-# 📜 [JS] Procedural/Imperativo JavaScript
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
-
-Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
-  
-Exemplo: Verificador de vogais
-
-```javascript
-var letter = prompt("Digite uma letra:", " "), isVower = false;
-
-function vowerVerification(){
-  switch(letter){
-     case 'a':
-      isVower = true;
-     break; 
-     case 'e':
-      isVower = true;
-     break; 
-     case 'i':
-      isVower = true;
-     break; 
-     case 'o':
-      isVower = true;
-     break; 
-     case 'u':
-      isVower = true;
-     break; 
-  }
-  if (isVower = true){
-    console.log('É vogal!');
-  } else {
-    console.log('Não é vogal!');
-  }
-}
-console.log(vowerVerification());
-```
-
-# 📜 [JS] Paradigma funcional
-JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. Abaixo estão os principais tópicos associados a este estilo de programação:
+Abaixo estão os principais tópicos associados a este estilo de programação:
 
 ## [JS] Funções como cidadãos de primeira classe
 Em JavaScript, as funções podem ser atribuídas a variáveis, passadas como argumentos e retornadas de outras funções. Isso permite um uso mais flexível e expressivo.
