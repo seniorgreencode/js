@@ -3812,7 +3812,7 @@ console.log(result); // 10
 ```
 
 # 📜 [JS] JavaScript OOP
-[![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-OOP-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
+<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-observablehq-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-DSA-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-000000?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/React.js-repository-000000?style=flat&logo=React&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-repo-blue?style=flat&logo=TypeScript&logoColor=white)</a> 
 
 <img src="https://user-images.githubusercontent.com/61624336/103486053-b5e72b00-4dd9-11eb-86bc-a7fca5cf664f.png" align="right" height="77"/>
 
