@@ -3020,9 +3020,13 @@ console.log(vowerVerification());
 # 📜 [JS] Paradigma funcional
 <img src="https://github.com/user-attachments/assets/fca0c30f-687c-4726-ad6d-c9a6c8318258" align="right" height="77"/>
 
-JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
+
+Então nosso código será baseado em funções, focando em pequenos algoritmos para compor e combinar com o objetivo de resolver problemas. Muito mais que um paradigma, é uma mudança de mentalidade na forma tradicional de se programar.
 
 <img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
+
+Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
 > Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
 
