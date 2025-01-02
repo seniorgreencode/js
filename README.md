@@ -3041,27 +3041,6 @@ const result = sum(1,2) // 3
 clearEntries() // nothing
 ```
 
-Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
-
-1. Na década de 30, Alonzo Church, desenvolveu o Cálculo Lambda.
-
-2. Na década de 50, foi desenvolvida a linguagem de programação LISP.
-
-3. Em 1957, o custo de 1 megabyte de memória RAM era de US$400 milhões de dólares.
-
-4. Em 1975, o custo de 1 megabyte de memória RAM era de US$50 milhões de dólares.
-
-5. No ano de 2021, 16GB de memória RAM era aproximadamente US$48 dólares.
-
-Agora detalhando um pouco mais essas informações.
-
-O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
-
-A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
-
-Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
-
-Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
 
 Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
@@ -3111,7 +3090,29 @@ hello();
 </tr>
 </table>
 
-O nome (name) das duas funções é `hello` e a entrada dos dados (input/parameters/argumentos) é `undefined`, note que as funções não recebem nenhum parâmetro, como indicado pelos parênteses vazios `()`. Quando você chama `hello()`, não está passando nenhum argumento para a função. Portanto, no início da execução, a função `hello` não tem nenhum parâmetro. Dentro do corpo da função (body), podemos fazer muitas declarações, tendo ou não haver com os parâmetros/argumentos da função, e a saída do corpo é o comando `return` que devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`. E, por fim, devemos chamar ou invocar a nossa função `hello()`, a partir daí será exibido a saída (output) do nosso código `'Hello, world!'`. Outro ponto sobre funções é se for mais de um argumento, é obrigatório o uso de parênteses.
+O nome (`name`) das duas funções é `hello` e a entrada dos dados (input/parameters/argumentos) é `undefined`, note que as funções não recebem nenhum parâmetro, como indicado pelos parênteses vazios `()`. Quando você chama `hello()`, não está passando nenhum argumento para a função. Portanto, no início da execução, a função `hello` não tem nenhum parâmetro. Dentro do corpo da função (body), podemos fazer muitas declarações, tendo ou não haver com os parâmetros/argumentos da função, e a saída do corpo é o comando `return` que devolve um valor para a função, e deve ser usado somente em funções. Caso você não coloque o `return`, por padrão as funções devolvem `undefined`. E, por fim, devemos chamar ou invocar a nossa função `hello()`, a partir daí será exibido a saída (output) do nosso código `'Hello, world!'`. Outro ponto sobre funções é se for mais de um argumento, é obrigatório o uso de parênteses.
+
+Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
+
+1. Na década de 30, Alonzo Church, desenvolveu o Cálculo Lambda.
+
+2. Na década de 50, foi desenvolvida a linguagem de programação LISP.
+
+3. Em 1957, o custo de 1 megabyte de memória RAM era de US$400 milhões de dólares.
+
+4. Em 1975, o custo de 1 megabyte de memória RAM era de US$50 milhões de dólares.
+
+5. No ano de 2021, 16GB de memória RAM era aproximadamente US$48 dólares.
+
+Agora detalhando um pouco mais essas informações.
+
+O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
+
+A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
+
+Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
+
+Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
 
 Algumas funções são peculiares da própria linguagem de programação JavaScript, tais como:
 
