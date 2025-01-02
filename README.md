@@ -3022,9 +3022,22 @@ console.log(vowerVerification());
 
 JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
 
-Então nosso código será baseado em funções, focando em pequenos algoritmos para compor e combinar com o objetivo de resolver problemas. Muito mais que um paradigma, é uma mudança de mentalidade na forma tradicional de se programar.
+Então nosso código será baseado em funções, focando em pequenos algoritmos para compor e combinar com o objetivo de resolver problemas. Muito mais que um paradigma, é uma mudança de mentalidade na forma tradicional de se programar. Mas, você sabe a diferença entre função e procedimento?
 
-<img src="https://user-images.githubusercontent.com/61624336/103492529-5d7c5180-4e0a-11eb-8426-cda942129822.png" align="right" height="77"/>
+![image](https://github.com/user-attachments/assets/560994e4-45d8-4dda-a59d-a3d6e3a045c7)
+
+Conceitualmente um procedimento difere da função pela ausência de um retorno de valor. Então um procedimento é um algoritmo que será executado, enquanto que a função é um algoritmo que será executado e produzirá um resultado final concreto que poderá ser usado por outro algoritmo.
+
+Em outras palavras funções são algoritmos que recebem argumentos e retornam valores, já um procedimento é um algoritmo que não retorna valores.
+
+Exemplo:
+
+```javascript
+// Função
+const result = sum(1,2) // 3
+// Procedimento
+clearEntries() // nothing
+```
 
 Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
