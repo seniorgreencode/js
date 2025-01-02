@@ -3095,7 +3095,7 @@ O nome (`name`) das duas funções é `hello` e a entrada dos dados (input/param
 
 Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
 
-1. Na década de 30, Alonzo Church, desenvolveu o Cálculo Lambda.
+1. Na década de 30, Alonzo Church, desenvolveu o **Cálculo Lambda**.
 
 2. Na década de 50, foi desenvolvida a linguagem de programação LISP.
 
@@ -3107,7 +3107,7 @@ Vou trazer alguns fatos históricos relacionados ao mundo da programação e que
 
 Agora detalhando um pouco mais essas informações.
 
-O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
+O <a href="">Cálculo Lambda</a>, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
 
 A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
 
