@@ -3613,6 +3613,8 @@ Uma **função callback** em JavaScript é uma função que é passada como argu
 
 Quando uma função é definida como callback, ela não é imediatamente executada. Em vez disso, a função à qual foi passada controla o momento de sua execução, que pode ser baseado em condições específicas ou na conclusão de uma tarefa.
 
+Exemplo: Básico de função callback
+
 ```javascript
 function greet(name) {
     console.log(`Olá, ${name}!`);
@@ -3625,6 +3627,8 @@ function processUserInput(callback) {
 
 processUserInput(greet); // Saída: Olá, Maria!
 ```
+
+A função `greet` é passada como argumento para a função `processUserInput`. Dentro de `processUserInput`, o callback (`greet`) é chamado com o argumento necessário.
 
 ## [JS] Hoisting
 
