@@ -3642,6 +3642,43 @@ function sayHello() {
 setTimeout(sayHello, 2000); // Executa `sayHello` após 2 segundos
 ```
 
+Nesse caso, `sayHello` é uma função callback que será executada após um intervalo de 2 segundos.
+
+Exemplo: Com requisição assíncrona
+
+```javascript
+function fetchData(callback) {
+    setTimeout(() => {
+        const data = { id: 1, name: "Produto" };
+        callback(data); // Passa os dados para o callback
+    }, 1000);
+}
+
+fetchData((result) => {
+    console.log("Dados recebidos:", result);
+});
+```
+
+Aqui, o callback é usado para processar os dados recebidos após a simulação de uma operação assíncrona.
+
+Além disso, um dos problemas comuns ao usar callbacks é o chamado "Callback Hell", que ocorre quando há múltiplas callbacks aninhadas, tornando o código difícil de ler e manter.
+
+Exemplo: Callback Hell
+
+```javascript
+setTimeout(() => {
+    console.log("Tarefa 1 concluída");
+    setTimeout(() => {
+        console.log("Tarefa 2 concluída");
+        setTimeout(() => {
+            console.log("Tarefa 3 concluída");
+        }, 1000);
+    }, 1000);
+}, 1000);
+```
+
+Para resolver esse problema, JavaScript introduziu <a href="">Promises</a> e, posteriormente, <a href="">async/await</a>, que permitem gerenciar a execução assíncrona de forma mais elegante.
+
 ## [JS] Hoisting
 
 ## [JS] Closures
