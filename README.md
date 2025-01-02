@@ -3022,6 +3022,8 @@ console.log(vowerVerification());
 
 JavaScript funcional é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
 
+> Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
+
 Então nosso código será baseado em funções, focando em pequenos algoritmos para compor e combinar com o objetivo de resolver problemas. Muito mais que um paradigma, é uma mudança de mentalidade na forma tradicional de se programar. Mas, você sabe a diferença entre função e procedimento?
 
 <img src="https://github.com/user-attachments/assets/560994e4-45d8-4dda-a59d-a3d6e3a045c7" align="right" height="177">
@@ -3051,9 +3053,15 @@ Vou trazer alguns fatos históricos relacionados ao mundo da programação e que
 
 5. No ano de 2021, 16GB de memória RAM era aproximadamente US$48 dólares.
 
-Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+Agora detalhando um pouco mais essas informações.
 
-> Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
+O **Cálculo Lambda**, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60.
+
+Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
+
+Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
+
+Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
 As funções possuem um corpo onde pode conter várias declarações, relacionadas aos parâmetros ou não, e retornando a saída desse corpo com a palavra-chave `return`. Veja abaixo, os principais tipos de sintaxe de funções JavaScript:
 
