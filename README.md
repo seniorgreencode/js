@@ -3043,8 +3043,7 @@ const result = sum(1,2) // 3
 clearEntries() // nothing
 ```
 
-
-Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de Primeira Classe, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
+Como já vimos anteriormente, as **funções** (`function`) são utilizadas para criarmos uma sequência de operações para serem executadas. As funções no JavaScript são de <a href="">Primeira Classe</a>, ou seja, elas podem servir de parâmetros para outras funções. Existem vários tipos de funções no JavaScript, cada uma com uma sintaxe diferente e algumas com funcionalidades diferentes, tudo vai depender do contexto do seu código. 
 
 As funções possuem um corpo onde pode conter várias declarações, relacionadas aos parâmetros ou não, e retornando a saída desse corpo com a palavra-chave `return`. Veja abaixo, os principais tipos de sintaxe de funções JavaScript:
 
