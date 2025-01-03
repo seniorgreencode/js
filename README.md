@@ -2980,7 +2980,7 @@ console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
 console.log(`O valor de pi é ${meuModulo.pi}`);
 ```
 
-# 📜 [JS] Procedural/Imperativo JavaScript
+# 📜 [JS] Paradigma Procedural/Imperativo
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
 
 Já que aprendemos todos os conceitos, funcionalidades e valores primordiais do JavaScript, está na hora de apresentar o primeiro paradigma da linguagem, a procedural. O JavaScript procedural funciona com todas as funcionalidades que já vimos de maneira organizada para a execução de um programa, vejamos o exemplo:
