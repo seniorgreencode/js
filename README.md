@@ -3286,7 +3286,100 @@ Como podemos ver o custo da memória RAM possuía um custo muito elevado e confo
 
 Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
 
-Abaixo estão os principais tópicos associados a este estilo de programação:
+Funções recursivas são um conceito fundamental dentro da ciência da computação e da matemática. O cálculo-λ provê uma semântica simples para computações, permitindo que propriedades da computação fossem estudadas formalmente. Considere os dois exemplos a seguir. 
+
+Exemplo: A função identidade
+
+```javascript
+I(x) = x
+```
+
+recebe uma única entrada, `x`, e imediatamente retorna `x` (ou seja, a identidade não faz nada com sua entrada), enquanto a função
+
+```javascript
+sqsum(x, y) = x*x + y*y
+```
+
+recebe um par de entradas, `x` e `y` e retorna a soma de seus quadrados, `x*x + y*y`. Usando esses dois exemplos, podemos fazer algumas observações úteis que motivam as principais ideias em cálculo-λ.
+
+A primeira observação é que funções não precisam ser nomeadas explicitamente. Isto é, a função
+
+```javascript
+sqsum(x, y) = x*x + y*y
+```
+
+pode ser reescrita na forma anônima como
+
+```javascript
+(x, y) ↦ x*x + y*y
+```
+
+(leia-se “a tupla x e y é mapeada em x*x + y*y”). Similarmente,
+
+```javascript
+I(x) = x
+```
+
+pode ser reescrita em sua forma anônima para x ↦ x, onde a entrada é simplesmente mapeada para si mesma.
+
+A segunda observação é que a escolha do nome para os argumentos de uma função é totalmente irrelevante. Isto é,
+
+```javascript
+x ↦ x e
+y ↦ y
+```
+
+expressam a mesma função: a identidade. De forma similar,
+
+```javascript
+(x, y) ↦ x*x + y*y e
+(u, v) ↦ u*u + v*v
+```
+
+também expressam a mesma função.
+
+Finalmente, qualquer função que recebe duas entradas, como a função sqsum do exemplo, pode ser reelaborada numa função equivalente que recebe uma única entrada e tem, como saída, uma outra função, que por sua vez também aceita uma única entrada. Por exemplo,
+
+```javascript
+(x, y) ↦ x*x + y*y
+```
+
+pode ser reelaborada para
+
+```javascript
+x ↦ (y ↦ x*x + y*y)
+```
+
+Esta transformação é chamada currying, e pode ser generalizada para funções que aceitam um número arbitrário de argumentos.
+
+Currying pode ser entendido de forma mais clara através de um exemplo. Compare a função
+
+```javascript
+(x, y) ↦ x*x + y*y
+```
+
+com sua forma "curryficada",
+
+```javascript
+x ↦ (y ↦ x*x + y*y)
+```
+
+Dado dois argumentos, temos:
+
+```javascript
+((x, y) ↦ x*x + y*y)(5, 2)
+= 5*5 + 2*2 = 29
+```
+
+No entanto, usando currying, temos:
+
+```javascript
+((x ↦ (y ↦ x*x + y*y))(5))(2)
+= (y ↦ 5*5 + y*y)(2)
+= 5*5 + 2*2 = 29
+```
+
+e assim vemos que as versões com ou sem currying computam o mesmo resultado. Perceba que x*x se transformou numa constante.
 
 ## [JS] Anonymous function
 Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
