@@ -3842,10 +3842,6 @@ console.log(it.next());
 console.log(it.next());
 ```
 
-
-Exemplo: Função normal
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108135713-5f873080-7097-11eb-952d-d8b58cbf49e6.jpg)
-
 Exemplo 2: Função Generator
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108136352-ac1f3b80-7098-11eb-8bbc-f27b8b0d1fb7.jpg)
 
