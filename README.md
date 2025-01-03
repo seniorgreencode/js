@@ -3294,27 +3294,27 @@ Exemplo: A função identidade
 I(x) = x
 ```
 
-recebe uma única entrada, `x`, e imediatamente retorna `x` (ou seja, a identidade não faz nada com sua entrada), enquanto a função
+recebe uma única entrada, `x`, e imediatamente retorna `x` (ou seja, a identidade não faz nada com sua entrada), enquanto a função:
 
 ```javascript
 sqsum(x, y) = x*x + y*y
 ```
 
-recebe um par de entradas, `x` e `y` e retorna a soma de seus quadrados, `x*x + y*y`. Usando esses dois exemplos, podemos fazer algumas observações úteis que motivam as principais ideias em cálculo-λ.
+Recebe um par de entradas, `x` e `y` e retorna a soma de seus quadrados, `x*x + y*y`. Usando esses dois exemplos, podemos fazer algumas observações úteis que motivam as principais ideias em cálculo-λ.
 
-A primeira observação é que funções não precisam ser nomeadas explicitamente. Isto é, a função
+A primeira observação é que funções não precisam ser nomeadas explicitamente. Isto é, a função:
 
 ```javascript
 sqsum(x, y) = x*x + y*y
 ```
 
-pode ser reescrita na forma anônima como
+Pode ser reescrita na forma anônima como:
 
 ```javascript
 (x, y) ↦ x*x + y*y
 ```
 
-(leia-se “a tupla x e y é mapeada em x*x + y*y”). Similarmente,
+(leia-se “a tupla x e y é mapeada em `x*x + y*y”`). Similarmente,
 
 ```javascript
 I(x) = x
@@ -3350,15 +3350,13 @@ pode ser reelaborada para
 x ↦ (y ↦ x*x + y*y)
 ```
 
-Esta transformação é chamada currying, e pode ser generalizada para funções que aceitam um número arbitrário de argumentos.
-
-Currying pode ser entendido de forma mais clara através de um exemplo. Compare a função
+Esta transformação é chamada **currying**, e pode ser generalizada para funções que aceitam um número arbitrário de argumentos. Currying pode ser entendido de forma mais clara através de um exemplo. Compare a função
 
 ```javascript
 (x, y) ↦ x*x + y*y
 ```
 
-com sua forma "curryficada",
+Com sua forma "curryficada":
 
 ```javascript
 x ↦ (y ↦ x*x + y*y)
@@ -3379,7 +3377,7 @@ No entanto, usando currying, temos:
 = 5*5 + 2*2 = 29
 ```
 
-e assim vemos que as versões com ou sem currying computam o mesmo resultado. Perceba que x*x se transformou numa constante.
+E assim vemos que as versões com ou sem currying computam o mesmo resultado. Perceba que `x*x` se transformou numa constante.
 
 ## [JS] Anonymous function
 Um ponto bastante importante sobre funções no JS, é sobre a **função anônima** (Anonymous function) em JavaScript é uma função que não tem um nome associado a ela. Essas funções são frequentemente usadas como expressões de função, que podem ser atribuídas a variáveis, passadas como argumentos para outras funções, ou retornadas de outras funções.
