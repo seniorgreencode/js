@@ -4022,8 +4022,7 @@ const rolarPagina = setInterval(() => {
 }, 3000);
 ```
 
-
-# 📜 [JS] Eventos
+## [JS] Eventos
 <img src="https://user-images.githubusercontent.com/61624336/103578048-a852a380-4eb4-11eb-9d65-5fb88a47469a.jpg" align="right" height="277"/>
 
 **Eventos** em JavaScript são ações ou ocorrências que acontecem no navegador e podem ser capturadas para executar um código específico. Eles representam interações dos usuários com a interface da aplicação, como cliques, pressionamento de teclas, movimento do mouse, entre outros, mas também podem ser eventos internos do navegador, como o carregamento de uma página ou a conclusão de um recurso assíncrono. 
