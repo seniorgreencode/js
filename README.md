@@ -3185,17 +3185,6 @@ let resultado = calcularSoma(5, 7);
 console.log(resultado);  // Output: 12
 ```
 
-Agora detalhando um pouco mais essas informações:
-
-## [JS] Lambda function
-O <a href="">Cálculo Lambda</a>, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
-
-A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
-
-Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
-
-Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
-
 No JS, temos o **Default Function Arguments** (ou Parâmetros Padrão de Função) em JavaScript são valores definidos para parâmetros de uma função que são usados quando nenhum valor ou `undefined` é passado para aquele parâmetro ao chamar a função. Esse recurso foi introduzido no ES6 (ECMAScript 2015) e facilita a definição de valores padrões para tornar o código mais robusto e legível.
 
 Exemplo: Quando não atribuimos o segundo valor para a variável, atribuimos ele dentro da função.
@@ -3285,6 +3274,17 @@ console.log(multiply(5));
 ```
 
 > OBS: A ordem dos argumentos importa na função, qualquer alteração no sentido da ordem pode ocasionar um erro na execução do código.
+
+Agora detalhando um pouco mais essas informações:
+
+## [JS] Lambda function
+O <a href="">Cálculo Lambda</a>, de uma maneira bem resumida é uma forma matemática de representar a computação. Com base no Cálculo Lambda, John McCarthy criou a linguagem de programação LISP, que é a primeira linguagem de programação funcional. Outro detalhe bem interessante é que a primeira linguagem de programação orientada a objetos foi criada na década de 60. Na lógica matemática e na ciência da computação, o cálculo lambda, também escrito como cálculo-λ é um sistema formal que estuda <a href="">funções recursivas</a> computáveis, no que se refere à teoria da computabilidade, e fenômenos relacionados, como variáveis ligadas e substituição. Sua principal característica são as entidades que podem ser utilizadas como argumentos e retornadas como valores de outras funções.
+
+A parte relevante do cálculo lambda para computação ficou conhecida como cálculo lambda não tipado. O cálculo lambda tipado e o não tipado tem suas ideias aplicadas nos campos da lógica, teoria da recursão (computabilidade) e linguística, e tem tido um grande papel no desenvolvimento da teoria de linguagens de programação (com a versão não tipada sendo a inspiração original para programação funcional, em particular Lisp, e a versão tipada contribuindo para fundamentar modernos sistemas de tipos e linguagens de programação).
+
+Como podemos ver o custo da memória RAM possuía um custo muito elevado e conforme as décadas foram passando, houve um queda bem expressiva nos valores e inversamente a capacidade aumentou, pois hoje em dia, por exemplo, temos acesso ao pente de 16GB com um custo bem acessível.
+
+Com base nesses fatos históricos, chegamos a um ponto muito importante em relação a programação funcional, esse paradigma acaba utilizando um pouco mais de memória por conta da imutabilidade (será detalhado logo a seguir), e devido a esse fato é que outros paradigmas, como a Programação Orientada a Objetos, tiveram uma relevância maior no mundo da programação, pois a memória era limitada no passado e hoje temos outros gargalos como processamento, concorrência e paralelismo.
 
 Abaixo estão os principais tópicos associados a este estilo de programação:
 
