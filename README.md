@@ -903,7 +903,7 @@ O **WebAssembly**, abreviado como **Wasm**, é um formato de instrução binári
 
 > O Wasm é basicamente um bytecode, é um código intermediário resultante da compilação de uma linguagem e que será interpretado por uma máquina virtual (VM) para então ser transformado em linguagem de máquina e logo será interpretado pelo seu computador, contextualizando ele é uma linguagem de baixo-nível, mais próximo da linguagem de máquina. Assim, como a linguagem de montagem ou Assembly.
 
-> A intenção do Web Assembly é ser interpretado pela VM para depois poder ser interpretado pelos navegadores permitindo que qualquer linguagem gere esse bytecode possa ser utilizada para o seu desenvolvimento Web.
+A intenção do Web Assembly é ser interpretado pela VM para depois poder ser interpretado pelos navegadores permitindo que qualquer linguagem gere esse bytecode possa ser utilizada para o seu desenvolvimento Web.
 
 O objetivo do Web Assembly é de se tornar uma tecnologia universal para desenvolvimento de aplicações Web melhorando consideravelmente a performance e disponibilizando os recursos de aplicações nativa para o desenvolvimento Web, ou seja, isso abre um novo horizonte para toda a internet, onde os desenvolvedores terão um leque de possibilidades na criação de aplicações e os usuários teram a mesma experiência de aplicações nativas no seu computador.
 
