@@ -3576,10 +3576,43 @@ console.log(filter([1, 2, 3, 4], isEven)); // [2, 4]
 
 ## [JS] Recursão
 Substituir laços por chamadas recursivas para implementar iteração.
-     
+
+Exemplo: Countdown
+
+```javascript
+const countdown = num => {
+  console.log(num)
+  num < 1
+  ? num
+  : countdown(num - 1)
+}
+
+countdown(5);
+/*
+5
+4
+3
+2
+1
+0
+*/
+```
+
+Exemplo: Fatorial
+
 ```javascript
 const factorial = n => (n === 0 ? 1 : n * factorial(n - 1));
 console.log(factorial(5)); // 120
+```
+
+```javascript
+const factorial = (num) =>
+  num <= 0
+  ? 1
+  : n * factorial(num - 1)
+
+factorial(5);
+//120
 ```
 
 ## [JS] Callback
