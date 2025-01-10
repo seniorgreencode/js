@@ -135,6 +135,8 @@ Instalando um pacote com npm:
 npm install <pacote>
 ```
 
+Sempre que utilizamos o `npm install`, podemos adicionar a flag `--save`, para forçar o salvamento do ID e versão deste pacote no Package.
+
 Instalando vários pacotes:
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
