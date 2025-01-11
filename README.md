@@ -3004,9 +3004,9 @@ function vowerVerification(){
      break; 
   }
   if (isVower = true){
-    console.log('É vogal!');
+    console.log('Tem vogal!');
   } else {
-    console.log('Não é vogal!');
+    console.log('Não tem vogal!');
   }
 }
 console.log(vowerVerification());
