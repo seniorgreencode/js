@@ -173,14 +173,6 @@ Removendo/ Desinstalando um pacote do NPM (local):
 npm -g uninstall <nome do pacote>
 ```
 
-NPM Save:
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-
-```sh
-npm install <pacote> --save
-```
-
 Além disso, existe o comando `npx` que é uma ferramenta do Node.js que permite executar pacotes Node.js temporariamente, sem a necessidade de instalá-los globalmente ou localmente. Ele vem pré-instalado com o Node.js desde a versão 5.2.0. A principal função do `npx` é facilitar o uso de ferramentas de linha de comando que estão disponíveis no npm (Node Package Manager) ou em outros repositórios. Basicamente, `npx` executa o pacote npm especificado, baixando-o temporariamente, se necessário, e então executa o comando associado ao pacote. Se o pacote não estiver instalado localmente, o `npx` o instala temporariamente antes de executar o comando e, em seguida, o remove após a execução.
 
 > O NPX é muito usado para criar projetos de templates front-end, como o React, Vite e Next.js.
