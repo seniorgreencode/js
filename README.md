@@ -490,7 +490,7 @@ Object.getOwnPropertySymbols(obj); // Propriedade privada
 // Output: {Symbol(Hello, world!): 'Hello'}
 ```
 
-O `Object.keys(obj)` é um método em JavaScript que retorna um array contendo as chaves das propriedades enumeráveis próprias de um objeto.
+Você pode modificar o `symbols` com as suas propriedades. O `Object.keys(obj)` é um método em JavaScript que retorna um array contendo as chaves das propriedades enumeráveis próprias de um objeto.
 
 A função `Object.getOwnPropertySymbols()` em JavaScript é usada para retornar um array de todos os símbolos (`Symbol`) que são propriedades próprias de um determinado objeto. Ela permite acessar propriedades do objeto que são identificadas por símbolos, em vez de strings.
 
@@ -639,11 +639,6 @@ for(let value of obj) {
    console.log(value);
 }
 ```
-
-Exemplo 4: Gerando propriedade privada
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108078963-085c6e00-704d-11eb-8725-bd9ca4f9e0e1.jpg)
-
-Você pode modificar o symbols com as suas propriedades.
 
 Exemplo: Well known Symbols: `Symbol.`
 
