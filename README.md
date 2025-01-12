@@ -4053,8 +4053,8 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 ```javascript
 var nome = prompt('Qual o seu nome?');
-console.log("Hello" + nome);
-document.write("<h1> Hello" + nome + "</h1>");
+console.log("Hello " + nome);
+document.write("<h1> Hello " + nome + "</h1>");
 ```
 
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
