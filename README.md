@@ -4051,6 +4051,12 @@ Na sintaxe apresentada, <code>nomeObjeto</code> faz referência ao objeto a ser 
 
 2° Solução: Num arquivo a ser importado
 
+```javascript
+var nome = prompt('Qual o seu nome?');
+console.log("Hello" + nome);
+document.write("<h1> Hello" + nome + "</h1>");
+```
+
 <img src="https://user-images.githubusercontent.com/61624336/104110669-acb5fc80-52b8-11eb-9b30-f8c820758751.jpg" height="77" align="right"/>
 
 O **Prototype** em JavaScript é um dos conceitos fundamentais da linguagem e está relacionado ao modelo de herança baseado em protótipos (`prototypal inheritance`). Ele permite que objetos compartilhem propriedades e métodos entre si. Quando se trata de herança, o JavaScript tem somente um construtor: objetos. Cada objeto tem um link interno para um outro objeto chamado prototype. O prototype é baseado em protótipos e possui uma variável que é armazenada na referencial o `__proto__`, além de utilizar uma cadeia de objetos, como o objeto constructor. O prototype pode ser acessado no console do navegador, assim como a cadeia de protótipos.
