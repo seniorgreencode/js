@@ -161,7 +161,7 @@ duas ou mais linhas
 */
 ```
 
-# 📜 [JS] Dados
+# 📜 [JS] Dados e tipos primitivos
 <a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
 
 Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados. Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
@@ -211,10 +211,9 @@ As linguagens hoje em dia nos fornecem várias funcionalidades que, com um simpl
 
 > **Dica**: Veja que nessa cadeia há 8 números. 1 Byte é igual a 8 bits. Então temos aí 8 bits, que resultam em 1 Byte.
 
-## [JS] `STDIN` e `STDOUT`
-Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada STDIN e STDOUT de cada linguagem. Basicamente, estamos lidando com a leitura e escrita dos dados.
+Todas as entradas e saída dos algoritmos são utilizados o <strong>STDIN</strong> e <strong>STDOUT</strong> de cada linguagem, abaixo tem algumas dicas de como utilizar cada `STDIN` e `STDOUT` de cada linguagem. Basicamente, estamos lidando com a leitura e escrita dos dados.
 
-Em JavaScript as funções de STDIN e STDOUT respectivamente são <code>gets()</code> e <code>console.log</code>, a função `gets` é implementada internamente para auxiliar a entrada dos dados.
+Em JavaScript as funções de `STDIN` e `STDOUT` respectivamente são <code>gets()</code> e <code>console.log</code>, a função `gets` é implementada internamente para auxiliar a entrada dos dados.
 
 Exemplo:
   
@@ -244,15 +243,13 @@ a = int(sys.stdin.readline()) // Lê a linha de entrada
 print(a); // Imprime o dado
 ```
 
-## [JS] Tipos primitivos
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/4b63bc9b-6986-4186-9c7d-449678082766" align="right" height="77">
 
 Como vimos anteriormente, os computadores armazenam e entendem dados na forma binária (`0` e `1`).
   
 As linguagens de programação possuem vários tipos de dados diferente do binário, os quais facilitam com que a gente trabalhe com diferentes tipos de dados. Um exemplo bem simples são números e textos. São tipos de dados diferentes.
 
-Com números podemos fazer cálculos, e com textos podemos guardar um texto e fazer uma pesquisa por uma palavra do seu interesse.
-Os tipos mais simples que uma linguagem possui são chamados de Tipos Primitivos.
+Com números podemos fazer cálculos, e com textos podemos guardar um texto e fazer uma pesquisa por uma palavra do seu interesse. Os tipos mais simples que uma linguagem possui são chamados de **Tipos Primitivos**.
 
 O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais detalhes depois. São eles:
 
@@ -263,7 +260,7 @@ O JavaScript possui 6 tipos primitivos no momento, os quais veremos com mais det
 - `String` - armazena textos;
 - `Symbol` - armazena símbolos.
 
-### [JS] `Boolean`
+## [JS] `Boolean`
 `Boolean` (também chamado em português como tipo Booleano ou a sigla "bool") é o tipo mais básico existente nas linguagens de programação. Assim como os bits, eles também só armazenam 2 possíveis valores: `true` ou `false` (verdadeiro ou falso). Esse tipo é muito importante, pois ele tem um valor lógico para que a gente faça o computador tomar decisões.
 
 Outros valores no JavaScript possuem valores equivalentes ao `true` e `false`. Um exemplo é o número `0`, ele representa tanto o número zero quanto o valor `false`. Isso significa que fazer uma comparação com ele seria o equivalente a fazer uma comparação com `false`.
@@ -280,7 +277,7 @@ Os seguintes valores são considerados falsos no JavaScript:
 
 Qualquer outro valor é considerado `true`, até mesmo a `String` `false` e `0`, pois não são `Strings` vazias.
 
-### [JS] `Undefined` e `Null`
+## [JS] `Undefined` e `Null`
 Há dois tipos especiais de valores, `undefined` e `null`. Eles indicam a ausência de valor.
   
 Imagine que você tenha um formulário que pergunta a idade de uma pessoa, e ela não respondeu ainda. Não podemos dizer que a idade dessa pessoa é `0`. O melhor seria indicar que um valor não foi dado, e nesse caso, usaríamos `undefined` ou `null`.
@@ -322,7 +319,7 @@ console.log(undefined !== null); // Output: true
 
 Resumidamente, isto ocorre pois `null` ainda é um valor e `undefined` é quando o JavaScript não sabe qual o tipo de dado.
 
-### [JS] `Number`
+## [JS] `Number`
 O tipo `number` é usado para armazenar valores numéricos. Podemos ter números inteiros (sem casas decimais) e números flutuantes (com casas decimais, a qual é indicada por um ponto). As linguagens de programação normalmente têm vários tipos de valores numéricos, mas no JavaScript tudo é `Number`.
 
 - Número inteiro (int): `5`
@@ -337,14 +334,14 @@ const result = obj.toString.apply(7);
 console.log(result) // Output: [object] number
 ```
 
-### [JS] Números Especiais
+## [JS] Números Especiais
 Também temos três valores especiais no JavaScript que são considerados do tipo `Number`, mas não são números comuns.
 
 Os dois primeiros são o `Infinity` e `-Infinity`, que indicam valores infinitos positivos e negativos.
 
 O último é o `NaN` (not a number). Esse valor do tipo `Number` indica que um valor não é um número. Por exemplo, se você tentar multiplicar a letra `"a"` pelo número `5`, o resultado não pode ser um número, então resultará em `NaN`.
 
-### [JS] `String`
+## [JS] `String`
 As `Strings` são usadas para representar textos. Sempre que quisermos um texto teremos que incluir aspas entre o texto, duplas ou simples. 
 
 Exemplos:
@@ -372,7 +369,7 @@ var txt = 'abcdfghijklmnopqrstuvwxyz'
 console.log(txt.length);
 ```
 
-### [JS] Escape de Caracteres
+## [JS] Escape de Caracteres
 Como as strings são descritas entre aspas, o JavaScript não entenderá a string de fora delas.
 
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
@@ -444,7 +441,7 @@ Outras seis sequências escapes são válidas em JavaScript:
   </tr>
 </table>
 
-### [JS] Symbols
+## [JS] Symbols
 O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de <a href="">objetos</a>, onde cada identificador é único. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos.
 
 Exemplo:
