@@ -3687,6 +3687,27 @@ Para resolver esse problema, JavaScript introduziu <a href="">Promises</a> e, po
 
 Isso significa que, independentemente de onde uma variável ou função seja declarada em um bloco de código, o JavaScript as trata como se tivessem sido declaradas no topo de seu escopo (global ou local). Essa característica pode ser um tanto confusa para iniciantes, mas é fundamental para entender como o JavaScript lida com a execução de scripts. Em resumo, hoisting é um mecanismo interno do JavaScript que move as declarações de variáveis e funções para o topo de seu escopo antes da execução. Embora seja útil e permita flexibilidade em algumas situações, entender suas nuances é essencial para evitar comportamentos inesperados, especialmente ao usar diferentes formas de declaração de variáveis (`var`, `let` e `const`) e ao trabalhar com funções e classes.
 
+Exemplo:
+
+```javascript
+messaging('Hello, World!');
+
+messaging[1,2,3,4]
+
+messaging(5)
+
+messaging('something');
+
+message = 'aaaaa';
+
+messaging(message);
+
+function messaging(message) {
+    message = 'bbbbbbbb';
+    console.log(message);
+}
+```
+
 No caso de funções, o hoisting faz com que declarações completas de funções sejam movidas para o topo do escopo, permitindo que elas sejam chamadas antes mesmo de serem declaradas no código. Por exemplo, considere o seguinte código:
 
 ```javascript
