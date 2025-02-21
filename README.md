@@ -3828,6 +3828,8 @@ randomString() // f4qixv40moc
 randomString() // eielv1pm3ju
 ```
 
+Criar uma string aleatória é uma tarefa comum, especialmente quando você precisa de identificadores exclusivos. Você pode conseguir isso com `Math.random()`, convertendo o número para base-36 e cortando o "`0`" inicial.
+
 ## [JS] Generators
 No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores. Generators são funções com pausa e elas despausam valores através da interface de iteração. 
 
