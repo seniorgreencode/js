@@ -3839,10 +3839,10 @@ Exemplo 4: Generate a Random String with Lazy evaluation
 
 const randomString = () => Math.random().toString(36).slice(2);
 
-const getRandom = lazyRandomString(); // A função ainda não foi executada
+const getRandom = randomString(); // A função ainda não foi executada
 
-console.log(getRandom()); // Agora o valor é gerado apenas quando chamado
-console.log(getRandom()); // Um novo valor é gerado
+console.log(getRandom); // Agora o valor é gerado apenas quando chamado
+console.log(getRandom); // Um novo valor é gerado
 ```
 
 ## [JS] Generators
