@@ -3777,7 +3777,7 @@ No JS, também temos o **Lazy evaluation** (ou "avaliação preguiçosa") é uma
 
 Relacionado a esse conceito, ocorre quando usamos valores padrão em funções no JavaScript, ou seja, é a característica que permite podermos utilizar funções para definir valores de um argumento e a mesma só será invocada quando o argumento for indefinido. Nesse contexto, a função usada como valor padrão de um argumento é avaliada apenas quando o argumento é `undefined`. Ou seja, a função só será executada se o argumento não for fornecido pelo usuário, o que é uma forma de avaliação preguiçosa.
 
-Exemplo:
+Exemplo: Generate a Random Number
 
 ```javascript
 // Lazy evaluation
@@ -3793,7 +3793,7 @@ console.log(multiply(5));
 // Output: Número aleatório
 ```
 
-Exemplo 2:
+Exemplo 2: Generate a Random Number
 
 ```javascript
 // Lazy evaluation
