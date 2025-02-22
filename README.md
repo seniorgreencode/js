@@ -3861,7 +3861,7 @@ console.log(randomGen.next().value);
 console.log(randomGen.next().value);
 ```
 
-Aqui, os valores só são gerados quando `randomGen.next().value` é chamado, o que caracteriza lazy evaluation.
+Aqui, o `function*` em JavaScript define uma função geradora (generator function). Ela permite que a execução seja pausada e retomada, tornando possível gerar valores sob demanda (lazy evaluation). Os valores só são gerados quando `randomGen.next().value` é chamado, o que caracteriza lazy evaluation.
 
 ## [JS] Generators
 No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores. Generators são funções com pausa e elas despausam valores através da interface de iteração. 
