@@ -3780,7 +3780,7 @@ Relacionado a esse conceito, ocorre quando usamos valores padrão em funções n
 Exemplo: Generate a Random Number
 
 ```javascript
-// Lazy evaluation
+// No Lazy evaluation
 function randomNumber(){
   return Math.random() * 10;
 }
@@ -3793,7 +3793,7 @@ console.log(multiply(5));
 // Output: Número aleatório
 ```
 
-Exemplo 2: Generate a Random Number
+Exemplo 2: Generate a Random Number with Lazy evaluation
 
 ```javascript
 // Lazy evaluation
@@ -3810,7 +3810,7 @@ console.log(multiply(5));
 // Output: Número aleatório
 ```
 
-Exemplo 3:
+Exemplo 3: Simple lazy evaluation
 
 ```javascript
 const lazySum = (a, b) => () => a + b;
@@ -3821,6 +3821,8 @@ console.log(result()); // 5
 Exemplo 4: Generate a Random String
 
 ```javascript
+// No Lazy evaluation
+
 const randomString = () => Math.random().toString(36).slice(2);
 
 randomString() // gl1qtdego0q
@@ -3828,7 +3830,20 @@ randomString() // f4qixv40moc
 randomString() // eielv1pm3ju
 ```
 
-Criar uma string aleatória é uma tarefa comum, especialmente quando você precisa de identificadores exclusivos. Você pode conseguir isso com `Math.random()`, convertendo o número para base-36 e cortando o "`0`" inicial.
+Criar uma string aleatória é uma tarefa comum, especialmente quando você precisa de identificadores exclusivos. Você pode conseguir isso com `Math.random()`, convertendo o número para base-36 e cortando o "`0`" inicial. E não, isso não é lazy evaluation. O conceito de lazy evaluation (avaliação preguiçosa) se refere à estratégia de adiar a avaliação de uma expressão até que seu valor seja realmente necessário. No JavaScript, isso geralmente é visto em generators, promises e funções que retornam outras funções sem execução imediata.
+
+Exemplo 4: Generate a Random String with Lazy evaluation
+
+```javascript
+// Lazy evaluation
+
+const randomString = () => Math.random().toString(36).slice(2);
+
+const getRandom = lazyRandomString(); // A função ainda não foi executada
+
+console.log(getRandom()); // Agora o valor é gerado apenas quando chamado
+console.log(getRandom()); // Um novo valor é gerado
+```
 
 ## [JS] Generators
 No JS, temos também os **Generators** que são um tipo especial de função em JavaScript que pode ser interrompida e retomada posteriormente, permitindo que valores sejam produzidos sob demanda. Eles são definidos usando a palavra-chave `function` e utilizam a expressão `yield` para pausar a execução e retornar valores. Generators são funções com pausa e elas despausam valores através da interface de iteração. 
