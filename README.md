@@ -2688,6 +2688,30 @@ Desse modo:
 - `calcularVetor([1,3,4, 5], 10)` retornará `[1, 3, 4, 5]` pois nenhum é maior que `5`.
 - `calcularVetor([15, 20, 25, 30], 3)` retornará `[45, 60, 75, 90]`.
 
+Exemplo 5: Loops em Loops
+
+```javascript
+
+```
+
+Complete a função abaixo de forma que ela receba uma variável como parametro e retorne um vetor no final. Essa variável passada por parametro terá as seguintes propriedades:
+
+1) Ela também será um vetor.
+
+2) Cada um de seus valores serão vetores com números.
+
+Você deve processar esta variavel de forma a retornar um novo vetor com a soma dos valores destes subvetores.
+
+exemplo:
+
+`[ [1,1] , [1,1,1] , [0,0,0,1] ]` retornará `[2, 3, 1]`
+
+`[ [1,1,1] , [2,2,2] , [3,3,3] ]` retornará `[3, 6, 9]`
+
+`[ [0,0,1] , [2,0,0] , [0,3,0] ]` retornará `[1, 2, 3]`
+
+Dica: Como estamos lidando com vetores dentro de vetores, você precisará fazer um loop dentro de um loop (tente o `FOR` ou `FOR OF`).
+
 `For in` loop serve para percorrer pelas propriedades de um objeto.
 
 ```javascript
