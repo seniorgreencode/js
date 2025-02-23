@@ -2497,7 +2497,7 @@ Note que o diagrama de fluxo ao lado representa a seguinte condição: se o núm
 
 Existem algumas categorias para as estruturas de programação, elas podem ser:
 
-- <a href="">Estruturas Iterativas</a>: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida.
+- <a href="">Estruturas Iterativas</a>: Usadas para repetir um bloco de código várias vezes até que uma condição específica seja atendida. Muitas vezes são usados para operações de testes, onde envolvem vários tipos de valores até que as condições ou valores sejam atendidos.
 - <a href="">Estruturas Condicionais</a>: Usadas para tomar decisões no código com base em condições.
 - <a href="">Estruturas Sequenciais</a>: Executam instruções em ordem linear, uma após a outra.
 - <a href="">Estruturas de Funções/Sub-rotinas</a>: Blocos de código reutilizáveis que podem ser chamados com diferentes argumentos.
