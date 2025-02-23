@@ -1948,6 +1948,13 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
+Exemplo 6:
+
+```javascript
+const average = (...args) => args.reduce((a,b) => a + b) / args.length
+average(1,2,3,4,5); // 3
+```
+
 ## [JS] Spread Operator
 O **Spread Operator** em JavaScript, representado por `...`, é uma funcionalidade introduzida com o ES6 que permite expandir elementos de arrays, objetos ou iteráveis em contextos onde múltiplos elementos ou argumentos são esperados. Ele é amplamente usado para manipular coleções de dados, como arrays e objetos, de forma simples e expressiva. Escreve-se da mesma forma que o Rest Operator, porém seu funcionamento é diferente do Rest Operator. No sentido de que o Rest Operator pega todos os parâmetros da função e transforma em um array, no caso do Spread Operator ele pega todos os itens do array e transforma em parâmetro na segunda função. 
   
