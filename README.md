@@ -2615,7 +2615,7 @@ Em ciência da computação, **estruturas iterativas** são construções de pro
 
 Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops). Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
-O `for` loop executa `X` vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
+A) O `for` loop executa `X` vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
 Sintaxe:
 
@@ -2710,9 +2710,9 @@ exemplo:
 
 `[ [0,0,1] , [2,0,0] , [0,3,0] ]` retornará `[1, 2, 3]`
 
-Dica: Como estamos lidando com vetores dentro de vetores, você precisará fazer um loop dentro de um loop (tente o `FOR` ou `FOR OF`).
+> Dica: Como estamos lidando com vetores dentro de vetores, você precisará fazer um loop dentro de um loop (tente o `FOR` ou `FOR OF`).
 
-`For in` loop serve para percorrer pelas propriedades de um objeto.
+B) `For in` loop serve para percorrer pelas propriedades de um objeto.
 
 ```javascript
 for (variável in interável) {
@@ -2734,7 +2734,7 @@ for (x in person){
 // Output: JohnDoe25
 ```
 
-`for of` loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
+C) `for of` loop é específico para iterar entre os elementos de uma lista. Você pode ler ele como “Para cada item de uma lista”. No exemplo abaixo, o dia começará sendo com o valor “segunda” e o último loop será “sexta”. Ele é muito importante para percorrer a lista em ordem crescente. No entanto, caso você precise trabalhar com índices ou múltiplas posições da lista, talvez seja melhor usar o <code>for</code> normal.
 
 Sintaxe:
 
@@ -2761,9 +2761,10 @@ for(let numero of [0,1,2,3,4,5,6,7]){
 }
 ```
 
-`while` loop são laços de repetição que podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
+D) `while` loop são laços de repetição que podem executar um bloco de código longo se a condição específica for verdadeira. O laço de repetição <code>while</code> repete através de um bloco de código enquanto uma condição específica é verdadeira.
 
 Sintaxe:
+
 ```javascript
 while (condição) {
   // Bloco de código a ser executado
@@ -2780,7 +2781,7 @@ while (i < 10) {
 }
 ```
 
-`Do while` loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
+E) `Do while` loop é um variante do <code>while</code>. Esse loop vai executar o bloco de código uma vez, antes verificando se a condição é verdadeira, então vai repetir o loop, enquanto a condição for verdadeira.
 
 Sintaxe:
 ```javascript
