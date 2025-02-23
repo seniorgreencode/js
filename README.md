@@ -2615,7 +2615,7 @@ Em ciência da computação, **estruturas iterativas** são construções de pro
 
 Uma das vantagens das máquinas sobre as pessoas é que elas podem executar várias tarefas repetitivas sem se cansar e de maneira muito mais rápida. Após a tomada de decisões, outra parte básica no aprendizado da programação é a execução de repetição de comandos, os quais chamamos de **Laços de Repetição** (Loops). Imagine que você queira imprimir na tela a soma de todos os números de `1` a `100`, daria muito trabalho digitar tudo. E se precisássemos alterar esse `100` para `1000`? Ou `1000000`? Com um simples comando podemos fazer essa conta em um piscar de olhos com os laços de repetição.
 
-O **`for` loop** executa X vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
+O `for` loop executa `X` vezes uma ação seguindo a forma como foi definido para ele faze-la. A instrução do laço <code>for</code> é separada por ponto e vírgula em três partes.
 
 Sintaxe:
 
@@ -2625,7 +2625,7 @@ for (declaração 1; declaração 2; declaração 3) {
 }
 ```
 
-Exemplo: Normalmente é a criação de uma variável de controle. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “`false`”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina! Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
+Exemplo 1: Normalmente é a criação de uma variável de controle. A condição para encerrar o `for`. Neste caso, ele executará enquanto `i` for menor do que `10`, ou seja todos os números antecessores de `10` até `0`. Caso essa condição nunca se torne “`false`”, teremos um loop infinito. Tenha bastante cuidado com loops infinitos, podem sobrecarregar seu navegador ou sua máquina! Final de cada repetição. Normalmente é o incremento ou decremento de `1` da variável.
 
 ```javascript
 for (var i = 0; i < 10; i++) { // i += 1 , i + 8
@@ -2633,7 +2633,7 @@ for (var i = 0; i < 10; i++) { // i += 1 , i + 8
 }
 ```
 
-Exemplo: Podemos ler ou modificar todos os itens de um vetor. Nesse caso, estamos interessados em saber o tamanho da nossa lista.
+Exemplo 2: Podemos ler ou modificar todos os itens de um vetor. Nesse caso, estamos interessados em saber o tamanho da nossa lista.
 
 ```javascript
 let lista = ["cachorro", "gato", "galinha"];
@@ -2642,7 +2642,7 @@ for (let i = 0; i < lista.length; i++) {
 }
 ```
 
-Exemplo: Combinando as variáveis e multiplicando os itens do array por `2`. Com isso, iremos imprimir somente os valores pares de uma contagem de `1` a `10`.
+Exemplo 3: Combinando as variáveis e multiplicando os itens do array por `2`. Com isso, iremos imprimir somente os valores pares de uma contagem de `1` a `10`.
 
 ```javascript
 let valores = [1,2,3,4,5];
@@ -2652,7 +2652,21 @@ for(let i = 0; i < valores.length ; i++) {
 }
 ```
 
-**`For in` loop** serve para percorrer pelas propriedades de um objeto.
+Exemplo 4: Somando o vetor
+
+```javascript
+
+```
+
+A função abaixo receberá 2 parâmetros, um vetor com apenas valores numéricos e um número. Faça com que ela multiplique cada item do vetor pelo segundo parâmetro apenas se o item do vetor for maior que 5. Após isso, ela deve retornar o novo vetor.
+
+Desse modo:
+
+- `calcularVetor([1,5,10, 20], 2)` retornará `[2, 5, 20, 40]` pois só `10` e `20` são maiores que `5`.
+- `calcularVetor([1,3,4, 5], 10)` retornará `[1, 3, 4, 5]` pois nenhum é maior que `5`.
+- `calcularVetor([15, 20, 25, 30], 3)` retornará `[45, 60, 75, 90]`.
+
+`For in` loop serve para percorrer pelas propriedades de um objeto.
 
 ```javascript
 for (variável in interável) {
