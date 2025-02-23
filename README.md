@@ -1948,7 +1948,7 @@ const sum = (...rest) => {
 console.log(sum(5,5,5,2,3));
 ```
 
-Exemplo 6:
+Exemplo 6: Average
 
 ```javascript
 const average = (...args) => args.reduce((a,b) => a + b) / args.length
