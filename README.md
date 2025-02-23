@@ -2691,7 +2691,9 @@ Desse modo:
 Exemplo 5: Loops em Loops
 
 ```javascript
-
+function somarSubVetores(vetor){
+    //Seu código aqui
+}
 ```
 
 Complete a função abaixo de forma que ela receba uma variável como parametro e retorne um vetor no final. Essa variável passada por parametro terá as seguintes propriedades:
