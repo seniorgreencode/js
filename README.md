@@ -2664,6 +2664,20 @@ function calcularVetor(vetor,numero){
   }
   return vetor;
 }
+
+// Ou
+
+function calcularVetor(vetor,numero){
+ let resultado = [];
+ for(let item of resultado){
+   if(item > 5){
+     resultado[resultado.length] = item * numero;
+   } else {
+     resultado[resultado.length] = item;
+    }
+  }
+  return resultado;
+}
 ```
 
 A função abaixo receberá 2 parâmetros, um vetor com apenas valores numéricos e um número. Faça com que ela multiplique cada item do vetor pelo segundo parâmetro apenas se o item do vetor **for** maior que 5. Após isso, ela deve retornar o novo vetor.
