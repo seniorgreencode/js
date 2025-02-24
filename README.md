@@ -1178,8 +1178,8 @@ greeting  =  "Hello!";
 Como dissemos, uma mudança na constante é impossível. Desta vez a declaração está correta, mas tentamos modificar o valor armazenado na constante.
 
 ```javascript
-const  greeting  =  "Hello!";
-greeting  =  "Hi!";  //  ->  Uncaught  TypeError:  Assignment  to  constant  variable.
+const greeting = "Hello!";
+greeting = "Hi!";  // -> Uncaught TypeError: Assignment to constant variable.
 ```
 
 O principal objetivo de uma constante é erradicar a possibilidade de alteração acidental de um valor nela armazenado. Isso é importante quando temos alguns valores que realmente nunca deveriam mudar. Exemplos típicos de constantes são caminhos para recursos, tokens e outros dados que nunca mudam durante a vida útil do script. Mas as constantes também podem ser usadas como subresultados em cálculos ou em outros locais onde qualquer informação que tenha sido coletada ou calculada não sofrerá mais alterações. Utilizar um `const`, além de evitar que um valor seja alterado por engano, permite que o mecanismo JavaScript otimize o código, o que pode afetar seu desempenho.
