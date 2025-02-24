@@ -1085,6 +1085,99 @@ console.log(height); // -> 180
 console.log("height"); // -> height
 ```
 
+
+A palavra-chave `const` é usada para declarar contêineres semelhantes a variáveis que são chamados de constantes. Constantes também são usadas para armazenar certos valores, mas uma vez que os valores tenham sido inseridos nelas durante a inicialização, eles não poderão mais ser modificados. Isso significa que este tipo de contêiner é declarado e inicializado simultaneamente. Por exemplo, a seguinte declaração da constante de saudação está correta:
+
+```javascript
+const  greeting  =  "Hello!";
+```
+
+Mas este próximo definitivamente causa um erro:
+
+```javascript
+const  greeting;  //  ->  Uncaught  SyntaxError:  Missing  initializer  in  const  declaration
+greeting  =  "Hello!";
+```
+
+Como dissemos, uma mudança na constante é impossível. Desta vez a declaração está correta, mas tentamos modificar o valor armazenado na constante.
+
+```javascript
+const  greeting  =  "Hello!";
+greeting  =  "Hi!";  //  ->  Uncaught  TypeError:  Assignment  to  constant  variable.
+```
+
+O principal objetivo de uma constante é erradicar a possibilidade de alteração acidental de um valor nela armazenado. Isso é importante quando temos alguns valores que realmente nunca deveriam mudar. Exemplos típicos de constantes são caminhos para recursos, tokens e outros dados que nunca mudam durante a vida útil do script. Mas as constantes também podem ser usadas como subresultados em cálculos ou em outros locais onde qualquer informação que tenha sido coletada ou calculada não sofrerá mais alterações. Utilizar um `const`, além de evitar que um valor seja alterado por engano, permite que o mecanismo JavaScript otimize o código, o que pode afetar seu desempenho.
+
+O `const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos! Variáveis declaradas com `const` são ideais para valores que não devem ser reatribuídos ao longo do tempo, proporcionando maior segurança e previsibilidade no código. No entanto, é importante lembrar que `const` não impede a modificação de objetos ou arrays, apenas a reatribuição do identificador da variável, o que o torna imutável é o valor de uma variável declarada com `const` não poder ser reatribuído. Isso significa que após a inicialização, você não pode alterar o valor armazenado nessa variável. Você deve inicializar uma variável `const` no momento em que ela é declarada. Lembrando, não é possível declarar uma variável `const` sem atribuir um valor a ela imediatamente.
+
+```javascript
+const pi = 3.14159; // Declaração de uma constante chamada 'pi'
+
+console.log(pi); // Output: 3.14159
+
+// Tentando reatribuir um valor a uma variável 'const' resultará em um erro
+// pi = 3.14; // Isso causará um TypeError: Assignment to constant variable.
+```
+
+> Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
+
+Há uma outra forma de chamar uma variável, com **template string**, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
+
+Exemplo:
+
+```javascript
+const nome = 'Jennifer';
+console.log(`O nome dela é ${nome}`); // Output: 'O nome dela é Jennifer'
+```
+
+Tem uma forma de fazermos variáveis input também, o método `prompt()` exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
+
+Exemplo:
+
+```javascript
+const nome = prompt('Digite o seu nome: ');
+console.log(`Parabéns! Você é um campeão ${nome}!`);
+```
+
+É hora de seguir em frente para determinar o que realmente está acontecendo com esses escopos. Infelizmente, os escopos das variáveis (e constantes) declarados com `let` e `const` parecem ligeiramente diferentes daqueles declarados com `var`. Portanto, vamos discuti-los de forma independente.
+
+A primeira regra é simples. Se declararmos qualquer variável ou constante usando `let` ou `const`, respectivamente, fora dos blocos de código, eles serão globais. Com isso, queremos dizer que seus nomes serão visíveis em todo o programa, blocos externos, blocos internos, funções e assim por diante. Poderemos nos referir a eles em qualquer lugar por seus nomes e, claro, ter acesso aos seus valores.
+
+O que acontece se declararmos algo usando `let` ou `const` dentro de um bloco? Isso criará uma variável local ou constante. Ele será visível apenas dentro do bloco em que foi declarado e em blocos que podem ser aninhados opcionalmente nele.
+
+Vejamos um exemplo simples:
+
+```javascript
+let  height  =  180;
+{
+         let  weight  =  70;
+         console.log(height);  //  ->  180
+         console.log(weight);  //  ->  70	
+}
+console.log(height);  //  ->  180
+console.log(weight);  //  ->  Uncaught  ReferenceError:  weight  is  not  defined
+```
+
+A variável `height`, declarada fora do bloco, é global. A variável de peso é local – seu escopo é limitado pelo bloco no qual foi declarada. Isso é claramente visível ao tentar exibir os valores de ambas as variáveis dentro e fora do bloco. Também podemos testar o caso com blocos aninhados:
+
+```javascript
+let  height  =  200;
+{
+  let  weight  =  100;
+  {
+    let  info  =  "tall";
+    console.log(height);  //  ->  200
+    console.log(weight);  //  ->  100
+    console.log(info);  //  ->  tall
+  }
+   console.log(height);  //  ->  200
+   console.log(weight);  //  ->  100
+   console.log(info);  //  ->  Uncaught  ReferenceError:  info  is  not  defined
+}
+```
+
+Como você pode ver, a variável info declarada no bloco mais interno é visível apenas dentro dele. A variável `weight` é visível tanto dentro do bloco em que foi declarada quanto dentro do bloco aninhado nele. E a altura variável global é visível em todos os lugares. Simples, não é?
+
 O JavaScript teve algumas mudanças importantes introduzidas em 2009 e 2015. A maioria dessas mudanças estendeu a sintaxe da linguagem com novos elementos, mas algumas delas diziam respeito apenas à operação dos interpretadores JavaScript. Muitas vezes tratava-se de esclarecer o comportamento dos intérpretes em situações potencialmente errôneas, como em casos de inicialização de variáveis ​​sem qualquer declaração prévia. Vejamos um exemplo:
 
 ```javascript
@@ -1433,59 +1526,6 @@ if(true) {
 }
 
 // Output: Isaac Alves
-```
-
-A palavra-chave `const` é usada para declarar contêineres semelhantes a variáveis que são chamados de constantes. Constantes também são usadas para armazenar certos valores, mas uma vez que os valores tenham sido inseridos nelas durante a inicialização, eles não poderão mais ser modificados. Isso significa que este tipo de contêiner é declarado e inicializado simultaneamente. Por exemplo, a seguinte declaração da constante de saudação está correta:
-
-```javascript
-const  greeting  =  "Hello!";
-```
-
-Mas este próximo definitivamente causa um erro:
-
-```javascript
-const  greeting;  //  ->  Uncaught  SyntaxError:  Missing  initializer  in  const  declaration
-greeting  =  "Hello!";
-```
-
-Como dissemos, uma mudança na constante é impossível. Desta vez a declaração está correta, mas tentamos modificar o valor armazenado na constante.
-
-```javascript
-const  greeting  =  "Hello!";
-greeting  =  "Hi!";  //  ->  Uncaught  TypeError:  Assignment  to  constant  variable.
-```
-
-O principal objetivo de uma constante é erradicar a possibilidade de alteração acidental de um valor nela armazenado. Isso é importante quando temos alguns valores que realmente nunca deveriam mudar. Exemplos típicos de constantes são caminhos para recursos, tokens e outros dados que nunca mudam durante a vida útil do script. Mas as constantes também podem ser usadas como subresultados em cálculos ou em outros locais onde qualquer informação que tenha sido coletada ou calculada não sofrerá mais alterações. Utilizar um `const`, além de evitar que um valor seja alterado por engano, permite que o mecanismo JavaScript otimize o código, o que pode afetar seu desempenho.
-
-O `const` não deixa você alterar o dado atribuído, o seu escopo é bloqueado. Só trabalha com valores fixos! Variáveis declaradas com `const` são ideais para valores que não devem ser reatribuídos ao longo do tempo, proporcionando maior segurança e previsibilidade no código. No entanto, é importante lembrar que `const` não impede a modificação de objetos ou arrays, apenas a reatribuição do identificador da variável, o que o torna imutável é o valor de uma variável declarada com `const` não poder ser reatribuído. Isso significa que após a inicialização, você não pode alterar o valor armazenado nessa variável. Você deve inicializar uma variável `const` no momento em que ela é declarada. Lembrando, não é possível declarar uma variável `const` sem atribuir um valor a ela imediatamente.
-
-```javascript
-const pi = 3.14159; // Declaração de uma constante chamada 'pi'
-
-console.log(pi); // Output: 3.14159
-
-// Tentando reatribuir um valor a uma variável 'const' resultará em um erro
-// pi = 3.14; // Isso causará um TypeError: Assignment to constant variable.
-```
-
-> Obs: `const` e `let` só funcionam dentro do escopo do bloco `{ }`. Ou seja, são acessíveis apenas dentro do bloco `{}` onde foram definidas.
-
-Há uma outra forma de chamar uma variável, com **template string**, usando as crases e o cifrão com as chaves, esse placeholder concatena a frase com a variável sem a realização dos operadores aritméticos.
-
-Exemplo:
-
-```javascript
-const nome = 'Jennifer';
-console.log(`O nome dela é ${nome}`); // Output: 'O nome dela é Jennifer'
-```
-
-Tem uma forma de fazermos variáveis input também, o método `prompt()` exibe a mensagem para o usuário e recolhe o valor para aplicar na variável.
-
-Exemplo:
-
-```javascript
-const nome = prompt('Digite o seu nome: ');
-console.log(`Parabéns! Você é um campeão ${nome}!`);
 ```
 
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
