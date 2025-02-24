@@ -1566,7 +1566,7 @@ var lista = ["maçã", "laranja", "pêra"];
 console.log(`Adicionando: ${lista.push("uva")} - ${lista[3]} \n Lista atualizada: ${lista.toString()}.\n`);
 ```
 
-Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tais como:
+Existem alguns métodos, sendo eles utilizados para estrutura de dados e algoritmos, que mudam a funcionalidade de um array, tais como:
 
 <table>
   <tr>
@@ -1575,7 +1575,7 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
  <tr>
     <td><code>sort()</code></code></td>
-    <td></td>
+    <td>ordena os elementos do próprio array e retorna o array. A ordenação não é necessariamente estável. A ordenação padrão é de acordo com a pontuação de código unicode. A complexidade do tempo de execução ou a quantidade de memória utilizada pela ordenação não pode ser garantido e depende da implementação realizada.</td>
   </tr>
   <tr>
     <td><code>push("value")</code></code></td>
