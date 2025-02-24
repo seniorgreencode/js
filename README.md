@@ -1738,6 +1738,25 @@ const filteredTechs = techs.filter((tech, index) => {
 console.log(filteredTechs) // ['javascript', 'v8', 'typescript', 'nodejs', 'css']
 ```
 
+Exemplo 2:
+
+```javascript
+const array = ["a", "b", "c", "d", "c"]
+const isTrue = array.includes("c");
+
+console.log(isTrue); // true
+```
+
+Exemplo 3:
+
+```javascript
+const array = ["a", "b", "c"]
+const string = array.join("-")
+
+console.log(array) // [ 'a', 'b', 'c' ]
+console.log(string) // a-b-c 
+```
+
 # 📜 [JS] Objects
 Um **object** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
 
