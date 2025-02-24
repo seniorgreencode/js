@@ -1059,6 +1059,46 @@ console.log(localGreeting);  //  ->  Uncaught ReferenceError: localGreeting  is 
 
 Primeiro de tudo, execute este programa e observe os resultados no console. O que aconteceu e, acima de tudo, por que aconteceu? Vamos dar uma olhada mais de perto no código. No exemplo, declaramos a variável global `globalGreeting`. Em seguida definimos a função `testFunction`, dentro da qual declaramos a variável local `localGreeting`. Em seguida, chamamos a função `testFunction`, que resultou na escrita dos valores de ambas as variáveis ​​(dentro da função temos acesso tanto à variável global quanto às locais). A tentativa de acessar a variável local `localGreeting` fora da função falhará. Finalmente conseguimos demonstrar que declarações de variáveis ​​usando a palavra var também podem ser locais.
 
+O JavaScript permite sombreamento de variável (variable shadowing). O que isso significa? Isso significa que podemos declarar uma variável global e uma variável local com o mesmo nome.
+
+No escopo local, em que declaramos uma variável local utilizando seu nome, teremos acesso ao valor local (a variável global fica escondida atrás da local, portanto não temos acesso a ela neste escopo local). Usar este nome fora do escopo local significa que nos referiremos à variável global. Contudo, esta não é a melhor prática de programação e devemos evitar tais situações. Não é difícil adivinhar que com um pouco de desatenção, a utilização deste mecanismo pode levar a situações indesejadas e provavelmente a erros no funcionamento do programa.
+
+Se quisermos evitar tais situações, seria bom ver exatamente do que se trata. Vamos começar com um exemplo sem sombras:
+
+Exemplo: Variável global
+
+```javascript
+let  counter  =  100;
+console.log(counter);  //  ->  100
+{
+       counter = 200;
+       console.log(counter);  //  ->  200
+}
+console.log(counter);  //  ->  200
+```
+
+A variável `counter`, declarada no início do programa, é uma variável global. Ao longo do programa, também dentro do bloco, operamos sobre esta mesma variável. Uma pequena mudança no código é suficiente para que o programa se comporte de maneira completamente diferente.
+
+Exemplo: Variável local
+
+```javascript
+let  counter  =  100;
+console.log(counter);  //  ->  100
+{
+     let counter = 200;
+     console.log(counter);  //  ->  200
+}
+console.log(counter);  //  ->  100
+```
+
+Você vê a diferença? Desta vez no bloco, em vez de `counter = 200`; (ou seja, alterações no conteúdo da variável contador global), `let counter = 200`; aparece (ou seja, declarações da variável local combinadas com sua inicialização). O intérprete consideraria tal situação errada se a redeclaração aparecesse no mesmo âmbito.
+
+Porém, a declaração é local (é um escopo diferente do global) e todas as referências à variável com este nome dentro do bloco se referirão a esta variável local. Fora do bloco, a variável global ainda será vista com o mesmo nome. Preste atenção nos valores exibidos pelo console.
+
+O sombreamento pode não se preocupar apenas com a situação em que uma variável local cobre uma variável global. Se aparecerem escopos aninhados (por exemplo, blocos aninhados no caso de uma declaração let), a variável local declarada em um bloco mais aninhado ofuscará a variável local de mesmo nome declarada no bloco externo.
+
+O sombreamento também está presente nas declarações de variáveis ​​usando a palavra var, e desta vez o escopo local é limitado não pelo bloco de programa, mas pelo bloco de função.
+
 A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
 
 ```javascript
