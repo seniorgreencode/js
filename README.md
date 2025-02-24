@@ -1583,7 +1583,7 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
   <tr>
     <td><code>pop("array value")</code></code></td>
-    <td>Retira elemento</td>
+    <td>Retira elemento, remover o último elemento do array.</td>
   </tr>
   <tr>
     <td><code>length</code></td>
@@ -1627,7 +1627,7 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
   <tr>
     <td><code>reverse()</code></td>
-    <td>Reverte</td>
+    <td>Reverte/Inverte o array.</td>
   </tr>
   <tr>
     <td><code>map()</code></td>
@@ -1639,19 +1639,19 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
   <tr>
     <td><code>concat()</code></td>
-    <td></td>
+    <td>Juntar dois ou mais arrays - retorna um novo array.</td>
   </tr>
   <tr>
     <td><code>shift("array value")</code></td>
-    <td></td></td>
+    <td>Remover o primeiro elemento do array.</td>
   </tr>
   <tr>
     <td><code>unshift("array value")</code></td>
-    <td></td>
+    <td>Adicionar um ou mais elementos ao início do array.</td>
   </tr>
   <tr>
-    <td><code>indexOf</code></td>
-    <td>Retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.</td>
+    <td><code>indexOf()</code></td>
+    <td>Retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente. Retorna o primeiro index do elemento encontrado no array.</td>
   </tr>
 </table>
 
