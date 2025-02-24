@@ -1653,6 +1653,10 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
     <td><code>indexOf()</code></td>
     <td>Retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente. Retorna o primeiro index do elemento encontrado no array.</td>
   </tr>
+  <tr>
+    <td><code>includes()</code></td>
+    <td>Verificar se o elemento existe no array - retorna um boleano.</td>
+  </tr>
 </table>
 
 Exemplo: Caso queira remover itens duplicados de array, use `filter` para obter itens únicos de uma array.
