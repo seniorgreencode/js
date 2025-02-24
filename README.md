@@ -977,7 +977,41 @@ O importante também é que o interpretador JavaScript faça distinção entre l
       </tr>
 </tbody></table>
 
-Como mencionamos antes, declaramos a variável para reservar um nome para ela. Isso é uma simplificação, pois na verdade o espaço de memória também é reservado para a variável, mas quando programamos em JavaScript praticamente nunca precisamos pensar no que acontece na memória. Normalmente, os valores armazenados na variável poderão ser modificados durante a execução do programa (afinal são "variáveis"). Por que normalmente? Porque podemos declarar variáveis ​​cujos valores não podem ser alterados. Para ser honesto, nós nem as chamamos mais de variáveis ​​– nós as chamamos de constantes. 
+Como mencionamos antes, declaramos a variável para reservar um nome para ela. Isso é uma simplificação, pois na verdade o espaço de memória também é reservado para a variável, mas quando programamos em JavaScript praticamente nunca precisamos pensar no que acontece na memória. Normalmente, os valores armazenados na variável poderão ser modificados durante a execução do programa (afinal são "variáveis"). Por que normalmente? Porque podemos declarar variáveis ​​cujos valores não podem ser alterados. Para ser honesto, nós nem as chamamos mais de variáveis ​​– nós as chamamos de **constantes**. 
+
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
+
+Até agora, presumimos que após declarar uma variável, seu nome poderia ser usado em todo o código do programa (ou seja, o escopo da variável é global). Isto não é totalmente verdade – o escopo de uma variável depende de onde ela é declarada. Infelizmente, para uma boa compreensão do escopo de variáveis, precisamos aprender mais alguns elementos de programação, como instruções ou funções condicionais, que serão discutidos com mais detalhes posteriormente neste curso. Portanto, aqui nos limitaremos às informações básicas e voltaremos a esse assunto em diferentes partes do curso. Um dos elementos básicos que influenciam o escopo das variáveis ​​é um **bloco de programa**.
+
+Podemos separar o código de um programa em blocos. Nos blocos que criamos usando chaves, existe um conjunto de instruções, que por algum motivo devem ser tratadas de forma independente. Os blocos geralmente estão associados a instruções condicionais, loops ou funções, dos quais falaremos mais tarde. Também podemos separar um bloco de um programa não relacionado com nada de especial, simplesmente escolhendo um determinado conjunto de instruções (na prática, isto não se justifica particularmente, e por enquanto apenas o faremos por motivos educativos). Vejamos um exemplo:
+
+```javascript
+let counter;
+console.log(counter);  //  ->  undefined
+{
+  counter  =  1;
+  console.log(counter);  //  ->  1
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
+
+Primeiro, declaramos a variável contador. Em seguida, abrimos um bloco dentro do qual inicializamos esta variável e exibimos seu conteúdo. Fora do bloco, aumentamos o valor armazenado na variável em `1` e o exibimos novamente. Neste caso, o intérprete executará o programa como se não tivesse percebido o bloco, percorrendo as instruções antes do bloco, no bloco e depois do bloco. Criar um bloco aqui, sem, por exemplo, instruções condicionais, não tem justificativa real – é apenas um exemplo de uso de colchetes.
+
+Os blocos de programa podem ser aninhados, ou seja, podemos criar um bloco dentro de outro.
+
+```javascript
+let counter;
+console.log(counter);  //  ->  undefined
+{
+         counter  =  1;
+         {
+                 console.log(counter);  //  ->  1
+         }
+}
+counter  =  counter  +  1;
+console.log(counter);  //  ->  2
+```
 
 Para as declarações, usamos as palavras-chave `var` ou `let` para variáveis ​​e `const` para constantes. Por enquanto, porém, vamos ficar com as variáveis ​​usuais e retornaremos às constantes em um momento. Vamos analisar o seguinte exemplo de código (você também o encontrará na janela do editor – execute-o lá e observe os resultados no console):
 
@@ -987,7 +1021,22 @@ console.log(height); // -> undefined
 console.log(weight); // -> Uncaught ReferenceError: weight is not defined
 ```
 
-A primeira linha é a declaração da variável (podemos ver a palavra-chave (keyword) chamada `var`). Esta declaração significa que a palavra altura (`height`) será tratada como o nome do contêiner para determinados valores. A declaração, como outras instruções JavaScript, deve terminar com ponto e vírgula (`;`). Na segunda linha, tentamos escrever o valor desta variável (ou seja, o que está no container) no console. Como ainda não colocamos nada lá, o resultado é indefinido (`undefined`) (o intérprete conhece essa variável, mas ela ainda não tem valor – o valor é indefinido). Na próxima linha, tentamos imprimir o conteúdo da variável peso (`weight`) que esquecemos de declarar. Desta vez, veremos `ReferenceError`. O interpretador JavaScript, que executa nosso programa, nos informou que não conhece uma variável com este nome (portanto, a própria variável é indefinida).
+A primeira linha é a declaração da variável (podemos ver a palavra-chave (keyword) chamada `var`). Esta declaração significa que a palavra altura (`height`) será tratada como o nome do contêiner para determinados valores. A declaração, como outras instruções JavaScript, deve terminar com ponto e vírgula (`;`). Na segunda linha, tentamos escrever o valor desta variável (ou seja, o que está no container) no console. Como ainda não colocamos nada lá, o resultado é indefinido (`undefined`) (o intérprete conhece essa variável, mas ela ainda não tem valor – o valor é indefinido). Na próxima linha, tentamos imprimir o conteúdo da variável peso (`weight`) que esquecemos de declarar. Desta vez, veremos `ReferenceError`. O interpretador JavaScript, que executa nosso programa, nos informou que não conhece uma variável com este nome (portanto, a própria variável é indefinida). No caso de declarações de variáveis usando a palavra-chave var, a situação é um pouco diferente. A variável declarada usando-a fora dos blocos será, como no caso de let, global, ou seja, será visível em todos os lugares. Se você declará-lo dentro de um bloco, então... Bem, geralmente se tornará global novamente.
+
+Vamos começar com um exemplo simples:
+
+```javascript
+var height  =  180;
+{
+  var weight  =  70;
+  console.log(height);  //  ->  180
+  console.log(weight);  //  ->  70	
+}
+console.log(height);  //  ->  180
+console.log(weight);  //  ->  70
+```
+
+Como esperado, ambas as variáveis, `height` e `weight`, acabam sendo globais. As variáveis declaradas usando `var` sempre, independentemente do local de declaração, serão globais? Definitivamente não. O problema é que `var` ignora blocos de programas comuns, tratando-os como se não existissem. Então, em que situação podemos declarar uma variável local usando `var`? Somente dentro de uma <a href="">função</a>. Dedicaremos muito espaço para discutir a função e, em seguida, voltaremos ao problema do escopo variável também. Agora tentaremos apresentar e discutir apenas um exemplo simples, que mostrará que as variáveis `var` às vezes também são locais.
 
 A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
 
@@ -1155,40 +1204,6 @@ console.log(greeting);  //  ->  Hello!100
 
 O intérprete verificará o tipo de valor armazenado na variável de saudação e converterá o valor da variável contador para o mesmo tipo antes de realizar uma operação de adição. Como resultado, a string `"100"` será adicionada ao campo `"Hello!"` cadeia de caracteres e armazenada na variável de saudação. A propósito, observe que o JavaScript interpreta `100` como um número, mas `“100”` como uma string.
 
-<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
-
-Até agora, presumimos que após declarar uma variável, seu nome poderia ser usado em todo o código do programa (ou seja, o escopo da variável é global). Isto não é totalmente verdade – o escopo de uma variável depende de onde ela é declarada. Infelizmente, para uma boa compreensão do escopo de variáveis, precisamos aprender mais alguns elementos de programação, como instruções ou funções condicionais, que serão discutidos com mais detalhes posteriormente neste curso. Portanto, aqui nos limitaremos às informações básicas e voltaremos a esse assunto em diferentes partes do curso. Um dos elementos básicos que influenciam o escopo das variáveis ​​é um **bloco de programa**.
-
-Podemos separar o código de um programa em blocos. Nos blocos que criamos usando chaves, existe um conjunto de instruções, que por algum motivo devem ser tratadas de forma independente. Os blocos geralmente estão associados a instruções condicionais, loops ou funções, dos quais falaremos mais tarde. Também podemos separar um bloco de um programa não relacionado com nada de especial, simplesmente escolhendo um determinado conjunto de instruções (na prática, isto não se justifica particularmente, e por enquanto apenas o faremos por motivos educativos). Vejamos um exemplo:
-
-```javascript
-let counter;
-console.log(counter);  //  ->  undefined
-{
-  counter  =  1;
-  console.log(counter);  //  ->  1
-}
-counter  =  counter  +  1;
-console.log(counter);  //  ->  2
-```
-
-Primeiro, declaramos a variável contador. Em seguida, abrimos um bloco dentro do qual inicializamos esta variável e exibimos seu conteúdo. Fora do bloco, aumentamos o valor armazenado na variável em `1` e o exibimos novamente. Neste caso, o intérprete executará o programa como se não tivesse percebido o bloco, percorrendo as instruções antes do bloco, no bloco e depois do bloco. Criar um bloco aqui, sem, por exemplo, instruções condicionais, não tem justificativa real – é apenas um exemplo de uso de colchetes.
-
-Os blocos de programa podem ser aninhados, ou seja, podemos criar um bloco dentro de outro.
-
-```javascript
-let counter;
-console.log(counter);  //  ->  undefined
-{
-         counter  =  1;
-         {
-                 console.log(counter);  //  ->  1
-         }
-}
-counter  =  counter  +  1;
-console.log(counter);  //  ->  2
-```
-
 A propósito, observe que o código dentro do bloco foi movido para a direita. Isso é chamado de recuo. Para um interpretador JavaScript, isso não importa, mas definitivamente aumenta a legibilidade do código, permitindo que os leitores (incluindo você) descubram rapidamente quais partes do código estão dentro e quais estão fora do bloco. Os editores de código geralmente adicionam recuos nos lugares certos sozinhos, mas é um bom hábito lembrar disso você mesmo e, se eles não aparecerem automaticamente, formatar o código manualmente.
 
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
@@ -1217,6 +1232,8 @@ function showGlobalVar() {
 showGlobalVar();
 console.log(globalVar); // Output: "I am global"
 ```
+
+> Dica: Lembrando que não é recomendado utilizar variáveis globais, e também variáveis com nomes ambíguos. 
 
 Outro ponto, são os escopos que são definidos pela região ao qual variáveis e outros dados são visíveis dentro do código, funcionam como se fosse uma hierarquia em camadas. Em ambos os casos e os tipos de escopos, podemos utilizar as variáveis do JS: `var`, `let` e `const`.
 
@@ -1501,6 +1518,8 @@ var frase = "O Brasil é o melhor país do mundo!";
 console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
 // Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
+
+
 
 # 📜 [JS] Arrays
 Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
