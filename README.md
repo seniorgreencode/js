@@ -1454,10 +1454,20 @@ Os atalhos de operação de atribuição são:
 
 - `+=` - 
 - `-=` - 
-- `/=` - 
+- `/=` - atribui o resultado da divisão
 - `*=` - 
 - `%=` - 
-- `**=` -  
+- `**=` -
+- `//=` -  
+- `<<=` - atribui o resultado do deslocamento à esquerda.
+- `>>=` -  
+- `>>>=` -  
+- `&=` -
+- `^=` -
+- `|=` -
+- `&&=` -
+- `||=` -
+- `??=` -  
 
 > Obs: Também funciona com a concatenação e incremento ou decremento.
 
