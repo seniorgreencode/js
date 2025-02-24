@@ -1452,22 +1452,12 @@ myValue = myValue + 2; // myValue += 2
 
 Os atalhos de operação de atribuição são: 
 
-- `+=` 
-- `-=` 
-- `/=` atribui o resultado da divisão
-- `*=` 
-- `%=`  
-- `**=`
-- `//=` 
-- `<<=` atribui o resultado do deslocamento à esquerda.
-- `>>=`
-- `>>>=` 
-- `&=`
-- `^=`
-- `|=`
-- `&&=`
-- `||=`
-- `??=`
+- `+=` atribui o resultado da adição.
+- `-=` atribui o resultado da subtração.
+- `/=` atribui o resultado da divisão.
+- `*=` atribui o resultado da multiplicação.
+- `%=` atribui o resultado do resto da divisão.
+- `**=` atribui o resultado da exponenciação.
 
 > Obs: Também funciona com a concatenação e incremento ou decremento.
 
