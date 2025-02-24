@@ -1615,11 +1615,11 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   </tr>
  <tr>
     <td><code>splice()</code></td>
-    <td></td>
+    <td>Altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos.</td>
   </tr>
  <tr>
     <td><code>slice()</code></td>
-    <td></td>
+    <td>Retorna uma cópia de parte de um array a partir de um subarray criado entre as posições início e fim (fim não é incluído) de um array original. O Array original não é modificado.</td>
   </tr>
    <tr>
     <td><code>join()</code></td>
@@ -1648,6 +1648,10 @@ Existem alguns métodos e argumentos que mudam a funcionalidade de um array, tai
   <tr>
     <td><code>unshift("array value")</code></td>
     <td></td>
+  </tr>
+  <tr>
+    <td><code>indexOf</code></td>
+    <td>Retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.</td>
   </tr>
 </table>
 
