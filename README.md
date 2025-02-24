@@ -1636,7 +1636,7 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
   </tr>
   <tr>
     <td><code>push("value")</code></code></td>
-    <td>Adiciona elemento</td>
+    <td>Adicionar um ou mais elementos no final do array.</td>
   </tr>
   <tr>
     <td><code>pop("array value")</code></code></td>
