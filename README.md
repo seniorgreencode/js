@@ -1036,6 +1036,27 @@ console.log(weight);  //  ->  70
 
 Como esperado, ambas as variáveis, `height` e `weight`, acabam sendo globais. As variáveis declaradas usando `var` sempre, independentemente do local de declaração, serão globais? Definitivamente não. O problema é que `var` ignora blocos de programas comuns, tratando-os como se não existissem. Então, em que situação podemos declarar uma variável local usando `var`? Somente dentro de uma <a href="">função</a>. Dedicaremos muito espaço para discutir a função e, em seguida, voltaremos ao problema do escopo variável também. Agora tentaremos apresentar e discutir apenas um exemplo simples, que mostrará que as variáveis `var` às vezes também são locais.
 
+Se declararmos uma variável usando a palavra-chave `var` dentro de uma função, seu escopo será limitado apenas ao interior dessa função (é um escopo local). Isso significa que o nome da variável será reconhecido corretamente apenas dentro desta função.
+
+Exemplo:
+
+```javascript
+var globalGreeting = "Good";
+   
+function  testFunction()  {
+         var  localGreeting  =  "Morning  ";    
+         console.log("function:");
+         console.log(globalGreeting);
+         console.log(localGreeting);
+}
+   
+testFunction();
+   
+console.log("main  program:");
+console.log(globalGreeting);
+console.log(localGreeting);  //  ->  Uncaught ReferenceError: localGreeting  is  not  defined
+```
+
 A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
 
 ```javascript
