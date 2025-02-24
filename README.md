@@ -1575,7 +1575,7 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
   </tr>
  <tr>
     <td><code>sort()</code></code></td>
-    <td>ordena os elementos do próprio array e retorna o array. A ordenação não é necessariamente estável. A ordenação padrão é de acordo com a pontuação de código unicode. A complexidade do tempo de execução ou a quantidade de memória utilizada pela ordenação não pode ser garantido e depende da implementação realizada.</td>
+    <td>Ordena os elementos do próprio array e retorna o array. A ordenação não é necessariamente estável. A ordenação padrão é de acordo com a pontuação de código unicode. A complexidade do tempo de execução ou a quantidade de memória utilizada pela ordenação não pode ser garantido e depende da implementação realizada.</td>
   </tr>
   <tr>
     <td><code>push("value")</code></code></td>
@@ -1591,15 +1591,15 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
   </tr>
   <tr>
     <td><code>reduce()</code></td>
-    <td></td>
+    <td>Executa uma função reducer (fornecida por você) para cada elemento do array, resultando num único valor de retorno.</td>
   </tr>
   <tr>
     <td><code>every()</code></td>
-    <td></td>
+    <td>Testa se todos os elementos do array passam pelo teste implementado pela função fornecida. Este método retorna um valor booleano.</td>
   </tr>
   <tr>
     <td><code>some()</code></td>
-    <td></td>
+    <td>Testa se ao menos um dos elementos no array passa no teste implementado pela função atribuída e retorna um valor true ou false.</td>
   </tr>
   <tr>
     <td><code>filter(function(currentValue, index, arr), thisValue)</code></td>
@@ -1611,7 +1611,7 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
   </tr>
  <tr>
     <td><code>find()</code></td>
-    <td></td>
+    <td>Retorna o valor do primeiro elemento do array que satisfizer a função de teste provida. Caso contrario, undefined é retornado.</td>
   </tr>
  <tr>
     <td><code>splice()</code></td>
@@ -1631,11 +1631,11 @@ Existem alguns métodos, sendo eles utilizados para estrutura de dados e algorit
   </tr>
   <tr>
     <td><code>map()</code></td>
-    <td></td>
+    <td>Invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.</td>
   </tr>
   <tr>
     <td><code>forEach()</code></td>
-    <td></td>
+    <td>Executa uma dada função em cada elemento de um array.</td>
   </tr>
   <tr>
     <td><code>concat()</code></td>
