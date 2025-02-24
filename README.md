@@ -1206,9 +1206,9 @@ A propósito, observe que o código dentro do bloco foi movido para a direita. I
 
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
-<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
-
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
+
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
 
 ```javascript
 function showLocalVar() {
@@ -1399,8 +1399,6 @@ var newValue = myValue++;
 
 E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicamente o nosso código:
 
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
-
 - `--myValue` ignora o valor antigo e executa o decremento;
 - `myValue--` chama o antigo e executa o decremento.
 
@@ -1409,6 +1407,8 @@ E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicament
 Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bastante notório no escopo e na execução do código:
 
 `var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
+
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
 
 ```javascript
 var nome = "Samuel";
@@ -1518,8 +1518,6 @@ var frase = "O Brasil é o melhor país do mundo!";
 console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
 // Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
-
-
 
 # 📜 [JS] Arrays
 Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
