@@ -979,8 +979,6 @@ O importante também é que o interpretador JavaScript faça distinção entre l
 
 Como mencionamos antes, declaramos a variável para reservar um nome para ela. Isso é uma simplificação, pois na verdade o espaço de memória também é reservado para a variável, mas quando programamos em JavaScript praticamente nunca precisamos pensar no que acontece na memória. Normalmente, os valores armazenados na variável poderão ser modificados durante a execução do programa (afinal são "variáveis"). Por que normalmente? Porque podemos declarar variáveis ​​cujos valores não podem ser alterados. Para ser honesto, nós nem as chamamos mais de variáveis ​​– nós as chamamos de **constantes**. 
 
-<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
-
 Até agora, presumimos que após declarar uma variável, seu nome poderia ser usado em todo o código do programa (ou seja, o escopo da variável é global). Isto não é totalmente verdade – o escopo de uma variável depende de onde ela é declarada. Infelizmente, para uma boa compreensão do escopo de variáveis, precisamos aprender mais alguns elementos de programação, como instruções ou funções condicionais, que serão discutidos com mais detalhes posteriormente neste curso. Portanto, aqui nos limitaremos às informações básicas e voltaremos a esse assunto em diferentes partes do curso. Um dos elementos básicos que influenciam o escopo das variáveis ​​é um **bloco de programa**.
 
 Podemos separar o código de um programa em blocos. Nos blocos que criamos usando chaves, existe um conjunto de instruções, que por algum motivo devem ser tratadas de forma independente. Os blocos geralmente estão associados a instruções condicionais, loops ou funções, dos quais falaremos mais tarde. Também podemos separar um bloco de um programa não relacionado com nada de especial, simplesmente escolhendo um determinado conjunto de instruções (na prática, isto não se justifica particularmente, e por enquanto apenas o faremos por motivos educativos). Vejamos um exemplo:
@@ -1208,6 +1206,8 @@ A propósito, observe que o código dentro do bloco foi movido para a direita. I
 
 Vamos ver também como podemos declarar e nomear variáveis, sendo que as variáveis podem ser classificadas em duas categorias:
 
+<img src="https://cdn-media-1.freecodecamp.org/images/1*YWPubaj-_gMWS4jEDVBUfA.png" height="177" align="right"/>
+
 **Variáveis locais** são as variáveis que estão dentro do escopo de um programa / função / procedimento. Acessíveis apenas dentro do bloco de código (função, loop, etc.) onde foram definidas.
 
 ```javascript
@@ -1233,7 +1233,7 @@ showGlobalVar();
 console.log(globalVar); // Output: "I am global"
 ```
 
-> Dica: Lembrando que não é recomendado utilizar variáveis globais, e também variáveis com nomes ambíguos. 
+> Dica: Lembrando que não é recomendado utilizar variáveis globais, e também variáveis com nomes ambíguos, pois conforme são chamadas e/ou invocadas em seus escopos ocasionará em possíveis erros posteriormente. 
 
 Outro ponto, são os escopos que são definidos pela região ao qual variáveis e outros dados são visíveis dentro do código, funcionam como se fosse uma hierarquia em camadas. Em ambos os casos e os tipos de escopos, podemos utilizar as variáveis do JS: `var`, `let` e `const`.
 
