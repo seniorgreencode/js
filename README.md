@@ -1057,6 +1057,8 @@ console.log(globalGreeting);
 console.log(localGreeting);  //  ->  Uncaught ReferenceError: localGreeting  is  not  defined
 ```
 
+Primeiro de tudo, execute este programa e observe os resultados no console. O que aconteceu e, acima de tudo, por que aconteceu? Vamos dar uma olhada mais de perto no código. No exemplo, declaramos a variável global `globalGreeting`. Em seguida definimos a função `testFunction`, dentro da qual declaramos a variável local `localGreeting`. Em seguida, chamamos a função `testFunction`, que resultou na escrita dos valores de ambas as variáveis ​​(dentro da função temos acesso tanto à variável global quanto às locais). A tentativa de acessar a variável local `localGreeting` fora da função falhará. Finalmente conseguimos demonstrar que declarações de variáveis ​​usando a palavra var também podem ser locais.
+
 A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
 
 ```javascript
