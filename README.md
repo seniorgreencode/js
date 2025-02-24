@@ -1059,6 +1059,37 @@ console.log(localGreeting);  //  ->  Uncaught ReferenceError: localGreeting  is 
 
 Primeiro de tudo, execute este programa e observe os resultados no console. O que aconteceu e, acima de tudo, por que aconteceu? Vamos dar uma olhada mais de perto no código. No exemplo, declaramos a variável global `globalGreeting`. Em seguida definimos a função `testFunction`, dentro da qual declaramos a variável local `localGreeting`. Em seguida, chamamos a função `testFunction`, que resultou na escrita dos valores de ambas as variáveis ​​(dentro da função temos acesso tanto à variável global quanto às locais). A tentativa de acessar a variável local `localGreeting` fora da função falhará. Finalmente conseguimos demonstrar que declarações de variáveis ​​usando a palavra var também podem ser locais.
 
+Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bastante notório no escopo e na execução do código:
+
+`var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
+
+<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
+
+```javascript
+var nome = "Samuel";
+
+if(true) {
+  var nome = "Isaac";
+}
+
+console.log(nome);
+// Output: Isaac
+```
+  
+`let` funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
+
+```javascript
+nome = "Samuel"
+
+if(true) {
+  let nome = "Isaac";
+  nome += " Alves";
+  console.log(nome);
+}
+
+// Output: Isaac Alves
+```
+
 O JavaScript permite **sombreamento de variável** (variable shadowing). O que isso significa? Isso significa que podemos declarar uma variável global e uma variável local com o mesmo nome.
 
 No escopo local, em que declaramos uma variável local utilizando seu nome, teremos acesso ao valor local (a variável global fica escondida atrás da local, portanto não temos acesso a ela neste escopo local). Usar este nome fora do escopo local significa que nos referiremos à variável global. Contudo, esta não é a melhor prática de programação e devemos evitar tais situações. Não é difícil adivinhar que com um pouco de desatenção, a utilização deste mecanismo pode levar a situações indesejadas e provavelmente a erros no funcionamento do programa.
@@ -1160,7 +1191,6 @@ let height = 180;
 console.log(height); // -> 180
 console.log("height"); // -> height
 ```
-
 
 A palavra-chave `const` é usada para declarar contêineres semelhantes a variáveis que são chamados de constantes. Constantes também são usadas para armazenar certos valores, mas uma vez que os valores tenham sido inseridos nelas durante a inicialização, eles não poderão mais ser modificados. Isso significa que este tipo de contêiner é declarado e inicializado simultaneamente. Por exemplo, a seguinte declaração da constante de saudação está correta:
 
@@ -1572,37 +1602,6 @@ E se, fizermos uma pequena alteração? Perceba como isso iria afetar logicament
 - `myValue--` chama o antigo e executa o decremento.
 
 > Isso funciona com o incremento `++` também.
-
-Veja agora, a diferença entre os tipos de variáveis no JavaScript, é algo bastante notório no escopo e na execução do código:
-
-`var` funciona em qualquer lugar do programa independente de onde foi declarado. Além disso, pode ser alterada e renovada.
-
-<img src="https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png" height="177" align="right">
-
-```javascript
-var nome = "Samuel";
-
-if(true) {
-  var nome = "Isaac";
-}
-
-console.log(nome);
-// Output: Isaac
-```
-  
-`let` funciona em apenas um determinado bloco do programa. Não permite que use a mesma variável de novo.
-
-```javascript
-nome = "Samuel"
-
-if(true) {
-  let nome = "Isaac";
-  nome += " Alves";
-  console.log(nome);
-}
-
-// Output: Isaac Alves
-```
 
 <img src="https://user-images.githubusercontent.com/61624336/103469784-031abc80-4d48-11eb-972d-a6d3aac2dd88.png" height="77" align="right"/>
 
