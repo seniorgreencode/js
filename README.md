@@ -1,5 +1,4 @@
 # 🍦 [JS] Vanilla JavaScript 
-
 <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-observablehq-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-DSA-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-000000?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/React.js-repository-000000?style=flat&logo=React&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-white?style=flat&logo=TypeScript&logoColor=blue)</a> 
 
 <a href="https://github.com/IsaacAlves7/javascript-programming/tree/vanilla"><img src="https://em-content.zobj.net/source/microsoft-teams/363/soft-ice-cream_1f366.png" title="Full-Stack JS Development" height="77" align="right"></a>
@@ -3958,6 +3957,8 @@ console.log(weight); // -> undefined
 weight = 70;
 console.log(weight); // -> 70
 ```
+
+Infelizmente, o hoisting funciona de maneira um pouco diferente com as declarações `let` e `const`. Contudo, não entraremos nisso. Basta que você esteja ciente do fenômeno. E acima de tudo, você SEMPRE se lembrará de declarar variáveis ​​antes de usá-las.
 
 Exemplo:
 
