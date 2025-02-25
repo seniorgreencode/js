@@ -3934,6 +3934,18 @@ console.log(height);  //  ->  180
 console.log(weight);  //  ->  Uncaught ReferenceError: weight is not defined
 ```
 
+No exemplo acima, nós esquecemos de declarar a variável `weight`. O resultado é óbvio: estamos referenciando para uma variável (isto é, estamos tentando ler seu conteúdo) que não existe. Algo assim deve terminar em erro.
+
+Vamos fazer uma pequena mudança: 
+
+```javascript
+var height = 180;
+console.log(height);  //  ->  180
+console.log(weight);  //  ->  undefined
+var weight = 70;
+console.log(weight); //  ->  70
+```
+
 Exemplo:
 
 ```javascript
