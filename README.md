@@ -3946,6 +3946,19 @@ var weight = 70;
 console.log(weight); //  ->  70
 ```
 
+Desta vez declaramos nossa variável, mas em um lugar um tanto estranho. Junto com a declaração, também realizamos a inicialização. O resultado do programa pode ser um pouco surpreendente. Desta vez não há erros. A elevação funcionou e a declaração foi movida pelo intérprete para o início do intervalo (neste caso, o programa).
+
+Entretanto, a tentativa de exibir o conteúdo da variável peso dá dois resultados diferentes. Por que? O hoisting diz respeito apenas à declaração, não à inicialização. Portanto o valor `70`, que atribuímos à variável `weight`, permanece na linha onde está a declaração original. O exemplo acima é interpretado pelo mecanismo JavaScript mais ou menos da seguinte maneira:
+
+```javascript
+var weight;
+var height = 180;
+console.log(height); // -> 180
+console.log(weight); // -> undefined
+weight = 70;
+console.log(weight); // -> 70
+```
+
 Exemplo:
 
 ```javascript
