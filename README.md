@@ -1143,6 +1143,8 @@ testFunction();  //  ->  200
 console.log(counter);  //  ->  100
 ```
 
+Na maioria dos casos, isso não é desejável, portanto tente evitar dar os mesmos nomes de variáveis ​​a múltiplas variáveis, independentemente de onde você as declara.
+
 A alternativa é a palavra-chave `let`. Usamos ambas as palavras-chave da mesma maneira. Ambos são destinados à declaração de variáveis ​​e podem ser encontrados em diferentes exemplos na Internet ou em livros. No entanto, eles não são exatamente iguais e discutiremos as diferenças em sua operação posteriormente (mesmo em vários lugares). A palavra-chave `var` vem da sintaxe original do JavaScript e a palavra-chave `let` foi introduzida muito mais tarde. Portanto, você encontrará `var` em programas mais antigos. Atualmente, é altamente recomendável usar a palavra `let` por motivos que discutiremos em breve. Então, vamos dar uma olhada em nosso exemplo reescrito desta vez usando a palavra-chave `let`.
 
 ```javascript
