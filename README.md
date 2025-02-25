@@ -1635,6 +1635,27 @@ console.log(frase.replace("Brasil", "Estados Unidos").toUpperCase());
 // Output: O ESTADOS UNIDOS É O MELHOR PAÍS DO MUNDO!
 ```
 
+Pergunta 1: Vamos brincar de florista. Declare seis variáveis, lembrando de nomeá-las de acordo com sua finalidade:
+
+- o preço de uma única rosa (8) e o número de rosas que você tem (70)
+- o preço de um único lírio (10) e o número de lírios que você tem (50)
+- o preço de uma única tulipa (2) e o número de tulipas que você tem (120)
+
+Agora declare três variáveis, uma para cada rosa, lírio e tulipa que você possui, nas quais você coloca o preço total. Insira os valores correspondentes nas variáveis ​​usando as variáveis ​​declaradas na etapa anterior. Finalmente, declare uma variável na qual você armazena o preço de todas as suas flores (novamente, use as variáveis ​​anteriores para inicialização). Exiba todas as informações de inventário no console no seguinte formato:
+
+<pre>
+Output:
+
+Rose – unit price: 8 , quantity: 70 , value: 560
+Lily – unit price: 10 , quantity: 50 , value: 500
+Tulip – unit price: 2 , quantity: 120 , value: 240
+Total: 1300
+</pre>
+
+Pergunta 2: Modifique o código do exemplo anterior.
+
+Suponha que os preços das flores sejam constantes (eles não mudarão). Declare e inicialize as variáveis ​​restantes da mesma forma que no exemplo anterior. Exiba todas as informações coletadas no console. Agora diminua o número de rosas em 20 e de lírios em 30. Exiba todas as informações coletadas no console novamente.
+
 # 📜 [JS] Arrays
 Os **array** (vetor) é uma estrutura de dados de uma lista ou coleção de dados que pode ser acessada por índice. Para criar um vetor vazio basta criar uma variável e atribuir `[ ]` a ela. Lembrando, como já vimos em estrutura de dados e algoritmos, que o índice de um array geralmente começa com `0` e assim por diante na sua contagem da lista. Observe que o índice começa no `0`, então o primeiro item está na posição `0`, o segundo na posição `1` e assim por diante.
 
