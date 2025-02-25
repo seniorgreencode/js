@@ -3928,6 +3928,12 @@ O Hoisting, porque estamos falando sobre isso, é um mecanismo bastante complexo
 
 Além disso, é mais uma curiosidade do que algo prático que você usará ao escrever programas, então veremos apenas um pequeno exemplo que nos permitirá entender aproximadamente o próprio princípio do hoisting. Isso pode facilitar para você entender algumas situações surpreendentes ao escrever seu próprio código ou testar exemplos que você encontrar em várias fontes.
 
+```javascript
+var  height  =  180;
+console.log(height);  //  ->  180
+console.log(weight);  //  ->  Uncaught ReferenceError: weight is not defined
+```
+
 Exemplo:
 
 ```javascript
