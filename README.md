@@ -1121,7 +1121,7 @@ console.log(counter);  //  ->  100
 console.log(counter);  //  ->  100
 ```
 
-Você vê a diferença? Desta vez no bloco, em vez de `counter = 200`; (ou seja, alterações no conteúdo da variável contador global), `let counter = 200`; aparece (ou seja, declarações da variável local combinadas com sua inicialização). O intérprete consideraria tal situação errada se a redeclaração aparecesse no mesmo âmbito.
+Você vê a diferença? Desta vez no bloco, em vez de `counter = 200;` (ou seja, alterações no conteúdo da variável contador global), `let counter = 200`; aparece (ou seja, declarações da variável local combinadas com sua inicialização). O intérprete consideraria tal situação errada se a redeclaração aparecesse no mesmo âmbito.
 
 Porém, a declaração é local (é um escopo diferente do global) e todas as referências à variável com este nome dentro do bloco se referirão a esta variável local. Fora do bloco, a variável global ainda será vista com o mesmo nome. Preste atenção nos valores exibidos pelo console.
 
