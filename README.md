@@ -3920,6 +3920,14 @@ Para resolver esse problema, JavaScript introduziu <a href="">Promises</a> e, po
 
 Isso significa que, independentemente de onde uma variável ou função seja declarada em um bloco de código, o JavaScript as trata como se tivessem sido declaradas no topo de seu escopo (global ou local). Essa característica pode ser um tanto confusa para iniciantes, mas é fundamental para entender como o JavaScript lida com a execução de scripts. Em resumo, hoisting é um mecanismo interno do JavaScript que move as declarações de variáveis e funções para o topo de seu escopo antes da execução. Embora seja útil e permita flexibilidade em algumas situações, entender suas nuances é essencial para evitar comportamentos inesperados, especialmente ao usar diferentes formas de declaração de variáveis (`var`, `let` e `const`) e ao trabalhar com funções e classes.
 
+Lembra como dissemos que todas as variáveis ​​devem ser declaradas antes do uso? Isso não é totalmente verdade, e realmente a palavra "deveria" é mais adequada do que "deve". Claro, uma boa prática é sempre declarar variáveis ​​antes que elas sejam usadas. E siga isso. Mas a sintaxe original do JavaScript permite alguns desvios dessa regra.
+
+O interpretador JavaScript verifica o programa antes de executá-lo, procurando por erros em sua sintaxe, entre outras coisas. Ele faz mais uma coisa nesta ocasião. Ele procura por todas as declarações de variáveis ​​e as move para o início do intervalo em que foram declaradas (para o início do programa se forem globais, para o início do bloco se for uma declaração `let` local ou para o início da função se for uma declaração `var` local). Tudo isso acontece, é claro, na memória do interpretador, e as alterações não são visíveis no código.
+
+O Hoisting, porque estamos falando sobre isso, é um mecanismo bastante complexo e, francamente falando, bastante incoerente. Entendê-lo bem requer a capacidade de usar livremente muitos elementos JavaScript, que nem mencionamos ainda.
+
+Além disso, é mais uma curiosidade do que algo prático que você usará ao escrever programas, então veremos apenas um pequeno exemplo que nos permitirá entender aproximadamente o próprio princípio do hoisting. Isso pode facilitar para você entender algumas situações surpreendentes ao escrever seu próprio código ou testar exemplos que você encontrar em várias fontes.
+
 Exemplo:
 
 ```javascript
