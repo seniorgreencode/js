@@ -3842,7 +3842,7 @@ factorial(5);
 ```
 
 ## [JS] Callback
-<img src="https://github.com/user-attachments/assets/d9366075-19fb-47a8-be82-2df91150597e" align="right" height="177">
+<img src="https://github.com/user-attachments/assets/d9366075-19fb-47a8-be82-2df91150597e" align="right" height="277">
 
 Uma **função callback** em JavaScript é uma função que é passada como argumento para outra função e é chamada ou executada dentro dessa função externa, geralmente em resposta a um evento ou após a conclusão de uma operação. O conceito de callbacks é fundamental em JavaScript, especialmente no contexto de programação assíncrona, como manipulação de eventos, requisições a APIs, ou temporizadores.
 
