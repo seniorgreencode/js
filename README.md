@@ -650,6 +650,8 @@ Exemplo 4:
 Exemplo 5:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
 
+# 📜 [JS] REGEX - Expressões Regulares
+
 # 📜 [JS] Operadores
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
 
