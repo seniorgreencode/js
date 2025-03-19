@@ -2324,13 +2324,6 @@ const obj2 = {
 console.log(obj2);
 ```
 
-Exemplo:
-
-```javascript
-
-```
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/107895032-954ddd00-6f10-11eb-9d33-0baeb7699fc8.jpg)
-
 Exemplo 2:
 
 ```javascript
