@@ -5067,6 +5067,8 @@ Além disso, o RxJS inclui um conceito chamado Subject, que é um tipo especial 
 
 Muito popular no ecossistema JavaScript, o RxJS é amplamente utilizado em frameworks como Angular para gerenciar requisições HTTP, eventos de UI, gerenciamento de estado e outros cenários onde a manipulação de dados dinâmicos e concorrentes é necessária. Sua abordagem declarativa e composição funcional tornam o código mais previsível e fácil de manter, sendo uma ferramenta indispensável para aplicações modernas que demandam alta reatividade e gerenciamento eficiente de complexidade assíncrona.
 
+# 📜 [JS] Segurança de código
+
 ---
 
 <div align="center">
