@@ -667,19 +667,16 @@ console.log(it.next()); // cada índice da iteração
 console.log(it.next()); // acabou (indefinido)
 ```
 
-Exemplo 3: 
+Exemplo 3:
 
 ```javascript
+
 ```
 
 Exemplo 4:
 
 ```javascript
-```
 
-Exemplo 5:
-
-```javascript
 ```
 
 # 📜 [JS] REGEX - Expressões Regulares
