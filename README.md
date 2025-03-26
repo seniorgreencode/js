@@ -2433,7 +2433,20 @@ console.log(tomato2);
 Exemplo 6:
 
 ```javascript
+var arr = ['Apple', 'Banana', 'Orange', ['Tomato']];
 
+var apple = arr[o];
+var banana = arr[1];
+var orange = arr[2];
+var tomato = arr[3][0];
+
+// Destructuring Assignment
+var [apple2, banana2, orange2, [tomato2]] = [
+     'Apple',
+     'Banana'
+]; // índices para definir as variáveis
+
+console.log(orange2); // undefined
 ```
 
 Exemplo 7:
