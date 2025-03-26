@@ -2449,43 +2449,7 @@ var [apple2, banana2, orange2, [tomato2]] = [
 console.log(orange2); // undefined
 ```
 
-Exemplo 7:
-
-```javascript
-
-```
-
-Exemplo 8:
-
-```javascript
-
-```
-
-Exemplo 9:
-
-```javascript
-
-```
-
-Exemplo 10:
-
-```javascript
-
-```
-
-Exemplo 11:
-
-```javascript
-
-```
-
-Exemplo 12:
-
-```javascript
-
-```
-
-Exemplo 13: É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
+Exemplo 7: É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
 
 ```javascript
 
