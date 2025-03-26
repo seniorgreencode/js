@@ -2409,63 +2409,63 @@ const obj2 = {
 console.log(obj2);
 ```
 
-Exemplo 2:
+Exemplo 5:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107977872-9deaf580-6f9a-11eb-8095-1b8a6ec3f13f.jpg)
 
-Exemplo 3:
+Exemplo 6:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107981757-7a777900-6fa1-11eb-8dc2-dd87a46f9dbf.jpg)
 
-Exemplo 4:
+Exemplo 7:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107983661-0343e400-6fa5-11eb-8f17-d8f317f5e668.jpg)
 
-Exemplo 5:
+Exemplo 8:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107987656-2d010900-6fad-11eb-9eb4-8285fb45b2d8.jpg)
 
-Exemplo 6:
+Exemplo 9:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107988292-730a9c80-6fae-11eb-8097-b1f5f4676e9c.jpg)
 
-Exemplo 7:
+Exemplo 10:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992677-f381cb00-6fb7-11eb-9165-17e912895dab.jpg)
 
-Exemplo 8:
+Exemplo 11:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107992876-65f2ab00-6fb8-11eb-8e5b-25a5d4833225.jpg)
 
-Exemplo 9:
+Exemplo 12:
 
 ```javascript
 
 ```
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/107993011-b8cc6280-6fb8-11eb-90c1-855402953cad.jpg)
 
-Exemplo 10: É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
+Exemplo 13: É possível combinar default function arguments com destructuring? Sim, sempre que necessário podemos utilizar os dois, respeitando as regras de ambos.
 
 ```javascript
 
