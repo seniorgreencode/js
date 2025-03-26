@@ -636,19 +636,51 @@ for(let value of obj) {
 }
 ```
 
-Exemplo: Well known Symbols: `Symbol.`
+Exemplo 2: `Symbol.iterator`
 
-Exemplo 2: Symbol.iterator
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110433-01942200-7072-11eb-82fc-0cb89d4bd139.jpg)
+```javascript
+// Symbols
+const uniqueId = Symbol('Hello, World!');
+
+// Well known symbols = propriedades para um objeto
+
+Symbol.iterator // Symbol(Symbol.iterator)
+Symbol.split // Symbol(Symbol.split)
+Symbol.toPrimitive // Symbol(Symbol.toPrimitive)
+Symbol.asyncIterator // Symbol(Symbol.asyncIterator)
+
+const arr = [1, 2, 3, 4]
+
+const it = arr[Symbol.iterator](); // interface para consumir cada passo de uma estrutura de dados
+
+while(true) {
+let { value, done } = it.next()
+  if (done){
+      break;
+  }
+}
+
+console.log(it.next()); // cada índice da iteração
+console.log(it.next()); // cada índice da iteração
+console.log(it.next()); // cada índice da iteração 
+console.log(it.next()); // cada índice da iteração
+console.log(it.next()); // acabou (indefinido)
+```
 
 Exemplo 3: 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108110892-b29abc80-7072-11eb-8427-90d9d5a19aba.jpg)
+
+```javascript
+```
 
 Exemplo 4:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128558-acfda080-708b-11eb-8d36-6620acb0795e.jpg)
+
+```javascript
+```
 
 Exemplo 5:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108128879-30b78d00-708c-11eb-96e1-21293b9dbda9.jpg)
+
+```javascript
+```
 
 # 📜 [JS] REGEX - Expressões Regulares
 
