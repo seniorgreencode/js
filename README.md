@@ -479,7 +479,7 @@ A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldiçã
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Apps_Script.svg" height="77" align="right"></a>
 
-O **Google Apps Script** é uma plataforma de script desenvolvida pelo Google para o desenvolvimento de aplicativos leves na plataforma Google Workspace. O Google Apps Script foi desenvolvido inicialmente por Mike Harm como um projeto paralelo enquanto ele trabalhava como desenvolvedor no Planilhas Google.
+O **Google Apps Script** é uma plataforma de script desenvolvida pelo Google para o desenvolvimento de aplicativos leves na plataforma Google Workspace. O Google Apps Script foi desenvolvido inicialmente por Mike Harm como um projeto paralelo enquanto ele trabalhava como desenvolvedor no Planilhas Google. O Apps Script é uma plataforma JavaScript baseada na nuvem com a tecnologia do Google Drive que permite a integração e automação de tarefas nos produtos do Google.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/2fef07ba-fbd0-4408-af23-9b775bf0ad13" height="77" align="right"></a>
 
