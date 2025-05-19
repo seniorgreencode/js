@@ -477,6 +477,10 @@ A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldiçã
 
 **Linting** - O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Apps_Script.svg" height="77" align="right"></a>
+
+O **Google Apps Script** é uma plataforma de script desenvolvida pelo Google para o desenvolvimento de aplicativos leves na plataforma Google Workspace. O Google Apps Script foi desenvolvido inicialmente por Mike Harm como um projeto paralelo enquanto ele trabalhava como desenvolvedor no Planilhas Google.
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/2fef07ba-fbd0-4408-af23-9b775bf0ad13" height="77" align="right"></a>
 
 **Outras linguagens**: Oracle SuiteScript é uma linguagem de programação baseada em JavaScript que permite personalizar e estender as funcionalidades do Oracle NetSuite, um sistema de ERP (Enterprise Resource Planning) baseado em nuvem. Com o SuiteScript, desenvolvedores podem criar scripts para automatizar processos, integrar sistemas, modificar a interface do usuário e criar novas funcionalidades dentro do ambiente NetSuite. Existem diferentes tipos de scripts no SuiteScript, incluindo:
