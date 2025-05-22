@@ -279,7 +279,7 @@ Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas r
 
 > :electron: O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
 
-<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="77" align="right"/>
+<img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
 Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
 
