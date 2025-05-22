@@ -267,9 +267,7 @@ Graças à combinação Node.js e Chromium, você pode criar um aplicativo que n
 
 O NW.js não tem opinião e oferece a liberdade de escolher estruturas e bibliotecas que você deseja usar em um projeto. Permite chamar os módulos Node.js. diretamente do DOM, suporta todos os recursos do navegador, fornece proteção de fonte JavaScript e está disponível no Linux, Mac OS e Windows.
 
-Para ter uma ideia do que é possível fazer com ele visite o site:
-
-- https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
+Para ter uma ideia do que é possível fazer com ele visite o site: https://tangiblejs.com/posts/nw-js-and-electron-compared-2016-edition
 
 <a href=""/><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg" height="77" align="right"></a>
 
