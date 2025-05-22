@@ -327,7 +327,7 @@ Hoje em dia temos cada vez mais funcionalidades que nos permite ter ainda mais p
   
 Hoje ele é utilizado nos mais diversos lugares, como:
 
-<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="277" align="right"/>
+<img src="https://miro.medium.com/max/1838/1*vtfzxhOGnwplI0FxxWwItQ.jpeg" height="377" align="right"/>
 
 - Websites;
 - Aplicações Web;
