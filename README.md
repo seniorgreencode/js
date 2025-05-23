@@ -356,9 +356,7 @@ O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no in
 
 Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
 
-**Desvantagens do JavaScript**:
-
-Dizemos que JavaScript é uma linguagem madura, o que significa que a maioria dos recursos já está implementada e estável, e provavelmente não veremos grandes mudanças na linguagem. Desde 2015, muitos aspectos do JavaScript mudaram e muitos novos recursos foram adicionados. Muitas dessas mudanças foram introduzidas para facilitar a migração para JavaScript para programadores que conhecem outras linguagens populares, das quais o JavaScript originalmente diferia bastante em certos aspectos, como no manuseio de objetos. Ainda podemos usar a linguagem da maneira antiga, mas é recomendado usar o JavaScript moderno.
+**Desvantagens do JavaScript**: Dizemos que JavaScript é uma linguagem madura, o que significa que a maioria dos recursos já está implementada e estável, e provavelmente não veremos grandes mudanças na linguagem. Desde 2015, muitos aspectos do JavaScript mudaram e muitos novos recursos foram adicionados. Muitas dessas mudanças foram introduzidas para facilitar a migração para JavaScript para programadores que conhecem outras linguagens populares, das quais o JavaScript originalmente diferia bastante em certos aspectos, como no manuseio de objetos. Ainda podemos usar a linguagem da maneira antiga, mas é recomendado usar o JavaScript moderno.
 
 Mas... não existem soluções ideais, portanto não existem boas linguagens de programação para todas as aplicações. Cada um deles tem suas próprias limitações e não é diferente com JavaScript. Apesar de sua popularidade e sucesso, JavaScript não é uma linguagem de programação perfeita. Devido à sua natureza, não é adequado para determinadas aplicações. Por exemplo, não faz sentido usá-lo para escrever programas que exijam cálculos matemáticos avançados ou desempenho muito alto.
 
@@ -368,9 +366,7 @@ Outro inconveniente é que, como o código não é compilado, ele entra no naveg
 
 Uma ajuda aqui pode ser a ofuscação de código, que consiste em transformar nosso script pronto em um formato um pouco menos legível (por exemplo, gerando nomes aleatórios curtos de variáveis ​​e funções, eliminando sinais de fim de linha e assim por diante), mas o simples fato é que se alguém quiser roubar nosso código JavaScript, há muito pouco que possamos fazer para impedi-lo.
 
-**Vantagens do JavaScript**:
-
-Por outro lado, JavaScript tem muitas vantagens sobre outras linguagens de programação, e uma das maiores é uma comunidade muito ativa e de apoio. É fácil encontrar soluções para problemas comuns e encontrar ajuda em geral. Isso também significa que ferramentas que funcionam com JavaScript são desenvolvidas ativamente.
+**Vantagens do JavaScript**: Por outro lado, JavaScript tem muitas vantagens sobre outras linguagens de programação, e uma das maiores é uma comunidade muito ativa e de apoio. É fácil encontrar soluções para problemas comuns e encontrar ajuda em geral. Isso também significa que ferramentas que funcionam com JavaScript são desenvolvidas ativamente.
 
 Outra grande vantagem é um grande número de estruturas e bibliotecas prontas para uso que fornecem a maioria das funcionalidades e recursos comumente necessários. A linguagem em si é relativamente fácil de aprender e nos permite focar no trabalho em vez de lutar com a sintaxe (ou seja, a forma de construir as instruções que compõem o código do nosso programa).
 
