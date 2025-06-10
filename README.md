@@ -4117,7 +4117,7 @@ console.log(counter()); // 1
 console.log(counter()); // 2
 ```
 
-Map, Reduce e Filter** Métodos para transformar, reduzir ou filtrar coleções de dados.
+`Map`, `Reduce` e `Filter` são métodos para transformar, reduzir ou filtrar coleções de dados.
 
 ```javascript
 const nums = [1, 2, 3, 4];
