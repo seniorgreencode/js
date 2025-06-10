@@ -5137,6 +5137,8 @@ Muito popular no ecossistema JavaScript, o RxJS é amplamente utilizado em frame
 
 # 📜 [JS] Segurança de código
 
+# 🧪 [JS] DDD, BDD e TDD
+
 ---
 
 <div align="center">
