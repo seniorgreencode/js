@@ -3334,7 +3334,7 @@ console.log(vowerVerification());
 
 **JavaScript funcional** é um paradigma de programação que enfatiza a utilização de funções como elementos primários para escrever código. Esses conceitos tornam o JavaScript funcional poderoso, escalável e útil para escrever código limpo e modular. De forma simplificada, é programar orientado a funções. Mas trazendo uma explicação mais formal, a programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas, que evita estados compartilhados, dados mutáveis e usa uma abordagem declarativa.
 
-> Assim como em todas as linguagens de programação, as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
+Várias linguagens de programação implementam o paradigma funcional, então a sintaxe e regras são comuns entre ambas, mudando apenas poucas estruturas entre si, porém as funções no JavaScript requerem um nível de atenção maior, visto que é uma das partes essenciais para a construção de um programa, no entanto, as funções em JavaScript têm várias peculiaridades que as distinguem de funções em outras linguagens de programação, por isso, tenha bastante atenção no que você está fazendo.
 
 Vou trazer alguns fatos históricos relacionados ao mundo da programação e que nos ajudarão a entender porque nos dias atuais, a programação funcional é tão comentada e antigamente não.
 
