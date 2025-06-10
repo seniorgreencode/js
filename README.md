@@ -5,10 +5,10 @@ O **TypeScript** (TS) é um superset da linguagem de programação JavaScript. O
 
 O TS adiciona confiabilidade ao programa (tipos), provê novas funcionalidades ao JS, como Interfaces. Com o TS podemos verificar os erros antes da execução do código, ou seja, no desenvolvimento. Deixa JavaScript mais explícito, diminuindo a quantidade de bugs. Por estes e outros motivos perdemos menos tempo com debug.
 
-# FullStack TypeScript (TS)
-![tsmean-tech-stack](https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png)
+# 🟦 [TS] MEAN Stack
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
-🧪 [TS] DDD, BDD e TDD
+# 🧪 [TS] DDD, BDD e TDD
 
 
 
