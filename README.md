@@ -4769,7 +4769,9 @@ De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s
 
 Somando os tempos de execução sequenciais, temos:
 
-1s (inicialização) + 4s (length) + 3s (map) + 1s (return) = **9 segundos**.
+```txt
+1s (inicialização) + 4s (length) + 3s (map) + 1s (return) = 9 segundos
+```
 
 A vantagem desse fluxo está na simplicidade e no controle direto do fluxo de execução. Por executar cada passo de forma sequencial, evita-se a complexidade de lidar com múltiplos fluxos ou operações concorrentes simultaneamente. Isso pode reduzir erros e tornar o código mais legível, especialmente quando o número de etapas ou operações é pequeno. Além disso, um fluxo mais linear facilita o rastreamento de problemas e a depuração, pois cada etapa depende diretamente da anterior.
 
