@@ -447,6 +447,8 @@ Outras seis sequências escapes são válidas em JavaScript:
 
 O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de <a href="">objetos</a>, onde cada identificador é único. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos.
 
+O `Symbol` foi introduzido no ECMAScript 2015 (ES6) como um tipo de dado primitivo único e imutável. Ele é muito útil para criar propriedades de objetos que não entram em conflito com outras propriedades, mesmo que tenham o mesmo nome.
+
 Exemplo:
 
 ```javascript
