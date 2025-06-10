@@ -742,9 +742,7 @@ console.log(arr2);
 # 📜 [JS] Operadores
 <img src="https://github.com/user-attachments/assets/b8a1ab49-f8bb-4756-b894-2e2edf8ab1cb" align="right" height="77">
 
-Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
-  
-Um exemplo bem simples: `7 + 10`
+Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>". Um exemplo bem simples: `7 + 10`
 
 O sinal `+` é um operador, o qual podemos usar para somar dois valores numéricos.
 
