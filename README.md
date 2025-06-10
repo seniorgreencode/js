@@ -4001,13 +4001,15 @@ setTimeout(() => {
 Para resolver esse problema, JavaScript introduziu <a href="">Promises</a> e, posteriormente, <a href="">async/await</a>, que permitem gerenciar a execução assíncrona de forma mais elegante.
 
 ## [JS] Hoisting
-<img src="https://github.com/user-attachments/assets/9dcd59ab-c013-4c23-ba98-53382f6fb9d8" align="right" height="277">
+<img src="https://github.com/user-attachments/assets/1cb687c3-cc53-4b4e-b8ff-2aa28295a3ed" align="right" height="77">
 
 **Hoisting** é um comportamento ou mecanismo do JavaScript em que declarações de variáveis, funções e classes são "movidas" para o topo de seu escopo durante a fase de compilação, antes de o código ser executado. A seguinte imagem mostra o ciclo de vida do JavaScript e indica a sequência pela qual a declaração da variável e a inicialização ocorre.
 
 Isso significa que, independentemente de onde uma variável ou função seja declarada em um bloco de código, o JavaScript as trata como se tivessem sido declaradas no topo de seu escopo (global ou local). Essa característica pode ser um tanto confusa para iniciantes, mas é fundamental para entender como o JavaScript lida com a execução de scripts. Em resumo, hoisting é um mecanismo interno do JavaScript que move as declarações de variáveis e funções para o topo de seu escopo antes da execução. Embora seja útil e permita flexibilidade em algumas situações, entender suas nuances é essencial para evitar comportamentos inesperados, especialmente ao usar diferentes formas de declaração de variáveis (`var`, `let` e `const`) e ao trabalhar com funções e classes.
 
 Lembra como dissemos que todas as variáveis ​​devem ser declaradas antes do uso? Isso não é totalmente verdade, e realmente a palavra "deveria" é mais adequada do que "deve". Claro, uma boa prática é sempre declarar variáveis ​​antes que elas sejam usadas. E siga isso. Mas a sintaxe original do JavaScript permite alguns desvios dessa regra.
+
+<img src="https://github.com/user-attachments/assets/9dcd59ab-c013-4c23-ba98-53382f6fb9d8" align="right" height="277">
 
 O interpretador JavaScript verifica o programa antes de executá-lo, procurando por erros em sua sintaxe, entre outras coisas. Ele faz mais uma coisa nesta ocasião. Ele procura por todas as declarações de variáveis ​​e as move para o início do intervalo em que foram declaradas (para o início do programa se forem globais, para o início do bloco se for uma declaração `let` local ou para o início da função se for uma declaração `var` local). Tudo isso acontece, é claro, na memória do interpretador, e as alterações não são visíveis no código.
 
