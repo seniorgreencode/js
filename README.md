@@ -163,6 +163,8 @@ duas ou mais linhas
 # 📜 [JS] Dados e tipos primitivos
 <a href="https://github.com/IsaacAlves7/data-engineering">![JS](https://img.shields.io/badge/Data-repository-000000?style=flat&logo=GitHub&logoColor=ffffff)</a>
 
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
+
 Tudo o que existe no mundo dos computadores são dados. Os dados podem ser criados, modificados e apagados. Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma <a href="">variável</a>, veremos mais adiante sobre as variáveis no JavaScript.
 
 A maior parte das linguagens de programação trabalha com variações baseadas nos quatro tipos primitivos abaixo:
@@ -738,7 +740,7 @@ console.log(arr2);
 # 📜 [JS] REGEX - Expressões Regulares
 
 # 📜 [JS] Operadores
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/6733bf82-6a3d-482e-bf55-0562c485c8b5" align="right" height="77">
+<img src="https://github.com/user-attachments/assets/b8a1ab49-f8bb-4756-b894-2e2edf8ab1cb" align="right" height="77">
 
 Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>".
   
