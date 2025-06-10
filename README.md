@@ -5,7 +5,7 @@
 
 # It's a repository of JavaScript (JS) 📜 
 
-<a href="https://javascript.info"><img src="https://img.shields.io/badge/ECMAScript-12-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/ryanmcdermott/clean-code-javascript"><img src="https://img.shields.io/badge/Clean_Code-12-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/labs42io/clean-code-typescript"><img src="https://img.shields.io/badge/Clean_Code-12-blue?style=flat&logo=TypeScript&logoColor=white"></a> <a href="https://exercism.org/dashboard"><img src="https://img.shields.io/badge/Exercism-JS-gold?style=flat&logo=Exercism&logoColor=white"></a>
+<a href="https://javascript.info"><img src="https://img.shields.io/badge/ECMAScript-12-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/ryanmcdermott/clean-code-javascript"><img src="https://img.shields.io/badge/Clean_Code-12-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/labs42io/clean-code-typescript"><img src="https://img.shields.io/badge/Clean_Code-12-blue?style=flat&logo=TypeScript&logoColor=white"></a> <a href="https://exercism.org/dashboard"><img src="https://img.shields.io/badge/Exercism-JS-gold?style=flat&logo=Exercism&logoColor=white"></a> <a href="https://br.codecombat.com/"><img src="https://img.shields.io/badge/codecombat-JS-gold?style=flat&logo=Codewars&logoColor=white"></a>
 
 > 📜 **Preparação**: Para este conteúdo, o aluno deverá dispor de um computador com acesso à internet, um web browser com suporte a HTML 5 (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera etc.), um editor de texto ou IDE (VSCode etc.).
 
@@ -18,7 +18,6 @@
 - https://github.com/braziljs/eloquente-javascript/blob/master/pdf/livro.pdf
 - https://developers.google.com/blockly
 - https://www.code.org
-- https://br.codecombat.com/
 - https://stackoverflow.com/questions/68329202/how-to-run-frontend-and-backend-on-same-port-if-i-am-using-vanilla-js-on-front
 
 # 📜 JavaScript (JS)
