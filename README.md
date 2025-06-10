@@ -668,3 +668,4 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 - Interface,
 - Union.
 
+# 🧪 [JS] DDD, BDD e TDD
