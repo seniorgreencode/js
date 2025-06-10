@@ -15,10 +15,6 @@
 
 </div>
 
-- https://github.com/braziljs/eloquente-javascript/blob/master/pdf/livro.pdf
-- https://developers.google.com/blockly
-- https://www.code.org
-
 # 📜 JavaScript (JS)
 <img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right">
 
