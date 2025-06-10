@@ -8,9 +8,7 @@ O TS adiciona confiabilidade ao programa (tipos), provê novas funcionalidades a
 # FullStack TypeScript (TS)
 ![tsmean-tech-stack](https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png)
 
-
-
-
+🧪 [TS] DDD, BDD e TDD
 
 
 
