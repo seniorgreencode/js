@@ -443,6 +443,8 @@ Outras seis sequências escapes são válidas em JavaScript:
 </table>
 
 ## [JS] Symbols
+<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/2caeeae0-19de-4294-85cb-b692067dfdb2" align="right" height="177">
+
 O `Symbol` é um novo tipo primitivo do JavaScript. Ele é um tipo de dado que é único e imutável, podemos usá-los como identificadores de propriedades de <a href="">objetos</a>, onde cada identificador é único. Esse tipo primitivo possui uma maneira de gerar um identificador único e a forma de gerar esse identificador é invocando o `Symbol`. O valor do `Symbol` não é texto, uma `String`, não é um número e etc. Ele é único, sem ser desenhado ou descrito e ele passa metapropriedades aos seus objetos.
 
 Exemplo:
@@ -749,8 +751,6 @@ O sinal `+` é um operador, o qual podemos usar para somar dois valores numéric
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
 ## [JS] Operadores Lógicos
-<img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/2caeeae0-19de-4294-85cb-b692067dfdb2" align="right" height="177">
-
 Chamamos de **Operadores Lógicos** aqueles que nos ajudam a trabalhar com o tipo `Boolean` (verdadeiro ou falso). Assim como na tabela-verdade e portas lógicas, o `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`). Vamos se basear no seguinte exemplo: `sorvete de baunilha`
 
 Operador `&&` (AND): Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um `sorvete E é baunilha`, são duas verdades, o que resulta em `true`.
