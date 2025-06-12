@@ -743,16 +743,13 @@ console.log(arr2);
 
 # 📜 [JS] REGEX - Expressões Regulares
 
-# 📜 [JS] Operadores
+# 📜 [JS] Operadores e expressões
 <img src="https://github.com/user-attachments/assets/b8a1ab49-f8bb-4756-b894-2e2edf8ab1cb" align="right" height="77">
 
-Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>". Um exemplo bem simples: `7 + 10`
-
-O sinal `+` é um operador, o qual podemos usar para somar dois valores numéricos.
+Até agora só vimos valores soltos que não fazem nada. Para fazermos alguma operação com esses valores, usamos os chamados "<a href="https://user-images.githubusercontent.com/61624336/171016776-9d4b00f9-bed9-4d62-95e0-c72c4e5484de.jpg">operadores</a>". Um exemplo bem simples: `7 + 10`. O sinal `+` é um operador, o qual podemos usar para somar dois valores numéricos.
 
 Há vários tipos de operadores para as mais diversas operações. Nos próximos capítulos nós veremos vários grupos com seus operadores mais comuns e suas respectivas funções.
 
-## [JS] Operadores Lógicos
 Chamamos de **Operadores Lógicos** aqueles que nos ajudam a trabalhar com o tipo `Boolean` (verdadeiro ou falso). Assim como na tabela-verdade e portas lógicas, o `&&` indica uma condição `e`, e o `||` indica uma condição `ou`. Basicamente servem para juntar dois valores do tipo `Boolean` e ver se o resultado é algo `verdadeiro` (`true`) ou `falso` (`false`). Vamos se basear no seguinte exemplo: `sorvete de baunilha`
 
 Operador `&&` (AND): Se tivermos duas verdades, o resultado só pode ser verdadeiro, correto? Se eu disser que esse objeto é um `sorvete E é baunilha`, são duas verdades, o que resulta em `true`.
@@ -789,9 +786,8 @@ const resultado = valorOriginal ?? valorPadrao;
 console.log(resultado); // Output: "Olá!"
 ```
 
-O operador de coalescência nula evita comportamentos inesperados que podem ocorrer com o operador lógico OR (`||`), que também é usado para fornecer valores padrão, mas considera outros valores “**falsy**” (como `0`, `‘’`, ou `NaN`) como utilizáveis.
+O **operador de coalescência nula** evita comportamentos inesperados que podem ocorrer com o operador lógico OR (`||`), que também é usado para fornecer valores padrão, mas considera outros valores “**falsy**” (como `0`, `‘’`, ou `NaN`) como utilizáveis.
 
-## [JS] Operadores Aritméticos
 Os **Operadores Aritméticos** são bem simples de se entender. Eles são usados com números para que possamos fazer cálculos.
 
 - `+` (adição)
@@ -805,7 +801,6 @@ Também temos os operadores de incremento `++` e decremento `--`. O operador `++
   
 O operador `--` diminui o valor em `1` unidade, ou seja, se colocarmos com o valor `3`, seu valor se tornará `2`. Veremos melhor sobre esses operadores mais para frente.
 
-## [JS] Operadores de Igualdade
 <img src="https://user-images.githubusercontent.com/61624336/102435082-c4210300-3ff4-11eb-8250-14947f241915.png" height="477" align="right">
 
 Os **operadores de igualdade** servem para compararmos se dois valores são iguais ou diferentes. A operação da comparação retornará um valor `true` ou `false`.
@@ -813,8 +808,7 @@ Os **operadores de igualdade** servem para compararmos se dois valores são igua
 - `==` serve para verificarmos se dois valores são iguais.
 - `!=` serve para verificarmos se dois valores são diferentes.
   
-> **Obs**: O operador `=` é somente usado para atribuir um valor e não para verificar os dois valores como os operadores `==` ou `!=`. Ele é muito usado em 
-**variáveis**, que veremos mais pra frente!
+> **Obs**: O operador `=` é somente usado para atribuir um valor e não para verificar os dois valores como os operadores `==` ou `!=`. Ele é muito usado em <a href="">variáveis</a>, que veremos mais pra frente!
 
 > Dica: `!` é um operador que indica negação. Então "`!=`" seria o equivalente que dizer que algo é "não igual".</blockquote>
 
@@ -836,7 +830,6 @@ Para ter certeza que algo é diferente, incluindo o tipo, temos o operador `!==`
 
 > **Dica**: `!==` é um operador que é usado para extrema diferença.
   
-## [JS] Operadores Relacionais
 Os **Operadores Relacionais** servem para compararmos valores, verificando se algo é maior ou menor. São mais usados com valores numéricos, mas também podem ser usados com Strings. Eles sempre retornam um valor `true` ou `false`.
 
 - `<=` verifica se um valor é menor ou igual;
@@ -850,8 +843,7 @@ Além de valores numéricos, podemos também comparar Strings, como:
 "a" < "z".
 ```
 
-## [JS] Concatenação de Strings
-O Operador `+` também tem outra função além de somar números: ele concatena Strings. Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
+Sobre a **concatenação de strings**, o operador `+` também tem outra função além de somar números: ele concatena Strings. Isso significa que podemos usá-lo para juntar duas ou mais Strings em uma só:
 
 ```javascript
 "Olá" + "" + "João";
@@ -860,10 +852,9 @@ O Operador `+` também tem outra função além de somar números: ele concatena
 
 No exemplo acima nós juntamos uma String com um cumprimento, uma String com um espaço vazio e uma String com um nome. Isso pode ser muito útil quando você possui um texto padrão para exibir e deve inserir dados do seu usuário, como o nome, no meio do texto.
 
-## [JS] Operadores Unários
-Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma (5 + 3), onde passamos dois números. Esses operadores são chamados de Operadores Binários.
+Até agora vimos operadores que precisam de dois elementos para funcionar, como é o caso da soma `(5 + 3)`, onde passamos dois números. Esses operadores são chamados de **Operadores Binários**.
 
-Também temos os Operadores Unários, que são aqueles que só recebem um valor para funcionar.
+Também temos os **Operadores Unários**, que são aqueles que só recebem um valor para funcionar.
 
 O primeiro é o "`-`". Além de ser usado como operador de subtração, ele pode ser usado para inverter o sinal de um número. Então um número positivo se torna negativo e um negativo se torna positivo.
 
@@ -883,8 +874,7 @@ Nem todos os operadores são símbolos. Um exemplo deles é o "`typeof`". Ele no
 typeof 3
 ```
 
-## [JS] Operador Ternário
-Vimos os operadores binários e unários. Vamos ver agora o Operador Ternário Condicional. Ele recebe três valores e serve para verificarmos uma condição.
+Vimos os operadores binários e unários. Vamos ver agora o **Operador Ternário Condicional**. Ele recebe três valores e serve para verificarmos uma condição.
 
 ```javascript
 3 > 1 ? 'É maior' : 'É menor' // retorna a String "É maior"
@@ -929,7 +919,6 @@ Aqui ele verá a operação como uma concatenação de Strings. Então o `1` ser
 
 Por isso é importante conhecer bem o comportamento da linguagem, para não ter surpresas com o que ocorre automaticamente.
 
-## [JS] Expressões
 Vimos até agora alguns comandos simples com os operadores. Vimos que eles produzem um valor quando executados, como é o caso de `"5 + 3"` que produz o valor `"8"`.
 Até mesmo quando simplesmente digitamos `8` estamos gerando o valor `8`. Todo fragmento de código que produz um valor é chamado de "expressão".
 
