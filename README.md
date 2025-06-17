@@ -457,7 +457,7 @@ console.log(uniqueId);
 // Output: Symbol()
 ```
 
-Exemplo 1:
+Exemplo 1: Essa característica torna o `Symbol` excelente para metaprogramação, permitindo maior controle e encapsulamento de propriedades em objetos.
 
 ```javascript
 const id = Symbol('id'); 
