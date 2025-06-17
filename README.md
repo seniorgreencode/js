@@ -457,6 +457,18 @@ console.log(uniqueId);
 // Output: Symbol()
 ```
 
+Exemplo 1:
+
+```javascript
+const id = Symbol('id'); 
+const user = {
+  [id]: 12345,
+  name: 'Isaac'
+};
+
+console.log(user[id]); // 12345
+```
+
 Exemplo 2:
 
 ```javascript
