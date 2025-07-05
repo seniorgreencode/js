@@ -8,6 +8,13 @@ O TS adiciona confiabilidade ao programa (tipos), provê novas funcionalidades a
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
+# [TS] Zod
+**Zod** é uma biblioteca TypeScript-first usada para validação e definição de esquemas de dados. Ela permite que você defina a forma de um objeto, incluindo os tipos esperados para cada campo, e valide se determinados dados seguem essa estrutura. É muito utilizada em projetos com TypeScript porque integra de forma nativa com o sistema de tipos, o que significa que você pode escrever um esquema com Zod e automaticamente obter os tipos inferidos para usar ao longo da sua aplicação com segurança. Isso reduz a necessidade de duplicar definições — uma vez que o esquema também serve como tipagem estática. Zod é inspirada em bibliotecas como Yup e Joi, mas foca na simplicidade, desempenho e integração mais direta com o TypeScript.
+
+Além da validação de tipos primitivos como string, number, boolean e array, Zod também permite composições mais complexas, como objetos aninhados, validações assíncronas, união de tipos, enums, schemas parciais e transformações de dados. Por exemplo, você pode definir um schema `z.object({ nome: z.string(), idade: z.number().int() })` e usá-lo tanto para garantir que os dados estejam corretos em tempo de execução quanto para gerar o tipo correspondente para uso estático em TypeScript.
+
+Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
+
 # 🧪 [TS] DDD, BDD e TDD
 
 
