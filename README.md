@@ -672,7 +672,6 @@ A imagem mostra um cenário simples em que o usuário carrega um arquivo `index.
 
 Você pode carregar um arquivo html local digitando seu caminho local após file:/// na barra de endereço ou simplesmente abrindo-o em seu navegador usando o comando Abrir no menu. Como o menu dos navegadores muitas vezes fica oculto, uma maneira mais simples pode ser usar um atalho para abrir documentos existentes nos aplicativos. O atalho é universal, não só para navegadores e provavelmente você já o viu: `ctrl + o` ou `command + o`
   
-# 🐾 Pug.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
@@ -689,7 +688,6 @@ Portanto, uma das vantagens do Template Engine é a segurança adicional para pe
 
 > **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
 
-# ⚙️ EJS - Embedded JavaScript
 <a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js. Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
@@ -698,28 +696,24 @@ A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito sem
 
 Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
 
-# 🕹️ Phaser
 <a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="77" align="right"></a>
 
 O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source.
 
 Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
-# 🧙‍♂️ Browserify 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="77" align="right"></a>
 
 **Browserify** é uma ferramenta de pacote de JavaScript de código aberto que permite aos desenvolvedores escrever e usar módulos no estilo Node.js que compilam para uso no navegador agrupando todas as suas dependências.
 
 Os navegadores não têm o método `require` definido, mas o Node.js tem. Com o Browserify, você pode escrever código que usa require da mesma forma que usaria no Node.
 
-# 🎯 Require.js 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/require-js.svg" height="77" align="right"></a>
 
 **RequireJS** é um arquivo JavaScript e carregador de módulo. Ele é otimizado para uso no navegador, mas pode ser usado em outros ambientes JavaScript, como Rhino e Node . Usar um carregador de script modular como o RequireJS melhorará a velocidade e a qualidade do seu código.
 
 Ou seja, o RequireJS olha para as dependências de todos os módulos no seu aplicativo, e busca e executa todos os módulos na sua ordem correta, de modo que cada módulo tem exatamente o que ele precisa para rodar.
 
-# 🧸 Puppeteer
 <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" height="77" align="right">
 
 **Puppeteer** é uma biblioteca Node.js que fornece uma API de alto nível para controlar o Chrome/Chromium sobre o protocolo DevTools . O Puppeteer é executado no modo headless por padrão, mas pode ser configurado para ser executado no Chrome/Chromium completo (sem headless).
@@ -733,7 +727,6 @@ A maioria das coisas que você pode fazer manualmente no navegador pode ser feit
 - Capture um rastreamento da linha do tempo do seu site para ajudar a diagnosticar problemas de desempenho.
 - Teste as extensões do Chrome .
 
-# 📜 JSS
 <img src="https://iconape.com/wp-content/files/nf/370981/svg/370981.svg" height="77" align="right">
 
 Um arquivo criado no formato **JSS** (JavaScript Style Sheets), uma extensão da linguagem CSS que suporta várias heranças, enquanto o CSS padrão só suporta herança única, ou seja, ele permite mais flexibilidade ao definir estilos para páginas web.
@@ -746,7 +739,6 @@ jss stylesjss stylescss
 
 > **NOTA**: Os arquivos JSS usam o herda-classe:, herd:, e herdado: sintaxe nas definições de CSS para prover herança.
 
-# 🦜 Bower
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/bower.svg" height="77" align="right"></a>
 
 O Bower é um gerenciador de dependências client-side, simples e muito prático, que permite você fazer download dos frameworks JavaScript sem precisar entrar no site do projeto, ele também pode ser utilizado para baixar pacotes CSS e HTML. Os sites da Web são feitos de muitas coisas — estruturas, bibliotecas, recursos e utilitários. Bower gerencia todas essas coisas para você.
@@ -757,14 +749,12 @@ Para começar , o Bower trabalha buscando e instalando pacotes de todo o mundo, 
 
 Bower é otimizado para o front-end. Se vários pacotes dependerem de um pacote - jQuery, por exemplo - o Bower baixará o jQuery apenas uma vez. Isso é conhecido como gráfico de dependência plana e ajuda a reduzir o carregamento da página.
 
-# 🐹 Ember
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/ember-tomster.svg" height="77" align="right"></a>
 
 O Ember.js, ou somente Ember, é um framework web JavaScript de código aberto, baseado na arquitetura Model–view–viewmodel. Ele permite aos desenvolvedores aplicativos web de página única escaláveis, ao incorporar expressões idiomáticas comuns e boas práticas de desenvolvimento em seu núcleo.
 
 O Ember.js é uma estrutura JavaScript produtiva e testada em batalha para a criação de aplicativos da Web modernos. Ele inclui tudo o que você precisa para criar interfaces de usuário avançadas que funcionam em qualquer dispositivo.
 
-## Vite
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77" align="right"></a>
 
 O **Vite** é uma ferramenta que ajuda a criar um projeto front-end já configurado, ou seja, o Vite melhora a experiência de seu desenvolvimento front-end com mais agilidade, sem precisar você remover ou instalar compiladores em seu projeto (boilerplate). Algumas especialidades dele incluem:
@@ -774,12 +764,10 @@ O **Vite** é uma ferramenta que ajuda a criar um projeto front-end já configur
 
 Além disso, o Vite é altamente extensível por meio de sua API de plug-in e API de JavaScript com suporte de digitação completo.
   
-## Meteor.js
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/meteor-5.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 O **Meteor.js** é uma plataforma de código aberto para criar e implantar aplicativos Web, móveis e de desktop em Javascript ou TypeScript. O Meteor, ou MeteorJS, é um framework web JavaScript isomórfico parcialmente proprietário, principalmente livre e de código aberto, escrito usando Node.js. O Meteor permite a prototipagem rápida e produz código multiplataforma.
 
-## Next.js
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, renderização híbrida, suporte TypeScript, suporte para: 
@@ -793,7 +781,6 @@ O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comu
 - Roteamento para o lado do cliente com prefetching (pré-busca otimizada);
 - Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
   
-## Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema da linguagem JS para bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
@@ -802,14 +789,12 @@ O principal uso do Redux é que podemos usar um estado de aplicativo como um est
 
 O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, onde o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
 
-## Gatsby
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
 
 O **Gatsby** é um framework open-source para a criação de sites e apps baseados em React, ele combina SSG (Static-Site Generation) e renderização inteligente de páginas fazendo preload seletivo apenas das informações que importam. Além de ter sido desenvolvido pensando em facilitar a vida dos desenvolvedores.
 
 > Diferente do Next.js, o Gatsby funciona 
 
-# 🥤 Gulp
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" height="77" align="right"></a>
   
 O **Gulp.js** é um kit de ferramentas JavaScript de código aberto criado por Eric Schoffstall usado para automatizar e aprimorar seu fluxo de trabalho (workflows) e como um sistema de construção de streaming no desenvolvimento web front-end.
@@ -818,7 +803,6 @@ Aproveite o gulp e a flexibilidade do JavaScript para automatizar fluxos de trab
 
 Escreva tarefas individuais e focadas e componha-as em operações maiores, fornecendo velocidade e precisão enquanto reduz a repetição. Usando gulp streams, você pode aplicar muitas transformações aos seus arquivos enquanto estiverem na memória antes que qualquer coisa seja gravada no disco — acelerando significativamente o processo de compilação.
 
-# 🤖 Apache Cordova
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" height="77" align="right"></a>
   
 O Apache Cordova é uma biblioteca/estrutura que tem como foco desenvolver aplicações mobile de plataforma cruzada de código aberto usada para a criação de aplicativos híbridos, tanto para plataformas Android e iOS. Anteriormente, Cordova era conhecido como PhoneGap. Ele vem dos gigantes do servidor de tecnologia Apache. Cordova usa certas tecnologias da web como JavaScript, CSS3 e HTML5 para desenvolver aplicativos híbridos.
@@ -827,19 +811,16 @@ Vários plug-ins de terceiros estão disponíveis para trabalhar com a estrutura
 
 > O principal benefício de usar o Cordova é sua simplicidade na estrutura de codificação.
 
-# 🔵 Ionic
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/ionicframework/ionicframework-icon.svg" height="77" align="right"></a>
 
 O **Ionic** é um framework híbrido open-source para desenvolvimento de aplicações multiplataforma usando tecnologia Web: HTML, CSS e JS. Através dele, você poderá desenvolver e disponibilizar aplicativos em várias plataformas como Android e iOS através de PWAs - Progressive Web Apps e até em Desktops, tudo isso apenas escrevendo um único código.
 
-# ⚛️ React Native
 <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="77" align="right">
   
 O **React Native** é uma biblioteca front-end do JavaScript, integrante do ecossistema de outro framework o React.js, desenvolvido pelo Facebook, atualmente Meta, cujo renderiza e constroi interfaces nativas para os sistemas operacionais Android e iOS, ou seja, ele renderiza componentes mobiles para cada uma das plataformas, em outras palavras ele cria aplicações híbridas para os dispositivos móveis.
 
 Apesar de ambos terem sido criados pelo Facebook e compartilharem algumas semelhanças, eles possuem utilizações distintas.
 
-# 🦕 Deno
 <img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="77" align="right">
 
 O **Deno** é um moderno ambiente de execução para JavaScript e TypeScript, sendo o mais facilitador e seguro, baseado no mecanismo JavaScript V8 e na linguagem de programação Rust. Deno é um runtime moderno e seguro para JavaScript, TypeScript e WebAssembly, desenvolvido por Ryan Dahl, o mesmo criador original do Node.js, e é focado na produtividade. Foi anunciado por Dahl em 2018 durante sua palestra "10 coisas que lamento pelo Node.js". Deno assume explicitamente o papel de gerenciador de tempo de execução e de pacotes em um único executável, em vez de exigir um programa de gerenciamento de pacotes separado.
@@ -847,6 +828,9 @@ O **Deno** é um moderno ambiente de execução para JavaScript e TypeScript, se
 Ele foi concebido para corrigir limitações e problemas que Ryan identificou no design do Node.js, como o sistema de módulos baseado em CommonJS, a falta de segurança por padrão e a complexidade gerada por algumas decisões arquitetônicas. Diferente do Node.js, Deno utiliza o padrão ES Modules e suporta TypeScript nativamente, eliminando a necessidade de um processo separado de transpilação. Um dos diferenciais do Deno é seu foco em segurança: por padrão, ele isola o código e não concede acesso a recursos do sistema, como arquivos, rede ou variáveis de ambiente, a menos que você permita explicitamente com flags específicas, como `--allow-read` ou `--allow-net`. Além disso, Deno adota uma abordagem simplificada para o gerenciamento de dependências, dispensando ferramentas como npm; as dependências são carregadas diretamente por URL e armazenadas em cache localmente, reduzindo a necessidade de um arquivo como `package.json`. 
 
 Outra característica marcante do Deno é sua API padrão baseada em promessas, alinhada com a especificação moderna da web, o que proporciona uma experiência de desenvolvimento consistente e familiar para desenvolvedores web. O runtime é construído sobre o V8, o mesmo motor de JavaScript usado no Chrome e no Node.js, mas também utiliza o Rust como base para seu núcleo, oferecendo maior desempenho e segurança. Deno inclui ferramentas integradas, como um formatador de código, um linter e um test runner, evitando a dependência de bibliotecas externas para tarefas comuns. Com um foco claro em simplicidade, segurança e modernidade, Deno é uma alternativa promissora ao Node.js, especialmente para projetos novos que desejam aproveitar as últimas inovações e melhores práticas no desenvolvimento de software.
+
+<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="77" align="right">
+
 
 # 🦁 Nest JS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="77" align="right">
