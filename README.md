@@ -22,6 +22,13 @@ O grande diferencial do Hono está na sua arquitetura voltada ao edge computing,
 
 Apesar de seu tamanho pequeno, Hono é extremamente poderoso e extensível. Ele permite o uso de middlewares personalizados, roteamento aninhado, suporte a CORS, autenticação e muito mais. É uma alternativa leve e moderna ao Express para quem trabalha com JavaScript moderno e deseja tirar proveito das plataformas serverless sem perder produtividade. Sua curva de aprendizado é baixa, especialmente para quem já tem familiaridade com frameworks baseados em middlewares, e sua performance rivaliza com os frameworks mais rápidos disponíveis hoje no mercado.
 
+# [TS] Storybook
+**Storybook** é uma ferramenta de desenvolvimento de interfaces que permite construir, documentar e testar componentes de forma isolada, sem precisar carregar toda a aplicação. Ele é muito utilizado em projetos com frameworks modernos como React, Vue, Angular, Svelte e outros, sendo especialmente útil em ambientes que seguem design systems ou arquitetura baseada em componentes. Ao invés de testar seus componentes apenas dentro das páginas finais da aplicação, o Storybook cria um ambiente visual interativo onde cada componente pode ser renderizado com diferentes estados, tamanhos, variações e propriedades, o que facilita tanto o desenvolvimento quanto a revisão de UI.
+
+Com o Storybook, o desenvolvedor escreve "histórias", que são representações de um componente com diferentes combinações de props. Isso torna a documentação do componente praticamente automática e visual, o que é excelente para equipes de front-end, design e QA. Além disso, ele suporta testes visuais, acessibilidade (a11y), snapshots e integração com ferramentas de testes como Jest ou Testing Library, permitindo validar comportamentos e aparência de forma mais confiável. Também é possível integrá-lo com sistemas de CI/CD, o que ajuda a garantir a estabilidade da interface ao longo do tempo.
+
+Outro ponto forte é a colaboração: designers, desenvolvedores e revisores conseguem visualizar os componentes diretamente no navegador, experimentar suas interações e sugerir melhorias com base em um catálogo funcional e navegável. Por isso, o Storybook é mais do que uma ferramenta de desenvolvimento, é um hub de colaboração e padronização da experiência de usuário em projetos modernos. Ele ajuda a escalar aplicações de forma mais consistente, mantendo a coesão visual e funcional entre os diversos elementos da interface.
+
 # 🧪 [TS] DDD, BDD e TDD
 
 
