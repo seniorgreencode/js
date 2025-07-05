@@ -267,6 +267,14 @@ Se você é um desenvolvedor de JavaScript, precisará aprender algumas coisas r
 
 > :electron: O elétron é uma tecnologia madura com uma comunidade em crescimento e, portanto, cria um ótimo ambiente de produção. Graças à renderização da interface do usuário do mecanismo Chromium, você obtém acesso a ferramentas como Developer Tools e Storage Access.
 
+<img src="https://github.com/user-attachments/assets/55b6ace6-efe6-42ab-b4b2-b207a12da6c2" height="77" align="right">
+
+**Tauri** é um framework moderno e leve para a criação de aplicações desktop utilizando tecnologias web como HTML, CSS e JavaScript, mas com foco em segurança, performance e tamanho reduzido dos binários. Ao contrário do Electron, que embute uma instância do Chromium junto com o Node.js em cada aplicação, o Tauri utiliza o navegador nativo do sistema operacional através do WebView, o que reduz significativamente o tamanho final da aplicação e o consumo de recursos. Isso significa que uma aplicação construída com Tauri pode ter apenas alguns megabytes, enquanto uma aplicação semelhante feita com Electron pode ultrapassar 100 MB facilmente.
+
+O Tauri é escrito principalmente em Rust, uma linguagem moderna conhecida pela segurança de memória e alta performance. Essa escolha proporciona ao Tauri uma base segura, com baixa probabilidade de falhas críticas ou vulnerabilidades. Além disso, ele permite que os desenvolvedores escrevam a lógica de sistema ou operações mais pesadas em Rust, enquanto mantêm a interface em JavaScript, o que é ideal para quem já trabalha com aplicações web e quer levá-las para o desktop com o mínimo de adaptação possível. Ele oferece APIs seguras para acesso a funcionalidades nativas como sistema de arquivos, notificações, gerenciamento de janelas e comunicação entre front-end e back-end, tudo dentro de um sandbox controlado.
+
+Outra grande vantagem do Tauri é a facilidade de integração com qualquer framework moderno do front-end, como React, Vue, Svelte ou até mesmo aplicações vanilla. Ele também possui foco em segurança desde o início, com políticas claras de permissões e proteção contra ataques comuns, como injeções ou execução arbitrária de código. Por isso, o Tauri se tornou uma escolha cada vez mais popular entre desenvolvedores que desejam criar aplicações desktop modernas, rápidas, leves e seguras, sem abrir mão do ecossistema web.
+
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
 Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
