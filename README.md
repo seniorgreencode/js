@@ -263,7 +263,7 @@ if(mostrarSite){ // Se mostrarSite
 
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
-## [JS] Express
+# [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
 **Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
@@ -274,7 +274,7 @@ Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printa
 npm install express
 ```
 
-# [JS] Promises
+## [JS] Promises
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
 
 Fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo em seguida vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
@@ -295,27 +295,6 @@ Quando a sua operação principal acabar, ela vai chamar a sua função de Callb
 **Exemplo 4**: Função de Callback Assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
-
-## [JS] Socket.io
-<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
-
-The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
-
-- https://www.igniterealtime.org/downloads/#spark
-- https://pusher.com/
-
-## [JS] AdonisJS 
-
-<img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
-
-<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/adonisjs/adonisjs-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
-
-O **Adonis.js** é um dos frameworks Node.js mais populares e utilizados pela comunidade, ele traz inúmeras possibilidades no desenvolvimento de APIs e permite que tenhamos as melhores práticas de desenvolvimento web back-end, onde permite uma arquitetura MVC pronta e escalável e mover um projeto pronto para produção.
-
-```sh
-npm install express
-node index.js
-```
 
 ## [JS] Nodemon
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
@@ -339,6 +318,27 @@ O comando `node --watch` não faz exatamente a mesma coisa que o Nodemon, embora
 3. **Facilidade de uso:** Nodemon é projetado para ser fácil de usar e integrar em projetos Node.js existentes, enquanto `node --watch` pode exigir configuração adicional e trabalho manual para alcançar o mesmo resultado.
 
 Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observação de arquivos, o Nodemon vai além ao automatizar a reinicialização do servidor e oferecer uma gama mais ampla de opções de configuração, tornando-o uma escolha popular entre os desenvolvedores Node.js durante o desenvolvimento de aplicativos.
+
+## [JS] Socket.io
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
+
+- https://www.igniterealtime.org/downloads/#spark
+- https://pusher.com/
+
+# [JS] AdonisJS 
+
+<img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
+
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/adonisjs/adonisjs-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+O **Adonis.js** é um dos frameworks Node.js mais populares e utilizados pela comunidade, ele traz inúmeras possibilidades no desenvolvimento de APIs e permite que tenhamos as melhores práticas de desenvolvimento web back-end, onde permite uma arquitetura MVC pronta e escalável e mover um projeto pronto para produção.
+
+```sh
+npm install express
+node index.js
+```
 
 # pg-promise API
 - http://vitaly-t.github.io/pg-promise/
