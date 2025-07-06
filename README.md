@@ -8,6 +8,10 @@ O TS adiciona confiabilidade ao programa (tipos), provê novas funcionalidades a
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
+# [TS] Prisma
+
+# [TS] TypeORM
+
 # [TS] Zod
 **Zod** é uma biblioteca TypeScript-first usada para validação e definição de esquemas de dados. Ela permite que você defina a forma de um objeto, incluindo os tipos esperados para cada campo, e valide se determinados dados seguem essa estrutura. É muito utilizada em projetos com TypeScript porque integra de forma nativa com o sistema de tipos, o que significa que você pode escrever um esquema com Zod e automaticamente obter os tipos inferidos para usar ao longo da sua aplicação com segurança. Isso reduz a necessidade de duplicar definições — uma vez que o esquema também serve como tipagem estática. Zod é inspirada em bibliotecas como Yup e Joi, mas foca na simplicidade, desempenho e integração mais direta com o TypeScript.
 
