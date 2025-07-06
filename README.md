@@ -335,6 +335,20 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 
 O **Adonis.js** é um dos frameworks Node.js mais populares e utilizados pela comunidade, ele traz inúmeras possibilidades no desenvolvimento de APIs e permite que tenhamos as melhores práticas de desenvolvimento web back-end, onde permite uma arquitetura MVC pronta e escalável e mover um projeto pronto para produção.
 
+O AdonisJS é um framework web full-stack para Node.js, inspirado no Laravel (PHP) e no Ruby on Rails, que busca trazer uma experiência elegante e produtiva para o desenvolvimento de aplicações server-side em JavaScript ou TypeScript. Criado por Harminder Virk, ele foi projetado para oferecer uma estrutura opinativa, com convenções bem definidas e uma série de ferramentas integradas que eliminam a necessidade de configurar manualmente bibliotecas externas, algo comum em ecossistemas como Express ou NestJS. O AdonisJS segue o padrão MVC (Model-View-Controller) e inclui recursos como ORM, autenticação, validação de dados e sistema de templates prontos para uso, tornando-o ideal para projetos que exigem rapidez no desenvolvimento sem sacrificar organização.  
+
+Uma das principais características do AdonisJS é seu ORM integrado, chamado **Lucid**, que permite interagir com bancos de dados SQL de forma intuitiva, usando uma sintaxe semelhante à do Eloquent (Laravel) ou ActiveRecord (Rails). Com ele, é possível definir modelos, relacionamentos e até mesmo migrações de banco de dados sem depender de pacotes externos como Sequelize ou TypeORM. O framework também inclui um sistema de **validação de dados** nativo, que simplifica a verificação de inputs em rotas, e um poderoso **sistema de autenticação** com suporte a sessões, tokens JWT e OAuth, algo que em outros frameworks exigiria a integração de múltiplas bibliotecas.  
+
+Para o desenvolvimento front-end, o AdonisJS oferece suporte a motores de template como **Edge**, que permite criar views dinâmicas com sintaxe simples e componentes reutilizáveis, sem a necessidade de um framework front-end como React ou Vue. No entanto, ele também funciona perfeitamente como uma API RESTful ou GraphQL, permitindo que você construa back-ends para aplicações SPA ou móveis. Além disso, o AdonisJS inclui um **sistema de rotas** expressivo, middleware, injecão de dependências e até um CLI robusto para gerar controllers, modelos e outros arquivos automaticamente, seguindo as convenções do framework.  
+
+Outro diferencial é o foco em **developer experience**. O AdonisJS vem com configurações pré-definidas para testes (usando o Japa, um runner de testes próprio), envio de e-mails, filas de tarefas assíncronas e até armazenamento de arquivos, tudo integrado e documentado de forma clara. Ele também utiliza TypeScript como cidadão de primeira classe, oferecendo tipagem estática e autocompletar inteligente em editores como VS Code. Embora seja opinativo, o framework permite customizações quando necessário, graças a um sistema de hooks e providers.  
+
+Em termos de desempenho, o AdonisJS não é tão minimalista quanto o Express, mas compensa com otimizações internas e uma arquitetura que favorece a manutenção em projetos de médio a grande porte. Ele é particularmente popular em aplicações que exigem rapidez no desenvolvimento, como MVPs, sistemas administrativos ou APIs com regras de negócio complexas. A comunidade, embora menor que a de frameworks como NestJS, é ativa e crescente, com pacotes adicionais disponíveis para funcionalidades como GraphQL, WebSockets e internacionalização.  
+
+Em resumo, o AdonisJS é uma opção sólida para desenvolvedores que buscam um framework all-in-one para Node.js, combinando produtividade, organização e recursos prontos para produção. Seu design inspirado no Laravel e no Rails o torna especialmente atraente para quem vem desses ecossistemas ou prefere evitar a fragmentação de bibliotecas típica do mundo JavaScript.
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
 ```sh
 npm install express
 node index.js
