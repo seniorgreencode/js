@@ -263,7 +263,7 @@ if(mostrarSite){ // Se mostrarSite
 
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
-## Express
+## [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
 **Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
@@ -274,8 +274,29 @@ Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printa
 npm install express
 ```
 
+# [JS] Promises
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
 
-## Socket.io
+Fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo em seguida vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
+  
+Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.</p>
+
+**Exemplo 1**: Requisição com Promises (Asynchronous Reading)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108542870-0c91c100-72c3-11eb-8cac-2552152dab53.jpg)
+
+**Exemplo 2**: Ler estrofes de cada vez
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577334-70d27600-72ff-11eb-908b-5dc638abf445.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577995-a166df80-7300-11eb-8559-20182c3e916a.jpg)
+
+**Exemplo 3**: funções síncronas e função assíncrona
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
+
+**Exemplo 4**: Função de Callback Assíncrona
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
+
+## [JS] Socket.io
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 The **Socket.io** is an awesome library that provides a real-time event-driven connection between a client and server relying on Websockets and other protocols and approaches to guarantee the real-time capability and performance boost when it comes to handling thousands of socket connections and load balancing it on multiple servers.
@@ -283,7 +304,7 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 - https://www.igniterealtime.org/downloads/#spark
 - https://pusher.com/
 
-## AdonisJS 
+## [JS] AdonisJS 
 
 <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
 
@@ -296,7 +317,7 @@ npm install express
 node index.js
 ```
 
-## Nodemon
+## [JS] Nodemon
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
@@ -327,29 +348,7 @@ Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observa
 
 https://replit.com/languages/nodejs
 
-# 📜 Promises
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
-
-Fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo em seguida vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
-  
-Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.</p>
-
-**Exemplo 1**: Requisição com Promises (Asynchronous Reading)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108542870-0c91c100-72c3-11eb-8cac-2552152dab53.jpg)
-
-**Exemplo 2**: Ler estrofes de cada vez
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577334-70d27600-72ff-11eb-908b-5dc638abf445.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577995-a166df80-7300-11eb-8559-20182c3e916a.jpg)
-
-**Exemplo 3**: funções síncronas e função assíncrona
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
-
-**Exemplo 4**: Função de Callback Assíncrona
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
-
-# ☁️ Cloudnary
+# [JS] Cloudnary
 <img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="77" align="right">
 
 Vamos fazer os uploads das fotos de perfil ou outros documentos, mas para isso será preciso algum ambiente com capacidade de armazenamento eficaz para tal tarefa. Isso é a escolha, alguns utilizam algum serviço de armazenamento na computação em nuvem como o **Amazon S3 - Simple Storage Service**, porém iremos utilizar o **Cloudnary**.
