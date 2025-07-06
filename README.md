@@ -327,13 +327,6 @@ Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observa
 
 https://replit.com/languages/nodejs
 
-## Winston
-<a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/5acca88c-841b-4ff5-aeb3-d1d8332fa342" height="77" align="right" title="Site do Node.js"/></a>
-
-`winston` foi projetado para ser uma biblioteca de registro simples e universal com suporte para múltiplos transportes. Um transporte é essencialmente um dispositivo de armazenamento para seus logs. Cada registrador pode ter vários transportes (consulte: Transportes) configurados em diferentes níveis (consulte: Níveis de log). Durante Por exemplo, pode-se querer que os logs de erros sejam armazenados em um local remoto persistente (como um banco de dados), mas todos os logs são enviados para o console ou para um arquivo local `.winston`
-
-`winston` visa separar partes do processo de registro para torná-lo mais flexível e extensível. Atenção é dada ao suporte de flexibilidade no registro formatação (consulte: Formatos) níveis de & (consulte: Usando níveis de log personalizados) e garantindo que essas APIs sejam desacopladas da implementação do log de transporte (ou seja, como os logs são armazenados/indexados, consulte: Adicionando transportes personalizados) para a API que eles expuseram ao programador.
-
 # 📜 Promises
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
 
@@ -693,3 +686,8 @@ Outro diferencial é a experiência do desenvolvedor. O Bun inclui suporte nativ
 No entanto, o Bun ainda é uma tecnologia relativamente nova e em desenvolvimento ativo, o que significa que pode haver instabilidades ou falta de suporte para alguns casos de uso avançados. Apesar disso, sua promessa de desempenho superior e simplicidade já chamou a atenção da comunidade, especialmente para projetos que exigem velocidade de execução e deploy. Em resumo, o Bun representa mais um passo na evolução dos runtimes JavaScript, combinando a eficiência de baixo nível com uma experiência de desenvolvedor simplificada, posicionando-se como uma opção viável para quem busca alternativas mais rápidas e integradas ao Node.js e Deno.
 
 # 🧪 [JS] DDD, BDD e TDD
+<a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/5acca88c-841b-4ff5-aeb3-d1d8332fa342" height="77" align="right" title="Site do Node.js"/></a>
+
+`winston` foi projetado para ser uma biblioteca de registro simples e universal com suporte para múltiplos transportes. Um transporte é essencialmente um dispositivo de armazenamento para seus logs. Cada registrador pode ter vários transportes (consulte: Transportes) configurados em diferentes níveis (consulte: Níveis de log). Durante Por exemplo, pode-se querer que os logs de erros sejam armazenados em um local remoto persistente (como um banco de dados), mas todos os logs são enviados para o console ou para um arquivo local `.winston`
+
+`winston` visa separar partes do processo de registro para torná-lo mais flexível e extensível. Atenção é dada ao suporte de flexibilidade no registro formatação (consulte: Formatos) níveis de & (consulte: Usando níveis de log personalizados) e garantindo que essas APIs sejam desacopladas da implementação do log de transporte (ou seja, como os logs são armazenados/indexados, consulte: Adicionando transportes personalizados) para a API que eles expuseram ao programador.
