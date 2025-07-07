@@ -61,8 +61,6 @@ Com o Node.js conseguimos criar:
 
 Porque usar o Node.js?
 
-<a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="77" align="right"/></a>
-
 - Muito leve;
 - Muito rápido;
 - Alta escalabilidade;
@@ -73,7 +71,7 @@ Porque usar o Node.js?
 - Muitas bibliotecas feitas com o Node.js e o JavaScript;
 - Posso utilizar a linguagem JavaScript tanto pro back-end quanto pro front-end, não preciso de outras linguagens para isso! Uma só já basta.
 
-<a href="https://nodejs.org/en/"><img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-01-tela-boas-vindas.png" height="270" title="Site do Node.js" align="right"/></a>
+<a href="https://nodejs.org/en/"><img src="https://user-images.githubusercontent.com/61624336/160043697-22c1186b-d7e5-44f1-9e14-cce2d3368eff.png" height="77" align="right"/></a>
 
 O primeiro passo é instalar o Node.js, tendo consequentemente o NPM instalado. Ele pode ser instalado de duas maneiras:
 
