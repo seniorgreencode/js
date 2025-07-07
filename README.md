@@ -27,6 +27,7 @@ console.log(message);
 ```
 
 # 🟦 [TS] Dados e tipos primitivos
+Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. Ela pode ser categorizada da seguinte forma:
 
 - **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript.
 
