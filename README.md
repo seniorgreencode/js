@@ -55,7 +55,7 @@ Entre os tipos primitivos estão `number`, que representa valores numéricos, in
 
 Também existem os tipos `null` e `undefined`, que representam ausência de valor e ausência de definição, respectivamente. Além disso, há o tipo `void`, usado especialmente para funções que não retornam valor algum, e o tipo `any`, que desativa a verificação de tipos e permite que qualquer valor seja atribuído a uma variável, sendo útil em casos onde o tipo não é conhecido de antemão, mas também arriscado por comprometer a segurança do código. O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
 
-[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=aqua)](#)
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 # 🟦 [JS] Variáveis
 Uma variável, por definição, é um espaço nomeado na memória que armazena valores. Em outras palavras, ele atua como um contêiner para valores em um programa. As variáveis TypeScript devem seguir as regras de nomenclatura JavaScript.
