@@ -327,6 +327,10 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 - https://www.igniterealtime.org/downloads/#spark
 - https://pusher.com/
 
+## [JS] TypeORM
+
+## [JS] Sequelize
+
 ## [JS] Cloudnary
 <img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="77" align="right">
 
@@ -365,6 +369,24 @@ API do UPLOAD:
 ```
 https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
+
+# [JS] Prisma
+O **Prisma** é uma ferramenta moderna de acesso a bancos de dados (ORM - *Object-Relational Mapping*) projetada para simplificar e otimizar a interação entre aplicações JavaScript/TypeScript e bancos de dados relacionais, como PostgreSQL, MySQL, SQL Server e SQLite. Ele se destaca por oferecer uma abordagem **type-safe** (com segurança de tipos) e declarativa, combinando a produtividade de um ORM tradicional com a flexibilidade de consultas SQL brutas quando necessário. Diferente de soluções como Sequelize ou TypeORM, o Prisma utiliza um **schema declarativo** em linguagem própria (um arquivo `.prisma`) para definir modelos de dados, relações e configurações do banco, que depois é convertido em código TypeScript automaticamente através de sua CLI. Isso permite autocompletar inteligente em editores e detecção de erros em tempo de desenvolvimento, reduzindo bugs comuns em operações de CRUD.  
+
+Um dos pilares do Prisma é o **Prisma Client**, um cliente de banco de dados gerado automaticamente a partir do schema, que oferece métodos intuitivos para consultas (como `findUnique`, `create`, `update`) com suporte a operações aninhadas (por exemplo, buscar um usuário e seus posts relacionados em uma única query). Ele também evita o problema de *n+1 queries* comum em ORMs tradicionais, graças a otimizações internas. Além disso, o Prisma Client é **agnóstico a frameworks**, funcionando tanto em aplicações Node.js (com Express, NestJS, etc.) quanto em ambientes como Next.js ou até scripts standalone.  
+
+Outro componente importante é o **Prisma Migrate**, um sistema de migrações de banco de dados que sincroniza o schema definido no arquivo `.prisma` com o banco real, gerando scripts SQL ou aplicando alterações automaticamente. Isso facilita o versionamento do banco de dados em equipes, especialmente em projetos com evolução constante do modelo. Para ambientes de produção, o Prisma também oferece suporte a **seeding** (popular bancos com dados iniciais) e integração com ferramentas como o Prisma Studio, uma interface GUI para visualizar e editar dados diretamente.  
+
+O Prisma ainda inclui recursos avançados, como:  
+- **Transações** (para operações atômicas complexas);  
+- **Filtros e paginação** robustos;  
+- **Middlewares** para interceptar queries;  
+- Suporte a **banco de dados não-relacionais** como MongoDB (em versões recentes);  
+- **Type-safety** em tempo real, evitando erros como acessar campos inexistentes.  
+
+Em comparação com ORMs tradicionais, o Prisma elimina muita da "mágica" implícita (como proxies ou carregamento lento de relações), optando por uma abordagem mais explícita e previsível. Seu ponto fraco é a menor flexibilidade em consultas extremamente complexas (onde SQL bruto ainda pode ser necessário) e a curva de aprendizado para configurar relações muitos-para-muitos ou extensões personalizadas. No entanto, para a maioria dos casos de uso em aplicações modernas, o Prisma se tornou uma escolha popular pela combinação de performance, segurança de tipos e produtividade, especialmente em projetos que já utilizam TypeScript.  
+
+Em resumo, o Prisma é mais que um ORM: é um **ecossistema completo para gerenciamento de dados** que equilibra abstração e controle, ideal para desenvolvedores que buscam evitar as armadilhas de ORMs clássicos enquanto mantêm a robustez do TypeScript e a eficiência de consultas otimizadas.
 
 # [JS] AdonisJS 
 
