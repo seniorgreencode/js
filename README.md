@@ -1,5 +1,5 @@
 # 🟦 TypeScript (TS)
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+<a href="https://www.tutorialspoint.com/typescript/index.htm"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
 
 O **TypeScript** (TS) é um superset da linguagem de programação JavaScript. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React, servindo tanto para front-end como back-end. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS. E ele foi desenvolvido e mantido pela Microsoft. Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
 
@@ -35,9 +35,14 @@ Em TypeScript, dados são representações de valores que o programa manipula e 
 
 - **User-defined types**: Tipos definidos pelo usuário incluem `Enums`, `interfaces`, `arrays` e `tuples`.
 
-Entre os tipos primitivos estão `number`, que representa valores numéricos, incluindo inteiros e decimais; `string`, que representa sequências de caracteres como nomes, frases ou qualquer outro texto; e `boolean`, que representa valores lógicos `true` ou `false`, normalmente utilizados em verificações e estruturas de controle. Também existem os tipos `null` e `undefined`, que representam ausência de valor e ausência de definição, respectivamente. Além disso, há o tipo `void`, usado especialmente para funções que não retornam valor algum, e o tipo `any`, que desativa a verificação de tipos e permite que qualquer valor seja atribuído a uma variável, sendo útil em casos onde o tipo não é conhecido de antemão, mas também arriscado por comprometer a segurança do código. O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
+Entre os tipos primitivos estão `number`, que representa valores numéricos, incluindo inteiros e decimais; `string`, que representa sequências de caracteres como nomes, frases ou qualquer outro texto; e `boolean`, que representa valores lógicos `true` ou `false`, normalmente utilizados em verificações e estruturas de controle. 
+
+Também existem os tipos `null` e `undefined`, que representam ausência de valor e ausência de definição, respectivamente. Além disso, há o tipo `void`, usado especialmente para funções que não retornam valor algum, e o tipo `any`, que desativa a verificação de tipos e permite que qualquer valor seja atribuído a uma variável, sendo útil em casos onde o tipo não é conhecido de antemão, mas também arriscado por comprometer a segurança do código. O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
+
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 # 🟦 [JS] Variáveis
+Uma variável, por definição, é um espaço nomeado na memória que armazena valores. Em outras palavras, ele atua como um contêiner para valores em um programa. As variáveis TypeScript devem seguir as regras de nomenclatura JavaScript.
 
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
