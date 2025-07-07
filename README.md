@@ -64,6 +64,8 @@ Uma variável, por definição, é um espaço nomeado na memória que armazena v
 
 Uma variável deve ser declarada antes de ser usada. Use a palavra-chave `var` para declarar variáveis.
 
+# 🟦 [TS] Estruturas de programação
+
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
