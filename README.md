@@ -57,12 +57,14 @@ Também existem os tipos `null` e `undefined`, que representam ausência de valo
 
 [![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
-# 🟦 [JS] Variáveis
+# 🟦 [TS] Variáveis
 Uma variável, por definição, é um espaço nomeado na memória que armazena valores. Em outras palavras, ele atua como um contêiner para valores em um programa. As variáveis TypeScript devem seguir as regras de nomenclatura JavaScript.
 
-> Os nomes de variáveis podem conter alfabetos e dígitos numéricos. Eles não podem conter espaços e caracteres especiais, exceto o sublinhado (`_`) e o sinal de dólar (&dollar;). Os nomes de variáveis não podem começar com um dígito.
+> Os nomes de variáveis podem conter alfabetos e dígitos numéricos. Eles não podem conter espaços e caracteres especiais, exceto o sublinhado (`_`) e o sinal de dólar (`$`). Os nomes de variáveis não podem começar com um dígito.
 
-Uma variável deve ser declarada antes de ser usada. Use a palavra-chave `var` para declarar variáveis.
+Uma variável deve ser declarada antes de ser usada. Use a palavra-chave `var` para declarar variáveis. A sintaxe de tipo para declarar uma variável no TypeScript é incluir dois-pontos (`:`) após o nome da variável, seguido por seu tipo. Assim como em JavaScript, usamos a palavra-chave var para declarar uma variável.
+
+Quando você declara uma variável, você tem quatro opções:
 
 # 🟦 [TS] Estruturas de programação
 
