@@ -81,13 +81,13 @@ var [identifier] : [type-annotation] ;
 - Declare seu valor, mas nenhum tipo. O tipo de variável será definido como o tipo de dados do valor atribuído.
 
 ```typescript
-
+var [identifier] : value ;
 ```
 
 - Não declare nem o valor nem o tipo. Nesse caso, o tipo de dados da variável será `any` e será inicializado como `undefined`.
 
 ```typescript
-
+var [identifier] ;
 ```
 
 # 🟦 [TS] Estruturas de programação
