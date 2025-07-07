@@ -7,12 +7,16 @@ O TS adiciona confiabilidade e definições ao programa (tipos estáticos), prov
 
 ## [TS] Hello, World!
 
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
 ```typescript
 var message:string = "Hello, World!"
 console.log(message)
 ```
 
 Versão compilada do código acima para JS:
+
+[![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 // Compiled Version
