@@ -5,6 +5,14 @@ O **TypeScript** (TS) é um superset da linguagem de programação JavaScript. O
 
 O TS adiciona confiabilidade e definições ao programa (tipos estáticos), provê novas funcionalidades ao JS, como Interfaces. Com o TS podemos verificar os erros antes da execução do código, ou seja, no desenvolvimento. Deixa JavaScript mais explícito, diminuindo a quantidade de bugs. Por estes e outros motivos perdemos menos tempo com debug. Rodando TS vai compilar para JS e roda-lo, não roda no browser e o servidor Node.js.
 
+De fato, o TypeScript opera em uma ampla variedade de ambientes, indo muito além do navegador. No desenvolvimento web, ele é amplamente utilizado com frameworks como Angular, React e Vue, oferecendo tipagem estática, melhor autocompletar, verificação em tempo de compilação e maior robustez no código front-end. No desenvolvimento mobile, o TypeScript é comum em ferramentas como React Native, Ionic e NativeScript, que permitem construir aplicativos nativos ou híbridos utilizando uma base JavaScript/TypeScript unificada. Isso torna possível criar experiências móveis ricas com um único conjunto de tecnologias e com o benefício adicional da segurança de tipos que o TypeScript oferece.
+
+No ambiente desktop, TypeScript também é usado com ferramentas como Electron, que permite criar aplicações de desktop multiplataforma utilizando HTML, CSS e JavaScript/TypeScript. Isso viabiliza o desenvolvimento de sistemas completos com interface gráfica, integração com sistema de arquivos, notificações e outras funcionalidades nativas. Inclusive, muitos aplicativos populares como Visual Studio Code são escritos em TypeScript e rodam sobre Electron.
+
+Até mesmo no contexto de Smart TVs e dispositivos embarcados, é possível utilizar TypeScript por meio de frameworks como Tizen ou plataformas específicas que suportam aplicativos baseados em web. Nessas situações, o TypeScript contribui para a organização e manutenção do código, principalmente em aplicações que exigem interfaces customizadas ou controle remoto por eventos.
+
+Com a constante evolução do ecossistema JavaScript e a crescente adoção do TypeScript, a linguagem se consolidou como uma solução prática e escalável para aplicações modernas em múltiplas plataformas. Seja no navegador, no celular, no computador ou na TV, o TypeScript garante mais segurança, clareza e produtividade no desenvolvimento, independentemente do ambiente de execução.
+
 ## [TS] Hello, World!
 
 [![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
