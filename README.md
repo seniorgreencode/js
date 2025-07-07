@@ -328,6 +328,8 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 - https://pusher.com/
 
 ## [JS] TypeORM
+<a href=""><img src="https://github.com/user-attachments/assets/c49ff467-3748-488b-801b-4e0d62135ef0" height="77" title="Site do Node.js" align="right"/></a>
+
 O **TypeORM** é uma biblioteca de ORM (Object-Relational Mapping) para TypeScript e JavaScript, projetada para facilitar a interação entre aplicações e bancos de dados relacionais (como PostgreSQL, MySQL, SQL Server) e até mesmo alguns bancos NoSQL (como MongoDB). Inspirado em frameworks como Hibernate (Java) e Entity Framework (C#), o TypeORM se destaca por sua integração nativa com TypeScript, oferecendo **type-safety** (segurança de tipos) e uma sintaxe declarativa que permite definir entidades, relacionamentos e operações de banco de dados usando classes e decoradores. Ele é compatível com várias plataformas JavaScript, incluindo Node.js, React Native e aplicações web, sendo amplamente utilizado em projetos que combinam TypeScript com arquiteturas como NestJS ou Express.  
 
 > Antigamente, utilizavamos <a href="http://vitaly-t.github.io/pg-promise/">pg-promise API</a> para realizar o ORM de aplicações. A adoção do TypeORM representa uma maturidade arquitetural: você troca liberdade crua por produtividade e organização. Especialmente em times maiores, com modelos mais complexos e necessidade de manutenibilidade, usar TypeORM (ou similares como Prisma ou MikroORM) ajuda a padronizar o desenvolvimento e evitar erros de baixo nível.
