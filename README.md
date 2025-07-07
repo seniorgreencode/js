@@ -93,6 +93,10 @@ Com o Storybook, o desenvolvedor escreve "histórias", que são representações
 
 Outro ponto forte é a colaboração: designers, desenvolvedores e revisores conseguem visualizar os componentes diretamente no navegador, experimentar suas interações e sugerir melhorias com base em um catálogo funcional e navegável. Por isso, o Storybook é mais do que uma ferramenta de desenvolvimento, é um hub de colaboração e padronização da experiência de usuário em projetos modernos. Ele ajuda a escalar aplicações de forma mais consistente, mantendo a coesão visual e funcional entre os diversos elementos da interface.
 
+## [TS] Tailwind CSS
+
+## [TS] Next.js
+
 ## [TS] Nx
 <img src="https://github.com/user-attachments/assets/743d8210-cd22-4f0c-869e-71825bbbcd53" align="right" height="77">
 
