@@ -90,6 +90,10 @@ var [identifier] : value ;
 var [identifier] ;
 ```
 
+A tabela a seguir ilustra a sintaxe válida para declaração de variável, conforme discutido acima:
+
+
+
 # 🟦 [TS] Estruturas de programação
 
 # 🟦 [TS] MEAN Stack
