@@ -393,6 +393,8 @@ https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
 
 ## [JS] Prisma
+<img src="https://github.com/user-attachments/assets/fdd85ed2-6ca1-4bd6-8b8d-b69ac47b7ff4" align="right" height="77"> 
+
 O **Prisma** é uma ferramenta moderna de acesso a bancos de dados (ORM - *Object-Relational Mapping*) projetada para simplificar e otimizar a interação entre aplicações JavaScript/TypeScript e bancos de dados relacionais, como PostgreSQL, MySQL, SQL Server e SQLite. Ele se destaca por oferecer uma abordagem **type-safe** (com segurança de tipos) e declarativa, combinando a produtividade de um ORM tradicional com a flexibilidade de consultas SQL brutas quando necessário. Diferente de soluções como Sequelize ou TypeORM, o Prisma utiliza um **schema declarativo** em linguagem própria (um arquivo `.prisma`) para definir modelos de dados, relações e configurações do banco, que depois é convertido em código TypeScript automaticamente através de sua CLI. Isso permite autocompletar inteligente em editores e detecção de erros em tempo de desenvolvimento, reduzindo bugs comuns em operações de CRUD.  
 
 Um dos pilares do Prisma é o **Prisma Client**, um cliente de banco de dados gerado automaticamente a partir do schema, que oferece métodos intuitivos para consultas (como `findUnique`, `create`, `update`) com suporte a operações aninhadas (por exemplo, buscar um usuário e seus posts relacionados em uma única query). Ele também evita o problema de *n+1 queries* comum em ORMs tradicionais, graças a otimizações internas. Além disso, o Prisma Client é **agnóstico a frameworks**, funcionando tanto em aplicações Node.js (com Express, NestJS, etc.) quanto em ambientes como Next.js ou até scripts standalone.  
