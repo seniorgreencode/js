@@ -37,6 +37,8 @@ Em TypeScript, dados são representações de valores que o programa manipula e 
 
 Entre os tipos primitivos estão `number`, que representa valores numéricos, incluindo inteiros e decimais; `string`, que representa sequências de caracteres como nomes, frases ou qualquer outro texto; e `boolean`, que representa valores lógicos `true` ou `false`, normalmente utilizados em verificações e estruturas de controle. Também existem os tipos `null` e `undefined`, que representam ausência de valor e ausência de definição, respectivamente. Além disso, há o tipo `void`, usado especialmente para funções que não retornam valor algum, e o tipo `any`, que desativa a verificação de tipos e permite que qualquer valor seja atribuído a uma variável, sendo útil em casos onde o tipo não é conhecido de antemão, mas também arriscado por comprometer a segurança do código. O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
 
+# 🟦 [JS] Variáveis
+
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
