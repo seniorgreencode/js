@@ -23,7 +23,7 @@
 
 - chrome://inspect/#devices -->
 
-# ⬢ Node.js 
+# ⬢ [JS] Node.js 
 <img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> 
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
@@ -106,7 +106,7 @@ Linux: No diretório do usuário (root):
 sudo apt install nodejs
 ```
 
-# 📦 `npm` - Node Package Manager
+# 📦 [JS] `npm` - Node Package Manager
 <a href="https://www.npmjs.com/"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" title="Site do NPM" align="right"/></a>
 
 O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node.js, mesmo sendo o gerenciador ele também é independente do Node.js. É através do NPM que podemos instalar a bibliotecas do Node para desenvolver qualquer tipo de aplicação.
@@ -185,7 +185,7 @@ Gostaria de apresentar também alguns pacotes interessantes do NPM como:
 
 - <a href="">open</a>: Abre URLs, executáveis e outros arquivos em aplicações desejadas
 
-# 🧶 YARN - yet another resource negotiator
+# 🧶 [JS] YARN - yet another resource negotiator
 <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
@@ -227,7 +227,7 @@ Depois de instalado, para inserir o Yarn em seu projeto, siga estas etapas:
 yarn dev
 ```
 
-## Hello, World - Node.js
+## [JS] Hello, World - Node.js
 Crie uma pasta e lá crie o script `App.js` e escreva o seguinte comando:
 
 ```javascript
