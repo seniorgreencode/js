@@ -330,6 +330,8 @@ The **Socket.io** is an awesome library that provides a real-time event-driven c
 ## [JS] TypeORM
 O **TypeORM** é uma biblioteca de ORM (Object-Relational Mapping) para TypeScript e JavaScript, projetada para facilitar a interação entre aplicações e bancos de dados relacionais (como PostgreSQL, MySQL, SQL Server) e até mesmo alguns bancos NoSQL (como MongoDB). Inspirado em frameworks como Hibernate (Java) e Entity Framework (C#), o TypeORM se destaca por sua integração nativa com TypeScript, oferecendo **type-safety** (segurança de tipos) e uma sintaxe declarativa que permite definir entidades, relacionamentos e operações de banco de dados usando classes e decoradores. Ele é compatível com várias plataformas JavaScript, incluindo Node.js, React Native e aplicações web, sendo amplamente utilizado em projetos que combinam TypeScript com arquiteturas como NestJS ou Express.  
 
+> Antigamente, utilizavamos <a href="http://vitaly-t.github.io/pg-promise/">pg-promise API</a> para realizar o ORM de aplicações. A adoção do TypeORM representa uma maturidade arquitetural: você troca liberdade crua por produtividade e organização. Especialmente em times maiores, com modelos mais complexos e necessidade de manutenibilidade, usar TypeORM (ou similares como Prisma ou MikroORM) ajuda a padronizar o desenvolvimento e evitar erros de baixo nível.
+
 Uma das características mais marcantes do TypeORM é o uso de **decoradores** para definir modelos de dados. Por exemplo, uma entidade `User` pode ser representada como uma classe TypeScript com anotações como `@Entity()`, `@PrimaryGeneratedColumn()`, ou `@Column()`, que mapeiam propriedades da classe para colunas no banco de dados. Isso torna o código mais legível e alinhado com a mentalidade orientada a objetos, enquanto o TypeORM cuida da tradução para SQL por trás dos panos. Além disso, o TypeORM suporta relações complexas (como `@OneToMany`, `@ManyToOne`, e `@ManyToMany`) com carregamento **eager** ou **lazy**, permitindo consultas aninhadas sem exigir SQL manual.  
 
 Para operações de banco de dados, o TypeORM oferece dois estilos principais: o **Active Record** (onde os métodos de consulta são definidos diretamente nas entidades, como `User.find()`) e o **Data Mapper** (que usa um repositório separado, como `userRepository.find()`). Essa flexibilidade atende a diferentes preferências de arquitetura. O ORM também inclui recursos avançados como **transações**, **migrações** (para versionamento do esquema do banco), **indices**, **subscribers** (para reagir a eventos como `afterInsert`), e suporte a **queries builder** (uma interface fluente para montar consultas dinâmicas) ou SQL bruto quando necessário.  
@@ -434,9 +436,6 @@ Em resumo, o AdonisJS é uma opção sólida para desenvolvedores que buscam um 
 npm install express
 node index.js
 ```
-
-# pg-promise API
-- http://vitaly-t.github.io/pg-promise/
 
 ## Node-Sass
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/node-sass.svg" height="77" align="right" title="Site do Node.js"/></a>
