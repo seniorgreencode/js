@@ -9,11 +9,31 @@ O TS adiciona confiabilidade e definições ao programa (tipos estáticos), prov
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
 # [TS] Prisma
+O **Prisma** é uma ferramenta moderna de acesso a bancos de dados (ORM - *Object-Relational Mapping*) projetada para simplificar e otimizar a interação entre aplicações JavaScript/TypeScript e bancos de dados relacionais, como PostgreSQL, MySQL, SQL Server e SQLite. Ele se destaca por oferecer uma abordagem **type-safe** (com segurança de tipos) e declarativa, combinando a produtividade de um ORM tradicional com a flexibilidade de consultas SQL brutas quando necessário. Diferente de soluções como Sequelize ou TypeORM, o Prisma utiliza um **schema declarativo** em linguagem própria (um arquivo `.prisma`) para definir modelos de dados, relações e configurações do banco, que depois é convertido em código TypeScript automaticamente através de sua CLI. Isso permite autocompletar inteligente em editores e detecção de erros em tempo de desenvolvimento, reduzindo bugs comuns em operações de CRUD.  
+
+Um dos pilares do Prisma é o **Prisma Client**, um cliente de banco de dados gerado automaticamente a partir do schema, que oferece métodos intuitivos para consultas (como `findUnique`, `create`, `update`) com suporte a operações aninhadas (por exemplo, buscar um usuário e seus posts relacionados em uma única query). Ele também evita o problema de *n+1 queries* comum em ORMs tradicionais, graças a otimizações internas. Além disso, o Prisma Client é **agnóstico a frameworks**, funcionando tanto em aplicações Node.js (com Express, NestJS, etc.) quanto em ambientes como Next.js ou até scripts standalone.  
+
+Outro componente importante é o **Prisma Migrate**, um sistema de migrações de banco de dados que sincroniza o schema definido no arquivo `.prisma` com o banco real, gerando scripts SQL ou aplicando alterações automaticamente. Isso facilita o versionamento do banco de dados em equipes, especialmente em projetos com evolução constante do modelo. Para ambientes de produção, o Prisma também oferece suporte a **seeding** (popular bancos com dados iniciais) e integração com ferramentas como o Prisma Studio, uma interface GUI para visualizar e editar dados diretamente.  
+
+O Prisma ainda inclui recursos avançados, como:  
+- **Transações** (para operações atômicas complexas);  
+- **Filtros e paginação** robustos;  
+- **Middlewares** para interceptar queries;  
+- Suporte a **banco de dados não-relacionais** como MongoDB (em versões recentes);  
+- **Type-safety** em tempo real, evitando erros como acessar campos inexistentes.  
+
+Em comparação com ORMs tradicionais, o Prisma elimina muita da "mágica" implícita (como proxies ou carregamento lento de relações), optando por uma abordagem mais explícita e previsível. Seu ponto fraco é a menor flexibilidade em consultas extremamente complexas (onde SQL bruto ainda pode ser necessário) e a curva de aprendizado para configurar relações muitos-para-muitos ou extensões personalizadas. No entanto, para a maioria dos casos de uso em aplicações modernas, o Prisma se tornou uma escolha popular pela combinação de performance, segurança de tipos e produtividade, especialmente em projetos que já utilizam TypeScript.  
+
+Em resumo, o Prisma é mais que um ORM: é um **ecossistema completo para gerenciamento de dados** que equilibra abstração e controle, ideal para desenvolvedores que buscam evitar as armadilhas de ORMs clássicos enquanto mantêm a robustez do TypeScript e a eficiência de consultas otimizadas.
 
 # [TS] TypeORM
 
 # [TS] Zod
+<img src="https://github.com/user-attachments/assets/cb4fa1f3-501b-4733-89d9-e8177cac8bb6" align="right" height="77">
+
 **Zod** é uma biblioteca TypeScript-first usada para validação e definição de esquemas de dados. Ela permite que você defina a forma de um objeto, incluindo os tipos esperados para cada campo, e valide se determinados dados seguem essa estrutura. É muito utilizada em projetos com TypeScript porque integra de forma nativa com o sistema de tipos, o que significa que você pode escrever um esquema com Zod e automaticamente obter os tipos inferidos para usar ao longo da sua aplicação com segurança. Isso reduz a necessidade de duplicar definições — uma vez que o esquema também serve como tipagem estática. Zod é inspirada em bibliotecas como Yup e Joi, mas foca na simplicidade, desempenho e integração mais direta com o TypeScript.
+
+A biblioteca Zod não é especificamente para testes E2E (End-to-End), mas sim uma ferramenta de validação de dados em tempo de execução (runtime) e inferência de tipos para TypeScript. Ela é usada principalmente para garantir que os dados recebidos ou manipulados pelo seu código estejam em conformidade com esquemas pré-definidos, combinando segurança de tipos estáticos (TypeScript) com validação em tempo real.
 
 Além da validação de tipos primitivos como string, number, boolean e array, Zod também permite composições mais complexas, como objetos aninhados, validações assíncronas, união de tipos, enums, schemas parciais e transformações de dados. Por exemplo, você pode definir um schema `z.object({ nome: z.string(), idade: z.number().int() })` e usá-lo tanto para garantir que os dados estejam corretos em tempo de execução quanto para gerar o tipo correspondente para uso estático em TypeScript.
 
