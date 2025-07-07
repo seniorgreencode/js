@@ -695,6 +695,8 @@ Em resumo, o Deno representa uma evolução no desenvolvimento com JavaScript/Ty
 * Tem suporte nativo ao `await`
 * Busca ser o mais compatível possível com navegadores (inclui `fetch` embutido e o objeto global `window`)
 
+## [JS] Hello, World - Deno
+
 # 🍙 [JS] Bun
 **Bun** é um runtime de JavaScript e TypeScript extremamente rápido, projetado para ser uma alternativa moderna ao Node.js e Deno, com foco em desempenho, eficiência e simplificação do fluxo de trabalho de desenvolvimento. Desenvolvido por Jarred Sumner, o Bun foi criado para resolver algumas das ineficiências do Node.js, especialmente em termos de velocidade de inicialização, execução de scripts e gerenciamento de dependências. Uma das características mais marcantes do Bun é que ele é construído em Zig, uma linguagem de programação de baixo nível que prioriza desempenho e controle, e utiliza o motor JavaScript WebKit (em vez do V8, usado por Node.js e Deno), o que contribui para sua velocidade excepcional.  
 
@@ -705,6 +707,8 @@ Uma das maiores vantagens do Bun é sua velocidade. Benchmarks demonstram que el
 Outro diferencial é a experiência do desenvolvedor. O Bun inclui suporte nativo para TypeScript e JSX sem configuração adicional, assim como o Deno, mas com a vantagem de uma integração mais suave com o ecossistema existente do Node.js. Ele também oferece APIs adicionais, como `Bun.file` para operações de arquivo otimizadas e `Bun.serve` para criar servidores HTTP rápidos com poucas linhas de código. Além disso, o Bun tem um foco especial em compatibilidade, buscando executar a maioria dos pacotes do npm sem modificações, o que o torna mais atraente para projetos legados que precisam de modernização sem grandes refatorações.  
 
 No entanto, o Bun ainda é uma tecnologia relativamente nova e em desenvolvimento ativo, o que significa que pode haver instabilidades ou falta de suporte para alguns casos de uso avançados. Apesar disso, sua promessa de desempenho superior e simplicidade já chamou a atenção da comunidade, especialmente para projetos que exigem velocidade de execução e deploy. Em resumo, o Bun representa mais um passo na evolução dos runtimes JavaScript, combinando a eficiência de baixo nível com uma experiência de desenvolvedor simplificada, posicionando-se como uma opção viável para quem busca alternativas mais rápidas e integradas ao Node.js e Deno.
+
+## [JS] Hello, World - Bun
 
 # 🧪 [JS] DDD, BDD e TDD
 Em Node.js, as abordagens **DDD (Domain-Driven Design)**, **BDD (Behavior-Driven Development)** e **TDD (Test-Driven Development)** são estratégias complementares que, quando aplicadas em conjunto, podem melhorar a qualidade, a manutenibilidade e a clareza do código, especialmente em projetos complexos ou com regras de negócio sofisticadas. As abordagens DDD (Domain-Driven Design), BDD (Behavior-Driven Development) e TDD (Test-Driven Development) também se aplicam a Deno e Bun, assim como em Node.js, mas com algumas particularidades específicas de cada runtime. Essas metodologias mantêm seus princípios fundamentais, porém a forma como são implementadas pode variar devido às diferenças nas ferramentas, ecossistemas e filosofias de cada plataforma.
