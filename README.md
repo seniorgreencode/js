@@ -1,4 +1,6 @@
 # 🟦 TypeScript (TS)
+<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-mindmap-ffffff?style=flat&logo=typescript&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-observablehq-ffffff?style=flat&logo=typescript&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-DSA-ffffff?style=flat&logo=typescript&logoColor=aqua)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-ffffff?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/React.js-repository-ffffff?style=flat&logo=React&logoColor=aqua)</a>
+
 <a href="https://www.tutorialspoint.com/typescript/index.htm"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
 
 O **TypeScript** (TS) é um superset da linguagem de programação JavaScript. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React, servindo tanto para front-end como back-end. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS. E ele foi desenvolvido e mantido pela Microsoft. Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro.
@@ -13,9 +15,15 @@ Até mesmo no contexto de Smart TVs e dispositivos embarcados, é possível util
 
 Com a constante evolução do ecossistema JavaScript e a crescente adoção do TypeScript, a linguagem se consolidou como uma solução prática e escalável para aplicações modernas em múltiplas plataformas. Seja no navegador, no celular, no computador ou na TV, o TypeScript garante mais segurança, clareza e produtividade no desenvolvimento, independentemente do ambiente de execução.
 
+O desenvolvimento para Roku TV não é feito nativamente em TypeScript, mas sim em uma linguagem própria da plataforma chamada BrightScript. BrightScript é uma linguagem interpretada, parecida com BASIC, que foi criada especificamente para o ecossistema Roku, usada para desenvolver canais (aplicativos) que rodam em dispositivos Roku.
+
+No entanto, nos últimos anos, a comunidade passou a criar ferramentas que transpilem TypeScript para BrightScript, permitindo que desenvolvedores usem TypeScript como linguagem de origem para criar apps Roku, aproveitando os recursos de tipagem, modularização e tooling moderno. Um dos projetos mais conhecidos nesse sentido é o Roku Community TypeScript (também conhecido como Roku-ts), que transpila o código TypeScript em BrightScript. Com ele, desenvolvedores podem escrever lógica de aplicação em TypeScript, usando classes, interfaces, tipos e até decorators, e então gerar o código compatível com a plataforma Roku.
+
+Portanto, o Roku TV não roda diretamente TypeScript, mas é possível desenvolver para Roku com TypeScript por meio de ferramentas que fazem essa conversão. Isso está se tornando mais comum entre desenvolvedores que já utilizam TypeScript em outras plataformas e querem manter uma base de código moderna e consistente mesmo ao criar apps para Roku. Então, sua lembrança está correta no sentido de que há uso de TypeScript no desenvolvimento Roku, mas não como linguagem nativa — e sim como linguagem de desenvolvimento que é transformada para o formato exigido pela plataforma.
+
 ## [TS] Hello, World!
 
-[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=aqua)](#)
 
 ```typescript
 var message:string = "Hello, World!"
@@ -26,7 +34,7 @@ Se nós quisermos mudar a sintaxe do tipo `string`, para outro tipo como `intege
 
 Versão compilada do código acima para JS:
 
-[![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+[![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=typescript&logoColor=yellow)](#)
 
 ```javascript
 // Compiled Version
@@ -47,7 +55,7 @@ Entre os tipos primitivos estão `number`, que representa valores numéricos, in
 
 Também existem os tipos `null` e `undefined`, que representam ausência de valor e ausência de definição, respectivamente. Além disso, há o tipo `void`, usado especialmente para funções que não retornam valor algum, e o tipo `any`, que desativa a verificação de tipos e permite que qualquer valor seja atribuído a uma variável, sendo útil em casos onde o tipo não é conhecido de antemão, mas também arriscado por comprometer a segurança do código. O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
 
-[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=aqua)](#)
 
 # 🟦 [JS] Variáveis
 Uma variável, por definição, é um espaço nomeado na memória que armazena valores. Em outras palavras, ele atua como um contêiner para valores em um programa. As variáveis TypeScript devem seguir as regras de nomenclatura JavaScript.
