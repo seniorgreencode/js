@@ -28,11 +28,11 @@ console.log(message);
 
 # 🟦 [TS] Dados e tipos primitivos
 
-- The Any type:
+- **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript.
 
-- Built-in types:
+- **Built-in types**: `Number`, `String`, `Boolean`, `Void`, `Null`, `Undefined` são tipos embutidos no TypeScript.
 
-- User-defined types:
+- **User-defined types**: Tipos definidos pelo usuário incluem `Enums`, `interfaces`, `arrays` e `tuples`.
 
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
