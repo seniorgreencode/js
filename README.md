@@ -412,7 +412,7 @@ Em comparação com ORMs tradicionais, o Prisma elimina muita da "mágica" impl�
 
 Em resumo, o Prisma é mais que um ORM: é um **ecossistema completo para gerenciamento de dados** que equilibra abstração e controle, ideal para desenvolvedores que buscam evitar as armadilhas de ORMs clássicos enquanto mantêm a robustez do TypeScript e a eficiência de consultas otimizadas.
 
-# [JS] AdonisJS 
+# [JS] 💜 AdonisJS 
 
 <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
 
