@@ -14,6 +14,8 @@ var message:string = "Hello, World!"
 console.log(message)
 ```
 
+Se nós quisermos mudar a sintaxe do tipo `string`, para outro tipo como `integer`, o TypeScript vai acusar um erro de tipo na atribuição, não na impressão, pois estamos imprimindo no console um caractere do tipo `string`. Reportará o seguinte erro no console: `Type '"Hello, World!"' is not assignable to type 'integer'.`
+
 Versão compilada do código acima para JS:
 
 [![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
