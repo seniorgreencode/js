@@ -23,7 +23,7 @@ Portanto, o Roku TV não roda diretamente TypeScript, mas é possível desenvolv
 
 ## [TS] Hello, World!
 
-[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=aqua)](#)
+[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 ```typescript
 var message:string = "Hello, World!"
