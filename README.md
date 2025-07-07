@@ -68,11 +68,27 @@ Quando você declara uma variável, você tem quatro opções:
 
 - Declare seu tipo e valor em uma instrução.
 
+```typescript
+var [identifier] : [type-annotation] = value ;
+```
+
 - Declare seu tipo, mas nenhum valor. Nesse caso, a variável será definida como indefinida.
+
+```typescript
+var [identifier] : [type-annotation] ;
+```
 
 - Declare seu valor, mas nenhum tipo. O tipo de variável será definido como o tipo de dados do valor atribuído.
 
+```typescript
+
+```
+
 - Não declare nem o valor nem o tipo. Nesse caso, o tipo de dados da variável será `any` e será inicializado como `undefined`.
+
+```typescript
+
+```
 
 # 🟦 [TS] Estruturas de programação
 
