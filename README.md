@@ -137,6 +137,12 @@ Quando se trata de escopo, funciona da mesma forma como no JavaScript:
 
 - **Local Scope**: Variáveis locais, como o nome sugere, são declaradas dentro das estruturas como métodos, laços etc.
 
+O TypeScript tem as mesmas regras que o JavaScript para declarar variáveis. Inicialmente, apenas a palavra-chave '`var`' era usada para declarar a variável, mas na versão ES6 do JavaScript, as palavras-chave `let` e `const` são introduzidas para declarar uma variável. Portanto, você também pode usá-los no TypeScript.
+
+Nesta lição, você aprenderá a declarar uma variável usando as palavras-chave `let` e `const` e como essas variáveis são diferentes das variáveis declaradas usando a palavra-chave `var`.
+
+# 🟦 [TS] Tuples
+
 # 🟦 [TS] Estruturas de programação
 
 # 🟦 [TS] MEAN Stack
