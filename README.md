@@ -120,7 +120,9 @@ nome var;
 // O tipo de dados variáveis é any. Seu valor é definido como indefinido por padrão.
 ```
 
-Exemplo:
+Exemplo: Variáveis
+
+[![TS](https://img.shields.io/badge/-Variaveis.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 ```typescript
 var name:string = "Isaac" ;
@@ -163,6 +165,26 @@ let var_name: var_type = value;
 
 # 🟦 [TS] Classes e Objetos
 TypeScript é JavaScript orientado a objetos (OOP). O TypeScript oferece suporte a recursos de programação orientada a objetos, como classes, interfaces, etc. Uma **classe** em termos de OOP é um projeto para a criação de **objetos**. Uma classe encapsula dados para o objeto. O Typescript fornece suporte integrado para esse conceito chamado classe. JavaScript ES5 ou anterior não suportava classes. O Typescript obtém esse recurso do ES6.
+
+[![TS](https://img.shields.io/badge/-Classes.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
+```typescript
+class Car { 
+   engine:string; 
+   
+   constructor(engine:string) { 
+      this.engine = engine 
+   }  
+   
+   disp():void { 
+      console.log("Function displays Engine is  :   "+this.engine) 
+   } 
+} 
+
+var obj = new Car("XXSY1")
+console.log("Reading attribute value Engine as :  "+obj.engine)  
+obj.disp()
+```
 
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
