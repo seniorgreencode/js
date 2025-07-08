@@ -11,7 +11,7 @@
 
 https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f https://reactjsexample.com/a-svg-blob-generator-build-with-react/
 
-## Dicas para pensar do jeito ReactJS
+Dicas para pensar do jeito ReactJS:
 - Comece com um Mock
 - Separe a UI em uma Hierarquia de componentes ou crie uma pasta `./components/` para agrupar cada tipo de componente de maneira isolada
 - Crie uma versão estática em React
