@@ -1779,7 +1779,7 @@ O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>`
 # Material-UI
 <img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
 
-# Styled-components
+# 💅 Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
 
 O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes. Os componentes são renderizados com a página, e o CSS é aplicado conforme a necessidade. E com o CSS no mesmo arquivo do JavaScript, fica fácil localizar as informações caso precise realizar uma manutenção.
