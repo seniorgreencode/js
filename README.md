@@ -96,7 +96,11 @@ var [identifier] ;
 
 A tabela a seguir ilustra a sintaxe válida para declaração de variável, conforme discutido acima:
 
+```typescript
+var nome:string = maria
 
+// A variável armazena um valor do tipo string
+```
 
 # 🟦 [TS] Estruturas de programação
 
