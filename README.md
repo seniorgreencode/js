@@ -1346,6 +1346,69 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
+# [React] Material-UI
+<img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
+
+# [React] Chakra UI
+
+# 💅 [React] Styled-components
+<img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
+
+O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes. Os componentes são renderizados com a página, e o CSS é aplicado conforme a necessidade. E com o CSS no mesmo arquivo do JavaScript, fica fácil localizar as informações caso precise realizar uma manutenção.
+
+O Styled-components ainda existe e está ativo, não está deprecated nem descontinuado. Ele continua sendo uma das bibliotecas mais populares para estilização de componentes em aplicações React, especialmente no paradigma de CSS-in-JS. O projeto está disponível no GitHub e ainda recebe atualizações, embora a frequência delas possa ter diminuído em comparação com os anos de maior adoção.
+
+No entanto, com o crescimento de ferramentas como Tailwind CSS, CSS Modules, Emotion e até o suporte nativo a Style Props no React Native, alguns times e comunidades têm optado por alternativas mais performáticas ou com menor acoplamento de lógica e estilo. Isso não significa que o Styled-components caiu em desuso — ele ainda é bastante utilizado em projetos novos e existentes, especialmente por quem valoriza a coesão entre lógica e estilo no mesmo arquivo (usando template literals com JavaScript/TypeScript).
+
+Portanto, você pode continuar usando o Styled-components com segurança. Mas, como qualquer ferramenta, é importante avaliar se ele ainda é a melhor escolha para o seu stack, levando em conta fatores como performance, preferência da equipe e integração com outras bibliotecas ou frameworks.
+
+```sh
+npm install --save styled-components
+```
+
+Com styled-components, você pode criar componentes React com estilos específicos, definidos usando uma sintaxe de template literal semelhante ao CSS-in-JS. Aqui está um exemplo básico de como usar styled-components:
+
+```javascript
+import styled from 'styled-components';
+
+// Define um componente de botão estilizado
+const Button = styled.button`
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darkblue;
+  }
+`;
+
+// Usa o componente de botão estilizado (E foi chamado no componente App)
+function App() {
+  return (
+    <div>
+      <Button>Clique Aqui</Button>
+    </div>
+  );
+}
+```
+
+Neste exemplo, `Button` é um componente React estilizado usando styled-components. O estilo é definido dentro do <a href="">tagged template literals</a> (<code>``</code>) e pode incluir CSS normal, incluindo pseudoelementos e pseudoclasse, como `:hover`.
+
+As principais vantagens do styled-components incluem:
+
+1. **Encapsulamento de estilos**: Os estilos são definidos dentro do escopo do componente, o que significa que não há vazamento de estilos para outros componentes.
+
+2. **Facilidade de manutenção**: Como os estilos estão diretamente associados aos componentes, é mais fácil entender e manter o código, especialmente em projetos maiores.
+
+3. **Componentização dos estilos**: Os estilos podem ser reutilizados e compartilhados entre os componentes, o que promove a modularidade e a consistência do design.
+
+4. **Suporte total para CSS**: Você pode usar todas as características do CSS, incluindo variáveis, mixins, animações, etc., dentro dos componentes estilizados.
+
+Styled-components se tornou uma escolha popular para estilização em projetos React e React Native devido à sua simplicidade, flexibilidade e poder.
+
 # 📦 [React] Webpack
 <a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
@@ -1769,67 +1832,6 @@ No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assínc
 O **React Router** é uma biblioteca oficial do ecossistema React que permite criar navegação e rotas em aplicações de página única (SPAs). Em uma SPA, ao contrário das aplicações web tradicionais que recarregam a página inteira a cada nova navegação, o React Router permite que a mudança de páginas ou seções ocorra de maneira fluida, sem recarregar o navegador, apenas trocando os componentes exibidos com base na URL. Isso é feito através da manipulação do histórico de navegação do navegador (history API) e da renderização condicional de componentes. 
 
 O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>` e `<Link>`, que facilitam tanto a definição das rotas quanto a navegação entre elas. É possível criar rotas aninhadas, rotas protegidas (como as que exigem autenticação), rotas dinâmicas com parâmetros de URL, e até rotas com comportamento assíncrono, como carregamento sob demanda (lazy loading) de componentes. Ele também oferece hooks como `useParams`, `useNavigate` e `useLocation`, que dão acesso aos dados da rota atual ou permitem navegar programaticamente dentro da aplicação. Em resumo, o React Router é essencial para construir experiências de navegação ricas, responsivas e sem interrupções em aplicações modernas feitas com React.
-
-# Material-UI
-<img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
-
-# 💅 Styled-components
-<img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
-
-O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes. Os componentes são renderizados com a página, e o CSS é aplicado conforme a necessidade. E com o CSS no mesmo arquivo do JavaScript, fica fácil localizar as informações caso precise realizar uma manutenção.
-
-O Styled-components ainda existe e está ativo, não está deprecated nem descontinuado. Ele continua sendo uma das bibliotecas mais populares para estilização de componentes em aplicações React, especialmente no paradigma de CSS-in-JS. O projeto está disponível no GitHub e ainda recebe atualizações, embora a frequência delas possa ter diminuído em comparação com os anos de maior adoção.
-
-No entanto, com o crescimento de ferramentas como Tailwind CSS, CSS Modules, Emotion e até o suporte nativo a Style Props no React Native, alguns times e comunidades têm optado por alternativas mais performáticas ou com menor acoplamento de lógica e estilo. Isso não significa que o Styled-components caiu em desuso — ele ainda é bastante utilizado em projetos novos e existentes, especialmente por quem valoriza a coesão entre lógica e estilo no mesmo arquivo (usando template literals com JavaScript/TypeScript).
-
-Portanto, você pode continuar usando o Styled-components com segurança. Mas, como qualquer ferramenta, é importante avaliar se ele ainda é a melhor escolha para o seu stack, levando em conta fatores como performance, preferência da equipe e integração com outras bibliotecas ou frameworks.
-
-```sh
-npm install --save styled-components
-```
-
-Com styled-components, você pode criar componentes React com estilos específicos, definidos usando uma sintaxe de template literal semelhante ao CSS-in-JS. Aqui está um exemplo básico de como usar styled-components:
-
-```javascript
-import styled from 'styled-components';
-
-// Define um componente de botão estilizado
-const Button = styled.button`
-  background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: darkblue;
-  }
-`;
-
-// Usa o componente de botão estilizado (E foi chamado no componente App)
-function App() {
-  return (
-    <div>
-      <Button>Clique Aqui</Button>
-    </div>
-  );
-}
-```
-
-Neste exemplo, `Button` é um componente React estilizado usando styled-components. O estilo é definido dentro do <a href="">tagged template literals</a> (<code>``</code>) e pode incluir CSS normal, incluindo pseudoelementos e pseudoclasse, como `:hover`.
-
-As principais vantagens do styled-components incluem:
-
-1. **Encapsulamento de estilos**: Os estilos são definidos dentro do escopo do componente, o que significa que não há vazamento de estilos para outros componentes.
-
-2. **Facilidade de manutenção**: Como os estilos estão diretamente associados aos componentes, é mais fácil entender e manter o código, especialmente em projetos maiores.
-
-3. **Componentização dos estilos**: Os estilos podem ser reutilizados e compartilhados entre os componentes, o que promove a modularidade e a consistência do design.
-
-4. **Suporte total para CSS**: Você pode usar todas as características do CSS, incluindo variáveis, mixins, animações, etc., dentro dos componentes estilizados.
-
-Styled-components se tornou uma escolha popular para estilização em projetos React e React Native devido à sua simplicidade, flexibilidade e poder.
 
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
