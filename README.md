@@ -1853,7 +1853,7 @@ Algumas características principais do Preact incluem:
 
 Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
 
-# △ Next.js
+# ⚫ [React] Next.js
 <a href=""><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
 <a href="https://www.youtube.com/watch?v=PGPGcKBpAk8"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
@@ -1925,12 +1925,15 @@ Tanto o arquivo JS ou o diretório é interpretado pelo Next.js para criar rotas
 
 Vamos ver agora, a autenticação com Next.js com a biblioteca NextAuth.js.
 
-# Vite
+# ⚡ [React] Vite
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
 
 ```sh
 npm create vite@latest ./ -- --template react
 ```
+
+# 🧪 [React] DDD, BDD e TDD
+
 
 <!--
 https://miro.medium.com/max/2400/1*rpHtt5VicGT3T-mVJJ2jFw.gif
