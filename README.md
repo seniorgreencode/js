@@ -451,248 +451,8 @@ Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossis
 
 E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
-# 📦 [React] Webpack
-<a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
-O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
-
-Os principais conceitos do Webpack são:
-
-- **Entry** - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
-- **Output** - É para determinar quais são os bundlers que o Webpack irá emitir.
-- **Loaders** - É para permitir que o Webpack gerencie arquivos não são JavaScript.
-- **Plugins** - Plugins podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e muito mais.
-- **Mode** - Utilizados para abordagem de configuração zero. É possível configurar módulos como **production**, **development** ou **none**.
-
-<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
-
-  - **Production** trás otimizações internas.
-  
-  - **Development** é executado com três plugins: **UglifyJsPlugin**, **ModuleConcatenationPlugin** e **NoEmitOnErrorsPlugin**.
-
-Instale o comando abaixo no terminal:
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-
-```sh
-npm i -D webpack webpack-cli
-```
-
-Depois de instalar, crie um arquivo na pasta do projeto chamado: `webpack.config.js`:
-
-[![Webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
-
-```javascript
-const path = require('path');
-
-module.exports = {
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundler.js'
-    }
-}
-```
-
-Nós temos uma variável const `path` que é referente ao caminho do Webpack e uma exportação de módulos `module.exports` com o `entry` (ponto de entrada do Webpack) apontando para o `index.js`, o arquivo inicial do nosso projeto, e em `output`, ou seja temos entrada e saída do nosso bundler, temos o path com o nome do diretório, que no caso é `dist`, se tratando do diretório do projeto final da aplicação, mas também pode ser `build` ou qualquer nome a seu critério. 
-
-Além disso, também tem o `filename` que é o nome do bundle para que quando chegar ao resultado final da aplicação ele seja nomeado com esse nome de arquivo, o nome dele também fica a critério.
-
-[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
-```javascript
-console.log('Hello, world!');
-```
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-```json
-"build": "webpack --mode production"
-```
-
-[![NPM](https://img.shields.io/badge/-npm_running_to_production-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm run build
-```
-
-Com isso ele vai gerar o nosso build com a pasta `./dist/`, que é a mesma que foi definida no output do `webpack.config.js`, e dentro dela o arquivo `bundler.js` minificado com uma linha de script.
-
-[![node running the bundler.js](https://img.shields.io/badge/-node_running_the_bundler.js-fff?style=social&logo=Node.js&logoColor=green)](#)
-
-```
-node dist/bundler.js
-```
-
-> O script está funcionando!
-
-<pre>Hello, World!</pre>
-
-Utilizando o Webpack com Babel.js para transpilar o ES6 para ES5 com React.js:
-
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/161461421-2ae48a60-8925-4b48-94da-65cb3192a446.png" height="87%"></div><br \>
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
-```
-
-> Caso dê erro pela sintaxe da instalação, instale elas individualmente, exemplo: 
-> - `npm i @babel/core --save-dev`
-> - `npm i babel-loader --save-dev`
-> 
-> O comando `--save-dev` significa para salvar o pacote na área de `"devDependencies"` no `package.json`.
-
-[![webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
-```javascript
-const path = require('path');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-
-module.exports = {
-    mode: 'production',
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundler.js'
-    },
-    module: {
-      rules: [
-        {
-          test: /\.(js|jsx)$/,
-          exclude: /node_modules/,
-          use: {
-            loader: "babel-loader"
-          }
-        }
-      ]
-   },
-}
-```
-
-[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
-```javascript
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-ReactDOM.render(<App />, document.getElementById("app"));
-```
-
-[![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
-```html
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>webpack 4 + Babel</title>
-  </head>
-  
-  <body>
-    <div id="app"></div>
-  </body>
-  
-</html>
-```
-
-Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser preciso criar um arquivo chamado `.babelrc` e definir as configurações.
-
-[![.babelrc](https://img.shields.io/badge/-.babelrc-fff?style=social&logo=Babel&logoColor=yellow)](#)
-```json
-{
-"preset": [
-   "@babel/preset-env",
-   "@babel/preset-react"
-  ]
-}
-```
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm i react react-dom
-npm i -D babel-preset-react
-```
-
-<details><summary><b>Diretórios e arquivos usados</b></summary>
-<pre>
-my-app
-└── src
-    ├── App.js
-    └── index.js
-</pre>
-</details>
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm i -D html-webpack-plugin html-loader
-```
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm i -D webpack-dev-server
-```
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-
-```json
-"scripts": {
-   "start:dev": "webpack-dev-server"
-}
-```
-
-[![JS](https://img.shields.io/badge/-App.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
-```jsx
-import React from "react";
-const App = () => {
-  return (
-    <div>
-       <p>IsaacAlves7</p>
-       <p>Isaac Alves Pinheiro</p>
-    </div>
-  );
-};
-export default App;
-```
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-```json
-"dev": "webpack --mode development"
-```
-
-# [React] ESLint
-<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
-
-Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
-
-Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
-
-- Criar uma regra para que o Token JWT seja colocado no código;
-- Definir que todas as variáveis privadas sejam prefixadas com underline;
-- Definir que toda função use o padrão camelCase;
-- pre-loader com ESLint para não precisar rodando ele o tempo todo no código.
-
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
-
-```
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
-```
-
-<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="77" align="right"></a>
-
-Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
-
-[![.eslintrc](https://img.shields.io/badge/-.eslintrc-fff?style=social&logo=ESLint&logoColor=4B32C3)](#)
-```json
-```
-
-[![NPM](https://img.shields.io/badge/-npm_running_the_eslint-fff?style=social&logo=NPM&logoColor=red)](#)
-```
-npm run eslint
-```
-
-Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-```json
-"eslint": "eslint ./src/*.js"
-```
-
-# Renderização Condicional
+## [React] Renderização Condicional
 Em ReactJS, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
 
 É baseado em 4 tópicos:
@@ -1430,7 +1190,7 @@ list-and-keys
 </pre>
 </details>
 
-# [React] React Hooks
+## [React] React Hooks
 <img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="77" align="right">
 
 **React Hooks** é uma característica introduzida no React versão 16.8 que permite que você use estado e outros recursos do React em componentes de função, que são conhecidos como "functional components" ou "componentes funcionais". Antes da introdução dos Hooks, esses recursos estavam disponíveis apenas em componentes de classe.
@@ -1585,6 +1345,247 @@ export default Card;
 ```
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
+
+# 📦 [React] Webpack
+<a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
+
+O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
+
+Os principais conceitos do Webpack são:
+
+- **Entry** - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
+- **Output** - É para determinar quais são os bundlers que o Webpack irá emitir.
+- **Loaders** - É para permitir que o Webpack gerencie arquivos não são JavaScript.
+- **Plugins** - Plugins podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e muito mais.
+- **Mode** - Utilizados para abordagem de configuração zero. É possível configurar módulos como **production**, **development** ou **none**.
+
+<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
+
+  - **Production** trás otimizações internas.
+  
+  - **Development** é executado com três plugins: **UglifyJsPlugin**, **ModuleConcatenationPlugin** e **NoEmitOnErrorsPlugin**.
+
+Instale o comando abaixo no terminal:
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```sh
+npm i -D webpack webpack-cli
+```
+
+Depois de instalar, crie um arquivo na pasta do projeto chamado: `webpack.config.js`:
+
+[![Webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
+
+```javascript
+const path = require('path');
+
+module.exports = {
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundler.js'
+    }
+}
+```
+
+Nós temos uma variável const `path` que é referente ao caminho do Webpack e uma exportação de módulos `module.exports` com o `entry` (ponto de entrada do Webpack) apontando para o `index.js`, o arquivo inicial do nosso projeto, e em `output`, ou seja temos entrada e saída do nosso bundler, temos o path com o nome do diretório, que no caso é `dist`, se tratando do diretório do projeto final da aplicação, mas também pode ser `build` ou qualquer nome a seu critério. 
+
+Além disso, também tem o `filename` que é o nome do bundle para que quando chegar ao resultado final da aplicação ele seja nomeado com esse nome de arquivo, o nome dele também fica a critério.
+
+[![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+console.log('Hello, world!');
+```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+```json
+"build": "webpack --mode production"
+```
+
+[![NPM](https://img.shields.io/badge/-npm_running_to_production-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm run build
+```
+
+Com isso ele vai gerar o nosso build com a pasta `./dist/`, que é a mesma que foi definida no output do `webpack.config.js`, e dentro dela o arquivo `bundler.js` minificado com uma linha de script.
+
+[![node running the bundler.js](https://img.shields.io/badge/-node_running_the_bundler.js-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+```
+node dist/bundler.js
+```
+
+> O script está funcionando!
+
+<pre>Hello, World!</pre>
+
+Utilizando o Webpack com Babel.js para transpilar o ES6 para ES5 com React.js:
+
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/161461421-2ae48a60-8925-4b48-94da-65cb3192a446.png" height="87%"></div><br \>
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+```
+
+> Caso dê erro pela sintaxe da instalação, instale elas individualmente, exemplo: 
+> - `npm i @babel/core --save-dev`
+> - `npm i babel-loader --save-dev`
+> 
+> O comando `--save-dev` significa para salvar o pacote na área de `"devDependencies"` no `package.json`.
+
+[![webpack](https://img.shields.io/badge/-webpack.config.js-fff?style=social&logo=Webpack&logoColor=8DD6F9)](#)
+```javascript
+const path = require('path');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+    mode: 'production',
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundler.js'
+    },
+    module: {
+      rules: [
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          use: {
+            loader: "babel-loader"
+          }
+        }
+      ]
+   },
+}
+```
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+ReactDOM.render(<App />, document.getElementById("app"));
+```
+
+[![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>webpack 4 + Babel</title>
+  </head>
+  
+  <body>
+    <div id="app"></div>
+  </body>
+  
+</html>
+```
+
+Para poder fazer com que o **webpack funcione juntamente com o Babel**, vai ser preciso criar um arquivo chamado `.babelrc` e definir as configurações.
+
+[![.babelrc](https://img.shields.io/badge/-.babelrc-fff?style=social&logo=Babel&logoColor=yellow)](#)
+```json
+{
+"preset": [
+   "@babel/preset-env",
+   "@babel/preset-react"
+  ]
+}
+```
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm i react react-dom
+npm i -D babel-preset-react
+```
+
+<details><summary><b>Diretórios e arquivos usados</b></summary>
+<pre>
+my-app
+└── src
+    ├── App.js
+    └── index.js
+</pre>
+</details>
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm i -D html-webpack-plugin html-loader
+```
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm i -D webpack-dev-server
+```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+```json
+"scripts": {
+   "start:dev": "webpack-dev-server"
+}
+```
+
+[![JS](https://img.shields.io/badge/-App.js-fff?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+```jsx
+import React from "react";
+const App = () => {
+  return (
+    <div>
+       <p>IsaacAlves7</p>
+       <p>Isaac Alves Pinheiro</p>
+    </div>
+  );
+};
+export default App;
+```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+```json
+"dev": "webpack --mode development"
+```
+
+# [React] ESLint
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
+
+Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
+
+Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
+
+- Criar uma regra para que o Token JWT seja colocado no código;
+- Definir que todas as variáveis privadas sejam prefixadas com underline;
+- Definir que toda função use o padrão camelCase;
+- pre-loader com ESLint para não precisar rodando ele o tempo todo no código.
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+```
+
+<a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="77" align="right"></a>
+
+Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
+
+[![.eslintrc](https://img.shields.io/badge/-.eslintrc-fff?style=social&logo=ESLint&logoColor=4B32C3)](#)
+```json
+```
+
+[![NPM](https://img.shields.io/badge/-npm_running_the_eslint-fff?style=social&logo=NPM&logoColor=red)](#)
+```
+npm run eslint
+```
+
+Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+```json
+"eslint": "eslint ./src/*.js"
+```
 
 # [React] Axios
 <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a>
