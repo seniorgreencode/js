@@ -139,7 +139,7 @@ Quando se trata de escopo, funciona da mesma forma como no JavaScript:
 
 O TypeScript tem as mesmas regras que o JavaScript para declarar variáveis. Inicialmente, apenas a palavra-chave '`var`' era usada para declarar a variável, mas na versão ES6 do JavaScript, as palavras-chave `let` e `const` são introduzidas para declarar uma variável. Portanto, você também pode usá-los no TypeScript.
 
-Nesta lição, você aprenderá a declarar uma variável usando as palavras-chave `let` e `const` e como essas variáveis são diferentes das variáveis declaradas usando a palavra-chave `var`.
+Quando declaramos a variável usando a palavra-chave `let` no TypeScript, a regra de escopo e a regra de hoisting permanecem as mesmas do JavaScript.
 
 # 🟦 [TS] Tuples
 
