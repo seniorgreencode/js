@@ -1650,6 +1650,24 @@ Dessa forma, o linting do ESLint vai informar todos os erros do código e você 
 "eslint": "eslint ./src/*.js"
 ```
 
+## [React] Prettier
+<img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="77" align="right">
+
+O **Prettier** é uma ferramenta de formatação automática de código. Seu objetivo principal é aplicar uma formatação consistente e padronizada ao código-fonte, eliminando discussões e inconsistências sobre estilo de escrita entre os membros de uma equipe. Ele funciona como um **opinionated code formatter**, ou seja, impõe um estilo fixo baseado em regras internas, o que significa que ele não é altamente configurável como alguns linters — e essa é uma escolha de design, justamente para evitar bikeshedding (discussões infinitas sobre estilo). O *Prettier* não está deprecated, nem descontinuado — ele continua sendo ativamente mantido e amplamente utilizado na comunidade de desenvolvimento front-end e back-end, especialmente em projetos com **JavaScript**, **TypeScript**, **React**, **Node.js** e outros ecossistemas modernos.
+
+Diferente de um **linter** como o ESLint, que detecta erros e sugestões com base em boas práticas e regras configuráveis (inclusive lógicas), o Prettier atua exclusivamente na **estrutura visual e formatação do código**, como:
+
+* Tamanho das quebras de linha
+* Espaçamento entre elementos
+* Uso de aspas simples ou duplas
+* Ponto e vírgula no final de linhas
+* Indentação consistente
+* Agrupamento e alinhamento de elementos
+
+Quando integrado a um editor (como VS Code) ou a uma pipeline de CI/CD, o Prettier pode garantir que todo o código commitado ou salvo esteja formatado da mesma maneira, independentemente de quem escreveu. Ele pode funcionar junto com ESLint, sendo responsável apenas pela formatação, enquanto o ESLint cuida de regras de lógica, complexidade, segurança etc.
+
+Portanto, o Prettier segue ativo, útil e atualizado. Inclusive, muitos projetos utilizam configurações combinadas com o **ESLint** e o **EditorConfig** para um ambiente de desenvolvimento padronizado e altamente produtivo. Ele é, até hoje, uma das ferramentas mais recomendadas em qualquer stack moderna.
+
 # [React] Axios
 <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a>
 
@@ -1832,9 +1850,6 @@ No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assínc
 O **React Router** é uma biblioteca oficial do ecossistema React que permite criar navegação e rotas em aplicações de página única (SPAs). Em uma SPA, ao contrário das aplicações web tradicionais que recarregam a página inteira a cada nova navegação, o React Router permite que a mudança de páginas ou seções ocorra de maneira fluida, sem recarregar o navegador, apenas trocando os componentes exibidos com base na URL. Isso é feito através da manipulação do histórico de navegação do navegador (history API) e da renderização condicional de componentes. 
 
 O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>` e `<Link>`, que facilitam tanto a definição das rotas quanto a navegação entre elas. É possível criar rotas aninhadas, rotas protegidas (como as que exigem autenticação), rotas dinâmicas com parâmetros de URL, e até rotas com comportamento assíncrono, como carregamento sob demanda (lazy loading) de componentes. Ele também oferece hooks como `useParams`, `useNavigate` e `useLocation`, que dão acesso aos dados da rota atual ou permitem navegar programaticamente dentro da aplicação. Em resumo, o React Router é essencial para construir experiências de navegação ricas, responsivas e sem interrupções em aplicações modernas feitas com React.
-
-# Prettier
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
 
 # Preact 
 <img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
