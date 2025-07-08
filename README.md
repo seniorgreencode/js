@@ -1437,7 +1437,7 @@ list-and-keys
 </pre>
 </details>
 
-# React Hooks
+# [React] React Hooks
 <img src="https://miro.medium.com/max/1166/1*fQefaOBmMkqfdpvphCEdVw.png" height="77" align="right">
 
 **React Hooks** é uma característica introduzida no React versão 16.8 que permite que você use estado e outros recursos do React em componentes de função, que são conhecidos como "functional components" ou "componentes funcionais". Antes da introdução dos Hooks, esses recursos estavam disponíveis apenas em componentes de classe.
@@ -1526,7 +1526,7 @@ function App = () => {
 export default App;
 ```
 
-### Adicionando o componente Button
+Adicionando o componente `Button`:
 
 [![index.js](https://img.shields.io/badge/-components/Button/index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
 ```javascript
@@ -1593,7 +1593,7 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
-# ↔️ Axios
+# [React] Axios
 <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a>
 
 <a href=""><img src="https://github.com/IsaacAlves7/js/assets/61624336/a9c40a0b-60c5-4a59-bb73-a4fb3b8d4092" height="77" align="right"></a>
@@ -1618,7 +1618,7 @@ Algumas das principais características e vantagens do Axios incluem:
 
 Em resumo, Axios simplifica o processo de fazer requisições HTTP em JavaScript, fornecendo uma API intuitiva e flexível que permite lidar facilmente com comunicações de rede em aplicações web.
 
-# ♻️ Redux
+# ♻️ [React] Redux
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de **estados** independentes de uma aplicação escrita em JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema para as bibliotecas dessa linguagem, como React ou Angular para criar interfaces de usuário. Semelhante pela **arquitetura Flux** do Facebook, apresentada no evento que buscava minimizar erros de unificação e transporte de componentes no front-end, e baseado na linguagem de programação **Elm**, foi criado por Dan Abramov e Andrew Clark.
@@ -1748,7 +1748,7 @@ As principais características do Redux são:
 - Debugável;
 - Flexível.
 
-## Redux Saga
+## [React] Redux Saga
 <img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" height="77" align="right">
 
 O **Redux Saga** é uma biblioteca para o Redux que lida com efeitos colaterais de forma assíncrona em aplicativos JavaScript, especialmente em aplicativos React/Redux. Ele utiliza funções geradoras (generators) do JavaScript para criar código assíncrono mais legível e gerenciável.
@@ -1769,11 +1769,11 @@ Principais características do Redux Saga:
 
 No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assíncronas em aplicativos Redux, oferecendo uma maneira limpa, expressiva e testável de lidar com efeitos colaterais em suas aplicações.
 
-# React Router
-<div align="center"><img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="177"></div><br \>
+# [React] React Router
+<img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="77" align="right">
 
 # Material-UI
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="177"></div><br \>
+<img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
 
 # Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
