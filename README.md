@@ -1834,9 +1834,6 @@ Styled-components se tornou uma escolha popular para estilização em projetos R
 # Prettier
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="177"></div><br \>
 
-# Gatsby.js
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="177"></div>
-
 # Preact 
 <img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
 
@@ -1857,6 +1854,15 @@ Algumas características principais do Preact incluem:
 6. **Compatibilidade com React**: Se você já tem um projeto React existente, é relativamente fácil migrar para o Preact, já que a API é muito semelhante.
 
 Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
+
+# 🟣 [React] Gatsby.js
+<img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
+
+**Gatsby.js** é um framework moderno baseado em React que permite construir sites rápidos, otimizados e seguros utilizando o conceito de geração de sites estáticos (Static Site Generation). Ele combina a performance do pré-rendering com a flexibilidade do React, o que significa que o conteúdo do site é compilado no momento da build, gerando arquivos HTML, CSS e JavaScript otimizados que podem ser servidos diretamente por servidores estáticos ou CDNs. 
+
+O Gatsby se destaca pela sua capacidade de integrar dados de várias fontes através de GraphQL — como APIs REST, CMSs headless (WordPress, Contentful, Strapi), arquivos Markdown, bancos de dados e outros — e transformar tudo isso em páginas estáticas de alto desempenho. Por ser estático, o Gatsby proporciona um carregamento extremamente rápido, com foco em SEO, segurança e experiência do usuário, além de suportar funcionalidades como code splitting, image optimization automática e prefetching de links. 
+
+Ele também possui um ecossistema vasto de plugins que facilitam tarefas como criação de sitemap, otimização de imagens, inclusão de fontes do Google, integração com analytics, entre outras. Embora seja estático por padrão, o Gatsby permite adicionar interatividade com React normalmente, além de suportar recursos dinâmicos via APIs serverless. É muito utilizado para blogs, sites institucionais, portfólios e até lojas virtuais integradas com back-ends headless.
 
 # ⚫ [React] Next.js
 <a href="https://www.youtube.com/watch?v=PGPGcKBpAk8"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
