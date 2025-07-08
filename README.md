@@ -1311,7 +1311,7 @@ function App = () => {
 export default App;
 ```
 
-### `props.children`
+## [React] `props.children`
 Como no App.js possui componentes filhos, podemos inserir o atributo children que ordena os componentes como filhos. E dessa forma, podemos inserir os componentes no `App.js` como se fossem tags HTML5, isso claro dependendo se seu componente for verboso ou não.
 
 [![index.js](https://img.shields.io/badge/-index.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
@@ -1404,7 +1404,7 @@ function Item = ({children}) => {
 export default Item;
 ```
 
-### Adicionando o componente Card 
+Adicionando o componente `Card`:
 
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
