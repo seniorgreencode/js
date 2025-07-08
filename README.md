@@ -1784,6 +1784,12 @@ O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>`
 
 O **Styled-components** é uma biblioteca para React e React Native que permite escrever estilos CSS de forma declarativa e encapsulada dentro dos componentes. Em vez de usar arquivos CSS separados, você pode definir estilos diretamente no código JavaScript dos seus componentes. Os componentes são renderizados com a página, e o CSS é aplicado conforme a necessidade. E com o CSS no mesmo arquivo do JavaScript, fica fácil localizar as informações caso precise realizar uma manutenção.
 
+O Styled-components ainda existe e está ativo, não está deprecated nem descontinuado. Ele continua sendo uma das bibliotecas mais populares para estilização de componentes em aplicações React, especialmente no paradigma de CSS-in-JS. O projeto está disponível no GitHub e ainda recebe atualizações, embora a frequência delas possa ter diminuído em comparação com os anos de maior adoção.
+
+No entanto, com o crescimento de ferramentas como Tailwind CSS, CSS Modules, Emotion e até o suporte nativo a Style Props no React Native, alguns times e comunidades têm optado por alternativas mais performáticas ou com menor acoplamento de lógica e estilo. Isso não significa que o Styled-components caiu em desuso — ele ainda é bastante utilizado em projetos novos e existentes, especialmente por quem valoriza a coesão entre lógica e estilo no mesmo arquivo (usando template literals com JavaScript/TypeScript).
+
+Portanto, você pode continuar usando o Styled-components com segurança. Mas, como qualquer ferramenta, é importante avaliar se ele ainda é a melhor escolha para o seu stack, levando em conta fatores como performance, preferência da equipe e integração com outras bibliotecas ou frameworks.
+
 ```sh
 npm install --save styled-components
 ```
