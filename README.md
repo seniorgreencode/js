@@ -1937,7 +1937,15 @@ Tanto o arquivo JS ou o diretório é interpretado pelo Next.js para criar rotas
 Vamos ver agora, a autenticação com Next.js com a biblioteca NextAuth.js.
 
 # ⚡ [React] Vite
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77"></div> 
+<img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" height="77" align="right">
+
+**Vite** é uma ferramenta moderna de build e desenvolvimento para aplicações web, criada por Evan You, o mesmo criador do Vue.js. Seu principal objetivo é fornecer uma experiência de desenvolvimento mais rápida e eficiente, eliminando os gargalos tradicionais encontrados em ferramentas como Webpack. 
+
+Durante o desenvolvimento, o Vite utiliza a API nativa de módulos ES (ESModules) dos navegadores modernos para carregar os arquivos de forma instantânea e sob demanda, o que significa que ele não precisa empacotar toda a aplicação de uma vez — apenas os módulos realmente usados são carregados no momento em que são solicitados, o que acelera significativamente o tempo de inicialização do projeto e os hot reloads. 
+
+Para produção, o Vite usa o Rollup como bundler, garantindo uma build otimizada, com tree-shaking e divisão de código. Ele também possui um sistema de plugins altamente extensível e suporte integrado para TypeScript, JSX, CSS modules, PostCSS e muitas outras tecnologias modernas. Além disso, é compatível tanto com aplicações Vue, React quanto Svelte e até mesmo projetos vanilla JS, tornando-se uma alternativa versátil e leve ao ecossistema tradicional de ferramentas de front-end. O Vite representa uma evolução no paradigma de desenvolvimento web, focando na simplicidade, desempenho e produtividade do desenvolvedor.
+
+Criando a aplicação Vite:
 
 ```sh
 npm create vite@latest ./ -- --template react
