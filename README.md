@@ -1859,10 +1859,10 @@ Algumas características principais do Preact incluem:
 Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
 
 # ⚫ [React] Next.js
-<a href=""><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
-
 <a href="https://www.youtube.com/watch?v=PGPGcKBpAk8"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
 <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
+
+<a href=""><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
 O **Next.js** é um poderoso framework JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações, é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, suporte TypeScript, suporte para: 
 
