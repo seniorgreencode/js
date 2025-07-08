@@ -129,11 +129,13 @@ var name = "mary"
 var name;
 ```
 
-- Global Scope: 
+Quando se trata de escopo, funciona da mesma forma como no JavaScript:
 
-- Class Scope:
+- **Global Scope**: Variáveis globais são declaradas fora das estruturas de programação.
 
-- Local Scope:
+- **Class Scope**: Campos ou variáveis de classe são declarados dentro da classe, mas fora dos métodos.
+
+- **Local Scope**: Variáveis locais, como o nome sugere, são declaradas dentro das estruturas como métodos, laços etc.
 
 # 🟦 [TS] Estruturas de programação
 
