@@ -654,7 +654,7 @@ export default App;
 "dev": "webpack --mode development"
 ```
 
-# ESLint
+# [React] ESLint
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
 
 Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
@@ -702,7 +702,7 @@ Em ReactJS, você pode criar componentes distintos que encapsulam o comportament
 - `If-Else` inline com Operador Condicional;
 - Evitando que um Componente seja Renderizado.
 
-### Operador ternário
+## [React] Operador ternário
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 
 ```jsx
@@ -738,7 +738,8 @@ export default App;
 
 O trecho de código acima mostrará o botão enquanto a condição `hasCustomer` for verdadeira, caso seja falso (`false`), o botão não irá aparecer, num cenário se existe cliente.
 
-### Outra forma de fazer isso com funções e operador ternário
+Outra forma de fazer isso com funções e operador ternário:
+
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```jsx
 import React from "react";
@@ -775,7 +776,8 @@ const App = () => {
 export default App;
 ```
 
-#### Com cliente
+Com cliente:
+
 [![JSX](https://img.shields.io/badge/-App.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
 ```jsx
 import React from "react";
@@ -827,14 +829,14 @@ const App = () => {
 export default App;
 ```
 
-# Listas e Chaves
+## [React] Listas e Chaves
 - Renderizando múltiplos componentes;
 - Componente de lista básico;
 - Chaves;
 - Extraindo componentes com chaves;
 - Chaves devem ser únicas apenas entre elementos irmãos.
 
-### Exemplo de lista:
+Exemplo de lista:
 
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
@@ -927,7 +929,7 @@ const App = () => {
 }
 ```
 
-# Manipulando eventos
+## [React] Manipulando eventos
 Manipular eventos em elementos React é muito semelhante a manipular eventos em elementos do DOM. Existem algumas diferenças sintáticas:
 
 - Eventos em React são nomeados usando camelCase ao invés de letras minúsculas;
@@ -1002,8 +1004,8 @@ const App = () => {
 export default App;
 ```
 
-## Hello, World! com uma Single Page Application (SPA)
-Veja mais como criar uma aplicação web em single-page usando a biblioteca **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
+## [React] Hello, World!
+Veja mais como criar uma aplicação web com uma Single Page Application (SPA) usando a biblioteca **React.js**: [Criar um Web App com React](https://github.com/facebook/create-react-app).
 
 [![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=E34F26)](#)
 ```html
@@ -1059,7 +1061,7 @@ export default App;
 // }
 ```
 
-## Primeiros passos na estrutura de um componente
+## [React] Primeiros passos na estrutura de um componente
 <details><summary><b>Diretórios e arquivos usados</b></summary>
 <pre>
 list-and-keys
