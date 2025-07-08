@@ -161,6 +161,8 @@ let var_name: var_type = value;
 
 # 🟦 [TS] Interfaces
 
+# 🟦 [TS] Classes e Objetos
+
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
