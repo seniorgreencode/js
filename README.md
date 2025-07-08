@@ -102,6 +102,24 @@ var nome:string = maria
 // A variável armazena um valor do tipo string
 ```
 
+```typescript
+var nome:string;
+
+// A variável é uma variável de cadeia de caracteres. O valor das variáveis é definido como indefinido por padrão
+```
+
+```typescript
+var nome = maria
+
+// O tipo de variáveis é inferido a partir do tipo de dados do valor. Aqui, a variável é do tipo string
+```
+
+```typescript
+nome var;
+
+// O tipo de dados variáveis é any. Seu valor é definido como indefinido por padrão.
+```
+
 # 🟦 [TS] Estruturas de programação
 
 # 🟦 [TS] MEAN Stack
