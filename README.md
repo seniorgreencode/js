@@ -36,7 +36,7 @@ Se nós quisermos mudar a sintaxe do tipo `string`, para outro tipo como `intege
 
 Versão compilada do código acima para JS:
 
-[![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=typescript&logoColor=yellow)](#)
+[![JS](https://img.shields.io/badge/-helloWorld.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 // Compiled Version
@@ -177,6 +177,14 @@ class class_name {
    //class scope 
 }
 ```
+
+A palavra-chave `class` é seguida pelo nome da classe `class_name`. As regras para identificadores devem ser consideradas ao nomear uma classe. Uma definição de classe pode incluir o seguinte:
+
+- **Campos** - Um campo é qualquer variável declarada em uma classe. Os campos representam dados pertencentes a objetos;
+
+- **Construtores** − Responsável por alocar memória para os objetos da classe;
+
+- **Funções** - As funções representam ações que um objeto pode realizar. Às vezes, eles também são chamados de métodos.
 
 [![TS](https://img.shields.io/badge/-Car.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
