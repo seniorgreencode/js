@@ -97,7 +97,6 @@ A porta padrão para acessar a aplicação é a `3000`, caso tenha outro tipo de
 
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160663182-300647e6-65ee-49cb-ae03-0e4f2bb7abf0.jpg"></div>
 
-## O que é JSX?
 <img src="https://daniel-vinicius.gallerycdn.vsassets.io/extensions/daniel-vinicius/code-snipptes-reactjs-pt-br/0.5.0/1610479284868/Microsoft.VisualStudio.Services.Icons.Default" height="77" align="right">
 
 O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcação criada para poder utilizar a linguagem de marcação **XML** e a linguagem de programação **JavaScript** no seu código-fonte. Não necessariamente ele precisa estar em um arquivo com extensão `.jsx`, mas pode sim estar em um arquivo `.html`, `.js` e etc, porém ele possui um volume menor em arquivos `.jsx` comparado com o demais.
@@ -105,6 +104,7 @@ O **JSX** não é um arquivo HTML e nem uma string! Foi uma linguagem de marcaç
 Sintaxe do JSX:
 
 [![JSX](https://img.shields.io/badge/-index.jsx-fff?style=social&logo=React&logoColor=61DAFB)](#)
+
 ```javascript
 const element = <h1>Hello, world!</h1>
 ```
@@ -156,7 +156,6 @@ Podemos utilizar o HTML5, CSS3 e o JavaScript no JSX (O trio-ternura e outros el
 
 No React.js, é mais comum chamar uma classe HTML5 e CSS3 de `className=''` isso faz o compilador entender que é uma classe para ambos os lados, tanto pro lado estático quanto para o dinâmico.
 
-## Renderização de elementos
 A **renderização** do React.js é feita em **nós raíz** , o React.js "pensa" em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o que faz ter ganho de performance e evita uma série de erros.
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
@@ -229,10 +228,10 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 ```
 
-## Componentização e Props
 Os componentes podem trabalhar de duas formas, **Função** ou **Classe**, lembrando que o JavaScript não trabalha diretamente com classes como a linguagem Java ou C#, mas sim **protótipos**.
 
 [![App.js](https://img.shields.io/badge/-App.js-000?style=social&logo=JavaScript&logoColor=F7DF1E)](#)
+
 ```javascript
 import React from "react"
 import ReactDOM from "react-dom"
@@ -371,6 +370,7 @@ export default ComponenteB
 ```
 
 ## Estado e ciclo de vida
+
 O ReactJS possui 4 estados:
 - Inicialização
 - Montagem
