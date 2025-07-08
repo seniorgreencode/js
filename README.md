@@ -452,28 +452,20 @@ Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossis
 
 E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
-# Webpack
+# 📦 Webpack
 <a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
-O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5.
-
-Tem suporte a:
-- Fontes;
-- CSS;
-- Imagens;
-- HTML;
-- JS;
-- Plugins.
+O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
 
 Os principais conceitos do Webpack são:
-
-<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
 
 - **Entry** - Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
 - **Output** - É para determinar quais são os bundlers que o Webpack irá emitir.
 - **Loaders** - É para permitir que o Webpack gerencie arquivos não são JavaScript.
 - **Plugins** - Plugins podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e muito mais.
 - **Mode** - Utilizados para abordagem de configuração zero. É possível configurar módulos como **production**, **development** ou **none**.
+
+<a href="https://pt-br.reactjs.org/"><img alt="Logo" align="right" src="https://cdn.worldvectorlogo.com/logos/webpack.svg" height="77" /></a>
 
   - **Production** trás otimizações internas.
   
@@ -483,7 +475,7 @@ Instale o comando abaixo no terminal:
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
-```
+```sh
 npm i -D webpack webpack-cli
 ```
 
