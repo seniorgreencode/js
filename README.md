@@ -162,6 +162,7 @@ let var_name: var_type = value;
 # 🟦 [TS] Interfaces
 
 # 🟦 [TS] Classes e Objetos
+TypeScript é JavaScript orientado a objetos (OOP). O TypeScript oferece suporte a recursos de programação orientada a objetos, como classes, interfaces, etc. Uma **classe** em termos de OOP é um projeto para a criação de **objetos**. Uma classe encapsula dados para o objeto. O Typescript fornece suporte integrado para esse conceito chamado classe. JavaScript ES5 ou anterior não suportava classes. O Typescript obtém esse recurso do ES6.
 
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
