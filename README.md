@@ -1346,6 +1346,27 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
+## [React] Preact 
+<img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
+
+O **Preact** é uma biblioteca JavaScript de código aberto que se destina a ser uma alternativa mais leve e rápida ao React. Ele implementa uma API compatível com React, o que significa que você pode usar componentes e conceitos semelhantes aos do React, mas com uma pegada menor devido à sua implementação mais enxuta.
+
+Algumas características principais do Preact incluem:
+
+1. **Tamanho pequeno**: O Preact é significativamente menor em tamanho quando comparado ao React. Isso o torna uma escolha atraente para projetos que exigem um carregamento mais rápido ou que têm restrições de largura de banda.
+
+2. **Desempenho rápido**: Devido ao seu tamanho reduzido, o Preact geralmente oferece um desempenho mais rápido do que o React em termos de tempo de inicialização e velocidade de renderização.
+
+3. **API compatível com React**: O Preact é projetado para ser uma substituição direta para o React. Isso significa que você pode usar componentes, hooks e outros recursos do React sem fazer muitas alterações em seu código.
+
+4. **Suporte a Progressive Web Apps (PWAs)**: O Preact é otimizado para Progressive Web Apps, permitindo que você crie aplicativos da web com ótimo desempenho e experiência do usuário.
+
+5. **Ecossistema ativo**: Apesar de ser uma biblioteca menor, o Preact possui uma comunidade ativa e um ecossistema crescente de bibliotecas e ferramentas complementares.
+
+6. **Compatibilidade com React**: Se você já tem um projeto React existente, é relativamente fácil migrar para o Preact, já que a API é muito semelhante.
+
+Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
+
 # 💅 [React] Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
 
@@ -1854,27 +1875,6 @@ Em resumo, Axios simplifica o processo de fazer requisições HTTP em JavaScript
 O **React Router** é uma biblioteca oficial do ecossistema React que permite criar navegação e rotas em aplicações de página única (SPAs). Em uma SPA, ao contrário das aplicações web tradicionais que recarregam a página inteira a cada nova navegação, o React Router permite que a mudança de páginas ou seções ocorra de maneira fluida, sem recarregar o navegador, apenas trocando os componentes exibidos com base na URL. Isso é feito através da manipulação do histórico de navegação do navegador (history API) e da renderização condicional de componentes. 
 
 O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>` e `<Link>`, que facilitam tanto a definição das rotas quanto a navegação entre elas. É possível criar rotas aninhadas, rotas protegidas (como as que exigem autenticação), rotas dinâmicas com parâmetros de URL, e até rotas com comportamento assíncrono, como carregamento sob demanda (lazy loading) de componentes. Ele também oferece hooks como `useParams`, `useNavigate` e `useLocation`, que dão acesso aos dados da rota atual ou permitem navegar programaticamente dentro da aplicação. Em resumo, o React Router é essencial para construir experiências de navegação ricas, responsivas e sem interrupções em aplicações modernas feitas com React.
-
-# [React] Preact 
-<img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
-
-O **Preact** é uma biblioteca JavaScript de código aberto que se destina a ser uma alternativa mais leve e rápida ao React. Ele implementa uma API compatível com React, o que significa que você pode usar componentes e conceitos semelhantes aos do React, mas com uma pegada menor devido à sua implementação mais enxuta.
-
-Algumas características principais do Preact incluem:
-
-1. **Tamanho pequeno**: O Preact é significativamente menor em tamanho quando comparado ao React. Isso o torna uma escolha atraente para projetos que exigem um carregamento mais rápido ou que têm restrições de largura de banda.
-
-2. **Desempenho rápido**: Devido ao seu tamanho reduzido, o Preact geralmente oferece um desempenho mais rápido do que o React em termos de tempo de inicialização e velocidade de renderização.
-
-3. **API compatível com React**: O Preact é projetado para ser uma substituição direta para o React. Isso significa que você pode usar componentes, hooks e outros recursos do React sem fazer muitas alterações em seu código.
-
-4. **Suporte a Progressive Web Apps (PWAs)**: O Preact é otimizado para Progressive Web Apps, permitindo que você crie aplicativos da web com ótimo desempenho e experiência do usuário.
-
-5. **Ecossistema ativo**: Apesar de ser uma biblioteca menor, o Preact possui uma comunidade ativa e um ecossistema crescente de bibliotecas e ferramentas complementares.
-
-6. **Compatibilidade com React**: Se você já tem um projeto React existente, é relativamente fácil migrar para o Preact, já que a API é muito semelhante.
-
-Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
 
 # 🟣 [React] Gatsby.js
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
