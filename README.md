@@ -205,6 +205,15 @@ Com o Storybook, o desenvolvedor escreve "histórias", que são representações
 Outro ponto forte é a colaboração: designers, desenvolvedores e revisores conseguem visualizar os componentes diretamente no navegador, experimentar suas interações e sugerir melhorias com base em um catálogo funcional e navegável. Por isso, o Storybook é mais do que uma ferramenta de desenvolvimento, é um hub de colaboração e padronização da experiência de usuário em projetos modernos. Ele ajuda a escalar aplicações de forma mais consistente, mantendo a coesão visual e funcional entre os diversos elementos da interface.
 
 ## [TS] Tailwind CSS
+<img src="https://github.com/user-attachments/assets/a14506d3-8443-4c6f-9a11-4f4b295dd3c8" align="right" height="77">
+
+**Tailwind CSS** é um framework utilitário para estilização de interfaces web que se diferencia dos tradicionais frameworks CSS (Boostrap, Material UI, MaterializeCSS, Chakra UI etc) por oferecer classes altamente específicas e reutilizáveis, que permitem ao desenvolvedor construir componentes visuais diretamente no HTML de maneira rápida, consistente e sem a necessidade de escrever folhas de estilo personalizadas. Em vez de criar uma classe chamada `.botao-primario` e definir suas propriedades em um arquivo CSS separado, o desenvolvedor pode aplicar diretamente no elemento classes como `bg-blue-500`, `text-white`, `px-4`, `py-2`, `rounded`, que representam estilos concretos e granulares para cor de fundo, cor do texto, preenchimento e borda arredondada.
+
+Esse modelo promove uma abordagem conhecida como utility-first, onde o código HTML torna-se mais detalhado, mas o desenvolvimento torna-se mais ágil, previsível e fácil de manter, especialmente em projetos grandes com times diversos. O Tailwind fornece uma estrutura altamente configurável, permitindo a personalização de temas, breakpoints, espaçamentos, cores e até a criação de classes utilitárias próprias. Ele também possui um sistema de variantes para estados como hover, focus, dark mode e responsividade, o que facilita a construção de interfaces complexas sem a necessidade de sair do escopo HTML.
+
+Além disso, o Tailwind é fortemente integrado com ferramentas modernas de build como PostCSS e bundlers como Vite, Webpack ou Parcel. Isso permite o uso de técnicas como purgar CSS não utilizado na produção, o que garante um tamanho mínimo nos arquivos finais, otimizando a performance. Ele também é altamente compatível com bibliotecas de componentes modernas como React, Vue e Svelte, o que faz com que seja uma escolha popular para equipes que adotam o design system como prática.
+
+Apesar de parecer mais verboso à primeira vista, o Tailwind ajuda a manter a consistência visual, reduz a escrita de CSS manual e torna os estilos altamente previsíveis, já que todas as classes seguem uma convenção rígida. Isso melhora o desempenho cognitivo do desenvolvedor ao navegar por componentes, e torna o onboarding de novos membros mais rápido, já que a lógica visual está no próprio markup. Por esses motivos, Tailwind CSS se tornou um dos frameworks mais adotados no desenvolvimento front-end moderno.
 
 ## [TS] Next.js
 
