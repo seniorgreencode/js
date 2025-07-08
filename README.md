@@ -369,9 +369,8 @@ function ComponenteB(props) {
 export default ComponenteB
 ```
 
-## Estado e ciclo de vida
-
 O ReactJS possui 4 estados:
+
 - Inicialização
 - Montagem
 - Atualização
@@ -430,7 +429,7 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 ```
 
-## Ecossistema do React.js
+Ecossistema do React.js:
  - React Router;
  - Redux;
  - Material-UI;
@@ -452,7 +451,7 @@ Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossis
 
 E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
-# 📦 Webpack
+# 📦 [React] Webpack
 <a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
 O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
