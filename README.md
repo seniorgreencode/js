@@ -164,11 +164,21 @@ let var_name: var_type = value;
 # 🟦 [TS] Interfaces
 
 # 🟦 [TS] Classes e Objetos
-<img src="https://img.shields.io/badge/Java-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/Java-Use_Case_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/Java-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/Java-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white"> <img src="https://img.shields.io/badge/Java-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white">
 
 TypeScript é JavaScript orientado a objetos (OOP). O TypeScript oferece suporte a recursos de programação orientada a objetos, como classes, interfaces, etc. Uma **classe** em termos de OOP é um projeto para a criação de **objetos**. Uma classe encapsula dados para o objeto. O Typescript fornece suporte integrado para esse conceito chamado classe. JavaScript ES5 ou anterior não suportava classes. O Typescript obtém esse recurso do ES6.
 
-[![TS](https://img.shields.io/badge/-Classes.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+Use a palavra-chave `class` para declarar uma classe no TypeScript. A sintaxe para o mesmo é dada abaixo:
+
+[![TS](https://img.shields.io/badge/-Classe.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
+```typescript
+class class_name { 
+   //class scope 
+}
+```
+
+[![TS](https://img.shields.io/badge/-Car.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 ```typescript
 class Car { 
