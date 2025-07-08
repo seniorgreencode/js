@@ -129,6 +129,12 @@ var name = "mary"
 var name;
 ```
 
+- Global Scope: 
+
+- Class Scope:
+
+- Local Scope:
+
 # 🟦 [TS] Estruturas de programação
 
 # 🟦 [TS] MEAN Stack
@@ -207,7 +213,7 @@ Outro ponto forte é a colaboração: designers, desenvolvedores e revisores con
 ## [TS] Tailwind CSS
 <img src="https://github.com/user-attachments/assets/a14506d3-8443-4c6f-9a11-4f4b295dd3c8" align="right" height="77">
 
-**Tailwind CSS** é um framework utilitário para estilização de interfaces web que se diferencia dos tradicionais frameworks CSS (Boostrap, Material UI, MaterializeCSS, Chakra UI etc) por oferecer classes altamente específicas e reutilizáveis, que permitem ao desenvolvedor construir componentes visuais diretamente no HTML de maneira rápida, consistente e sem a necessidade de escrever folhas de estilo personalizadas. Em vez de criar uma classe chamada `.botao-primario` e definir suas propriedades em um arquivo CSS separado, o desenvolvedor pode aplicar diretamente no elemento classes como `bg-blue-500`, `text-white`, `px-4`, `py-2`, `rounded`, que representam estilos concretos e granulares para cor de fundo, cor do texto, preenchimento e borda arredondada.
+**Tailwind CSS** é um framework utilitário para estilização de interfaces web que se diferencia dos tradicionais frameworks CSS (Bootstrap, Material UI, MaterializeCSS, Chakra UI etc) por oferecer classes altamente específicas e reutilizáveis, que permitem ao desenvolvedor construir componentes visuais diretamente no HTML de maneira rápida, consistente e sem a necessidade de escrever folhas de estilo personalizadas. Em vez de criar uma classe chamada `.botao-primario` e definir suas propriedades em um arquivo CSS separado, o desenvolvedor pode aplicar diretamente no elemento classes como `bg-blue-500`, `text-white`, `px-4`, `py-2`, `rounded`, que representam estilos concretos e granulares para cor de fundo, cor do texto, preenchimento e borda arredondada.
 
 Esse modelo promove uma abordagem conhecida como utility-first, onde o código HTML torna-se mais detalhado, mas o desenvolvimento torna-se mais ágil, previsível e fácil de manter, especialmente em projetos grandes com times diversos. O Tailwind fornece uma estrutura altamente configurável, permitindo a personalização de temas, breakpoints, espaçamentos, cores e até a criação de classes utilitárias próprias. Ele também possui um sistema de variantes para estados como hover, focus, dark mode e responsividade, o que facilita a construção de interfaces complexas sem a necessidade de sair do escopo HTML.
 
