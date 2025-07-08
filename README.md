@@ -141,9 +141,25 @@ O TypeScript tem as mesmas regras que o JavaScript para declarar variáveis. Ini
 
 Quando declaramos a variável usando a palavra-chave `let` no TypeScript, a regra de escopo e a regra de hoisting permanecem as mesmas do JavaScript.
 
+Sintaxe:
+
+```typescript
+let var_name: var_type = value;
+```
+
+- Na sintaxe acima, '`let`' é uma palavra-chave.
+
+- '`var_name`' é um identificador válido para um nome de variável.
+
+- '`var_type`' é um tipo da variável.
+
+- '`value`' é um valor a ser armazenado na variável.
+
 # 🟦 [TS] Tuples
 
 # 🟦 [TS] Estruturas de programação
+
+# 🟦 [TS] Interfaces
 
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
