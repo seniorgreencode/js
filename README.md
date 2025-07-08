@@ -1845,7 +1845,7 @@ Principais características do Redux Saga:
 No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assíncronas em aplicativos Redux, oferecendo uma maneira limpa, expressiva e testável de lidar com efeitos colaterais em suas aplicações.
 
 # 🌐 [React] Axios
-<a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a>
+<a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a> <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a> <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a> <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a> <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a> <a href="https://www.npmjs.com/package/axios"><img src="https://img.shields.io/badge/Axios-1.7.2-purple?style=flat&logo=Axios&logoColor=white"></a>
 
 <a href=""><img src="https://github.com/IsaacAlves7/js/assets/61624336/a9c40a0b-60c5-4a59-bb73-a4fb3b8d4092" height="77" align="right"></a>
 
