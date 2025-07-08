@@ -1346,11 +1346,6 @@ export default Card;
 
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
-# [React] Material-UI
-<img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
-
-# [React] Chakra UI
-
 # 💅 [React] Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
 
@@ -1408,6 +1403,15 @@ As principais vantagens do styled-components incluem:
 4. **Suporte total para CSS**: Você pode usar todas as características do CSS, incluindo variáveis, mixins, animações, etc., dentro dos componentes estilizados.
 
 Styled-components se tornou uma escolha popular para estilização em projetos React e React Native devido à sua simplicidade, flexibilidade e poder.
+
+## [React] Sass
+
+## [React] Material-UI
+<img src="https://cdn.worldvectorlogo.com/logos/material-ui.svg" height="77" align="right">
+
+## [React] Chakra UI
+
+## [React] Tailwind CSS
 
 # 📦 [React] Webpack
 <a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
