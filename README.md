@@ -1844,14 +1844,14 @@ Principais características do Redux Saga:
 
 No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assíncronas em aplicativos Redux, oferecendo uma maneira limpa, expressiva e testável de lidar com efeitos colaterais em suas aplicações.
 
-# [React] React Router
+# 🌐 [React] React Router
 <img src="https://logowiki.net/uploads/logo/r/react-router.svg" height="77" align="right">
 
 O **React Router** é uma biblioteca oficial do ecossistema React que permite criar navegação e rotas em aplicações de página única (SPAs). Em uma SPA, ao contrário das aplicações web tradicionais que recarregam a página inteira a cada nova navegação, o React Router permite que a mudança de páginas ou seções ocorra de maneira fluida, sem recarregar o navegador, apenas trocando os componentes exibidos com base na URL. Isso é feito através da manipulação do histórico de navegação do navegador (history API) e da renderização condicional de componentes. 
 
 O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>` e `<Link>`, que facilitam tanto a definição das rotas quanto a navegação entre elas. É possível criar rotas aninhadas, rotas protegidas (como as que exigem autenticação), rotas dinâmicas com parâmetros de URL, e até rotas com comportamento assíncrono, como carregamento sob demanda (lazy loading) de componentes. Ele também oferece hooks como `useParams`, `useNavigate` e `useLocation`, que dão acesso aos dados da rota atual ou permitem navegar programaticamente dentro da aplicação. Em resumo, o React Router é essencial para construir experiências de navegação ricas, responsivas e sem interrupções em aplicações modernas feitas com React.
 
-# Preact 
+# [React] Preact 
 <img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
 
 O **Preact** é uma biblioteca JavaScript de código aberto que se destina a ser uma alternativa mais leve e rápida ao React. Ele implementa uma API compatível com React, o que significa que você pode usar componentes e conceitos semelhantes aos do React, mas com uma pegada menor devido à sua implementação mais enxuta.
