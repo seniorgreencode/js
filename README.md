@@ -9,9 +9,7 @@
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
 
-## Leia mais sobre o React.js:
-- https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f
-- https://reactjsexample.com/a-svg-blob-generator-build-with-react/
+https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f https://reactjsexample.com/a-svg-blob-generator-build-with-react/
 
 ## Dicas para pensar do jeito ReactJS
 - Comece com um Mock
