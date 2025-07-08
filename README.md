@@ -450,11 +450,6 @@ npm install express
 node index.js
 ```
 
-## Node-Sass
-<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/node-sass.svg" height="77" align="right" title="Site do Node.js"/></a>
-
-https://replit.com/languages/nodejs
-
 # ⚛︎ GraphQL
 <a href="https://graphql.org/"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="77" align="right"></a>
 
