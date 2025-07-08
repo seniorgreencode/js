@@ -1898,7 +1898,7 @@ Ele também possui um ecossistema vasto de plugins que facilitam tarefas como cr
 
 # ⚫ [React] Next.js
 <a href="https://www.youtube.com/watch?v=PGPGcKBpAk8"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
-<a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
+<a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a> <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a> <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a> <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a> <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a> <a href="https://youtu.be/mj_Qe2jBYS4"><img src="https://img.shields.io/badge/Next.js-12-000000?style=flat&logo=Next.js&logoColor=white"></a>
 
 <a href=""><img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" height="77" align="right"></a>
 
