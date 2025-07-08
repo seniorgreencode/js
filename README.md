@@ -1849,9 +1849,20 @@ No geral, o Redux Saga é uma ferramenta poderosa para lidar com tarefas assínc
 
 <a href=""><img src="https://github.com/IsaacAlves7/js/assets/61624336/a9c40a0b-60c5-4a59-bb73-a4fb3b8d4092" height="77" align="right"></a>
 
-O **Axios** é uma biblioteca JavaScript popular, escrita para fazer requisições HTTP a servidores, do front-end para o back-end. Ela é amplamente utilizada em projetos web, especialmente em aplicações que consomem APIs RESTful. O Axios é uma biblioteca JavaScript que é utilizada principalmente no lado do cliente, ou seja, em navegadores da web ou em ambientes JavaScript em front-end, como frameworks como o React, Vue.js, Angular, etc. Ele é projetado para fazer requisições HTTP a servidores a partir do navegador. Vamos ver como fazer requisições do tipo `GET`, `POST`, `PUT`, `PATCH` e `DELETE`, vamos também fazer múltiplas requisições ao mesmo tempo e criar interceptadores e muito mais.
+O **Axios** é uma biblioteca JavaScript popular, escrita para fazer requisições HTTP a servidores, do front-end para o back-end. Ela é amplamente utilizada em projetos web, especialmente em aplicações que consomem APIs RESTful. O Axios é uma biblioteca JavaScript que é utilizada principalmente no lado do cliente, ou seja, em navegadores da web ou em ambientes JavaScript em front-end, como frameworks como o React, Vue.js, Angular, etc. Mas também pode ser usada no Node.js, ou seja, no back-end.
 
-No entanto, o Axios também pode ser utilizado no lado do servidor em ambientes Node.js, embora seja mais comumente associado ao desenvolvimento de front-end. No Node.js, ele pode ser usado para fazer requisições HTTP a outros servidores ou para criar APIs HTTP.
+Ele é especialmente útil para consumir APIs REST, oferecendo uma interface simples e poderosa para realizar operações como `GET`, `POST`, `PUT`, `PATCH` e `DELETE`. O Axios se destaca por vários motivos:
+
+* Permite **promises encadeadas**, e também suporta `async/await`;
+* É compatível com navegadores e com ambientes Node.js;
+* Oferece **interceptadores** de requisição e resposta, úteis para adicionar headers de autenticação ou lidar com erros globais;
+* Converte automaticamente respostas JSON;
+* Suporta **cancelamento de requisições**, timeouts e upload/download progress events;
+* Possui suporte embutido para **transformações de dados antes e depois das requisições**.
+
+Ou seja, além de ser útil para consumir APIs REST, o Axios facilita o desenvolvimento com uma camada de abstração mais limpa e controlada sobre o `fetch` nativo do JavaScript.
+
+Ele é projetado para fazer requisições HTTP a servidores a partir do navegador. Vamos ver como fazer requisições do tipo `GET`, `POST`, `PUT`, `PATCH` e `DELETE`, vamos também fazer múltiplas requisições ao mesmo tempo e criar interceptadores e muito mais. No entanto, o Axios também pode ser utilizado no lado do servidor em ambientes Node.js, embora seja mais comumente associado ao desenvolvimento de front-end. No Node.js, ele pode ser usado para fazer requisições HTTP a outros servidores ou para criar APIs HTTP.
 
 > Em resumo, o Axios pode ser utilizado tanto no lado do cliente quanto no lado do servidor, mas é mais frequentemente utilizado no lado do cliente para fazer requisições HTTP em aplicações web.
 
