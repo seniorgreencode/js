@@ -1,5 +1,5 @@
 # 🟦 TypeScript (TS)
-<a href="https://www.tutorialspoint.com/typescript/index.htm">![JS](https://img.shields.io/badge/TypeScript-mindmap-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg">![JS](https://img.shields.io/badge/TypeScript-Playground-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-DSA-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-blue?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://github.com/IsaacAlves7/js/tree/react.js">![JS](https://img.shields.io/badge/React.js-repository-blue?style=flat&logo=React&logoColor=aqua)</a>
+<a href="https://www.tutorialspoint.com/typescript/index.htm">![JS](https://img.shields.io/badge/TypeScript-mindmap-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.typescriptlang.org/play/">![JS](https://img.shields.io/badge/TypeScript-Playground-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-DSA-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-blue?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://github.com/IsaacAlves7/js/tree/react.js">![JS](https://img.shields.io/badge/React.js-repository-blue?style=flat&logo=React&logoColor=aqua)</a>
 
 <a href="https://www.typescriptlang.org/"><img src="https://github.com/user-attachments/assets/9eab1b3e-28ea-4f27-8c07-f2b2156b504c" height="77" align="right"></a>
 
@@ -55,6 +55,8 @@ console.log(message);
 ```
 
 # 🟦 [TS] Dados e tipos primitivos
+<a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+
 Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. Ela pode ser categorizada da seguinte forma:
 
 - **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript.
