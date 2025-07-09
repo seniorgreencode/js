@@ -298,6 +298,12 @@ Vamos começar com o exemplo abaixo, onde você deseja registrar o valor da vari
 
 # 🟦 [TS] Modules
 
+# 🟦 [TS] Iterators and Generators
+No TypeScript, iteradores e geradores (Iterators and Generators) permitem controlar a iteração sobre os iteráveis. Aqui, iteráveis são objetos como matrizes, tuplas, etc. através dos quais podemos iterar. O uso de iteradores e geradores no código nos permite escrever um código eficiente e legível.
+
+# 🟦 [TS] Mixins
+TypeScript é uma linguagem de programação orientada a objetos e contém as classes, que é um projeto para o objeto. A classe pode ser definida conforme mostrado abaixo no TypeScript.
+
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
 
