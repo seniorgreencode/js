@@ -176,6 +176,8 @@ let var_name: var_type = value;
 
 # 🟦 [TS] Estruturas de programação
 
+# 🟦 [TS] Funções
+
 # 🟦 [TS] Interfaces
 Uma **interface** é um contrato sintático ao qual uma entidade deve estar em conformidade. Em outras palavras, uma interface define a sintaxe que qualquer entidade deve seguir.
 
