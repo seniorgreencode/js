@@ -175,7 +175,7 @@ let var_name: var_type = value;
 # 🟦 [TS] Tuples
 
 # 🟦 [TS] Estruturas de programação
-<img src="https://github.com/user-attachments/assets/7b8e3532-810a-48ec-93fc-a61464f8a4ce" align="right" height="177">
+<img src="https://github.com/user-attachments/assets/7b8e3532-810a-48ec-93fc-a61464f8a4ce" align="right" height="277">
 
 No TypeScript, as instruções de tomada de decisão (decision making) são usadas para controlar o fluxo da execução com base em determinadas condições. O TypeScript oferece suporte a todos os tipos de construções de tomada de decisão disponíveis no ES6, incluindo instruções if, if else, switch. Como um superconjunto de JavaScript, o TypeScript herda e expande os recursos do JavaScript, incluindo instruções de tomada de decisão.
 
