@@ -186,6 +186,20 @@ A palavra-chave `class` é seguida pelo nome da classe `class_name`. As regras p
 
 - **Funções** - As funções representam ações que um objeto pode realizar. Às vezes, eles também são chamados de métodos.
 
+Esses componentes juntos são denominados como os membros de dados da classe. 
+
+Considere uma classe `Person` em texto datilografado:
+
+[![TS](https://img.shields.io/badge/-Person.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
+```typescript
+class Person {
+
+}
+```
+
+Na compilação, ele gerará o seguinte código JavaScript.
+
 [![TS](https://img.shields.io/badge/-Car.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 ```typescript
