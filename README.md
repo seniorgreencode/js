@@ -194,6 +194,10 @@ Um constructo de tomada de decisão avalia uma condição antes que as instruç�
 
 4.	instrução `switch`: Uma instrução `switch` permite que uma variável seja testada em relação a uma lista de valores.
 
+Vamos entender a tomada de decisão em detalhes com a ajuda de alguns exemplos no TypeScript.
+
+Exemplo:
+
 ## [TS] Laços de repetição (Loops)
 
 # 🟦 [TS] Funções
