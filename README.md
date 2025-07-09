@@ -771,6 +771,21 @@ Em resumo, o Deno representa uma evolução no desenvolvimento com JavaScript/Ty
 
 ## [JS] Hello, World - Deno
 
+## [JS] Hono
+<a href="https://hono.dev/"><img src="https://em-content.zobj.net/source/microsoft-teams/400/fire_1f525.png" align="right" height="77"></a>
+
+**Hono** é um framework web ultraleve, voltado exclusivamente para o back-end, e moderno construído para rodar sobre plataformas serverless e edge computing, como Cloudflare Workers, Deno Deploy, Bun e Vercel Edge Functions. Ele é inspirado em frameworks como Express e Fastify, mas com foco absoluto em performance, simplicidade e compatibilidade com o ecossistema moderno do JavaScript e TypeScript. O nome “Hono” vem do japonês e significa “chama”, refletindo a leveza e rapidez da biblioteca. Com uma interface familiar baseada em middlewares e rotas, Hono permite que você crie APIs e aplicações web pequenas ou complexas com uma estrutura muito enxuta e altamente performática.
+
+Hono não é exclusivo do Deno, ele é compatível com múltiplos runtimes, incluindo Node.js, Deno e Bun. Essa é, inclusive, uma das principais vantagens do Hono: ele foi construído sobre a base das **Web Standards**, ou seja, usa APIs da Web como `Request`, `Response`, `fetch`, `Headers`, que são compatíveis entre os runtimes modernos — especialmente em ambientes serverless e edge computing. Isso permite que o mesmo código escrito com Hono rode em **Cloudflare Workers, Vercel Edge Functions, Deno Deploy, Bun, e Node.js** (com algumas adaptações).
+
+No Node.js, como o ambiente não oferece todas essas APIs web nativamente (por exemplo, o `Request` e `Response` são diferentes), o Hono utiliza **adaptações (shims)** para tornar o ambiente compatível. Já no **Deno** e no **Bun**, por serem mais alinhados com os padrões web, o Hono roda de forma ainda mais natural, com menos necessidade de adaptações.
+
+Portanto, o Hono é multiplataforma, não exclusivo do Deno, e pode sim ser utilizado no *Node.js*, *Bun* e outros runtimes compatíveis com Web APIs. Isso o torna uma ótima opção para projetos que desejam performance, portabilidade e simplicidade ao mesmo tempo.
+
+O grande diferencial do Hono está na sua arquitetura voltada ao edge computing, ou seja, ele é ideal para rodar em servidores distribuídos geograficamente, próximos ao usuário final, diminuindo latência e acelerando a resposta. Além disso, ele aproveita os padrões web nativos, utilizando objetos como `Request` e `Response` da Web API, o que o torna mais compatível com ambientes modernos e minimalistas, sem dependências pesadas. Ele também possui integração nativa com TypeScript, oferecendo tipagem automática para rotas, requisições e respostas, além de fácil uso com bibliotecas como Zod para validação de esquemas, o que o torna uma excelente escolha para desenvolvedores que buscam confiabilidade e segurança nos dados.
+
+Apesar de seu tamanho pequeno, Hono é extremamente poderoso e extensível. Ele permite o uso de middlewares personalizados, roteamento aninhado, suporte a CORS, autenticação e muito mais. É uma alternativa leve e moderna ao Express para quem trabalha com JavaScript moderno e deseja tirar proveito das plataformas serverless sem perder produtividade. Sua curva de aprendizado é baixa, especialmente para quem já tem familiaridade com frameworks baseados em middlewares, e sua performance rivaliza com os frameworks mais rápidos disponíveis hoje no mercado.
+
 # 🍙 [JS] Bun
 <a href="https://bun.sh/"><img src="https://bun.sh/logo.svg" height="77" align="right"></a>
 
