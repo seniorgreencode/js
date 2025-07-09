@@ -291,6 +291,11 @@ console.log("Reading attribute value Engine as :  "+obj.engine)
 obj.disp()
 ```
 
+# 🟦 [TS] Generics
+Os **genéricos** (generics) são um recurso poderoso no TypeScript que permite escrever código reutilizável que pode funcionar com diferentes tipos de dados. Eles agem como espaços reservados que podem ser preenchidos com tipos de dados específicos quando você usa o código genérico. Isso melhora a flexibilidade e a capacidade de manutenção do código.
+
+Vamos começar com o exemplo abaixo, onde você deseja registrar o valor da variável passada como parâmetro.
+
 # 🟦 [TS] Modules
 
 # 🟦 [TS] MEAN Stack
