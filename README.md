@@ -244,7 +244,30 @@ interface interface_name {
 Exemplo: Interface e Objetos
 
 ```typescript
-interface IPerson { firstName:string, lastName:string, sayHi: ()=>string } var customer:IPerson = { firstName:"Tom", lastName:"Hanks", sayHi: ():string =>{return "Olá"} } console.log("Objeto do cliente "). log(cliente.firstName). log(cliente.lastName). log(cliente.sayHi()) var funcionário:IPerson = { nome:"Jim", sobrenome:"Blakes", sayHi: ():string =>{return "Olá!!"} } console.log("Objeto de funcionário "). log(funcionário.nome);  console.log(funcionário.sobrenome);
+interface IPerson { 
+   firstName:string, 
+   lastName:string, 
+   sayHi: ()=>string 
+} 
+
+var customer:IPerson = { 
+   firstName:"Tom", 
+   lastName:"Hanks", 
+   sayHi: ():string =>{return "Olá"} 
+} 
+
+console.log("Objeto do customer: ");
+console.log(customer.firstName);
+console.log(customer.lastName);
+console.log(customer.sayHi());
+
+var funcionario:IPerson = { 
+   firstName:"Jim", 
+   lastName:"Blakes", 
+   sayHi: ():string =>{return "Olá!!"} 
+} 
+
+console.log("Objeto de funcionário: " + funcionario.firstName + funcionario.lastName);
 ```
 
 Exemplo: interface `Person`
