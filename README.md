@@ -17,6 +17,8 @@ Até mesmo no contexto de Smart TVs e dispositivos embarcados, é possível util
 
 Com a constante evolução do ecossistema JavaScript e a crescente adoção do TypeScript, a linguagem se consolidou como uma solução prática e escalável para aplicações modernas em múltiplas plataformas. Seja no navegador, no celular, no computador ou na TV, o TypeScript garante mais segurança, clareza e produtividade no desenvolvimento, independentemente do ambiente de execução.
 
+<img src="https://github.com/user-attachments/assets/adcad810-f15d-436c-9d3c-6d62cb539ca5" align="right" height="77">
+
 O desenvolvimento para Roku TV não é feito nativamente em TypeScript, mas sim em uma linguagem própria da plataforma chamada <a href="https://developer.roku.com/pt-br/docs/references/brightscript/language/brightscript-language-reference.md">BrightScript</a> que é uma linguagem interpretada, parecida com BASIC, que foi criada especificamente para o ecossistema Roku, usada para desenvolver canais (aplicativos) que rodam em dispositivos Roku.
 
 No entanto, nos últimos anos, a comunidade passou a criar ferramentas que transpilem TypeScript para BrightScript, permitindo que desenvolvedores usem TypeScript como linguagem de origem para criar apps Roku, aproveitando os recursos de tipagem, modularização e tooling moderno. Um dos projetos mais conhecidos nesse sentido é o Roku Community TypeScript (também conhecido como Roku-ts), que transpila o código TypeScript em BrightScript. Com ele, desenvolvedores podem escrever lógica de aplicação em TypeScript, usando classes, interfaces, tipos e até decorators, e então gerar o código compatível com a plataforma Roku.
@@ -140,6 +142,19 @@ Quando se trata de escopo, funciona da mesma forma como no JavaScript:
 - **Local Scope**: Variáveis locais, como o nome sugere, são declaradas dentro das estruturas como métodos, laços etc.
 
 O TypeScript tem as mesmas regras que o JavaScript para declarar variáveis. Inicialmente, apenas a palavra-chave '`var`' era usada para declarar a variável, mas na versão ES6 do JavaScript, as palavras-chave `let` e `const` são introduzidas para declarar uma variável. Portanto, você também pode usá-los no TypeScript.
+
+Exemplo 2:
+
+```typescript
+var name: string = "Ilkin";
+var n1: number = 48;
+var n2: number = 22.50;
+var sum = n1 + n2;
+console.log("Name: " + name);
+console.log("N1: " + n1);
+console.log("N2: " + n2);
+console.log("Sum: " + sum);
+```
 
 Quando declaramos a variável usando a palavra-chave `let` no TypeScript, a regra de escopo e a regra de hoisting permanecem as mesmas do JavaScript.
 
