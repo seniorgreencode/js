@@ -177,11 +177,24 @@ let var_name: var_type = value;
 # 🟦 [TS] Estruturas de programação
 <img src="https://github.com/user-attachments/assets/7b8e3532-810a-48ec-93fc-a61464f8a4ce" align="right" height="277">
 
-No TypeScript, as instruções de tomada de decisão (decision making) são usadas para controlar o fluxo da execução com base em determinadas condições. O TypeScript oferece suporte a todos os tipos de construções de tomada de decisão disponíveis no ES6, incluindo instruções if, if else, switch. Como um superconjunto de JavaScript, o TypeScript herda e expande os recursos do JavaScript, incluindo instruções de tomada de decisão.
+No TypeScript, as instruções de tomada de decisão (decision making) são usadas para controlar o fluxo da execução com base em determinadas condições. O TypeScript oferece suporte a todos os tipos de construções de tomada de decisão disponíveis no ES6, incluindo instruções `if`, `if else`, `switch`. Como um superconjunto de JavaScript, o TypeScript herda e expande os recursos do JavaScript, incluindo instruções de tomada de decisão.
 
 As estruturas de tomada de decisão exigem que o programador especifique uma ou mais condições a serem avaliadas ou testadas pelo programa, juntamente com uma instrução ou instruções a serem executadas se a condição for determinada como verdadeira e, opcionalmente, outras instruções a serem executadas se a condição for determinada como falsa.
 
-Ao lado, está a forma geral de uma estrutura típica de tomada de decisão encontrada na maioria das linguagens de programação:
+A imagem ao lado, está a forma geral de uma estrutura típica de tomada de decisão encontrada na maioria das linguagens de programação.
+
+## [TS] Estruturas condicionais
+Um constructo de tomada de decisão avalia uma condição antes que as instruções sejam executadas. As construções de tomada de decisão no TypeScript são classificadas da seguinte forma:
+
+1. instrução `if`: Uma instrução `if` consiste em uma expressão booleana seguida por uma ou mais instruções.
+
+2.	`if`... instrução `else`: Uma instrução `if` pode ser seguida por uma instrução else opcional, que é executada quando a expressão booleana é falsa.
+
+3.	`elseif` e instruções `if` aninhadas: Você pode usar uma instrução `if` ou `else if` dentro de outra(s) statement(s) `if` ou `else if`.
+
+4.	instrução `switch`: Uma instrução `switch` permite que uma variável seja testada em relação a uma lista de valores.
+
+## [TS] Laços de repetição (Loops)
 
 # 🟦 [TS] Funções
 
