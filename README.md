@@ -261,6 +261,36 @@ if(mostrarSite){ // Se mostrarSite
 
 Ele printou de ordem decrescente e não printou o `mostrarSite`, pois só printaria se fosse verdadeiro e, no caso, a variável foi declarada como falsa. Ou seja, o site não existe no escopo, somente na variável!
 
+Até então, estamos utilizando o JavaScript puro no nosso runtime, para utilizar o TypeScript, precisamos instalar as dependências necessárias. O `ts-node` é uma ferramenta que permite executar arquivos TypeScript diretamente no Node.js, sem precisar compilá-los manualmente para JavaScript antes. Ele faz isso ao combinar o poder do compilador TypeScript com o ambiente de execução do Node.js. As principais funções do `ts-node`:
+
+- Transpilar e executar arquivos `.ts` em tempo real
+- Evita o uso do `tsc` (TypeScript Compiler) para gerar arquivos `.js`
+- Ideal para desenvolvimento, testes rápidos e scripts
+
+Quando você roda um comando como:
+
+```bash
+ts-node meuArquivo.ts
+```
+
+O `ts-node`:
+
+1. Lê o arquivo `.ts`
+2. Transpila para JavaScript usando o TypeScript
+3. Executa o código no Node.js — tudo isso em uma única etapa!
+
+Você pode instalar com:
+
+```bash
+npm install -D ts-node typescript
+```
+
+Exemplo de uso: Isso é especialmente útil em projetos onde você quer testar rapidamente sem configurar um processo de `build` completo.
+
+```bash
+npx ts-node src/index.ts
+```
+
 # 🖤 [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
