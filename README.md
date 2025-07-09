@@ -206,7 +206,16 @@ Um constructo de tomada de decisão avalia uma condição antes que as instruç�
 
 Vamos entender a tomada de decisão em detalhes com a ajuda de alguns exemplos no TypeScript.
 
-Exemplo:
+Exemplo: instrução `if`
+
+```typescript
+let age: number = 19;
+if (age >= 18) {
+    console.log("You care eligible for voting.");
+}
+```
+
+No exemplo abaixo, a instrução `if` verifica a condição `idade >= 18`. A condição (expressão booleana) é verdadeira, portanto, a instrução entre chaves `{}` é executada.
 
 ## [TS] Laços de repetição (Loops)
 
