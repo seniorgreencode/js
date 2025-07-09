@@ -181,17 +181,34 @@ Uma **interface** é um contrato sintático ao qual uma entidade deve estar em c
 
 As interfaces definem propriedades, métodos e eventos, que são os membros da interface. As interfaces contêm apenas a declaração dos membros. É responsabilidade da classe derivada definir os membros. Muitas vezes, ajuda a fornecer uma estrutura padrão que as classes derivadas seguiriam.
 
+Diferente de linguagens como C#, em que interfaces são usadas para definir comportamentos que classes devem seguir (e podem incluir eventos, métodos e até generics), no TypeScript o foco principal está nos objetos JavaScript. Elas servem para dizer: “esse objeto precisa ter tais propriedades, com esses tipos”. É extremamente útil para garantir tipagem estática, validação em tempo de desenvolvimento, e intellisense nos editores de código.
+
 Vamos considerar um objeto JavaScript:
 
 ```typescript
-var pessoa = { Nome:"Tom", Sobrenome:"Hanks", sayHi: ()=>{ return "Hi"} 
-};
+var pessoa = { Nome:"Tom", Sobrenome:"Hanks", sayHi: ()=>{ return "Hi"} };
 ```
 
 Se considerarmos a assinatura do objeto, pode ser:
 
 ```typescript
 { Nome:string, Sobrenome:string, sayHi()=>string }
+```
+
+Para reutilizar a assinatura entre objetos, podemos defini-la como uma interface.
+
+A palavra-chave `interface` é usada para declarar uma interface. Aqui está a sintaxe para declarar uma interface:
+
+```typescript
+interface interface_name {
+
+}
+```
+
+Exemplo: Interface e Objetos
+
+```typescript
+interface IPerson { firstName:string, lastName:string, sayHi: ()=>string } var customer:IPerson = { firstName:"Tom", lastName:"Hanks", sayHi: ():string =>{return "Olá"} } console.log("Objeto do cliente "). log(cliente.firstName). log(cliente.lastName). log(cliente.sayHi()) var funcionário:IPerson = { nome:"Jim", sobrenome:"Blakes", sayHi: ():string =>{return "Olá!!"} } console.log("Objeto de funcionário "). log(funcionário.nome);  console.log(funcionário.sobrenome);
 ```
 
 Exemplo: interface `Person`
