@@ -424,8 +424,7 @@ Em comparação com ORMs tradicionais, o Prisma elimina muita da "mágica" impl�
 Em resumo, o Prisma é mais que um ORM: é um **ecossistema completo para gerenciamento de dados** que equilibra abstração e controle, ideal para desenvolvedores que buscam evitar as armadilhas de ORMs clássicos enquanto mantêm a robustez do TypeScript e a eficiência de consultas otimizadas.
 
 # 💜 [JS] AdonisJS
-
-<img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
+<img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> <img src="https://img.shields.io/badge/Adonis.js-0.9.0-5A45FF?style=flat&logo=AdonisJS&logoColor=white"> 
 
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/adonisjs/adonisjs-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
@@ -449,6 +448,10 @@ Em resumo, o AdonisJS é uma opção sólida para desenvolvedores que buscam um 
 npm install express
 node index.js
 ```
+
+# 🐶 [JS] PugJS
+
+## [JS] EJS - Embedded JavaScript Templating
 
 # ⚛︎ GraphQL
 <a href="https://graphql.org/"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="77" align="right"></a>
