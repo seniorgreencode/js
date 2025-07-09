@@ -1,7 +1,7 @@
 # 🟦 TypeScript (TS)
-<a href="https://www.tutorialspoint.com/typescript/index.htm">![JS](https://img.shields.io/badge/TypeScript-mindmap-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-observablehq-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-DSA-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-blue?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://github.com/IsaacAlves7/js/tree/react.js">![JS](https://img.shields.io/badge/React.js-repository-blue?style=flat&logo=React&logoColor=aqua)</a>
+<a href="https://www.tutorialspoint.com/typescript/index.htm">![JS](https://img.shields.io/badge/TypeScript-mindmap-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg">![JS](https://img.shields.io/badge/TypeScript-Playground-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/TypeScript-DSA-blue?style=flat&logo=typescript&logoColor=white)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-blue?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://github.com/IsaacAlves7/js/tree/react.js">![JS](https://img.shields.io/badge/React.js-repository-blue?style=flat&logo=React&logoColor=aqua)</a>
 
-<a href="https://www.typescriptlang.org/play/?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCbvCwDKgU8JkY7p7ehCTkVDQS2E6gnPCxGcwmZqDSTgzxxWWVoASMFmgYkAAeRJTInN3ymj4d-jSCeNsMq-wuoPaOltigAKoASgAywhK7SbGQZIIz5VWCFzSeCrZagNYbChbHaxUDcCjJZLfSDbExIAgUdxkUBIursJzCFJtXydajBBCcQQ0MwAUVWDEQC0gADVHBQGNJ3KAALygABEAAkYNAMOB4GRonzFBTBPB3AERcwABS0+mM9ysygc9wASmCKhwzQ8ZC8iHFzmB7BoXzcZmY7AYzEg-Fg0HUiQ58D0Ii8fLpDKZgj5SWxfPADlQAHJhAA5SASPlBFQAeS+ZHegmdWkgR1QjgUrmkeFATjNOmGWH0KAQiGhwkuNok4uiIgMHGxCyYrA4PCCJSAA"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+<a href="https://www.typescriptlang.org/"><img src="https://github.com/user-attachments/assets/9eab1b3e-28ea-4f27-8c07-f2b2156b504c" height="77" align="right"></a>
 
 O **TypeScript** (TS) é um superset da linguagem de programação JavaScript. Ou seja, o TS adiciona funções ao JavaScript, como a declaração de tipos de variável, novas funcionalidades ao JS como "Interfaces", verifica os erros antes da execução do código, e por ser mais enxuto ao paradigma OOP no JavaScript, podendo ser usado com frameworks/libs, como Express e React, servindo tanto para front-end como back-end. No entanto, precisa ser compilado em JavaScript, ou seja, não executamos TS. E ele foi desenvolvido e mantido pela Microsoft. Se você usa o TS sem precisar das suas funções ou por causas específicas como superset do JS, ele não é indicado, é prefirível usar o JS puro. 
 
@@ -24,6 +24,14 @@ O desenvolvimento para Roku TV não é feito nativamente em TypeScript, mas sim 
 No entanto, nos últimos anos, a comunidade passou a criar ferramentas que transpilem TypeScript para BrightScript, permitindo que desenvolvedores usem TypeScript como linguagem de origem para criar apps Roku, aproveitando os recursos de tipagem, modularização e tooling moderno. Um dos projetos mais conhecidos nesse sentido é o Roku Community TypeScript (também conhecido como Roku-ts), que transpila o código TypeScript em BrightScript. Com ele, desenvolvedores podem escrever lógica de aplicação em TypeScript, usando classes, interfaces, tipos e até decorators, e então gerar o código compatível com a plataforma Roku.
 
 Portanto, o Roku TV não roda diretamente TypeScript, mas é possível desenvolver para Roku com TypeScript por meio de ferramentas que fazem essa conversão. Isso está se tornando mais comum entre desenvolvedores que já utilizam TypeScript em outras plataformas e querem manter uma base de código moderna e consistente mesmo ao criar apps para Roku. Então, sua lembrança está correta no sentido de que há uso de TypeScript no desenvolvimento Roku, mas não como linguagem nativa — e sim como linguagem de desenvolvimento que é transformada para o formato exigido pela plataforma.
+
+Então, podemos instalar o TypeScript na nossa máquina local:
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```sh
+npm install -g typescript
+```
 
 ## [TS] Hello, World!
 
