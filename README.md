@@ -24,7 +24,7 @@
 - chrome://inspect/#devices -->
 
 # ⬢ [JS] Node.js 
-<img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> 
+<img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-16.17.0-339933?style=flat&logo=javascript&logoColor=white"> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md"><img src="https://img.shields.io/badge/TypeScript-16.17.0-339933?style=flat&logo=typescript&logoColor=white"></a>
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="77" title="Site do Node.js" align="right"/></a>
 
