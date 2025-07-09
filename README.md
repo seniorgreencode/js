@@ -851,6 +851,12 @@ Embora você seja bem-vindo para usar JavaScript, o Deno também tem suporte int
 deno run "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScript\index.ts"
 ```
 
+Para inicializar um novo projeto Deno, execute o seguinte comando em seu terminal:
+
+```sh
+deno init my_project
+```
+
 ## [JS] Fresh
 <a href="https://fresh.deno.dev/"><img src="https://github.com/user-attachments/assets/18934128-8c2e-4f25-9224-2d65ab2adf28" align="right" height="277"></a>
 
