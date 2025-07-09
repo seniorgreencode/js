@@ -830,6 +830,24 @@ deno run "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScript\
 ```
 
 ## [JS] Hello, World - Deno
+Após a instalação, cheque no terminal:
+
+```sh
+deno
+```
+
+E após carregar o deno, rode os comandos:
+
+```javascript
+console.log('Hello, World!')
+```
+
+Para rodar arquivos:
+
+```sh
+deno run index.js
+# Output: 'Hello, World!'
+```
 
 ## [JS] Fresh
 <a href="https://fresh.deno.dev/"><img src="https://github.com/user-attachments/assets/18934128-8c2e-4f25-9224-2d65ab2adf28" align="right" height="277"></a>
