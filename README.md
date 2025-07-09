@@ -823,12 +823,6 @@ Em resumo, o Deno representa uma evolução no desenvolvimento com JavaScript/Ty
 * Tem suporte nativo ao `await`
 * Busca ser o mais compatível possível com navegadores (inclui `fetch` embutido e o objeto global `window`)
 
-O Deno roda TypeScript (`.ts`) direto:
-
-```sh
-deno run "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScript\Interfaces.ts"
-```
-
 ## [JS] Hello, World - Deno
 Após a instalação, cheque no terminal:
 
@@ -847,6 +841,14 @@ Para rodar arquivos:
 ```sh
 deno run index.js
 # Output: 'Hello, World!'
+```
+
+O Deno possui muitas ferramentas integradas para tornar seu desenvolvimento experimente e o mais suave possível. Uma dessas ferramentas é o inicializador de projeto, que cria um novo projeto Deno com uma estrutura e configuração básicas de arquivos.
+
+Embora você seja bem-vindo para usar JavaScript, o Deno também tem suporte integrado para TypeScript, portanto, usaremos TypeScript neste guia. Se preferir usar JavaScript, você pode renomear o arquivos e remover as anotações de tipo `.js`. O Deno roda TypeScript (`.ts`) direto:
+
+```sh
+deno run "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScript\index.ts"
 ```
 
 ## [JS] Fresh
