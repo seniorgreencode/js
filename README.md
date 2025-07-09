@@ -341,7 +341,7 @@ No TypeScript, iteradores e geradores (Iterators and Generators) permitem contro
 TypeScript é uma linguagem de programação orientada a objetos e contém as classes, que é um projeto para o objeto. A classe pode ser definida conforme mostrado abaixo no TypeScript.
 
 # 🟦 [TS] MEAN Stack
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="277" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="377" align="right"></a>
 
 O **MEAN Stack** é um conjunto de tecnologias JavaScript usado para desenvolver aplicações web modernas, cobrindo tanto o front-end quanto o back-end. O nome MEAN é um acrônimo que representa suas quatro principais tecnologias: **MongoDB** (banco de dados NoSQL) ou **MySQL** (banco de dados relacionais), **Express.js** (framework para construir APIs em Node.js), **Angular** (framework front-end) e **Node.js** (ambiente de execução server-side). Juntas, essas tecnologias permitem criar aplicações full-stack usando apenas JavaScript (ou TypeScript, no caso do Angular), o que simplifica o desenvolvimento e a manutenção, já que a mesma linguagem é usada em todas as camadas. O MongoDB, sendo um banco de dados orientado a documentos, oferece flexibilidade para armazenar dados não estruturados, enquanto o Express.js e o Node.js fornecem a base para construir APIs rápidas e escaláveis. O Angular, por sua vez, é responsável por criar interfaces dinâmicas e reativas no lado do cliente, seguindo padrões como componentes, injeção de dependência e roteamento.  
 
