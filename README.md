@@ -181,7 +181,41 @@ Uma **interface** é um contrato sintático ao qual uma entidade deve estar em c
 
 As interfaces definem propriedades, métodos e eventos, que são os membros da interface. As interfaces contêm apenas a declaração dos membros. É responsabilidade da classe derivada definir os membros. Muitas vezes, ajuda a fornecer uma estrutura padrão que as classes derivadas seguiriam.
 
-Vamos considerar um objeto:
+Vamos considerar um objeto JavaScript:
+
+```typescript
+var pessoa = { Nome:"Tom", Sobrenome:"Hanks", sayHi: ()=>{ return "Hi"} 
+};
+```
+
+Se considerarmos a assinatura do objeto, pode ser:
+
+```typescript
+{ Nome:string, Sobrenome:string, sayHi()=>string }
+```
+
+Exemplo: interface `Person`
+
+[![TS](https://img.shields.io/badge/-Person.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
+```typescript
+interface Person { 
+   firstName:string, 
+   lastName:string, 
+   sayHi: ()=>string 
+} 
+
+var customer:Person = { 
+   firstName:"Ilkin",
+   lastName:"Guluzada", 
+   sayHi: ():string =>{return "Hi there"} 
+} 
+
+console.log("Customer Object ") 
+console.log(customer.firstName) 
+console.log(customer.lastName) 
+console.log(customer.sayHi()) 
+```
 
 # 🟦 [TS] Classes e Objetos
 <img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white">
