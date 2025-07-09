@@ -40,6 +40,24 @@ Empresas grandes começaram a migrar de linguagens como Ruby e Java para o Node.
 
 Antigamente, o JavaScript foi feito apenas para rodar na interface/ cliente dos navegadores (preso apenas no Front-End e estático). Então, com a chegada do Node.js permitiu que rodasse a linguagem no lado do servidor para criar qualquer tipo de aplicação, não somente web, mas qualquer outro tipo de aplicação.
 
+Lembrando que o Node.js não é o único runtime, existem outros até mais potentes dependendo do caso de uso e gosto dos desenvolvedores em cada projeto como o Deno, Bun e outros runtimes JavaScript que surgiram ao longo do tempo ou que atendem a nichos específicos:
+
+- **GraalVM** desenvolvido pela Oracle e suporta múltiplas linguagens (JavaScript, Python, Ruby, Java, etc.) com foco em **alto desempenho** e **interoperabilidade** e permite rodar JavaScript em ambientes Java.
+
+- **SpiderMonkey** motor JavaScript criado pela Mozilla, usado no Firefox, pode ser usado como runtime standalone para JS em projetos específicos.
+
+- **ChakraCore** motor JavaScript da Microsoft (usado no antigo Edge), pode ser usado como runtime independente e o suporte está descontinuado, mas ainda disponível para experimentos.
+
+- **QuickJS** criado por Fabrice Bellard, pequeno e leve — ideal para **embedded systems**. Suporta ES2020 e pode compilar para WebAssembly.
+
+- **Hermes** desenvolvido pelo time do React Native (Facebook/Meta), focado em **mobile performance**. Executa JavaScript em apps React Native com menor consumo de memória.
+
+- **JerryScript**: otimizado para dispositivos IoT
+
+- **XS (Moddable)**: runtime leve para microcontroladores
+
+- **Otto**: runtime JS escrito em Go (limitado, mas curioso)
+
 Com o Node.js conseguimos criar:
 
 <a href="https://nodejs.org/en/"><img src="https://github.com/IsaacAlves7/js/assets/61624336/da0c322f-1825-481f-995f-bab669f7e326" height="77" title="Site do Node.js" align="right"/></a>
