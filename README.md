@@ -724,7 +724,7 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 - Union.
 
 # 🦕 [JS] Deno
-<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="77" align="right">
+<a href="https://deno.com/"><img src="https://github.com/user-attachments/assets/ef699c09-c507-455c-8174-c1d8db4db53d" height="77" align="right"></a>
 
 **Deno** é um runtime moderno para JavaScript e TypeScript, criado por Ryan Dahl, o mesmo desenvolvedor que originalmente criou o Node.js. Surgiu como uma resposta às limitações e problemas de design que se tornaram evidentes no Node.js ao longo dos anos, com o objetivo de oferecer uma alternativa mais segura, simples e alinhada com as necessidades atuais do desenvolvimento web, ou seja, é o sucessor espiritual do Node.js. Uma das principais diferenças em relação ao Node.js é que o Deno foi construído em Rust, utilizando o motor V8 do Google, assim como o Node, mas com uma arquitetura que prioriza segurança, modularidade e compatibilidade com os padrões modernos da web.  
 
@@ -738,6 +738,8 @@ Apesar das vantagens, o Deno ainda não alcançou a mesma adoção massiva que o
 
 Em resumo, o Deno representa uma evolução no desenvolvimento com JavaScript/TypeScript, priorizando segurança, simplicidade e alinhamento com padrões web. Embora ainda esteja em crescimento, sua abordagem inovadora o torna uma opção promissora para novos projetos, especialmente aqueles que valorizam TypeScript, segurança rigorosa e um runtime mais enxuto e integrado.
 
+<img src="https://cdn.worldvectorlogo.com/logos/deno-1.svg" height="77" align="right">
+
 * Baseado em recursos modernos da linguagem JavaScript
 * Possui uma biblioteca padrão extensa
 * Tem TypeScript em seu núcleo
@@ -749,7 +751,7 @@ Em resumo, o Deno representa uma evolução no desenvolvimento com JavaScript/Ty
 ## [JS] Hello, World - Deno
 
 # 🍙 [JS] Bun
-<img src="https://bun.sh/logo.svg" height="77" align="right">
+<a href="https://bun.sh/"><img src="https://bun.sh/logo.svg" height="77" align="right"></a>
 
 **Bun** é um runtime de JavaScript e TypeScript extremamente rápido, projetado para ser uma alternativa moderna ao Node.js e Deno, com foco em desempenho, eficiência e simplificação do fluxo de trabalho de desenvolvimento. Desenvolvido por Jarred Sumner, o Bun foi criado para resolver algumas das ineficiências do Node.js, especialmente em termos de velocidade de inicialização, execução de scripts e gerenciamento de dependências. Uma das características mais marcantes do Bun é que ele é construído em Zig, uma linguagem de programação de baixo nível que prioriza desempenho e controle, e utiliza o motor JavaScript WebKit (em vez do V8, usado por Node.js e Deno), o que contribui para sua velocidade excepcional.  
 
