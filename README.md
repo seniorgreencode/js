@@ -1999,7 +1999,7 @@ Criando a aplicação Vite:
 npm create vite@latest ./ -- --template react
 ```
 
-# [React] Nx
+# 🌊 [React] Nx
 <img src="https://github.com/user-attachments/assets/743d8210-cd22-4f0c-869e-71825bbbcd53" align="right" height="77">
 
 O **Nx** é uma ferramenta de build e gerenciamento de monorepos que nasceu para facilitar o desenvolvimento de aplicações em larga escala, especialmente em ambientes com múltiplos projetos interdependentes. Ele oferece uma estrutura altamente modular, com foco em performance, cache inteligente, e ferramentas de linting, testing e build otimizadas. Criado inicialmente pelo time da Nrwl (formado por ex-funcionários do time Angular do Google), o Nx foi crescendo e ganhando suporte a várias tecnologias como React, Angular, Node.js, NestJS, e mais recentemente também Vite, Next.js, entre outras. Um dos pontos centrais do Nx é permitir que você tenha muitos apps e bibliotecas compartilhadas no mesmo repositório, tudo com regras de dependência bem definidas, para evitar acoplamentos indesejados e garantir escalabilidade.
