@@ -57,17 +57,19 @@ console.log(message);
 # 🟦 [TS] Dados e tipos primitivos
 <a href="https://www.typescriptlang.org/play/"><img src="https://serokell.io/files/0u/0ufu1q21.js-ts.jpg" height="277" align="right"></a>
 
-Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. 
+Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. O Sistema de tipos verifica a validade dos valores fornecidos, antes de serem armazenados ou manipulados pelo programa. Isso garante que o código se comporte conforme o esperado. O TypeScript permite ainda dicas de código mais ricas e documentação automatizada também.
 
-TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. 
+TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. O Sistema de Tipos representa os diferentes tipos de valores suportados pela linguagem. 
 
-Ela pode ser categorizada da seguinte forma:
+O TypeScript fornece tipos de dados como parte de seu sistema de tipos opcional. A classificação do tipo de dados é a seguinte:
 
-- **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript.
+- **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript. Ele denota um tipo dinâmico. Usar o tipo `any` é equivalente a recusar a verificação de tipo para uma variável.
 
 - **Built-in types**: `Number`, `String`, `Boolean`, `Void`, `Null`, `Undefined` são tipos embutidos no TypeScript.
 
 - **User-defined types**: Tipos definidos pelo usuário incluem `Enums`, `interfaces`, `arrays` e `tuples`.
+
+<a href="https://www.typescriptlang.org/play/"><img src="https://github.com/user-attachments/assets/520f62b6-1d81-476f-a6cc-faa4bd009e7d" height="277" align="right"></a>
 
 Entre os tipos primitivos estão `number`, que representa valores numéricos, incluindo inteiros e decimais; `string`, que representa sequências de caracteres como nomes, frases ou qualquer outro texto; e `boolean`, que representa valores lógicos `true` ou `false`, normalmente utilizados em verificações e estruturas de controle. 
 
@@ -75,7 +77,16 @@ Também existem os tipos `null` e `undefined`, que representam ausência de valo
 
 O uso de tipos primitivos em TypeScript permite que os programas sejam mais previsíveis, robustos e fáceis de manter, pois o compilador consegue detectar erros de tipo antes mesmo que o código seja executado. Essa característica torna o TypeScript uma opção muito poderosa para aplicações JavaScript modernas, especialmente em projetos de médio e grande porte.
 
-[![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+Exemplo: No código abaixo, `age` e `marks` de ambas as variáveis são do tipo número. A variável `age` contém o valor inteiro e a variável `marks` contém o valor de ponto flutuante.
+
+[![TS](https://img.shields.io/badge/-Types.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
+```typescript
+// Integer number
+let age: number = 30;
+// Float number
+let marks: number = 30.5;
+```
 
 # 🟦 [TS] Variáveis
 <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
