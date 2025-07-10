@@ -257,7 +257,7 @@ O uso de variáveis para armazenar valores apresenta as seguintes limitações:
 
 - As variáveis em um programa são alocadas na memória em ordem aleatória, dificultando assim a recuperação/leitura dos valores na ordem de sua declaração.
 
-O TypeScript introduz o conceito de **arrays** (matrizes ou vetores) para lidar com o mesmo. Uma matriz é uma coleção homogênea de valores. Para simplificar, uma matriz é uma coleção de valores do mesmo tipo de dados. É um tipo definido pelo usuário.
+O TypeScript introduz o conceito de **arrays** (matrizes ou vetores) para lidar com o mesmo. Uma matriz é uma coleção homogênea de valores. Para simplificar, uma matriz é uma coleção de valores do mesmo tipo de dados. É um tipo definido pelo usuário. O par de `[]` é chamado de **dimensão da matriz**.
 
 Em TypeScript, arrays não são tipos definidos pelo usuário (user-defined types) no sentido técnico e formal. Arrays `(string[], number[])` não são tipos definidos pelo usuário em si. Eles são tipos genéricos ou construídos a partir de tipos primitivos já existentes. Você pode dizer que são usados para compor tipos, mas não são “definidos” por você no sentido de criar algo novo com nome ou estrutura única.
 
