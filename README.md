@@ -54,10 +54,12 @@ var message = "Hello, World!";
 console.log(message);
 ```
 
-# 🟦 [TS] Dados e tipos primitivos
+# 🟦 [TS] Dados e tipos
 <a href="https://www.typescriptlang.org/play/"><img src="https://serokell.io/files/0u/0ufu1q21.js-ts.jpg" height="277" align="right"></a>
 
-Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. O Sistema de tipos verifica a validade dos valores fornecidos, antes de serem armazenados ou manipulados pelo programa. Isso garante que o código se comporte conforme o esperado. O TypeScript permite ainda dicas de código mais ricas e documentação automatizada também.
+Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. 
+
+O Sistema de tipos verifica a validade dos valores fornecidos, antes de serem armazenados ou manipulados pelo programa. Isso garante que o código se comporte conforme o esperado. O TypeScript permite ainda dicas de código mais ricas e documentação automatizada também.
 
 TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. O Sistema de Tipos representa os diferentes tipos de valores suportados pela linguagem. 
 
