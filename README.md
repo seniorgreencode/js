@@ -224,6 +224,8 @@ let var_name: var_type = value;
 
 Exemplo: No código abaixo, definimos a variável '`car_name`' do tipo `string` que contém o valor `Brezza`. A variável '`car_price`' contém o valor do número `1000000`.
 
+[![TS](https://img.shields.io/badge/-Variables.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
+
 ```typescript
 // Define a variable in TypeScript
 let car_name: string = "Brezza";
@@ -233,6 +235,8 @@ console.log(car_price);
 ```
 
 Na compilação, ele gerará o seguinte código JavaScript.
+
+[![JS](https://img.shields.io/badge/-Variables.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 // Define a variable in TypeScript
@@ -606,6 +610,8 @@ Além da validação de tipos primitivos como string, number, boolean e array, Z
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
 
 # 🧩 [TS] Design Patterns
+
+# 🧱 [TS] Architectural Patterns
 
 # 🧪 [TS] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/651e9465-e597-4fa0-9e1b-d8c85e1e6db2" height="77" align="right"></a>
