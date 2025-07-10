@@ -55,7 +55,7 @@ console.log(message);
 ```
 
 # 🟦 [TS] Dados e tipos primitivos
-<a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+<a href="https://www.typescriptlang.org/play/"><img src="https://serokell.io/files/0u/0ufu1q21.js-ts.jpg" height="277" align="right"></a>
 
 Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. Ela pode ser categorizada da seguinte forma:
 
@@ -74,6 +74,8 @@ O uso de tipos primitivos em TypeScript permite que os programas sejam mais prev
 [![TS](https://img.shields.io/badge/-helloWorld.ts-fff?style=social&logo=typescript&logoColor=blue)](#)
 
 # 🟦 [TS] Variáveis
+<a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
+
 Uma **variável**, por definição, é um espaço nomeado na memória que armazena valores. Em outras palavras, ele atua como um contêiner para valores em um programa. As variáveis TypeScript devem seguir as regras de nomenclatura JavaScript.
 
 > Os nomes de variáveis podem conter alfabetos e dígitos numéricos. Eles não podem conter espaços e caracteres especiais, exceto o sublinhado (`_`) e o sinal de dólar (`$`). Os nomes de variáveis não podem começar com um dígito.
@@ -432,15 +434,12 @@ Além da validação de tipos primitivos como string, number, boolean e array, Z
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
 
 # 🧪 [TS] DDD, BDD e TDD
+**TDD (Test-Driven Development), BDD (Behavior-Driven Development) e DDD (Domain-Driven Design)** em TypeScript seguem essencialmente os mesmos princípios fundamentais que no JavaScript, mas com nuances e vantagens específicas graças ao sistema de tipos estáticos do TypeScript.
 
-<!--
-https://assets.bbhub.io/company/sites/40/2020/11/ts_banana-473x428.png
-https://softwarebrothers.co/blog/content/images/2019/10/Blogpost.png
-https://res.cloudinary.com/practicaldev/image/fetch/s--c9q4Du_e--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://ionicframework.com/blog/wp-content/uploads/2019/02/typescript-in-react.png
-https://miro.medium.com/max/2700/1*vwmDzqci0cQyXJDdmjsy5w.png
-https://pic4.zhimg.com/v2-ed0c11740c5bf50f307a38d0262149b1_250x0.jpg
-https://user-images.githubusercontent.com/6764957/52892445-9045cf80-3136-11e9-9d5e-a1c47e505372.png
-https://serokell.io/files/0u/0ufu1q21.js-ts.jpg
-https://www.typescriptlang.org/images/branding/two-longform.svg
-https://miro.medium.com/max/2640/1*zFOmo73YnwZzrrTXZouEGQ.png
--->
+No caso de **TDD**, a prática de escrever testes antes da implementação — escrevendo um teste que falha, depois o código mínimo para passar, e por fim refatorando — continua igual. Porém, o TypeScript melhora a experiência por permitir melhor autocompletar, detecção de erros em tempo de compilação e tipos explícitos nos testes, o que ajuda na refatoração segura e na clareza da intenção do teste. Frameworks como **Jest**, **Vitest**, **Mocha** ou **AVA** são todos compatíveis com TypeScript via tipagens ou plugins.
+
+No **BDD**, que enfatiza descrever o comportamento do sistema em termos legíveis (por humanos e máquinas), o uso do TypeScript permite que você escreva descrições mais consistentes, com menos chances de erro de assinatura ou inconsistência entre cenários. Por exemplo, usando `describe`, `it`, `given`, `when`, `then` com ferramentas como **Cucumber.js** ou até com Jest adaptado a um estilo BDD, o TypeScript ajuda com sugestões de tipo e até validação de mocks e stubs.
+
+Já no **DDD**, as vantagens do TypeScript são ainda mais evidentes. Como o DDD propõe modelar o domínio de forma explícita com classes, tipos, entidades, agregados, repositórios e serviços, o TypeScript permite que você expresse tudo isso com tipos fortes e contratos bem definidos. Conceitos como `ValueObject`, `Entity`, `AggregateRoot` e `Repository` podem ser implementados como classes ou interfaces, o que traz muito mais robustez do que no JavaScript puro, onde tudo é mais dinâmico e propenso a erros em tempo de execução.
+
+Ou seja, as práticas e filosofias continuam as mesmas, mas TypeScript oferece uma base muito mais segura e expressiva, principalmente quando a complexidade da aplicação cresce. Ele não muda o que TDD, BDD ou DDD são, mas enriquece a aplicação desses paradigmas com segurança de tipos, organização modular e manutenção facilitada.
