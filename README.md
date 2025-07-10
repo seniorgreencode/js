@@ -459,6 +459,63 @@ No TypeScript, **iteradores e geradores** (Iterators and Generators) permitem co
 # 🟦 [TS] Mixins
 TypeScript é uma linguagem de programação orientada a objetos e contém as classes, que é um projeto para o objeto. A classe pode ser definida conforme mostrado abaixo no TypeScript.
 
+```typescript
+class MathOps {
+    // defining a method
+    add(a: number, b: number): void {
+        console.log('sum is: ', a + b);
+    }
+}
+```
+
+# 🟦 [TS] Getters e Setters
+Em TypeScript, **getters** e **setters** são métodos especiais dentro de classes que permitem controlar o acesso e a atribuição de valores a propriedades, encapsulando lógica ao redor desses acessos. Eles funcionam de forma parecida com outras linguagens orientadas a objetos como Java e C#, mas com a sintaxe própria do JavaScript moderno (ES5+), que o TypeScript expande com tipagem estática.
+
+Getters e setters em TypeScript te dão controle e segurança sobre como propriedades de um objeto são acessadas e modificadas, mantendo a interface limpa e o domínio protegido contra estados inválidos.
+
+Um **getter** é usado para obter o valor de uma propriedade privada ou protegida, e um **setter** é usado para modificar esse valor, podendo aplicar validações, transformações ou side effects no processo. O uso de getters e setters é opcional, mas útil quando você quer preservar o princípio do **encapsulamento** — ocultando a implementação interna e expondo uma interface controlada.
+
+Exemplo básico:
+
+```ts
+class Pessoa {
+  private _nome: string;
+
+  constructor(nome: string) {
+    this._nome = nome;
+  }
+
+  get nome(): string {
+    return this._nome;
+  }
+
+  set nome(valor: string) {
+    if (valor.length < 2) {
+      throw new Error("Nome muito curto.");
+    }
+    this._nome = valor;
+  }
+}
+
+const p = new Pessoa("Isaac");
+console.log(p.nome); // Usa o getter
+
+p.nome = "Alves"; // Usa o setter
+console.log(p.nome);
+
+// p.nome = ""; // Lança erro: Nome muito curto
+```
+
+Observe que ao acessar `p.nome`, mesmo sem usar `()` como em métodos tradicionais, o TypeScript já reconhece que está chamando um `get`. O mesmo vale ao atribuir: `p.nome = "novo valor"` chama o `set`.
+
+Considerações:
+
+* Os nomes dos métodos `get` e `set` devem **coincidir** para funcionar como propriedade.
+* Você pode definir apenas um `get` sem `set`, tornando a propriedade **somente leitura**.
+* Com `strict` mode ativado no TypeScript, você pode ter verificações mais seguras sobre o uso e atribuição.
+* Getters e setters **não funcionam em interfaces** — apenas em classes.
+* Em React com TypeScript, é incomum usar getters e setters em componentes funcionais, mas em classes ou para modelagem de domínio com DDD no front-end, eles ainda têm aplicação.
+
 # 🟦 [TS] MEAN Stack
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://user-images.githubusercontent.com/61624336/112906968-74f27000-90c3-11eb-89d3-fd6328e44968.png" height="377" align="right"></a>
 
@@ -517,6 +574,8 @@ A biblioteca Zod não é especificamente para testes E2E (End-to-End), mas sim u
 Além da validação de tipos primitivos como string, number, boolean e array, Zod também permite composições mais complexas, como objetos aninhados, validações assíncronas, união de tipos, enums, schemas parciais e transformações de dados. Por exemplo, você pode definir um schema `z.object({ nome: z.string(), idade: z.number().int() })` e usá-lo tanto para garantir que os dados estejam corretos em tempo de execução quanto para gerar o tipo correspondente para uso estático em TypeScript.
 
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
+
+# 🧩 [TS] Design Patterns
 
 # 🧪 [TS] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/651e9465-e597-4fa0-9e1b-d8c85e1e6db2" height="77" align="right"></a>
