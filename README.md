@@ -57,7 +57,11 @@ console.log(message);
 # 🟦 [TS] Dados e tipos primitivos
 <a href="https://www.typescriptlang.org/play/"><img src="https://serokell.io/files/0u/0ufu1q21.js-ts.jpg" height="277" align="right"></a>
 
-Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. Ela pode ser categorizada da seguinte forma:
+Em TypeScript, dados são representações de valores que o programa manipula e processa ao longo da execução, e os tipos primitivos são a base dessa estrutura. 
+
+TypeScript, por ser uma linguagem fortemente tipada e baseada em JavaScript, herda todos os tipos primitivos da linguagem JavaScript, mas adiciona uma camada de segurança com tipagem estática, permitindo que os desenvolvedores definam explicitamente quais tipos de dados uma variável pode assumir. 
+
+Ela pode ser categorizada da seguinte forma:
 
 - **The Any type**: O tipo de dado `any` é o supertipo (super type) de todos os tipos no TypeScript.
 
@@ -185,6 +189,9 @@ let var_name: var_type = value;
 - '`value`' é um valor a ser armazenado na variável.
 
 # 🟦 [TS] Tuples
+Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
+
+Representa uma coleção heterogênea de valores. Em outras palavras, as tuplas permitem armazenar vários campos de diferentes tipos. As tuplas também podem ser passadas como parâmetros para funções.
 
 # 🟦 [TS] Estruturas de programação
 <img src="https://github.com/user-attachments/assets/7b8e3532-810a-48ec-93fc-a61464f8a4ce" align="right" height="277">
