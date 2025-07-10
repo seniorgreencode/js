@@ -222,6 +222,37 @@ No exemplo abaixo, a instrução `if` verifica a condição `idade >= 18`. A con
 ## [TS] Laços de repetição (Loops)
 
 # 🟦 [TS] Funções
+As **funções** no TypeScript são os blocos de construção do código legível, sustentável e reutilizável. Uma função é um conjunto de instruções para executar uma tarefa específica. As funções organizam o programa em blocos lógicos de código. Uma vez definidas, as funções podem ser chamadas para acessar o código. Isso torna o código reutilizável. Além disso, as funções facilitam a leitura e a manutenção do código do programa.
+
+Uma declaração de função informa ao compilador sobre o nome, o tipo de retorno e os parâmetros de uma função. Uma definição de função fornece o corpo real da função.
+
+1. Definindo uma função: Uma definição de função especifica o que e como uma tarefa específica seria feita.
+
+2. Chamando uma função: Uma função deve ser chamada para executá-la.
+
+3. Funções de retorno: As funções também podem retornar valor junto com o controle, de volta para o chamador.
+
+4. Função parametrizada: Os parâmetros são um mecanismo para passar valores para funções.
+
+**Parâmetros opcionais** podem ser usados quando os argumentos não precisam ser passados compulsoriamente para a execução de uma função. Um parâmetro pode ser marcado como opcional anexando um ponto de interrogação ao seu nome. O parâmetro opcional deve ser definido como o último argumento em uma função. A sintaxe para declarar uma função com parâmetro opcional é a seguinte:
+
+```typescript
+function function_name (param1[:type], param2[:type], param3[:type])
+```
+
+Exemplo: Parâmetros opcionais
+
+```typescript
+function disp_details(id:number,name:string,mail_id?:string) { 
+   console.log("ID:", id); 
+   console.log("Name",name); 
+   
+   if(mail_id!=undefined)  
+   console.log("Email Id",mail_id); 
+}
+disp_details(123,"John");
+disp_details(111,"mary","mary@xyz.com");
+```
 
 # 🟦 [TS] Interfaces
 Uma **interface** é um contrato sintático ao qual uma entidade deve estar em conformidade. Em outras palavras, uma interface define a sintaxe que qualquer entidade deve seguir.
@@ -434,6 +465,8 @@ Além da validação de tipos primitivos como string, number, boolean e array, Z
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
 
 # 🧪 [TS] DDD, BDD e TDD
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/651e9465-e597-4fa0-9e1b-d8c85e1e6db2" height="77" align="right"></a>
+
 **TDD (Test-Driven Development), BDD (Behavior-Driven Development) e DDD (Domain-Driven Design)** em TypeScript seguem essencialmente os mesmos princípios fundamentais que no JavaScript, mas com nuances e vantagens específicas graças ao sistema de tipos estáticos do TypeScript.
 
 No caso de **TDD**, a prática de escrever testes antes da implementação — escrevendo um teste que falha, depois o código mínimo para passar, e por fim refatorando — continua igual. Porém, o TypeScript melhora a experiência por permitir melhor autocompletar, detecção de erros em tempo de compilação e tipos explícitos nos testes, o que ajuda na refatoração segura e na clareza da intenção do teste. Frameworks como **Jest**, **Vitest**, **Mocha** ou **AVA** são todos compatíveis com TypeScript via tipagens ou plugins.
