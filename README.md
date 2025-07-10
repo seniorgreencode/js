@@ -333,6 +333,8 @@ Agora, execute com `ts-node`, você pode rodar seu arquivo normalmente:
 npx ts-node "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScript\Interfaces.ts"
 ```
 
+Como ensinado em JavaScript/TypeScript, os **módulos** são uma forma de separar um programa ou sistema em vários arquivos, garantindo a organização e a qualidade do seu código, no caso estariamos importando e exportando. Outra forma de utilizar módulos é quando quisermos usar bibliotecas e frameworks presentes no ecossistema do runtime, daí estaríamos importando um módulo na nossa aplicação.
+
 # 🖤 [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
