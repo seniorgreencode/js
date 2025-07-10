@@ -3285,6 +3285,8 @@ module.exports = {
 };
 ```
 
+Acima, através de um objeto JavaScript podemos exportar múltiplas funções e objetos a partir de um único arquivo, sem a necessidade de exportar várias funções em vários arquivos separados.
+
 ```javascript
 // arquivo: app.js
 const meuModulo = require('./meuModulo');
