@@ -88,6 +88,8 @@ let age: number = 30;
 let marks: number = 30.5;
 ```
 
+# 🟦 [TS] Operadores
+
 # 🟦 [TS] Variáveis
 <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
 
@@ -222,6 +224,8 @@ console.log(car_price);
 // Brezza
 // 1000000
 ```
+
+# 🟦 [TS] Arrays
 
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
