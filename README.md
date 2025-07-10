@@ -261,6 +261,18 @@ O TypeScript introduz o conceito de **arrays** (matrizes ou vetores) para lidar 
 
 Em TypeScript, arrays não são tipos definidos pelo usuário (user-defined types) no sentido técnico e formal. Arrays `(string[], number[])` não são tipos definidos pelo usuário em si. Eles são tipos genéricos ou construídos a partir de tipos primitivos já existentes. Você pode dizer que são usados para compor tipos, mas não são “definidos” por você no sentido de criar algo novo com nome ou estrutura única.
 
+Os recursos de uma matriz:
+
+- Uma declaração de matriz aloca blocos de memória sequenciais.
+
+- As matrizes são estáticas. Isso significa que uma matriz, uma vez inicializada, não pode ser redimensionada.
+
+-  Cada bloco de memória representa um elemento de matriz.
+
+-  Os elementos da matriz são identificados por um inteiro exclusivo chamado subscrito / índice do elemento.
+
+Assim como as variáveis, as matrizes também devem ser declaradas antes de serem usadas. Use a palavra-chave var para declarar uma matriz. A inicialização da matriz refere-se ao preenchimento dos elementos da matriz. Os valores dos elementos da matriz podem ser atualizados ou modificados, mas não podem ser excluídos.
+
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
 
