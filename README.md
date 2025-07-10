@@ -3226,7 +3226,7 @@ Existem dois tipos principais de módulos em JavaScript:
 
 - **ESM - Módulos ES6** podem ser usados em navegadores modernos e em projetos Node.js, mas você deve garantir que o ambiente suporte ESM ou usar um transpilador, como Babel, se necessário. A palavra-chave `import` e `export` só pode ser usada no contexto de módulos ES6, que geralmente precisam ser carregados como `"type="module"` no HTML ou especificados de maneira apropriada no Node.js.
   
-- O **CommonJS** ainda é amplamente utilizado em projetos Node.js e, em alguns casos, pode ser preferível por questões de compatibilidade.
+- O **CommonJS** ainda é amplamente utilizado em projetos Node.js e, em alguns casos, pode ser preferível por questões de compatibilidade, principalmente quando se trata de compilar em TypeScript.
 
 Vamos explorar mais sobre a sintaxe e a diferença entre ambos:
 
