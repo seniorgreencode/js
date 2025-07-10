@@ -1347,7 +1347,7 @@ export default Card;
 Os **componentes do React.js** é como se fossem pecinhas de Lego ou blocos do Minecraft, você pode ir encaixando componente com componente, o que possibilita você criar inúmeras possibilidades no seu layout ou conteúdos de alguma aplicação, fora a vantagem da manutenção do componente ser feita de forma organizada e de certo modo "isolada", o que te permite ter um retorno certo e objetivo. 
 
 ## [React] Preact 
-<img src="https://cdn.worldvectorlogo.com/logos/preact.svg" height="77" align="right">
+<img src="https://github.com/user-attachments/assets/ffd890ca-0d4b-4c31-b490-4d7b36eb760f" height="77" align="right">
 
 O **Preact** é uma biblioteca JavaScript de código aberto que se destina a ser uma alternativa mais leve e rápida ao React. Ele implementa uma API compatível com React, o que significa que você pode usar componentes e conceitos semelhantes aos do React, mas com uma pegada menor devido à sua implementação mais enxuta.
 
@@ -1366,6 +1366,8 @@ Algumas características principais do Preact incluem:
 6. **Compatibilidade com React**: Se você já tem um projeto React existente, é relativamente fácil migrar para o Preact, já que a API é muito semelhante.
 
 Embora o Preact ofereça muitos benefícios, é importante notar que, como qualquer tecnologia, ele tem suas próprias limitações e pode não ser a escolha certa para todos os cenários. No entanto, para projetos que valorizam a eficiência e o desempenho, o Preact pode ser uma excelente opção a ser considerada.
+
+# ⚛️ [React] React vs Angular vs Vue.js
 
 # 💅 [React] Styled-components
 <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="77" align="right">
