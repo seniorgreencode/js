@@ -347,24 +347,50 @@ npm install express
 ```
 
 ## [JS] Promises
+Como mencionada anteriormente, em programação assíncrona com JavaScript, uma **Promise** em JavaScript (e Node.js) é um objeto que representa a eventual conclusão (ou falha) de uma operação assíncrona. Em vez de você fornecer uma função de callback logo de cara, como era comum antigamente, você recebe de volta uma Promise e encadeia ações com `.then()`, `.catch()` ou async/await.
+
+Uma Promise tem três estados:
+
+1. Pending (pendente): A operação ainda está em andamento.
+2. Fulfilled (resolvida): A operação foi concluída com sucesso.
+3. Rejected (rejeitada): A operação falhou.
+
+O **Event Loop** é o mecanismo que permite ao Node.js rodar operações não bloqueantes (como ler arquivos, acessar bancos de dados, ou processar dados pesados) em um único thread. Mesmo sendo single-threaded, o Node.js é capaz de lidar com milhares de requisições simultâneas, justamente graças a esse modelo assíncrono.
+
+A imagem abaixo mostra, de forma visual e didática, como funciona o Event Loop no Node.js, especialmente no contexto de operações assíncronas como as que usamos com Promises, `async`/`await` e callbacks. Embora o termo “Promise” não apareça diretamente na imagem, ela representa a base do modelo assíncrono de execução do Node.js, no qual as Promises operam.
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108413712-1b686d00-720a-11eb-8656-f5d9e6d3fe46.jpg)
 
-Fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo em seguida vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
-  
-Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.</p>
+Fluxo representado na imagem:
 
-**Exemplo 1**: Requisição com Promises (Asynchronous Reading)
+1. Requests, etc: São chamadas de funções ou requisições (como `fs.readFile()`, `fetch()`, chamadas HTTP, timers) vindas do código da aplicação ou de eventos externos (usuário, rede, sistema de arquivos...).
+
+2. Event Loop (single thread): O coração do Node.js. Ele escuta eventos e decide o que precisa ser feito. Quando detecta uma operação demorada (I/O, banco de dados, computação), não executa diretamente, mas sim:
+
+3. Register Callback: O Event Loop registra uma função de callback ou uma promessa (Promise) para ser chamada depois que a operação for concluída. Isso evita bloquear o fluxo principal do programa.
+
+4. Intensive Operation: A operação demorada é repassada para uma thread separada, geralmente do pool de threads da libuv (a biblioteca C que lida com o sistema de arquivos, rede, etc.). Exemplos: ler um arquivo do disco, acessar um banco de dados, processar um cálculo demorado.
+
+5. Operation Complete: Quando essa operação for finalizada por essa thread em segundo plano, um sinal é enviado de volta para o Event Loop dizendo: “Concluí! Pode continuar.”
+
+6. Trigger Callback: O Event Loop então coloca o callback (ou resolve a Promise) na fila de tarefas (task queue ou microtask queue, dependendo do caso), e em seguida, essa função será chamada quando for o momento certo — ou seja, quando a pilha de execução (call stack) estiver livre.
+
+Entrando mais a fundo, fez uma requisição e ela não vai terminar agora, vai demorar um pouco para essa requisição ser concluída. Ao realizar a requisição ela vai ser redirecionada ao Event Loop seu posicionamento principal e a Função de Callback. Logo, em seguida, vai registrar essa função de Callback em uma fila, essa função ficará registrada. 
+  
+Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.
+
+Exemplo: Requisição com Promises (Asynchronous Reading)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108542870-0c91c100-72c3-11eb-8cac-2552152dab53.jpg)
 
-**Exemplo 2**: Ler estrofes de cada vez
+Exemplo 2: Ler estrofes de cada vez
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577334-70d27600-72ff-11eb-908b-5dc638abf445.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577995-a166df80-7300-11eb-8559-20182c3e916a.jpg)
 
-**Exemplo 3**: funções síncronas e função assíncrona
+Exemplo 3: funções síncronas e função assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
 
-**Exemplo 4**: Função de Callback Assíncrona
+Exemplo 4: Função de Callback Assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
