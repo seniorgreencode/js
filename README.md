@@ -3293,6 +3293,39 @@ console.log(meuModulo.saudacao('Maria')); // "Olá, Maria!"
 console.log(`O valor de pi é ${meuModulo.pi}`);
 ```
 
+Exemplo 2: 
+
+```javascript
+// arquivo: calculadora.js
+function soma(a,b) {
+  return a + b
+}
+
+module.exports = soma;
+```
+
+```javascript
+// arquivo: app.js
+const funcaoSoma = require('./calculadora');
+
+function subtracao(a,b) {
+  return a - b;
+}
+
+function multiplicacao(a,b) {
+  return a * b;
+}
+
+function divisao(a,b) {
+  return a / b;
+}
+
+console.log(soma(2,2));
+console.log(subtracao(2,2));
+console.log(multiplicacao(2,2));
+console.log(divisao(2,2));
+```
+
 # 📜 [JS] Paradigma Procedural/Imperativo
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
 
