@@ -67,7 +67,9 @@ O TypeScript fornece tipos de dados como parte de seu sistema de tipos opcional.
 
 - **Built-in types**: `Number`, `String`, `Boolean`, `Void`, `Null`, `Undefined` são tipos embutidos no TypeScript.
 
-- **User-defined types**: Tipos definidos pelo usuário incluem `Enums`, `interfaces`, `arrays` e `tuples`.
+- **User-defined types**: Tipos definidos pelo usuário incluem `Enums`, `interfaces`, `arrays` e `tuples`. Em TypeScript, os User-Defined Types (tipos definidos pelo usuário) são tipos que você mesmo declara e organiza.
+
+Diferentemente de linguagens como Java, C# ou C++, o TypeScript trata os tipos como elementos de primeira classe do sistema de tipos, podendo criar tipos muito expressivos com pouca sintaxe — mesmo sem envolvimento com orientação a objetos.
 
 <a href="https://www.typescriptlang.org/play/"><img src="https://github.com/user-attachments/assets/520f62b6-1d81-476f-a6cc-faa4bd009e7d" height="277" align="right"></a>
 
@@ -98,6 +100,14 @@ Um **operador** define alguma função que será executada nos dados. Os dados n
 Aqui, os valores `7`, `5` e `12` são operandos, enquanto `+` e `=` são operadores.
 
 Os principais operadores em TypeScript podem ser classificados como:
+
+Os **Operadores aritméticos** suponha que os valores nas variáveis `a` e `b` sejam `10` e `5`, respectivamente.
+
+Os **Operadores relacionais** testam ou definem o tipo de relacionamento entre duas entidades. Os operadores relacionais retornam um valor booleano, ou seja, verdadeiro/falso (`true`/`false`). Suponha que o valor de `A` seja `10` e `B` seja `20`.
+
+Os **Operadores bit a bit** suponha que a variável `A = 2` e `B = 3`
+
+Os **Operadores de atribuição**
 
 # 🟦 [TS] Variáveis
 <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
@@ -235,6 +245,7 @@ console.log(car_price);
 ```
 
 # 🟦 [TS] Arrays
+Arrays `(string[], number[])` não são tipos definidos pelo usuário em si. Eles são tipos genéricos ou construídos a partir de tipos primitivos já existentes. Você pode dizer que são usados para compor tipos, mas não são “definidos” por você no sentido de criar algo novo com nome ou estrutura única.
 
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
