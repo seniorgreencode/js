@@ -273,6 +273,25 @@ Os recursos de uma matriz:
 
 Assim como as variáveis, as matrizes também devem ser declaradas antes de serem usadas. Use a palavra-chave var para declarar uma matriz. A inicialização da matriz refere-se ao preenchimento dos elementos da matriz. Os valores dos elementos da matriz podem ser atualizados ou modificados, mas não podem ser excluídos.
 
+Para declarar uma inicialização de uma matriz no Typescript, use a seguinte sintaxe:
+
+```typescript
+var array_name[:datatype];        //declaration 
+array_name = [val1,val2,valn..]   //initialization
+```
+
+Uma declaração de matriz sem o tipo de dados é considerada do tipo `any`. O tipo de tal matriz é inferido do tipo de dados do primeiro elemento das matrizes durante a inicialização.
+
+Por exemplo, uma declaração como − `var numlist:number[] = [2,4,6,8]` criará uma matriz conforme indicado abaixo:
+
+<img width="537" height="120" alt="image" src="https://github.com/user-attachments/assets/2330d465-d70e-43f1-ab26-940664ad0cf0" />
+
+O ponteiro da matriz refere-se ao primeiro elemento por padrão. As matrizes podem ser declaradas e inicializadas em uma única instrução. A sintaxe para o mesmo é:
+
+```typescript
+var array_name[:data type] = [val1,val2valn]
+```
+
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
 
