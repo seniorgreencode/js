@@ -247,7 +247,15 @@ console.log(car_price);
 ```
 
 # 🟦 [TS] Arrays
-Arrays `(string[], number[])` não são tipos definidos pelo usuário em si. Eles são tipos genéricos ou construídos a partir de tipos primitivos já existentes. Você pode dizer que são usados para compor tipos, mas não são “definidos” por você no sentido de criar algo novo com nome ou estrutura única.
+O uso de variáveis para armazenar valores apresenta as seguintes limitações:
+
+- As variáveis são escalares por natureza. Em outras palavras, uma declaração de variável só pode conter uma única de cada vez. Isso significa que, para armazenar n valores em um programa, serão necessárias declarações de n variáveis. Portanto, o uso de variáveis não é viável quando é necessário armazenar uma coleção maior de valores.
+
+- As variáveis em um programa são alocadas na memória em ordem aleatória, dificultando assim a recuperação/leitura dos valores na ordem de sua declaração.
+
+O TypeScript introduz o conceito de **arrays** (matrizes ou vetores) para lidar com o mesmo. Uma matriz é uma coleção homogênea de valores. Para simplificar, uma matriz é uma coleção de valores do mesmo tipo de dados. É um tipo definido pelo usuário.
+
+Em TypeScript, arrays não são tipos definidos pelo usuário (user-defined types) no sentido técnico e formal. Arrays `(string[], number[])` não são tipos definidos pelo usuário em si. Eles são tipos genéricos ou construídos a partir de tipos primitivos já existentes. Você pode dizer que são usados para compor tipos, mas não são “definidos” por você no sentido de criar algo novo com nome ou estrutura única.
 
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
