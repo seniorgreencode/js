@@ -819,7 +819,7 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 # 🦕 [JS] Deno
 <a href="https://deno.com/"><img src="https://github.com/user-attachments/assets/ef699c09-c507-455c-8174-c1d8db4db53d" height="77" align="right"></a>
 
-**Deno** é um runtime moderno para JavaScript e TypeScript, criado por Ryan Dahl, o mesmo desenvolvedor que originalmente criou o Node.js. Surgiu como uma resposta às limitações e problemas de design que se tornaram evidentes no Node.js ao longo dos anos, com o objetivo de oferecer uma alternativa mais segura, simples e alinhada com as necessidades atuais do desenvolvimento web, ou seja, é o sucessor espiritual do Node.js. Uma das principais diferenças em relação ao Node.js é que o Deno foi construído em Rust, utilizando o motor V8 do Google, assim como o Node, mas com uma arquitetura que prioriza segurança, modularidade e compatibilidade com os padrões modernos da web.  
+**Deno** é um runtime moderno para JavaScript, TypeScript e WebAssembly, criado por Ryan Dahl, o mesmo desenvolvedor que originalmente criou o Node.js. Surgiu como uma resposta às limitações e problemas de design que se tornaram evidentes no Node.js ao longo dos anos, com o objetivo de oferecer uma alternativa mais segura, simples e alinhada com as necessidades atuais do desenvolvimento web, ou seja, é o sucessor espiritual do Node.js. Uma das principais diferenças em relação ao Node.js é que o Deno foi construído em Rust, utilizando o motor V8 do Google, assim como o Node, mas com uma arquitetura que prioriza segurança, modularidade e compatibilidade com os padrões modernos da web.  
 
 Por padrão, o Deno é mais seguro que o Node.js, pois executa código em uma sandbox que, a menos que explicitamente permitido, não tem acesso ao sistema de arquivos, à rede ou a variáveis de ambiente. Isso significa que, para um script acessar recursos sensíveis, é necessário passar flags como `--allow-read` ou `--allow-net`, o que reduz riscos de execução inadvertida de código malicioso. Além disso, o Deno suporta TypeScript nativamente, sem a necessidade de configurações adicionais ou transpilação manual, tornando-o uma escolha atraente para desenvolvedores que preferem tipagem estática.  
 
@@ -885,6 +885,9 @@ my_project
 ```
 
 Um arquivo `deno.json` é criado para configurar seu projeto e dois arquivos TypeScript são criados (`main.ts` `main_test.ts`); O arquivo `main.ts` é onde você escreverá o código do aplicativo, na criação inicial ele conterá um programa simples que soma dois números. O arquivo `main_test.ts` é onde você pode escrever testes, inicialmente ele conterá um teste para sua adição programa.
+
+> [!Note]
+> É válido lembrar que se você utilizar um editor ou IDE, configure com extensões do Deno, senão o VSCode vai confundir com o interpretador do Node.js reconhecendo parâmetros do TypeScript, ocasionando em erros.
 
 ## [JS] Fresh
 <a href="https://fresh.deno.dev/"><img src="https://github.com/user-attachments/assets/18934128-8c2e-4f25-9224-2d65ab2adf28" align="right" height="277"></a>
