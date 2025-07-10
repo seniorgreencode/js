@@ -397,10 +397,18 @@ Os **genéricos** (generics) são um recurso poderoso no TypeScript que permite 
 
 Vamos começar com o exemplo abaixo, onde você deseja registrar o valor da variável passada como parâmetro.
 
+Exemplo: No código abaixo, definimos a função `printVar()` que usa o valor numérico como parâmetro e registra o valor no console. Em seguida, invocamos a função passando `10` como argumento.
+
+```typescript
+function printVar(val: number) {
+  console.log(val); // Imprime o valor de val
+} printVar(10); // Invoca a função com um número
+```
+
 # 🟦 [TS] Modules
 
 # 🟦 [TS] Iterators and Generators
-No TypeScript, iteradores e geradores (Iterators and Generators) permitem controlar a iteração sobre os iteráveis. Aqui, iteráveis são objetos como matrizes, tuplas, etc. através dos quais podemos iterar. O uso de iteradores e geradores no código nos permite escrever um código eficiente e legível.
+No TypeScript, **iteradores e geradores** (Iterators and Generators) permitem controlar a iteração sobre os iteráveis. Aqui, iteráveis são objetos como matrizes, tuplas, etc. através dos quais podemos iterar. O uso de iteradores e geradores no código nos permite escrever um código eficiente e legível.
 
 # 🟦 [TS] Mixins
 TypeScript é uma linguagem de programação orientada a objetos e contém as classes, que é um projeto para o objeto. A classe pode ser definida conforme mostrado abaixo no TypeScript.
