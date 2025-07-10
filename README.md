@@ -162,11 +162,11 @@ O TypeScript tem as mesmas regras que o JavaScript para declarar variáveis. Ini
 Exemplo 2:
 
 ```typescript
-var name: string = "Ilkin";
+let nome: string = "Ilkin";
 var n1: number = 48;
 var n2: number = 22.50;
 var sum = n1 + n2;
-console.log("Name: " + name);
+console.log("Name: " + nome);
 console.log("N1: " + n1);
 console.log("N2: " + n2);
 console.log("Sum: " + sum);
@@ -182,11 +182,35 @@ let var_name: var_type = value;
 
 - Na sintaxe acima, '`let`' é uma palavra-chave.
 
-- '`var_name`' é um identificador válido para um nome de variável.
+- '`var_nome`' é um identificador válido para um nome de variável.
 
 - '`var_type`' é um tipo da variável.
 
 - '`value`' é um valor a ser armazenado na variável.
+
+Exemplo: No código abaixo, definimos a variável '`car_name`' do tipo `string` que contém o valor `Brezza`. A variável '`car_price`' contém o valor do número `1000000`.
+
+```typescript
+// Define a variable in TypeScript
+let car_name: string = "Brezza";
+let car_price: number = 1000000;
+console.log(car_name);
+console.log(car_price);
+```
+
+Na compilação, ele gerará o seguinte código JavaScript.
+
+```javascript
+// Define a variable in TypeScript
+let car_name = "Brezza";
+let car_price = 1000000;
+console.log(car_name);
+console.log(car_price);
+
+// Output:
+// Brezza
+// 1000000
+```
 
 # 🟦 [TS] Tuples
 Às vezes, pode haver a necessidade de armazenar uma coleção de valores de tipos variados. As matrizes não servirão a esse propósito. O TypeScript nos fornece um tipo de dados chamado **tupla** que ajuda a atingir esse propósito.
