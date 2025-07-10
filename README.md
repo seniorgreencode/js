@@ -875,6 +875,17 @@ Para inicializar um novo projeto Deno, execute o seguinte comando em seu termina
 deno init my_project
 ```
 
+Isso criará um novo diretório chamado com o seguinte estrutura: `my_project`
+
+```txt
+my_project
+├── deno.json
+├── main_test.ts
+└── main.ts
+```
+
+Um arquivo `deno.json` é criado para configurar seu projeto e dois arquivos TypeScript são criados (`main.ts` `main_test.ts`); O arquivo `main.ts` é onde você escreverá o código do aplicativo, na criação inicial ele conterá um programa simples que soma dois números. O arquivo `main_test.ts` é onde você pode escrever testes, inicialmente ele conterá um teste para sua adição programa.
+
 ## [JS] Fresh
 <a href="https://fresh.deno.dev/"><img src="https://github.com/user-attachments/assets/18934128-8c2e-4f25-9224-2d65ab2adf28" align="right" height="277"></a>
 
