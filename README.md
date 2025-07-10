@@ -89,6 +89,15 @@ let marks: number = 30.5;
 ```
 
 # 🟦 [TS] Operadores
+Um **operador** define alguma função que será executada nos dados. Os dados nos quais os operadores trabalham são chamados de **operandos**. Considere a seguinte expressão:
+
+```txt
+7 + 5 = 12
+```
+
+Aqui, os valores `7`, `5` e `12` são operandos, enquanto `+` e `=` são operadores.
+
+Os principais operadores em TypeScript podem ser classificados como:
 
 # 🟦 [TS] Variáveis
 <a href="https://www.typescriptlang.org/play/"><img src="https://symbols.getvecta.com/stencil_25/87_typescript.cb2d7326fa.svg" height="77" align="right"></a>
