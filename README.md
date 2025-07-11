@@ -1033,6 +1033,30 @@ Em termos de eficiência, para aplicações corporativas internas que precisam d
 
 Ou seja, Spark é eficiente dentro do seu ecossistema (XMPP), mas é voltado para outro público: empresas que precisam de mensageria interna com infraestrutura pronta, não desenvolvedores que querem construir um sistema de chat web do zero.
 
+Além dos chats em miniatura incorporados em sites para atendimento ao cliente e chatbots, existe uma ampla variedade de soluções de **chats para atendentes virtuais** — ou seja, plataformas que permitem **interação humano-a-humano**, com suporte assistido por **automação**, **fila de atendimento**, **chatbots híbridos** e integração com sistemas de CRM, help desk, e omnichannel. Essas ferramentas são voltadas para empresas que precisam de **atendimento em tempo real**, mas com foco profissional e escalável. Abaixo estão algumas das mais conhecidas:
+
+**LiveChat** é uma plataforma amplamente utilizada para suporte em tempo real, combinando chat ao vivo com automações, roteamento inteligente, analytics e integração com ferramentas como Zendesk, Salesforce e HubSpot. É muito usada em e-commerces e empresas SaaS.
+
+**Zendesk Chat** (anteriormente Zopim) é parte da suíte Zendesk e oferece funcionalidades avançadas de chat com histórico, atribuição por departamento, gatilhos automáticos e integração com o restante do suporte técnico e base de conhecimento da empresa.
+
+**Intercom** é uma plataforma de comunicação conversacional que vai além do chat. Ela mistura atendimento humano com automações, campanhas de onboarding, respostas rápidas via bot e captura de leads. É altamente usada por startups e plataformas digitais.
+
+**Tawk.to** é uma solução gratuita muito popular que oferece chat ao vivo, monitoramento de visitantes e aplicativos para dispositivos móveis. Embora mais simples que Intercom ou Zendesk, é eficiente e usado por pequenas empresas e freelancers.
+
+**Freshchat** da Freshworks é outro sistema com foco em multicanal, permitindo integração com WhatsApp, Instagram, e-mail e site, com bots integrados, SLAs, segmentação de leads e integração com o CRM Freshsales.
+
+**JivoChat** é bastante usado no Brasil e em países de língua portuguesa. Suporta integração com WhatsApp, Telegram, Viber, Facebook Messenger, e permite que vários atendentes compartilhem o mesmo canal. Também possui app desktop e mobile para operação.
+
+**Drift** é mais voltado para marketing conversacional B2B, com foco em capturar leads qualificados e enviar para representantes comerciais em tempo real. Seu chatbot filtra visitantes e entrega os mais relevantes aos atendentes humanos.
+
+**Olark**, embora mais simples, ainda é amplamente usado por pequenas empresas por sua facilidade de integração e bom suporte para scripts e automações simples.
+
+**Crisp Chat** é uma plataforma moderna que oferece chat em tempo real com funcionalidades colaborativas (como co-browsing), respostas automáticas, central de ajuda integrada e plugins para integração com e-commerce e marketing.
+
+**Rocket.Chat** é uma alternativa open-source que pode ser hospedada por você mesmo, oferecendo comunicação segura, chat em tempo real e integração com bots. É ideal para equipes que buscam controle e privacidade.
+
+Esses sistemas, apesar de diferentes em foco e complexidade, têm em comum o uso de **comunicação em tempo real** para conectar usuários finais com representantes humanos (com ou sem intervenção automatizada). Eles geralmente usam WebSockets por baixo, mesmo que abstraídos, para garantir uma experiência de troca de mensagens fluida e instantânea, como se fosse uma conversa comum.
+
 ## [JS] TypeORM
 <a href="https://www.npmjs.com/package/typeorm/v/0.2.30"><img src="https://github.com/user-attachments/assets/c49ff467-3748-488b-801b-4e0d62135ef0" height="77" title="Site do Node.js" align="right"/></a>
 
