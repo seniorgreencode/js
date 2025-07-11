@@ -5033,6 +5033,14 @@ Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usav
 
 O AJAX (Asynchronous JavaScript and XML) é uma técnica usada para fazer solicitações assíncronas a servidores web sem recarregar a página inteira. Isso permite uma experiência mais fluida para o usuário, pois dados podem ser trocados em segundo plano e o conteúdo da página atualizado dinamicamente. Embora o nome mencione **XML**, AJAX hoje em dia é comumente utilizado com **JSON** (JavaScript Object Notation) devido à simplicidade e eficiência deste formato para troca de dados. AJAX é uma técnica poderosa que permite tornar as páginas da web mais dinâmicas e responsivas, fazendo requisições ao servidor de forma assíncrona, sem a necessidade de recarregar a página. Seja utilizando `XMLHttpRequest` ou a API moderna `fetch`, o JavaScript facilita a comunicação entre o cliente e o servidor, permitindo criar uma experiência de usuário mais rica e interativa. AJAX é usado para fazer requisições HTTP, o que o torna uma ferramenta ideal para trabalhar com APIs REST. No entanto, ele não é adequado para trabalhar com WebSockets, pois ambos têm diferentes propósitos e características.
 
+AJAX (Asynchronous JavaScript and XML) é uma técnica de front-end, usada no navegador (cliente), que permite que uma página web envie e receba dados do servidor de forma assíncrona, sem precisar recarregar toda a página.
+
+O papel do AJAX é permitir que o JavaScript do lado do cliente (front-end) faça requisições HTTP (como `GET`, `POST`, `PUT`, `DELETE`) para um servidor enquanto o usuário continua interagindo com a interface. Isso é o que viabiliza páginas dinâmicas, atualizações em tempo real e experiências mais rápidas.
+
+Por exemplo, quando você digita algo em uma barra de pesquisa e os resultados vão aparecendo em tempo real (como no Google), isso geralmente está sendo feito com AJAX por trás — o navegador envia a informação digitada para o servidor via JavaScript (com `fetch` ou `XMLHttpRequest`), o servidor responde com dados (hoje geralmente em JSON), e a página atualiza apenas a parte necessária da tela, sem recarregar tudo.
+
+Portanto, AJAX é uma técnica do front-end, mas que depende da existência de um back-end que responda às requisições HTTP com os dados desejados. Ele é uma ponte assíncrona entre o navegador e o servidor.
+
 AJAX envolve a utilização do objeto `XMLHttpRequest` (ou do `fetch` API em versões mais modernas de JavaScript) para enviar e receber dados de um servidor. Ele permite que você:
 
 1. Envie uma requisição para um servidor.
