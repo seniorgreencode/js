@@ -450,18 +450,81 @@ Entrando mais a fundo, fez uma requisição e ela não vai terminar agora, vai d
 Quando a sua operação principal acabar, ela vai chamar a sua função de Callback, enquanto isso ela vai ficar tudo rodando na sua aplicação. Em casos de ler arquivos mais pesados, como de 2GB por exemplo, você não precisa parar o processamento inteiro para ler o arquivo inteiro e depois voltar, portanto isso é uma das grandes vantagens.
 
 Exemplo: Requisição com Promises (Asynchronous Reading)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108542870-0c91c100-72c3-11eb-8cac-2552152dab53.jpg)
+
+```javascript
+// Asynchronous reading
+
+const fs = require('fs');
+const path = require('path');
+const basePath = require('/Computer Science/lab/test/js/');
+
+console.log('Begin\n');
+
+const files = fs.readdirSync(path.resolve(basePath))
+
+const content = fs.readFileSync(path.resolve(basePath, 'newton.txt'));
+console.log(content.toString());
+
+console.log('\nEnd');
+```
 
 Exemplo 2: Ler estrofes de cada vez
+
+```javascript
+// Asynchronous reading
+
+const fs = require('fs');
+const path = require('path');
+const basePath = require('/Computer Science/lab/test/js/');
+
+console.log('Begin\n');
+
+const files = fs.readdirSync(path.resolve(basePath))
+
+const sentences = files.filter((file) => /s[1-3].txt/gi.test(file))
+
+for(const sentence of sentences) {
+   const text = fs.readdirSync(path.resolve(basePath,sentence)).toString()
+   console.log(`\n${text}`);
+}
+
+console.log('\nEnd');
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577334-70d27600-72ff-11eb-908b-5dc638abf445.jpg)
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108577995-a166df80-7300-11eb-8559-20182c3e916a.jpg)
 
 Exemplo 3: funções síncronas e função assíncrona
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
 
 Exemplo 4: Função de Callback Assíncrona
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
+
+```javascript
+
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
 **Node streams** são uma abstração poderosa da API do Node.js para lidar com fluxos contínuos de dados, de forma eficiente e assíncrona. Em vez de carregar um arquivo, uma resposta de rede ou qualquer dado inteiro na memória de uma vez só, os streams permitem **processar pedaços (chunks)** desses dados aos poucos — como se fossem gotas em um cano —, o que é muito mais leve, rápido e escalável, principalmente com arquivos grandes ou transferências de dados em tempo real.
@@ -475,7 +538,7 @@ Existem quatro tipos principais de streams no Node.js:
 * **Readable**: você pode ler dados (como ler um arquivo ou uma requisição HTTP).
 * **Writable**: você pode escrever dados (como salvar em um arquivo ou enviar uma resposta HTTP).
 * **Duplex**: você pode ler e escrever (como um socket TCP).
-* **Transform**: é um tipo especial de duplex que **transforma os dados entre leitura e escrita** (por exemplo, compactar um arquivo enquanto o lê).
+* **Transform**: é um tipo especial de duplex que transforma os dados entre leitura e escrita (por exemplo, compactar um arquivo enquanto o lê).
 
 Um exemplo simples: digamos que você quer ler um arquivo grande com stream, ao invés de carregar tudo de uma vez com `fs.readFile()`:
 
