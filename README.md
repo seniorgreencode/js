@@ -356,10 +356,10 @@ http.createServer(function(requisicao,resposta){
   resposta.end("Bem vindo ao meu site!") // 200 OK
 }).listen(8181);
 
-console.log(`Servidor rodando na porta ${port}`);
+console.log('Servidor rodando na porta');
 ```
 
-Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização.
+Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização. A saída do console será `'Servidor rodando na porta'` e no navegador foi recebido a mensagem: `"Bem vindo ao meu site!"`, com o status 200 (Ok).
 
 # 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
