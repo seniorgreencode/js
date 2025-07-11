@@ -464,6 +464,49 @@ Exemplo 4: Função de Callback Assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
+**Node streams** são uma abstração poderosa da API do Node.js para lidar com fluxos contínuos de dados, de forma eficiente e assíncrona. Em vez de carregar um arquivo, uma resposta de rede ou qualquer dado inteiro na memória de uma vez só, os streams permitem **processar pedaços (chunks)** desses dados aos poucos — como se fossem gotas em um cano —, o que é muito mais leve, rápido e escalável, principalmente com arquivos grandes ou transferências de dados em tempo real.
+
+Portanto, Node streams são essenciais quando você lida com grandes volumes de dados, I/O contínuo ou transformação de dados em tempo real, oferecendo alta performance, baixo consumo de memória e excelente controle sobre o fluxo de dados. Eles são usados internamente no Node em quase tudo: arquivos, sockets, HTTP, stdin/stdout e muito mais.
+
+Na prática, um stream é um objeto que emite eventos à medida que os dados estão disponíveis. O Node implementa streams como **EventEmitter**, emitindo eventos como `data`, `end`, `error` e `close`.
+
+Existem quatro tipos principais de streams no Node.js:
+
+* **Readable**: você pode ler dados (como ler um arquivo ou uma requisição HTTP).
+* **Writable**: você pode escrever dados (como salvar em um arquivo ou enviar uma resposta HTTP).
+* **Duplex**: você pode ler e escrever (como um socket TCP).
+* **Transform**: é um tipo especial de duplex que **transforma os dados entre leitura e escrita** (por exemplo, compactar um arquivo enquanto o lê).
+
+Um exemplo simples: digamos que você quer ler um arquivo grande com stream, ao invés de carregar tudo de uma vez com `fs.readFile()`:
+
+```js
+const fs = require('fs');
+
+const stream = fs.createReadStream('arquivo-grande.txt', { encoding: 'utf8' });
+
+stream.on('data', (chunk) => {
+  console.log('Novo pedaço:', chunk);
+});
+
+stream.on('end', () => {
+  console.log('Leitura completa');
+});
+```
+
+Aqui, cada `chunk` (pedaço de dados) é emitido conforme vai sendo lido do disco. Isso permite começar a trabalhar com os dados antes que o arquivo todo esteja carregado — ideal para desempenho e uso de memória.
+
+Os streams também suportam **encadeamento (pipe)**, que é como montar um cano de dados, passando a saída de um stream como entrada de outro:
+
+```js
+const zlib = require('zlib');
+
+fs.createReadStream('entrada.txt')
+  .pipe(zlib.createGzip())
+  .pipe(fs.createWriteStream('saida.txt.gz'));
+```
+
+Neste exemplo, o conteúdo de `entrada.txt` é lido em pedaços, compactado em tempo real com Gzip e gravado em `saida.txt.gz`, sem nunca carregar o arquivo todo na RAM.
+
 ## [JS] Async/Await
 <img src="https://github.com/user-attachments/assets/34c958e7-d5a8-42cc-8813-023fd61daf7f" align="right" height="77">
 
