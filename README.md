@@ -1499,7 +1499,11 @@ Outro ponto forte é a colaboração: designers, desenvolvedores e revisores con
 # 📦 [React] Webpack
 <a href="https://webpack.js.org/"><img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" height="77" align="right"></a>
 
-O **webpack** é um **module bundler** (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
+O **webpack** é um module bundler (um empacotador de módulos para aplicações JS). Gerar _bundler_ (empacotador) que será utilizado no HTML, em ES5. Tem suporte a: Fontes, CSS, Imagens, HTML, JS, Plugins.
+
+Para quem é de back-end, o Webpack pode ser entendido como uma ferramenta de build e empacotamento, com um papel muito semelhante ao que ferramentas como `MSBuild`, `Gradle`, `Maven`, ou mesmo scripts em `Makefile` cumprem em ambientes back-end. Ele é uma espécie de orquestrador que processa, transforma e empacota os arquivos do front-end — como JavaScript, CSS, imagens, fontes, arquivos `.scss`, `.tsx`, entre outros — em um ou mais bundles otimizados que podem ser carregados pelo navegador de forma eficiente. Assim como no back-end você pode ter tarefas automatizadas como compilar código, gerar binários, rodar testes e mover arquivos com uma ferramenta de build, o Webpack realiza etapas semelhantes no front-end, só que focadas em assets estáticos e módulos JavaScript. Ele lida com dependências entre arquivos, aplica transformações através de loaders (por exemplo, converter Sass em CSS, ou JSX em JavaScript comum) e pode aplicar otimizações como minificação, tree-shaking e splitting de código.
+
+O conceito de entry point no Webpack é como o ponto de entrada de uma aplicação back-end, como o `Program.cs` em .NET ou o `main()` em Java. A partir dali, o Webpack analisa todas as dependências que aquele arquivo importa e constrói um grafo de dependências, incluindo todos os módulos e recursos necessários, e empacota tudo em arquivos finais que serão lidos pelo navegador. A grande diferença é que o Webpack lida com múltiplos tipos de arquivos e formatos, permitindo que a aplicação front-end seja modular e tenha uma cadeia de transformação sofisticada. Em resumo, se você está acostumado com ferramentas de build no back-end, vai entender o Webpack como um mecanismo de build, transformação e empacotamento de front-end, com foco total em como os assets serão carregados e otimizados para o browser.
 
 Os principais conceitos do Webpack são:
 
