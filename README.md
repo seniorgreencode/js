@@ -11,16 +11,17 @@
 
 <a href="https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f"><img src="https://img.shields.io/badge/React-ecossystem-aqua?style=flat&logo=Medium&logoColor=white"></a> <a href="https://reactjsexample.com/a-svg-blob-generator-build-with-react/"><img src="https://img.shields.io/badge/React-SVG-aqua?style=flat&logo=JavaScript&logoColor=white"></a> 
 
- https://reactjsexample.com/a-svg-blob-generator-build-with-react/
-
 Dicas para pensar do jeito ReactJS:
-- Conhecimento e experiência com TypeScript
-- Comece com um Mock
-- Separe a UI em uma Hierarquia de componentes ou crie uma pasta `./components/` para agrupar cada tipo de componente de maneira isolada
-- Crie uma versão estática em React
-- Identifique a representação mínima (mas completa) do `State` da UI
-- Identifique onde o `State` deve ficar
-- Adicione o fluxo de dados inverso
+
+- Conhecimento e experiência com TypeScript;
+- Comece com um Mock;
+- Separe a UI em uma Hierarquia de componentes ou crie uma pasta `./components/` para agrupar cada tipo de componente de maneira isolada;
+- Crie uma versão estática em React;
+- Identifique a representação mínima (mas completa) do `State` da UI;
+- Identifique onde o `State` deve ficar;
+- Adicione o fluxo de dados inverso.
+
+E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
 # ⚛️ React.js
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" height="77" align="right"></a>
@@ -29,20 +30,39 @@ O **React.js** é uma biblioteca e não framework JavaScript (JS), muito usada d
 
 Foi criada em 2011 por <a href="https://github.com/jordwalke">Jordan Walke</a> no Facebook, sendo baseado no **XHP**, um framework para criação de HTML no PHP. Ele foi utilizado no mural de notícias do Facebook.
 
-> "Uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces visuais." - _Facebook_
+> "Uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces visuais." - Facebook.
 
 - 2012 - Utilizado no Instagram
 - 2013 - Anúncio para liberação OpenSource na **JSConf US**
 - 2015 - **React Native** usada para criar aplicações mobile híbridas para iOS e Android
 - 2015 - **UWP** (Universal Windows Plataform) usado para criar aplicações Desktop
 
-O **React.js** trabalha muito com componentização para criação de interfaces, ou seja, ele é **baseado em componentes** como se fossem pequenas caixinhas e consegue trabalhar em conjunto com outros frameworks JavaScript, como jQuery, Vue.js ou Angular, ou outras linguagens de programação como Ruby, PHP, Python etc..., isso é claro, tomando o devido cuidado, dependendo de qual for o caso do projeto ou caso de uso, você consegue utilizar sem problema algum.
+O **React.js** trabalha muito com componentização para criação de interfaces, ou seja, ele é baseado em **componentes** como se fossem pequenas caixinhas e consegue trabalhar em conjunto com outros frameworks JavaScript, como jQuery, Vue.js ou Angular, ou outras linguagens de programação como Ruby, PHP, Python etc..., isso é claro, tomando o devido cuidado, dependendo de qual for o caso do projeto ou caso de uso, você consegue utilizar sem problema algum.
 
 <a href="https://pt-br.reactjs.org/"><img src="https://icon-library.com/images/react-icon/react-icon-0.jpg" height="77" align="right"></a>
 
-Ele possui um paradigma de linguagem de programação declarativa, ou seja, o React.js só está preocupado apenas com o que é exibido na interface do usuário.
+Ele possui um paradigma de linguagem de programação declarativa, ou seja, o React.js só está preocupado apenas com o que é exibido na interface do usuário. Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulares, criação de PWA, criação de Front-End com outros frameworks e linguagens, server-side render ou Next.js.
 
-Além disso, pode ser utilizado em qualquer lugar, como interfaces para celulares, criação de PWA, criação de Front-End com outros frameworks e linguagens, server-side render ou Next.js.
+Ecossistema do React.js:
+
+ - React Router;
+ - Redux;
+ - Material-UI;
+ - Ant-Design;
+ - Storybook;
+ - Gatsby;
+ - Jest;
+ - React i18n Next;
+
+Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossistemas, e esse ecossistema é formado por:
+
+- React
+- JSX
+- ES2015
+- Webpack
+- Flux/Redux
+- axios/fetch
+- Jest/Mocha
 
 Instalação do React:
 
@@ -432,27 +452,8 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 ```
 
-Ecossistema do React.js:
- - React Router;
- - Redux;
- - Material-UI;
- - Ant-Design;
- - Storybook;
- - Gatsby;
- - Jest;
- - React i18n Next;
+<img height="177" align="right" src="https://github.com/user-attachments/assets/d06d7ed9-8614-4571-a532-99c96f3291ec" />
 
-Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossistemas, e esse ecossistema é formado por:
-
-- React
-- JSX
-- ES2015
-- Webpack
-- Flux/Redux
-- axios/fetch
-- Jest/Mocha
-
-E com todos esses itens, que fazem parte do ecossistema do React, conseguimos afirmar que é possível sim criar aplicações completas usando o React.
 
 
 ## [React] Renderização Condicional
