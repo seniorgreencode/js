@@ -515,16 +515,18 @@ console.log('\nEnd');
 Exemplo 4: Função de Callback Assíncrona
 
 ```javascript
+// Asynchronous reading
+const fs = require('fs');
+const path = require('path');
+const basePath = require('/Computer Science/lab/test/js/');
 
+// Função de Callback
+console.log('Begin');
+
+console.log('\nEnd');
 ```
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
 **Node streams** são uma abstração poderosa da API do Node.js para lidar com fluxos contínuos de dados, de forma eficiente e assíncrona. Em vez de carregar um arquivo, uma resposta de rede ou qualquer dado inteiro na memória de uma vez só, os streams permitem **processar pedaços (chunks)** desses dados aos poucos — como se fossem gotas em um cano —, o que é muito mais leve, rápido e escalável, principalmente com arquivos grandes ou transferências de dados em tempo real.
 
