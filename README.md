@@ -345,7 +345,21 @@ var port = http.createServer().listen(8181);
 console.log(`Servidor rodando na porta ${port}`);
 ```
 
-A partir daí temos nosso servidor rodando, para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`.
+A partir daí temos nosso servidor rodando, para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`. No entanto, e se eu quisesse rodar minha aplicação no browser? Eu deveria digitar o endereço na busca do navegador: http://localhost:8181 ou http://127.0.0.1:8181
+
+E então? Nada! Porque para ele rodar no navegador é preciso definir a requisição e resposta do nosso servidor no lado do cliente. Ou seja, aquela velha história de comunicação de cliente-servidor juntamente com o protocolo HTTP, portanto, precisamos definir isso no código, através de requisição (request) e resposta (response).
+
+```javascript
+var http = require("http");
+
+http.createServer(function(requisicao,resposta){
+  resposta.end("Bem vindo ao meu site!") // 200 OK
+}).listen(8181);
+
+console.log(`Servidor rodando na porta ${port}`);
+```
+
+Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização.
 
 # 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
