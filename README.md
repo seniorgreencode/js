@@ -526,12 +526,24 @@ const path = require('path');
 const basePath = require('/Computer Science/lab/test/js/');
 
 // Função de Callback
+function cb(err, data){
+   if(err) throw err
+   console.log(data, '\n')
+}
+
 console.log('Begin');
 
-console.log('\nEnd');
-```
+fs.readdir(path.resolve(basePath), (err, files) => {
+    if(err) throw err
+    files
+       .filter((file) => /s[1-4].txt/gi.test(file)) // Filter the files
+       .forEach((setenceFile) => { // For each sentence, reads and prints (async)
+         fs.readFile(path.resolve(basePath, sentenceFile), {encoding: 'utf-8'}, cb) // Will print unordered
+       })
+})
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
+console.log('End\n');
+```
 
 **Node streams** são uma abstração poderosa da API do Node.js para lidar com fluxos contínuos de dados, de forma eficiente e assíncrona. Em vez de carregar um arquivo, uma resposta de rede ou qualquer dado inteiro na memória de uma vez só, os streams permitem **processar pedaços (chunks)** desses dados aos poucos — como se fossem gotas em um cano —, o que é muito mais leve, rápido e escalável, principalmente com arquivos grandes ou transferências de dados em tempo real.
 
