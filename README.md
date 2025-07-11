@@ -342,7 +342,7 @@ var http = require("http");
 http.createServer().listen(8181);
 ```
 
-📜 [JS] Paradigma Assíncrono
+# 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
  
 <img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
