@@ -371,7 +371,7 @@ Para exemplificar, podemos pensar em comunicação. Uma ligação telefônica é
 Por outro lado, uma conversa online via algum mensageiro, como o WhatsApp ou ou Telegram, é um exemplo de comunicação assíncrona: enviamos uma mensagem e não ficamos olhando para a tela, esperando, até a outra pessoa responder (ou pelo menos não deveríamos!). Afinal de contas, não temos como saber quando, e se, essa resposta vai chegar. Mandamos a mensagem e vamos fazer outras coisas enquanto a resposta não chega, ao contrário do telefone.
 
 ## [JS] Promises 
-[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
+[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Node_Streams-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
 
 <a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
 
@@ -468,7 +468,7 @@ console.log(content.toString());
 console.log('\nEnd');
 ```
 
-Exemplo 2: Ler estrofes de cada vez do `arquivo.txt`
+Exemplo 2: Ler estrofes de cada vez do `newton.txt`
 
 ```javascript
 // Asynchronous reading
@@ -494,16 +494,23 @@ console.log('\nEnd');
 Exemplo 3: funções síncronas e função assíncrona
 
 ```javascript
+// Asynchronous reading
 
+const fs = require('fs');
+const path = require('path');
+const basePath = require('/Computer Science/lab/test/js/');
+
+console.log('Begin\n'); // Executou essa função síncrona
+
+// Registrou a função assíncrona
+fs.readFile(path.resolve(basePath, 'newton.txt'), { encoding: 'utf-8' }, (err, data) => {
+  if(err) throw err
+  console.log(data)
+})
+
+// Por último, executou essa função síncrona
+console.log('\nEnd');
 ```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634904-bfe0ee00-745a-11eb-8112-c1d9d6434303.jpg)
-
-```javascript
-
-```
-
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/108634949-1a7a4a00-745b-11eb-8270-733a2a529a63.jpg)
 
 Exemplo 4: Função de Callback Assíncrona
 
