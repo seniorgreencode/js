@@ -342,18 +342,81 @@ var http = require("http");
 http.createServer().listen(8181);
 ```
 
-# 🖤 [JS] Express
-<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
+📜 [JS] Paradigma Assíncrono
+<a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
+ 
+<img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
 
-**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware (servidor de aplicação) da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
+O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente. Na ilustração do lado direito, cada cor indica um processo sendo realizado, e a partir dela conseguimos ver como o tempo de execução da aplicação fica pouco eficiente nas chamadas síncronas. Também é possível perceber porque há um bloqueio de thread, pois a aplicação fica aguardando uma função acabar completamente para só assim chamar a próxima. Imagina se cada vez que você rolasse a página do Instagram, enquanto ela estivesse baixando as novas publicações todo o aplicativo travasse, seria uma experiência horrorosa que não queremos para os nossos usuários. Isso aconteceria caso o download fosse executado de forma síncrona, o aplicativo todo estaria esperando pela resposta daquele download e não conseguiríamos realizar nenhuma ação até essa execução ser concluída.
 
-[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+No dia-a-dia do desenvolvimento web, utilizamos muito (e cada vez mais) dados externos - por exemplo, recebidos através de um endpoint de uma API REST (um microserviço) ou resultados de algum outro processamento. Ou seja, quando isso ocorre o sistema tem que esperar os dados "chegarem" antes de utilizar esse resultado. Costumamos chamar de programação assíncrona o ato de executar uma tarefa em "segundo plano", sem nosso controle direto disso. Sem explicitamente trabalhar com threads e coordená-las. Escrevendo basicamente da forma tradicional que temos. Porém, é importante frisar o comportamento do JavaScript de "executar uma coisa por vez". Com isso em mente o assíncrono no JavaScript vai separar seu código em duas partes: coisas que rodam agora, coisas que vão rodar depois de algo acontecer.
 
-```npm
-npm install express
+> Síncrono ou assíncrono diz respeito ao fluxo de execução de um programa. Quando uma operação executa completamente antes de passar o controle à seguinte, a execução é síncrona. Caso a operação seja executada parcialmente e passe o controle à seguinte ela é considerada assíncrona. Além disso, sabemos que a concorrência, programação paralela e multi-threading estão relacionadas a sistemas distribuídos, mas também desempenham um papel importante no paradigma de programação assíncrona. 
+
+Uso de código assíncrono:
+
+- Requests HTTP
+- Leitura de arquivos
+- Acesso a serviço externo
+- I/O
+
+<img src="https://github.com/user-attachments/assets/14d54da9-74d8-496c-9b53-68ac5458feae" align="right" height="77">
+
+A **concorrência** (<a href="">Concurrency</a>) é a mistura de código assíncrono com programação paralela, que é forma de computação em que vários cálculos são realizados ao mesmo tempo. A programação concorrente, ou concurrency, é a habilidade de executar diferentes partes de um programa ao mesmo tempo e sem uma ordem estrita, de forma que isso não afete o resultado final. A ilustração ao lado mostra a execução de duas funções ao mesmo tempo, a função 1 e 2, veja que há momentos em que a primeira função está sendo executada e há momento que a segunda está sendo executada e essa alternância ocorre mesmo sem as funções terem finalizado sua execução. O que acontece aqui é que há momentos na execução dessas funções onde elas precisaram executar tarefas que podem ser demoradas como uma requisição de API por exemplo, e para que haja uma otimização dos recursos, a função libera a thread para outras funções serem executadas, enquanto ela aguarda a resposta da requisição.
+
+Utilizamos do recursos do assincronismo, quando precisamos esperar pela resposta de uma chamada de função. Com programação síncrona, enquanto esperamos essa resposta iremos bloquear uma `thread`, ou seja, nossa aplicação fica ocupada esperando, já com uma chamada assíncrona, conseguimos liberar a thread para realizar outras ações enquanto aguardamos um resultado. Trabalhando com front-end, vemos que uma boa parte do que ocorre no âmbito do navegador é <a href="">event-driven</a>. Ou seja, o código aguarda algum evento acontecer (por exemplo, o usuário clicar em um botão) antes de executar qualquer código. Outros exemplos de eventos, além de clique do mouse, são toque na tela, determinada tecla ser pressionada, o cursor do mouse passar em cima de algum elemento, etc). Mas, para além destas interações do usuário com a interface, há muitas outras situações que podem ser síncronas ou assíncronas.
+
+Para exemplificar, podemos pensar em comunicação. Uma ligação telefônica é um exemplo de comunicação síncrona: quando falamos ao telefone, as informações chegam e saem em sequência, uma após a outra; fazemos uma pergunta, recebemos logo em seguida a resposta, com os dados dessa resposta fazemos outro comentário, etc.
+
+Por outro lado, uma conversa online via algum mensageiro, como o WhatsApp ou ou Telegram, é um exemplo de comunicação assíncrona: enviamos uma mensagem e não ficamos olhando para a tela, esperando, até a outra pessoa responder (ou pelo menos não deveríamos!). Afinal de contas, não temos como saber quando, e se, essa resposta vai chegar. Mandamos a mensagem e vamos fazer outras coisas enquanto a resposta não chega, ao contrário do telefone.
+
+## [JS] Promises 
+[![Promises](https://img.shields.io/badge/-Promisees-yellow?style=flat&logo=JavaScript&logoColor=white)](https://bevacqua.github.io/promisees/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=TypeScript&logoColor=white)](https://github.com/IsaacAlves7/) [![Promises](https://img.shields.io/badge/-Promises-yellow?style=flat&logo=Node.js&logoColor=white)](https://github.com/IsaacAlves7/)
+
+<a href="https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2"><img src="https://miro.medium.com/max/1366/0*qd397CiUFnmsbH2H.png" height="77" title="Read the Blog" align="right"></a>
+
+Em JavaScript, **Promises** (promessas) são objetos que representam a eventual conclusão (com sucesso ou falha) de uma operação assíncrona. Pense nelas como promessas de que algo será feito no futuro. Elas são fundamentais para lidar com operações que levam tempo para serem concluídas, como requisições de rede, leituras de arquivos ou animações. As Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem e possui um fluxo assíncrono. Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas, elas não eram nativas do JavaScript até o ES6, quando houve uma implementação oficial na linguagem, antes delas, a maioria das funções usavam <a href="">callbacks</a>. As promises são muito necessárias porque paralelizam cada componente do site, ou seja, os arquivos HTML, CSS e JS funcionam de maneira paralela. Promises são um conceito essencial do JavaScript. Elas estão presentes em praticamente todo o ecossistema da linguagem.
+
+> Há uma diferença entre lançar um erro e rejeitar uma promise. Lançar (dar um `throw` ) no erro, vai parar a execução do seu código, é o equivalente a darmos um `return` em uma função. Porém rejeitar uma Promise fará com que o código continue sendo executado posteriormente
+
+Pensamos de forma linear e sincronamente. A maioria das linguagens de programação trabalha de forma assíncrona, pois a maioria trabalha com internet e quando fazemos requisições, e essas coisas são assíncronas.
+
+Promises remontam à década de 70 e eram chamadas de futures, deferred ou delays. Pelo artigo, elas são definidas como:
+
+> Construtos usados para sincronizar a execução de um programa em linguagens de programação concorrentes. Eles descrevem um objeto que atua como um proxy para um resultado que é, inicialmente, desconhecido devido a sua computação não estar completa no momento da chamada.
+
+De acordo com o que vemos na Internet, no JavaScript, as Promises fizeram sua primeira aparição em 2007 em uma biblioteca chamada **MochiKit**. Depois outras bibliotecas como o **Dojo** e o **jQuery** adotaram a mesma especificação pouco tempo depois.
+
+Por fim, para padronizar todas as implementações, o grupo CommonJS escreveu a especificação chamada **Promises/A+** que visava ditar todas as regras necessárias para definir o que era uma Promise e sua interoperabilidade com outros sistemas.
+
+No caso do NodeJS, nas primeiras versões, o runtime já implementava nativamente Promises, que foram removidas em favor de callbacks (que é a forma como conhecemos NodeJS no início), depois do lançamento do ES6 a plataforma implementou nativamente a funcionalidade de Promises que já estava implementada no V8 desde algum tempo antes. Isto porque o padrão ES6 já implementa o modelo A+, que descrevemos antes, de forma nativa, portanto a grande maioria dos browsers já permite o uso de Promises sem nenhum tipo de biblioteca externa.
+
+Processamento assíncrono das Promises:
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/61624336/108409670-47352400-7205-11eb-9c42-680936e0b426.jpg" align="right"></td>
+    <td><img src="https://user-images.githubusercontent.com/61624336/108413280-967d5380-7209-11eb-8b64-3dbf1f3f79c5.jpg" align="right"></td>
+  </tr>
+</table>
+
+De acordo com a imagem acima você precisa calcular o tempo, que no caso são 9s de execução. As vantagens desse fluxo é que você não usará muitos casos de uso, entre outras palavras muito fluxo de código de uma vez só. De acordo com a imagem, as operações são executadas de forma sequencial e os tempos associados a cada operação estão indicados:
+
+1. Inicialização do array `arr = [1, 2, 3]` leva 1 segundo.
+2. A obtenção do comprimento do array com `const length = arr.length` leva 4 segundos.
+3. O cálculo do dobro dos elementos do array com `arr.map(e => e * 2)` leva 3 segundos.
+4. A instrução final `return double` leva 1 segundo.
+
+Somando os tempos de execução sequenciais, temos:
+
+```txt
+1s (inicialização) + 4s (length) + 3s (map) + 1s (return) = 9 segundos
 ```
 
-## [JS] Promises
+A vantagem desse fluxo está na simplicidade e no controle direto do fluxo de execução. Por executar cada passo de forma sequencial, evita-se a complexidade de lidar com múltiplos fluxos ou operações concorrentes simultaneamente. Isso pode reduzir erros e tornar o código mais legível, especialmente quando o número de etapas ou operações é pequeno. Além disso, um fluxo mais linear facilita o rastreamento de problemas e a depuração, pois cada etapa depende diretamente da anterior.
+
+No código assíncrono, ao invés de ter o fluxo seguindo um de cada vez, teremos na verdade todas as quatro requisições que fizemos ao mesmo tempo e o tempo total será da maior Promise, que é o tempo que demorou a maior requisição acontecer. Então, isso reduz drasticamente o tempo de execução do seu código e isso também ajuda você poder otimizar o tempo que você está tendo na hora de fazer alguma requisição de dados.
+
 Como mencionada anteriormente, em programação assíncrona com JavaScript, uma **Promise** em JavaScript (e Node.js) é um objeto que representa a eventual conclusão (ou falha) de uma operação assíncrona. Em vez de você fornecer uma função de callback logo de cara, como era comum antigamente, você recebe de volta uma Promise e encadeia ações com `.then()`, `.catch()` ou async/await.
 
 Uma Promise tem três estados:
@@ -401,7 +464,366 @@ Exemplo 4: Função de Callback Assíncrona
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637266-a777d000-7468-11eb-8d11-c0257fea5ab4.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/108637403-3684e800-7469-11eb-91ba-dc91bb88b202.jpg)
 
-## [JS] Nodemon
+## [JS] Async/Await
+<img src="https://github.com/user-attachments/assets/34c958e7-d5a8-42cc-8813-023fd61daf7f" align="right" height="77">
+
+O `async` e `await` são palavras-chave no JavaScript introduzidas no ES2017 (ES8) que facilitam o trabalho com operações assíncronas, tornando o código mais legível e mais fácil de entender, como se fosse síncrono. Em resumo, o `async` é usado para definir uma função que retorna uma <a href="">Promise</a>, já o `await` faz com que o JavaScript espere pela resolução de uma Promise. Isso torna o código assíncrono mais parecido com código síncrono, facilitando a leitura e manutenção.
+
+O `async` é uma função onde sempre retorna uma Promise. Mesmo que você não retorne explicitamente uma Promise, o valor retornado será automaticamente encapsulado em uma. Uma função `async` permite o uso da palavra-chave `await` dentro dela.
+
+Sintaxe:
+
+```javascript
+async() => { await }
+```
+
+Exemplo: Função `async` simples
+
+```javascript
+async function exemploAsync() {
+  return "Resultado";
+}
+
+exemploAsync().then(result => console.log(result)); // "Resultado"
+```
+
+Nesse exemplo, `exemploAsync` retorna uma `Promise`, e `then` é usado para acessar o valor resolvido.
+
+A palavra-chave `await` só pode ser usada dentro de uma função `async`. Ela faz com que o JavaScript espere a resolução de uma `Promise` antes de prosseguir para a próxima linha de código, permitindo que o código assíncrono seja escrito de forma mais sequencial.
+
+Exemplo:
+
+```javascript
+async function exemploAwait() {
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Feito!"), 1000);
+  });
+
+  let resultado = await promise; // espera até a promise ser resolvida
+  console.log(resultado); // "Feito!"
+}
+
+exemploAwait();
+```
+
+Nesse exemplo, o `await` faz com que a execução da função `exemploAwait` pare até que a `promise` seja resolvida. Isso evita a necessidade de usar callbacks ou `then`, facilitando a leitura e manutenção do código.
+
+As vantagens de `async`/`await` são:
+1. **Código mais legível**: Facilita a leitura de código assíncrono, fazendo-o parecer mais síncrono.
+2. **Tratamento de erros**: Usar `try...catch` com `await` para tratar erros torna o código mais simples e menos aninhado do que usar `then` e `catch`.
+
+Exemplo:
+
+```javascript
+async function exemploErro() {
+  try {
+    let resultado = await Promise.reject("Erro!");
+  } catch (erro) {
+    console.log(erro); // "Erro!"
+  }
+}
+
+exemploErro();
+```
+
+## [JS] Fetch
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API"><img src="https://github.com/user-attachments/assets/0ba490db-550a-410b-b3e8-3f1992343929" align="right" height="377"></a>
+
+**Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente. Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. Fetch fornece uma alternativa melhor que pode ser facilmente utilizada por outras tecnologias como Service Workers. Fetch também provê um lugar lógico único para definir outros conceitos relacionados ao protocolo HTTP como CORS e extensões ao HTTP.
+
+O `fetch()` é uma API moderna e conveniente para realizar requisições HTTP no JavaScript. Sua interface baseada em Promises facilita o tratamento assíncrono e torna o código mais legível, especialmente quando combinado com `async/await`. Embora tenha algumas limitações, `fetch()` é geralmente preferido para requisições HTTP em JavaScript, exceto em situações onde seja necessário lidar com funcionalidades mais avançadas que `XMLHttpRequest` possa oferecer.
+
+A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global `fetch()` que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+
+Características do `fetch()`:
+
+1. **Baseado em Promises**: Diferentemente do `XMLHttpRequest`, a função `fetch()` retorna uma **Promise**, o que permite manipular a resposta de maneira assíncrona usando `.then()` e `.catch()`, ou com **`async/await`** para simplificar o código.
+
+2. **Suporte a Diferentes Tipos de Requisição**: `fetch()` pode ser usado para fazer todos os tipos de requisição HTTP, como `GET`, `POST`, `PUT`, e `DELETE`.
+
+3. **API Simples e Concisa**: `fetch()` tem uma sintaxe mais simples e fácil de ler, principalmente quando comparado ao `XMLHttpRequest`.
+
+Sintaxe: A função `fetch()` é usada assim:
+
+```javascript
+fetch(url, [opções])
+  .then(response => {
+    // manipular a resposta
+  })
+  .catch(error => {
+    // tratar erros
+  });
+```
+
+- **`url`**: A URL para onde a requisição será enviada.
+- **`opções`** (opcional): Um objeto com configurações adicionais, como o método HTTP, cabeçalhos, corpo da requisição, etc.
+
+1. Requisição `GET`
+
+Uma requisição `GET` para buscar dados de uma API:
+
+```javascript
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    return response.json(); // Extrai os dados JSON da resposta
+  })
+  .then(data => {
+    console.log(data); // Exibe os dados recebidos
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+```
+
+No exemplo acima:
+
+- `fetch('url')`: Faz a requisição GET para a URL fornecida.
+- `response.ok`: Verifica se a resposta foi bem-sucedida.
+- `response.json()`: Retorna os dados no formato JSON.
+
+2. Requisição `POST`
+
+Enviando dados para o servidor usando `fetch()`:
+
+```javascript
+const dados = {
+  title: 'Meu Post',
+  body: 'Conteúdo do post',
+  userId: 1
+};
+
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(dados) // Converte o objeto em uma string JSON
+})
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log('Dados enviados:', data);
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+```
+
+Neste exemplo:
+
+- **`method: 'POST'`**: Define o método HTTP como POST.
+- **`headers`**: Define o cabeçalho `Content-Type` para informar que o corpo da requisição é JSON.
+- **`body: JSON.stringify(dados)`**: Converte o objeto `dados` em uma string JSON para ser enviado ao servidor.
+
+3. Usando `async/await`
+
+Você pode usar `fetch()` com `async/await` para deixar o código mais limpo e fácil de entender:
+
+```javascript
+async function carregarDados() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    if (!response.ok) {
+      throw new Error('Erro na requisição: ' + response.status);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Erro:', error);
+  }
+}
+
+carregarDados();
+```
+
+Aqui, o uso de `async/await` faz com que o código pareça mais sequencial, melhorando a legibilidade.
+
+Opções Adicionais: O `fetch()` permite uma variedade de configurações através do objeto `opções`, como:
+
+- **`method`**: O método HTTP a ser utilizado (`GET`, `POST`, etc.).
+- **`headers`**: Cabeçalhos da requisição, como `Content-Type`.
+- **`body`**: O corpo da requisição (usado em métodos como `POST` ou `PUT`).
+- **`credentials`**: Pode ser `include`, `same-origin` ou `omit`, para enviar ou não cookies e informações de autenticação.
+
+Exemplo com mais opções:
+
+```javascript
+fetch('https://api.exemplo.com/dados', {
+  method: 'PUT',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer token_aqui'
+  },
+  body: JSON.stringify({ nome: 'João', idade: 30 })
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Erro:', error));
+```
+
+Tratamento de Erros: Quando usamos `fetch()`, uma requisição com falha não dispara automaticamente a função `catch` a menos que ocorra um problema de rede ou a requisição seja bloqueada. Por isso, é importante verificar o status da resposta (`response.ok`) antes de processar os dados.
+
+Diferenças entre `fetch()` e `XMLHttpRequest`
+
+- **Simplicidade**: `fetch()` é mais conciso e fácil de ler.
+- **Promises**: `fetch()` usa **Promises**, tornando-o mais moderno e melhor integrado com `async/await`.
+- **Suporte a Streams**: A resposta do `fetch()` pode ser processada como uma **Stream**, permitindo um controle mais detalhado sobre como os dados são lidos.
+
+Limitações do `fetch()`
+
+1. **Suporte ao CORS**: `fetch()` é limitado pelo mesmo esquema de segurança **CORS (Cross-Origin Resource Sharing)** que o `XMLHttpRequest`.
+2. **Erro apenas para problemas de rede**: Diferente do `XMLHttpRequest`, `fetch()` não rejeita a Promise para respostas HTTP como 404 ou 500, sendo necessário verificar manualmente se `response.ok` é `true` ou `false`.
+
+## [JS] AJAX - Asynchronous JavaScript And XML
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right">
+
+Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada **AJAX (Asynchronous JavaScript And XML)**, a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
+
+O AJAX (Asynchronous JavaScript and XML) é uma técnica usada para fazer solicitações assíncronas a servidores web sem recarregar a página inteira. Isso permite uma experiência mais fluida para o usuário, pois dados podem ser trocados em segundo plano e o conteúdo da página atualizado dinamicamente. Embora o nome mencione **XML**, AJAX hoje em dia é comumente utilizado com **JSON** (JavaScript Object Notation) devido à simplicidade e eficiência deste formato para troca de dados. AJAX é uma técnica poderosa que permite tornar as páginas da web mais dinâmicas e responsivas, fazendo requisições ao servidor de forma assíncrona, sem a necessidade de recarregar a página. Seja utilizando `XMLHttpRequest` ou a API moderna `fetch`, o JavaScript facilita a comunicação entre o cliente e o servidor, permitindo criar uma experiência de usuário mais rica e interativa. AJAX é usado para fazer requisições HTTP, o que o torna uma ferramenta ideal para trabalhar com APIs REST. No entanto, ele não é adequado para trabalhar com WebSockets, pois ambos têm diferentes propósitos e características.
+
+AJAX (Asynchronous JavaScript and XML) é uma técnica de front-end, usada no navegador (cliente), que permite que uma página web envie e receba dados do servidor de forma assíncrona, sem precisar recarregar toda a página.
+
+O papel do AJAX é permitir que o JavaScript do lado do cliente (front-end) faça requisições HTTP (como `GET`, `POST`, `PUT`, `DELETE`) para um servidor enquanto o usuário continua interagindo com a interface. Isso é o que viabiliza páginas dinâmicas, atualizações em tempo real e experiências mais rápidas.
+
+Por exemplo, quando você digita algo em uma barra de pesquisa e os resultados vão aparecendo em tempo real (como no Google), isso geralmente está sendo feito com AJAX por trás — o navegador envia a informação digitada para o servidor via JavaScript (com `fetch` ou `XMLHttpRequest`), o servidor responde com dados (hoje geralmente em JSON), e a página atualiza apenas a parte necessária da tela, sem recarregar tudo.
+
+Portanto, AJAX é uma técnica do front-end, mas que depende da existência de um back-end que responda às requisições HTTP com os dados desejados. Ele é uma ponte assíncrona entre o navegador e o servidor.
+
+AJAX envolve a utilização do objeto `XMLHttpRequest` (ou do `fetch` API em versões mais modernas de JavaScript) para enviar e receber dados de um servidor. Ele permite que você:
+
+1. Envie uma requisição para um servidor.
+2. Receba uma resposta do servidor (em diferentes formatos como JSON, XML, texto, etc.).
+3. Atualize partes específicas de uma página sem recarregar tudo.
+
+Vantagens do AJAX:
+
+1. **Atualização Parcial da Página**: Atualiza partes específicas da página sem recarregar toda a página, proporcionando uma melhor experiência ao usuário.
+2. **Melhor Performance**: Como apenas partes da página são atualizadas, a quantidade de dados trocados é reduzida, o que melhora o desempenho do aplicativo.
+3. **Experiência do Usuário**: Aplicações mais dinâmicas e responsivas, permitindo que o usuário continue interagindo com a página enquanto as requisições são feitas em segundo plano.
+
+1. Usando `XMLHttpRequest`:
+
+Exemplo: Como fazer uma solicitação `GET` usando `XMLHttpRequest` para buscar dados de um servidor:
+
+```javascript
+function carregarDados() {
+  const xhr = new XMLHttpRequest();
+  
+  xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
+
+  xhr.onload = function() {
+    if (this.status === 200) {
+      const dados = JSON.parse(this.responseText);
+      console.log(dados); // Exibir os dados recebidos
+    } else {
+      console.error('Erro ao buscar dados');
+    }
+  };
+
+  xhr.onerror = function() {
+    console.error('Erro de rede');
+  };
+
+  xhr.send(); // Envia a solicitação
+}
+
+carregarDados();
+```
+
+No exemplo acima:
+
+- `open('GET', url, true)`: Abre uma conexão para uma requisição do tipo GET para a URL fornecida. O `true` indica que a solicitação é assíncrona.
+- `onload`: Função callback que é chamada quando a resposta é recebida.
+- `send()`: Envia a requisição para o servidor.
+
+2. Usando a API `fetch`: A API `fetch` é uma alternativa moderna ao `XMLHttpRequest` e oferece uma interface mais simples e baseada em <a href="">Promises</a>:
+
+```javascript
+function carregarDados() {
+  fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro na requisição: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(dados => {
+      console.log(dados); // Exibir os dados recebidos
+    })
+    .catch(erro => {
+      console.error('Erro:', erro);
+    });
+}
+
+carregarDados();
+```
+
+No exemplo acima:
+
+- `fetch('URL')`: Faz uma requisição GET para a URL fornecida.
+- `.then(response => response.json())`: Extrai o conteúdo da resposta no formato JSON.
+- `.catch(erro => { ... })`: Captura e trata erros que podem ocorrer durante a requisição.
+
+3. Enviando Dados com AJAX (POST):
+
+Você também pode enviar dados para o servidor usando AJAX. Aqui está um exemplo de como fazer uma requisição POST usando `fetch`:
+
+```javascript
+function enviarDados() {
+  const dados = {
+    title: 'Meu Post',
+    body: 'Conteúdo do post',
+    userId: 1
+  };
+
+  fetch('https://jsonplaceholder.typicode.com/posts', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dados)
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro na requisição: ' + response.status);
+      }
+      return response.json();
+    })
+    .then(dadosCriados => {
+      console.log('Dados enviados:', dadosCriados);
+    })
+    .catch(erro => {
+      console.error('Erro:', erro);
+    });
+}
+
+enviarDados();
+```
+
+No exemplo acima:
+
+- `method: 'POST'`: Define o método HTTP como POST.
+- `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
+- `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
+
+# 🖤 [JS] Express
+<a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
+
+**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware (servidor de aplicação) da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
+
+[![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
+
+```npm
+npm install express
+```
+
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
