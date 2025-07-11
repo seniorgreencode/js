@@ -527,13 +527,29 @@ exemploErro();
 ```
 
 ## [JS] Fetch
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API"><img src="https://github.com/user-attachments/assets/0ba490db-550a-410b-b3e8-3f1992343929" align="right" height="377"></a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API"><img src="https://github.com/user-attachments/assets/0ba490db-550a-410b-b3e8-3f1992343929" align="right" height="277"></a>
 
 **Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente. Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. Fetch fornece uma alternativa melhor que pode ser facilmente utilizada por outras tecnologias como Service Workers. Fetch também provê um lugar lógico único para definir outros conceitos relacionados ao protocolo HTTP como CORS e extensões ao HTTP.
 
 O `fetch()` é uma API moderna e conveniente para realizar requisições HTTP no JavaScript. Sua interface baseada em Promises facilita o tratamento assíncrono e torna o código mais legível, especialmente quando combinado com `async/await`. Embora tenha algumas limitações, `fetch()` é geralmente preferido para requisições HTTP em JavaScript, exceto em situações onde seja necessário lidar com funcionalidades mais avançadas que `XMLHttpRequest` possa oferecer.
 
 A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global `fetch()` que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+
+Originalmente, a API `fetch` foi criada para uso no navegador (front-end), como uma forma moderna, baseada em Promises, de fazer requisições HTTP, substituindo o antigo `XMLHttpRequest`. Porém, hoje ela não se restringe mais apenas ao front-end.
+
+Com o tempo, a API `fetch` foi sendo implementada também no back-end, especialmente no Node.js, onde inicialmente não existia suporte nativo a `fetch`. Até pouco tempo atrás, desenvolvedores back-end em Node.js usavam bibliotecas externas como `axios`, `node-fetch` ou `got` para fazer requisições HTTP.
+
+No entanto, **a partir do Node.js v18**, o `fetch` passou a estar **disponível nativamente no ambiente de back-end**, seguindo o mesmo padrão da API do navegador. Isso significa que você pode usar `fetch()` em Node.js da mesma forma que usaria no front-end, sem precisar instalar bibliotecas adicionais:
+
+```js
+// Back-end com Node.js v18+
+const response = await fetch('https://api.example.com/dados');
+const data = await response.json();
+console.log(data);
+```
+
+Portanto, **hoje o uso da API `fetch` se estende tanto ao front-end quanto ao back-end**, desde que o ambiente back-end (Node.js, Deno, Bun ou outros runtimes modernos) ofereça suporte nativo ou via polyfill. Isso traz consistência e simplicidade entre os dois lados da aplicação. Em resumo: `fetch` **não é mais exclusivo do front-end** — é uma API universal nos ambientes JavaScript modernos.
+
 
 Características do `fetch()`:
 
