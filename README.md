@@ -337,10 +337,15 @@ Como ensinado em JavaScript/TypeScript, os **módulos** são uma forma de separa
 
 Existem módulos pré-configurados dentro do Node.js, são bibliotecas embutidas no runtime, como o módulo `fs` que é usado para manipular arquivos dentro do sistema operacional e o módulo `http` que faz uso do protocolo HTTP diretamente pelo Node.js, é uma biblioteca seca e pura e não satisfaz as necessidades de desenvolver uma aplicação completa, para desenvolver uma aplicação completa é necessário um framework chamado Express. Entretanto, podemos configurar o endereço e as portas da nossa aplicação para criar um servidor com o Node.js.
 
+Exemplo: Servidor HTTP com Node.js
+
 ```javascript
 var http = require("http");
-http.createServer().listen(8181);
+var port = http.createServer().listen(8181);
+console.log(`Servidor rodando na porta ${port}`);
 ```
+
+A partir daí temos nosso servidor rodando, para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`.
 
 # 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
