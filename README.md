@@ -335,10 +335,17 @@ npx ts-node "C:\Users\jamal\OneDrive\Área de Trabalho\mastering-denojs\TypeScri
 
 Como ensinado em JavaScript/TypeScript, os **módulos** são uma forma de separar um programa ou sistema em vários arquivos, garantindo a organização e a qualidade do seu código, no caso estariamos importando e exportando. Outra forma de utilizar módulos é quando quisermos usar bibliotecas e frameworks presentes no ecossistema do runtime, daí estaríamos importando um módulo na nossa aplicação.
 
+Existem módulos pré-configurados dentro do Node.js, são bibliotecas embutidas no runtime, como o módulo `fs` que é usado para manipular arquivos dentro do sistema operacional e o módulo `http` que faz uso do protocolo HTTP diretamente pelo Node.js, é uma biblioteca seca e pura e não satisfaz as necessidades de desenvolver uma aplicação completa, para desenvolver uma aplicação completa é necessário um framework chamado Express. Entretanto, podemos configurar o endereço e as portas da nossa aplicação para criar um servidor com o Node.js.
+
+```javascript
+var http = require("http");
+http.createServer().listen(8181);
+```
+
 # 🖤 [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
-**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
+**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware (servidor de aplicação) da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
@@ -454,7 +461,7 @@ No entanto, o Sequelize também tem limitações. Em comparação com alternativ
 Em resumo, o Sequelize é uma ferramenta poderosa para desenvolvedores Node.js que buscam produtividade na interação com bancos relacionais, especialmente em aplicações com modelos de dados moderadamente complexos. Embora não seja tão type-safe ou performático quanto algumas alternativas mais recentes, sua versatilidade e histórico no ecossistema o mantêm relevante para projetos legados ou times que preferem uma abordagem mais tradicional de ORM.
 
 ## [JS] Knex.js
-<img height="177" align="right" src="https://github.com/user-attachments/assets/7041a421-ff77-4689-8916-21761e889a4f" />
+<img height="77" align="right" src="https://github.com/user-attachments/assets/7041a421-ff77-4689-8916-21761e889a4f" />
 
 **Knex.js** é uma biblioteca de SQL query builder para JavaScript, amplamente utilizada em projetos Node.js para facilitar a interação com bancos de dados relacionais como PostgreSQL, MySQL, SQLite, Oracle e MSSQL. Diferente de ORMs como Sequelize ou TypeORM, que abstraem as tabelas e relações em modelos orientados a objetos, o Knex adota uma abordagem mais direta e flexível, permitindo escrever consultas SQL por meio de uma API encadeável e expressiva, sem abrir mão do controle sobre a lógica de banco. Com ele, é possível construir consultas complexas de forma programática, realizar operações como joins, inserts, updates e deletes com segurança e clareza, além de contar com suporte completo a transações. 
 
