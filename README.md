@@ -9,7 +9,9 @@
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
 
-https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f https://reactjsexample.com/a-svg-blob-generator-build-with-react/
+<a href="https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f"><img src="https://img.shields.io/badge/React-ecossystem-aqua?style=flat&logo=Medium&logoColor=white"></a> <a href="https://reactjsexample.com/a-svg-blob-generator-build-with-react/"><img src="https://img.shields.io/badge/React-SVG-aqua?style=flat&logo=JavaScript&logoColor=white"></a> 
+
+ https://reactjsexample.com/a-svg-blob-generator-build-with-react/
 
 Dicas para pensar do jeito ReactJS:
 - Conhecimento e experiência com TypeScript
