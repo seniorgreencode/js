@@ -5164,6 +5164,9 @@ No exemplo acima:
 - `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
+# 📜 [JS] LocalStorage
+
+
 # 📜 [JS] Paradigma Reativo
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="77" align="right">
 
