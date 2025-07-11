@@ -1001,6 +1001,8 @@ O comando `node --watch` não faz exatamente a mesma coisa que o Nodemon, embora
 Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observação de arquivos, o Nodemon vai além ao automatizar a reinicialização do servidor e oferecer uma gama mais ampla de opções de configuração, tornando-o uma escolha popular entre os desenvolvedores Node.js durante o desenvolvimento de aplicativos.
 
 ## [JS] Socket.io
+<img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketio&logoColor=white"> <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=socketio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=socketio&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=socketio&logoColor=white"> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md"><img src="https://img.shields.io/badge/SocketIO-16.17.0-black?style=flat&logo=socketio&logoColor=white"></a>
+
 <a href="https://socket.io/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 O **Socket.io** é uma biblioteca incrível que oferece uma conexão em tempo real orientada a eventos entre um cliente e um servidor, utilizando Websockets e outros protocolos e abordagens para garantir a capacidade de comunicação em tempo real e um aumento de desempenho ao lidar com milhares de conexões via socket, além de permitir o balanceamento de carga em múltiplos servidores.
