@@ -1001,7 +1001,7 @@ O comando `node --watch` não faz exatamente a mesma coisa que o Nodemon, embora
 Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observação de arquivos, o Nodemon vai além ao automatizar a reinicialização do servidor e oferecer uma gama mais ampla de opções de configuração, tornando-o uma escolha popular entre os desenvolvedores Node.js durante o desenvolvimento de aplicativos.
 
 ## [JS] Socket.io
-<img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md"><img src="https://img.shields.io/badge/SocketIO-16.17.0-black?style=flat&logo=socketdotio&logoColor=white"></a>
+<img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md"><img src="https://img.shields.io/badge/SocketIO-16.17.0-black?style=flat&logo=socketdotio&logoColor=white"></a> <a href="https://webrtc.org/?hl=pt-br"><img src="https://img.shields.io/badge/WebRTC-16.17.0-black?style=flat&logo=webrtc&logoColor=white"></a>
 
 <a href="https://socket.io/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
@@ -1032,6 +1032,22 @@ Diferente de soluções como Socket.io ou Phoenix Channels, que são focadas na 
 Em termos de eficiência, para aplicações corporativas internas que precisam de uma solução de chat out-of-the-box, com segurança e controle, Spark + Openfire é altamente confiável. Mas se você está construindo uma aplicação web ou móvel moderna com comunicação em tempo real entre navegadores ou dispositivos, e precisa de mais controle e integração com APIs REST ou eventos em tempo real, soluções como Socket.io, Phoenix Channels ou mesmo Firebase/Firestore tendem a ser mais alinhadas com essas necessidades.
 
 Ou seja, Spark é eficiente dentro do seu ecossistema (XMPP), mas é voltado para outro público: empresas que precisam de mensageria interna com infraestrutura pronta, não desenvolvedores que querem construir um sistema de chat web do zero.
+
+<a href="https://webrtc.org/?hl=pt-br"><img src="https://github.com/user-attachments/assets/fddb6b9c-e30b-4b8c-9d3d-c4bfb9ce3791" height="77" title="Site do Node.js" align="right"/></a>
+
+E o **WebRTC (Web Real-Time Communication)** é uma tecnologia de código aberto que permite comunicação em tempo real (voz, vídeo e dados) diretamente entre navegadores e dispositivos, sem a necessidade de plugins ou softwares adicionais. Criado por volta de 2011 pelo Google, ele faz parte dos padrões da web e é suportado por navegadores modernos como Chrome, Firefox, Safari, Edge e outros.
+
+Com o WebRTC, é possível criar chamadas de vídeo, conversas de voz, transmissões ao vivo (peer-to-peer) e até compartilhamento de arquivos de forma descentralizada e segura. Ele funciona principalmente com três APIs principais:
+
+* **getUserMedia**: acessa a câmera e o microfone do usuário.
+* **RTCPeerConnection**: gerencia a conexão ponto a ponto e cuida da troca de dados multimídia.
+* **RTCDataChannel**: permite enviar dados arbitrários (como mensagens, arquivos ou estados do jogo) entre os peers.
+
+Um dos grandes diferenciais do WebRTC é que ele **cria conexões diretas entre os dispositivos** (peer-to-peer), com **latência extremamente baixa**, ideal para videoconferência, jogos online, apps de telemedicina, atendimento ao cliente e colaboração em tempo real. Para funcionar, ele usa protocolos como **SRTP** (para criptografia), **ICE**, **STUN** e **TURN** (para atravessar NATs e firewalls), o que garante segurança e robustez.
+
+Apesar de permitir conexão direta entre navegadores, o WebRTC **ainda precisa de um servidor de sinalização** para que os dois usuários troquem informações de conexão (como IP e codecs), geralmente feito via WebSocket, HTTP ou outro protocolo. Depois disso, a conexão é estabelecida diretamente entre os peers.
+
+Em resumo, o WebRTC é o coração das comunicações modernas em tempo real na web: **seguro, rápido, sem plugins e altamente eficiente**, usado por aplicações como Google Meet, Discord, Zoom (versões web), WhatsApp Web, Facebook Messenger e muitos outros.
 
 Além dos chats em miniatura incorporados em sites para atendimento ao cliente e chatbots, existe uma ampla variedade de soluções de **chats para atendentes virtuais** — ou seja, plataformas que permitem **interação humano-a-humano**, com suporte assistido por **automação**, **fila de atendimento**, **chatbots híbridos** e integração com sistemas de CRM, help desk, e omnichannel. Essas ferramentas são voltadas para empresas que precisam de **atendimento em tempo real**, mas com foco profissional e escalável. Abaixo estão algumas das mais conhecidas:
 
