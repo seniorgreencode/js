@@ -169,12 +169,12 @@ Como adicionar plugins? Para os arquivos de diretório insira o comando abaixo, 
 
 <pre>vue add &lt;nome do plugin&gt;</pre>
 
-## Como sei que o Vue está sendo executado?
-Por padrão tudo do Vue é tratado como um objeto só. Então, é só digitar o comando <code>Vue</code> no console do navegador e ele retornará um objeto.
+Como sei que o Vue está sendo executado? Por padrão tudo do Vue é tratado como um objeto só. Então, é só digitar o comando <code>Vue</code> no console do navegador e ele retornará um objeto.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110374252-38d16f80-802f-11eb-81e3-f9593f918e30.jpg)
 
-## Vue.js CDN - Variável armazenando a instância do objeto
+Vue.js CDN - Variável armazenando a instância do objeto
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110374953-13913100-8030-11eb-937a-e1db102300f0.jpg)
 
 ## Cadeia de objetos do Vue.app
@@ -213,7 +213,7 @@ Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110386770-7b02ad00-803f-11eb-827d-0e7060fc2738.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110386851-98377b80-803f-11eb-9258-42b3ae33f3cd.jpg)
 
-## Propriedade computada
+## [Vue] Propriedade computada
 É uma propriedade que é reativa a algum valor.
 
 Exemplo 1:
