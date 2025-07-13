@@ -221,9 +221,12 @@ Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110468746-78439e80-80b7-11eb-9a8b-e0464b14cc57.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110468821-93161300-80b7-11eb-95ec-6ad692617177.jpg)
 
-<hr>
+Métodos e propriedades computadas
 
-# Criando componentes
+Exemplo 1:
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/112640159-d5fa1980-8e1f-11eb-9f14-3a8be19affc4.jpg)
+
+## [Vue] Criando componentes
 - Limpei o <code>index.html</code> e o deixei padrão juntamente com a tag <code>&lt;div&gt;</code> e <code>id=root</code>;
 - No <code>App.vue</code> também limpei e coloquei um <code>&lt;template&gt;</code>, <code>&lt;script&gt;</code> e <code>&lt;style&gt;</code>;
 - Deletei as pastas de componentes e criei o arquivo <code>components.js</code>, no momento vazio, para depois criar alguns componentes;
@@ -321,13 +324,6 @@ Acessar um dado através de um objeto.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111057960-eeeeec00-8469-11eb-9a6d-36e7d5e1436d.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/111057989-252c6b80-846a-11eb-9a92-2a32b4b7193c.jpg)
-
-<hr>
-
-<h1 align="center">Métodos e propriedades computadas</h1>
-
-Exemplo 1:
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/112640159-d5fa1980-8e1f-11eb-9f14-3a8be19affc4.jpg)
 
 # [Vue] Design Patterns
 ## [Vue] DI - Dependency Injection
