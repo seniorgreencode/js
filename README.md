@@ -984,6 +984,16 @@ O Express não vem instalado por padrão com o Node.js. Ele é um framework web 
 npm install express
 ```
 
+Logo, podemos criar nosso projeto rodando no NPM:
+
+```npm
+npm init
+```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+Daí ele vai perguntar coisas como nome, versão, descrição, autor, licença, etc, e então vai gerar um arquivo chamado `package.json`, onde carrega todas as configurações e especificações das dependências do nosso projeto.
+
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
