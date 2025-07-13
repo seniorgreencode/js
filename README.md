@@ -134,14 +134,14 @@ Criamos um projeto manual de aplicação single-page Vue para o nosso projeto!
 
 Vamos conhecer cada diretório e os arquivos:
 
-- `.gitignore` é um arquivo git que você pode subir seu projeto para um repositório local ou global, diretamente por ele;
-- **package.json** é um arquivo que mantém as versões dos arquivos ou configurações;
-- **node_modules** é um diretório de dependências, caches e módulos;
-- **README.md** é um arquivo Markdown que explica quais comandos utilizar para startar a aplicação;
-- **babel.config.js** é um arquivo de exportação de módulo do transmutador Babel.js;
-- **.editorconfig** é um arquivo de edição do diretório;
-- **yarn.lock** é um arquivo autogerável, não tente excluir ou editar esse arquivo, pode causar sérios erros no projeto, pois ele guarda algumas dependências importantes!
-- **vue.config.js** é um arquivo de exportação do lint;
+- `.gitignore` é um arquivo de configuração usado pelo Git para indicar quais arquivos ou diretórios devem ser ignorados pelo sistema de versionamento, ou seja, ele instrui o Git a não rastrear nem incluir esses arquivos nos commits, o que é especialmente útil para arquivos temporários, binários, diretórios de build, credenciais, arquivos de cache ou outras informações sensíveis ou desnecessárias para o repositório remoto.
+- `package.json` é um arquivo que mantém as versões dos arquivos ou configurações;
+- `node_modules` é um diretório de dependências, caches e módulos;
+- `README.md` é um arquivo Markdown que explica quais comandos utilizar para startar a aplicação;
+- `babel.config.js` é um arquivo de exportação de módulo do transmutador Babel.js;
+- `.editorconfig` é um arquivo de edição do diretório;
+- `yarn.lock` é um arquivo autogerável, não tente excluir ou editar esse arquivo, pode causar sérios erros no projeto, pois ele guarda algumas dependências importantes!
+- `vue.config.js` é um arquivo de exportação do lint;
 - `src` é onde guarda os nossos scripts editáveis para o projeto;
 - `public` é onde guarda as nossas páginas dinâmicas;
 
