@@ -992,7 +992,7 @@ npm init
 
 [![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 
-Daí ele vai perguntar coisas como nome, versão, descrição, autor, licença, etc, e então vai gerar um arquivo chamado `package.json`, onde carrega todas as configurações e especificações das dependências do nosso projeto.
+Daí ele vai perguntar coisas como nome, versão, descrição, autor, licença, etc, e então vai gerar um arquivo chamado `package.json`, onde carrega todas as configurações e especificações das dependências do nosso projeto. Basicamente, o `package.json` funciona como se fosse o RG ou identidade do seu projeto.
 
 > [!Note]
 > Uma dica, não crie seu projeto com o mesmo nome das dependências, isso vai retornar em um erro de conflito no seu diretório com o código `npm ERR! code ENOSELF`.
