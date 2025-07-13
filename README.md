@@ -361,6 +361,8 @@ Acessar um dado através de um objeto.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111057960-eeeeec00-8469-11eb-9a6d-36e7d5e1436d.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/111057989-252c6b80-846a-11eb-9a92-2a32b4b7193c.jpg)
 
+# 📦 [Vue] Webpack
+
 # 🧩 [Vue] Design Patterns
 Na engenharia de software, um **padrão de projeto** ou **padrões de design** (design patterns) de software é uma solução geral e reutilizável para um problema comum dentro de um determinado contexto no projeto de software no nível do código-fonte. Não é um projeto acabado que pode ser transformado diretamente em código-fonte ou código de máquina. Se você é um desenvolvedor, é importante que você saiba qual é o princípio do SOLID e como um design pattern (padrão de design) deve resolver problemas regulares. Portanto, Design Patterns (Padrões de Projeto) são sobre design de software, eles representam soluções reutilizáveis para problemas recorrentes no desenvolvimento de software, oferecendo uma forma estruturada e eficiente de abordar desafios comuns de design.
 
