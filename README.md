@@ -972,7 +972,9 @@ No exemplo acima:
 # 🖤 [JS] Express
 <a href="https://nodejs.org/en/"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" height="77" align="right"/></a>
 
-**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware (servidor de aplicação) da sua aplicação. Ele é usado principalmente para construir aplicativos web e APIs RESTful. Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
+**Express** é um framework web rápido, flexível e minimalista para Node.js responsável pelo Middleware (servidor de aplicação) da sua aplicação. Ele é usado principalmente para construir aplicativos web back-end e APIs RESTful. 
+
+Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
