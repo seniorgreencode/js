@@ -1020,6 +1020,8 @@ app.listen(4000, function(erro){
 
 Uma boa prática adotada em JavaScript/TypeScript é quando utilizamos `const` para definir endereços do servidor, ou importação ou inicialização da aplicação, pois as chances de dar algum problema são menores no futuro do projeto.
 
+Após digitar o endereço do servidor no navegador com a porta `4000`, a aplicação será executada com sucesso, porém com uma mensagem de erro: `Cannot GET /`, isso significa que a aplicação não tem uma rota ou caminho definido no método HTTP chamado `GET`. Ou seja, o servidor respondeu com a porta, porém não foi localizada a rota de destino dele para a aplicação.
+
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
