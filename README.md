@@ -65,10 +65,13 @@ Rodar no servidor:
 npm run serve
 ```
 
-Crie o primeiro projeto:
-<pre>vue create my-project</pre>
+## [Vue] Create Vue App Project Manually
 
-<h1 align="center">Create Vue App Project Default</h1>
+Crie o primeiro projeto:
+
+```sh
+vue create my-project
+```
 
 Step 1: Default
 ![Step 1: Vue CLI - Create Project](https://user-images.githubusercontent.com/61624336/110260338-821bb380-7f8a-11eb-8f6a-817be1f01aae.jpg)
@@ -89,8 +92,6 @@ Step 5: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326726-cee9a380-7ff7-11eb-8101-a51f4340f3fe.jpg)
 
 <hr>
-
-## [Vue] Create Vue App Project Manually
 
 Step 1: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110270105-de3f0180-7fa3-11eb-9cb9-b4da48f848e2.jpg)
