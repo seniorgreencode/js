@@ -984,7 +984,7 @@ O Express não vem instalado por padrão com o Node.js. Ele é um framework web 
 npm install express
 ```
 
-Logo, podemos criar nosso projeto rodando no NPM:
+A flag `--save` serve para salvar os arquivos do express na pasta do seu projeto. Logo, podemos criar nosso projeto rodando no NPM:
 
 ```npm
 npm init
@@ -993,6 +993,9 @@ npm init
 [![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
 
 Daí ele vai perguntar coisas como nome, versão, descrição, autor, licença, etc, e então vai gerar um arquivo chamado `package.json`, onde carrega todas as configurações e especificações das dependências do nosso projeto.
+
+> [!Note]
+> Uma dica, não crie seu projeto com o mesmo nome das dependências, isso vai retornar em um erro de conflito no seu diretório com o código `npm ERR! code ENOSELF`.
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
