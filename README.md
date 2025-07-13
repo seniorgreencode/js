@@ -165,8 +165,8 @@ Step 2: vue ui
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
 
-## Como adicionar plugins?
-Para os arquivos de diretório insira o comando abaixo, para o UI tem como adicionar pela interface!
+Como adicionar plugins? Para os arquivos de diretório insira o comando abaixo, para o UI tem como adicionar pela interface!
+
 <pre>vue add &lt;nome do plugin&gt;</pre>
 
 ## Como sei que o Vue está sendo executado?
