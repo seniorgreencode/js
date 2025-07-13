@@ -13,9 +13,7 @@ https://king.host/blog/wp-content/uploads/2018/05/2018-05-08-img-blog-node-socke
 # ✌️ Vue.js
 <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right">
 
-<p>O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. 
-  
-Foi criada por <a href="https://github.com/yyx990803">Evan You</a> (Google) em 2013 / 2014. Possui uma renderização declarativa e composição de componentes. As versões do Framework possuem nomes de Animes.</p>
+O <b>Vue.js</b> é um framework JavaScript progressivo, você consegue utilizar ele em conjunto com outros frameworks ou com uma aplicação de grande porte, cujo o Vue.js entrega a melhor performance. Foi criada por <a href="https://github.com/yyx990803">Evan You</a> (Google) em 2013 / 2014. Possui uma renderização declarativa e composição de componentes. As versões do Framework possuem nomes de Animes.
 
 <a href="https://nuxtjs.org/"><div align="center"><img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" height="170"></div></a>
 
@@ -25,23 +23,25 @@ Foi criada por <a href="https://github.com/yyx990803">Evan You</a> (Google) em 2
 
 - Desenvolvimento Mobile: **NativeScript**/ Quasar/ Vue Native;
 
-## Documentação
+Documentação:
+
 - https://github.com/vuejs
 - https://vuejs.org/
 - https://cli.vuejs.org/
 
-## <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="22"> Vue CLI <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="22">
+Vue CLI:
+
 Acesse o site: https://cli.vuejs.org/
 
 Lembrando que você pode baixar pelo o Yarn ou pelo NPM que terá o mesmo resultado!
 
-### Versão
+Versão:
+
 ```
 vue --version
 ```
 
-### <img src="https://cdn.worldvectorlogo.com/logos/npm-square-red-1.svg" height="20"> NPM
-Instale:
+Instale via NPM:
 ```
 npm install -g @vue/cli
 ```
@@ -107,8 +107,7 @@ Copie e cole o endereço do LocalHost no browser!
 
 <hr>
 
-### <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="20"> Yarn
-Instale:
+Instale via Yarn:
 <pre>yarn global add @vue/cli</pre>
 
 Crie o primeiro projeto:
@@ -144,7 +143,7 @@ Criamos um projeto manual de aplicação single-page Vue para o nosso projeto!
 
 Vamos conhecer cada diretório e os arquivos:
 
-- **.gitignore** é um arquivo git que você pode subir seu projeto para um repositório local ou global, diretamente por ele;
+- `.gitignore` é um arquivo git que você pode subir seu projeto para um repositório local ou global, diretamente por ele;
 - **package.json** é um arquivo que mantém as versões dos arquivos ou configurações;
 - **node_modules** é um diretório de dependências, caches e módulos;
 - **README.md** é um arquivo Markdown que explica quais comandos utilizar para startar a aplicação;
@@ -152,8 +151,8 @@ Vamos conhecer cada diretório e os arquivos:
 - **.editorconfig** é um arquivo de edição do diretório;
 - **yarn.lock** é um arquivo autogerável, não tente excluir ou editar esse arquivo, pode causar sérios erros no projeto, pois ele guarda algumas dependências importantes!
 - **vue.config.js** é um arquivo de exportação do lint;
-- **src** é onde guarda os nossos scripts editáveis para o projeto;
-- **public** é onde guarda as nossas páginas dinâmicas;
+- `src` é onde guarda os nossos scripts editáveis para o projeto;
+- `public` é onde guarda as nossas páginas dinâmicas;
 
 ### Erro de ELIFECYCLE
 - https://reactgo.com/npm-err-code-elifecycle/
@@ -194,14 +193,14 @@ O Vue.js por padrão ele já possui um Getter e um Setter, ou seja, você não p
 ## Diretivas do Vue
 Para quem está acostumado com Angular, as diretivas servem para aplicar uma funcionalidade específica em cima de um elemento, são parecidas com os atributos e eventos no JavaScript puro.
 
-### Exemplo 1:
+Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110383950-d2068300-803b-11eb-8b89-faa4bea0c5d3.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110383665-602e3980-803b-11eb-8128-cb3423257b75.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110384393-5527d900-803c-11eb-9cc7-2de7757054a6.jpg)
 
 É interessante usar essas diretivas para coisas simples, fora que em vez de criar métodos, você cria diretivas e assim economizando tempo e linhas de código.
 
-### Exemplo 2:
+Exemplo 2:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110386961-bef5b200-803f-11eb-9b71-c9e80e6be1da.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110386770-7b02ad00-803f-11eb-827d-0e7060fc2738.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110386851-98377b80-803f-11eb-9258-42b3ae33f3cd.jpg)
@@ -209,7 +208,7 @@ Para quem está acostumado com Angular, as diretivas servem para aplicar uma fun
 ## Propriedade computada
 É uma propriedade que é reativa a algum valor.
 
-### Exemplo 1:
+Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110468441-0b300900-80b7-11eb-92ad-3cb861d56e8a.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110468746-78439e80-80b7-11eb-9a8b-e0464b14cc57.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110468821-93161300-80b7-11eb-95ec-6ad692617177.jpg)
@@ -238,7 +237,7 @@ Os componentes também, principalmente em aplicações single-page, podem ser re
 
 Vamos criar os componentes com a extensão <code>.vue</code> para ser mais dinâmico.
 
-## Exemplo 1: Componente - ButtonVue
+Exemplo 1: Componente - ButtonVue
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110679035-c50d9f00-81b5-11eb-9d19-2198651400df.jpg)
 
 No arquivo <code>.vue</code> possuimos 3 tipos de blocos de código:
@@ -253,15 +252,15 @@ No arquivo <code>.vue</code> possuimos 3 tipos de blocos de código:
 
 Vamos agora cadastrar globalmente os componentes no Vue, você pode fazer isso tanto no escopo do <code>App.vue</code> quanto no <code>components.js</code>.
 
-## Exemplo 2: String
+Exemplo 2: String
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110686820-9d6f0480-81be-11eb-8a72-dbcc16656988.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110687145-f6d73380-81be-11eb-9111-5cbd221777d6.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110687492-51708f80-81bf-11eb-8f26-edb4081044dd.jpg)
 
-## Exemplo 3: Template String
+Exemplo 3: Template String
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110688528-6d286580-81c0-11eb-9104-e205a076e756.jpg)
 
-## Exemplo 4: X-Template
+Exemplo 4: X-Template
 Esse tipo de template é trabalhado diretamente no index.html
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110692486-212bef80-81c5-11eb-9fe3-ad525a374ca8.jpg)
@@ -270,15 +269,15 @@ Esse tipo de template é trabalhado diretamente no index.html
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110693126-dbbbf200-81c5-11eb-99f4-c43b5499fce6.jpg)
 
-## Exemplo 5: Inline
+Exemplo 5: Inline
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110961608-beeefe00-832e-11eb-9cef-062efd4ac7e3.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110963705-27d77580-8331-11eb-85fe-c324403c7f9f.jpg)
 
-## Exemplo 6: Render
+Exemplo 6: Render
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110965622-20b16700-8333-11eb-833c-c3e9aade90c9.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110965831-5c4c3100-8333-11eb-8ef7-edc64710bef6.jpg)
 
-## Exemplo 7: JSX (Similar ao React.js)
+Exemplo 7: JSX (Similar ao React.js)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110985135-cde3a980-834a-11eb-90f4-d59aad8c66f9.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110986168-1780c400-834c-11eb-9906-86bc301f3e63.jpg)
 
@@ -290,7 +289,7 @@ Esse tipo de template é trabalhado diretamente no index.html
 
 Não podemos inserir objetos no data, pois uma vez os dados passados ou copiados, normalmente, por padrão o JavaScript realiza uma cópia por referência e toda instância vai ser alterada.
 
-## Exemplo 1:
+Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111052615-1c707100-843b-11eb-9936-41a2a7cd9a27.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111053912-c275a880-8446-11eb-80e9-884c7b3df587.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/111054249-f1d9e480-8449-11eb-86b1-f1428aba19df.jpg)
@@ -303,13 +302,13 @@ Tornamos o objeto <code>count</code> em uma variável! Lembrando novamente que o
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111054336-9f4cf800-844a-11eb-9e90-3651447840bf.jpg)
 
-## Exemplo 2:
+Exemplo 2:
 Você pode acessar as variáveis usando o <code>$data</code>.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111057580-7ab34900-8467-11eb-80ca-7945edd8b461.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/111057577-78e98580-8467-11eb-81ca-b10046874ade.jpg)
 
-## Exemplo 3:
+Exemplo 3:
 Acessar um dado através de um objeto.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111057960-eeeeec00-8469-11eb-9a6d-36e7d5e1436d.jpg)
@@ -319,10 +318,11 @@ Acessar um dado através de um objeto.
 
 <h1 align="center">Métodos e propriedades computadas</h1>
 
-## Exemplo 1:
+Exemplo 1:
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/112640159-d5fa1980-8e1f-11eb-9f14-3a8be19affc4.jpg)
 
-# 💉 Injeção de Dependências (Dependency Injection)
+# [Vue] Design Patterns
+## [Vue] DI - Dependency Injection
 A **injeção de dependências** é um _design pattern_ muito utilizado para fazer com que uma classe seja independente de suas dependências.
 
 As vezes, precisamos compartilhar uma função de componente Pai em todas os seus descendentes (parecido com o conceito de Herança em POO), então para isso é utilizado o conceito de injeção de dependências.
