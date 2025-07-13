@@ -199,7 +199,7 @@ O Vue.js por padrão ele já possui um Getter e um Setter, ou seja, você não p
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110382282-70451980-8039-11eb-8aa7-93a3ff572215.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110383219-bc448e00-803a-11eb-9d72-678980bb2997.jpg)
 
-## Diretivas do Vue
+## [Vue] Diretivas do Vue
 Para quem está acostumado com Angular, as diretivas servem para aplicar uma funcionalidade específica em cima de um elemento, são parecidas com os atributos e eventos no JavaScript puro.
 
 Exemplo 1:
