@@ -976,6 +976,8 @@ No exemplo acima:
 
 Express simplifica o processo de criação de servidores web em Node.js, fornecendo uma série de utilitários e métodos que facilitam o roteamento, o tratamento de requisições e respostas, o gerenciamento de sessões, entre outros aspectos do desenvolvimento web. Com o Express, os desenvolvedores podem criar aplicativos web de forma mais eficiente e com menos código, permitindo que se concentrem mais na lógica de negócios de suas aplicações.
 
+O Express não vem instalado por padrão com o Node.js. Ele é um framework web separado que precisa ser instalado manualmente no seu projeto utilizando o NPM (Node Package Manager):
+
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
 ```npm
