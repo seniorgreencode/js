@@ -339,6 +339,8 @@ Existem módulos pré-configurados dentro do Node.js, são bibliotecas embutidas
 
 Exemplo: Servidor HTTP com Node.js
 
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
 ```javascript
 var http = require("http");
 var port = http.createServer().listen(8181);
@@ -348,6 +350,8 @@ console.log(`Servidor rodando na porta ${port}`);
 A partir daí temos nosso servidor rodando, para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`. No entanto, e se eu quisesse rodar minha aplicação no browser? Eu deveria digitar o endereço na busca do navegador: http://localhost:8181 ou http://127.0.0.1:8181
 
 E então? Nada! Porque para ele rodar no navegador é preciso definir a requisição e resposta do nosso servidor no lado do cliente. Ou seja, aquela velha história de comunicação de cliente-servidor juntamente com o protocolo HTTP, portanto, precisamos definir isso no código, através de requisição (request) e resposta (response).
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 var http = require("http");
@@ -996,6 +1000,25 @@ Daí ele vai perguntar coisas como nome, versão, descrição, autor, licença, 
 
 > [!Note]
 > Uma dica, não crie seu projeto com o mesmo nome das dependências, isso vai retornar em um erro de conflito no seu diretório com o código `npm ERR! code ENOSELF`.
+
+Com o diretório `node_modules`, e os arquivos `package.json` e `package-lock.json` criados, podemos criar manualmente nossa primeira aplicação express, dentro do arquivo `index.js`.
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando na porta ${4000}!`);
+   }
+});
+```
+
+Uma boa prática adotada em JavaScript/TypeScript é quando utilizamos `const` para definir endereços do servidor, ou importação ou inicialização da aplicação, pois as chances de dar algum problema são menores no futuro do projeto.
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
