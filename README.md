@@ -164,8 +164,6 @@ Step 2: vue ui
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367987-2c491900-8027-11eb-9598-ede5e7bea494.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
 
-![Tree SPA](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
-
 ```txt
 MANUALLY-PROJECT
 ├── node_modules/
