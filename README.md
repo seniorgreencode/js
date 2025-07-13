@@ -163,11 +163,48 @@ Step 2: vue ui
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367818-f146e580-8026-11eb-8238-9f6d308077ca.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367987-2c491900-8027-11eb-9598-ede5e7bea494.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
+
+![Tree SPA](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
+
+```txt
+MANUALLY-PROJECT
+├── node_modules/
+├── public/
+├── src/
+│   └── assets/
+├── vue-ui-project/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   ├── tests/
+│   ├── .browserslistrc
+│   ├── .editorconfig
+│   ├── .eslintrc.js
+│   ├── .gitignore
+│   ├── babel.config.js
+│   ├── jest.config.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── vue.config.js
+│   ├── logo.png
+│   └── components/
+│       ├── App.vue
+│       └── main.js
+├── .editorconfig
+├── .gitignore
+├── babel.config.js
+├── package.json
+├── README.md
+├── vue.config.js
+└── yarn.lock
+```
 
 Como adicionar plugins? Para os arquivos de diretório insira o comando abaixo, para o UI tem como adicionar pela interface!
 
-<pre>vue add &lt;nome do plugin&gt;</pre>
+```sh
+vue add <nome do plugin>
+```
 
 Como sei que o Vue está sendo executado? Por padrão tudo do Vue é tratado como um objeto só. Então, é só digitar o comando <code>Vue</code> no console do navegador e ele retornará um objeto.
 
