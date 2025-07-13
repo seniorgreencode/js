@@ -177,7 +177,8 @@ Vue.js CDN - Variável armazenando a instância do objeto
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110374953-13913100-8030-11eb-937a-e1db102300f0.jpg)
 
-## Cadeia de objetos do Vue.app
+Cadeia de objetos do Vue.app:
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110375414-b184fb80-8030-11eb-8cd9-8dda549a8748.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110378154-feb69c80-8033-11eb-8f1f-89a5a0278bd7.jpg)
 
@@ -186,13 +187,13 @@ Vue.js CDN - Variável armazenando a instância do objeto
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110379942-3aeafc80-8036-11eb-8587-b18d4c2531b8.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110380340-b8167180-8036-11eb-9466-7514d69bd6fa.jpg)
 
-## Variável de estado
+## [Vue] Variável de estado
 Costumamos usar <code>{{ }}</code> para recolher ou chamar a propriedade de variáveis ou funções na interface, então, automaticamente, o Vue.js entende a declaração feita do prototype e associa a chamada.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110380851-70441a00-8037-11eb-9347-b7b4342da1d3.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110380937-94076000-8037-11eb-96b2-ce4d6ac03890.jpg)
 
-## Como funciona a Reatividade no Vue?
+## [Vue] Reatividade no Vue
 O Vue.js por padrão ele já possui um Getter e um Setter, ou seja, você não pode alterar uma propriedade diretamente! A reatividade do Vue ocorre através de Getters e Setters que são criados através de Listeners que o Vue.js faz por trás dos panos.
 
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110382282-70451980-8039-11eb-8aa7-93a3ff572215.jpg)
@@ -294,7 +295,7 @@ Exemplo 7: JSX (Similar ao React.js)
 
 <hr>
 
-# Revitalidade e controle de estado
+## [Vue] Revitalidade e controle de estado
 
 <blockquote><b>Obs:</b> A sintaxe do data é sempre em forma de função!</blockquote>
 
