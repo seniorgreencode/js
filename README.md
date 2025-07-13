@@ -1711,7 +1711,7 @@ export default App;
 
 Antes de entender o que é o ESLint, você precisa aprender o conceito de Lint. O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código.
 
-Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
+Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX. Com ele você pode definir regras pré-definidas, garantir que o código todo seja uniforme e aplicar estilos de códigos específicos. Exemplo de uso:
 
 - Criar uma regra para que o Token JWT seja colocado no código;
 - Definir que todas as variáveis privadas sejam prefixadas com underline;
@@ -1720,8 +1720,14 @@ Portanto, o ESLint é um utilitário linting conectável para JavaScript e JSX. 
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
 
-```
+```sh
 npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+```
+
+[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
+
+```json
+"eslint": "eslint ./src/*.js"
 ```
 
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" height="77" align="right"></a>
@@ -1729,25 +1735,51 @@ npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 Da mesma forma como criamos o `.babelrc` para carregar as configurações padrões, vamos criar um arquivo `.eslintrc` para pegar todas as configurações padrões do seu projeto.
 
 [![.eslintrc](https://img.shields.io/badge/-.eslintrc-fff?style=social&logo=ESLint&logoColor=4B32C3)](#)
+
 ```json
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-unused-vars": ["warn"],
+    "no-console": "off"
+  }
+}
 ```
 
+Esse `.eslintrc` faz o seguinte:
+
+- Define o ambiente como navegador, ES2021 e Node.js.
+- Usa as regras recomendadas do ESLint (`eslint:recommended`).
+- Configura o parser para usar ECMAScript moderno (`ecmaVersion: 12`) e módulos ES.
+- Define algumas regras manuais, como exigir ponto e vírgula (`semi`), usar aspas duplas (`quotes`), alertar para variáveis não usadas (`no-unused-vars`) e permitir console.log (`no-console` desativado).
+
+Para rodar o eslint:
+
 [![NPM](https://img.shields.io/badge/-npm_running_the_eslint-fff?style=social&logo=NPM&logoColor=red)](#)
-```
+
+```sh
 npm run eslint
 ```
 
-Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente.
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-```json
-"eslint": "eslint ./src/*.js"
-```
+Dessa forma, o linting do ESLint vai informar todos os erros do código e você irá precisar alterar as linhas de cada erro manualmente. Você pode expandir esse arquivo conforme seu projeto evolui, incluindo integrações com frameworks, plugins de TypeScript, Vue, React, Prettier, etc.
 
 ## [React] Prettier
 <img src="https://cdn.worldvectorlogo.com/logos/prettier-2.svg" height="77" align="right">
 
-O **Prettier** é uma ferramenta de formatação automática de código. Seu objetivo principal é aplicar uma formatação consistente e padronizada ao código-fonte, eliminando discussões e inconsistências sobre estilo de escrita entre os membros de uma equipe. Ele funciona como um **opinionated code formatter**, ou seja, impõe um estilo fixo baseado em regras internas, o que significa que ele não é altamente configurável como alguns linters — e essa é uma escolha de design, justamente para evitar bikeshedding (discussões infinitas sobre estilo). O *Prettier* não está deprecated, nem descontinuado — ele continua sendo ativamente mantido e amplamente utilizado na comunidade de desenvolvimento front-end e back-end, especialmente em projetos com **JavaScript**, **TypeScript**, **React**, **Node.js** e outros ecossistemas modernos.
+O **Prettier** é uma ferramenta de formatação automática de código (formatter). Seu objetivo principal é aplicar uma formatação consistente e padronizada ao código-fonte, eliminando discussões e inconsistências sobre estilo de escrita entre os membros de uma equipe. Ele funciona como um **opinionated code formatter**, ou seja, impõe um estilo fixo baseado em regras internas, o que significa que ele não é altamente configurável como alguns linters — e essa é uma escolha de design, justamente para evitar bikeshedding (discussões infinitas sobre estilo). O *Prettier* não está deprecated, nem descontinuado — ele continua sendo ativamente mantido e amplamente utilizado na comunidade de desenvolvimento front-end e back-end, especialmente em projetos com **JavaScript**, **TypeScript**, **React**, **Node.js** e outros ecossistemas modernos.
 
 Diferente de um **linter** como o ESLint, que detecta erros e sugestões com base em boas práticas e regras configuráveis (inclusive lógicas), o Prettier atua exclusivamente na **estrutura visual e formatação do código**, como:
 
