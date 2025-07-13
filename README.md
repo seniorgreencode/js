@@ -361,7 +361,20 @@ Acessar um dado através de um objeto.
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/111057960-eeeeec00-8469-11eb-9a6d-36e7d5e1436d.jpg)
 ![Sem Título-2](https://user-images.githubusercontent.com/61624336/111057989-252c6b80-846a-11eb-9a92-2a32b4b7193c.jpg)
 
-# [Vue] Design Patterns
+# 🧩 [Vue] Design Patterns
+Na engenharia de software, um **padrão de projeto** ou **padrões de design** (design patterns) de software é uma solução geral e reutilizável para um problema comum dentro de um determinado contexto no projeto de software no nível do código-fonte. Não é um projeto acabado que pode ser transformado diretamente em código-fonte ou código de máquina. Se você é um desenvolvedor, é importante que você saiba qual é o princípio do SOLID e como um design pattern (padrão de design) deve resolver problemas regulares. Portanto, Design Patterns (Padrões de Projeto) são sobre design de software, eles representam soluções reutilizáveis para problemas recorrentes no desenvolvimento de software, oferecendo uma forma estruturada e eficiente de abordar desafios comuns de design.
+
+Os padrões de design mais comuns que podem ser implementados em JavaScript/TypeScript, assim como na maioria das linguagens de programação, estão organizados em três categorias principais. Abaixo, veja o que você precisa saber sobre os padrões de cada uma delas: 
+
+- **Creational** (criacional): Responsáveis pela criação de objetos, oferecendo maior flexibilidade e abstração no processo de instanciação.
+
+- **Structural** (estrutural): Dizem respeito à composição de classes e objetos para formar estruturas maiores e mais eficientes.
+
+- **Behavioural** (comportamental): Lidam com a comunicação e interação entre objetos, definindo padrões de fluxo de responsabilidade.
+
+Os padrões de design mais comuns que podem ser implementados em JavaScript/TypeScript, assim como na maioria das linguagens de programação, estão organizados em três categorias principais. Abaixo, veja o que você precisa saber sobre os padrões de cada uma delas.
+Mas primeiro, o que é um padrão de design? Um padrão de design pode ser pensado como uma solução razoável que pode ser aplicada a cenários comuns de programação; como desenvolvedor, você encontrará padrões de design em toda parte. No contexto do Vue.js, os design patterns (padrões de projeto) são aplicados de maneira prática e direta para resolver problemas recorrentes no desenvolvimento de interfaces reativas, componentes reutilizáveis, gerenciamento de estado, comunicação entre partes da aplicação e organização de lógica de negócios. Apesar de Vue.js ser um framework declarativo focado em reatividade e componentes, ele permite e até encoraja o uso de padrões clássicos da engenharia de software adaptados ao contexto da programação reativa, especialmente quando se trabalha com aplicações de médio e grande porte.
+
 ## [Vue] DI - Dependency Injection
 A **injeção de dependências** é um _design pattern_ muito utilizado para fazer com que uma classe seja independente de suas dependências.
 
