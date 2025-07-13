@@ -56,84 +56,60 @@ Crie o primeiro projeto:
 
 <h1 align="center">Create Vue App Project Default</h1>
 
-### Step 1: Default
+Step 1: Default
 ![Step 1: Vue CLI - Create Project](https://user-images.githubusercontent.com/61624336/110260338-821bb380-7f8a-11eb-8f6a-817be1f01aae.jpg)
 
-### Step 2: Default
+Step 2: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110321269-34d22d00-7ff0-11eb-9b30-c0d442bb64fa.jpg)
 
-### Step 3: Default
+Step 3: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326000-d65c7d00-7ff6-11eb-95d5-0870589e093b.jpg)
 
-### Step 4: Default
+Step 4: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326196-16236480-7ff7-11eb-9037-2f37dc58bc14.jpg)
 
 Copie e cole o endereço do LocalHost no browser!
 <blockquote>Obs: Lembre-se de não fechar o Terminal, pois isso cortará sua ligação com o servidor e , consequentemente, deixando-o fora do ar!</blockquote>
 
-### Step 5: Default
+Step 5: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326726-cee9a380-7ff7-11eb-8101-a51f4340f3fe.jpg)
 
 <hr>
 
-<h1 align="center">Create Vue App Project Manually</h1>
+## [Vue] Create Vue App Project Manually
 
-### Step 1: Manually
+Step 1: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110270105-de3f0180-7fa3-11eb-9cb9-b4da48f848e2.jpg)
 
-### Step 2: Manually
+Step 2: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110270724-31fe1a80-7fa5-11eb-9d01-419387b404cd.jpg)
 
-### Step 3: Manually
+Step 3: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110333498-6521c780-8000-11eb-83cf-2337dfa1f2b5.jpg)
 
-### Step 4: Manually
+Step 4: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110333739-bc279c80-8000-11eb-8704-0050d02b9255.jpg)
 
-### Step 5: Manually
+Step 5: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110333981-0577ec00-8001-11eb-8bb5-edce20cef7a3.jpg)
 
-### Step 6: Manually
+Step 6: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110334410-81723400-8001-11eb-9d05-a5ef5d4c7b0b.jpg)
 
-### Step 7: Manually
+Step 7: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110338114-686b8200-8005-11eb-8a60-35bb32cbc8af.jpg)
 
-### Step 8: Manually
+Step 8: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110338518-d87a0800-8005-11eb-8037-07a50f68d843.jpg)
 
-### Step 9: Manually
+Step 9: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110338778-2727a200-8006-11eb-9848-aded12e4d35b.jpg)
-
-<hr>
 
 Instale via Yarn:
 <pre>yarn global add @vue/cli</pre>
 
 Crie o primeiro projeto:
 <pre>vue ui</pre>
-
-<h1 align="center">Create Vue App Project UI</h1>
-
-### Step 1: vue ui
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339655-29d6c700-8007-11eb-8d6c-8acd496185d7.jpg)
-
-### Step 2: vue ui
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339848-6276a080-8007-11eb-9b1a-fbf484cb14ef.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110364303-5c41ed80-8022-11eb-9120-550620cb2a4f.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110364737-ebe79c00-8022-11eb-935e-86604fe77f2e.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110365095-5bf62200-8023-11eb-8358-74a672433042.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110365358-b3948d80-8023-11eb-8079-8930bc88a047.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110366755-7630ff80-8025-11eb-9e32-32a4566098d5.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367603-a4fba580-8026-11eb-8dd0-9f40fcb1f690.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367818-f146e580-8026-11eb-8238-9f6d308077ca.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367987-2c491900-8027-11eb-9598-ede5e7bea494.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
-
-<hr>
-
-<h1 align="center">Creating a Vue App Project Manually</h1>
 
 Criamos um projeto manual de aplicação single-page Vue para o nosso projeto!
 
@@ -154,8 +130,25 @@ Vamos conhecer cada diretório e os arquivos:
 - `src` é onde guarda os nossos scripts editáveis para o projeto;
 - `public` é onde guarda as nossas páginas dinâmicas;
 
-### Erro de ELIFECYCLE
-- https://reactgo.com/npm-err-code-elifecycle/
+Erro de ELIFECYCLE: https://reactgo.com/npm-err-code-elifecycle/
+
+## [Vue] Create Vue App Project UI
+
+Step 1: vue ui
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339655-29d6c700-8007-11eb-8d6c-8acd496185d7.jpg)
+
+Step 2: vue ui
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339848-6276a080-8007-11eb-9b1a-fbf484cb14ef.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110364303-5c41ed80-8022-11eb-9120-550620cb2a4f.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110364737-ebe79c00-8022-11eb-935e-86604fe77f2e.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110365095-5bf62200-8023-11eb-8358-74a672433042.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110365358-b3948d80-8023-11eb-8079-8930bc88a047.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110366755-7630ff80-8025-11eb-9e32-32a4566098d5.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367603-a4fba580-8026-11eb-8dd0-9f40fcb1f690.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367818-f146e580-8026-11eb-8238-9f6d308077ca.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367987-2c491900-8027-11eb-9598-ede5e7bea494.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
+![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368630-11c36f80-8028-11eb-84ae-34caeff61e58.jpg)
 
 ## Como adicionar plugins?
 Para os arquivos de diretório insira o comando abaixo, para o UI tem como adicionar pela interface!
