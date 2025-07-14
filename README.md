@@ -1030,7 +1030,9 @@ Após digitar o endereço do servidor no navegador com a porta `4000`, a aplica�
 
 O conceito de **rotas** em aplicações back-end refere-se aos caminhos definidos no servidor que determinam como ele deve responder a diferentes requisições HTTP. Cada rota associa uma URL específica a uma função ou controlador que executa uma lógica de negócio. Em termos simples, é como um roteiro que orienta a aplicação sobre o que fazer quando um determinado endereço é acessado, como se fosse um roteiro de viagem para quem vai sair de férias. E, no caso das APIs, esse conceito é essencial para definir as endpoints, que representam os pontos de acesso aos recursos e funcionalidades da aplicação.
 
-Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`) que geralmente é a rota principal do site, perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`, a questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
+Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`) que geralmente é a rota principal do site, perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Podemos ainda passar **parâmetros** para essas rotas como, por exemplo, configurações de usuário (`profile/settings`) ou id do vídeo (`/video/12`). E posso adicionar quantos parâmetros eu quiser para que eu atenda as necessidades da aplicação, como por exemplo: configurações de usuário (`profile/settings/changePassword`).
+
+Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`. A questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
 
 Exemplo: Adicionando e definindo as rotas na aplicação JavaScript
 
@@ -1062,6 +1064,33 @@ Simples e intuitivo para os primeiros passos! Crie quantas rotas precisar para q
 
 > [!Caution]
 > Um erro que muitos cometem é de não colocar um `send` para exibir uma resposta, daí o programa fica rodando infinitamente e outro erro é quando exibe duas resposta, ele exibe uma e na outra gera um erro: `Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client`, significa que você só pode enviar uma resposta uma única vez, pois você fecha a conexão com o cliente, daí quando você tenta enviar outra vez não dá porque a conexão estará fechada.
+
+Exemplo 2: Passando parâmetros para a minha rota
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+// Adicionando rota inicial na aplicação
+app.get("/", (req,res)=>{
+  res.send("<h1>Welcome to home!</h1>");
+});
+
+app.get("/user/:nome", (req,res)=>{
+  res.send("<h1>Welcome to user!</h1>");
+});
+
+
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando no endereço: http://localhost:${4000}`);
+   }
+});
+```
 
 Se você está usando o Node.js com Express para criar uma API ou servidor web, e agora quer exibir um front-end (HTML, CSS, etc.) na rota principal `/`, há basicamente 3 formas principais de fazer isso, dependendo da sua abordagem: com arquivos estáticos ou com templates renderizados ou com bibliotecas/frameworks front-end como React, Angular ou Vue.js. Vamos abordar os dois jeitos, e você escolhe o que se encaixa melhor no seu projeto.
 
