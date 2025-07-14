@@ -1027,6 +1027,26 @@ O conceito de **rotas** em aplicações back-end refere-se aos caminhos definido
 
 Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`), perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`, a questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
 
+Exemplo: Adicionando rota na aplicação
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+// Adicionando rota na aplicação
+app.get("/")
+
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando na porta ${4000}!`);
+   }
+});
+```
+
+Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, o famoso método científico aplicado em desenvolvimento de software.
+
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 **Nodemon** é uma ferramenta de utilidade para desenvolvedores Node.js que ajuda no processo de desenvolvimento de aplicativos. Ele monitora os arquivos em um projeto Node.js e reinicia automaticamente o servidor sempre que detecta qualquer alteração nos arquivos fonte. Isso é extremamente útil durante o desenvolvimento, pois elimina a necessidade de reiniciar manualmente o servidor após cada alteração no código.
