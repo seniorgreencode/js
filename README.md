@@ -1037,14 +1037,14 @@ const app = express(); // Iniciando o express
 
 // Adicionando rota inicial na aplicação
 app.get("/", (req,res)=>{
-  res.send("Welcome to home!");
+  res.send("<h1>Welcome to home!</h1>");
 });
 
 app.listen(4000, function(erro){
    if(erro){
       console.log('Ocorreu um erro!');
    } else {
-      console.log(`Servidor rodando na porta ${4000}!`);
+      console.log(`Servidor rodando no endereço: http://localhost:${4000}`);
    }
 });
 ```
