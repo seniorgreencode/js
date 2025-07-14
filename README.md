@@ -1018,11 +1018,14 @@ app.listen(4000, function(erro){
 });
 ```
 
-Uma boa prática adotada em JavaScript/TypeScript é quando utilizamos `const` para definir endereços do servidor, ou importação ou inicialização da aplicação, pois as chances de dar algum problema são menores no futuro do projeto.
+> [!Tip]
+> Uma boa prática adotada em JavaScript/TypeScript é quando utilizamos `const` para definir endereços do servidor, ou importação ou inicialização da aplicação, pois as chances de dar algum problema são menores no futuro do projeto.
 
 Após digitar o endereço do servidor no navegador com a porta `4000`, a aplicação será executada com sucesso, porém com uma mensagem de erro: `Cannot GET /`, isso significa que a aplicação não tem uma rota ou caminho definido no método HTTP chamado `GET`. Ou seja, o servidor respondeu com a porta, porém não foi localizada a rota de destino dele para a aplicação.
 
-O conceito de rotas em aplicações back-end refere-se aos caminhos definidos no servidor que determinam como ele deve responder a diferentes requisições HTTP. Cada rota associa uma URL específica a uma função ou controlador que executa uma lógica de negócio. Em termos simples, é como um roteiro que orienta a aplicação sobre o que fazer quando um determinado endereço é acessado, como se fosse um roteiro de viagem para quem vai sair de férias. E, no caso das APIs, esse conceito é essencial para definir as endpoints, que representam os pontos de acesso aos recursos e funcionalidades da aplicação.
+O conceito de **rotas** em aplicações back-end refere-se aos caminhos definidos no servidor que determinam como ele deve responder a diferentes requisições HTTP. Cada rota associa uma URL específica a uma função ou controlador que executa uma lógica de negócio. Em termos simples, é como um roteiro que orienta a aplicação sobre o que fazer quando um determinado endereço é acessado, como se fosse um roteiro de viagem para quem vai sair de férias. E, no caso das APIs, esse conceito é essencial para definir as endpoints, que representam os pontos de acesso aos recursos e funcionalidades da aplicação.
+
+Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`), perfil do usuário (`profile`), e a página de assistir videos (`watch` - `content` - `video` - `vod`).
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
