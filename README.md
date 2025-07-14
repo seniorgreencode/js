@@ -1056,7 +1056,9 @@ app.listen(4000, function(erro){
 
 Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, ou seja qual o destino dessa URL, o famoso método científico aplicado em desenvolvimento de software. 
 
-Para o destino dessa rota, usamos o método `.get()`, dentro dele criamos a rota principal `"/"` da página inicial (`home`) e em seguida definimos o destino, que o ideal é criar uma função, um arrow function para ser mais preciso, com os parâmetros de requisição e resposta `(req, res)`, no caso vamos só responder ao acesso da rota na página principal então com o método `.send()`, enviaremos uma mensagem de: `Welcome to home!`. Simples e intuitivo para os primeiros passos!
+Para o destino dessa rota, usamos o método `.get()`, dentro dele criamos a rota principal `"/"` da página inicial (`home`) e em seguida definimos o destino, que o ideal é criar uma função, um arrow function para ser mais preciso, com os parâmetros de requisição e resposta `(req, res)`, no caso vamos só responder ao acesso da rota na página principal então com o método `.send()`, enviaremos uma mensagem de: `Welcome to home!`. 
+
+Simples e intuitivo para os primeiros passos! Crie quantas rotas precisar para que sua aplicação esteja funcionando conforme o esperado.
 
 > [!Caution]
 > Um erro que muitos cometem é de não colocar um `send` para exibir uma resposta, daí o programa fica rodando infinitamente e outro erro é quando exibe duas resposta, ele exibe uma e na outra gera um erro: `Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client`, significa que você só pode enviar uma resposta uma única vez, pois você fecha a conexão com o cliente, daí quando você tenta enviar outra vez não dá porque a conexão estará fechada.
