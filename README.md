@@ -1027,7 +1027,9 @@ O conceito de **rotas** em aplicações back-end refere-se aos caminhos definido
 
 Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`) que geralmente é a rota principal do site, perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`, a questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
 
-Exemplo: Adicionando rota na aplicação
+Exemplo: Adicionando e definindo as rotas na aplicação JavaScript
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
 ```javascript
 const express = require("express"); // Importando o express
