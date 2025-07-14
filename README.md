@@ -124,7 +124,10 @@ Instale via Yarn:
 <pre>yarn global add @vue/cli</pre>
 
 Crie o primeiro projeto:
-<pre>vue ui</pre>
+
+```sh
+vue ui
+```
 
 Criamos um projeto manual de aplicação single-page Vue para o nosso projeto!
 
@@ -149,8 +152,11 @@ Erro de ELIFECYCLE: https://reactgo.com/npm-err-code-elifecycle/
 
 ## [Vue] Create Vue App Project UI
 
-Step 1: vue ui
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339655-29d6c700-8007-11eb-8d6c-8acd496185d7.jpg)
+Step 1: vue ui - criando a aplicação e obtendo o endereço no http://localhost:8080
+
+```sh
+vue ui
+```
 
 Step 2: vue ui
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110339848-6276a080-8007-11eb-9b1a-fbf484cb14ef.jpg)
