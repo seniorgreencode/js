@@ -1025,7 +1025,7 @@ Após digitar o endereço do servidor no navegador com a porta `4000`, a aplica�
 
 O conceito de **rotas** em aplicações back-end refere-se aos caminhos definidos no servidor que determinam como ele deve responder a diferentes requisições HTTP. Cada rota associa uma URL específica a uma função ou controlador que executa uma lógica de negócio. Em termos simples, é como um roteiro que orienta a aplicação sobre o que fazer quando um determinado endereço é acessado, como se fosse um roteiro de viagem para quem vai sair de férias. E, no caso das APIs, esse conceito é essencial para definir as endpoints, que representam os pontos de acesso aos recursos e funcionalidades da aplicação.
 
-Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`), perfil do usuário (`profile`), e a página de assistir videos (`watch` - `content` - `video` - `vod`).
+Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`), perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`).
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
