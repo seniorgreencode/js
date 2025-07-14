@@ -73,20 +73,9 @@ Crie o primeiro projeto:
 vue create my-project
 ```
 
-Step 1: Default
-![Step 1: Vue CLI - Create Project](https://user-images.githubusercontent.com/61624336/110260338-821bb380-7f8a-11eb-8f6a-817be1f01aae.jpg)
+Siga o padrão, ele fará perguntas como deseja manter a instalação dos gerenciadores de depêndencias e pacotes. Logo, basta abrir o endereço do LocalHost no browser.
 
-Step 2: Default
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110321269-34d22d00-7ff0-11eb-9b30-c0d442bb64fa.jpg)
-
-Step 3: Default
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326000-d65c7d00-7ff6-11eb-95d5-0870589e093b.jpg)
-
-Step 4: Default
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326196-16236480-7ff7-11eb-9037-2f37dc58bc14.jpg)
-
-Copie e cole o endereço do LocalHost no browser!
-<blockquote>Obs: Lembre-se de não fechar o Terminal, pois isso cortará sua ligação com o servidor e , consequentemente, deixando-o fora do ar!</blockquote>
+> Obs: Lembre-se de não fechar o Terminal, pois isso cortará sua ligação com o servidor e , consequentemente, deixando-o fora do ar!
 
 Step 5: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326726-cee9a380-7ff7-11eb-8101-a51f4340f3fe.jpg)
