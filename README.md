@@ -154,7 +154,6 @@ Step 2: vue ui
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367603-a4fba580-8026-11eb-8dd0-9f40fcb1f690.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367818-f146e580-8026-11eb-8238-9f6d308077ca.jpg)
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110367987-2c491900-8027-11eb-9598-ede5e7bea494.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110368082-4b47ab00-8027-11eb-9369-5c8e19c17b88.jpg)
 
 ```txt
 MANUALLY-PROJECT
