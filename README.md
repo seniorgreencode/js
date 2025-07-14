@@ -75,12 +75,9 @@ vue create my-project
 
 Siga o padrão, ele fará perguntas como deseja manter a instalação dos gerenciadores de depêndencias e pacotes. Logo, basta abrir o endereço do LocalHost no browser.
 
-> Obs: Lembre-se de não fechar o Terminal, pois isso cortará sua ligação com o servidor e , consequentemente, deixando-o fora do ar!
+> Lembre-se de não fechar o Terminal, pois isso cortará sua ligação com o servidor e , consequentemente, deixando-o fora do ar!
 
-Step 5: Default
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110326726-cee9a380-7ff7-11eb-8101-a51f4340f3fe.jpg)
-
-<hr>
 
 Step 1: Manually
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110270105-de3f0180-7fa3-11eb-9cb9-b4da48f848e2.jpg)
