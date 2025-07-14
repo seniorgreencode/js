@@ -357,13 +357,13 @@ E então? Nada! Porque para ele rodar no navegador é preciso definir a requisi�
 var http = require("http");
 
 http.createServer(function(requisicao,resposta){
-  resposta.end("Bem vindo ao meu site!") // 200 OK
+  resposta.end("<h1>Bem vindo ao meu site!</h1>") // 200 OK
 }).listen(8181);
 
 console.log('Servidor rodando na porta');
 ```
 
-Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização. A saída do console será `'Servidor rodando na porta'` e no navegador foi recebido a mensagem: `"Bem vindo ao meu site!"`, com o status 200 (Ok).
+Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização. A saída do console será `'Servidor rodando na porta'` e no navegador foi recebido a mensagem: `"Bem vindo ao meu site!"`, com o status 200 (Ok). O método `.end()` no contexto do Node.js (módulo `http`) é usado para encerrar a resposta (response) que está sendo enviada ao cliente. Ou seja, ele finaliza o processo de envio de dados HTTP do servidor para o navegador ou outro consumidor da requisição.
 
 # 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
@@ -1025,7 +1025,7 @@ Após digitar o endereço do servidor no navegador com a porta `4000`, a aplica�
 
 O conceito de **rotas** em aplicações back-end refere-se aos caminhos definidos no servidor que determinam como ele deve responder a diferentes requisições HTTP. Cada rota associa uma URL específica a uma função ou controlador que executa uma lógica de negócio. Em termos simples, é como um roteiro que orienta a aplicação sobre o que fazer quando um determinado endereço é acessado, como se fosse um roteiro de viagem para quem vai sair de férias. E, no caso das APIs, esse conceito é essencial para definir as endpoints, que representam os pontos de acesso aos recursos e funcionalidades da aplicação.
 
-Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`), perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`, a questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
+Trazendo para o contexto de desenvolvimento web, digamos que eu tenha a página inicial (`home`) que geralmente é a rota principal do site, perfil do usuário (`profile`), a página de assistir videos (`watch` - `content` - `video` - `vod`) e carrinho de compras (`cart`). Digamos que temos um servidor de aplicação Express rodando não no localhost, mas no endereço www.meuapp.com, quando o usuário acessa o endereço ele manda uma requisição no seu servidor do tipo `GET`, a questão é como ele irá acessar as outras partes do seu sistema? É claro que através das rotas apontando para cada uma dessas páginas mencionadas anteriormente.
 
 Exemplo: Adicionando rota na aplicação
 
@@ -1033,8 +1033,10 @@ Exemplo: Adicionando rota na aplicação
 const express = require("express"); // Importando o express
 const app = express(); // Iniciando o express
 
-// Adicionando rota na aplicação
-app.get("/")
+// Adicionando rota inicial na aplicação
+app.get("/", (req,res)=>{
+  res.send("Welcome to home!");
+});
 
 app.listen(4000, function(erro){
    if(erro){
@@ -1045,7 +1047,7 @@ app.listen(4000, function(erro){
 });
 ```
 
-Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, o famoso método científico aplicado em desenvolvimento de software.
+Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, ou seja qual o destino dessa URL, o famoso método científico aplicado em desenvolvimento de software.
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
