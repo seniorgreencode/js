@@ -365,6 +365,11 @@ console.log('Servidor rodando na porta');
 
 Lembrando que toda modificação do JavaScript no Node.js é necessário uma reinicialização. A saída do console será `'Servidor rodando na porta'` e no navegador foi recebido a mensagem: `"Bem vindo ao meu site!"`, com o status 200 (Ok). O método `.end()` no contexto do Node.js (módulo `http`) é usado para encerrar a resposta (response) que está sendo enviada ao cliente. Ou seja, ele finaliza o processo de envio de dados HTTP do servidor para o navegador ou outro consumidor da requisição.
 
+Esse `.end()` está fazendo duas coisas ao mesmo tempo:
+
+1. Enviando o conteúdo que será exibido no navegador (`<h1>Bem vindo ao meu site!</h1>`).
+2. Finalizando a resposta, dizendo ao servidor: “Pronto, terminei de responder. Pode fechar a conexão.”
+
 # 📜 [JS] Paradigma Assíncrono
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
  
@@ -1049,7 +1054,7 @@ app.listen(4000, function(erro){
 });
 ```
 
-Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, ou seja qual o destino dessa URL, o famoso método científico aplicado em desenvolvimento de software.
+Podemos adicionar rotas na aplicação derivadas dos métodos HTTP como `get`, `post`, `delete`, `put`, `option`, `patch` e outras formas que são mais úteis para APIs. Para criarmos uma rota precisamos dizer pra onde ela aponta e o que ela faz, ou seja qual o destino dessa URL, o famoso método científico aplicado em desenvolvimento de software. Para o destino dessa rota, usamos o método `.get()`, dentro dele criamos a rota principal `"/"` da página inicial (`home`) e em seguida definimos o destino, que o ideal é criar uma função, um arrow function para ser mais preciso, com os parâmetros de requisição e resposta `(req, res)`, no caso vamos só responder ao acesso da rota na página principal então com o método `.send()`, enviaremos uma mensagem de: `Welcome to home!`. Simples e intuitivo para os primeiros passos!
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
