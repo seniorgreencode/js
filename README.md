@@ -117,8 +117,10 @@ vue ui
 
 Criamos um projeto manual de aplicação single-page Vue para o nosso projeto!
 
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110348676-aae68c00-8010-11eb-876a-555d8b42fc9e.jpg)
-![Sem Título-1](https://user-images.githubusercontent.com/61624336/110348907-ea14dd00-8010-11eb-9c6c-7fee0b6f0666.jpg)
+```sh
+yarn serve
+```
+
 ![Sem Título-1](https://user-images.githubusercontent.com/61624336/110354298-c5bbff00-8016-11eb-94d5-ba02f0fdbfc9.jpg)
 
 Vamos conhecer cada diretório e os arquivos:
