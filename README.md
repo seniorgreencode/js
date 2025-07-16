@@ -5195,6 +5195,76 @@ Além disso, o RxJS inclui um conceito chamado Subject, que é um tipo especial 
 Muito popular no ecossistema JavaScript, o RxJS é amplamente utilizado em frameworks como Angular para gerenciar requisições HTTP, eventos de UI, gerenciamento de estado e outros cenários onde a manipulação de dados dinâmicos e concorrentes é necessária. Sua abordagem declarativa e composição funcional tornam o código mais previsível e fácil de manter, sendo uma ferramenta indispensável para aplicações modernas que demandam alta reatividade e gerenciamento eficiente de complexidade assíncrona.
 
 # 📜 [JS] Segurança de código
+Segurança de código em **JavaScript** é um tema essencial, especialmente quando falamos de ambientes web. Funções como `atob`, `eval`, `Function`, entre outras, podem representar **vulnerabilidades sérias** se mal utilizadas.
+
+🧪 1. Função `atob()`: Decodifica uma string que foi codificada em Base64. Risco: Em si, não é perigosa — **o risco está no que você faz com o resultado**. Ex:
+
+  ```js
+  const userInput = "PHNjcmlwdD5hbGVydCgnSGFja2VkIScpPC9zY3JpcHQ+";
+  const decoded = atob(userInput); // <script>alert('Hacked!')</script>
+  document.body.innerHTML = decoded; // XSS aqui!
+  ```
+
+  Se você usa `atob` e injeta o resultado no DOM ou executa com `eval`, pode abrir portas para **XSS (Cross-Site Scripting)**. Isso é um belo ponto de atenção para bug bounty!
+
+🧨 2. **Função `eval()`**:
+
+* **O que faz:** Avalia uma string como código JavaScript.
+* **Risco:** **Altamente inseguro**. Permite execução arbitrária de código — isso pode permitir que um atacante rode scripts maliciosos.
+
+  ```js
+  eval("alert('isso é perigoso')");
+  eval(userInput); // nunca faça isso
+  ```
+
+  **Alternativa segura:** use `JSON.parse()` para dados em JSON, e **evite lógica baseada em strings**.
+
+3. **Função `Function()` (construtor dinâmico)**:
+
+* Funciona como `eval`, mas permite criar funções dinamicamente:
+
+  ```js
+  let fn = new Function("a", "b", "return a + b;");
+  ```
+* Assim como `eval`, **não deve ser usado com entradas externas**.
+
+🕳️ 4. **XSS – Injeção de Código no Navegador**:
+
+Evite inserir **dados não sanitizados** no DOM:
+
+```js
+document.body.innerHTML = userInput; // inseguro!
+```
+
+Prefira:
+
+```js
+const p = document.createElement("p");
+p.textContent = userInput; // seguro!
+document.body.appendChild(p);
+```
+
+💥 5. **Injeção de Comandos via URL ou parâmetros**:
+
+Se você lê parâmetros da URL e os usa diretamente no DOM ou lógica de código, evite coisas como:
+
+```js
+const params = new URLSearchParams(window.location.search);
+eval(params.get("execute")); // perigo
+```
+
+Boas práticas de segurança em JavaScript:
+
+| Prática                                   | Descrição                                                                     |
+| ----------------------------------------- | ----------------------------------------------------------------------------- |
+| ❌ **Evite `eval` e `Function`**           | São portas de entrada para código malicioso.                                  |
+| ✅ **Sanitize entradas**                   | Remova ou escape caracteres perigosos. Use bibliotecas como DOMPurify.        |
+| ✅ **Escape HTML ao inserir no DOM**       | Use `.textContent` ao invés de `.innerHTML` quando possível.                  |
+| ✅ **Content Security Policy (CSP)**       | Cabeçalho HTTP que limita execução de scripts.                                |
+| ✅ **Substitua `atob`/`btoa` com cuidado** | Use somente para decodificar/encodar Base64 com fontes confiáveis.            |
+| ✅ **Use Linters/SASTs**                   | Ferramentas como ESLint + plugins de segurança ou ferramentas como SonarQube. |
+
+Se quiser, posso te mostrar exemplos práticos de código seguro e inseguro com `atob`, `eval`, `Function`, ou revisar algum código que você esteja analisando.
 
 # 🧪 [JS] DDD, BDD e TDD
 
