@@ -5207,10 +5207,7 @@ Segurança de código em **JavaScript** é um tema essencial, especialmente quan
 
   Se você usa `atob` e injeta o resultado no DOM ou executa com `eval`, pode abrir portas para **XSS (Cross-Site Scripting)**. Isso é um belo ponto de atenção para bug bounty!
 
-🧨 2. **Função `eval()`**:
-
-* **O que faz:** Avalia uma string como código JavaScript.
-* **Risco:** **Altamente inseguro**. Permite execução arbitrária de código — isso pode permitir que um atacante rode scripts maliciosos.
+🧨 2. Função `eval()`: Avalia uma string como código JavaScript. Risco: **Altamente inseguro**. Permite execução arbitrária de código — isso pode permitir que um atacante rode scripts maliciosos.
 
   ```js
   eval("alert('isso é perigoso')");
@@ -5219,18 +5216,15 @@ Segurança de código em **JavaScript** é um tema essencial, especialmente quan
 
   **Alternativa segura:** use `JSON.parse()` para dados em JSON, e **evite lógica baseada em strings**.
 
-3. **Função `Function()` (construtor dinâmico)**:
-
-* Funciona como `eval`, mas permite criar funções dinamicamente:
+3. Função `Function()` (construtor dinâmico): Funciona como `eval`, mas permite criar funções dinamicamente:
 
   ```js
   let fn = new Function("a", "b", "return a + b;");
   ```
-* Assim como `eval`, **não deve ser usado com entradas externas**.
 
-🕳️ 4. **XSS – Injeção de Código no Navegador**:
+Assim como `eval`, **não deve ser usado com entradas externas**.
 
-Evite inserir **dados não sanitizados** no DOM:
+🕳️ 4. **XSS – Injeção de Código no Navegador**: Evite inserir dados não sanitizados no DOM:
 
 ```js
 document.body.innerHTML = userInput; // inseguro!
@@ -5244,7 +5238,7 @@ p.textContent = userInput; // seguro!
 document.body.appendChild(p);
 ```
 
-💥 5. **Injeção de Comandos via URL ou parâmetros**:
+💥 5. Injeção de Comandos via URL ou parâmetros:
 
 Se você lê parâmetros da URL e os usa diretamente no DOM ou lógica de código, evite coisas como:
 
