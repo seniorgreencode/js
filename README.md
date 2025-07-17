@@ -449,6 +449,8 @@ console.log(customer.sayHi())
 # 🟦 [TS] Classes e Objetos
 <img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-class_diagram-blue?style=flat&logo=UML&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-Use_Case_diagram-blue?style=flat&logo=diagramsdotnet&logoColor=white">
 
+<img height="77" align="right" src="https://github.com/user-attachments/assets/4bf24ee0-156f-4511-9372-79a472152ee3" />
+
 TypeScript é JavaScript orientado a objetos (OOP). O TypeScript oferece suporte a recursos de programação orientada a objetos, como classes, interfaces, etc. Uma **classe** em termos de OOP é um projeto para a criação de **objetos**. Uma classe encapsula dados para o objeto. O Typescript fornece suporte integrado para esse conceito chamado classe. JavaScript ES5 ou anterior não suportava classes. O Typescript obtém esse recurso do ES6.
 
 Use a palavra-chave `class` para declarar uma classe no TypeScript. A sintaxe para o mesmo é dada abaixo:
