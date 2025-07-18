@@ -568,12 +568,12 @@ react-native link react-native-camera
 npm run android
 ```
 
-# 🐞 DEPURAÇÃO no React Native (debug)
+## [React Native] debug
 Uma **depuração** ou um **debug** (termo em inglês comumente utilizado na área de desenvolvimento de software) é o processo de identificar erros (bugs) ou problemas no código-fonte de um software.
 
-> Ao desenvolvermos um aplicativo usando o React Native, contamos com uma série de ferramentas de fácil acesso nativamente disponíveis, como logs detalhados, debug por meio do console do navegador e bibliotecas voltadas para aplicações que usam tal tecnologia. A depuração é uma tarefa importante no desenvolvimento de um software para encontrar e corrigir erros ou mau funcionamento, garantindo, assim, sua qualidade. Tal tarefa, dependendo do ambiente de desenvolvimento ou da linguagem de programação utilizada, pode ser difícil e trabalhosa. Entretanto, em aplicativos escritos em React Native, existe uma série de ferramentas disponíveis. Algumas delas são muito simples e acessíveis, como o próprio navegador web — independentemente de a aplicação estar rodando por meio do Expo, de um dispositivo virtual ou de um físico. Essa particularidade permite que até desenvolvedores iniciantes consigam realizar o debug de seu código-fonte.
+Ao desenvolvermos um aplicativo usando o React Native, contamos com uma série de ferramentas de fácil acesso nativamente disponíveis, como logs detalhados, debug por meio do console do navegador e bibliotecas voltadas para aplicações que usam tal tecnologia. A depuração é uma tarefa importante no desenvolvimento de um software para encontrar e corrigir erros ou mau funcionamento, garantindo, assim, sua qualidade. Tal tarefa, dependendo do ambiente de desenvolvimento ou da linguagem de programação utilizada, pode ser difícil e trabalhosa. Entretanto, em aplicativos escritos em React Native, existe uma série de ferramentas disponíveis. Algumas delas são muito simples e acessíveis, como o próprio navegador web — independentemente de a aplicação estar rodando por meio do Expo, de um dispositivo virtual ou de um físico. Essa particularidade permite que até desenvolvedores iniciantes consigam realizar o debug de seu código-fonte.
 
-> O processo de debug consiste em localizar e corrigir defeitos em uma aplicação. Tais defeitos dizem respeito a erros provenientes da etapa de codificação. A existência de erros é inerente ao processo de desenvolvimento de um software independentemente da experiência do programador. Pode haver erros sintáticos (falhas na aplicação da sintaxe da linguagem utilizada), semânticos (uso incorreto de declarações) e de lógica (o programa não faz o que deveria fazer) durante uma codificação. Desse modo, identificá-los e corrigi-los, ou seja, depurar o software, é um processo que deve acontecer a partir da verificação e da validação do funcionamento do software em que as falhas são identificadas, localizadas no código-fonte e reparadas. A partir do momento que a correção de uma falha consiste na escrita/alteração de códigos-fontes, o programador tem de ficar atento para que novas falhas não sejam geradas.
+O processo de debug consiste em localizar e corrigir defeitos em uma aplicação. Tais defeitos dizem respeito a erros provenientes da etapa de codificação. A existência de erros é inerente ao processo de desenvolvimento de um software independentemente da experiência do programador. Pode haver erros sintáticos (falhas na aplicação da sintaxe da linguagem utilizada), semânticos (uso incorreto de declarações) e de lógica (o programa não faz o que deveria fazer) durante uma codificação. Desse modo, identificá-los e corrigi-los, ou seja, depurar o software, é um processo que deve acontecer a partir da verificação e da validação do funcionamento do software em que as falhas são identificadas, localizadas no código-fonte e reparadas. A partir do momento que a correção de uma falha consiste na escrita/alteração de códigos-fontes, o programador tem de ficar atento para que novas falhas não sejam geradas.
 
 Ao longo de tal processo, o código-fonte é inspecionado e analisado durante sua execução, a fim de que qualquer erro existente possa ser identificado e corrigido.
 
@@ -594,7 +594,6 @@ Nesse processo, é possível, entre algumas opções, realizar as seguintes aç�
 
 - Inserir instruções simples, como, por exemplo, “`console.log`” – Um pouco menos refinada, ela também é útil em muitas situações.
 
-## FERRAMENTAS DE DEPURAÇÃO DE CÓDIGO
 <img src="https://github.com/IsaacAlves7/js/assets/61624336/64c5b382-0836-4383-9e50-61bc09bb6f81" align="right" height="177">
 
 > Visite também o site do Metro para mais detalhes: https://facebook.github.io/metro/
@@ -675,8 +674,7 @@ Além das já mencionadas anteriormente, destacam-se ainda:
 - **Fast Refresh**: Permite a visualização mais rápida de mudanças feitas no código.
 - **Sampling Profiler e Perf Monitor**: Quando habilitados, ambos exibem informações detalhadas sobre o código JavaScript (threads) em execução e a performance do aplicativo.
 
-## Depuração de código nativo
-Restrito a códigos nativos e não disponível em aplicações criadas utilizando o Expo, esse tipo de depuração acessa os logs detalhados do sistema. Para ter acesso a eles, você precisa fazer a execução destes comandos em três diferentes janelas do terminal:
+Depuração de código nativo e não disponível em aplicações criadas utilizando o Expo, esse tipo de depuração acessa os logs detalhados do sistema. Para ter acesso a eles, você precisa fazer a execução destes comandos em três diferentes janelas do terminal:
 
 1. Rodar o aplicativo a partir da pasta dele: `npx react-native run-android`
 
