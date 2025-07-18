@@ -172,9 +172,7 @@ Antes de prosseguirmos, temos de fazer algumas observações sobre o comando `np
 
 > **Dica**: Ao utilizar o terminal, observe as questões de permissão em seu sistema operacional. Pode haver a necessidade de executar o terminal ou os comandos com permissões de administrador.
 
-**Teste**:
-
-Após a execução do comando de instalação — e não tendo ocorrido nenhum erro —, já temos a interface cliente do Expo disponível em nosso computador. A partir disso, já poderemos criar nossa primeira aplicação.
+Após a execução do comando de instalação e não tendo ocorrido nenhum erro, já temos a interface cliente do Expo disponível em nosso computador. A partir disso, já poderemos criar nossa primeira aplicação.
 
 Para isso, faça o seguinte:
 
