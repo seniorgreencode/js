@@ -861,7 +861,69 @@ function MyTabs() {
 
 Depois, basta colocar esse `MyTabs` dentro do `NavigationContainer` no seu componente `App`. A navegação também pode ser combinada, como um tab com stacks dentro, ou uma drawer com stacks e tabs, o que é comum em apps mais complexos. Por fim, vale lembrar que para que tudo funcione corretamente no Android, é necessário importar e ativar o `react-native-gesture-handler` no topo do seu `index.js` com `import 'react-native-gesture-handler';`, antes mesmo de chamar `AppRegistry.registerComponent`.
 
-# [React Native] Persistência de Dados com React Native
+# [React Native] Persistência de Dados
+**Persistência de dados** com React Native é uma necessidade comum quando se quer armazenar informações localmente no dispositivo do usuário, de forma que permaneçam disponíveis mesmo após o aplicativo ser fechado ou reiniciado. Existem diversas abordagens para isso, dependendo do tipo de dado, da complexidade e da necessidade de sincronização com um backend. A forma mais simples e leve de armazenar dados é usando o `AsyncStorage`, uma API assíncrona baseada em chave-valor que funciona de maneira semelhante ao `localStorage` do navegador, mas adaptada ao ambiente mobile. Para usá-lo, é preciso instalar o pacote `@react-native-async-storage/async-storage` com `npm install @react-native-async-storage/async-storage`, e em seguida importar e usar as funções `setItem`, `getItem`, `removeItem`, entre outras.
+
+Em resumo, persistência de dados com React Native depende do que você precisa armazenar: se forem dados simples e rápidos, o AsyncStorage já resolve bem. Se forem dados estruturados, pesados ou relacionais, bancos como SQLite ou Realm serão mais apropriados. Tudo pode ser combinado com hooks e contextos do React para manter o estado sincronizado com o armazenamento local, garantindo que os dados persistam sem comprometer a experiência do usuário.
+
+Por exemplo, para armazenar o nome de um usuário após o login, pode-se fazer algo como:
+
+```js
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+const salvarNome = async (nome) => {
+  try {
+    await AsyncStorage.setItem('nomeUsuario', nome);
+  } catch (error) {
+    console.error('Erro ao salvar nome:', error);
+  }
+};
+
+const recuperarNome = async () => {
+  try {
+    const nome = await AsyncStorage.getItem('nomeUsuario');
+    if (nome !== null) {
+      console.log('Nome salvo:', nome);
+    }
+  } catch (error) {
+    console.error('Erro ao recuperar nome:', error);
+  }
+};
+```
+
+Essa abordagem funciona bem para pequenos dados, como tokens de autenticação, preferências de usuário ou flags de configurações. No entanto, se você estiver lidando com estruturas mais complexas, como arrays ou objetos, será necessário usar `JSON.stringify` para salvar e `JSON.parse` para recuperar. Um exemplo de como armazenar uma lista de tarefas seria:
+
+```js
+const tarefas = [{ id: 1, titulo: 'Ler livro' }, { id: 2, titulo: 'Fazer exercício' }];
+await AsyncStorage.setItem('minhasTarefas', JSON.stringify(tarefas));
+
+const dados = await AsyncStorage.getItem('minhasTarefas');
+const lista = JSON.parse(dados);
+console.log(lista);
+```
+
+Se a aplicação precisar de maior robustez, relacionamentos entre dados ou suporte offline mais estruturado, pode-se usar outras soluções como SQLite, WatermelonDB ou Realm. O SQLite, por exemplo, permite armazenar dados em tabelas relacionais, e há bibliotecas como `react-native-sqlite-storage` para isso. Com ele, você pode criar tabelas e fazer consultas com SQL tradicional:
+
+```js
+import SQLite from 'react-native-sqlite-storage';
+
+const db = SQLite.openDatabase({ name: 'meubanco.db', location: 'default' });
+
+db.transaction(tx => {
+  tx.executeSql(
+    'CREATE TABLE IF NOT EXISTS usuarios (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT)',
+    []
+  );
+  tx.executeSql('INSERT INTO usuarios (nome) VALUES (?)', ['Isaac']);
+  tx.executeSql('SELECT * FROM usuarios', [], (tx, results) => {
+    for (let i = 0; i < results.rows.length; i++) {
+      console.log(results.rows.item(i));
+    }
+  });
+});
+```
+
+Outro exemplo mais moderno é o uso do Realm, que oferece uma abordagem orientada a objetos, com sincronização e integração mais fluida com React Native, embora seja mais pesado. Há ainda soluções híbridas como MMKV, que oferece performance superior ao AsyncStorage para persistência simples, sendo muito usado para armazenar estados de autenticação ou cache.
 
 # [React Native] Conexão Remota
 No desenvolvimento com React Native, uma **conexão remota** geralmente significa interagir com um serviço externo por meio de requisições HTTP. Isso é comum quando o app consome uma API REST para obter ou enviar dados, como autenticação de usuário, listagem de produtos, entre outras operações. Para realizar essas conexões, usamos bibliotecas como `fetch` (nativa do JavaScript) ou `axios` (uma biblioteca mais robusta e popular).
