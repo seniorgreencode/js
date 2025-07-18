@@ -761,6 +761,63 @@ Continuando nosso exercício e considerando os requisitos descritos, podemos faz
 ## [React Native] Componentes de lista e multivalorados
 
 ## [React Native] Recursos de estilização e animação
+React Native oferece uma abordagem própria para estilização, usando um sistema semelhante ao CSS, mas com sintaxe baseada em objetos JavaScript. Os estilos são aplicados com o objeto `StyleSheet`, que permite criar estilos reaproveitáveis e performáticos. Em vez de usar classes como no HTML tradicional, os estilos são passados diretamente para o componente através da prop `style`. Por exemplo, para estilizar uma view com fundo azul e texto branco centralizado, você faria algo assim:
+
+```js
+import { StyleSheet, View, Text } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={estilos.container}>
+      <Text style={estilos.texto}>Olá, mundo!</Text>
+    </View>
+  );
+}
+
+const estilos = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#007AFF',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  texto: {
+    color: '#fff',
+    fontSize: 20
+  }
+});
+```
+
+Além do `StyleSheet`, você também pode usar objetos inline ou bibliotecas como `styled-components`, que trazem uma sintaxe mais próxima do CSS convencional e permitem estilizar com interpolação de props. Já em relação às animações, React Native fornece a API `Animated`, que permite criar animações performáticas com controle frame a frame. Com ela, você pode animar valores numéricos como opacidade, rotação, escala ou posição, com transições suaves e reativas. Por exemplo, para fazer um texto aparecer gradualmente, basta criar um valor animado e usar `Animated.timing`:
+
+```js
+import React, { useRef, useEffect } from 'react';
+import { Animated, Text, View } from 'react-native';
+
+export default function App() {
+  const fadeAnim = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 1000,
+      useNativeDriver: true
+    }).start();
+  }, []);
+
+  return (
+    <Animated.View style={{ opacity: fadeAnim }}>
+      <Text style={{ fontSize: 24 }}>Bem-vindo</Text>
+    </Animated.View>
+  );
+}
+```
+
+Esse exemplo cria uma animação de opacidade de 0 a 1 em 1 segundo. É possível encadear animações, repetir, interpolar valores e responder a gestos. Para animações mais complexas e interativas, você pode usar `react-native-reanimated`, que oferece mais performance e flexibilidade com hooks como `useSharedValue`, `useAnimatedStyle` e integração direta com gestos. Por exemplo, para mover uma view com o dedo, você combina o `PanGestureHandler` com animações reativas de forma fluida, sem travar a UI.
+
+Outro recurso de estilização visual é a manipulação de temas, como claro e escuro, que podem ser controlados com o `useColorScheme` nativo ou com bibliotecas como `react-navigation` e `styled-components` com suporte a temas dinâmicos. Também é possível aplicar sombras, bordas arredondadas, gradientes com bibliotecas como `react-native-linear-gradient`, e fontes customizadas carregando com `expo-font` ou manualmente com `react-native link`.
+
+A estilização e animação com React Native são feitas diretamente com código JavaScript, mas oferecem controle suficiente para criar interfaces sofisticadas, responsivas e fluidas, mantendo o desempenho próximo do nativo. Tudo depende da abordagem adotada e da profundidade desejada, desde animações simples de fade até interfaces interativas de alto nível.
 
 ## [React Native] React Native Navigation
 **React Native Navigation** é o mecanismo usado para permitir que usuários naveguem entre diferentes telas dentro de um aplicativo mobile. Em React Native, isso não é nativo do framework principal, então usamos bibliotecas específicas para implementar a navegação, sendo a mais popular delas o `@react-navigation/native`, que é amplamente adotada pela comunidade e possui suporte tanto para navegação em pilha (stack) quanto por abas (tabs), gaveta (drawer) e outras abordagens. Para começar a usar essa biblioteca, primeiro é necessário instalá-la com `npm install @react-navigation/native`, e depois seguir com as dependências específicas da plataforma, como `react-native-screens`, `react-native-safe-area-context`, `react-native-gesture-handler` e outras. Com tudo instalado corretamente, podemos criar um componente de navegação principal usando o `NavigationContainer` e um `Stack.Navigator` para definir as rotas.
