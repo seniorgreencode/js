@@ -774,17 +774,176 @@ Já no fluxo alternativo, que acontece quando o usuário não se loga, tem de se
 
 As funcionalidades descritas, embora bastante reduzidas na comparação com um aplicativo real, nos ajudam a começar o planejamento da interface de nosso aplicativo. Graças a tais requisitos é possível, por exemplo, entender quantas telas existirão no aplicativo, assim como identificar os elementos de interação, desde botões simples até elementos visuais com função de publicidade.
 
-### Telas e elementos visuais
+## [React Native] Telas e elementos visuais
 Continuando nosso exercício e considerando os requisitos descritos, podemos fazer um primeiro esboço dos sete elementos que comporão a interface de nossa aplicação:
 
-## Componentes de lista e multivalorados
+## [React Native] Componentes de lista e multivalorados
 
-## Principais modelos de navegação
+## [React Native] Principais modelos de navegação
 
-## Recursos de estilização e animação
+## [React Native] Recursos de estilização e animação
 
-### React Native Navigation
+## [React Native] React Native Navigation
+**React Native Navigation** é o mecanismo usado para permitir que usuários naveguem entre diferentes telas dentro de um aplicativo mobile. Em React Native, isso não é nativo do framework principal, então usamos bibliotecas específicas para implementar a navegação, sendo a mais popular delas o `@react-navigation/native`, que é amplamente adotada pela comunidade e possui suporte tanto para navegação em pilha (stack) quanto por abas (tabs), gaveta (drawer) e outras abordagens. Para começar a usar essa biblioteca, primeiro é necessário instalá-la com `npm install @react-navigation/native`, e depois seguir com as dependências específicas da plataforma, como `react-native-screens`, `react-native-safe-area-context`, `react-native-gesture-handler` e outras. Com tudo instalado corretamente, podemos criar um componente de navegação principal usando o `NavigationContainer` e um `Stack.Navigator` para definir as rotas.
 
-# Persistência de Dados com React Native
+A navegação em React Native é essencial para estruturar o fluxo de telas, e com as ferramentas certas, como o React Navigation, ela se torna flexível, poderosa e bastante próxima da experiência nativa esperada em aplicativos móveis.
 
-# Conexão Remota com React Native
+Um exemplo básico de navegação em pilha seria:
+
+```js
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './HomeScreen';
+import DetailsScreen from './DetailsScreen';
+
+const Stack = createNativeStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Details" component={DetailsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+```
+
+Nesse exemplo, o app inicia na tela `HomeScreen`, e ao chamar a navegação programática com `navigation.navigate('Details')`, ele muda para a `DetailsScreen`. Isso só funciona se o componente tiver acesso à prop `navigation`, o que ocorre automaticamente quando a tela está registrada como parte do `Stack.Navigator`. Para navegar entre as telas, você pode fazer algo assim dentro do `HomeScreen`:
+
+```js
+import React from 'react';
+import { View, Text, Button } from 'react-native';
+
+export default function HomeScreen({ navigation }) {
+  return (
+    <View>
+      <Text>Bem-vindo à Home</Text>
+      <Button
+        title="Ir para Detalhes"
+        onPress={() => navigation.navigate('Details')}
+      />
+    </View>
+  );
+}
+```
+
+Já na `DetailsScreen`, você pode até voltar para a tela anterior com `navigation.goBack()`, ou navegar para outra tela qualquer se ela estiver registrada no stack. O sistema de navegação também permite passar parâmetros entre as telas, por exemplo, ao navegar para a tela de detalhes com um ID de item:
+
+```js
+navigation.navigate('Details', { itemId: 42 });
+```
+
+E na tela de destino, você recupera esse dado com:
+
+```js
+const { itemId } = route.params;
+```
+
+Se quiser trabalhar com navegação por abas, em vez de pilha, basta usar `@react-navigation/bottom-tabs`, instalar com `npm install @react-navigation/bottom-tabs` e configurar o `Tab.Navigator` da mesma forma. Por exemplo:
+
+```js
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+const Tab = createBottomTabNavigator();
+
+function MyTabs() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Profile" component={ProfileScreen} />
+    </Tab.Navigator>
+  );
+}
+```
+
+Depois, basta colocar esse `MyTabs` dentro do `NavigationContainer` no seu componente `App`. A navegação também pode ser combinada, como um tab com stacks dentro, ou uma drawer com stacks e tabs, o que é comum em apps mais complexos. Por fim, vale lembrar que para que tudo funcione corretamente no Android, é necessário importar e ativar o `react-native-gesture-handler` no topo do seu `index.js` com `import 'react-native-gesture-handler';`, antes mesmo de chamar `AppRegistry.registerComponent`.
+
+# [React Native] Persistência de Dados com React Native
+
+# [React Native] Conexão Remota
+No desenvolvimento com React Native, uma **conexão remota** geralmente significa interagir com um serviço externo por meio de requisições HTTP. Isso é comum quando o app consome uma API REST para obter ou enviar dados, como autenticação de usuário, listagem de produtos, entre outras operações. Para realizar essas conexões, usamos bibliotecas como `fetch` (nativa do JavaScript) ou `axios` (uma biblioteca mais robusta e popular).
+
+A forma mais básica de conexão remota pode ser feita com `fetch`, que já vem integrada. Por exemplo, para buscar uma lista de usuários de uma API pública, usamos:
+
+```js
+useEffect(() => {
+  fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      setUsers(data);
+    })
+    .catch(error => console.error('Erro na requisição:', error));
+}, []);
+```
+
+Esse trecho dentro de um componente funcional com React Native representa o ciclo de vida do componente com `useEffect`, disparando a requisição quando o componente é montado. Se quiser algo mais organizado, com tratamento de erros e status de carregamento, geralmente encapsulamos isso em funções assíncronas usando `async/await`:
+
+```js
+const fetchUsers = async () => {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    const json = await response.json();
+    setUsers(json);
+  } catch (error) {
+    console.error('Erro ao buscar usuários:', error);
+  }
+};
+```
+
+No caso de `axios`, o mesmo exemplo ficaria mais limpo e com melhor tratamento de erros por padrão:
+
+```js
+import axios from 'axios';
+
+const fetchUsers = async () => {
+  try {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+    setUsers(response.data);
+  } catch (error) {
+    console.error('Erro ao buscar usuários:', error);
+  }
+};
+```
+
+Em ambos os casos, os dados retornados são armazenados com `useState`, algo como `const [users, setUsers] = useState([])`, permitindo renderizá-los no componente com um `FlatList`, por exemplo. Outra situação comum é o envio de dados para a API com `POST`, como ao fazer login:
+
+```js
+const handleLogin = async () => {
+  try {
+    const response = await axios.post('https://suaapi.com/login', {
+      email: 'usuario@email.com',
+      senha: '123456'
+    });
+    console.log('Token recebido:', response.data.token);
+  } catch (error) {
+    console.error('Erro no login:', error);
+  }
+};
+```
+
+Quando a API exige autenticação, você precisa adicionar um cabeçalho (header) com token JWT, por exemplo:
+
+```js
+const response = await axios.get('https://suaapi.com/protegido', {
+  headers: {
+    Authorization: `Bearer ${token}`
+  }
+});
+```
+
+Tudo isso funciona em qualquer app React Native, mas em ambiente real de produção ou testes, é importante tratar cenários como perda de conexão com a internet, requisições lentas, timeouts e erros de servidor. Além disso, ao trabalhar com Android e iOS, é necessário permitir conexões remotas no arquivo de configuração de cada plataforma. No Android, edite o `AndroidManifest.xml` e adicione permissões como `<uses-permission android:name="android.permission.INTERNET" />`. Já no iOS, modifique o `Info.plist` para permitir conexões inseguras (se estiver usando HTTP), adicionando:
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+</dict>
+```
+
+Resumindo, a conexão remota com React Native gira em torno da interação com APIs HTTP usando `fetch` ou `axios`, sendo importante organizar bem o código, tratar erros e configurar corretamente o app para acesso externo. Tudo isso é essencial para o funcionamento de apps modernos que dependem de dados dinâmicos.
+
