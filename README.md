@@ -718,7 +718,7 @@ O processo de desenvolvimento de aplicativos envolve uma série de conhecimentos
 
 Este conteúdo tem como um de seus principais objetivos apresentar alguns dos recursos e componentes disponíveis no framework React Native que estão voltados para a construção da interface gráfica: os elementos de interatividade, navegação e estilização. Ao final deste texto, teremos visto os conceitos necessários para a construção da interface normalmente composta por telas e componentes reutilizáveis de um aplicativo mobile.
 
-## Interface interativa de um aplicativo mobile
+## [React Native] Interface interativa de um aplicativo mobile
 Um importante passo antes de se iniciar, de fato, a codificação de um aplicativo (e o mesmo pensamento também deve valer para qualquer tipo de software) é estruturar como o aplicativo funcionará.
 
 Para isso, é preciso ter em mente não só os requisitos de software, ou seja, as funcionalidades do aplicativo, mas também como tais funcionalidades devem estar dispostas, como são acessadas por meio da navegação pelo aplicativo e, por fim, mas não somente, como se dispõe cada elemento da interface gráfica de modo a criar a melhor experiência possível para o usuário.
