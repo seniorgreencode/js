@@ -713,7 +713,7 @@ Fazendo uso de uma IDE, deve-se inserir pontos de interrupção (ou pontos de pa
 
 > Ao longo deste módulo, apresentamos algumas ferramentas e técnicas para a depuração de aplicativos. Entretanto, tal conteúdo é extenso, contando ainda com várias outras ferramentas entre elas, a utilização de plug-ins em diferentes IDEs. Tendo isso em vista e após ter visto na prática e testado as ferramentas aqui esquematizadas, procure aprofundar seu conhecimento. Um bom ponto de partida é a documentação do próprio React Native, que possui vários tópicos sobre esse assunto.
 
-# 👨🏾‍💻 Interface Gráfica Com React Native
+# 📲 [React Native] Interface Gráfica
 O processo de desenvolvimento de aplicativos envolve uma série de conhecimentos. Entre eles, destacam-se a organização do processo como um todo e o conhecimento de ferramentas, bibliotecas e demais recursos a serem utilizados no projeto.
 
 Este conteúdo tem como um de seus principais objetivos apresentar alguns dos recursos e componentes disponíveis no framework React Native que estão voltados para a construção da interface gráfica: os elementos de interatividade, navegação e estilização. Ao final deste texto, teremos visto os conceitos necessários para a construção da interface normalmente composta por telas e componentes reutilizáveis de um aplicativo mobile.
@@ -760,14 +760,36 @@ Continuando nosso exercício e considerando os requisitos descritos, podemos faz
 
 ## [React Native] Componentes de lista e multivalorados
 
-## [React Native] Principais modelos de navegação
-
 ## [React Native] Recursos de estilização e animação
 
 ## [React Native] React Native Navigation
 **React Native Navigation** é o mecanismo usado para permitir que usuários naveguem entre diferentes telas dentro de um aplicativo mobile. Em React Native, isso não é nativo do framework principal, então usamos bibliotecas específicas para implementar a navegação, sendo a mais popular delas o `@react-navigation/native`, que é amplamente adotada pela comunidade e possui suporte tanto para navegação em pilha (stack) quanto por abas (tabs), gaveta (drawer) e outras abordagens. Para começar a usar essa biblioteca, primeiro é necessário instalá-la com `npm install @react-navigation/native`, e depois seguir com as dependências específicas da plataforma, como `react-native-screens`, `react-native-safe-area-context`, `react-native-gesture-handler` e outras. Com tudo instalado corretamente, podemos criar um componente de navegação principal usando o `NavigationContainer` e um `Stack.Navigator` para definir as rotas.
 
 A navegação em React Native é essencial para estruturar o fluxo de telas, e com as ferramentas certas, como o React Navigation, ela se torna flexível, poderosa e bastante próxima da experiência nativa esperada em aplicativos móveis.
+
+Todos os modelos de navegação: `stack`, `tabs`, `drawer` e suas combinações, fazem parte da mesma biblioteca principal chamada *React Navigation*, cujo núcleo está no pacote `@react-navigation/native`. Essa biblioteca funciona como uma estrutura modular, ou seja, o `@react-navigation/native` é apenas a base que fornece o contexto de navegação, mas os modelos específicos (como `stack` ou `tabs`) são implementados por **pacotes separados** que você instala conforme a necessidade do projeto.
+
+Por exemplo, para usar navegação em **pilha (stack)**, você instala o pacote:
+
+```bash
+npm install @react-navigation/native-stack
+```
+
+Para usar **abas (tabs)**, você instala:
+
+```bash
+npm install @react-navigation/bottom-tabs
+```
+
+E para **gaveta lateral (drawer)**, instala:
+
+```bash
+npm install @react-navigation/drawer
+```
+
+Todos esses pacotes são mantidos oficialmente pela equipe do React Navigation e funcionam integrados, compartilhando o mesmo `NavigationContainer` como raiz da navegação. Além disso, todos eles dependem de bibliotecas nativas auxiliares como `react-native-screens`, `react-native-safe-area-context`, `react-native-gesture-handler` e `react-native-reanimated`, que são necessárias para garantir bom desempenho e integração com o comportamento nativo das plataformas Android e iOS.
+
+Ou seja, mesmo que você combine stack, tab e drawer em um único app, tudo funciona de forma unificada dentro da arquitetura do React Navigation. Basta montar os componentes corretamente e importar os navegadores certos. Assim, sim — todos os modelos de navegação fazem parte do ecossistema React Navigation, e você pode usar qualquer um deles (ou todos juntos) com total compatibilidade, compondo o fluxo de navegação que o seu app precisa.
 
 Um exemplo básico de navegação em pilha seria:
 
@@ -841,6 +863,66 @@ function MyTabs() {
 ```
 
 Depois, basta colocar esse `MyTabs` dentro do `NavigationContainer` no seu componente `App`. A navegação também pode ser combinada, como um tab com stacks dentro, ou uma drawer com stacks e tabs, o que é comum em apps mais complexos. Por fim, vale lembrar que para que tudo funcione corretamente no Android, é necessário importar e ativar o `react-native-gesture-handler` no topo do seu `index.js` com `import 'react-native-gesture-handler';`, antes mesmo de chamar `AppRegistry.registerComponent`.
+
+Os principais modelos de navegação com React Native são formas diferentes de organizar o fluxo de telas dentro do aplicativo. Usando a biblioteca `@react-navigation/native`, que é a mais comum e estável para projetos com React Native, podemos estruturar a navegação de várias formas: por pilha (stack), por abas (tabs), por gaveta (drawer) ou até uma combinação desses modelos. O modelo mais básico é a navegação em pilha, onde cada tela é empilhada sobre a anterior, e o usuário pode voltar para trás como em um navegador web. Para configurar isso, usamos o `createNativeStackNavigator`, como neste exemplo:
+
+```js
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import TelaInicial from './TelaInicial';
+import Detalhes from './Detalhes';
+
+const Stack = createNativeStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Inicial" component={TelaInicial} />
+        <Stack.Screen name="Detalhes" component={Detalhes} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+```
+
+Esse tipo de navegação é ideal para apps que têm fluxo linear, como login → home → detalhes. Quando você precisa alternar entre várias seções principais do app, como um menu inferior com "Home", "Perfil" e "Configurações", é melhor usar o modelo por abas, com `createBottomTabNavigator`. A navegação por abas exibe ícones ou textos fixos na parte inferior da tela, permitindo que o usuário mude de seção com facilidade. Um exemplo seria:
+
+```js
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+const Tab = createBottomTabNavigator();
+
+function NavegacaoPorAbas() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Perfil" component={PerfilScreen} />
+    </Tab.Navigator>
+  );
+}
+```
+
+Já a navegação por gaveta (drawer), feita com `createDrawerNavigator`, mostra um menu lateral que desliza da esquerda ou da direita, geralmente usado em apps que têm muitas seções ou opções de menu. Quando você toca no botão de menu, a gaveta aparece com os links das telas. Esse modelo é comum em apps com muita funcionalidade agrupada. O uso é semelhante:
+
+```js
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+const Drawer = createDrawerNavigator();
+
+function NavegacaoPorGaveta() {
+  return (
+    <Drawer.Navigator>
+      <Drawer.Screen name="Dashboard" component={DashboardScreen} />
+      <Drawer.Screen name="Relatórios" component={RelatoriosScreen} />
+    </Drawer.Navigator>
+  );
+}
+```
+
+Além disso, é possível combinar esses modelos dentro de um mesmo app. Por exemplo, você pode ter um `Tab.Navigator` dentro de um `Stack.Navigator`, onde cada aba é uma pilha independente. Ou pode ter uma `Drawer` principal com stacks e abas dentro de cada item. Isso é muito comum em apps mais complexos. O ideal é estruturar as rotas com cuidado, garantindo que o fluxo de navegação seja intuitivo e que o usuário não fique perdido. A biblioteca `react-navigation` oferece suporte completo para esse tipo de composição, bastando colocar o componente de navegação desejado como `component` de uma rota.
+
+Com esses modelos, você tem flexibilidade para criar desde um app simples de login e conteúdo até um sistema completo com seções bem definidas, navegação contextual e suporte a autenticação, redirecionamento condicional e deep linking. A chave é entender qual modelo melhor atende à experiência que você quer proporcionar no seu aplicativo.
 
 # [React Native] Persistência de Dados
 **Persistência de dados** com React Native é uma necessidade comum quando se quer armazenar informações localmente no dispositivo do usuário, de forma que permaneçam disponíveis mesmo após o aplicativo ser fechado ou reiniciado. Existem diversas abordagens para isso, dependendo do tipo de dado, da complexidade e da necessidade de sincronização com um backend. A forma mais simples e leve de armazenar dados é usando o `AsyncStorage`, uma API assíncrona baseada em chave-valor que funciona de maneira semelhante ao `localStorage` do navegador, mas adaptada ao ambiente mobile. Para usá-lo, é preciso instalar o pacote `@react-native-async-storage/async-storage` com `npm install @react-native-async-storage/async-storage`, e em seguida importar e usar as funções `setItem`, `getItem`, `removeItem`, entre outras.
