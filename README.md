@@ -682,25 +682,21 @@ Depuração de código nativo e não disponível em aplicações criadas utiliza
 
 3. Os logs são exibidos na janela de terminal do Metro.
 
-## COMO ORGANIZAR O PROCESSO DE DEPURAÇÃO
-Após ter decidido qual conjunto de ferramentas será utilizado na depuração de seu aplicativo, a etapa seguinte consiste em organizar o processo em si. Ou seja, tendo em mãos o conjunto de ferramentas necessário, precisamos agora decidir como usá-lo.
+COMO ORGANIZAR O PROCESSO DE DEPURAÇÃO? Após ter decidido qual conjunto de ferramentas será utilizado na depuração de seu aplicativo, a etapa seguinte consiste em organizar o processo em si. Ou seja, tendo em mãos o conjunto de ferramentas necessário, precisamos agora decidir como usá-lo.
 
 Este passo a passo contém algumas dicas para ajudá-lo ao longo dessa etapa:
 
-### Confrontar o resultado esperado com o resultado obtido
-Nosso aplicativo normalmente realiza uma série de ações, como obter dados externos ou realizar cálculos, por exemplo. Por isso, há uma série de resultados esperados para cada uma dessas ações.
+Confrontar o resultado esperado com o resultado obtido, nosso aplicativo normalmente realiza uma série de ações, como obter dados externos ou realizar cálculos, por exemplo. Por isso, há uma série de resultados esperados para cada uma dessas ações.
 
 O primeiro passo consiste, portanto, em isolar uma das ações realizadas no aplicativo e analisá-la, a fim de verificar se o resultado dela corresponde ao esperado (conforme as definições realizadas na fase de análise e planejamento do software). Tendo feito isso para uma ação, devemos repetir o mesmo procedimento para as demais etapas.
 
-### Analisar os (eventuais) erros obtidos
-Ao se deparar com um erro durante o processo de depuração, é preciso analisar o que levou à sua ocorrência. As causas podem ser várias, desde erro no código-fonte até motivos externos. Por exemplo, se o aplicativo depender da obtenção de dados provenientes de uma API externa e ela estiver indisponível, teremos um erro em nosso software.
+Analisar os (eventuais) erros obtidos, ao se deparar com um erro durante o processo de depuração, é preciso analisar o que levou à sua ocorrência. As causas podem ser várias, desde erro no código-fonte até motivos externos. Por exemplo, se o aplicativo depender da obtenção de dados provenientes de uma API externa e ela estiver indisponível, teremos um erro em nosso software.
 
 Esse tipo de erro pode ser rapidamente identificado pelos logs do console no inspecionador de elementos. Além disso, outros erros de código JavaScript também podem ser diagnosticados por intermédio do console.
 
 Na análise dos erros, é bastante comum esquecer a instanciação das variáveis ou não as utilizar dentro do seu real escopo (variáveis locais versus globais). Nesse caso — e conforme apontamos no passo anterior —, o erro não será tão evidente, não será possível vê-lo de forma destacada no console, mas é possível identificá-lo ao se obter um resultado diferente daquele esperado.
 
-### Isolar cenários de execução
-Durante o planejamento de software, é comum definir diferentes fluxos de execução para a aplicação. Em cada funcionalidade, existem:
+Isolar cenários de execução: Durante o planejamento de software, é comum definir diferentes fluxos de execução para a aplicação. Em cada funcionalidade, existem:
 
 - Fluxos básicos
 - Fluxos alternativos
