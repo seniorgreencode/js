@@ -239,7 +239,8 @@ De maneira simples e, ao mesmo tempo, completa, podemos inicialmente definir o *
 
 Os componentes disponíveis em React Native são escritos utilizando JSX.
 
-> **Dica**: É extremamente recomendado, além de configurar uma escolha natural, utilizar o JSX na construção dos componentes React ou React Native.
+> [!Tip]
+> É extremamente recomendado, além de configurar uma escolha natural, utilizar o JSX na construção dos componentes React ou React Native.
 
 Aprofundando um pouco os conceitos, o JSX também é conhecido como JavaScript XML. Extensão semelhante ao XML para a especificação ECMAScript, ele combina a lógica de componentes (JavaScript) e o mark-up (DOM/modelo de objeto de documento ou Native UI/interface de usuário Nativa) em um único arquivo/código.
 
@@ -279,7 +280,6 @@ Com isso, o que o React faz é compilar (na verdade, **transpilar**, otimizar e 
 
 > **Minificar**: O processo de minificar um código-fonte é muito comum em linguagens que rodam no lado cliente, como o JS e o CSS, por exemplo. Tal processo consiste em reduzir o tamanho final do código-fonte, removendo os espaços e as linhas e diminuindo o comprimento dos nomes das variáveis e das funções, além de outras funções.
 
-## COMPONENTES NATIVOS
 Um dos principais pilares provavelmente o principal do React Native é a utilização de componentes, ou seja, coleções de dados e elementos de interface gráfica que compõem as views e, de forma geral, os aplicativos em si. Embora exista a flexibilidade de desenvolver os próprios componentes customizados, o framework React Native já disponibiliza, no momento da instalação, uma série de componentes chamados de componentes nativos . Outro conceito associado a ele é o de core components.
 
 No desenvolvimento específico para Android e iOS, as views são construídas utilizando respectivamente o Kotlin (ou Java) e o Swift (ou Objective-C). Graças ao framework React Native, é possível invocar essas views por meio dos componentes React escritos com JavaScript.
@@ -343,10 +343,7 @@ export default function App() {
 
 > Será exibido um erro informando que a variável “`Div`” não existe.
 
-### `View`
-A `View` é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo.
-
-> Lembra muito o termo View do padrão de projeto MVC (Model View Controller), mas nesse caso, são coisas distintas, veja abaixo:
+A `View` é o principal componente na construção de uma interface gráfica de usuário (UI). Esse componente se relacionará diretamente com seu equivalente nas plataformas em que o aplicativo React estiver rodando (veja o quadro anterior). Em termos de organização do layout, ele pode ser utilizado de forma aninhada com outras views, podendo ainda ter como filhos elementos de qualquer tipo. Lembra muito o termo View do padrão de projeto e arquitetura MVC (Model View Controller), mas nesse caso, são coisas distintas, veja abaixo:
 
 O fragmento de código adiante demonstra, de forma simples, a utilização de uma view como contêiner de outra view e de um elemento `Text`:
 
@@ -378,8 +375,7 @@ O componente `View` ainda possui vários atributos, além de poder “ouvir e re
 
 > **Saiba mais**: Consulte a documentação do React Native para conhecer mais detalhes sobre ele.
 
-### `Text`
-Este componente é utilizado para a apresentação de textos. Ele suporta aninhamento, estilização e manuseio de toque.
+Componente `Text` é utilizado para a apresentação de textos. Ele suporta aninhamento, estilização e manuseio de toque.
 
 O exemplo a seguir mostra a utilização aninhada de dois elementos `Text`. Além disso, nesse exemplo, o componente é estilizado com uso do StyleSheet:
 
@@ -429,8 +425,7 @@ Da mesma forma que a observada no código anterior — e isso vale para todos os
 
 Nesse último, o destaque fica por conta do evento “`onPress`”. Ele demonstra que, ao se tocar no texto inicialmente exibido, um novo é carregado em seu lugar. Experimente realizar outras modificações no código, isso vai ajudá-lo a compreender melhor o comportamento de cada componente.
 
-### `Image`
-Assim como a tag HTML `<img>`, este componente permite a exibição de diferentes tipos de imagens com origens distintas e aqui o destaque fica por conta da possibilidade de utilização até mesmo das imagens armazenadas no próprio dispositivo móvel. O `Image` herda as propriedades do componente `View`, além de possuir uma série de outros atributos.
+`Image` assim como a tag HTML `<img>`, este componente permite a exibição de diferentes tipos de imagens com origens distintas e aqui o destaque fica por conta da possibilidade de utilização até mesmo das imagens armazenadas no próprio dispositivo móvel. O `Image` herda as propriedades do componente `View`, além de possuir uma série de outros atributos.
 
 Vejamos um exemplo de sua utilização:
 
@@ -465,8 +460,7 @@ const ComponenteSimplesImage = () => {
 export default ComponenteSimplesImage;
 ```
 
-### `TextInput`
-Este componente permite a entrada de textos por meio do teclado, provendo ainda uma série de funcionalidades, por exemplo, autocorreção, autocapitalização e utilização de diferentes tipos de teclado, assim como apenas do teclado numérico (digite algum texto no segundo input no exemplo). Observemos um exemplo simples de `TextInput`:
+`TextInput` componente permite a entrada de textos por meio do teclado, provendo ainda uma série de funcionalidades, por exemplo, autocorreção, autocapitalização e utilização de diferentes tipos de teclado, assim como apenas do teclado numérico (digite algum texto no segundo input no exemplo). Observemos um exemplo simples de `TextInput`:
 
 ```jsx
 import React from "react";
@@ -506,8 +500,7 @@ export default MeuTextInput;
 
 Em relação às suas propriedades, atributos e eventos, destacam-se dois eventos disponíveis (e muito utilizados quando trabalhamos com formulários): focus e blur. Ambos ocorrem quando o elemento respectivamente ganha e perde foco, ou seja, quando o cursor fica sobre eles e sai. Eles são úteis para validar informações inseridas ou aplicar máscaras nos valores digitados, como números de telefone e CPF.
 
-### `ScrollView`
-Este componente também é um contêiner, sendo, a exemplo da `View`, utilizado para armazenar conteúdo e outros elementos, permitindo a interação na tela por meio de rolagem (scrolling). Logo, o `ScrollView`, para funcionar corretamente, precisa ter uma altura limitada/definida, já que sua serventia é justamente conter elementos filhos com altura ilimitada. Teste o código a seguir, modificando o tamanho do texto (aumentando-o e o diminuindo) a fim de visualizar, na prática, como tal componente se comporta:
+`ScrollView` componente também é um contêiner, sendo, a exemplo da `View`, utilizado para armazenar conteúdo e outros elementos, permitindo a interação na tela por meio de rolagem (scrolling). Logo, o `ScrollView`, para funcionar corretamente, precisa ter uma altura limitada/definida, já que sua serventia é justamente conter elementos filhos com altura ilimitada. Teste o código a seguir, modificando o tamanho do texto (aumentando-o e o diminuindo) a fim de visualizar, na prática, como tal componente se comporta:
 
 ```jsx
 import React from 'react';
@@ -564,7 +557,7 @@ Além daqueles já apresentados, o React Native possui outros componentes nativo
 
 > **Saiba mais**: Consulte a documentação oficial para obter mais detalhes sobre outros componentes. Pratique também seu conhecimento com os códigos apresentados neste material, combinando suas utilizações e gerando, com isso, interfaces mais ricas e completas.
 
-### SamuraiCam
+## [React Native] SamuraiCam
 - https://devsamurai.com.br/react-native-camera/
 
 Vamos aprender como usar a câmera no React Native:
