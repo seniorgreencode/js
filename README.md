@@ -1103,6 +1103,44 @@ app.listen(4000, function(erro){
 
 Podemos ter quantos parâmetros nós quisermos, como parâmetro `/user/:nome/:empresa` indicando que é funcionário de uma determinada empresa. Nesse caso, só basta um para o exemplo prático. 
 
+Até então, estamos somente obtendo valores de resposta do meu servidor referentes ao acesso da página sobre as rotas e os parâmetros da rota, mas e se eu quisesse obter um valor específico da rota ou "puxar" ele para mim? Como faria isso? Pela requisição, que assim como a resposta, são dois objetos disponibilizados dentro da nossa função obtidos através do Express (`req`, `res`).
+
+Requisição são os dados enviados pelo usuário e resposta são dados que vai ser enviado para o usuário. Isso lembra os conceitos de upload (requisição) e download (resposta).
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+// Adicionando rota inicial na aplicação
+app.get("/", (req,res)=>{
+  res.send("<h1>Welcome to home!</h1>");
+});
+
+app.get("/blog", (req,res)=>{
+  res.send("<h1>Welcome to my blog! www.isaacalves7.com/blog</h1>");
+});
+
+app.get("/canal/youtube", (req,res)=>{
+  res.send("<h1>Welcome to my channel!</h1>");
+});
+
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome}!</h1>`);
+});
+
+// Listening the server on port: 4000
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando no endereço: http://localhost:${4000}`);
+   }
+});
+```
+
 > [!Warning]
 > Fique atento! É obrigatório passar o parâmetro com a rota para funcionar, pois se não declarar o parâmetro juntamente com a rota ocasionará em um erro `Cannot GET /user`.
 
