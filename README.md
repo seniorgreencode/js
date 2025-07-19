@@ -9,7 +9,7 @@
 <div align="left"><img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/react_button_icon_151947.png" height="47"></div>
 -->
 
-<a href="https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f"><img src="https://img.shields.io/badge/React-ecossystem-aqua?style=flat&logo=Medium&logoColor=white"></a> <a href="https://reactjsexample.com/a-svg-blob-generator-build-with-react/"><img src="https://img.shields.io/badge/React-SVG-aqua?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://reactbits.dev/"><img src="https://img.shields.io/badge/React_Bits-Animated_UI-aqua?style=flat&logo=React&logoColor=white"></a> 
+<a href="https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f"><img src="https://img.shields.io/badge/React-ecossystem-aqua?style=flat&logo=Medium&logoColor=white"></a> <a href="https://reactjsexample.com/a-svg-blob-generator-build-with-react/"><img src="https://img.shields.io/badge/React-SVG-aqua?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://reactbits.dev/"><img src="https://img.shields.io/badge/React_Bits-Animated_UI-aqua?style=flat&logo=React&logoColor=white"></a> <a href="https://github.com/IsaacAlves7/js/blob/react-native"><img src="https://img.shields.io/badge/Mobile-React_Native-aqua?style=flat&logo=React&logoColor=white"></a>
 
 Dicas para pensar do jeito ReactJS:
 
