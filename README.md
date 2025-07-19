@@ -2200,8 +2200,8 @@ console.log(sum(5, 5, 5, 2, 3))
 Exemplo 4:
 
 ```javascript
-  function sum(...args) {
-    return args.reduce((acc, value) => acc + value, 0);
+function sum(...args) {
+  return args.reduce((acc, value) => acc + value, 0);
 }
 
 console.log(sum(5,5,5,2,3));
