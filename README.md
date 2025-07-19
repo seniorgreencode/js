@@ -5164,8 +5164,18 @@ No exemplo acima:
 - `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
-# 📜 [JS] LocalStorage
+# 📜 [JS] Cookies e LocalStorage
+**Cookies** e **LocalStorage** são duas formas de armazenamento no lado do cliente disponíveis em JavaScript para persistência de dados entre sessões ou durante a navegação no browser, como banco de dados no lado do cliente pelo navegador. Ambos permitem que desenvolvedores salvem informações no navegador do usuário, mas possuem diferenças significativas em relação à capacidade, escopo, acessibilidade e finalidade de uso.
 
+Os cookies foram o primeiro mecanismo amplamente adotado para guardar informações entre requisições HTTP. Eles são enviados automaticamente pelo navegador em toda requisição feita para o mesmo domínio, o que os torna ideais para tarefas como autenticação e rastreamento de sessões. Cada cookie pode armazenar até cerca de 4KB de dados, o que é relativamente pouco. Além disso, cookies podem ter uma data de expiração definida ou podem ser excluídos ao encerrar o navegador, dependendo de como são configurados. Cookies são frequentemente usados com atributos como `HttpOnly` e `Secure` para controlar acessibilidade e segurança, especialmente quando se trabalha com informações sensíveis.
+
+Já o LocalStorage é uma API mais moderna e faz parte do Web Storage introduzido no HTML5. Ao contrário dos cookies, os dados armazenados em LocalStorage não são enviados automaticamente para o servidor em cada requisição, o que melhora o desempenho e reduz o tráfego de rede. O LocalStorage permite armazenar até aproximadamente 5MB de dados por domínio, sendo uma opção mais viável para guardar grandes volumes de dados não sensíveis que precisam persistir mesmo após o fechamento do navegador. Os dados só são removidos se forem explicitamente deletados via código ou pelo usuário, por meio das configurações do navegador.
+
+Do ponto de vista da acessibilidade, cookies podem ser lidos tanto no lado do cliente quanto no lado do servidor, enquanto o LocalStorage só pode ser acessado por scripts executados no navegador. Por isso, o LocalStorage é útil para manter preferências do usuário, estado da interface ou cache de dados de APIs, mas não serve bem para autenticação, já que não participa automaticamente do ciclo de requisições HTTP.
+
+É importante também destacar que, apesar de ambos serem úteis, o uso de qualquer uma dessas técnicas exige cuidado com a segurança. Armazenar tokens ou dados sensíveis em LocalStorage pode ser perigoso se o site estiver vulnerável a ataques como Cross-Site Scripting (XSS), pois um script malicioso pode acessar esse conteúdo facilmente. Já os cookies, se não forem configurados corretamente, podem ser alvo de ataques como Cross-Site Request Forgery (CSRF), caso não tenham proteções como `SameSite=Strict`.
+
+Em resumo, cookies são ideais para comunicação com o servidor e autenticação, especialmente quando configurados com os atributos corretos de segurança. LocalStorage é mais indicado para persistência de dados puramente no lado do cliente, com melhor capacidade de armazenamento e controle, mas requer atenção redobrada para não comprometer a segurança da aplicação.
 
 # 📜 [JS] Paradigma Reativo
 <img src="https://cdn.worldvectorlogo.com/logos/rxjs-1.svg" height="77" align="right">
