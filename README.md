@@ -1206,7 +1206,7 @@ app.get("/blog/:artigo?", (req,res)=>{
   var artigo = req.params.artigo;
 
   if(artigo){
-      res.send(`<h1>${artigo}!</h1>`)
+      res.send(`<h1>Artigo: ${artigo}!</h1>`)
   } else {
       res.send(`<h1>Welcome to my blog!</h1>`)
   }
