@@ -1131,6 +1131,11 @@ app.get("/user/:nome", (req,res)=>{
   res.send(`<h1>Welcome ${req.params.nome}!</h1>`);
 });
 
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome/:empresa", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome} da empresa ${req.params.empresa}!</h1>`);
+});
+
 // Listening the server on port: 4000
 app.listen(4000, function(erro){
    if(erro){
