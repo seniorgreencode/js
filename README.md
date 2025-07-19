@@ -1236,6 +1236,8 @@ app.listen(4000, function(erro){
 });
 ```
 
+Como vimos anteriormente ficou suscinto, mas ainda queremos algo mais dinâmico tirando toda essa rigidez da estrutura de rotas para acessarmos nossos parâmetro, e como fazemos isso? Com **query parameters** (parâmetros de consulta) através do símbolo de `?` podemos passar qualquer parâmetro na barra de pesquisa sem precisar acessar diretamente de rotas.
+
 > [!Warning]
 > Fique atento! É obrigatório passar o parâmetro com a rota para funcionar, pois se não declarar o parâmetro juntamente com a rota ocasionará em um erro `Cannot GET /user`.
 
