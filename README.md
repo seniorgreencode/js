@@ -1065,7 +1065,7 @@ Simples e intuitivo para os primeiros passos! Crie quantas rotas precisar para q
 > [!Caution]
 > Um erro que muitos cometem é de não colocar um `send` para exibir uma resposta, daí o programa fica rodando infinitamente e outro erro é quando exibe duas resposta, ele exibe uma e na outra gera um erro: `Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client`, significa que você só pode enviar uma resposta uma única vez, pois você fecha a conexão com o cliente, daí quando você tenta enviar outra vez não dá porque a conexão estará fechada.
 
-Exemplo 2: Passando parâmetros para a minha rota
+Exemplo 2: Passando parâmetros para a minha rota, onde o usuário passará o parâmetro de URL e ela será carregada dentro da página. No caso, será o nome do usuário.
 
 [![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
@@ -1078,11 +1078,20 @@ app.get("/", (req,res)=>{
   res.send("<h1>Welcome to home!</h1>");
 });
 
-app.get("/user/:nome", (req,res)=>{
-  res.send("<h1>Welcome to user!</h1>");
+app.get("/blog", (req,res)=>{
+  res.send("<h1>Welcome to my blog! www.isaacalves7.com/blog</h1>");
 });
 
+app.get("/canal/youtube", (req,res)=>{
+  res.send("<h1>Welcome to my channel!</h1>");
+});
 
+// Rota com parâmetros
+app.get("/user/:nome", (req,res)=>{
+  res.send("<h1>Welcome user!</h1>");
+});
+
+// Listening the server on port: 4000
 app.listen(4000, function(erro){
    if(erro){
       console.log('Ocorreu um erro!');
@@ -1091,6 +1100,8 @@ app.listen(4000, function(erro){
    }
 });
 ```
+
+Podemos ter quantos parâmetros nós quisermos, como parâmetro `/user/:nome/:empresa` indicando que é funcionário de uma determinada empresa. Nesse caso, só basta um para o exemplo prático.
 
 Se você está usando o Node.js com Express para criar uma API ou servidor web, e agora quer exibir um front-end (HTML, CSS, etc.) na rota principal `/`, há basicamente 3 formas principais de fazer isso, dependendo da sua abordagem: com arquivos estáticos ou com templates renderizados ou com bibliotecas/frameworks front-end como React, Angular ou Vue.js. Vamos abordar os dois jeitos, e você escolhe o que se encaixa melhor no seu projeto.
 
