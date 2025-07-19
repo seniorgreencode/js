@@ -1101,9 +1101,12 @@ app.listen(4000, function(erro){
 });
 ```
 
-Podemos ter quantos parâmetros nós quisermos, como parâmetro `/user/:nome/:empresa` indicando que é funcionário de uma determinada empresa. Nesse caso, só basta um para o exemplo prático.
+Podemos ter quantos parâmetros nós quisermos, como parâmetro `/user/:nome/:empresa` indicando que é funcionário de uma determinada empresa. Nesse caso, só basta um para o exemplo prático. 
 
-Se você está usando o Node.js com Express para criar uma API ou servidor web, e agora quer exibir um front-end (HTML, CSS, etc.) na rota principal `/`, há basicamente 3 formas principais de fazer isso, dependendo da sua abordagem: com arquivos estáticos ou com templates renderizados ou com bibliotecas/frameworks front-end como React, Angular ou Vue.js. Vamos abordar os dois jeitos, e você escolhe o que se encaixa melhor no seu projeto.
+> [!Warning]
+> Fique atento! É obrigatório passar o parâmetro com a rota para funcionar, pois se não declarar o parâmetro juntamente com a rota ocasionará em um erro `Cannot GET /user`.
+
+Se você está usando o Node.js com Express para criar uma API ou servidor web, e quer exibir um front-end (HTML, CSS, etc.) na rota principal `/`, há basicamente 3 formas principais de fazer isso, dependendo da sua abordagem: com arquivos estáticos ou com templates renderizados ou com bibliotecas/frameworks front-end como React, Angular ou Vue.js. Vamos abordar os dois jeitos, e você escolhe o que se encaixa melhor no seu projeto.
 
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/nodemon.svg" height="77" title="Site do Node.js" align="right"/></a>
 
