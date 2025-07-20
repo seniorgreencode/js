@@ -1508,6 +1508,12 @@ Acessar o banco de dados:
 USE <nomeDoBanco>;
 ```
 
+Mostrar tabelas do meu banco de dados selecionado:
+
+```sh
+SHOW TABLES;
+```
+
 ## [JS] Prisma
 <img src="https://github.com/user-attachments/assets/fdd85ed2-6ca1-4bd6-8b8d-b69ac47b7ff4" align="right" height="77"> 
 
