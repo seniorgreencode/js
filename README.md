@@ -1494,6 +1494,12 @@ Mostrar todos os bancos de dados no nosso servidor:
 SHOW DATABASES;
 ```
 
+Criar banco de dados:
+
+```sh
+CREATE DATABASE <nomeDoBanco>;
+```
+
 ## [JS] Prisma
 <img src="https://github.com/user-attachments/assets/fdd85ed2-6ca1-4bd6-8b8d-b69ac47b7ff4" align="right" height="77"> 
 
