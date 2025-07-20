@@ -1264,8 +1264,8 @@ app.get("/blog/:artigo?", (req,res)=>{
   }
 });
 
+// Quando o cliente acessar o canal, será devolvido o nome do canal
 app.get("/canal/youtube", (req,res)=>{
-  // Quando o cliente acessar o canal, será devolvido o nome do canal
   // Exemplo: /canal/youtube?q=IsaacAlves7
   var canal = req.query["canal"];
   res.send(`<h1>${canal}</h1>`);
