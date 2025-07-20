@@ -1238,7 +1238,58 @@ app.listen(4000, function(erro){
 });
 ```
 
-Como vimos anteriormente ficou suscinto, mas ainda queremos algo mais dinâmico tirando toda essa rigidez da estrutura de rotas para acessarmos nossos parâmetro, e como fazemos isso? Com **query parameters** (parâmetros de consulta) através do símbolo de `?` podemos passar qualquer parâmetro na barra de pesquisa sem precisar acessar diretamente de rotas, então ele é opcional. Esse tipo de parâmetro é amplamente utilizado para **busca** de recursos em websites.
+Como vimos anteriormente ficou suscinto, mas ainda queremos algo mais dinâmico tirando toda essa rigidez da estrutura de rotas para acessarmos nossos parâmetro, e como fazemos isso? Com **query parameters** (parâmetros de consulta) através do símbolo de `?` podemos passar qualquer parâmetro, por padrão definimos `?q=` ou `?search=`, na barra de pesquisa sem precisar acessar diretamente de rotas, então ele é opcional. Esse tipo de parâmetro é amplamente utilizado para **busca** de recursos em websites.
+
+Vamos ver como funciona o query parameter na nossa rota de canal no YouTube:
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+// Adicionando rota inicial na aplicação
+app.get("/", (req,res)=>{
+  res.send("<h1>Welcome to home!</h1>");
+});
+
+// Rota com parâmetros não obrigatórios (OPCIONAL)
+app.get("/blog/:artigo?", (req,res)=>{
+  var artigo = req.params.artigo;
+
+  if(artigo){
+      res.send(`<h1>Artigo: ${artigo}!</h1>`)
+  } else {
+      res.send(`<h1>Welcome to my blog!</h1>`)
+  }
+});
+
+app.get("/canal/youtube", (req,res)=>{
+  // Quando o cliente acessar o canal, será devolvido o nome do canal
+  // Exemplo: /canal/youtube?q=IsaacAlves7
+  var canal = req.query["canal"];
+  res.send(`<h1>${canal}</h1>`);
+});
+
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome}!</h1>`);
+});
+
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome/:empresa", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome} da empresa ${req.params.empresa}!</h1>`);
+});
+
+// Listening the server on port: 4000
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando no endereço: http://localhost:${4000}`);
+   }
+});
+```
 
 > [!Warning]
 > Fique atento! É obrigatório passar o parâmetro com a rota para funcionar, pois se não declarar o parâmetro juntamente com a rota ocasionará em um erro `Cannot GET /user`.
