@@ -1484,6 +1484,8 @@ No entanto, o Sequelize também tem limitações. Em comparação com alternativ
 
 Em resumo, o Sequelize é uma ferramenta poderosa para desenvolvedores Node.js que buscam produtividade na interação com bancos relacionais, especialmente em aplicações com modelos de dados moderadamente complexos. Embora não seja tão type-safe ou performático quanto algumas alternativas mais recentes, sua versatilidade e histórico no ecossistema o mantêm relevante para projetos legados ou times que preferem uma abordagem mais tradicional de ORM.
 
+Após a instalação e configuração do banco de dados MySQL na nossa máquina, é importante inicializá-lo no terminal através do CLI instalado:
+
 ```sh
 mysql -h localhost -u root -p
 ```
@@ -1498,6 +1500,12 @@ Criar banco de dados:
 
 ```sh
 CREATE DATABASE <nomeDoBanco>;
+```
+
+Acessar o banco de dados:
+
+```sh
+USE <nomeDoBanco>;
 ```
 
 ## [JS] Prisma
