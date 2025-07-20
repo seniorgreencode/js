@@ -1291,6 +1291,61 @@ app.listen(4000, function(erro){
 });
 ```
 
+Podemos ainda fazer um tratamento para nossa rota de canal no YouTube:
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+const express = require("express"); // Importando o express
+const app = express(); // Iniciando o express
+
+// Adicionando rota inicial na aplicação
+app.get("/", (req,res)=>{
+  res.send("<h1>Welcome to home!</h1>");
+});
+
+// Rota com parâmetros não obrigatórios (OPCIONAL)
+app.get("/blog/:artigo?", (req,res)=>{
+  var artigo = req.params.artigo;
+
+  if(artigo){
+      res.send(`<h1>Artigo: ${artigo}!</h1>`)
+  } else {
+      res.send(`<h1>Welcome to my blog!</h1>`)
+  }
+});
+
+// Quando o cliente acessar o canal, será devolvido o nome do canal
+app.get("/canal/youtube", (req,res)=>{
+  // Exemplo: /canal/youtube?q=IsaacAlves7
+  var canal = req.query["canal"];
+  if(canal){
+   res.send(`<h1>Canal: ${canal}</h1>`);
+  } else {
+   res.send(`<h1>Nenhum canal fornecido!</h1>`);
+  }
+});
+
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome}!</h1>`);
+});
+
+// Rota com parâmetros e obtendo o nome do usuário
+app.get("/user/:nome/:empresa", (req,res)=>{
+  res.send(`<h1>Welcome ${req.params.nome} da empresa ${req.params.empresa}!</h1>`);
+});
+
+// Listening the server on port: 4000
+app.listen(4000, function(erro){
+   if(erro){
+      console.log('Ocorreu um erro!');
+   } else {
+      console.log(`Servidor rodando no endereço: http://localhost:${4000}`);
+   }
+});
+```
+
 > [!Warning]
 > Fique atento! É obrigatório passar o parâmetro com a rota para funcionar, pois se não declarar o parâmetro juntamente com a rota ocasionará em um erro `Cannot GET /user`.
 
