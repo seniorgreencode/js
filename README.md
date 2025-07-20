@@ -1484,6 +1484,16 @@ No entanto, o Sequelize também tem limitações. Em comparação com alternativ
 
 Em resumo, o Sequelize é uma ferramenta poderosa para desenvolvedores Node.js que buscam produtividade na interação com bancos relacionais, especialmente em aplicações com modelos de dados moderadamente complexos. Embora não seja tão type-safe ou performático quanto algumas alternativas mais recentes, sua versatilidade e histórico no ecossistema o mantêm relevante para projetos legados ou times que preferem uma abordagem mais tradicional de ORM.
 
+```sh
+mysql -h localhost -u root -p
+```
+
+Mostrar todos os bancos de dados no nosso servidor:
+
+```sh
+SHOW DATABASES;
+```
+
 ## [JS] Prisma
 <img src="https://github.com/user-attachments/assets/fdd85ed2-6ca1-4bd6-8b8d-b69ac47b7ff4" align="right" height="77"> 
 
