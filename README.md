@@ -371,7 +371,7 @@ Esse `.end()` está fazendo duas coisas ao mesmo tempo:
 2. Finalizando a resposta, dizendo ao servidor: “Pronto, terminei de responder. Pode fechar a conexão.”
 
 # 🔴 [JS] Node-Red
-<img src="https://cdn.worldvectorlogo.com/logos/node-red-2.svg" align="right" height="77">
+<a href="https://nodered.org/#get-started"><img src="https://cdn.worldvectorlogo.com/logos/node-red-2.svg" align="right" height="77"></a>
 
 **Node-RED** é uma ferramenta de desenvolvimento baseada em fluxo, construída sobre a plataforma Node.js, que permite a programação visual de aplicações usando blocos de arrastar e soltar em um editor gráfico baseado na web. Ele foi criado inicialmente pela IBM como uma solução para facilitar a integração entre dispositivos de Internet das Coisas (IoT), serviços online e APIs, mas acabou se popularizando também em áreas como automação residencial, orquestração de serviços, monitoramento e até mesmo em fluxos de dados empresariais. 
 
