@@ -5281,7 +5281,7 @@ Portanto, o JavaScript no front-end lida com a recepção e controle da mídia n
 
 Se você está entrando nas profundezas do funcionamento dos streams de vídeo via web, e isso envolve várias tecnologias de entrega de mídia, como **HLS**, **MPEG-DASH**, e o uso de **blobs** e **Media Source Extensions (MSE)** no navegador.
 
-`.ts` é extensão de vídeo e significa **Transport Stream** — um formato de contêiner de vídeo usado para streaming, especialmente em protocolos como **HLS (HTTP Live Streaming)** da Apple.
+A extensão de vídeo `.ts` significa **Transport Stream** — um formato de contêiner de vídeo usado para streaming, especialmente em protocolos como **HLS (HTTP Live Streaming)** da Apple. Essa é a mesma extensão de arquivos TypeScript onde no momento não tem haver com o superset.
 
 Em HLS, o vídeo é dividido em **vários pequenos arquivos `.ts`**, cada um contendo alguns segundos de vídeo (geralmente entre 2 a 10s). Isso permite que o navegador baixe e reproduza pequenas partes do vídeo sob demanda (VoD), adaptando-se à qualidade da conexão (stream adaptativo).
 
