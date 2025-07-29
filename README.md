@@ -5270,6 +5270,45 @@ Boas práticas de segurança em JavaScript:
 
 Se quiser, posso te mostrar exemplos práticos de código seguro e inseguro com `atob`, `eval`, `Function`, ou revisar algum código que você esteja analisando.
 
+# 📹 [JS] Streaming de vídeo
+Você está entrando nas profundezas do funcionamento dos streams de vídeo via web, e isso envolve várias tecnologias de entrega de mídia, como **HLS**, **MPEG-DASH**, e o uso de **blobs** e **Media Source Extensions (MSE)** no navegador.
+
+`.ts` é extensão de vídeo e significa **Transport Stream** — um formato de contêiner de vídeo usado para streaming, especialmente em protocolos como **HLS (HTTP Live Streaming)** da Apple.
+
+Em HLS, o vídeo é dividido em **vários pequenos arquivos `.ts`**, cada um contendo alguns segundos de vídeo (geralmente entre 2 a 10s). Isso permite que o navegador baixe e reproduza pequenas partes do vídeo sob demanda (VoD), adaptando-se à qualidade da conexão (stream adaptativo).
+
+Por que só aparece uma parte pequena no Network? Isso acontece porque:
+
+* O vídeo é **fragmentado**: o navegador não carrega o vídeo inteiro de uma vez, mas **solicita partes** conforme necessário, baseando-se no tempo de reprodução atual e no buffer.
+* O carregamento é **on-demand**: se você assistir apenas os primeiros 20 segundos, o navegador só pedirá os primeiros `.ts` correspondentes.
+* O navegador pode **limpar o buffer** com o tempo, ou usar **limitações de cache e memória**, o que evita manter os blocos antigos.
+
+Se estiver usando o DevTools e for na aba **`Network`**, e filtrar por "`media`" ou "`ts`", verá apenas os blocos ``.ts`` que foram baixados até aquele momento da reprodução.
+
+Em alguns casos ele mostra `data:video/mp4` ou `blob:<id>` no Network, isso ocorre por dois motivos principais:
+
+- `data:video/mp4;base64,...` esse é um **Data URI** — um conteúdo **embutido diretamente na memória** do navegador, geralmente pequeno, como um poster/thumbnail ou uma resposta embutida (não comum em vídeos longos, mas pode aparecer em prévias).
+
+- `blob:<uuid>` isso é o mais comum em players modernos com **MSE (Media Source Extensions)**.
+
+Quando o player carrega os `.ts` ou fragmentos de `.mp4`, o JavaScript monta um objeto de mídia com:
+
+```javascript
+const blob = new Blob([videoSegment], { type: 'video/mp4' });
+const url = URL.createObjectURL(blob);
+video.src = url;
+```
+
+Esse `blob:<uuid>` é uma URL temporária **apontando para um conteúdo em memória**. O vídeo, no HTML, não está apontando diretamente para um arquivo `.mp4`, mas para um **stream em tempo real criado no lado do cliente**.
+
+É por isso que quando você tenta baixar o vídeo diretamente, você só consegue baixar **o que está no buffer no momento**, ou apenas o blob em uso, não o vídeo completo.
+
+* `.ts` = segmentos de vídeo fragmentado, geralmente parte de **streaming adaptativo via HLS**.
+* Só aparecem algumas partes no Network porque o vídeo carrega **em tempo real, sob demanda**, conforme você assiste.
+* O navegador mostra `blob:` ou `data:` porque o vídeo não é um arquivo `.mp4` direto — é **montado dinamicamente na memória** por JavaScript, usando **Media Source Extensions**.
+
+Se quiser baixar o vídeo inteiro, é necessário interceptar todos os arquivos `.ts` (ou o `.m3u8`, que lista todos eles) e depois uni-los manualmente com `ffmpeg` ou ferramentas semelhantes.
+
 # 🧪 [JS] DDD, BDD e TDD
 
 ---
