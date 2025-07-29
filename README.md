@@ -5270,8 +5270,16 @@ Boas práticas de segurança em JavaScript:
 
 Se quiser, posso te mostrar exemplos práticos de código seguro e inseguro com `atob`, `eval`, `Function`, ou revisar algum código que você esteja analisando.
 
-# 📹 [JS] Streaming de vídeo
-Você está entrando nas profundezas do funcionamento dos streams de vídeo via web, e isso envolve várias tecnologias de entrega de mídia, como **HLS**, **MPEG-DASH**, e o uso de **blobs** e **Media Source Extensions (MSE)** no navegador.
+# 📹 [JS] Video Streaming
+O **streaming de vídeo** em JavaScript pode ser aplicado tanto no front-end quanto no back-end, dependendo de qual camada do sistema você está desenvolvendo. No front-end, JavaScript é usado para controlar players de vídeo HTML5 e bibliotecas como `hls.js` (para HLS) ou `dash.js` (para MPEG-DASH), que permitem a reprodução adaptativa de vídeo. Essas bibliotecas funcionam diretamente no navegador, analisando playlists `.m3u8` ou `.mpd`, requisitando segmentos de mídia `.ts` ou `.mp4` dinamicamente via HTTP, e renderizando esses dados no `<video>` usando Media Source Extensions (MSE). Essa abordagem é fundamental tanto para Live Streaming (transmissão ao vivo) quanto para VoD (Video on Demand). No VoD, os segmentos estão todos disponíveis e a reprodução pode começar de qualquer ponto; no Live, os segmentos estão sendo gerados e disponibilizados em tempo real, o que exige uma janela deslizante de conteúdo e buffer mínimo.
+
+No back-end, o JavaScript (geralmente via Node.js) pode ser utilizado para servir os arquivos de vídeo, criar playlists HLS sob demanda, autenticar usuários, registrar logs de visualização e até mesmo integrar com ferramentas como FFmpeg para transcodificar vídeos, dividir em segmentos e gerar playlists automaticamente. A API pode proteger os segmentos com tokens ou cookies para restringir o acesso. Em transmissões ao vivo, o back-end pode atuar como intermediário entre o encoder (como OBS Studio) e o player, empacotando o vídeo ao vivo em segmentos HLS ou DASH e publicando em uma CDN ou diretamente ao cliente.
+
+As modalidades de entrega de vídeo variam conforme o tipo de rede e público. No modelo VoD, o conteúdo é armazenado e distribuído sob demanda, permitindo controle total ao usuário, como pausa e avanço. No modelo Live, o vídeo é transmitido em tempo real, com baixa latência, ideal para eventos ao vivo. No modelo Unicast, cada cliente recebe uma cópia exclusiva do fluxo de dados, o que gera mais carga no servidor. No Broadcast, um único fluxo é enviado a todos os receptores simultaneamente, comum em redes fechadas de TV ou multicast IP. Já o Multicast permite que múltiplos usuários recebam o mesmo stream sem sobrecarregar o servidor, mas depende de infraestrutura compatível na rede, geralmente fora do alcance da Web moderna. Por isso, no streaming via web, usamos quase sempre HTTP-based streaming sobre Unicast.
+
+Portanto, o JavaScript no front-end lida com a recepção e controle da mídia no navegador, enquanto no back-end cuida do processamento, empacotamento e entrega. A união dos dois lados permite uma experiência fluida de streaming adaptável, segura e escalável.
+
+Se você está entrando nas profundezas do funcionamento dos streams de vídeo via web, e isso envolve várias tecnologias de entrega de mídia, como **HLS**, **MPEG-DASH**, e o uso de **blobs** e **Media Source Extensions (MSE)** no navegador.
 
 `.ts` é extensão de vídeo e significa **Transport Stream** — um formato de contêiner de vídeo usado para streaming, especialmente em protocolos como **HLS (HTTP Live Streaming)** da Apple.
 
