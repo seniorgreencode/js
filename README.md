@@ -5271,9 +5271,9 @@ Boas práticas de segurança em JavaScript:
 Se quiser, posso te mostrar exemplos práticos de código seguro e inseguro com `atob`, `eval`, `Function`, ou revisar algum código que você esteja analisando.
 
 # 📹 [JS] Video Streaming
-O **streaming de vídeo** em JavaScript pode ser aplicado tanto no front-end quanto no back-end, dependendo de qual camada do sistema você está desenvolvendo. No front-end, JavaScript é usado para controlar players de vídeo HTML5 e bibliotecas como `hls.js` (para HLS) ou `dash.js` (para MPEG-DASH), que permitem a reprodução adaptativa de vídeo. 
+O **streaming de vídeo** em JavaScript pode ser aplicado tanto no front-end quanto no back-end, dependendo de qual camada do sistema você está desenvolvendo. 
 
-Essas bibliotecas funcionam diretamente no navegador, analisando playlists `.m3u8` ou `.mpd`, requisitando segmentos de mídia `.ts` ou `.mp4` dinamicamente via HTTP, e renderizando esses dados no `<video>` usando Media Source Extensions (MSE). 
+No front-end, JavaScript é usado para controlar players de vídeo HTML5 e bibliotecas como `hls.js` (para HLS) ou `dash.js` (para MPEG-DASH), que permitem a reprodução adaptativa de vídeo. Essas bibliotecas funcionam diretamente no navegador, analisando playlists `.m3u8` ou `.mpd`, requisitando segmentos de mídia `.ts` ou `.mp4` dinamicamente via HTTP, e renderizando esses dados no `<video>` usando Media Source Extensions (MSE). 
 
 Essa abordagem é fundamental tanto para Live Streaming (transmissão ao vivo) quanto para VoD (Video on Demand). No VoD, os segmentos estão todos disponíveis e a reprodução pode começar de qualquer ponto; no Live, os segmentos estão sendo gerados e disponibilizados em tempo real, o que exige uma janela deslizante de conteúdo e buffer mínimo.
 
