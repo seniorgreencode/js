@@ -5283,7 +5283,7 @@ Se você está entrando nas profundezas do funcionamento dos streams de vídeo v
 
 A extensão de vídeo `.ts` significa **Transport Stream** — um formato de contêiner de vídeo usado para streaming, especialmente em protocolos como **HLS (HTTP Live Streaming)** da Apple. Do tipo XHR - XMLHttpRequest que é um objeto que fornece funcionalidade ao cliente para transferir dados entre um cliente e um servidor. Ele fornece uma maneira fácil de recuperar dados de um URL sem ter que fazer uma atualização de página inteira. Isso permite que uma página da Web atualize apenas uma parte do conteúdo sem interromper o que o usuário esteja fazendo. XMLHttpRequest é usado constantemente na programação de AJAX.
 
-Essa é a mesma extensão de arquivos TypeScript onde no momento não tem haver com o superset.
+> Essa é a mesma extensão de arquivos TypeScript onde no momento não tem haver com o superset.
 
 Em HLS, o vídeo é dividido em **vários pequenos arquivos `.ts`**, cada um contendo alguns segundos de vídeo (geralmente entre 2 a 10s). Isso permite que o navegador baixe e reproduza pequenas partes do vídeo sob demanda (VoD), adaptando-se à qualidade da conexão (stream adaptativo). Mesmo quando pausamos e retomamos o vídeo, o conteúdo continua a ser carregado e gerando novos arquivos.
 
