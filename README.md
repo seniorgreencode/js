@@ -148,7 +148,7 @@ Outros comandos para serem executados em janela:
 - `window.confirm()` janela ok e cancel;
 - `window.prompt()` janela com textbox e ok.
 
-## [JS] Comentários em JavaScript
+## [JS] Comentários
 [![JavaScript](https://img.shields.io/badge/-main.js-000000?style=social&logo=JavaScript&logoColor=yellow)](#)
 
 ```javascript
