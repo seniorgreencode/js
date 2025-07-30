@@ -14,7 +14,13 @@
 
 </div>
 
-Sou um especialista em desenvolvimento de software com foco no ecossistema JavaScript, incluindo React, Redux, TypeScript, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. No front-end, atuo em projetos com SPAs, SSR e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos do Figma (UI/UX). Na parte de back-end, construo APIs com GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços. Também implemento ferramentas de analytics como Google Analytics 4 para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Tenho experiência na entrega de software em ambientes PaaS, com uso de recursos em nuvens como AWS, Azure e Google Cloud.
+Sou um especialista em desenvolvimento de software com foco no ecossistema JavaScript, incluindo React, Redux, TypeScript, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
+
+No front-end, atuo em projetos com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos do Figma (UI/UX). 
+
+Na parte de back-end, construo APIs com GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços. 
+
+Também implemento ferramentas de analytics como Google Analytics 4 para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com ambientes PaaS e uso de recursos em nuvens como AWS, Azure e Google Cloud.
 
 # 📜 JavaScript (JS)
 <img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right">
