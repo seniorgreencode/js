@@ -272,14 +272,6 @@ O Tauri é escrito principalmente em Rust, uma linguagem moderna conhecida pela 
 
 Outra grande vantagem do Tauri é a facilidade de integração com qualquer framework moderno do front-end, como React, Vue, Svelte ou até mesmo aplicações vanilla. Ele também possui foco em segurança desde o início, com políticas claras de permissões e proteção contra ataques comuns, como injeções ou execução arbitrária de código. Por isso, o Tauri se tornou uma escolha cada vez mais popular entre desenvolvedores que desejam criar aplicações desktop modernas, rápidas, leves e seguras, sem abrir mão do ecossistema web.
 
-<img src="https://cdn.worldvectorlogo.com/logos/postcss.svg" height="77" align="right">
-
-**PostCSS** é uma ferramenta para transformação de CSS usando JavaScript. Diferente de pré-processadores como Sass ou Less, que oferecem sua própria sintaxe, o PostCSS trabalha sobre o CSS padrão, analisando-o como uma árvore de nós (AST – Abstract Syntax Tree) e permitindo modificações através de plugins. Isso significa que o PostCSS em si não faz muita coisa sozinho; o poder dele está na sua capacidade de ser estendido. 
-
-Com os plugins certos, você pode automatizar tarefas como adicionar prefixos de compatibilidade entre navegadores (via Autoprefixer), escrever código com sintaxe moderna e transpilar para versões anteriores (via postcss-preset-env), minificar o CSS, converter unidades, agrupar media queries, entre outras funções. Ele é especialmente comum em ambientes modernos com ferramentas como Webpack, Vite ou Parcel, onde se integra facilmente no processo de build. 
-
-Além disso, muitos frameworks e bibliotecas populares como Tailwind CSS usam o PostCSS por baixo dos panos para aplicar suas transformações. Diferente de pré-processadores que exigem aprender uma nova linguagem (como SCSS ou Stylus), o PostCSS se mantém próximo ao CSS puro, mas oferece um ecossistema altamente modular e poderoso, sendo amplamente utilizado tanto para projetos simples quanto em ambientes corporativos complexos.
-
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
 Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
@@ -438,6 +430,14 @@ O **Webpack** é um module bundler, ou seja, um empacotador de módulos gratuito
 **Grunt** é um executor de tarefas (Task Runner) JavaScript, muito usado pela automação. Quanto menos trabalho você tiver ao executar tarefas repetitivas, como minificação, compilação, testes unitários, linting etc., mais fácil será o seu trabalho. Depois de configurá-lo por meio de um `Gruntfile`, um executor de tarefas pode fazer a maior parte desse trabalho mundano para você e sua equipe com esforço basicamente zero.
 
 O ecossistema Grunt é enorme e cresce a cada dia. Com literalmente centenas de plugins para escolher, você pode usar o Grunt para automatizar praticamente qualquer coisa com um mínimo de esforço. Se alguém ainda não construiu o que você precisa, criar e publicar seu próprio plug-in do Grunt no npm é muito fácil.
+
+<img src="https://cdn.worldvectorlogo.com/logos/postcss.svg" height="77" align="right">
+
+**PostCSS** é uma ferramenta para transformação de CSS usando JavaScript. Diferente de pré-processadores como Sass ou Less, que oferecem sua própria sintaxe, o PostCSS trabalha sobre o CSS padrão, analisando-o como uma árvore de nós (AST – Abstract Syntax Tree) e permitindo modificações através de plugins. Isso significa que o PostCSS em si não faz muita coisa sozinho; o poder dele está na sua capacidade de ser estendido. 
+
+Com os plugins certos, você pode automatizar tarefas como adicionar prefixos de compatibilidade entre navegadores (via Autoprefixer), escrever código com sintaxe moderna e transpilar para versões anteriores (via postcss-preset-env), minificar o CSS, converter unidades, agrupar media queries, entre outras funções. Ele é especialmente comum em ambientes modernos com ferramentas como Webpack, Vite ou Parcel, onde se integra facilmente no processo de build. 
+
+Além disso, muitos frameworks e bibliotecas populares como Tailwind CSS usam o PostCSS por baixo dos panos para aplicar suas transformações. Diferente de pré-processadores que exigem aprender uma nova linguagem (como SCSS ou Stylus), o PostCSS se mantém próximo ao CSS puro, mas oferece um ecossistema altamente modular e poderoso, sendo amplamente utilizado tanto para projetos simples quanto em ambientes corporativos complexos.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" height="77" align="right"></a>
 
