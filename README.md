@@ -122,7 +122,7 @@ Linux: No diretório do usuário (root):
 sudo apt install nodejs
 ```
 
-# 📦 [JS] `npm` - Node Package Manager
+# 📦 [JS] Gerenciadores de pacote
 <a href="https://www.npmjs.com/"><img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" title="Site do NPM" align="right"/></a>
 
 O **NPM** (**N**ode **P**ackage **M**anager) é o gerenciador de pacotes do Node.js, mesmo sendo o gerenciador ele também é independente do Node.js. É através do NPM que podemos instalar a bibliotecas do Node para desenvolver qualquer tipo de aplicação.
@@ -201,7 +201,6 @@ Gostaria de apresentar também alguns pacotes interessantes do NPM como:
 
 - <a href="">open</a>: Abre URLs, executáveis e outros arquivos em aplicações desejadas
 
-# 🧶 [JS] YARN - yet another resource negotiator
 <img src="https://cdn.worldvectorlogo.com/logos/yarn.svg" height="77" align="right">
 
 O **YARN** (sigla de yet another resource negotiator) foi lançado em 2016 pelo Facebook com outras empresas — entre elas, a Google. Sua criação teve como premissa resolver alguns problemas de segurança existentes no NPM à época, além de tornar mais rápido o processo de instalação de dependências.
@@ -242,6 +241,35 @@ Depois de instalado, para inserir o Yarn em seu projeto, siga estas etapas:
 ```sh
 yarn dev
 ```
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Pnpm_logo.svg" height="77" align="right">
+
+O **pnpm** cujo nome vem de "*Performant NPM*" é um gerenciador de pacotes para JavaScript, assim como o **npm** e o **yarn**, mas com foco em **eficiência, desempenho e economia de espaço em disco**. Ele é totalmente compatível com os arquivos `package.json` e `package-lock.json`, e pode ser usado como substituto direto do npm na maioria dos projetos.
+
+O principal diferencial do pnpm está na forma como ele armazena os pacotes. Em vez de duplicar as dependências em cada projeto (como o npm tradicional faz), o pnpm salva todos os pacotes em um **repositório central no sistema de arquivos (store)** e usa **links simbólicos** (symlinks) para apontar para eles em cada projeto. Isso resulta em:
+
+* **Menor uso de espaço em disco** (evita cópias repetidas de pacotes).
+* **Instalações mais rápidas**, especialmente em projetos com muitas dependências.
+* **Maior consistência entre ambientes**, pois garante uma resolução mais rígida das dependências.
+* **Isolamento real de dependências**, o que evita conflitos ou "instalações fantasmas" de pacotes que não estão no `package.json`.
+
+Além disso, o pnpm implementa regras mais estritas por padrão: ele não permite, por exemplo, que um pacote acesse dependências que não estejam declaradas explicitamente. Isso ajuda a evitar erros sutis e más práticas no código.
+
+O comando básico para começar a usar o pnpm é:
+
+```sh
+npm install -g pnpm
+```
+
+E depois, dentro de um projeto:
+
+```sh
+pnpm install
+pnpm add <pacote>
+pnpm run <script>
+```
+
+Muitos projetos modernos já migraram para o pnpm por causa desses benefícios, especialmente monorepos grandes (como os baseados em TurboRepo ou Nx).
 
 ## [JS] Hello, World - Node.js
 Crie uma pasta e lá crie o script `App.js` e escreva o seguinte comando:
