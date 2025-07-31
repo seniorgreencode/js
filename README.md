@@ -1683,7 +1683,52 @@ node index.js
 
 # 🐶 [JS] PugJS
 
-## [JS] EJS - Embedded JavaScript Templating
+# [JS] EJS - Embedded JavaScript Templating
+
+# ☄️ [JS] Astro
+<img src="https://github.com/user-attachments/assets/72b70c4c-f9cb-4045-8b2a-d8aa4ac4d54c" height="77" align="right">
+
+**Astro** é um framework moderno de front-end voltado para a criação de sites rápidos, estáticos ou híbridos, que prioriza a performance através do conceito de “Island Architecture”. Ele permite que você construa páginas com conteúdo estático por padrão, mas com trechos interativos renderizados apenas quando necessário. A ideia central é enviar o mínimo de JavaScript possível para o navegador, o que resulta em experiências extremamente leves e rápidas.
+
+Diferente de frameworks como React, Vue ou Angular, que geralmente renderizam todo o JavaScript no lado do cliente (mesmo quando parte da interface é estática), o Astro por padrão renderiza tudo no servidor e envia HTML puro. Isso é ideal para blogs, documentações, landing pages, e-commerces, e outros sites que priorizam SEO e performance. Quando você precisa de interatividade, como um botão de like ou um componente de busca, você pode "hidratar" esse pedaço específico com JavaScript usando componentes isolados de React, Svelte, Vue, Solid, Preact, etc.
+
+Astro também suporta escrita de componentes em sua própria sintaxe `.astro`, que mistura HTML com lógica leve baseada em JavaScript. Você pode importar componentes de outros frameworks com total interoperabilidade.
+
+Por exemplo:
+
+```astro
+---
+// Exemplo de componente .astro
+import Counter from '../components/Counter.jsx';
+const titulo = "Minha página rápida";
+---
+
+<html lang="pt-BR">
+  <head>
+    <title>{titulo}</title>
+  </head>
+  <body>
+    <h1>{titulo}</h1>
+    <p>Essa página é rápida porque foi renderizada estaticamente.</p>
+    <Counter client:load />
+  </body>
+</html>
+```
+
+Nesse exemplo, todo o HTML será entregue já renderizado para o navegador, e somente o componente `Counter` será carregado com JavaScript depois (graças à diretiva `client:load`). Você também pode usar `client:idle`, `client:visible`, `client:only`, e outras estratégias de hidratação seletiva.
+
+Além disso, o Astro tem suporte nativo para Markdown (`.md`) e MDX (`.mdx`), tornando-o muito eficiente para sites de conteúdo. Ele também vem com suporte a TypeScript, Tailwind CSS, integração com CMSs headless e pode gerar sites estáticos (`astro build`) ou rodar como um servidor híbrido (`astro dev` ou com adaptadores como Netlify, Vercel, Node.js etc.).
+
+Exemplo de instalação e execução rápida:
+
+```bash
+npm create astro@latest
+cd meu-projeto
+npm install
+npm run dev
+```
+
+Em resumo, Astro é uma solução moderna para construir sites ultra-performáticos, com base em HTML otimizado, renderização estática por padrão e integração opcional com qualquer framework JavaScript popular. Ele coloca o HTML em primeiro lugar e o JavaScript apenas onde realmente é necessário.
 
 # 🦁 [JS] NestJS
 <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg" height="77" align="right">
