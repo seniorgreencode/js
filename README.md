@@ -5,7 +5,7 @@
 > ⚠️ **WARNING**: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!
 
 # 🛡️ Angular.js
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
   
 O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
 
@@ -24,8 +24,8 @@ Angular segue o padrão MVC da engenharia de Software e encoraja o baixo acoplam
 > **Injeção de dependência** (Dependency Injection, em inglês) é um padrão de desenvolvimento de programas de computadores utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por "injetar" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste. Alguns dos frameworks mais utilizados que fazem uso de injeção de dependência são o Spring, ASP.NET Core, Laravel e o AngularJS.
 
 # 🅰️ Angular
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="177" align="right"></a>
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/97579d11-b293-41b0-bd88-2f845a4c5a8a" height="77" align="right"></a>
 
-O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes.
+O **Angular** é um framework JavaScript reativo mantido pelo Google, utilizado para a construção de aplicações Web modernas. Ele foi construído utilizando TypeScript e sua arquitetura se dá através de **componentes** que são pequenos grupos de funcionalidades isoladas e independentes. No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
 
-No Angular, um componente é composto, geralmente, por um arquivo TypeScript contendo a classe, comportamentos e atributos do seu componente. Um arquivo de estilização.
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" height="77" align="right"></a>
