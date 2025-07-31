@@ -452,9 +452,31 @@ const rootElement = document.getElementById("root")
 ReactDOM.render(<App />, rootElement)
 ```
 
-<img height="177" align="right" src="https://github.com/user-attachments/assets/d06d7ed9-8614-4571-a532-99c96f3291ec" />
+<img height="77" align="right" src="https://github.com/user-attachments/assets/d06d7ed9-8614-4571-a532-99c96f3291ec" />
 
+Além do Babel, temos o **SWC** (Speedy Web Compiler) é um compilador super-rápido para JavaScript e TypeScript escrito em Rust, projetado para ser uma alternativa moderna ao Babel e ao TSC (TypeScript Compiler).
 
+Seu principal objetivo é **compilar, transpilar e minificar** código JavaScript/TypeScript de forma extremamente rápida — muitas vezes **10x mais rápido que o Babel**, especialmente em projetos grandes.
+
+O que o SWC faz:
+
+* **Transpila código TypeScript para JavaScript**
+* **Transpila código moderno (ES6+) para versões compatíveis com navegadores mais antigos**
+* **Faz minificação e otimizações de produção**
+* **Suporta JSX/TSX**, usado com React
+* **Pode ser integrado com ferramentas como Webpack, Vite, esbuild, Next.js, etc.**
+
+No seu contexto da imagem:
+
+Quando você vê a opção **“TypeScript + SWC”**, significa que o projeto usará o SWC para fazer a **compilação do TypeScript** (em vez do compilador oficial `tsc`) — o que acelera muito o processo de build e hot reload, principalmente em ambientes de desenvolvimento.
+
+Comparação rápida:
+
+| Ferramenta | Escrita em | Velocidade      | Compatibilidade             |
+| ---------- | ---------- | --------------- | --------------------------- |
+| **SWC**    | Rust       | 🔥 Muito rápida | Alta (com plugins)          |
+| Babel      | JavaScript | 🐢 Mais lenta   | Muito alta                  |
+| TSC        | TypeScript | 🐢 Lenta        | Completa (mas sem bundling) |
 
 ## [React] Renderização Condicional
 Em ReactJS, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
