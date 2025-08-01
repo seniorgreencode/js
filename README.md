@@ -417,7 +417,7 @@ Serão, entre outros:
 
 <img src="https://cdn.worldvectorlogo.com/logos/npm.svg" height="77" align="right">
 
-**Gerenciadores de pacotes** (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn).
+**Gerenciadores de pacotes** (Package managers) – possibilitando o gerenciamento de bibliotecas (contendo soluções prontas que podemos usar em nossos programas) ou componentes do ambiente de desenvolvimento (por exemplo, npm ou yarn ou pnpm).
 
 O **NPM** (node package manager) é um gerenciador de pacotes lançado no biênio 2009-2010. Tal pacote faz parte da instalação padrão do ambiente de execução da linguagem JavaScript no ambiente Node.js, sendo ambos instalados de forma conjunta.
 
