@@ -3323,17 +3323,32 @@ console.log(divisao(2,2));
 ```
 
 ## [JS] Global Objects
-São objetos disponíveis em todos os módulos. Veja abaixo:
+Em JavaScript, **Global Objects** são objetos que estão disponíveis em qualquer parte do seu código, sem que você precise importá-los ou declará-los. Eles fazem parte do ambiente de execução (como o navegador ou o Node.js) e fornecem funcionalidades fundamentais da linguagem. São objetos disponíveis em todos os módulos. Veja abaixo:
 
-| Global Object  | Description |
-|----------------|-------------|
-| `Class: Buffer`|             | 
-| `__dirname`    |             | 
-| `__filename`   |             | 
-| `clearImmediate(immediateObject)`   |             | 
-| `console`      |             | 
-| `exports`      |             | 
-| `require()`    |             | 
+Exemplos de Global Objects padrão (ECMAScript):
+
+| Tipo    | Nome                 | Exemplo de uso                     |
+| ------- | -------------------- | ---------------------------------- |
+| Funções | `parseInt()`         | `parseInt("10") // 10`             |
+| Objetos | `Math`               | `Math.random(), Math.PI`           |
+| Objetos | `Date`               | `new Date()`                       |
+| Objetos | `Array`              | `new Array(3)`                     |
+| Objetos | `String`, `Number`   | `new String("oi")`, `Number("42")` |
+| Objetos | `JSON`               | `JSON.parse('{"a":1}')`            |
+| Objetos | `Promise`            | `new Promise(...)`                 |
+| Erros   | `Error`, `TypeError` | `throw new TypeError("Erro!")`     |
+
+Específicos do Node.js (Não existem no navegador):
+
+| Global Object                   | Descrição                                                                                                                                                                         |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Class: Buffer`                 | Classe usada para **manipular dados binários brutos**, como arquivos ou streams. Ex: `Buffer.from("abc")`. Muito útil para leitura/escrita de arquivos e manipulação de binários. |
+| `__dirname`                     | Retorna o **diretório do arquivo atual**. Ex: se seu script está em `/home/user/projeto/index.js`, `__dirname` será `/home/user/projeto`.                                         |
+| `__filename`                    | Retorna o **caminho completo do arquivo atual**, incluindo o nome do arquivo. Ex: `/home/user/projeto/index.js`.                                                                  |
+| `clearImmediate(immediate)`     | Cancela uma chamada agendada por `setImmediate()`. Funciona de forma parecida com `clearTimeout()`, mas para tarefas imediatas.                                                   |
+| `console`                       | Objeto global usado para **escrever mensagens no terminal/console**. Ex: `console.log()`, `console.error()`, etc. Igual ao do navegador, mas adaptado ao terminal.                |
+| `exports`                       | Objeto que permite **exportar funções, objetos ou variáveis de um módulo**. É um atalho para `module.exports`. Ex: `exports.somar = () => {...}`.                                 |
+| `require()`                     | Função usada para **importar módulos** no formato CommonJS. Ex: `const fs = require('fs')`. Carrega módulos internos, externos ou arquivos JS locais.                             |
 
 # 📜 [JS] Paradigma Procedural/Imperativo
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
