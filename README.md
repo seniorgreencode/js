@@ -728,11 +728,7 @@ Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastr
 
 > Next.js, Astro, EJS, Pug e PHP compartilham a mesma raiz conceitual: gerar HTML no servidor. A diferença está em como, quando e por que fazem isso, e no nível de controle e abstração oferecido.
 
-<a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="77" align="right"></a>
-
-O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source.
-
-Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
+O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source. Existem outras Engines que também compilam o JavaScript como a Unity, Construct 2 e 3 ou Game Maker, porém isso fica a gosto do desenvolvedor, use aquela que você mais se familiariza!
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/browserify-icon.svg" height="77" align="right"></a>
 
