@@ -318,7 +318,8 @@ Tudo isso pode funcionar em diversos equipamentos, desde estações de trabalho 
 
 Com o tempo, o JavaScript começou a aparecer em outras áreas, como na programação de partes do lado do servidor de aplicações web complexas, também chamadas de back-end. Estes programas são executados em servidores, processando dados (por exemplo, de bases de dados), que após processamento ficarão disponíveis no lado do cliente. A flexibilidade desta linguagem e a sua relativa simplicidade tornaram-na muito mais aplicável, por exemplo, em aplicações móveis, ou mesmo na programação de UAVs (alguns drones executam programas escritos nesta linguagem).
 
-> **Curiosidade**: JavaScript é uma opção viável para a ciência de dados, especialmente para visualização e desenvolvimento de interfaces interativas. Com o uso das bibliotecas e ferramentas certas, é possível realizar muitas tarefas de ciência de dados de maneira eficiente e eficaz. Embora possa não ser a escolha principal para tarefas intensivas de análise de dados ou machine learning, ele complementa bem outras linguagens e pode ser integrado em pipelines de dados completos.
+> [!Important]
+> JavaScript é uma opção viável para a ciência de dados, especialmente para visualização e desenvolvimento de interfaces interativas. Com o uso das bibliotecas e ferramentas certas, é possível realizar muitas tarefas de ciência de dados de maneira eficiente e eficaz. Embora possa não ser a escolha principal para tarefas intensivas de análise de dados ou machine learning, ele complementa bem outras linguagens e pode ser integrado em pipelines de dados completos.
 
 Hoje em dia, quando você visita uma página e vê elementos interagindo com você, seja uma modal pop-up aparecendo na tela, um carossel de imagens, uma janelinha abrindo, uma resposta ao clique do mouse, animações, etc, pode ter certeza que há um código JavaScript sendo executado ali.
 
