@@ -3322,6 +3322,19 @@ console.log(multiplicacao(2,2));
 console.log(divisao(2,2));
 ```
 
+## [JS] Global Objects
+São objetos disponíveis em todos os módulos. Veja abaixo:
+
+| Global Object  | Description |
+|----------------|-------------|
+| `Class: Buffer`|             | 
+| `__dirname`    |             | 
+| `__filename`   |             | 
+| `clearImmediate(immediateObject)`   |             | 
+| `console`      |             | 
+| `exports`      |             | 
+| `require()`    |             | 
+
 # 📜 [JS] Paradigma Procedural/Imperativo
 <img src="https://github.com/IsaacAlves7/js-studies/assets/61624336/dcf18538-2a42-4c5d-b35d-0e6a6e3fc21a" height="77" align="right">
 
