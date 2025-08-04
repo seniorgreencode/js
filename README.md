@@ -3323,6 +3323,8 @@ console.log(divisao(2,2));
 ```
 
 ## [JS] Global Objects
+<a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-mindmap-000000?style=flat&logo=javascript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-observablehq-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/JavaScript-DSA-000000?style=flat&logo=JavaScript&logoColor=ffd60a)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/Node.js-repository-000000?style=flat&logo=Node.js&logoColor=lime)</a> <a href="https://www.mindmeister.com/map/2678931126">![JS](https://img.shields.io/badge/React.js-repository-000000?style=flat&logo=React&logoColor=aqua)</a> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md">![JS](https://img.shields.io/badge/TypeScript-white?style=flat&logo=TypeScript&logoColor=blue)</a> 
+
 Em JavaScript, **Global Objects** são objetos que estão disponíveis em qualquer parte do seu código, sem que você precise importá-los ou declará-los. Eles fazem parte do ambiente de execução (como o navegador ou o Node.js) e fornecem funcionalidades fundamentais da linguagem. São objetos disponíveis em todos os módulos. 
 
 Principais características dos Global Objects:
