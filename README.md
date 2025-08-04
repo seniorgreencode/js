@@ -23,11 +23,10 @@ Na parte de back-end, construo APIs com GraphQL (Apollo), com domínio de Git e 
 Também implemento ferramentas de analytics como Google Analytics 4 para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e uso de recursos em nuvens como AWS, Azure e Google Cloud.
 
 # 📜 JavaScript (JS)
-<img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right">
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
 
-Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela.
+Em maio de 1995, <a href="https://github.com/BrendanEich">Brendan Eich</a>, que trabalhava na Netscape, desenvolveu uma linguagem de programação em apenas 10 dias. A linguagem era bem simples, com o intuito de atrair novos programadores para ela. O nome dessa linguagem inicialmente foi <b>Mocha</b>, que é o nome de um tipo de café. Logo esse nome foi alterado para <b>LiveScript</b>.
 
-O nome dessa linguagem inicialmente foi <b>Mocha</b>, que é o nome de um tipo de café. Logo esse nome foi alterado para <b>LiveScript</b>.
 Em maio de 1995 também estava surgindo uma nova linguagem de programação que prometia revolucionar o modo de programar: <b>Java</b>, da <em>Sun MicroSystems</em>. Seu objetivo era nos poupar do trabalho de programar para cada um dos sistemas operacionais. Escreva uma única vez, execute em qualquer lugar (<em>Write once, run anywhere.</em>). 
 
 O JavaScript foi lançado junto com a versão beta do Netscape 2.0. Para aproveitar o marketing, o LiveScript teve seu nome alterado para <b>JavaScript</b> em 4 de dezembro de 1995. Isso causou confusões que existem até hoje para quem está começando no mundo da programação, pois pela semelhança do nome, muitos pensam que é a mesma coisa, ou que o JavaScript é uma versão mais simples do Java. Porém, foi apenas uma jogada de Marketing.
