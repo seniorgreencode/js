@@ -1436,9 +1436,13 @@ Existe também uma forma de servir HTML pelo Express com Global Object:
 var express = require("express");
 var app = express;
 
-app.use(express.static(__dirname))
+// Servindo arquivo estático pelo Express
+app.use(express.static(__dirname));
 
-app.listen(8080)
+// Definindo a porta junto com uma função callback
+var server = app.listen(8080, () => {
+  console.log("Server is listening on port", server.address().port);
+})
 ```
 
 [![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=orange)](#)
