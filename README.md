@@ -723,6 +723,8 @@ A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito sem
 
 Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
 
+> Next.js, Astro, EJS, Pug e PHP compartilham a mesma raiz conceitual: gerar HTML no servidor. A diferença está em como, quando e por que fazem isso, e no nível de controle e abstração oferecido.
+
 <a href="https://phaser.io/"><img src="https://www.mundojs.com.br/wp-content/uploads/2019/11/phaserjs.png" height="77" align="right"></a>
 
 O <b>Phaser</b> é um dos maiores pacotes de criação de games (Engine) de JavaScript. Você utiliza o framework para desenvolver em Canvas e WebGL de maneira fácil, rápida e open-source.
