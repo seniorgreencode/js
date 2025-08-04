@@ -3323,7 +3323,13 @@ console.log(divisao(2,2));
 ```
 
 ## [JS] Global Objects
-Em JavaScript, **Global Objects** são objetos que estão disponíveis em qualquer parte do seu código, sem que você precise importá-los ou declará-los. Eles fazem parte do ambiente de execução (como o navegador ou o Node.js) e fornecem funcionalidades fundamentais da linguagem. São objetos disponíveis em todos os módulos. Veja abaixo:
+Em JavaScript, **Global Objects** são objetos que estão disponíveis em qualquer parte do seu código, sem que você precise importá-los ou declará-los. Eles fazem parte do ambiente de execução (como o navegador ou o Node.js) e fornecem funcionalidades fundamentais da linguagem. São objetos disponíveis em todos os módulos. 
+
+Principais características dos Global Objects:
+
+- Estão sempre acessíveis no escopo global.
+- Fornecem funções, objetos, valores e estruturas essenciais.
+- São definidos pela especificação ECMAScript (alguns são específicos do ambiente, como `window` no navegador e `global` no Node.js). Veja abaixo:
 
 Exemplos de Global Objects padrão (ECMAScript):
 
