@@ -1431,9 +1431,9 @@ Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observa
 Para utilizá-lo, precisamos inserir um comando no arquivo `package.json`:
 
 ```json
-  "scripts": {
-    "start": "nodemon index.js",
-  },
+"scripts": {
+  "start": "nodemon index.js",
+},
 ```
 
 Depois de instalar as dependências do projeto com: 
