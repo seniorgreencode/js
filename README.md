@@ -1428,6 +1428,27 @@ O comando `node --watch` não faz exatamente a mesma coisa que o Nodemon, embora
 
 Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observação de arquivos, o Nodemon vai além ao automatizar a reinicialização do servidor e oferecer uma gama mais ampla de opções de configuração, tornando-o uma escolha popular entre os desenvolvedores Node.js durante o desenvolvimento de aplicativos.
 
+Existe também uma forma de servir HTML pelo Express:
+
+[![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
+
+```javascript
+var express = require("express");
+var app = express;
+
+app.use(express.static(__dirname))
+
+app.listen(8080)
+```
+
+[![HTML5](https://img.shields.io/badge/-index.html-fff?style=social&logo=HTML5&logoColor=orange)](#)
+
+```html
+<html>
+  <h1>Hello, World!</h1>
+</html>
+```
+
 ## [JS] Socket.io
 <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://webrtc.org/?hl=pt-br"><img src="https://img.shields.io/badge/WebRTC-16.17.0-black?style=flat&logo=webrtc&logoColor=white"></a>
 
