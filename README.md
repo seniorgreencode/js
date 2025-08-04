@@ -247,7 +247,7 @@ Em 2023, surgiu uma inovação:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Pnpm_logo.svg" height="77" align="right">
 
-O **pnpm** cujo nome vem de "*Performant NPM*" é um gerenciador de pacotes para JavaScript, assim como o **npm** e o **yarn**, mas com foco em **eficiência, desempenho e economia de espaço em disco**. Ele é totalmente compatível com os arquivos `package.json` e `package-lock.json`, e pode ser usado como substituto direto do npm na maioria dos projetos.
+O **pnpm** cujo nome vem de "*Performant NPM*" é um gerenciador de pacotes para JavaScript, assim como o **npm** e o **yarn**, mas com foco em eficiência, desempenho e economia de espaço em disco. Ele é totalmente compatível com os arquivos `package.json` e `package-lock.json`, e pode ser usado como substituto direto do npm na maioria dos projetos.
 
 O principal diferencial do pnpm está na forma como ele armazena os pacotes. Em vez de duplicar as dependências em cada projeto (como o npm tradicional faz), o pnpm salva todos os pacotes em um **repositório central no sistema de arquivos (store)** e usa **links simbólicos** (symlinks) para apontar para eles em cada projeto. Isso resulta em:
 
