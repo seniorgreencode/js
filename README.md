@@ -1938,6 +1938,20 @@ console.log(array) // [ 'a', 'b', 'c' ]
 console.log(string) // a-b-c 
 ```
 
+Exemplo 4: Contando o tamanho do array (Quantos itens dentro do array)
+
+```javascript
+const animals = [
+  "Elephant",
+  "Lion",
+  "Tiger",
+  "Sheep",
+  "Bear"
+];
+
+console.log(animals.map(animals => animals.length));
+```
+
 # 📜 [JS] Objects
 Um **object** em JavaScript é um tipo de dado composto pelos outros tipos. Com ele, podemos organizar informações relacionadas em uma variável e os dados do objeto são acessados pelas propriedades desses objetos. Na criação, um objeto vazio é bem simples de criar `{ }`. 
 
