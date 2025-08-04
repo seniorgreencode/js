@@ -713,6 +713,7 @@ Essa abordagem permite que você reutilize elementos estáticos da página da We
 
 Portanto, uma das vantagens do Template Engine é a segurança adicional para personalização do usuário final. Os temas em PHP puro têm capacidade irrestrita de causar danos a um usuário e sua instalação. Assim, um template engine remove esse risco, se for bom e a facilidade de uso para não programadores, como artistas gráficos ou web designers.
 
+> [!Important]
 > **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
 
 <a href="https://nodejs.org/en/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
