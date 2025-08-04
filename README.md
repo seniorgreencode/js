@@ -1684,9 +1684,9 @@ npm install express
 node index.js
 ```
 
-# 🐶 [JS] PugJS
+# 🦣 [JS] EJS - Embedded JavaScript Templating
 
-# [JS] EJS - Embedded JavaScript Templating
+# 🐶 [JS] PugJS
 
 # ☄️ [JS] Astro
 <img src="https://github.com/user-attachments/assets/72b70c4c-f9cb-4045-8b2a-d8aa4ac4d54c" height="77" align="right">
