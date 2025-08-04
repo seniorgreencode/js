@@ -1434,7 +1434,7 @@ Existe também uma forma de servir HTML pelo Express com Global Object:
 
 ```javascript
 var express = require("express");
-var app = express;
+var app = express();
 
 // Servindo arquivo estático pelo Express
 app.use(express.static(__dirname));
