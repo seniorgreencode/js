@@ -1428,7 +1428,7 @@ O comando `node --watch` não faz exatamente a mesma coisa que o Nodemon, embora
 
 Em resumo, enquanto `node --watch` fornece uma funcionalidade básica de observação de arquivos, o Nodemon vai além ao automatizar a reinicialização do servidor e oferecer uma gama mais ampla de opções de configuração, tornando-o uma escolha popular entre os desenvolvedores Node.js durante o desenvolvimento de aplicativos.
 
-Existe também uma forma de servir HTML pelo Express:
+Existe também uma forma de servir HTML pelo Express com Global Object:
 
 [![JS](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=yellow)](#)
 
