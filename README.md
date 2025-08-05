@@ -1487,7 +1487,7 @@ Podemos ainda estilizar nosso arquivo estático colocando CSS (folhas de estilo)
 </html>
 ```
 
-Com essa abordagem podemos construir e consumir APIs REST usando Express.
+Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end.
 
 ## [JS] Socket.io
 <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://webrtc.org/?hl=pt-br"><img src="https://img.shields.io/badge/WebRTC-16.17.0-black?style=flat&logo=webrtc&logoColor=white"></a>
