@@ -1487,7 +1487,9 @@ Podemos ainda estilizar nosso arquivo estático colocando CSS (folhas de estilo)
 </html>
 ```
 
-Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end. No front-end, o JavaScript com ou sem o auxílio de frameworks e bibliotecas, consome o recurso do endpoint do servidor back-end, podendo receber e enviar essas informações, e no back-end iremos criar nossos endpoints para consumo. E para fazermos a requisição do body da nossa API REST, utilizamos o `body-parser` é um que é um middleware do Node.js, tradicionalmente usado com o framework Express.js, que serve para processar o corpo das requisições HTTP (o `body`), transformando os dados enviados — geralmente em JSON, texto ou formulários URL-encoded — em objetos JavaScript acessíveis no `req.body`.
+Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end. No front-end, o JavaScript com ou sem o auxílio de frameworks e bibliotecas, consome o recurso do endpoint do servidor back-end, podendo receber e enviar essas informações, e no back-end iremos criar nossos endpoints para consumo. 
+
+E para fazermos a requisição do body da nossa API REST, utilizamos o `body-parser` é um que é um middleware do Node.js, tradicionalmente usado com o framework Express.js, que serve para processar o corpo das requisições HTTP (o `body`), transformando os dados enviados — geralmente em JSON, texto ou formulários URL-encoded — em objetos JavaScript acessíveis no `req.body`.
 
 Resumidamente:
 
