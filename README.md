@@ -1764,6 +1764,22 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 
 ## [JS] EJS - Embedded JavaScript Templating
 
+```javascript
+const express = require("express");
+const app = express("express");
+
+// Setting up EJS
+app.set("view engine", "ejs");
+
+app.get("/", (req,res) => {
+    res.send("Welcome!");
+});
+
+app.listen(8080,()=>{
+    console.log("App rodando");
+});
+```
+
 ## [JS] PugJS
 
 ## [JS] Socket.io
