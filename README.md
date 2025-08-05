@@ -1487,7 +1487,51 @@ Podemos ainda estilizar nosso arquivo estático colocando CSS (folhas de estilo)
 </html>
 ```
 
-Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end. No front-end, o JavaScript com ou sem o auxílio de frameworks e bibliotecas, consome o recurso do endpoint do servidor back-end, podendo receber e enviar essas informações, e no back-end iremos criar nossos endpoints para consumo.
+Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end. No front-end, o JavaScript com ou sem o auxílio de frameworks e bibliotecas, consome o recurso do endpoint do servidor back-end, podendo receber e enviar essas informações, e no back-end iremos criar nossos endpoints para consumo. E para fazermos a requisição do body da nossa API REST, utilizamos o `body-parser` é um que é um middleware do Node.js, tradicionalmente usado com o framework Express.js, que serve para processar o corpo das requisições HTTP (o `body`), transformando os dados enviados — geralmente em JSON, texto ou formulários URL-encoded — em objetos JavaScript acessíveis no `req.body`.
+
+Resumidamente:
+
+* `body-parser` é um middleware para processar `req.body` em aplicações Express.
+* **Não está descontinuado**, mas **foi incorporado ao Express** a partir da versão 4.16.0.
+* **Boa prática atual**: usar `express.json()` e `express.urlencoded()` diretamente.
+
+Por exemplo, ao enviar um formulário via `POST`, o `body-parser` permite que você acesse os dados do formulário desta forma:
+
+```js
+app.post('/form', (req, res) => {
+  console.log(req.body); // { nome: 'Isaac', idade: 30 }
+});
+```
+
+Ele é especialmente útil para requisições `POST`, `PUT` e `PATCH`, em que o cliente envia dados ao servidor.
+
+Exemplo básico de uso:
+
+```js
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+
+app.use(bodyParser.json()); // processa JSON
+app.use(bodyParser.urlencoded({ extended: true })); // processa dados de formulários
+
+app.post('/dados', (req, res) => {
+  console.log(req.body);
+  res.send('Dados recebidos');
+});
+```
+
+E o `body-parser` está descontinuado? Não exatamente, o `body-parser` ainda existe e pode ser usado, mas já está integrado ao Express a partir da versão 4.16.0. Ou seja, você não precisa mais instalar `body-parser` separadamente, pois pode usar os métodos nativos do `express`:
+
+```js
+const express = require('express');
+const app = express();
+
+app.use(express.json()); // substitui bodyParser.json()
+app.use(express.urlencoded({ extended: true })); // substitui bodyParser.urlencoded()
+```
+
+Assim, hoje em dia o uso do `body-parser` como pacote separado é considerado redundante, mas ele não foi oficialmente descontinuado. Ele ainda funciona, mas a prática moderna é usar os métodos nativos do Express, que fazem exatamente a mesma coisa.
 
 ## [JS] GraphQL
 <a href="https://graphql.org/"><img src="https://cdn.worldvectorlogo.com/logos/graphql-logo-2.svg" height="77" align="right"></a>
