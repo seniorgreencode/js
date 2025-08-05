@@ -1489,6 +1489,10 @@ Podemos ainda estilizar nosso arquivo estático colocando CSS (folhas de estilo)
 
 Com essa abordagem podemos construir e consumir APIs REST usando Express, servindo também de base para outras linguagens de programação back-end. No front-end, o JavaScript com ou sem o auxílio de frameworks e bibliotecas, consome o recurso do endpoint do servidor back-end, podendo receber e enviar essas informações, e no back-end iremos criar nossos endpoints para consumo.
 
+## [JS] EJS - Embedded JavaScript Templating
+
+## [JS] PugJS
+
 ## [JS] Socket.io
 <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://webrtc.org/?hl=pt-br"><img src="https://img.shields.io/badge/WebRTC-16.17.0-black?style=flat&logo=webrtc&logoColor=white"></a>
 
@@ -1744,10 +1748,6 @@ Em resumo, o AdonisJS é uma opção sólida para desenvolvedores que buscam um 
 npm install express
 node index.js
 ```
-
-# 🦣 [JS] EJS - Embedded JavaScript Templating
-
-# 🐶 [JS] PugJS
 
 # ☄️ [JS] Astro
 <img src="https://github.com/user-attachments/assets/72b70c4c-f9cb-4045-8b2a-d8aa4ac4d54c" height="77" align="right">
