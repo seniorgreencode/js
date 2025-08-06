@@ -378,7 +378,7 @@ var port = http.createServer().listen(8181);
 console.log(`Servidor rodando na porta ${port}`);
 ```
 
-A partir daí temos nosso servidor rodando, para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`. No entanto, e se eu quisesse rodar minha aplicação no browser? Eu deveria digitar o endereço na busca do navegador: http://localhost:8181 ou http://127.0.0.1:8181
+A partir daí temos nosso servidor rodando, lembrando que a porta do servidor é customizável, mas geralmente utilizamos o padrão `8080` ou `8181`. Para sair ou parar a execução da aplicação rodando, basta apertar as teclas `ctrl + c`. No entanto, e se eu quisesse rodar minha aplicação no browser? Eu deveria digitar o endereço na busca do navegador: http://localhost:8181 ou http://127.0.0.1:8181
 
 E então? Nada! Porque para ele rodar no navegador é preciso definir a requisição e resposta do nosso servidor no lado do cliente. Ou seja, aquela velha história de comunicação de cliente-servidor juntamente com o protocolo HTTP, portanto, precisamos definir isso no código, através de requisição (request) e resposta (response).
 
