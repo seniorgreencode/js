@@ -1835,7 +1835,7 @@ app.listen(8080,()=>{
 
 <a href="https://socket.io/"><img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" height="77" title="Site do Node.js" align="right"/></a>
 
-O **Socket.io** é uma biblioteca incrível que oferece uma conexão em tempo real orientada a eventos entre um cliente e um servidor, utilizando Websockets e outros protocolos e abordagens para garantir a capacidade de comunicação em tempo real e um aumento de desempenho ao lidar com milhares de conexões via socket, além de permitir o balanceamento de carga em múltiplos servidores.
+O **Socket.io** é uma biblioteca incrível que oferece uma conexão em tempo real bidirecional e orientada a eventos entre um cliente e um servidor, utilizando Websockets e outros protocolos e abordagens para garantir a capacidade de comunicação em tempo real e um aumento de desempenho ao lidar com milhares de conexões via socket, além de permitir o balanceamento de carga em múltiplos servidores.
 
 Socket.io, Pusher e Twilio são soluções voltadas para comunicação em tempo real, mas possuem abordagens, arquiteturas e propósitos distintos. O Socket.io é uma biblioteca open-source bastante usada no ecossistema Node.js para criar conexões em tempo real com base em WebSockets, mas também com fallback automático para outros transportes como long polling, garantindo maior compatibilidade com navegadores e estabilidade em redes instáveis. Ele é flexível, altamente personalizável e permite controle total do lado do servidor e do cliente, sendo ideal para desenvolvedores que precisam de uma solução robusta, de baixo nível e com liberdade para gerenciar a infraestrutura, além de permitir escalar horizontalmente usando Redis, Kubernetes ou balanceadores de carga.
 
