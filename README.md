@@ -1839,6 +1839,10 @@ O **Socket.io** é uma biblioteca incrível que oferece uma conexão em tempo re
 
 O Socket.io tem duas partes: a biblioteca do lado do cliente (browser) e a biblioteca do lado do servidor (Node.js ou qualquer linguagem de programação com o suporte devido), ambas tem uma API que é quase idêntica e orientada a eventos.
 
+```sh
+npm install socket.io
+```
+
 O Socket.io, Pusher e Twilio são soluções voltadas para comunicação em tempo real, mas possuem abordagens, arquiteturas e propósitos distintos. O Socket.io é uma biblioteca open-source bastante usada no ecossistema Node.js para criar conexões em tempo real com base em WebSockets, mas também com fallback automático para outros transportes como long polling, garantindo maior compatibilidade com navegadores e estabilidade em redes instáveis. Ele é flexível, altamente personalizável e permite controle total do lado do servidor e do cliente, sendo ideal para desenvolvedores que precisam de uma solução robusta, de baixo nível e com liberdade para gerenciar a infraestrutura, além de permitir escalar horizontalmente usando Redis, Kubernetes ou balanceadores de carga.
 
 Já o <a href="https://pusher.com/">Pusher</a> é uma plataforma como serviço (PaaS) especializada em comunicação em tempo real, com foco em simplicidade e velocidade de implementação. Ele abstrai toda a complexidade do uso de WebSockets e oferece canais públicos, privados e de presença, junto com dashboards prontos, segurança embutida e SDKs para diversas linguagens. Por ser uma solução hospedada, o Pusher é ideal para quem não quer se preocupar com a infraestrutura e deseja colocar uma funcionalidade como chat, notificações ou colaboração ao vivo rapidamente em produção. No entanto, ele tem limitações no plano gratuito e pode se tornar caro à medida que o uso aumenta, além de depender totalmente da infraestrutura da empresa fornecedora.
