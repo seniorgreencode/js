@@ -1851,7 +1851,46 @@ O <a href="https://www.twilio.com/pt-br">Twilio</a>, por outro lado, é mais con
 
 Em termos de eficiência bruta para real-time baseado em WebSockets, o Socket.io é o mais leve e flexível, especialmente quando você controla o backend. Ele permite ajustes finos de performance e escala bem horizontalmente. Já o Pusher sacrifica um pouco de performance em prol da facilidade de uso, mas ainda assim é bastante rápido e confiável. O Twilio é o mais completo em termos de funcionalidades de comunicação, mas também o mais complexo e com mais overhead para casos onde apenas WebSockets são necessários. Assim, a escolha depende do contexto: para máxima performance e controle, Socket.io; para agilidade de entrega e facilidade, Pusher; e para soluções empresariais robustas e integradas, Twilio.
 
-De modo geral, todos sabem que as mensagens, textos, imagens e outros arquivos enviados via requisição e resposta do modelo cliente-servidor são feitos através de APIs REST, além disso, implementamos bancos de dados para o gerenciamento desses conteúdos na nossa aplicação para recuperarmos esses dados.
+De modo geral, todos sabem que as mensagens, textos, imagens e outros arquivos enviados são via requisição e resposta do modelo cliente-servidor utilizando o protocolo HTTP que são usados através de APIs REST. Além disso, implementamos bancos de dados para o gerenciamento desses conteúdos na nossa aplicação para recuperarmos esses dados.
+
+Back-end: Node.js + Express
+
+```javascript
+var express = require("express");
+const bodyParser = require('body-parser');
+var app = express();
+var http = require("http").Server(app);
+var io = require("socket.io")(http);
+
+// Middleware to serve static files from the current directory
+app.use(express.static(__dirname))
+
+// Sending messages in JSON format
+var messages = [{name: "", message: ""}];
+
+app.get("/messages", (req, res) => {
+  res.send(messages);
+});
+
+// Middleware to parse JSON bodies
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.post("/messages", (req, res) => {
+  console.log(req.body);
+  io.emit("message", req.body); // Emit the message to all connected clients
+  messages.push(req.body);
+  res.sendStatus(200); // OK
+});
+io.on("connection", (socket) => {
+  console.log("A user connected");  
+});
+
+// Definindo a porta junto com uma função callback
+var server = http.listen(8080, () => {
+  console.log("Server is listening on port", server.address().port);
+})
+```
 
 E existem também APIs e bibliotecas voltadas para chat e comunicação em tempo real desenvolvidas ou integráveis com linguagens como Rust, Erlang e Elixir, principalmente por conta da alta concorrência, baixa latência e capacidade de escalabilidade que essas linguagens oferecem. No caso do Elixir, por exemplo, há o Phoenix Framework com seu módulo **Phoenix Channels**, que é uma das soluções mais poderosas e eficientes para WebSockets e aplicações em tempo real. Ele é construído sobre o Erlang/OTP, o que garante resiliência, distribuição nativa e excelente desempenho mesmo com milhares de conexões simultâneas. Com Phoenix Channels, é possível desenvolver chats, painéis em tempo real, notificações e até integrações multiplayer de forma fluida, segura e escalável, além de contar com o Phoenix Presence para rastrear usuários conectados de forma distribuída.
 
