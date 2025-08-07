@@ -1892,6 +1892,59 @@ var server = http.listen(8080, () => {
 })
 ```
 
+Front-end: Vanilla JS + jQuery + AJAX
+
+```html
+<script src="/socket.io/socket.io.js"node></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script type="text/javascript">
+      // 5. Initialize socket.io
+      var socket = io();
+      // 1. Add and get messages
+      $(() => {
+          $('#send').click((event) => {
+            event.preventDefault(); // Prevent form submission (2x undefined error!)
+              var message = {name: $('#name').val(), message: $('#message').val()};
+              // const name = message.name;
+              postMessage(message);
+          });
+        getMessages();
+      });
+      // 6. Listen for messages from the server
+      socket.on("message", addMessages);
+
+      // 2. Add message to messages div function
+      function addMessages(message){
+        $('#messages').append(`<h4>${message.name}</h4> <p>${message.message}</p>`);
+      }
+
+      // 3. Get messages from server function
+      function getMessages(){
+        $.get("/messages", (data) => {
+          data.forEach(addMessages);
+        });
+      }
+
+      // 4. Send message to server function (From UI)
+      function postMessage(message){
+        // Alerts
+          // if (name) {
+                $.ajax({
+                  url: "/messages",
+                  type: "POST",
+                  contentType: "application/json",
+                  data: JSON.stringify(message),
+                  // success: function(data){
+                  //   addMessages(message);
+                  // }
+                });
+          // } else {
+          //   $('#messages').append(`<div class="alert alert-danger">Please enter a name</div>`);
+          // }
+      }
+  </script>
+```
+
 E existem também APIs e bibliotecas voltadas para chat e comunicação em tempo real desenvolvidas ou integráveis com linguagens como Rust, Erlang e Elixir, principalmente por conta da alta concorrência, baixa latência e capacidade de escalabilidade que essas linguagens oferecem. No caso do Elixir, por exemplo, há o Phoenix Framework com seu módulo **Phoenix Channels**, que é uma das soluções mais poderosas e eficientes para WebSockets e aplicações em tempo real. Ele é construído sobre o Erlang/OTP, o que garante resiliência, distribuição nativa e excelente desempenho mesmo com milhares de conexões simultâneas. Com Phoenix Channels, é possível desenvolver chats, painéis em tempo real, notificações e até integrações multiplayer de forma fluida, segura e escalável, além de contar com o Phoenix Presence para rastrear usuários conectados de forma distribuída.
 
 No universo Erlang puro, frameworks como **Cowboy** e libraries específicas como `gun` e `ranch` oferecem baixo nível para lidar com conexões HTTP/WebSocket, e apesar de exigirem mais configuração manual, são altamente confiáveis e utilizados em sistemas críticos que exigem uptime elevado. Erlang, com sua arquitetura baseada em atores e mensagens assíncronas, continua sendo uma base sólida para backends de comunicação, sendo inclusive usado internamente por empresas como WhatsApp e Ericsson para sistemas de altíssima disponibilidade e tráfego.
