@@ -1828,7 +1828,9 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 
 Um **Template Engine** é um programa responsável por compilar um template (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no template que está compilando.
 
-O PHP não é um template engine, mas uma linguagem de programação que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles. Os Templates Engine compilam para php nativo, portanto, não há nada a perder e muito a ganhar usando um template engine. Se você olhar para qualquer Template Engine moderno, como smarty ou twig, verá que eles compilam os modelos para fonte php, de modo que a saída seja a mesma como se você tivesse feito a página em php manualmente. Mas os templates engine sabem como compilar a página php melhor do que uma pessoa, pois os templates engine são mantidos por milhares de pessoas.
+O PHP não é um template engine, mas uma linguagem de programação que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles. 
+
+Os Templates Engine compilam para php nativo, portanto, não há nada a perder e muito a ganhar usando um template engine. Se você olhar para qualquer Template Engine moderno, como smarty ou twig, verá que eles compilam os modelos para fonte php, de modo que a saída seja a mesma como se você tivesse feito a página em php manualmente. Mas os templates engine sabem como compilar a página php melhor do que uma pessoa, pois os templates engine são mantidos por milhares de pessoas.
 
 Essa abordagem permite que você reutilize elementos estáticos da página da Web, enquanto define elementos dinâmicos com base em seus dados. Também facilita a separação de preocupações, mantendo a lógica do aplicativo isolada da lógica de exibição. É mais provável que você se beneficie de um Template Engine se seu site ou aplicativo da Web for orientado a dados - como um diretório de equipe para funcionários administrativos, uma loja da Web que lista vários produtos para os usuários comprarem ou um site com funcionalidade de pesquisa dinâmica. Você não precisará de um Template Engine se estiver buscando uma pequena quantidade de dados de uma API (nesse caso, você pode usar apenas as strings de modelo nativo do JavaScript) ou se estiver criando um pequeno site estático.
 
@@ -1836,6 +1838,8 @@ Portanto, uma das vantagens do Template Engine é a segurança adicional para pe
 
 > [!Important]
 > **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
+
+> Next.js, Astro, EJS, Pug e PHP compartilham a mesma raiz conceitual: gerar HTML no servidor. A diferença está em como, quando e por que fazem isso, e no nível de controle e abstração oferecido.
 
 <a href="https://ejs.co/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
 
@@ -1845,7 +1849,6 @@ A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito sem
 
 Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
 
-> Next.js, Astro, EJS, Pug e PHP compartilham a mesma raiz conceitual: gerar HTML no servidor. A diferença está em como, quando e por que fazem isso, e no nível de controle e abstração oferecido.
 Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`
 
 ```javascript
