@@ -2350,7 +2350,7 @@ O grande diferencial do Hono está na sua arquitetura voltada ao edge computing,
 
 Apesar de seu tamanho pequeno, Hono é extremamente poderoso e extensível. Ele permite o uso de middlewares personalizados, roteamento aninhado, suporte a CORS, autenticação e muito mais. É uma alternativa leve e moderna ao Express para quem trabalha com JavaScript moderno e deseja tirar proveito das plataformas serverless sem perder produtividade. Sua curva de aprendizado é baixa, especialmente para quem já tem familiaridade com frameworks baseados em middlewares, e sua performance rivaliza com os frameworks mais rápidos disponíveis hoje no mercado.
 
-# 🍙 [JS] Bun
+# 🥟 [JS] Bun
 <a href="https://bun.sh/"><img src="https://bun.sh/logo.svg" height="77" align="right"></a>
 
 **Bun** é um runtime de JavaScript e TypeScript extremamente rápido, projetado para ser uma alternativa moderna ao Node.js e Deno, com foco em desempenho, eficiência e simplificação do fluxo de trabalho de desenvolvimento. Desenvolvido por Jarred Sumner, o Bun foi criado para resolver algumas das ineficiências do Node.js, especialmente em termos de velocidade de inicialização, execução de scripts e gerenciamento de dependências. Uma das características mais marcantes do Bun é que ele é construído em Zig, uma linguagem de programação de baixo nível que prioriza desempenho e controle, e utiliza o motor JavaScript WebKit (em vez do V8, usado por Node.js e Deno), o que contribui para sua velocidade excepcional. Bun vem do inglês e significa "pãozinho / bolinho" típico da culinária oriental asiática japonesa ou chinesa.
