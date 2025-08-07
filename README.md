@@ -1535,6 +1535,10 @@ app.use(express.urlencoded({ extended: true })); // substitui bodyParser.urlenco
 
 Assim, hoje em dia o uso do `body-parser` como pacote separado é considerado redundante, mas ele não foi oficialmente descontinuado. Ele ainda funciona, mas a prática moderna é usar os métodos nativos do Express, que fazem exatamente a mesma coisa.
 
+<a href="https://www.npmjs.com/package/dotenv"><img src="https://github.com/user-attachments/assets/b9d8ba3c-32c4-42d9-b887-71c1ab1ca41d" height="77" align="right"></a>
+
+Quando estamos trabalhando com APIs e banco de dados, uma ferramenta indispensável são as **variáveis de ambiente**, que guardam os segredos da nossa aplicação como portas, senhas e etc. O **Dotenv** é um módulo sem dependências que carrega variáveis de ambiente de um arquivo `.env` para `process.env`. Armazenar a configuração no ambiente, separada do código, é baseado na metodologia The Twelve-Factor App.
+
 ## [JS] GraphQL
 <img src="https://img.shields.io/badge/Python-3.10.7-3776AB?style=flat&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Ruby-3.3-CC342D?style=flat&logo=Ruby&logoColor=white"> <img src="https://img.shields.io/badge/Go-1.21-00ADD8?style=flat&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=PHP&logoColor=white"> <img src="https://img.shields.io/badge/C++-23-F5455C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/Java-22.0.1-chocolate?style=flat&logo=OpenJDK&logoColor=white"> <img src="https://img.shields.io/badge/.NET-8.0.300-512BD4?style=flat&logo=DotNet&logoColor=white"> <img src="https://img.shields.io/badge/Rust-1.82.0-dda584?style=flat&logo=Rust&logoColor=white"> 
 
