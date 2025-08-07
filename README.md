@@ -1856,7 +1856,7 @@ const app = express("express");
 app.set("view engine", "ejs");
 
 app.get("/", (req,res) => {
-    res.send("Welcome!");
+    res.render("index");
 });
 
 app.listen(8080,()=>{
@@ -1864,7 +1864,7 @@ app.listen(8080,()=>{
 });
 ```
 
-Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`, só que não estamos utilizando HTML básico, mas sim com EJS, a extensão `.ejs`.
+Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`, só que não estamos utilizando HTML básico, mas sim com EJS, a extensão `.ejs`. E o Express renderiza esse arquivo com `res.render()`.
 
 ## [JS] PugJS
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
