@@ -2190,7 +2190,7 @@ npm install express
 node index.js
 ```
 
-# ☄️ [JS] Astro
+# ☄️ [JS] React vs Vue vs Angular vs Astro
 <img src="https://github.com/user-attachments/assets/72b70c4c-f9cb-4045-8b2a-d8aa4ac4d54c" height="77" align="right">
 
 **Astro** é um framework moderno de front-end voltado para a criação de sites rápidos, estáticos ou híbridos, que prioriza a performance através do conceito de “Island Architecture”. Ele permite que você construa páginas com conteúdo estático por padrão, mas com trechos interativos renderizados apenas quando necessário. A ideia central é enviar o mínimo de JavaScript possível para o navegador, o que resulta em experiências extremamente leves e rápidas.
