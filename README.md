@@ -1846,7 +1846,7 @@ A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito sem
 
 Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
 
-Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=ECD53F)](#)
 
 ```js
 const express = require("express");
@@ -1863,6 +1863,8 @@ app.listen(8080,()=>{
     console.log("App rodando");
 });
 ```
+
+Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`, só que não estamos utilizando HTML básico, mas sim com EJS, a extensão `.ejs`.
 
 ## [JS] PugJS
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
