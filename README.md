@@ -1824,6 +1824,28 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 - Union.
 
 ## [JS] EJS - Embedded JavaScript Templating
+<img src="https://user-images.githubusercontent.com/61624336/231615336-cf2c103c-a9b0-42be-a356-d2c0ccefeb74.svg" align="right" height="377">
+
+Um **Template Engine** é um programa responsável por compilar um template (que pode ser escrito usando qualquer uma das várias linguagens) em HTML. O Template Engine normalmente receberá dados de uma fonte externa, que injetará no template que está compilando.
+
+O PHP não é um template engine, mas uma linguagem de programação que pode ser usada para escrever templates ou templates engine. Um template engine não é apenas uma linguagem, mas também a API de programação que permite que os scripts localizem, organizem templates ou atribuam os dados do script a eles. Os Templates Engine compilam para php nativo, portanto, não há nada a perder e muito a ganhar usando um template engine. Se você olhar para qualquer Template Engine moderno, como smarty ou twig, verá que eles compilam os modelos para fonte php, de modo que a saída seja a mesma como se você tivesse feito a página em php manualmente. Mas os templates engine sabem como compilar a página php melhor do que uma pessoa, pois os templates engine são mantidos por milhares de pessoas.
+
+Essa abordagem permite que você reutilize elementos estáticos da página da Web, enquanto define elementos dinâmicos com base em seus dados. Também facilita a separação de preocupações, mantendo a lógica do aplicativo isolada da lógica de exibição. É mais provável que você se beneficie de um Template Engine se seu site ou aplicativo da Web for orientado a dados - como um diretório de equipe para funcionários administrativos, uma loja da Web que lista vários produtos para os usuários comprarem ou um site com funcionalidade de pesquisa dinâmica. Você não precisará de um Template Engine se estiver buscando uma pequena quantidade de dados de uma API (nesse caso, você pode usar apenas as strings de modelo nativo do JavaScript) ou se estiver criando um pequeno site estático.
+
+Portanto, uma das vantagens do Template Engine é a segurança adicional para personalização do usuário final. Os temas em PHP puro têm capacidade irrestrita de causar danos a um usuário e sua instalação. Assim, um template engine remove esse risco, se for bom e a facilidade de uso para não programadores, como artistas gráficos ou web designers.
+
+> [!Important]
+> **Curiosidade**: Com a popularidade do Pug.js, os desenvolvedores criaram um pré-processor HTML chamado de <a href="https://pughtml.com/">PugHTML</a> ou somente Pug. Assim como, o Sass/scss o pré-processador css, o Pug ajuda a escrever código HTML de forma mais simples, rápida e poderosa, eliminando o encadeamento de tags da linguagem de marcação HTML5. Além disso, qualquer código escrito em HTML poderá usar o Pug, como por exemplo: Node.js, Angular, React, Vue, PHP e Express.
+
+<a href="https://ejs.co/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js. Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
+
+A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor. Além disso, o PHP e EJS compartilham o objetivo comum de facilitar a renderização de conteúdo dinâmico em páginas web, eles diferem em suas abordagens, sintaxe e ecossistemas subjacentes.
+
+Um bom cenário para se usar Templates Engine seria nas áreas de login, cadastro de usuários, cadastro de admins, áreas de usuários e áreas de admin. Isso tudo com arquitetura monolítica e MVC (Model View Controller).
+
+> Next.js, Astro, EJS, Pug e PHP compartilham a mesma raiz conceitual: gerar HTML no servidor. A diferença está em como, quando e por que fazem isso, e no nível de controle e abstração oferecido.
 Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`
 
 ```javascript
@@ -1843,6 +1865,9 @@ app.listen(8080,()=>{
 ```
 
 ## [JS] PugJS
+<a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
+
+**Pug** é um Template Engine de alto desempenho fortemente influenciado por Haml e implementado com JavaScript para Node.js e navegadores com uma sintaxe sensível a espaços em branco para escrever HTML. Este projeto era conhecido anteriormente como "Jade". No entanto, foi revelado que "Jade" é uma marca registrada e como resultado, uma renomeação foi necessária. Após alguma discussão entre os mantenedores, "Pug" foi escolhido como o novo nome para este projeto. A partir da versão 2, "pug" é o nome oficial do pacote.
 
 ## [JS] Socket.io
 <img src="https://img.shields.io/badge/SocketIO-14.0.0-black?style=flat&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/Twilio-9.6.7-black?style=flat&logo=Twilio&logoColor=white"> <img src="https://img.shields.io/badge/Pusher-16.17.0-black?style=flat&logo=Pusher&logoColor=white"> <img src="https://img.shields.io/badge/Ignite_Realtime-16.17.0-black?style=flat&logo=apache-spark&logoColor=white"> <a href="https://webrtc.org/?hl=pt-br"><img src="https://img.shields.io/badge/WebRTC-16.17.0-black?style=flat&logo=webrtc&logoColor=white"></a>
