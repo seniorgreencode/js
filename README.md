@@ -1824,6 +1824,7 @@ Além dos tipos acima, o GraphQL ainda tem mais tipos básicos:
 - Union.
 
 ## [JS] EJS - Embedded JavaScript Templating
+Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`
 
 ```javascript
 const express = require("express");
