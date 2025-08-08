@@ -1876,9 +1876,7 @@ app.listen(8080,()=>{
 });
 ```
 
-Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`, só que não estamos utilizando HTML básico, mas sim com EJS, a extensão `.ejs`. E o Express renderiza esse arquivo com `res.render()` onde ele reconhece os arquivos de forma automática, mas se você quer processar todos os arquivos, basta criar uma pasta: `"principal/home"`, que ele irá interpretar esse diretório dentro da pasta `views`. 
-
-Dentro do arquivo EJS, a tag `<%= %>` significa exibir o valor da variável.
+Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto através da pasta `./views/`, só que não estamos utilizando HTML básico, mas sim com EJS, a extensão `.ejs`. E o Express renderiza esse arquivo com `res.render()` onde ele reconhece os arquivos de forma automática, mas se você quer processar todos os arquivos, basta criar uma pasta: `"principal/home"`, que ele irá interpretar esse diretório dentro da pasta `views`. Dentro do arquivo EJS, a tag `<%= %>` significa exibir o valor da variável.
 
 Podemos também exibir variáveis no nosso HTML:
 
