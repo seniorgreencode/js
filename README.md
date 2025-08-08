@@ -1547,6 +1547,10 @@ Assim, hoje em dia o uso do `body-parser` como pacote separado é considerado re
 
 Quando estamos trabalhando com APIs e banco de dados, uma ferramenta indispensável são as **variáveis de ambiente**, que guardam os segredos da nossa aplicação como portas, senhas, tokens e etc, sendo essenciais para a segurança do código. O **Dotenv** é um módulo sem dependências que carrega variáveis de ambiente de um arquivo `.env` para `process.env`. Armazenar a configuração no ambiente, separada do código, é baseado na metodologia The Twelve-Factor App.
 
+```sh
+npm i dotenv
+```
+
 Sintaxe:
 
 ```.env
