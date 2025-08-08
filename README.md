@@ -1870,6 +1870,8 @@ Obrigatoriamente, o EJS trabalha com o padrão de servir o HTML do nosso projeto
 
 Podemos também exibir variáveis no nosso HTML:
 
+[![index.js](https://img.shields.io/badge/-index.js-fff?style=social&logo=javascript&logoColor=ECD53F)](#)
+
 ```js
 const express = require("express");
 const app = express("express");
@@ -1890,6 +1892,12 @@ app.get("/", (req,res) => {
 app.listen(8080,()=>{
     console.log("App rodando");
 });
+```
+
+[![index.ejs](https://img.shields.io/badge/-index.ejs-crimson?style=social&logo=html5&logoColor=ECD53F)](#)
+
+```ejs
+
 ```
 
 ## [JS] PugJS
