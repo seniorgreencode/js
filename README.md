@@ -197,6 +197,10 @@ A principal função do `npx` é facilitar o uso de ferramentas de linha de coma
 
 Por exemplo, se você quiser executar um script que está contido em um pacote npm específico, você pode usar `npx` em vez de instalar globalmente o pacote ou instalá-lo localmente em seu projeto. Isso ajuda a evitar problemas de compatibilidade entre versões e mantém seu ambiente de desenvolvimento mais limpo.
 
+```sh
+npx nodemon
+```
+
 Além disso, o `npx` também pode ser usado para executar comandos de ferramentas que não estão necessariamente vinculadas ao npm, mas estão disponíveis no PATH do seu sistema. Isso é útil quando você precisa executar uma ferramenta de linha de comando que não está instalada globalmente ou localmente, mas pode ser encontrada em seu ambiente. 
 
 Gostaria de apresentar também alguns pacotes interessantes do NPM como:
@@ -1845,6 +1849,10 @@ Portanto, uma das vantagens do Template Engine é a segurança adicional para pe
 <a href="https://ejs.co/"><img src="https://www.svgrepo.com/show/373574/ejs.svg" height="77" title="Site do Node.js" align="right"/></a>
 
 O **EJS** (Embedded JavaScript Templating) é uma Template Engine que podemos utilizar com Node.js. Assim como vimos sobre o PUG, com a template engine nós podemos criar as páginas das nossas aplicações em Node.js de forma dinâmica sem depender das limitações do HTML.
+
+```sh
+npm install ejs --save
+```
 
 A grande diferença entre o EJS e o PUG é que o EJS segue uma sintaxe muito semelhante ao HTML, desta forma qualquer desenvolvedor que já conhece HTML não terá nenhuma dificuldade de trabalhar com o EJS, ao contrário do PUG que possuí algumas particularidades e que pode, no início, afetar a produtividade do desenvolvedor. Além disso, o PHP e EJS compartilham o objetivo comum de facilitar a renderização de conteúdo dinâmico em páginas web, eles diferem em suas abordagens, sintaxe e ecossistemas subjacentes.
 
