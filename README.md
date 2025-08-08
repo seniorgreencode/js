@@ -1897,6 +1897,22 @@ app.listen(8080,()=>{
 [![index.ejs](https://img.shields.io/badge/-index.ejs-crimson?style=social&logo=html5&logoColor=ECD53F)](#)
 
 ```ejs
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exemplo de documento HTML5 básico." />
+    <title>EJS</title>
+</head>
+<body>
+    <h1>Dados do colaborador:</h1>
+
+    <%= nome %>
+    <%= empresa %>
+    <%= lang %>
+</body>
+</html>
 
 ```
 
