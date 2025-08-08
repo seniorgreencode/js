@@ -1963,6 +1963,8 @@ app.listen(8080,()=>{
 </html>
 ```
 
+Você pode também utilizar estruturas de programação para tomadas de decisão, como estruturas condicionais e laços de repetição.
+
 ## [JS] PugJS
 <a href="https://nodejs.org/en/"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" height="77" title="Site do Node.js" align="right"/></a>
 
