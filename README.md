@@ -1560,6 +1560,18 @@ PASSWORD = ""
 USERNAME = ""
 ```
 
+Considere usar _dotenvx_ em vez de pré-carregar. Ele serve ao mesmo propósito (você não precisa exigir e carregar dotenv), adiciona melhor depuração e funciona com QUALQUER linguagem, estrutura ou plataforma. O **dotenvx** é uma ferramenta moderna e mais segura que o tradicional `.env`, criada pelo autor original do `dotenv`. Ela oferece suporte a múltiplos ambientes, é cross-platform e, acima de tudo, permite criptografar seus arquivos `.env`, protegendo informações sensíveis e reduzindo riscos de segurança.
+
+Principais funcionalidades:
+
+* **Execução simplificada**: Use `dotenvx run -- seu-comando` para carregar variáveis de forma segura, com suporte a ambientes como Node, Python, Go, e outros ([dotenvx][3]).
+* **Suporte a múltiplos ambientes**: Carregue arquivos como `.env.production`, `.env.local`, entre outros, com flexibilidade e via convenções como do Next.js ([dotenvx][3], [GitHub][4]).
+* **Criptografia integrada**: Você pode criptografar variáveis no `.env` usando uma chave pública. O arquivo `.env.keys`, que contém a chave privada, não precisa (e nem deve) ser commitado ao repositório ([dotenvx][5], [HayaGeek][2]).
+* **Ferramentas CLI úteis**: Comandos como `get`, `set`, `decrypt`, `encrypt`, e `run` ajudam a gerenciar variáveis e arquivos `.env` criptografados, oferecendo controle direto via terminal ([blog.cycaas.com][6], [dotenvx][7]).
+* **Adoção crescente**: Ferramenta leve, mas poderosa, já é usada por empresas como PayPal, NASA, AWS, Supabase, entre muitas outras ([dotenvx][1]).
+
+Vale a pena usar? Sim, especialmente se você busca uma forma prática de versionar `.env` com segurança, sem expor senhas ou tokens. O `dotenvx` combina a familiaridade do `.env` tradicional com criptografia, adaptando-se bem a workflows modernos e equipes que prezam por segurança.
+
 ## [JS] GraphQL
 <img src="https://img.shields.io/badge/Python-3.10.7-3776AB?style=flat&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Ruby-3.3-CC342D?style=flat&logo=Ruby&logoColor=white"> <img src="https://img.shields.io/badge/Go-1.21-00ADD8?style=flat&logo=Go&logoColor=white"> <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=PHP&logoColor=white"> <img src="https://img.shields.io/badge/C++-23-F5455C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/Java-22.0.1-chocolate?style=flat&logo=OpenJDK&logoColor=white"> <img src="https://img.shields.io/badge/.NET-8.0.300-512BD4?style=flat&logo=DotNet&logoColor=white"> <img src="https://img.shields.io/badge/Rust-1.82.0-dda584?style=flat&logo=Rust&logoColor=white"> 
 
