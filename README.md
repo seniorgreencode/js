@@ -675,6 +675,10 @@ O WebAssembly foi projetado para ser impresso em um formato textual para depura�
 
 O **AssemblyScript**, abreviado como **AS**, é uma linguagem de programação baseada em TypeScript que é otimizada e compilada estaticamente para WebAssembly. Assemelhando-se a ECMAScript e JavaScript, mas com tipos estáticos, a linguagem é desenvolvida pelo Projeto AssemblyScript com contribuições da comunidade AssemblyScript.
 
+```sh
+npm install -g assemblyscript
+```
+
 Em 2017, a disponibilidade de suporte para WebAssembly, uma definição padrão para um bytecode de baixo nível e uma máquina virtual associada , tornou-se difundida entre os principais navegadores da Web, fornecendo aos desenvolvedores da Web um alvo de compilação de nível inferior e potencialmente de alto desempenho para o lado do cliente programas e aplicativos para executar em navegadores da Web, além da linguagem de script da Web JavaScript interpretada (e na prática compilada dinamicamente ). O WebAssembly permite que programas e códigos sejam compilados estaticamente antes do tempo para serem executados em nível potencialmente nativo ou “desempenho bare-metal” em navegadores da Web, sem sobrecarga de interpretação ou latência inicial de compilação dinâmica.
 
 Com a adoção do WebAssembly nos principais navegadores da Web, Alon Zakai, criador do Emscripten , um compilador C e C++ baseado em LLVM / Clang que visava um subconjunto de JavaScript chamado asm.js , adicionou suporte para WebAssembly como destino de compilação no Emscripten, permitindo Programas e códigos C e/ou C++ a serem compilados diretamente no WebAssembly.
