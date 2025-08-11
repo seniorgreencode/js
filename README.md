@@ -643,7 +643,7 @@ Além da validação de tipos primitivos como string, number, boolean e array, Z
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
 
 # 🟦 [TS] AssemblyScript
-<img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="77" align="right">
+<a href="https://webassembly.org/"><img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="77" align="right"></a>
 
 O **WebAssembly**, abreviado como **Wasm**, é um formato de instrução binária para uma máquina virtual baseada em pilha. O Wasm foi projetado como um destino de compilação portátil para linguagens de programação, permitindo a implantação na Web para aplicativos de cliente e servidor. 
 
