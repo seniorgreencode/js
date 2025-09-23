@@ -5215,9 +5215,10 @@ Requisições feitas por polling, ou **polling** (a palavra correta em inglês),
 
 Abordamos a *arquitetura de polling* anteriormente, a agora passaremos a ver mais detalhes dessa implementação. Não, **requisições por polling** e a **chamada arquitetura de I/O baseada em polling** não são exatamente a mesma coisa, embora compartilhem a mesma ideia central: a técnica de verificar repetidamente se algo mudou ou está disponível. A diferença está no nível em que cada conceito atua.
 
-O *polling* é um conceito que pode ser utilizado em diversas situações, tais como controle de acesso à rede, gerenciamento de impressora, entre outros. Seu mecanismo consiste no processo de um computador central, ou dispositivo de controle, interrogar cada estação ou recurso existente que compõe o sistema verificando sua prontidão ou estado.
-
-Em outras palavras, polling, ou operação com polling, na ciência da computação, refere-se à amostragem ativa do status de um dispositivo externo por um programa cliente como uma atividade síncrona.
+> [!Important]
+> O *polling* é um conceito ou termo genérico que pode ser utilizado em diversas situações, tais como controle de acesso à rede, gerenciamento de impressora, entre outros. Seu mecanismo consiste no processo de um computador central, ou dispositivo de controle, interrogar cada estação ou recurso existente que compõe o sistema verificando sua prontidão ou estado.
+>
+> Em outras palavras, polling, ou operação com polling, na ciência da computação, refere-se à amostragem ativa do status de um dispositivo externo por um programa cliente como uma atividade síncrona.
 
 Esse sistema é mais frequentemente usado em termos de **entrada/saída (E/S)**; também é conhecido como **E/S com poll** ou **E/S orientada por software**. A sondagem às vezes é usada como sinônimo de sondagem em espera ocupada.
 
