@@ -5211,6 +5211,46 @@ No exemplo acima:
 ## [JS] Polling
 Requisições feitas por polling, ou **polling** (a palavra correta em inglês), referem-se a uma técnica de comunicação onde um cliente solicita regularmente ou em intervalos regulares informações de um servidor. O objetivo do polling é verificar se há novos dados ou atualizações disponíveis no servidor, são requisições constantes do cliente para o servidor. Esta abordagem é frequentemente usada quando não há uma maneira fácil de implementar uma comunicação bidirecional em tempo real entre cliente e servidor.
 
+Abordamos a **arquitetura de polling** anteriormente, a agora passaremos a ver mais detalhes dessa implementação.
+
+O *polling* é um conceito que pode ser utilizado em diversas situações, tais como controle de acesso à rede, gerenciamento de impressora, entre outros. Seu mecanismo consiste no processo de um computador central, ou dispositivo de controle, interrogar cada estação ou recurso existente que compõe o sistema verificando sua prontidão ou estado.
+
+Em outras palavras, polling, ou operação com polling, na ciência da computação, refere-se à amostragem ativa do status de um dispositivo externo por um programa cliente como uma atividade síncrona.
+
+Esse sistema é mais frequentemente usado em termos de **entrada/saída (E/S)**; também é conhecido como **E/S com poll** ou **E/S orientada por software**. A sondagem às vezes é usada como sinônimo de sondagem em espera ocupada.
+
+Nessa situação, quando uma operação de E/S é necessária, o computador não faz nada além de verificar o status do dispositivo de E/S até que ele esteja pronto, momento em que o dispositivo é acessado. Em outras palavras, o computador espera até que o dispositivo esteja pronto.
+
+> [!Note]
+> A sondagem também se refere à situação em que um recurso é testado continuamente quanto a sua prontidão. Caso não esteja, o computador retorna para uma tarefa diferente. Apesar de ser mais eficiente que a espera ocupada, não desperdiçando tantos ciclos de CPU, isso, geralmente, não é tão eficiente quanto a alternativa à E/S controlada por interrupção de polling, ou seja, com um dispositivo de hardware dedicado a esta tarefa.
+
+A grande desvantagem do mecanismo de polling é que se houverem muitos dispositivos no sistema ou rede, o tempo necessário para percorrer cada um dos dispositivos e voltar ao inicial será muito alto. A consequência é que pode exceder o tempo disponível para atender ao dispositivo de E/S.
+
+O mecanismo de polling pode ser descrito nas seguintes etapas:
+
+Ações da estação:
+1. A estação verifica continuamente o bit de ocupado até que ele se torne livre, por exemplo, quando o bit assumir o valor `0`;
+2. Estando o bit marcado como livre, a estação escreve o comando no registro de comando. Caso o host esteja **enviando dados para a saída**, ele irá marcar o bit de gravação e enviar um byte de dados para o registrador de saída de dados. Caso a estação esteja recebendo dados, ela irá ler o registrado de entrada de dados e define o bit de leitura para `0` como o próximo comando;
+3. A estação irá definir o bit de pronto para comando (command-ready) para `1`.
+
+Ações do controlador:
+1. Quando o controlador verificar que o bit command-ready está definido, ele configura o bit ocupado como `1`.
+2. O controlador irá ler o registro de comando. Caso o bit de gravação interno estiver definido, ele lê os dados do registrador de saída e executa as operações de E/S necessárias no dispositivo. Caso o bit de leitura esteja definido, os dados do dispositivo serão carregados no registro de entrada de dados para que a estação possa ler.
+3. Quando terminarem as operações, o controlador libera o bit command-ready, limpa o bit de erro para mostrar que a operação foi bem-sucedida e libera o bit ocupado.
+
+O **ciclo de polling** pode ser definido como o tempo que leva para, após ter sido consultado em dado momento, o ciclo receba uma nova consulta. O tempo ideal para cada ciclo depende de vários aspectos, tais como, retardo esperado para cada componente responder e a sobrecarga, por exemplo, tempo do processador e largura de banda da pesquisa.
+
+Na votação nominal (_roll call polling_), o controlador irá consultar cada recurso em uma lista em uma sequência fixa. Neste tipo de polling, é necessário que seja configurado um mecanismo de temporização para aguardar a resposta de cada recurso que foi consultado, evitando travamentos do sistema caso ele não responda. Esse tipo de votação pode ser ineficiente caso haja muitos elementos a serem consultados, sendo poucos ativos e, também, caso a sobrecarga para as mensagens de consulta seja alta.
+
+No _hub polling_, ou _token polling_, cada recurso pesquisa pelo próximo recurso em uma determinada sequência fixa, até que o primeiro recurso dessa sequência seja alcançado. E quando isso ocorre, o ciclo de polling começa novamente.
+
+> [!Warning]
+> O mecanismo de polling é empregado em diversas situações na área de computação, principalmente para controlar a execução ou a sequência de transmissão dos elementos envolvidos.
+
+Por exemplo, em sistemas operacionais multitarefa, pode ser utilizado para que vários processos concorrentes possam disputar o uso do processador ou de dispositivos de E/S.
+
+Outro exemplo seria na área de redes, quando o canal de comunicação é compartilhado entre diversos dispositivos. Para que não ocorra colisão, é necessário que seja empregado um mecanismo de controle de acesso ao meio, dentre eles o polling. Uma estação mestre irá interrogar as estações escravas para que possam transmitir as informações por meio do canal.
+
 Como funciona o Polling:
  1. **Intervalos Regulares**: O cliente faz uma requisição ao servidor em intervalos regulares de tempo (por exemplo, a cada 5 segundos).
  2. **Resposta do Servidor**: O servidor processa a requisição e retorna os dados atuais para o cliente.
