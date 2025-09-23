@@ -5269,7 +5269,33 @@ Como funciona o Polling:
 
 Existem dois tipos principais de polling:
 
-**Short Polling**: O cliente faz requisições frequentes ao servidor, normalmente em intervalos de tempo muito curtos. Isso pode sobrecarregar o servidor e a rede devido ao grande número de requisições.
+**Short Polling**: O cliente faz requisições frequentes ao servidor, normalmente em intervalos de tempo muito curtos (cada 5 segundos). Isso pode sobrecarregar o servidor e a rede devido ao grande número de requisições. Exemplo:
+
+```javascript
+  setInterval(async () => {
+     const response = await fetch('/api/status');
+     const data = await response.json();
+     console.log(data);
+   }, 5000); // Requisição a cada 5 segundos
+```
+
+**Long Polling**: O cliente faz uma requisição ao servidor e, se não houver novos dados, o servidor mantém a conexão aberta por um determinado período de tempo, esperando por novas informações. Quando há novos dados, o servidor envia uma resposta e o cliente faz imediatamente outra requisição. Isso reduz a carga no servidor e na rede comparado ao short polling. Exemplo:
+
+```javascript
+const longPolling = async () => {
+     try {
+       const response = await fetch('/api/status');
+       const data = await response.json();
+       console.log(data);
+       longPolling(); // Chama a função novamente após receber a resposta
+     } catch (error) {
+       console.error('Polling error:', error);
+       setTimeout(longPolling, 5000); // Tenta novamente após 5 segundos em caso de erro
+     }
+   };
+
+longPolling();
+```
 
 # 📜 [JS] Cookies e LocalStorage
 **Cookies** e **LocalStorage** são duas formas de armazenamento no lado do cliente disponíveis em JavaScript para persistência de dados entre sessões ou durante a navegação no browser, como banco de dados no lado do cliente pelo navegador. Ambos permitem que desenvolvedores salvem informações no navegador do usuário, mas possuem diferenças significativas em relação à capacidade, escopo, acessibilidade e finalidade de uso.
