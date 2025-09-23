@@ -5297,6 +5297,35 @@ const longPolling = async () => {
 longPolling();
 ```
 
+Vantagens:
+
+- Simples de Implementar: Polling é fácil de entender e implementar.
+- Compatibilidade: Funciona com quase todos os tipos de servidores e clientes.
+
+Desvantagens:
+
+- Ineficiente: Pode ser ineficiente, especialmente o short polling, devido ao grande número de requisições que podem sobrecarregar o servidor e a rede.
+- Latência: Pode introduzir latência, pois as atualizações não são em tempo real, especialmente se os intervalos de polling forem longos.
+- Consumo de Recursos: Manter conexões abertas por longos períodos (no caso de long polling) pode consumir recursos significativos no servidor.
+
+Existem alternativas mais eficientes ao polling para comunicação em tempo real entre cliente e servidor:
+
+**WebSockets**: Permitem comunicação bidirecional em tempo real entre cliente e servidor, mantendo uma única conexão aberta. Funciona como se fosse um cano entre cliente e servidor. É um cliente conectado no servidor em tempo real.
+
+Exemplo:
+
+```javascript
+const socket = new WebSocket('ws://example.com/socket');
+
+socket.onmessage = (event) => {
+  console.log('Message from server:', event.data);
+};
+
+socket.send('Hello Server!');
+```
+
+**Server-Sent Events (SSE)** permitem que o servidor envie atualizações para o cliente através de uma conexão HTTP única e persistente.
+
 # 📜 [JS] Cookies e LocalStorage
 **Cookies** e **LocalStorage** são duas formas de armazenamento no lado do cliente disponíveis em JavaScript para persistência de dados entre sessões ou durante a navegação no browser, como banco de dados no lado do cliente pelo navegador. Ambos permitem que desenvolvedores salvem informações no navegador do usuário, mas possuem diferenças significativas em relação à capacidade, escopo, acessibilidade e finalidade de uso.
 
