@@ -5208,6 +5208,18 @@ No exemplo acima:
 - `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
+## [JS] Polling
+Requisições feitas por polling, ou **polling** (a palavra correta em inglês), referem-se a uma técnica de comunicação onde um cliente solicita regularmente ou em intervalos regulares informações de um servidor. O objetivo do polling é verificar se há novos dados ou atualizações disponíveis no servidor, são requisições constantes do cliente para o servidor. Esta abordagem é frequentemente usada quando não há uma maneira fácil de implementar uma comunicação bidirecional em tempo real entre cliente e servidor.
+
+Como funciona o Polling:
+ 1. **Intervalos Regulares**: O cliente faz uma requisição ao servidor em intervalos regulares de tempo (por exemplo, a cada 5 segundos).
+ 2. **Resposta do Servidor**: O servidor processa a requisição e retorna os dados atuais para o cliente.
+ 3. **Repetição**: O cliente continua a fazer essas requisições repetidamente em intervalos definidos.
+
+Existem dois tipos principais de polling:
+
+**Short Polling**: O cliente faz requisições frequentes ao servidor, normalmente em intervalos de tempo muito curtos. Isso pode sobrecarregar o servidor e a rede devido ao grande número de requisições.
+
 # 📜 [JS] Cookies e LocalStorage
 **Cookies** e **LocalStorage** são duas formas de armazenamento no lado do cliente disponíveis em JavaScript para persistência de dados entre sessões ou durante a navegação no browser, como banco de dados no lado do cliente pelo navegador. Ambos permitem que desenvolvedores salvem informações no navegador do usuário, mas possuem diferenças significativas em relação à capacidade, escopo, acessibilidade e finalidade de uso.
 
