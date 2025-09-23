@@ -5209,9 +5209,11 @@ No exemplo acima:
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
 ## [JS] Polling
+<img height="377" align="right" src="https://github.com/user-attachments/assets/cbb0a156-b2c2-49fb-bb44-492622bd502f" />
+
 Requisições feitas por polling, ou **polling** (a palavra correta em inglês), referem-se a uma técnica de comunicação onde um cliente solicita regularmente ou em intervalos regulares informações de um servidor. O objetivo do polling é verificar se há novos dados ou atualizações disponíveis no servidor, são requisições constantes do cliente para o servidor. Esta abordagem é frequentemente usada quando não há uma maneira fácil de implementar uma comunicação bidirecional em tempo real entre cliente e servidor.
 
-Abordamos a **arquitetura de polling** anteriormente, a agora passaremos a ver mais detalhes dessa implementação.
+Abordamos a *arquitetura de polling* anteriormente, a agora passaremos a ver mais detalhes dessa implementação. Não, **requisições por polling** e a **chamada arquitetura de I/O baseada em polling** não são exatamente a mesma coisa, embora compartilhem a mesma ideia central: a técnica de verificar repetidamente se algo mudou ou está disponível. A diferença está no nível em que cada conceito atua.
 
 O *polling* é um conceito que pode ser utilizado em diversas situações, tais como controle de acesso à rede, gerenciamento de impressora, entre outros. Seu mecanismo consiste no processo de um computador central, ou dispositivo de controle, interrogar cada estação ou recurso existente que compõe o sistema verificando sua prontidão ou estado.
 
