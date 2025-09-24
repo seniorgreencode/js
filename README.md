@@ -4801,9 +4801,6 @@ Do ponto de vista de testes de software, como você comentou, esse cuidado é ai
 
 Ou seja, podemos dizer que a programação assíncrona sem tratamento robusto de exceções não é só incompleta, mas também perigosa, porque anula justamente a confiabilidade que se espera desse paradigma.
 
-Quer que eu amarre isso numa redação mais “acadêmica”, como se fosse um trecho de artigo técnico, para você usar em contexto formal?
-
-
 Imagina se cada vez que você rolasse a página do Instagram, enquanto ela estivesse baixando as novas publicações todo o aplicativo travasse, seria uma experiência horrorosa que não queremos para os nossos usuários. Isso aconteceria caso o download fosse executado de forma síncrona, o aplicativo todo estaria esperando pela resposta daquele download e não conseguiríamos realizar nenhuma ação até essa execução ser concluída.
 
 No dia-a-dia do desenvolvimento web, utilizamos muito (e cada vez mais) dados externos - por exemplo, recebidos através de um endpoint de uma API REST (um microserviço) ou resultados de algum outro processamento. Ou seja, quando isso ocorre o sistema tem que esperar os dados "chegarem" antes de utilizar esse resultado. Costumamos chamar de programação assíncrona o ato de executar uma tarefa em "segundo plano", sem nosso controle direto disso. Sem explicitamente trabalhar com threads e coordená-las. Escrevendo basicamente da forma tradicional que temos. Porém, é importante frisar o comportamento do JavaScript de "executar uma coisa por vez". Com isso em mente o assíncrono no JavaScript vai separar seu código em duas partes: coisas que rodam agora, coisas que vão rodar depois de algo acontecer.
