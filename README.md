@@ -4789,9 +4789,20 @@ O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra du
  
 <img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
 
-O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente. Esse paradigma é amplamente utilizado para requisições e respostas de APIs, pois seu fluxo é de alta performance e menos suscetível a erros e falhas.
+O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente. Esse paradigma é amplamente utilizado para requisições e respostas de APIs, pois seu fluxo é menos suscetível a erros e falhas.
 
 Na ilustração do lado direito, cada cor indica um processo sendo realizado, e a partir dela conseguimos ver como o tempo de execução da aplicação fica pouco eficiente nas chamadas **síncronas**. Também é possível perceber porque há um bloqueio de thread, pois a aplicação fica aguardando uma função acabar completamente para só assim chamar a próxima. 
+
+O paradigma assíncrono, por natureza, lida com operações que dependem de fatores externos (rede, banco de dados, I/O, API de terceiros etc.), e isso significa que **o risco de falhas é inerente**. Por isso, ele quase sempre vem acompanhado de **tratamento de exceções** e **estratégias de fallback**.
+
+No caso do JavaScript, por exemplo, quando usamos `async/await`, qualquer exceção disparada dentro de uma função assíncrona pode ser capturada com `try/catch`, garantindo que erros não quebrem o fluxo do programa. Essa disciplina não é apenas uma questão de boas práticas: é essencial para **confiabilidade**.
+
+Do ponto de vista de testes de software, como você comentou, esse cuidado é ainda mais relevante. Em testes unitários, precisamos garantir que não apenas o "caminho feliz" (quando a API responde corretamente) funcione, mas também que erros sejam tratados da forma esperada: tempo de espera estourado, resposta malformada, indisponibilidade do servidor. Nesse cenário, programar de forma assíncrona exige que o desenvolvedor antecipe esses casos e valide que o sistema responde com a devida ordem, consistência e previsibilidade.
+
+Ou seja, podemos dizer que a programação assíncrona sem tratamento robusto de exceções não é só incompleta, mas também perigosa, porque anula justamente a confiabilidade que se espera desse paradigma.
+
+Quer que eu amarre isso numa redação mais “acadêmica”, como se fosse um trecho de artigo técnico, para você usar em contexto formal?
+
 
 Imagina se cada vez que você rolasse a página do Instagram, enquanto ela estivesse baixando as novas publicações todo o aplicativo travasse, seria uma experiência horrorosa que não queremos para os nossos usuários. Isso aconteceria caso o download fosse executado de forma síncrona, o aplicativo todo estaria esperando pela resposta daquele download e não conseguiríamos realizar nenhuma ação até essa execução ser concluída.
 
@@ -4811,6 +4822,12 @@ O ponto-chave é que, em JavaScript, mesmo que o código seja escrito de forma s
 <img src="https://github.com/user-attachments/assets/14d54da9-74d8-496c-9b53-68ac5458feae" align="right" height="77">
 
 A **concorrência** (<a href="">Concurrency</a>) é a mistura de código assíncrono com programação paralela, que é forma de computação em que vários cálculos são realizados ao mesmo tempo. A programação concorrente, ou concurrency, é a habilidade de executar diferentes partes de um programa ao mesmo tempo e sem uma ordem estrita, de forma que isso não afete o resultado final. A ilustração ao lado mostra a execução de duas funções ao mesmo tempo, a função 1 e 2, veja que há momentos em que a primeira função está sendo executada e há momento que a segunda está sendo executada e essa alternância ocorre mesmo sem as funções terem finalizado sua execução. O que acontece aqui é que há momentos na execução dessas funções onde elas precisaram executar tarefas que podem ser demoradas como uma requisição de API por exemplo, e para que haja uma otimização dos recursos, a função libera a thread para outras funções serem executadas, enquanto ela aguarda a resposta da requisição.
+
+O paradigma **assíncrono** realmente é amplamente utilizado em requisições de APIs, principalmente em ambientes web, porque permite que o programa continue executando outras tarefas enquanto espera a resposta. Isso traz um ganho enorme em **responsividade** e **eficiência**, já que a thread principal não fica bloqueada, como ocorreria em uma abordagem síncrona clássica.
+
+Sobre ser "de alta performance", é verdade que a programação assíncrona melhora bastante o **uso eficiente de recursos**, mas não significa necessariamente que a operação em si (ex.: tempo de rede, latência da API) será mais rápida. O que melhora é a capacidade de lidar com **muitas requisições concorrentes** sem travar o sistema.
+
+Quanto a ser "menos suscetível a erros e falhas", também há um ponto: o modelo assíncrono não reduz diretamente a quantidade de erros, mas ele **isola falhas** de uma operação sem derrubar todo o fluxo. Por exemplo, se uma chamada de API falhar, o event loop ainda consegue continuar processando outras tarefas. Então, ele torna o sistema **mais resiliente** a falhas de bloqueio, mas a lógica de tratamento de erros ainda precisa ser bem implementada.
 
 Utilizamos do recursos do assincronismo, quando precisamos esperar pela resposta de uma chamada de função. Com programação síncrona, enquanto esperamos essa resposta iremos bloquear uma `thread`, ou seja, nossa aplicação fica ocupada esperando, já com uma chamada assíncrona, conseguimos liberar a thread para realizar outras ações enquanto aguardamos um resultado. Trabalhando com front-end, vemos que uma boa parte do que ocorre no âmbito do navegador é <a href="">event-driven</a>. Ou seja, o código aguarda algum evento acontecer (por exemplo, o usuário clicar em um botão) antes de executar qualquer código. Outros exemplos de eventos, além de clique do mouse, são toque na tela, determinada tecla ser pressionada, o cursor do mouse passar em cima de algum elemento, etc). Mas, para além destas interações do usuário com a interface, há muitas outras situações que podem ser síncronas ou assíncronas.
 
