@@ -5223,6 +5223,8 @@ Requisições feitas por polling, ou **polling** (a palavra correta em inglês),
 
 Abordamos a *arquitetura de polling* anteriormente, a agora passaremos a ver mais detalhes dessa implementação. Não, **requisições por polling** e a **chamada arquitetura de I/O baseada em polling** não são exatamente a mesma coisa, embora compartilhem a mesma ideia central: a técnica de verificar repetidamente se algo mudou ou está disponível. A diferença está no nível em que cada conceito atua.
 
+Polling é uma técnica útil e simples para verificar atualizações no servidor, mas pode ser ineficiente e consumir muitos recursos. Alternativas como WebSockets, SSE, e GraphQL Subscriptions são mais eficientes para comunicação em tempo real e são recomendadas quando há necessidade de atualizações frequentes ou imediatas entre cliente e servidor.
+
 > [!Important]
 > O *polling* é um conceito ou termo genérico que pode ser utilizado em diversas situações, tais como controle de acesso à rede, gerenciamento de impressora, entre outros. Seu mecanismo consiste no processo de um computador central, ou dispositivo de controle, interrogar cada estação ou recurso existente que compõe o sistema verificando sua prontidão ou estado.
 >
@@ -5325,6 +5327,18 @@ socket.send('Hello Server!');
 ```
 
 **Server-Sent Events (SSE)** permitem que o servidor envie atualizações para o cliente através de uma conexão HTTP única e persistente.
+
+Exemplo:
+
+```javascript
+const eventSource = new EventSource('/api/events');
+
+eventSource.onmessage = (event) => {
+  console.log('New event:', event.data);
+};
+```
+
+**GraphQL Subscriptions**: Permitem receber atualizações em tempo real quando os dados em um servidor GraphQL são alterados.
 
 # 📜 [JS] Cookies e LocalStorage
 **Cookies** e **LocalStorage** são duas formas de armazenamento no lado do cliente disponíveis em JavaScript para persistência de dados entre sessões ou durante a navegação no browser, como banco de dados no lado do cliente pelo navegador. Ambos permitem que desenvolvedores salvem informações no navegador do usuário, mas possuem diferenças significativas em relação à capacidade, escopo, acessibilidade e finalidade de uso.
