@@ -2020,6 +2020,9 @@ Em termos de eficiência bruta para real-time baseado em WebSockets, o Socket.io
 
 De modo geral, todos sabem que as mensagens, textos, imagens e outros arquivos enviados são via requisição e resposta do modelo cliente-servidor utilizando o protocolo HTTP que são usados através de APIs REST. Além disso, implementamos bancos de dados para o gerenciamento desses conteúdos na nossa aplicação para recuperarmos esses dados.
 
+> [!Note]
+> Outra biblioteca utilizada em .NET para comunicação em tempo real via websockets é o **SignalR**.
+
 Back-end: Node.js + Express - O socket.io consome a funcionalidade HTTP nativa do Node.js
 
 ```javascript
