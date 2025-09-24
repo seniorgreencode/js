@@ -5299,6 +5299,37 @@ const longPolling = async () => {
 longPolling();
 ```
 
+Seu pensamento crítico é exatamente o que ajuda a enxergar a diferença entre “síncrono” no sentido clássico da ciência da computação e “assíncrono” no sentido das linguagens modernas como JavaScript.
+
+Quando livros de sistemas ou arquitetura falam que **polling é síncrono**, eles querem dizer que é uma **atividade ativa e bloqueante**: o processo que faz polling precisa “esperar a resposta” antes de continuar, ou seja, ele fica amarrado àquela verificação até obter o status. No caso de I/O em baixo nível, a CPU fica num laço perguntando ao dispositivo, e não pode avançar para outras tarefas até saber a resposta. Isso é o que contrasta com **interrupções**, que são assíncronas no sentido clássico (o dispositivo avisa quando há dado, liberando a CPU no meio tempo).
+
+Já no seu código em **JavaScript**, o polling é implementado usando `fetch`, que é uma **operação assíncrona do ponto de vista da linguagem**. O runtime do JavaScript (event loop) não bloqueia a thread principal esperando a resposta: ele dispara a requisição e continua rodando outras coisas, só retomando a função quando a `Promise` do `fetch` é resolvida. Por isso o código parece “assíncrono” — porque você não trava o programa inteiro no `while` esperando, você agenda a continuação.
+
+Resumindo:
+
+* **Síncrono (conceito clássico em ciência da computação)**: polling é ativo e bloqueante — quem faz a pergunta precisa esperar a resposta antes de seguir.
+* **Assíncrono (na prática em JS e linguagens modernas)**: a chamada de rede não bloqueia a thread, o runtime trata como operação não bloqueante, mas a *lógica* ainda é polling porque você continua perguntando em ciclos.
+
+Ou seja: no plano conceitual, polling é uma operação síncrona porque depende da resposta imediata para prosseguir. No plano da implementação em JavaScript, você pode embrulhar isso em APIs assíncronas para não travar o programa — mas continua sendo polling.
+
+Tanto que outras linguagens usam `while`, já o JS pode usar o `setInterval` ou `setTimeOut`. Em muitas linguagens tradicionais (C, Java, Python sem `async`, Go em modo mais direto), o polling acaba sendo implementado com um loop `while` que checa continuamente uma condição, algo como:
+
+```c
+// Exemplo em C
+while (1) {
+    status = get_status();
+    if (status == READY) {
+        process(status);
+        break;
+    }
+    sleep(5); // evita ocupar 100% da CPU
+}
+```
+
+Nesse caso, o programa fica realmente “preso” no loop até conseguir a resposta. É o polling síncrono e bloqueante de verdade: só sai do laço quando obtém o que espera.
+
+Já no JavaScript, por causa do event loop e da arquitetura de single-thread não bloqueante, você não pode usar `while(true)` para esse tipo de coisa (a não ser que queira travar toda a execução da página). Então, para simular o mesmo comportamento de polling, o JS recorre a funções assíncronas como `setTimeout` ou `setInterval`, que “agendam” a checagem futura sem travar o restante da aplicação.
+
 Vantagens:
 
 - Simples de Implementar: Polling é fácil de entender e implementar.
