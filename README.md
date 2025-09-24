@@ -5310,7 +5310,7 @@ Desvantagens:
 
 Existem alternativas mais eficientes ao polling para comunicação em tempo real entre cliente e servidor:
 
-**WebSockets**: Permitem comunicação bidirecional em tempo real entre cliente e servidor, mantendo uma única conexão aberta. Funciona como se fosse um cano entre cliente e servidor. É um cliente conectado no servidor em tempo real.
+**WebSockets**: Permitem comunicação bidirecional em tempo real entre cliente e servidor, mantendo uma única conexão aberta. Funciona como se fosse um cano entre cliente e servidor. É um cliente conectado no servidor em tempo real. É uma conexão real constante!
 
 Exemplo:
 
