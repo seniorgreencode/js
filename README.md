@@ -4789,7 +4789,11 @@ O bloco `try...catch` ao redor de um `await` captura qualquer erro que ocorra du
  
 <img src="https://github.com/user-attachments/assets/06ab4106-c37b-4d12-bfb2-173c5f1f4b66" align="right" height="277">
 
-O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente. Na ilustração do lado direito, cada cor indica um processo sendo realizado, e a partir dela conseguimos ver como o tempo de execução da aplicação fica pouco eficiente nas chamadas síncronas. Também é possível perceber porque há um bloqueio de thread, pois a aplicação fica aguardando uma função acabar completamente para só assim chamar a próxima. Imagina se cada vez que você rolasse a página do Instagram, enquanto ela estivesse baixando as novas publicações todo o aplicativo travasse, seria uma experiência horrorosa que não queremos para os nossos usuários. Isso aconteceria caso o download fosse executado de forma síncrona, o aplicativo todo estaria esperando pela resposta daquele download e não conseguiríamos realizar nenhuma ação até essa execução ser concluída.
+O **paradigma assíncrono** no JavaScript é uma técnica que permite que um programa inicie uma tarefa longa e, ao mesmo tempo, responda a outros eventos. A programação assíncrona é também conhecida como código sem bloqueio, pois permite que várias operações sejam executadas simultaneamente. Esse paradigma é amplamente utilizado para requisições e respostas de APIs, pois seu fluxo é de alta performance e menos suscetível a erros e falhas.
+
+Na ilustração do lado direito, cada cor indica um processo sendo realizado, e a partir dela conseguimos ver como o tempo de execução da aplicação fica pouco eficiente nas chamadas **síncronas**. Também é possível perceber porque há um bloqueio de thread, pois a aplicação fica aguardando uma função acabar completamente para só assim chamar a próxima. 
+
+Imagina se cada vez que você rolasse a página do Instagram, enquanto ela estivesse baixando as novas publicações todo o aplicativo travasse, seria uma experiência horrorosa que não queremos para os nossos usuários. Isso aconteceria caso o download fosse executado de forma síncrona, o aplicativo todo estaria esperando pela resposta daquele download e não conseguiríamos realizar nenhuma ação até essa execução ser concluída.
 
 No dia-a-dia do desenvolvimento web, utilizamos muito (e cada vez mais) dados externos - por exemplo, recebidos através de um endpoint de uma API REST (um microserviço) ou resultados de algum outro processamento. Ou seja, quando isso ocorre o sistema tem que esperar os dados "chegarem" antes de utilizar esse resultado. Costumamos chamar de programação assíncrona o ato de executar uma tarefa em "segundo plano", sem nosso controle direto disso. Sem explicitamente trabalhar com threads e coordená-las. Escrevendo basicamente da forma tradicional que temos. Porém, é importante frisar o comportamento do JavaScript de "executar uma coisa por vez". Com isso em mente o assíncrono no JavaScript vai separar seu código em duas partes: coisas que rodam agora, coisas que vão rodar depois de algo acontecer.
 
@@ -4801,6 +4805,8 @@ Uso de código assíncrono:
 - Leitura de arquivos
 - Acesso a serviço externo
 - I/O
+
+O ponto-chave é que, em JavaScript, mesmo que o código seja escrito de forma sequencial usando `async/await`, ele continua rodando sobre o event loop, que nunca bloqueia a thread principal enquanto espera uma operação de I/O terminar.
 
 <img src="https://github.com/user-attachments/assets/14d54da9-74d8-496c-9b53-68ac5458feae" align="right" height="77">
 
