@@ -293,6 +293,12 @@ Ele exibirá no console do seu terminal, utilize o comando para startar a aplica
 node app.js
 ```
 
+Se no caso for um `index`, rode somente:
+
+```sh
+node index
+```
+
 Caso, você faça muitas alterações e não deseja parar a execução do terminal, recomendo usar o comando `node --watch`, onde qualquer alteração que fizer o terminal será atualizado instantaneamente:
 
 ```sh
