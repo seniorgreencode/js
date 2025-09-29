@@ -61,7 +61,7 @@ A organização TC39 é um comitê dentro da Ecma International, uma organizaç�
 
 Qualquer membro do TC39 pode apresentar propostas para novas funcionalidades ou alterações na linguagem. Propostas passam por várias etapas de maturidade, conhecidas como "Stages", antes de serem incluídas na especificação final. O TC39 se reúne regularmente para discutir propostas, revisar progresso e tomar decisões sobre a inclusão de novas funcionalidades no ECMAScript. Essas reuniões são públicas e as atas são geralmente disponibilizadas online para transparência.
 
-<img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/>
+<a href="https://runjs.app/"><img src="https://raw.githubusercontent.com/wingsuitist/ecmascript-logo/master/es-ecmascript-logo.png" height="77" align="right"/></a>
 
 <b>ECMAScript (ES)</b>, derivado dos anos de 1996 e 1997 quando a organização European Computer Manufactures Association (ECMA) padronizou a linguagem, surgindo assim às versões de ECMAScript. ECMAScript é uma especificação de linguagem de script padronizada pela Ecma International. É a base para várias linguagens de script, sendo JavaScript a implementação mais conhecida. ECMAScript é uma especificação que define a linguagem de script usada para implementar JavaScript e outras linguagens relacionadas. Ela evolui continuamente para incluir novos recursos, permitindo que os desenvolvedores escrevam código mais eficiente, legível e poderoso. JavaScript, como a implementação mais popular, segue essas especificações para garantir consistência e compatibilidade em diferentes ambientes e plataformas.
 
