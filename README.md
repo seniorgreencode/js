@@ -364,7 +364,7 @@ O JavaScript ainda era um pouco complicado de se usar antigamente. Então, no in
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg" height="77" align="right"/>
 
-Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada <b>AJAX</b> (<b>A</b>synchronous <b>J</b>avaScript <b>A</b>nd <b>X</b>ML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML.
+Em 2004 começaram a aparecer aplicações web, como o Gmail da Google. Ele usava uma técnica chamada AJAX (Asynchronous JavaScript And XML), a qual permite enviar e receber dados de um servidor sem ter que recarregar a página inteira, apenas os dados são trafegados e então são inseridos no meio do HTML. O AJAX é mais um termo do que uma tecnologia, com a junção de duas tecnologias com JS assíncrono e XML que era um formato para trafegar dados entre servidores e entre máquinas que precisam conversar, atualmente utilizamos o JSON para a API se comunicar e consumir.
 
 **Desvantagens do JavaScript**: Dizemos que JavaScript é uma linguagem madura, o que significa que a maioria dos recursos já está implementada e estável, e provavelmente não veremos grandes mudanças na linguagem. Desde 2015, muitos aspectos do JavaScript mudaram e muitos novos recursos foram adicionados. Muitas dessas mudanças foram introduzidas para facilitar a migração para JavaScript para programadores que conhecem outras linguagens populares, das quais o JavaScript originalmente diferia bastante em certos aspectos, como no manuseio de objetos. Ainda podemos usar a linguagem da maneira antiga, mas é recomendado usar o JavaScript moderno.
 
