@@ -284,7 +284,7 @@ Outra grande vantagem do Tauri é a facilidade de integração com qualquer fram
 
 <img src="https://ionicframework.com/img/homepage/frameworks-1x.png" height="177" align="right"/>
 
-Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente. O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução.
+Então, o uso de JavaScript em sites, que com o tempo se tornou cada vez mais complexo e muitas vezes contém uma lógica muito sofisticada, é chamado de programação do lado do cliente (front-end). O código a ser executado é carregado junto com a página no navegador, por parte do usuário, e o interpretador que faz parte do navegador permite sua execução. Os navegadores só existiam para interpretar e renderizar HTML através do protocolo HTTP, e a navegação entre páginas via hiperlinks, cada acesso a um hiperlink era recarregado toda a página. Ou seja, eram páginas estáticas (Voltou a ficar "na moda"), ou seja, o JavaScript era bem rudimentar.
 
 Hoje, JavaScript é a única linguagem suportada por todos os principais navegadores da web, e cerca de 95% das páginas da web em todo o mundo incorporam código JavaScript neles. Desde o início, as páginas da web usaram JavaScript no lado do cliente para adicionar interatividade e alterar dinamicamente o conteúdo.
 
