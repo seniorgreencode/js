@@ -2,6 +2,8 @@
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" title="Full-Stack JS Development"/></a> 
 
+> Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
+
 # It's a repository of JavaScript (JS) 📜 
 
 <a href="https://javascript.info"><img src="https://img.shields.io/badge/ECMAScript-12-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/ryanmcdermott/clean-code-javascript"><img src="https://img.shields.io/badge/Clean_Code-JS-ECD53F?style=flat&logo=JavaScript&logoColor=white"></a> <a href="https://github.com/labs42io/clean-code-typescript"><img src="https://img.shields.io/badge/Clean_Code-TS-blue?style=flat&logo=TypeScript&logoColor=white"></a> <a href="https://github.com/rmanguinho/clean-ts-api"><img src="https://img.shields.io/badge/Clean_Code-TS-blue?style=flat&logo=TypeScript&logoColor=white"></a> <a href="https://exercism.org/dashboard"><img src="https://img.shields.io/badge/Exercism-JS-gold?style=flat&logo=Exercism&logoColor=white"></a> <a href="https://br.codecombat.com/"><img src="https://img.shields.io/badge/codecombat-JS-gold?style=flat&logo=Codewars&logoColor=white"></a>
