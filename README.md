@@ -41,6 +41,8 @@ O <b>JavaScript</b>, abreviado como **JS**, é uma linguagem de programação di
 
 <img height="377" align="right" src="https://github.com/user-attachments/assets/fbcafcff-eb91-4aa0-8ad6-5c73cf768f1f" />
 
+O gráfico ao lado é referente ao ano de 2024, sendo o ranking das linguagens de programação mais utilizadas no mundo, os indicadores desse gráfico mudam, devido as necessidades do mercado. 
+
 Quando falamos de linguagens de programação, percebemos que estas se parecem como times de futebol, cada desenvolvedor gosta de uma e acredita na qualidade que ela oferece, mas nenhuma delas consegue assumir uma característica que JavaScript assumiu: a "onipresença" em aplicações. Amando ou odiando, ele está em todos os lugares, é difícil escapar. Uma linguagem que muitas vezes é julgada como simples brinquedo de front-end, criando firulas para os olhos de usuários leigos, na verdade, é uma grande ferramenta. A web atualmente está infestada de códigos JavaScript. Os recursos oferecidos por muitos dos sites que acessamos são controlados por ele, desde a mais simples interação com formulários, até mesmo grandes plataformas como Google Docs, foram desenvolvidas com base nos recursos dessa linguagem. Aprender esta linguagem se torna essencial, uma grande ferramenta para auxiliar o desenvolvimento.
 
 Além disso, a linguagem apresenta características incomuns à maioria dos desenvolvedores que estão acostumados com Java ou C#. O JavaScript não apresenta classes do mesmo modo que as outras linguagens e funções estão em todos os lugares, fazendo todos os serviços possíveis, desde criar novos objetos até retornarem novas funções.
