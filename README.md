@@ -642,6 +642,11 @@ Além da validação de tipos primitivos como string, number, boolean e array, Z
 
 Zod é frequentemente utilizado em APIs REST e GraphQL, tanto no back-end quanto no front-end, para garantir que os dados recebidos ou enviados estejam consistentes com a estrutura esperada, oferecendo uma camada a mais de segurança e previsibilidade. Ele também se encaixa bem com frameworks modernos como Next.js, tRPC, Remix, NestJS e outros que fazem uso intenso de tipos. Com isso, ele acaba sendo uma das ferramentas preferidas para desenvolvedores que querem manter seus dados confiáveis, bem tipados e fáceis de validar.
 
+## [TS] Speakeasy 
+<img src="https://github.com/user-attachments/assets/f2c4b42a-c167-4e2c-bbf4-5a07302d17bd" align="right" height="477"/>
+
+Invista centenas de horas que sua equipe não tem em manter SDKs manualmente ou gere SDKs ruins que causam uma má impressão nos seus usuários. Essas são duas opções ruins. Felizmente, agora você pode usar o Speakeasy para criar SDKs ergonômicos e com tipos seguros em mais de 10 linguagens. Trabalhamos com especialistas em linguagens para criar um gerador que acerta os detalhes. Com o Speakeasy, você pode construir SDKs dos quais sua equipe se orgulha e oferecer documentação de API nativa de código.
+
 # 🟦 [TS] AssemblyScript
 <a href="https://webassembly.org/"><img src="https://cdn.worldvectorlogo.com/logos/webassembly-1.svg" height="77" align="right"></a>
 
