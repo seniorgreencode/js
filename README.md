@@ -2564,3 +2564,12 @@ Claro, há desafios. DDD pode introduzir complexidade desnecessária em projetos
 O **Winston** foi projetado para ser uma biblioteca de registro simples e universal com suporte para múltiplos transportes. Um transporte é essencialmente um dispositivo de armazenamento para seus logs. Cada registrador pode ter vários transportes (consulte: Transportes) configurados em diferentes níveis (consulte: Níveis de log). Durante Por exemplo, pode-se querer que os logs de erros sejam armazenados em um local remoto persistente (como um banco de dados), mas todos os logs são enviados para o console ou para um arquivo local `.winston`
 
 `winston` visa separar partes do processo de registro para torná-lo mais flexível e extensível. Atenção é dada ao suporte de flexibilidade no registro formatação (consulte: Formatos) níveis de & (consulte: Usando níveis de log personalizados) e garantindo que essas APIs sejam desacopladas da implementação do log de transporte (ou seja, como os logs são armazenados/indexados, consulte: Adicionando transportes personalizados) para a API que eles expuseram ao programador.
+
+E então, no Jest, você precisa garantir que ele aceite TypeScript, por exemplo com:
+
+```sh
+npm install --save-dev ts-jest @types/jest
+npx ts-jest config:init
+```
+
+Assim o Jest entenderá `test(...)` e `expect(...)` dentro de arquivos `.ts`.
