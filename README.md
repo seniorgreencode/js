@@ -748,6 +748,44 @@ console.log(arr2);
 ```
 
 # 📜 [JS] REGEX - Expressões Regulares
+Pattern Modifiers
+
+`g` Global match
+`i*` Case-insensitive
+`m*` Multiple lines
+`s*` Treat string as single line
+`x*` Allow comments and whitespace in pattern
+`e*` Evaluate replacement
+`U*` Ungreedy pattern
+*PCRE modifier
+
+Javascript RegExp Object
+
+`compile()`
+
+`exec()`
+
+`global`
+
+`ignoreCase`
+
+`input`
+
+`lastIndex`
+
+`lastMatch`
+
+`lastParen`
+
+`leftCOntext`
+
+`multiline`
+
+`rightContext`
+
+`source`
+
+`test()`
 
 # 📜 [JS] Operadores e expressões
 <img src="https://github.com/user-attachments/assets/b8a1ab49-f8bb-4756-b894-2e2edf8ab1cb" align="right" height="77">
