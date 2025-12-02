@@ -1842,6 +1842,8 @@ var lista = ["maçã", "laranja", "pêra"];
 console.log(`Adicionando: ${lista.push("uva")} - ${lista[3]} \n Lista atualizada: ${lista.toString()}.\n`);
 ```
 
+O JavaScript oferece um conjunto rico de métodos de manipulação de array que permitem aos desenvolvedores trabalhar com dados de forma eficaz. Seja processando entradas de usuários, transformando dados ou simplesmente gerenciando coleções, entender esses métodos é fundamental.
+
 Existem alguns métodos, sendo eles utilizados para estrutura de dados e algoritmos, que mudam a funcionalidade de um array, tais como:
 
 <table>
