@@ -16,11 +16,11 @@
 
 </div>
 
-Sou um especialista em desenvolvimento de software com foco no ecossistema JavaScript, incluindo React, Redux, TypeScript, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
+Sou um especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
 
 No front-end, atuo em projetos com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos do Figma (UI/UX). 
 
-Na parte de back-end, construo APIs com GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços. 
+Na parte de back-end, construo APIs REST e GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços.
 
 Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e uso de recursos em nuvens como AWS, Azure e Google Cloud.
 
