@@ -16,9 +16,9 @@
 
 </div>
 
-Sou um especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
+Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
 
-No front-end, atuo em projetos com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos do Figma (UI/UX). 
+No front-end, atuo em projetos com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, juntamente com consumo de APIs, baseados em protótipos do Figma (UI/UX).
 
 Na parte de back-end, construo APIs REST e GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços.
 
