@@ -22,7 +22,7 @@ No front-end, atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), S
 
 Na parte de back-end, construo APIs REST e GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços.
 
-Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
+Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
