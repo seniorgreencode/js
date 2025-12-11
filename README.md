@@ -20,7 +20,7 @@ Desenvolvedor de software com experiência multidisciplinar e especialista em de
 
 No front-end, atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, baseados em protótipos do Figma (UI/UX).
 
-Na parte de back-end, construo APIs REST e GraphQL (Apollo), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços.
+Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston) em arquiteturas baseadas em microsserviços estruturados orientados pelos modelos de desenvolvimento DDD - Domain Driven-Design, TDD - Test-Driven Development e BDD - Behavior Driven Development.
 
 Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
