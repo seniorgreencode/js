@@ -5,6 +5,8 @@
 > ⚠️ **WARNING**: It's very important to install each one of components shown and to execute the codes on your own machine. Besides that, please note that repository is only focused in JavaScript development, if you want to learn about HTML5, CSS3 or JS Frameworks i recommend to access another repositories, click on links bellow!
 
 # 🛡️ Angular.js
+https://javascript.plainenglish.io/the-most-failed-angular-interview-questions-d1e0d173d016
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" height="77" align="right"></a>
   
 O **AngularJS** é um framework JavaScript de código-aberto, mantido pelo Google, que auxilia na execução de SPA - Single-Page Applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
