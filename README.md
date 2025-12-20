@@ -4994,7 +4994,7 @@ exemploErro();
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API"><img src="https://github.com/user-attachments/assets/0ba490db-550a-410b-b3e8-3f1992343929" align="right" height="377"></a>
 
-**Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente. Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. Fetch fornece uma alternativa melhor que pode ser facilmente utilizada por outras tecnologias como Service Workers. Fetch também provê um lugar lógico único para definir outros conceitos relacionados ao protocolo HTTP como CORS e extensões ao HTTP.
+**Fetch** é uma API moderna do JavaScript usada para fazer requisições HTTP de forma simples e eficiente (REST API). Introduzida no ES6 (ECMAScript 2015), a `fetch()` é uma alternativa ao objeto `XMLHttpRequest` para realizar requisições assíncronas, mas com uma interface mais amigável e baseada em Promises, facilitando a leitura e a escrita do código. Fetch fornece uma alternativa melhor que pode ser facilmente utilizada por outras tecnologias como Service Workers. Fetch também provê um lugar lógico único para definir outros conceitos relacionados ao protocolo HTTP como CORS e extensões ao HTTP.
 
 O `fetch()` é uma API moderna e conveniente para realizar requisições HTTP no JavaScript. Sua interface baseada em Promises facilita o tratamento assíncrono e torna o código mais legível, especialmente quando combinado com `async/await`. Embora tenha algumas limitações, `fetch()` é geralmente preferido para requisições HTTP em JavaScript, exceto em situações onde seja necessário lidar com funcionalidades mais avançadas que `XMLHttpRequest` possa oferecer.
 
@@ -5020,12 +5020,10 @@ fetch(url, [opções])
   });
 ```
 
-- **`url`**: A URL para onde a requisição será enviada.
-- **`opções`** (opcional): Um objeto com configurações adicionais, como o método HTTP, cabeçalhos, corpo da requisição, etc.
+- `url`: A URL para onde a requisição será enviada.
+- `opções` (opcional): Um objeto com configurações adicionais, como o método HTTP, cabeçalhos, corpo da requisição, etc.
 
-1. Requisição `GET`
-
-Uma requisição `GET` para buscar dados de uma API:
+1. Requisição `GET`: Uma requisição `GET` para buscar dados de uma API:
 
 ```javascript
 fetch('https://jsonplaceholder.typicode.com/posts/1')
@@ -5083,13 +5081,11 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 
 Neste exemplo:
 
-- **`method: 'POST'`**: Define o método HTTP como POST.
-- **`headers`**: Define o cabeçalho `Content-Type` para informar que o corpo da requisição é JSON.
-- **`body: JSON.stringify(dados)`**: Converte o objeto `dados` em uma string JSON para ser enviado ao servidor.
+- `method: 'POST'`: Define o método HTTP como POST.
+- `headers`: Define o cabeçalho `Content-Type` para informar que o corpo da requisição é JSON.
+- `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviado ao servidor (serializado).
 
-3. Usando `async/await`
-
-Você pode usar `fetch()` com `async/await` para deixar o código mais limpo e fácil de entender:
+3. Usando `async/await`: Você pode usar `fetch()` com `async/await` para deixar o código mais limpo e fácil de entender:
 
 ```javascript
 async function carregarDados() {
