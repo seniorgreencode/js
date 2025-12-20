@@ -5299,6 +5299,69 @@ No exemplo acima:
 - `headers`: Define o cabeçalho `Content-Type` como `application/json`, para indicar que estamos enviando dados no formato JSON.
 - `body: JSON.stringify(dados)`: Converte o objeto `dados` em uma string JSON para ser enviada ao servidor.
 
+## [JS] Axios
+
+```js
+// apiClient.js
+import axios from "axios";
+
+export const api = axios.create({
+  baseURL: "https://api.exemplo.com",
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+```
+
+```js
+// apiClient.js
+import axios from "axios";
+
+export const api = axios.create({
+  baseURL: "https://api.exemplo.com",
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+```
+
+```js
+// userService.js
+import { api } from "./apiClient";
+
+export const getUserProfile = async () => {
+  const { data } = await api.get("/users/me");
+  return data;
+};
+
+export const createUser = async (payload) => {
+  const { data } = await api.post("/users", payload);
+  return data;
+};
+```
+
+```js
+// React + React Query (forma moderna)
+import { useQuery, useMutation } from "@tanstack/react-query";
+import { getUserProfile, createUser } from "./userService";
+
+export const useUser = () =>
+  useQuery({
+    queryKey: ["user"],
+    queryFn: getUserProfile,
+  });
+
+export const useCreateUser = () =>
+  useMutation({
+    mutationFn: createUser,
+  });
+```
+
+```js
+// uso no componente
+const { data: user, isLoading } = useUser();
+```
+
 ## [JS] Polling
 <a href="">![JS](https://img.shields.io/badge/GitHub-REST-ffd60a?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Microservices-tomato?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Concurrency-6bb3b0?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Parallel_Programming-e55d3e?style=flat&logo=GitHub&logoColor=white)</a> <a href="">![JS](https://img.shields.io/badge/GitHub-Multi--Threading-ff8a9d?style=flat&logo=GitHub&logoColor=white)</a>
 
