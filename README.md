@@ -5146,7 +5146,9 @@ Limitações do `fetch()`
 1. **Suporte ao CORS**: `fetch()` é limitado pelo mesmo esquema de segurança **CORS (Cross-Origin Resource Sharing)** que o `XMLHttpRequest`.
 2. **Erro apenas para problemas de rede**: Diferente do `XMLHttpRequest`, `fetch()` não rejeita a Promise para respostas HTTP como 404 ou 500, sendo necessário verificar manualmente se `response.ok` é `true` ou `false`.
 
-No entanto, um questionamento que é válido: Consumir APIs do back-end no front-end é inserir os endpoints manualmente na aplicação de forma inteligente e componível? Em essência, sim, mas com uma nuance importante: consumir APIs no front-end **não é apenas “colar endpoints”**, é **modelar contratos de consumo** de forma inteligente, reutilizável e resiliente. Quando isso é bem feito, o endpoint vira quase um detalhe de infraestrutura, não o centro do código.
+No entanto, um questionamento que é válido: Consumir APIs do back-end no front-end é inserir os endpoints manualmente na aplicação de forma inteligente e componível? 
+
+Em essência, sim, mas com uma nuance importante: consumir APIs no front-end **não é apenas “colar endpoints”**, é **modelar contratos de consumo** de forma inteligente, reutilizável e resiliente. Quando isso é bem feito, o endpoint vira quase um detalhe de infraestrutura, não o centro do código.
 
 Na forma mais ingênua, consumir uma API é literalmente chamar uma URL, passar headers, serializar/deserializar JSON e lidar com erros. Isso funciona para protótipos, mas quebra rapidamente quando a aplicação cresce. A abordagem madura é tratar cada endpoint como uma **capacidade de negócio exposta**, encapsulada em uma camada de acesso a dados no front-end. Essa camada conhece URLs, métodos HTTP, autenticação, retries, timeouts e versionamento; o resto da aplicação conhece apenas **funções semânticas**, como `getUserProfile()`, `createOrder()` ou `fetchDashboardKPIs()`.
 
@@ -5161,6 +5163,7 @@ Então, respondendo de forma direta à sua pergunta: consumir APIs no front-end 
 Você pode usar **fetch puro** sem problema nenhum e libraries como Axios, React Query ou SWR **não são obrigatórias**. Elas só abstraem coisas que, com fetch, você teria que resolver manualmente: interceptação, retry, cancelamento, cache, deduplicação, controle de estado remoto etc. Se você não precisa disso (ou prefere controlar tudo), fetch é suficiente, moderno e nativo do browser.
 
 Em termos práticos:
+
 – **fetch** → simples, zero dependências, controle total
 – **libraries** → produtividade e padrões prontos para apps maiores
 
