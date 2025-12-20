@@ -5156,12 +5156,10 @@ Também entra aqui a questão de **estratégia de dados**, não só de chamadas.
 
 Então, respondendo de forma direta à sua pergunta: consumir APIs no front-end começa com endpoints, sim, mas o que diferencia um código frágil de um código profissional é transformar esses endpoints em **contratos bem definidos**, **componíveis**, **testáveis** e **semanticamente alinhados ao domínio da aplicação**, e não à forma bruta do back-end. Quando isso está bem feito, trocar URLs, versões ou até arquiteturas inteiras deixa de ser um trauma.
 
-Você pode usar **fetch puro** sem problema nenhum e libraries como Axios, React Query ou SWR **não são obrigatórias**. Elas só abstraem coisas que, com fetch, você teria que resolver manualmente: interceptação, retry, cancelamento, cache, deduplicação, controle de estado remoto etc. Se você não precisa disso (ou prefere controlar tudo), fetch é suficiente, moderno e nativo do browser.
+Em termos práticos: Você pode usar **fetch puro** sem problema nenhum e libraries como Axios, React Query ou SWR **não são obrigatórias**. Elas só abstraem coisas que, com fetch, você teria que resolver manualmente: interceptação, retry, cancelamento, cache, deduplicação, controle de estado remoto etc. Se você não precisa disso (ou prefere controlar tudo), fetch é suficiente, moderno e nativo do browser.
 
-Em termos práticos:
-
-– **fetch** → simples, zero dependências, controle total
-– **libraries** → produtividade e padrões prontos para apps maiores
+- **fetch** → simples, zero dependências, controle total
+- **libraries** → produtividade e padrões prontos para apps maiores
 
 Então a resposta direta é: *sim, pode usar fetch puro tranquilamente*. A escolha é de complexidade e escala, não de “correto vs errado”.
 
