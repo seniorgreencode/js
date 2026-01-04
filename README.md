@@ -2369,6 +2369,17 @@ npm install express
 node index.js
 ```
 
+# 📦 [JS] Microservices
+<img width="550" height="440" alt="image" src="https://github.com/user-attachments/assets/729213da-c7b3-41a2-9cc0-4ba2a72f2f22" />
+
+A arquitetura de microserviços ganhou popularidade nos últimos anos como uma abordagem moderna para construir aplicações complexas e em grande escala. Em vez de construir uma aplicação monolítica onde todo o código está contido em uma única e grande base de código, a arquitetura de microserviços envolve dividir uma aplicação em serviços menores e independentes que se comunicam entre si por meio de APIs. Arquitetura de Microserviços com Node.js: Construindo Aplicações Escaláveis e Robustas
+
+Cada microserviço é responsável por uma capacidade específica do negócio e pode ser desenvolvido e implantado independentemente dos outros serviços. Isso permite maior flexibilidade, escalabilidade e resiliência, além de facilitar a manutenção e os testes.
+
+Node.js é uma escolha popular para construir microserviços, graças à sua arquitetura leve orientada a eventos e à sua capacidade de lidar com um grande número de conexões simultâneas. Neste post do blog, vamos explorar como começar com a arquitetura de microserviços em Node.js, incluindo alguns exemplos de código.
+
+Configurando uma arquitetura de microserviços em Node.js: Para começar com a arquitetura de microserviços em Node.js, você precisará primeiro configurar seu ambiente de desenvolvimento. Isso envolverá a instalação de Node.js e quaisquer dependências necessárias, além de configurar um framework ou biblioteca.
+
 # ☄️ [JS] React vs Vue vs Angular vs Astro
 <img src="https://github.com/user-attachments/assets/72b70c4c-f9cb-4045-8b2a-d8aa4ac4d54c" height="77" align="right">
 
