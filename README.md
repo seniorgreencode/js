@@ -2555,6 +2555,9 @@ No entanto, o Bun ainda é uma tecnologia relativamente nova e em desenvolviment
 
 ## [JS] Hello, World - Bun
 
+# [JS] Design Patterns
+https://medium.com/@manish90/design-patterns-in-node-js-9b0daab4fa5c
+
 # 🧪 [JS] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/651e9465-e597-4fa0-9e1b-d8c85e1e6db2" height="77" align="right"></a>
 
