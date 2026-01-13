@@ -973,6 +973,8 @@ Até mesmo quando simplesmente digitamos `8` estamos gerando o valor `8`. Todo f
 Podemos aninhar expressões para gerar códigos mais complexos, assim como podemos juntar várias palavras e frases para formar grandes textos para passar ideias para outras pessoas. Um programa é feito de linhas de códigos cheios de comandos, que em outras palavras, é uma lista de expressões.
 
 # 📜 [JS] Variáveis
+https://medium.com/js-in-3-minutes-or-less/the-nullish-coalescing-operators-007b3aca12a2
+
 <img src="https://github.com/user-attachments/assets/12caef78-e6a8-44d0-8130-31cea1ea6030" height="177" align="right">
 
 A capacidade de escrever diversas informações na tela, como `"Olá, mundo!"` pode ser divertido por um tempo, mas não é uma forma universal de escrever programas. É hora de começar a aprender mais sobre os elementos do quebra-cabeça que permitirão criar programas que resolvam problemas reais. Existem alguns desses elementos e iremos apresentá-los gradualmente, embora não necessariamente em uma cronologia simples. Freqüentemente voltaremos ao que já foi discutido, ampliando as informações anteriores com algo novo. Às vezes também avançaremos, utilizando mecanismos que só serão explicados com mais detalhes ao longo do tempo. 
