@@ -23,6 +23,9 @@
 
 - chrome://inspect/#devices -->
 
+- https://medium.com/@akib.hobale/node-js-buffer-vs-stream-e2c23df543c1?source=email-afeafff77325-1685597052433-digest.reader-491cee93de4f-e2c23df543c1----8-98------------------e9ef0b9b_3f84_43ce_a1fa_2934b9815a1f-1
+- https://medium.com/@kalkidant/7-node-js-best-practices-2023-37063634eef?source=email-afeafff77325-1685597052433-digest.reader--37063634eef----6-98------------------e9ef0b9b_3f84_43ce_a1fa_2934b9815a1f-1
+
 # ⬢ [JS] Node.js 
 <img src="https://img.shields.io/badge/V8-14.0.0-00C244?style=flat&logo=V8&logoColor=white"> <img src="https://img.shields.io/badge/C++-14.0.0-00A95C?style=flat&logo=CPlusPlus&logoColor=white"> <img src="https://img.shields.io/badge/NPM-9.6.7-0ABF53?style=flat&logo=NPM&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-16.17.0-339933?style=flat&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-16.17.0-339933?style=flat&logo=javascript&logoColor=white"> <a href="https://github.com/IsaacAlves7/js/blob/TS/README.md"><img src="https://img.shields.io/badge/TypeScript-16.17.0-339933?style=flat&logo=typescript&logoColor=white"></a>
 
