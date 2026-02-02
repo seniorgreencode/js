@@ -18,11 +18,11 @@
 
 Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. 
 
-Com experiência sólida em boas práticas com aplicação de design patterns (criacionais, estruturais e comportamentais) assim como as abordagens de SOLID, DRY, KISS, TDA e SoC, além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
+Com experiência sólida em boas práticas de aplicação de design patterns (criacionais, estruturais e comportamentais) assim como as abordagens de SOLID, DRY, KISS, TDA e SoC, além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
 
 No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
 
-Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). Trabalho com arquiteturas orientadas a microsserviços, aplicando modelos como DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
+Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos como DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
 
 Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
