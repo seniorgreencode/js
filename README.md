@@ -16,7 +16,9 @@
 
 </div>
 
-Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. Com experiência sólida em boas práticas como SOLID, DRY, KISS, TDA e SoC, aplicação de design patterns (criacionais, estruturais e comportamentais), além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
+Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. 
+
+Com experiência sólida em boas práticas com aplicação de design patterns (criacionais, estruturais e comportamentais) assim como as abordagens de SOLID, DRY, KISS, TDA e SoC, além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
 
 No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
 
