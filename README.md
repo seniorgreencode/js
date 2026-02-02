@@ -24,6 +24,10 @@ Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio
 
 Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
+- https://medium.com/@emma-delaney/learn-basic-javascript-in-just-20-minutes-become-a-javascript-master-5ca585ff20c1?source=email-afeafff77325-1697091003117-digest.reader--5ca585ff20c1----14-99------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
+- https://medium.com/@mohamed.amine.haine/stop-using-try-catch-and-use-this-instead-2742b51cf97b?source=email-afeafff77325-1697091003117-digest.reader-4b3a1ed4f11c-2742b51cf97b----13-109------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
+- https://medium.com/@codeeverywhere/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f?source=email-afeafff77325-1697091003117-digest.reader--52bd46eda41f----0-109------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
+
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
 
