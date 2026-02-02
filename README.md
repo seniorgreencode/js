@@ -24,7 +24,9 @@ No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumi
 
 Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). Trabalho com arquiteturas orientadas a microsserviços, aplicando modelos como DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
 
-Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade dos componentes, das features e do comportamento do usuário em produção. Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
+Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
+
+Além disso, também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade das features e componentes, informando o comportamento do usuário em produção.
 
 - https://medium.com/@emma-delaney/learn-basic-javascript-in-just-20-minutes-become-a-javascript-master-5ca585ff20c1?source=email-afeafff77325-1697091003117-digest.reader--5ca585ff20c1----14-99------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
 - https://medium.com/@mohamed.amine.haine/stop-using-try-catch-and-use-this-instead-2742b51cf97b?source=email-afeafff77325-1697091003117-digest.reader-4b3a1ed4f11c-2742b51cf97b----13-109------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
