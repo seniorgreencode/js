@@ -24,7 +24,7 @@ No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumi
 
 Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos como DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
 
-Sobre a entrega de software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
+Sobre a entrega do software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
 Além disso, também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade das features e componentes, informando o comportamento do usuário em produção.
 
