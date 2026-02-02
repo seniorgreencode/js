@@ -16,7 +16,7 @@
 
 </div>
 
-Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js e Express. 
+Desenvolvedor de software com experiência multidisciplinar e especialista em desenvolvimento de software com foco no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js, Express, Deno e Bun. 
 
 Com experiência sólida em boas práticas de aplicação de design patterns (criacionais, estruturais e comportamentais) assim como as abordagens de SOLID, DRY, KISS, TDA e SoC, além da adoção de princípios de Clean Code e Clean Architecture para garantir legibilidade, manutenibilidade e escalabilidade do código. 
 
