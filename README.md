@@ -22,7 +22,9 @@ Possuo experiência sólida em boas práticas de Design Patterns (criacionais, e
 
 No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
 
-Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos como DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
+Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). 
+
+Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos de design de software e design de sistemas aplicando as metodologias de DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
 
 Sobre a entrega do software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
 
