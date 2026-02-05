@@ -46,6 +46,8 @@ Além disso, também implemento ferramentas de analytics como Google Analytics 4
 - https://medium.com/@fatfish/interviewer-can-a-1-a-2-a-3-ever-evaluate-to-true-in-javascript-565fc064d676?source=email-afeafff77325-1700979678471-digest.reader--565fc064d676----5-109------------------7bea03e5_712a_4a4f_83db_79547ec0a43d-1
 - https://medium.com/@kartik-tomar/webrtc-35623cfbb6d0?source=email-afeafff77325-1700979678471-digest.reader--35623cfbb6d0----7-98------------------7bea03e5_712a_4a4f_83db_79547ec0a43d-1
 - https://medium.com/@prithwish.nath/graphql-is-finally-boring-681d3328b31c?source=email-afeafff77325-1701152573763-digest.reader-4b3a1ed4f11c-681d3328b31c----8-102------------------1892c482_e69f_44a4_aec7_76d155474570-1
+- https://medium.com/@nirjalpaudel54312/i-bet-you-dont-use-these-javascript-tricks-and-pratices-5ab5438ed4c8?source=email-afeafff77325-1701671913473-digest.reader-4b3a1ed4f11c-5ab5438ed4c8----2-99------------------802eff4f_4c5d_4c2f_9233_5b57f81e1c77-1
+- https://medium.com/@vishwasacharya/node-js-testing-best-practices-and-frameworks-for-reliable-apps-656f1cc51426?source=email-afeafff77325-1701671913473-digest.reader--656f1cc51426----4-109------------------802eff4f_4c5d_4c2f_9233_5b57f81e1c77-1
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
