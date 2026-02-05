@@ -35,6 +35,12 @@ Além disso, também implemento ferramentas de analytics como Google Analytics 4
 - https://medium.com/@emma-delaney/learn-basic-javascript-in-just-20-minutes-become-a-javascript-master-5ca585ff20c1?source=email-afeafff77325-1697091003117-digest.reader--5ca585ff20c1----14-99------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
 - https://medium.com/@mohamed.amine.haine/stop-using-try-catch-and-use-this-instead-2742b51cf97b?source=email-afeafff77325-1697091003117-digest.reader-4b3a1ed4f11c-2742b51cf97b----13-109------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
 - https://medium.com/@codeeverywhere/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f?source=email-afeafff77325-1697091003117-digest.reader--52bd46eda41f----0-109------------------ec7fb95c_2130_4f1b_8a26_6e877736d79b-1
+- https://medium.com/@emma-delaney/10-javascript-neat-tricks-that-you-probably-did-not-know-1a5ca2d60bbb?source=email-afeafff77325-1700806905610-digest.reader--1a5ca2d60bbb----14-99------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
+- https://medium.com/@codegirljs/10-advanced-javascript-tricks-for-experienced-developers-7e42b5b37d83?source=email-afeafff77325-1700806905610-digest.reader--7e42b5b37d83----10-98------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
+- https://medium.com/@mansha99/understanding-nestjs-architecture-f257d054211d?source=email-afeafff77325-1700806905610-digest.reader-b4c1e34ed5e-f257d054211d----9-98------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
+- https://medium.com/@rabisiddique/8-advanced-javascript-interview-questions-for-senior-roles-c59e1b0f83e1?source=email-afeafff77325-1700806905610-digest.reader-5517fd7b58a6-c59e1b0f83e1----6-98------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
+- https://medium.com/@deleteman123/top-5-ui-component-libraries-for-building-dashboards-fast-f0217bc1a9da?source=email-afeafff77325-1700806905610-digest.reader-4b3a1ed4f11c-f0217bc1a9da----5-99------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
+- https://medium.com/@carlosrojaso/quick-reference-guide-to-design-patterns-in-js-1ebeb1e1c605?source=email-afeafff77325-1700806905610-digest.reader--1ebeb1e1c605----4-98------------------03c2617f_4c16_4ad2_be67_c9175060addc-1
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
