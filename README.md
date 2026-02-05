@@ -20,7 +20,7 @@
 
 Desenvolvedor de software com experiência multidisciplinar e especialista no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js, Express, Deno e Bun. 
 
-Possuo experiência sólida em boas práticas de Design Patterns (criacionais, estruturais e comportamentais), adotando princípios de Clean Code e Clean Architecture para garantir a melhor estrutura, legibilidade, manutenibilidade e escalabilidade do código, utilizando as abordagens de SOLID, DRY, KISS, TDA e SoC.
+Possuo experiência sólida em boas práticas de princípios SOLID, DRY, KISS, TDA e SoC, juntamente com Design Patterns (criacionais, estruturais e comportamentais), e adotando princípios de Clean Code e Clean Architecture para garantir a melhor estrutura, legibilidade, manutenibilidade e escalabilidade do código.
 
 No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
 
@@ -48,6 +48,7 @@ Além disso, também implemento ferramentas de analytics como Google Analytics 4
 - https://medium.com/@prithwish.nath/graphql-is-finally-boring-681d3328b31c?source=email-afeafff77325-1701152573763-digest.reader-4b3a1ed4f11c-681d3328b31c----8-102------------------1892c482_e69f_44a4_aec7_76d155474570-1
 - https://medium.com/@nirjalpaudel54312/i-bet-you-dont-use-these-javascript-tricks-and-pratices-5ab5438ed4c8?source=email-afeafff77325-1701671913473-digest.reader-4b3a1ed4f11c-5ab5438ed4c8----2-99------------------802eff4f_4c5d_4c2f_9233_5b57f81e1c77-1
 - https://medium.com/@vishwasacharya/node-js-testing-best-practices-and-frameworks-for-reliable-apps-656f1cc51426?source=email-afeafff77325-1701671913473-digest.reader--656f1cc51426----4-109------------------802eff4f_4c5d_4c2f_9233_5b57f81e1c77-1
+- https://medium.com/@nicoletjunior/how-to-make-your-nodejs-application-handle-millions-of-api-requests-fc4f1c031e58?source=email-afeafff77325-1705821638795-digest.reader-d1baaa8417a4-fc4f1c031e58----9-98------------------62abf080_0f57_4cd2_b7b0_56214c9ae355-1
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
