@@ -45,6 +45,7 @@ Além disso, também implemento ferramentas de analytics como Google Analytics 4
 - https://medium.com/@vivekumar08/part-1-user-authentication-with-jwt-and-express-js-in-node-js-a-joiful-journey-cd78877b85ab?source=email-afeafff77325-1700979678471-digest.reader--cd78877b85ab----2-98------------------7bea03e5_712a_4a4f_83db_79547ec0a43d-1
 - https://medium.com/@fatfish/interviewer-can-a-1-a-2-a-3-ever-evaluate-to-true-in-javascript-565fc064d676?source=email-afeafff77325-1700979678471-digest.reader--565fc064d676----5-109------------------7bea03e5_712a_4a4f_83db_79547ec0a43d-1
 - https://medium.com/@kartik-tomar/webrtc-35623cfbb6d0?source=email-afeafff77325-1700979678471-digest.reader--35623cfbb6d0----7-98------------------7bea03e5_712a_4a4f_83db_79547ec0a43d-1
+- https://medium.com/@prithwish.nath/graphql-is-finally-boring-681d3328b31c?source=email-afeafff77325-1701152573763-digest.reader-4b3a1ed4f11c-681d3328b31c----8-102------------------1892c482_e69f_44a4_aec7_76d155474570-1
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
