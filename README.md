@@ -24,7 +24,7 @@ Possuo experiência sólida em boas práticas de princípios SOLID, DRY, KISS, T
 
 No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
 
-Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes automatizados (Selenium, WebDriver, Robotium), unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston). 
+Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes automatizados (Selenium, WebDriver, Robotium), unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston e Morgan). 
 
 Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos de design de software, design de sistemas e metodologias de DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
 
