@@ -695,6 +695,7 @@ Enquanto o Emscripten e compiladores semelhantes permitem que os desenvolvedores
 Embora o WebAssembly tenha sido originalmente projetado para execução em navegadores da Web, o desenvolvimento do WASI (WebAssembly System Interface), uma especificação da comunidade para uma API padrão que permite que programas WebAssembly acessem chamadas do sistema e outras funções do sistema operacional, levou ao desenvolvimento de ambientes de tempo de execução WebAssembly de projetos como Wasmtime e Wasmer que permitem WebAssembly e código escrito em linguagens como AssemblyScript que pode compilar para ele, para executar também em ambientes não-Web.
 
 # 🧩 [TS] Design Patterns
+![FB_IMG_1770673226702](https://github.com/user-attachments/assets/3d1b2505-affd-4726-b75f-0a0f7aa50923)
 
 # 🧱 [TS] Architectural Patterns
 
