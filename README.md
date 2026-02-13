@@ -18,7 +18,7 @@
 
 > Desenvolvedor full stack com especialização no ecossistema JavaScript/TypeScript, trabalhando com front-end moderno (React, Angular, Vue, Next.js) e back-end (Node.js, REST e GraphQL), sempre guiado por boas práticas de engenharia. Possui sólida experiência em Clean Code, Clean Architecture, Design Patterns, princípios SOLID e metodologias como DDD, TDD e BDD, construindo sistemas escaláveis baseados em microsserviços. Atuo em desenvolvimento à produção, com testes automatizados, CI/CD, observabilidade, containers, Kubernetes e deploy em nuvens como AWS, Azure e GCP, além de analytics e monitoramento de comportamento do usuário.
 
-Desenvolvedor de software com experiência multidisciplinar e especialista no ecossistema JavaScript/TypeScript, incluindo React, Redux, Node.js, Express, Deno e Bun. 
+Desenvolvedor de software com experiência multidisciplinar e especialista no ecossistema JavaScript/TypeScript, incluindo React, React Native, Redux, Node.js, Express, Deno e Bun. 
 
 Possuo experiência sólida em boas práticas de princípios SOLID, DRY, KISS, TDA e SoC, juntamente com Design Patterns (criacionais, estruturais e comportamentais), e adotando princípios de Clean Code e Clean Architecture para garantir a melhor estrutura, legibilidade, manutenibilidade e escalabilidade do código.
 
