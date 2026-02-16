@@ -2012,6 +2012,10 @@ O **React Router** é uma biblioteca oficial do ecossistema React que permite cr
 
 O React Router fornece componentes como `<BrowserRouter>`, `<Routes>`, `<Route>` e `<Link>`, que facilitam tanto a definição das rotas quanto a navegação entre elas. É possível criar rotas aninhadas, rotas protegidas (como as que exigem autenticação), rotas dinâmicas com parâmetros de URL, e até rotas com comportamento assíncrono, como carregamento sob demanda (lazy loading) de componentes. Ele também oferece hooks como `useParams`, `useNavigate` e `useLocation`, que dão acesso aos dados da rota atual ou permitem navegar programaticamente dentro da aplicação. Em resumo, o React Router é essencial para construir experiências de navegação ricas, responsivas e sem interrupções em aplicações modernas feitas com React.
 
+## [React] GraphQL
+
+![Building-SPAS-with-React-headlessCMS-GraphQL-hero](https://github.com/user-attachments/assets/e98a6fbf-2d37-494f-9d19-73591c7694bc)
+
 # 🟣 [React] Gatsby.js
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
 
