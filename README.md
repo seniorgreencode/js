@@ -1227,6 +1227,8 @@ Os Hooks são funções que permitem que você "engate" ou "conecte" o estado do
 
 Alguns dos Hooks mais comuns incluem:
 
+![Screenshot_20241221-155743_YouTube](https://github.com/user-attachments/assets/282976ec-39f5-48e6-8b6c-7a80edecb2dd)
+
 1. `useState`: Permite adicionar estado local a componentes de função.
 2. `useEffect`: Permite executar efeitos secundários em componentes de função, como solicitações de rede, manipulação de eventos ou atualização do DOM.
 3. `useContext`: Permite acessar o contexto do React em componentes de função.
