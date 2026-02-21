@@ -4199,6 +4199,8 @@ function messaging(message) {
 }
 ```
 
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/d8d5fd7f-4f74-4ae7-8154-a7e8a23a0502" />
+
 No caso de funções, o hoisting faz com que declarações completas de funções sejam movidas para o topo do escopo, permitindo que elas sejam chamadas antes mesmo de serem declaradas no código. Por exemplo, considere o seguinte código:
 
 ```javascript
