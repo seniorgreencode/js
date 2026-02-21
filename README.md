@@ -2131,6 +2131,9 @@ Além disso, o Nx é agnóstico em relação à tecnologia usada nos microsservi
 
 Portanto, o Nx é sim uma solução robusta para microsserviços, não só para front-end como em microfrontends, mas também para back-end. Ele oferece uma forma inteligente de manter muitos serviços independentes em um monorepo, com produtividade, consistência, reuso e governança. Ele não força a centralização dos microsserviços, mas fornece uma estrutura de colaboração que ajuda a manter a sanidade e a qualidade do código à medida que o sistema cresce. Para organizações que trabalham com diversos serviços interligados, o Nx é uma das ferramentas mais eficazes atualmente para escalar com segurança e eficiência.
 
+# 🧪 [React] Design Patterns
+![Screenshot_20241216-164313_Instagram](https://github.com/user-attachments/assets/29b862ec-af82-49c9-9171-9a1f28c42a68)
+
 # 🧪 [React] DDD, BDD e TDD
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/user-attachments/assets/651e9465-e597-4fa0-9e1b-d8c85e1e6db2" height="77" align="right"></a>
 
