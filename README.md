@@ -24,34 +24,25 @@ Como funciona o Javascript? A folha de dicas abaixo mostra as características m
 
 ![unnamed](https://github.com/user-attachments/assets/3200b323-a502-44dc-ac81-b67184daac7d)
 
-O código JavaScript em linguagem
-interpretada é executado pelo navegador ou pelo motor JavaScript, em vez de ser compilado para linguagem de máquina anteriormente. Isso o torna altamente portátil entre diferentes plataformas. Motores modernos como o V8 utilizam a tecnologia Just-In-Time (JIT) para compilar código em código de máquina executável diretamente.
+O código JavaScript em linguagem interpretada é executado pelo navegador ou pelo motor JavaScript, em vez de ser compilado para linguagem de máquina anteriormente. Isso o torna altamente portátil entre diferentes plataformas. Motores modernos como o V8 utilizam a tecnologia Just-In-Time (JIT) para compilar código em código de máquina executável diretamente.
 
-Função é Cidadã
-de Primeira Classe No JavaScript, as funções são tratadas como cidadãs de primeira classe, ou seja, podem ser armazenadas em variáveis, passadas como argumentos para outras funções e retornadas a partir de funções.
+Função é Cidadã de Primeira Classe No JavaScript, as funções são tratadas como cidadãs de primeira classe, ou seja, podem ser armazenadas em variáveis, passadas como argumentos para outras funções e retornadas a partir de funções.
 
-Tipagem
-Dinâmica JavaScript é uma linguagem de tipagem frouxa ou dinâmica, o que significa que não precisamos declarar o tipo de variável antecipadamente, e o tipo pode mudar em tempo de execução.
+Tipagem Dinâmica JavaScript é uma linguagem de tipagem frouxa ou dinâmica, o que significa que não precisamos declarar o tipo de variável antecipadamente, e o tipo pode mudar em tempo de execução.
 
-O JavaScript de Execução
-do Lado do Cliente suporta programação assíncrona, permitindo que operações como leitura de arquivos, realização de requisições HTTP ou consulta de bancos de dados sejam executadas em segundo plano e acionem callbacks ou promessas quando concluídas. Isso é particularmente útil no desenvolvimento web para melhorar o desempenho e a experiência do usuário.
+O JavaScript de Execução do Lado do Cliente suporta programação assíncrona, permitindo que operações como leitura de arquivos, realização de requisições HTTP ou consulta de bancos de dados sejam executadas em segundo plano e acionem callbacks ou promessas quando concluídas. Isso é particularmente útil no desenvolvimento web para melhorar o desempenho e a experiência do usuário.
 
-POO
-baseado em protótiposDiferentemente das linguagens orientadas a objetos baseadas em classes, o JavaScript usa protótipos para herança. Isso significa que objetos podem herdar propriedades e métodos de outros objetos.
+POO baseado em protótiposDiferentemente das linguagens orientadas a objetos baseadas em classes, o JavaScript usa protótipos para herança. Isso significa que objetos podem herdar propriedades e métodos de outros objetos.
 
-Coleta automática de lixo
-coleta de lixo em JavaScript é uma forma de gerenciamento automático de memória. O objetivo principal da coleta de lixo é recuperar a memória ocupada por objetos que não estão mais em uso pelo programa, o que ajuda a prevenir vazamentos de memória e otimiza o desempenho da aplicação.
+Coleta automática de lixo (GC - Garbage Collector) coleta de lixo em JavaScript é uma forma de gerenciamento automático de memória. O objetivo principal da coleta de lixo é recuperar a memória ocupada por objetos que não estão mais em uso pelo programa, o que ajuda a prevenir vazamentos de memória e otimiza o desempenho da aplicação.
 
-Comparado a outras linguagens
-, o JavaScript é especial em relação a linguagens de programação como Python ou Java devido à sua posição como uma das principais linguagens para desenvolvimento web.
+Comparado a outras linguagens, o JavaScript é especial em relação a linguagens de programação como Python ou Java devido à sua posição como uma das principais linguagens para desenvolvimento web.
 
 Embora Python seja conhecido por oferecer boa legibilidade e versatilidade do código, e Java seja conhecido por sua estrutura e robustez, JavaScript é uma linguagem interpretada que roda diretamente no navegador sem compilação, enfatizando flexibilidade e dinamismo.
 
-Relação com Typescript
-TypeScript é um superconjunto do JavaScript, o que significa que ele estende o JavaScript adicionando funcionalidades à linguagem, principalmente anotações de tipos. Essa relação permite que qualquer código JavaScript válido também seja considerado código TypeScript válido.
+Relação com Typescript: TypeScript é um superconjunto do JavaScript, o que significa que ele estende o JavaScript adicionando funcionalidades à linguagem, principalmente anotações de tipos. Essa relação permite que qualquer código JavaScript válido também seja considerado código TypeScript válido.
 
-O popular Javascript Frameworks
-React é conhecido por sua flexibilidade e grande número de plugins orientados pela comunidade, enquanto o Vue é limpo e intuitivo, com recursos altamente integrados e responsivos. O Angular, por outro lado, oferece um conjunto rigoroso de especificações de desenvolvimento para desenvolvimento em nível corporativo de JS.
+O popular Javascript Frameworks: React é conhecido por sua flexibilidade e grande número de plugins orientados pela comunidade, enquanto o Vue é limpo e intuitivo, com recursos altamente integrados e responsivos. O Angular, por outro lado, oferece um conjunto rigoroso de especificações de desenvolvimento para desenvolvimento em nível corporativo de JS.
 
 ## [JS] `Hello, World!`
 Trabalhar com JavaScript é simples, não será necessário nenhuma ferramenta mirabolante ou difícil de conseguir. Basicamente iremos precisar de um editor de texto e de um navegador. Apesar de poder rodar JavaScript em outros locais, até mesmo no console, optaremos por utilizar o <a href="https://code.visualstudio.com/download">VSCode</a>, por ser um ambiente onde a maioria dos desenvolvedores já está familiarizado, seja por utilizar outras linguagens ou simplesmente por abrir um localhost no navegar na web (preview), e também por ser ter muitas ferramento para o desenvolvimento JavaScript.
