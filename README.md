@@ -53,6 +53,7 @@ Ecossistema do React.js:
  - Gatsby;
  - Jest;
  - React i18n Next;
+ - https://nuqs.dev/
 
 Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossistemas, e esse ecossistema é formado por:
 
