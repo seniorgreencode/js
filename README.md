@@ -846,7 +846,7 @@ O **Next.js** é um poderoso framework web JavaScript amplamente utilizado pela 
 - Roteamento para o lado do cliente com prefetching (pré-busca otimizada);
 - Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
 
-> " Um Framework Web é um sistema opinativo com estrutura e ferramentas já definidas.
+> " Um Framework Web é um sistema opinativo com estrutura e ferramentas já definidas. E respondendo pra que usar um framework web: Webpack? Rollup? E o Parcel? Como faz com as rotas? E como gerar estático? E para produção?
 
 <img height="77" align="right" src="https://github.com/user-attachments/assets/124ea4ad-73e5-41cf-a229-e5f94ddf012d" />
 
