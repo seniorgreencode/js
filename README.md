@@ -837,14 +837,7 @@ O **Meteor.js** é uma plataforma de código aberto para criar e implantar aplic
 
 O **Next.js** é um poderoso framework web JavaScript amplamente utilizado pela comunidade do React.js para agilização de processos das aplicações lançado em 2016 por Guillermo Rauch, é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, oferecendo recursos de sistemas de roteamento baseado em páginas com suporte a rotas dinâmicas, pré-renderização por página com SSG - Static Generation, renderização híbrida, suporte TypeScript, suporte para: 
 
-- CSS, Sass e qualquer lib CSS-in-JS;
-- ambiente de desenvolvimento com suporte a Fast-Refresh;
-- API Routes para construção de APIs Endpoints;
-- Serverless Functions;
-- Divisão de código automática para carregamento da página mais rápido;
-- Otimização de SEO por padrão;
-- Roteamento para o lado do cliente com prefetching (pré-busca otimizada);
-- Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
+CSS, Sass e qualquer lib CSS-in-JS; ambiente de desenvolvimento com suporte a Fast-Refresh; API Routes para construção de APIs Endpoints; Serverless Functions; Divisão de código automática para carregamento da página mais rápido; Otimização de SEO por padrão; Roteamento para o lado do cliente com prefetching (pré-busca otimizada); Bundling inteligente e o principal que seria a renderização React no Lado Servidor (SSR - Server-Side Rendering).
 
 > " Um Framework Web é um sistema opinativo com estrutura e ferramentas já definidas. E respondendo pra que usar um framework web: Webpack? Rollup? E o Parcel? Como faz com as rotas? E como gerar estático? E para produção?
 
