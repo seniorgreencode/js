@@ -857,7 +857,12 @@ Na prática, o TanStack acaba sendo uma espécie de “infraestrutura de front-e
 
 Resumindo de forma direta: o TanStack é um conjunto de ferramentas que resolve problemas complexos de gerenciamento de dados, estado e performance no front-end moderno, indo muito além do que um framework sozinho oferece. Ele é especialmente útil em aplicações grandes, onde lidar com dados de forma eficiente faz toda a diferença na escalabilidade e na experiência do usuário.
 
-  
+Quando você entra no mundo de front-end moderno, especialmente com React, começa a aparecer um problema que não é tão óbvio no início: **onde vive o estado da aplicação e como ele é compartilhado entre componentes**. No começo tudo parece simples — cada componente tem seu próprio estado local, mas conforme a aplicação cresce, você começa a ter múltiplos componentes precisando acessar e modificar os mesmos dados. É aí que entra o tal do **gerenciamento de estado global**.
+
+O estado global é basicamente um “lugar central” onde você guarda dados que precisam ser acessados por várias partes da aplicação, como usuário logado, tema, carrinho de compras, permissões, configurações, etc. Sem isso, você acaba passando dados manualmente de componente em componente (*prop drilling*), o que rapidamente vira um código difícil de manter.
+
+Dentro desse contexto, duas abordagens muito comuns são o uso da Context API do próprio React e o uso do Redux. Elas resolvem o mesmo problema, mas com filosofias diferentes.
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/redux.svg" height="77" align="right"></a>
 
 O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e armazenamento de estados independentes de uma aplicação JavaScript e está ligado ao desenvolvimento web sendo executado no lado do servidor, cliente e nativo. É mais comumente usado como um ecossistema da linguagem JS para bibliotecas como React ou Angular para criar interfaces de usuário. Semelhante pela arquitetura Flux do Facebook e baseado na linguagem de programação Elm, foi criado por Dan Abramov e Andrew Clark.
@@ -865,6 +870,72 @@ O **Redux** é uma biblioteca JavaScript de código aberto para gerenciamento e 
 O principal uso do Redux é que podemos usar um estado de aplicativo como um estado global e interagir com o estado de qualquer componente de React que é muito fácil, sejam eles irmãos ou pai-filho.
 
 O Redux é amplamente utilizado para desenvolvimento de UI e user-interface, onde o uso básico do Redux entra em cena quando o aplicativo fica grande e complexo. Nesses aplicativos, o gerenciamento simples de dados como pai-filho torna-se difícil usando `props`. Existem vários componentes tentando se comunicar com vários outros componentes. Nesses casos, o Redux é útil.
+
+A **Context API** é nativa do React e funciona como um “provedor de dados” que envolve parte da árvore de componentes. Você define um contexto, fornece um valor, e qualquer componente abaixo pode consumir esse valor diretamente, sem precisar passar props manualmente.
+
+Um exemplo simples:
+
+```javascript
+import { createContext, useContext, useState } from "react";
+
+const UserContext = createContext();
+
+export function UserProvider({ children }) {
+  const [user, setUser] = useState(null);
+
+  return (
+    <UserContext.Provider value={{ user, setUser }}>
+      {children}
+    </UserContext.Provider>
+  );
+}
+
+export function useUser() {
+  return useContext(UserContext);
+}
+```
+
+Aqui você criou um estado global básico. Qualquer componente pode usar `useUser()` e acessar ou modificar o usuário. Simples, direto, sem muita burocracia.
+
+O problema começa quando a aplicação cresce. A Context API não foi feita originalmente para gerenciar estados complexos com muitas mudanças frequentes. Cada atualização pode causar re-renderizações em cadeia, e você acaba tendo que controlar performance manualmente.
+
+É aí que entra o Redux, que já nasce com uma proposta mais estruturada. Ele segue princípios como **imutabilidade**, **estado único (single source of truth)** e **fluxo unidirecional de dados**. Em vez de alterar o estado diretamente, você dispara ações (*actions*), que passam por funções chamadas *reducers*, que retornam um novo estado.
+
+Um exemplo básico:
+
+```javascript
+import { createStore } from "redux";
+
+const initialState = { count: 0 };
+
+function reducer(state = initialState, action) {
+  switch (action.type) {
+    case "increment":
+      return { ...state, count: state.count + 1 };
+    default:
+      return state;
+  }
+}
+
+const store = createStore(reducer);
+
+store.dispatch({ type: "increment" });
+console.log(store.getState());
+```
+
+Percebe a diferença? Aqui você não altera diretamente o estado — você descreve o que aconteceu, e o Redux decide como o estado muda. Isso traz previsibilidade, facilita debugging (inclusive com time-travel debugging), e melhora a organização em aplicações grandes.
+
+Hoje, o Redux evoluiu bastante com o Redux Toolkit, reduzindo muita da verbosidade antiga, mas o conceito base continua o mesmo.
+
+Agora, trazendo isso pra um nível mais arquitetural: gerenciamento de estado global no front-end é meio que o equivalente, em menor escala, ao que você vê no back-end com cache distribuído ou até bancos de dados centralizados. É sobre **consistência e compartilhamento de estado**, só que dentro da UI.
+
+E aqui entra um ponto importante que conecta com tudo que você vem estudando: se você exagerar no estado global, você cria um “monolito de estado” no front-end. Tudo depende de tudo, difícil de escalar, difícil de testar. Se você não usa nada, vira caos com prop drilling. O equilíbrio é usar estado global só quando realmente precisa.
+
+Então, resumindo de forma mais madura:
+Context API é ótima para estados simples e escopados, enquanto o Redux é mais indicado quando você precisa de controle rigoroso, previsibilidade e escalabilidade no gerenciamento de estado.
+
+Se quiser, posso te mostrar como isso evolui para coisas mais modernas tipo Zustand, Recoil e até gerenciamento de estado server-driven — que já conecta com APIs e arquitetura distribuída.
+
 
 <img src="https://cdn.worldvectorlogo.com/logos/gatsby.svg" height="77" align="right">
 
