@@ -1549,6 +1549,8 @@ Os principais conceitos do Webpack são:
   
   - **Development** é executado com três plugins: **UglifyJsPlugin**, **ModuleConcatenationPlugin** e **NoEmitOnErrorsPlugin**.
 
+![1_39xCHsacul4A4XPEHKypQA](https://github.com/user-attachments/assets/d335d26a-5452-4712-a8c0-a14815369e81)
+
 Instale o comando abaixo no terminal:
 
 [![NPM](https://img.shields.io/badge/-npm_install-fff?style=social&logo=NPM&logoColor=red)](#)
