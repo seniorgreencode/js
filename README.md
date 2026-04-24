@@ -158,6 +158,39 @@ Padrões e Compatibilidade:
 1. **ECMA-262**: Documento que define a especificação ECMAScript.
 2. **Compatibilidade**: Nem todos os navegadores ou ambientes suportam todas as funcionalidades de todas as versões de ECMAScript imediatamente. Ferramentas como Babel podem ser usadas para transpilar código moderno para versões mais antigas compatíveis com todos os navegadores.
 
+How does Javascript Work? The cheat sheet below shows most important characteristics of Javascript.
+
+<img width="550" height="715" alt="unnamed" src="https://github.com/user-attachments/assets/e8f346d9-0c3b-448c-8c0c-41d5740b75bc" />
+
+Interpreted Language
+JavaScript code is executed by the browser or JavaScript engine rather than being compiled into machine language beforehand. This makes it highly portable across different platforms. Modern engines such as V8 utilize Just-In-Time (JIT) technology to compile code into directly executable machine code.
+
+Function is First-Class Citizen
+In JavaScript, functions are treated as first-class citizens, meaning they can be stored in variables, passed as arguments to other functions, and returned from functions.
+
+Dynamic Typing
+JavaScript is a loosely typed or dynamic language, meaning we don't have to declare a variable's type ahead of time, and the type can change at runtime.
+
+Client-Side Execution
+JavaScript supports asynchronous programming, allowing operations like reading files, making HTTP requests, or querying databases to run in the background and trigger callbacks or promises when complete. This is particularly useful in web development for improving performance and user experience.
+
+Prototype-Based OOP
+Unlike class-based object-oriented languages, JavaScript uses prototypes for inheritance. This means that objects can inherit properties and methods from other objects.
+
+Automatic Garbage Collection
+Garbage collection in JavaScript is a form of automatic memory management. The primary goal of garbage collection is to reclaim memory occupied by objects that are no longer in use by the program, which helps prevent memory leaks and optimizes the performance of the application.
+
+Compared with Other Languages
+JavaScript is special compared to programming languages like Python or Java because of its position as a major language for web development.
+
+While Python is known to provide good code readability and versatility, and Java is known for its structure and robustness, JavaScript is an interpreted language that runs directly on the browser without compilation, emphasizing flexibility and dynamism.
+
+Relationship with Typescript
+TypeScript is a superset of JavaScript, which means that it extends JavaScript by adding features to the language, most notably type annotations. This relationship allows any valid JavaScript code to also be considered valid TypeScript code.
+
+Popular Javascript Frameworks
+React is known for its flexibility and large number of community-driven plugins, while Vue is clean and intuitive with highly integrated and responsive features. Angular, on the other hand, offers a strict set of development specifications for enterprise-level JS development.
+
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/babel-10.svg" height="77" align="right"></a>
 
 O **Babel.js** é um famoso transpilador JavaScript, muito utilizado na linguagem pelas suas bibliotecas e frameworks. O Babel é um compilador criado por Sebastian McKenzie em 2014 para converter o ES6 para ES5 (originalmente chamado de 6to5). Desde então, tornou-se uma cadeia de ferramentas que permite aos desenvolvedores escrever qualquer JavaScript de próxima geração e serve como campo de testes para propostas do TC39, o comitê técnico que especifica o ECMAScript. O Babel também pode converter a sintaxe JSX (JS + XML) e remover anotações de tipo do Flow e do TypeScript. Babel é construído a partir de plugins e componha seu próprio pipeline de transformação usando plugins escritos pela comunidade ou escreva o seu próprio.
