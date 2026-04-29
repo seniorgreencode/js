@@ -16,21 +16,15 @@
 
 </div>
 
-> Desenvolvedor full stack com especialização no ecossistema JavaScript/TypeScript, trabalhando com front-end moderno (React, Angular, Vue, Next.js) e back-end (Node.js, REST e GraphQL), sempre guiado por boas práticas de engenharia. Possui sólida experiência em Clean Code, Clean Architecture, Design Patterns, princípios SOLID e metodologias como DDD, TDD e BDD, construindo sistemas escaláveis baseados em microsserviços. Atuo em desenvolvimento à produção, com testes automatizados, CI/CD, observabilidade, containers, Kubernetes e deploy em nuvens como AWS, Azure e GCP, além de analytics e monitoramento de comportamento do usuário.
+> Desenvolvedor full stack com especialização no ecossistema JavaScript/TypeScript, trabalhando com front-end moderno (React, Angular, Vue, Next.js) e back-end (Node.js, REST e GraphQL), sempre guiado por boas práticas de engenharia. Possuo experiência sólida em Clean Code, Clean Architecture, Design Patterns, princípios SOLID e metodologias como DDD, TDD e BDD, construindo sistemas escaláveis baseados em microsserviços. Atuo em desenvolvimento à produção, com testes automatizados, CI/CD, observabilidade, containers, Kubernetes e deploy em nuvens como AWS, Azure e GCP, além de analytics e monitoramento de comportamento do usuário.
 
-Desenvolvedor de software com experiência multidisciplinar e especialista no ecossistema JavaScript/TypeScript, incluindo React, React Native, Redux, Node.js, Express, Deno e Bun. 
+Desenvolvedor de software com atuação multidisciplinar, especializado no ecossistema JavaScript/TypeScript (React, React Native, Redux, Node.js, Express, Deno e Bun). Possuo domínio de boas práticas como SOLID, DRY, KISS, TDA e SoC, além de Design Patterns e princípios de Clean Code e Clean Architecture, garantindo que o código seja escalável, legível e manutenível.
 
-Possuo experiência sólida em boas práticas de princípios SOLID, DRY, KISS, TDA e SoC, juntamente com Design Patterns (criacionais, estruturais e comportamentais), e adotando princípios de Clean Code e Clean Architecture para garantir a melhor estrutura, legibilidade, manutenibilidade e escalabilidade do código.
+No front-end, trabalho com SPAs (React, Angular, Vue), SSR com Next.js e interfaces responsivas baseadas em Figma (UI/UX), utilizando HTML, CSS, Flexbox e Grid, além de micro-frontends. No back-end, desenvolvo APIs REST e GraphQL (Apollo Server), com versionamento em Git e integração contínua via GitLab CI e GitHub Actions. Utilizo ESLint, testes automatizados (Selenium, WebDriver, Robotium), unitários e de integração (Jest, Cypress), além de monitoramento com Grafana e logs estruturados (Winston, Morgan).
 
-No front-end, baseados em protótipos do Figma (UI/UX), atuo em projetos consumindo APIs com SPAs (React, Angular, Vue), SSR (Next.js) e design responsivo com HTML/CSS, Flexbox e CSS Grid, escalando micro-frontends.
+Atuo com arquiteturas de microsserviços, aplicando DDD, TDD e BDD, além de práticas de design de sistemas. Tenho experiência em deploy em ambientes PaaS, conteinerização com Docker e Kubernetes, e atuação em nuvens como AWS, Azure e Google Cloud. Também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para análise de comportamento do usuário em produção.
 
-Na parte de back-end, construo APIs REST e GraphQL (Apollo Server), com domínio de Git e atuação colaborativa utilizando CI/CD (GitLab CI e GitHub Actions), ferramentas de hint/lint (ESLint), testes automatizados (Selenium, WebDriver, Robotium), unitários e de integração (Jest e Cypress), monitoramento de performance (Grafana) e rastreamento de erros com logs estruturados (Winston e Morgan). 
-
-Dessa forma, trabalho com arquiteturas orientadas a microsserviços, aplicando modelos de design de software, design de sistemas e metodologias de DDD (Domain-Driven Design), TDD (Test-Driven Development) e BDD (Behavior-Driven Development).
-
-Sobre a entrega do software, tenho experiência com implantação em ambientes PaaS e gestão de sistemas dockerizados (Docker e Kubernetes) com recursos em ambientes nuvens da AWS, Azure e Google Cloud.
-
-Além disso, também implemento ferramentas de analytics como Google Analytics 4 e Amplitude para monitoramento da usabilidade das features e componentes, informando o comportamento do usuário em produção.
+Na fase de entrega, utilizo o Jira alinhado aos princípios Lean e às metodologias ágeis Scrum e Kanban, garantindo organização, rastreabilidade e eficiência no desenvolvimento até a produção.
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
