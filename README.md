@@ -55,6 +55,8 @@ Ecossistema do React.js:
  - React i18n Next;
  - https://nuqs.dev/
 
+<img width="720" height="1174" alt="FB_IMG_1730986407739" src="https://github.com/user-attachments/assets/35937158-0b2f-464d-9286-10534a176e05" />
+
 Como foi dito, o React.js é uma biblioteca e pode ser usado em diversos ecossistemas, e esse ecossistema é formado por:
 
 - React
