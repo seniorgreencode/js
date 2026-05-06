@@ -20,7 +20,7 @@
 
 Sou Isaac Alves Pinheiro, desenvolvedor de software com atuação multidisciplinar, especializado no ecossistema JavaScript/TypeScript (Node.js, Deno e Bun). Possuo domínio de boas práticas como SOLID, DRY, KISS, TDA e SoC, além de Design Patterns e princípios de Clean Code e Clean Architecture, garantindo código escalável, legível e manutenível.
 
-Atuo no desenvolvimento front-end com SPAs (React, Angular, Vue) e SSR com Next.js, criando interfaces responsivas a partir de protótipos Figma (UI/UX) e trabalhando com arquitetura de micro-frontends. No back-end, desenvolvo APIs RESTful e GraphQL, com versionamento em Git e pipelines de CI/CD.
+Atuo no desenvolvimento front-end com SPAs (React, Angular, Vue) e SSR com Next.js, criando interfaces responsivas a partir de protótipos Figma (UI/UX) e trabalhando com arquitetura de micro-frontends. No back-end, consumo e desenvolvo APIs RESTful e GraphQL, com versionamento em Git e pipelines de CI/CD.
 
 Trabalho com arquiteturas de microsserviços, aplicando DDD, TDD e BDD, além de práticas de design de sistemas. Tenho experiência em qualidade de software, com testes automatizados (Selenium, WebDriver, Robotium), além de testes unitários, de integração e E2E (Jest e Cypress). Atuo com observabilidade, utilizando Grafana para monitoramento de performance e logs estruturados com Winston e Morgan.
 
