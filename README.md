@@ -24,7 +24,7 @@ Atuo no desenvolvimento front-end com SPAs (React, Angular, Vue) e SSR com Next.
 
 Trabalho com arquiteturas de microsserviços, aplicando DDD, TDD e BDD, além de práticas de design de sistemas. Tenho experiência em qualidade de software, com testes automatizados (Selenium, WebDriver, Robotium), além de testes unitários, de integração e E2E (Jest e Cypress). Atuo com observabilidade, utilizando Grafana para monitoramento de performance e logs estruturados com Winston e Morgan.
 
-Implanto aplicações em ambientes de nuvem (AWS, Azure e Google Cloud), com conteinerização em Docker e Kubernetes. Utilizo o Jira alinhado aos princípios Lean e metodologias ágeis, garantindo organização e eficiência até a produção. Também implemento ferramentas de analytics como Google Analytics 4, apoiando a análise do comportamento do usuário e a tomada de decisão orientada a dados.
+Implanto aplicações em ambientes de nuvem (AWS, Azure e Google Cloud), com conteinerização em Docker e Kubernetes. Utilizo o Jira alinhado aos princípios Lean e metodologias ágeis, garantindo organização e eficiência até a produção. Também implemento ferramentas de analytics como Google Analytics 4 e Google Tag Manager, apoiando a análise do comportamento do usuário e a tomada de decisão orientada a dados.
 
 # 📜 JavaScript (JS)
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://user-images.githubusercontent.com/61624336/230751144-51e4b792-e127-4c6c-bc11-7bbbf8b7c12c.svg" height="77" align="right"></a>
