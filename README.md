@@ -542,7 +542,12 @@ Essa imagem é uma piada clássica do mundo frontend/web performance. O meme mos
 * DevOps web;
 * arquitetura frontend moderna.
 
-<img width="500" height="668" alt="FYCavvQWQAUMHQw" src="https://github.com/user-attachments/assets/b43d8aaa-fb70-404f-a02c-66f685d74faa" />
+<table>
+   <tr>
+      <td><img width="500" height="668" alt="FYCavvQWQAUMHQw" src="https://github.com/user-attachments/assets/b43d8aaa-fb70-404f-a02c-66f685d74faa" /></td>
+      <td><img width="500" height="590" alt="FYCtzmYXkAENPA4" src="https://github.com/user-attachments/assets/917389d1-fbb5-4ded-8f0c-51e9f9e8634c" /></td>
+   </tr>
+</table>
 
 O contexto é que muitos desenvolvedores passam horas ou dias tentando otimizar aplicações frontend com coisas como:
 
