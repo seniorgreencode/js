@@ -518,11 +518,8 @@ O **Chai** é uma biblioteca open-source de asserção BDD/TDD para Node.js e na
 **Analisadores de segurança** são ferramentas essenciais para garantir a segurança de soluções de desenvolvimento web. Eles ajudam a identificar vulnerabilidades em dependências e componentes de terceiros, como bibliotecas e frameworks.
 Como você pode imaginar, usados ​​para controlar a segurança de nossa solução (por exemplo, Snyk, RetireJS ou OWASP Dependency Check). A abertura dos ambientes de desenvolvimento web é uma bênção e uma maldição, temos à sua escolha centenas de componentes, a partir dos quais podemos criar o ambiente mais confortável para nós.
 
-<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/IsaacAlves7/js/assets/61624336/0ff275cd-2361-41d2-ad5f-3e6c00c68f22" height="77" align="right"></a>
-
-**Analytics** - Implementações de ferramentas de análise de dados para acompanhar as ações dos usuários na plataforma (por exemplo, Google Analytics 4, Amplitude, Mixpanel, Hotjar, Adobe Analytics, Chartbeat, Segment, etc). Essas ferramentas de Analytics utilizam JavaScript para coletar dados sobre como os usuários interagem com websites e aplicativos, fornecendo insights valiosos para otimização de produto, marketing e experiência do usuário. Cada ferramenta tem suas próprias funcionalidades e pontos fortes, e a escolha da ferramenta certa depende das necessidades específicas do seu projeto ou organização.
-
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://cdn.worldvectorlogo.com/logos/eslint-1.svg" height="77" align="right"></a>
+<img width="500" height="668" alt="FYCavvQWQAUMHQw" src="https://github.com/user-attachments/assets/8461b0fd-a269-4e90-a174-c1956a92b63c" />
 
 **Linting** - O Lint ou Linter é um software responsável por analisar o software de um programa de forma estática, conhecido como um "dedo duro de códigos", apontando possíveis erros, bugs ou codificações mal-feitas como fora de padrão ou estilo de código. Portanto, o **ESLint** é um utilitário linting conectável para JavaScript e JSX, muito usado em conjunto com o Prettier para a formatação de estruturas de códigos quando se trata de um projeto open-source ou de grande porte de uma empresa, garantindo uma padronização na sua estrutura e que os devs obedeçam ela.
 
@@ -533,6 +530,92 @@ Seu diferencial está na performance e simplicidade. Por ser escrita em Rust, el
 O projeto também tem uma abordagem voltada à extensibilidade e interoperabilidade. Ele é pensado para funcionar bem em grandes bases de código e já oferece suporte a regras de lint modernas, análise de tipos, validações contextuais e formatação coerente com padrões usados em projetos open source. Como alternativa moderna ao combo ESLint + Prettier, Biome reduz drasticamente a complexidade de configuração e o número de dependências no projeto, o que é especialmente valorizado por times que buscam padronização e manutenção simplificada.
 
 Em resumo, Biome é uma evolução nas ferramentas de análise de código para o ecossistema web, trazendo os benefícios do Rust — performance, segurança e controle — para o dia a dia do desenvolvimento JavaScript e TypeScript. É uma ferramenta que está ganhando adoção justamente por reunir em um só lugar aquilo que antes exigia várias ferramentas combinadas.
+
+<a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://github.com/IsaacAlves7/js/assets/61624336/0ff275cd-2361-41d2-ad5f-3e6c00c68f22" height="77" align="right"></a>
+
+**Analytics** - Implementações de ferramentas de análise de dados para acompanhar as ações dos usuários na plataforma (por exemplo, Google Analytics 4, Amplitude, Mixpanel, Hotjar, Adobe Analytics, Chartbeat, Segment, etc). Essas ferramentas de Analytics utilizam JavaScript para coletar dados sobre como os usuários interagem com websites e aplicativos, fornecendo insights valiosos para otimização de produto, marketing e experiência do usuário. Cada ferramenta tem suas próprias funcionalidades e pontos fortes, e a escolha da ferramenta certa depende das necessidades específicas do seu projeto ou organização.
+
+Essa imagem é uma piada clássica do mundo frontend/web performance. O meme mostra um ônibus cheio de técnicas modernas de otimização web sendo destruído por um trem chamado “Google Tag Manager”. E honestamente… o meme é engraçado porque acontece MUITO mesmo. É uma crítica bem típica da comunidade de:
+
+* performance web;
+* frontend engineering;
+* DevOps web;
+* arquitetura frontend moderna.
+
+<img width="500" height="668" alt="FYCavvQWQAUMHQw" src="https://github.com/user-attachments/assets/b43d8aaa-fb70-404f-a02c-66f685d74faa" />
+
+O contexto é que muitos desenvolvedores passam horas ou dias tentando otimizar aplicações frontend com coisas como:
+
+* Server Side Rendering (SSR);
+* Bundle splitting;
+* Tree shaking;
+* compiladores otimizados;
+* frameworks “no-JS”;
+* lazy loading;
+* hydration parcial;
+* edge rendering;
+* compressão;
+* minificação.
+
+A ideia dessas técnicas é:
+
+* diminuir o tamanho do JavaScript;
+* acelerar carregamento;
+* melhorar Lighthouse/Core Web Vitals;
+* reduzir uso de CPU/memória;
+* melhorar SEO e UX.
+
+Só que aí entra o “Google Tag Manager” atropelando tudo. O meme ironiza o fato de que, na prática, empresas frequentemente adicionam:
+
+* dezenas de trackers;
+* pixels de marketing;
+* scripts de analytics;
+* chat widgets;
+* heatmaps;
+* remarketing;
+* anúncios;
+* A/B testing.
+
+E muitos desses scripts entram justamente via Google Tag Manager. Então acontece algo assim:
+
+* o time de engenharia passa semanas economizando 20 KB de JS;
+* aí o marketing injeta 3 MB de scripts terceiros via GTM;
+* e toda otimização vai embora.
+
+O “trem” simboliza algo pesado, impossível de parar, destruindo o trabalho refinado dos engenheiros de performance.
+
+Isso é extremamente real no mercado. Em muitas empresas:
+
+* o código da aplicação está super otimizado;
+* mas scripts third-party dominam o tempo de carregamento.
+
+Especialmente:
+
+* Facebook Pixel;
+* Google Analytics;
+* Hotjar;
+* TikTok Pixel;
+* LinkedIn Insights;
+* ferramentas de CRM;
+* chatbots;
+* trackers de afiliados.
+
+E o pior é que scripts terceiros costumam:
+
+* bloquear rendering;
+* causar layout shift;
+* aumentar TTFB/INP/LCP;
+* consumir CPU;
+* piorar mobile;
+* gerar memory leaks;
+* executar código fora do controle da equipe.
+
+Por isso existe até certa “guerra cultural” entre:
+
+* engenharia/performance;
+* marketing/business analytics.
+
+O frontend moderno inteiro caminhou para SSR, islands architecture, resumability, edge rendering etc., enquanto o marketing continua injetando scripts gigantescos via GTM.
 
 <a href="https://github.com/IsaacAlves7/javascript-programming"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Apps_Script.svg" height="77" align="right"></a>
 
